@@ -6,8 +6,8 @@
 
 import { getSpeakerResponseModel, interpolateLogFrequency, solveBandGains, resolveSensitivity, SENSITIVITY_REFERENCE_DB, type ResolvedSensitivity, DSP_BAND_CENTERS_HZ, DSP_PEAK_Q, DSP_MIN_PEAK_GAIN_DB, type ResponsePoint } from './speakerResponse';
 
-export type VerificationStatus = 'MANUFACTURER_VERIFIED' | 'MEASUREMENT_VERIFIED' | 'REPUTABLE_DATABASE_VERIFIED' | 'ESTIMATED' | 'UNAVAILABLE' | 'LEGACY';
-export type SourceType = 'MANUFACTURER' | 'MEASUREMENT' | 'REPUTABLE_DATABASE' | 'RETAILER' | 'ESTIMATED' | 'UNKNOWN' | 'NONE';
+export type VerificationStatus = 'MANUFACTURER_VERIFIED' | 'MEASUREMENT_VERIFIED' | 'REPUTABLE_DATABASE_VERIFIED' | 'THIRD_PARTY_VERIFIED' | 'ESTIMATED' | 'UNAVAILABLE' | 'LEGACY';
+export type SourceType = 'MANUFACTURER' | 'MEASUREMENT' | 'REPUTABLE_DATABASE' | 'THIRD_PARTY' | 'RETAILER' | 'ESTIMATED' | 'UNKNOWN' | 'NONE';
 
 export interface SpecField<T> {
   value: T | null;

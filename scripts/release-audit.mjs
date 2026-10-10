@@ -21,14 +21,14 @@ for(const s of data){
   for(const field of ['sensitivity','power','impedance','resonantFreq','voiceCoil','woofer']){
     const obj=s?.[field]; const v=obj?.value;
     if(v!==null && v!==undefined && (typeof v!=='number' || !Number.isFinite(v) || v<=0)) problems.push(`invalid ${field} for ${s?.id}`);
-    if(v!==null && v!==undefined && (!/^https?:\/\//i.test(String(obj?.source||'')) || !['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED'].includes(obj?.status))) problems.push(`populated ${field} lacks auditable source provenance: ${s?.id}`);
+    if(v!==null && v!==undefined && (!/^https?:\/\//i.test(String(obj?.source||'')) || !['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED','THIRD_PARTY_VERIFIED'].includes(obj?.status))) problems.push(`populated ${field} lacks auditable source provenance: ${s?.id}`);
     if(field==='sensitivity' && v!==null && v!==undefined && !obj?.reference) problems.push(`populated sensitivity lacks measurement reference: ${s?.id}`);
   }
   if(s.sensitivity?.status==='MANUFACTURER_VERIFIED' && (!s.sensitivity.source || s.sensitivity.sourceType!=='MANUFACTURER')) warnings.push(`speaker sensitivity claims manufacturer verification without reproducible URL: ${s.brand} ${s.model}`);
   const fr=s.frequencyResponse;
   if(fr?.low_hz!==null || fr?.high_hz!==null){
     if((fr.low_hz!==null && (!Number.isFinite(fr.low_hz)||fr.low_hz<=0)) || (fr.high_hz!==null && (!Number.isFinite(fr.high_hz)||fr.high_hz<=0))) problems.push(`invalid frequencyResponse for ${s?.id}`);
-    if(!/^https?:\/\//i.test(String(fr.source||'')) || !['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED'].includes(fr.status)) problems.push(`populated frequencyResponse lacks auditable source provenance: ${s?.id}`);
+    if(!/^https?:\/\//i.test(String(fr.source||'')) || !['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED','THIRD_PARTY_VERIFIED'].includes(fr.status)) problems.push(`populated frequencyResponse lacks auditable source provenance: ${s?.id}`);
   }
 }
 // Windows EXE artifact (replaces the old release-ZIP check). Missing is a warning unless REQUIRE_EXE=1 (set in the Windows release workflow).

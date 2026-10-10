@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **44** of 693 (44 UNVERIFIED, 0 UNAVAILABLE) across 17 brands.
+Records still needing research: **38** of 693 (38 UNVERIFIED, 0 UNAVAILABLE) across 12 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -13,15 +13,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | L-Acoustics | 4 | V-DOSC (`legacy-la-1`); ARCS (`legacy-la-2`); Kara (`legacy-la-3`); X15 (`legacy-la-7`) |
 | Martin Audio | 2 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`) |
 | Sony | 2 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`) |
-| Morel | 2 | Maximo Ultra 602 (`morel-maximo-ultra-602`); Virtus 602 (`morel-virtus-602`) |
 | PMC | 2 | TB2 (`pmc-tb2`); BB5 (`pmc-bb5-xbd-a`) |
-| KLH | 1 | Model Six (`klh-model-6`) |
-| Infinity | 1 | RS-1B (`infinity-rs1`) |
-| Cerwin Vega | 1 | D-9 (`cerwin-vega-d9`) |
 | Boston Acoustics | 1 | A150 (`boston-a150`) |
 | Apogee Acoustics | 1 | Scintilla (`apogee-scintilla`) |
-| Equator Audio | 1 | D5 (`equator-d5`) |
 | Tannoy | 1 | Autograph (`tannoy-autograph`) |
 | Amazon | 1 | Echo (4th gen) (`amazon-echo`) |
 | Sonance | 1 | Mariner 6 (`sonance-mariner-6`) |
-| Peavey | 1 | 5150 412 (`peavey-5150-412`) |
+| Morel | 1 | Maximo Ultra 602 (`morel-maximo-ultra-602`) |

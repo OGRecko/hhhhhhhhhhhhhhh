@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 624 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 630 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -782,6 +782,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - Barefoot Sound MicroMain27 — frequency-response limits
 - Barefoot Sound MicroMain27 — power
 
+## https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet
+
+- Peavey 5150 412 — impedance
+- Peavey 5150 412 — woofer size
+
 ## https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair
 
 - Bose DesignMax DM5SE — frequency-response limits
@@ -934,6 +939,11 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://docs.meyersound.com/pdf/lina_ds_b2.pdf
 
 - Meyer Sound LINA — woofer size
+
+## https://dolphinaccessories.com/products/morel-virtus-602
+
+- Morel Virtus 602 — impedance
+- Morel Virtus 602 — power
 
 ## https://dutchdutch.com/pages/8c
 
@@ -1877,6 +1887,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - REL Acoustics S/812 — power
 - REL Acoustics S/812 — woofer size
 
+## https://reverb.com/item/97370115-klh-model-6-speakers-in-excellent-condition-1960-s
+
+- KLH Model Six — impedance
+
 ## https://rockfordfosgate.com/products/details/p3d4-12/
 
 - Rockford Fosgate Punch P3D4-12 (Dual 4Ω) — power
@@ -2201,6 +2215,12 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf
 
 - LG LG S95TR — power
+
+## https://vintagetechnologyarchive.com/audio/infinity/rs-1b/
+
+- Infinity RS-1B — impedance
+- Infinity RS-1B — sensitivity
+- Infinity RS-1B — woofer size
 
 ## https://voidacoustics.com/products/air/air8/
 
@@ -2583,6 +2603,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - Bowers & Wilkins 801 D4 — sensitivity
 - Bowers & Wilkins 801 D4 — woofer size
 
+## https://www.canuckaudiomart.com/details/109328-_cerwin_vega_d9_speakers_/
+
+- Cerwin Vega D-9 — frequency-response limits
+- Cerwin Vega D-9 — sensitivity
+
 ## https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf
 
 - JBL L19 — impedance
@@ -2937,6 +2962,11 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://www.garmin.com/en-US/p/1669677/pn/010-03031-00/
 
 - JL Audio 12W7AE-3 — woofer size
+
+## https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3
+
+- Equator Audio D5 — frequency-response limits
+- Equator Audio D5 — power
 
 ## https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1
 

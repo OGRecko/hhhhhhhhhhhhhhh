@@ -315,7 +315,7 @@
     "model": "Model Six",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": 2,
     "active": null,
     "panel": null,
@@ -341,11 +341,12 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://reverb.com/item/97370115-klh-model-6-speakers-in-excellent-condition-1960-s",
+      "sourceType": "THIRD_PARTY",
+      "notes": "Nominal 8 ohm. Agreed by reverb.com KLH Model 6 listing ('Nominal Impedance: 8 Ohms'), audiokarma.org forum thread ('KLH model 6 is rated at 8 ohms') and vintagetechnologyarchive.com KLH Model Six ('Impedance 8 ohm')."
     },
     "resonantFreq": {
       "value": null,
@@ -368,7 +369,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact-model identity and two-loudspeaker configuration verified from RadioMuseum; no sensitivity/impedance/frequency-response values are populated because the exact source does not provide them. Source: https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2 Pass-128 check (2026-10-10): Pass-128 check: no exact-model manufacturer source located in this pass; existing driverCount retained as recorded; no acoustic values transferred. Pass-130 check (2026-10-10): the existing driverCount 2 and identity (RadioMuseum) are retained, but secondary sources conflict. One vintagetechnologyarchive page gives three-way, 45 Hz–20 kHz and 108 dB; another gives two-way, 8 Ω, 12 W RMS (150 W max), and a resale listing gives ~88 dB and 40 W RMS. Revision/era conflicts are unresolved. The driverCount is retained only as the RadioMuseum value and must be re-checked against the 1958–1972 Model Six documentation. Pass-137 check (2026-10-10): sources still conflict on woofer size, impedance and sensitivity. The aphenos.net early KLH table lists the early-style Six as 8 Ω, 12 in woofer, 2-way, 32–16k; a Reverb listing gives 8 Ω, ~88 dB at 1 W/1 m (no tolerance stated), 40 W RMS and 'usable to 40 Hz' (secondary, listing copy); a classicspeakerpages forum thread reports a 10–11 in frame woofer. None is exact-model manufacturer text; no field is stored. driverCount 2 is unchanged."
+    "notes": "Third-party copies only. Sensitivity is NOT stored: the only sensitivity copy (~88 dB at 1 W/1 m, reverb listing) is approximate ('~') and single-sourced. Power is NOT stored: 40 W RMS (reverb, forum) conflicts with 12 W RMS / 150 W max RMS (vintagetechnologyarchive). 'Usable down to 40 Hz' is not a measured criterion and is not stored. Pass-140 (2026-10-10): third-party tier applied to the impedance agreed across three copies."
   },
   {
     "id": "klipsch-heresy",
@@ -1186,16 +1187,18 @@
     "model": "RS-1B",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": null,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 86,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://vintagetechnologyarchive.com/audio/infinity/rs-1b/",
+      "sourceType": "THIRD_PARTY",
+      "reference": "unspecified by source",
+      "notes": "86 dB per vintagetechnologyarchive.com RS-1B specification list. The reference (1 W/1 m, 2.83 V/1 m, other) is not stated by the source and is recorded as unspecified."
     },
     "frequencyResponse": {
       "low_hz": null,
@@ -1212,11 +1215,12 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 6,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://vintagetechnologyarchive.com/audio/infinity/rs-1b/",
+      "sourceType": "THIRD_PARTY",
+      "notes": "6 ohm per vintagetechnologyarchive.com 'Infinity RS-1B (1985)' specification list. Single third-party source; no second copy of the RS-1B spec was found."
     },
     "resonantFreq": {
       "value": null,
@@ -1233,13 +1237,14 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 12,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://vintagetechnologyarchive.com/audio/infinity/rs-1b/",
+      "sourceType": "THIRD_PARTY",
+      "notes": "'One 12\" woofer' per vintagetechnologyarchive.com RS-1B specification list. Single third-party source."
     },
-    "notes": "Pass-128 check (2026-10-10): UNAVAILABLE: identity not established. Sources conflict on configuration: an active 4-way with servo (6 ohm, 86 dB, 25-32 kHz) versus a passive 5-way (4 ohm, 25-32 kHz). The RS-1B revision cannot be fixed from the catalog row, so no values are transferred. Pass-136 correction: the pass-128 UNAVAILABLE label is reverted to UNVERIFIED because no exact RS-1B identity ledger entry exists for this row; no values are assigned from either conflicting configuration. Pass-136 check (2026-10-10): Secondary sources conflict on the RS-1B configuration: vintagetechnologyarchive.com describes a 1985 four-way active servo system (6 Ω, 86 dB, 25 Hz–32 kHz, 400 W); hifi-guide.com describes a passive five-way (4 Ω, 25–32 kHz). The infinity-classics.de RS_1B_technical_sheet.pdf URL returned 404 on this pass. No manufacturer RS-1B sheet was reached, so no values are stored and the record stays UNVERIFIED. Pass-138 check (2026-10-10): The Harman support owner's manual (part 333365-001) covers the Reference Standard RS 1, RS 2 and RS 3 bookshelf models and does not include the RS-1B. A vintagetechnologyarchive RS-1B (1985) entry describes an active four-way system with 6 ohm, 86 dB, 25 Hz-32 kHz and 400 W, which conflicts with the earlier passive five-way copy."
+    "notes": "Single third-party source (vintagetechnologyarchive.com, RS-1B 1985). Its own description is internally inconsistent (a four-way active system with crossovers at 150/800 Hz and 3.5 kHz in the text, versus 150/700 Hz/3 kHz/8 kHz in the spec list), so driverCount, crossover and response fields are not stored. The 400 W power handling has no stated definition and is not stored. The RS 1 passive copy (hifi-guide.com, 8 ohm, 89 dB) and the RS 1.5 technical sheet are different models and are not used. Pass-140 (2026-10-10): third-party tier applied to the single-source RS-1B values."
   },
   {
     "id": "cerwin-vega-d9",
@@ -1247,23 +1252,27 @@
     "model": "D-9",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": null,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 101,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.canuckaudiomart.com/details/109328-_cerwin_vega_d9_speakers_/",
+      "sourceType": "THIRD_PARTY",
+      "reference": "1W/1m",
+      "notes": "101 dB, 1 watt at 1 metre, per the canuckaudiomart.com D-9 listing ('SENSITIVITY. 1 WATT @ 1 METER: 101 dB'). A reverb.com D-9 listing also gives 101 dB but states no reference, so the 1 W/1 m reference is taken from the canuckaudiomart copy only."
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 29,
+      "high_hz": 20000,
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.canuckaudiomart.com/details/109328-_cerwin_vega_d9_speakers_/",
+      "sourceType": "THIRD_PARTY",
+      "unit": "Hz",
+      "notes": "'Usable frequency response' 29 Hz - 20 kHz per canuckaudiomart.com. reverb.com lists 'RESPONSE: 29Hz-20kHz'. The criterion (+/-3 dB, -10 dB) is not stated, so the source's 'usable' meaning is kept."
     },
     "power": {
       "value": null,
@@ -1300,7 +1309,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer listings conflict on impedance (4 vs 8 ohm), power and sensitivity; none transferred. Pass-130 check (2026-10-10): only resale listings were found (reverb, classified ads) quoting 29 Hz–20 kHz, 101 dB, 8 or 4 Ω and 350 W. No Cerwin-Vega manufacturer page or archive was reached. Pass-136 check (2026-10-10): Copies conflict. 365electric describes a D-9 system (two satellites and a 15 in subwoofer; 29 Hz–20 kHz; 350 W). Parts-Express forum copies of a D-9 sheet give 101 dB (1 W/1 m), 4 Ω, 5/350 W, and an owner's-manual variant with different impedance and driver sizes. A classified listing gives 5/400 W. No Cerwin-Vega manufacturer archive page was reached, so nothing is stored. Pass-138 check (2026-10-10): Reverb listings (secondary) give 29 Hz-20 kHz, 101 dB, 8 ohm and 350 W with no reference stated. A 365electric page describes a 'D-9 digital speaker system' of two satellites and a 15 in subwoofer, which conflicts with the three-way floor-standing reading. No Cerwin-Vega manufacturer page was reached."
+    "notes": "Third-party copies only (canuckaudiomart.com classified, reverb.com listings). Impedance is NOT stored: 8 ohm (reverb) conflicts with 4 ohm nominal (canuckaudiomart). Power is NOT stored: 350 W (reverb) conflicts with 5/400 W min/max (canuckaudiomart). A 365electric page describing a two-satellite 'D-9 digital' system conflicts with the three-way floor-standing reading and is not used. No Cerwin-Vega manufacturer page was reached. Pass-140 (2026-10-10): third-party tier applied to sensitivity and usable response agreed across copies."
   },
   {
     "id": "eV-eliminator",
@@ -11367,9 +11376,9 @@
     "model": "D5",
     "category": "studio-monitor",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
-    "active": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -11379,18 +11388,22 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 53,
+      "high_hz": 20000,
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "sourceType": "THIRD_PARTY",
+      "unit": "Hz",
+      "notes": "53 Hz - 20 kHz (+/-3 dB), gear4music.com D5 product page ('Frequency Response: 53Hz - 20kHz (+ or - 3dB)'). Same range on the gear4music ex-demo listing. Retailer copy only; no Equator manufacturer page was reached."
     },
     "power": {
-      "value": null,
+      "value": 50,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "sourceType": "THIRD_PARTY",
+      "role": "amplifier_output",
+      "notes": "Integrated amplifier: 2 x 50 W RMS per gear4music.com D5 page ('100 Watts of Power (2 x 50w RMS)'). Stored as the per-amplifier RMS value; the 100 W combined figure is not stored as a single rating."
     },
     "impedance": {
       "value": null,
@@ -11420,7 +11433,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored. Pass-136 check (2026-10-10): A search surfaced an Equator page at equatoraudio.com/D5_Studio_Monitors_with_DSP_300_Pair_p/d5.htm; fetching that exact URL returned 404 (not found) on this pass, so it cannot be cited as a verified source. Retailer copies (gear4music) repeat 53 Hz–20 kHz ±3 dB, 2 × 50 W RMS and 103 dB SPL; the SPL has no reference condition and is not a sensitivity, so nothing is stored. The 5.25 in coaxial woofer and 1 in silk tweeter (two transducers) are described in these copies but not confirmed from a live manufacturer page. Pass-138 check (2026-10-10): Retailer copy (gear4music) gives 53 Hz-20 kHz (+/-3 dB) and 100 W (2 x 50 W RMS); a forum copy gives 103 dB SPL for a pair with no reference condition. Retailer and forum copies only; the manufacturer page is not reachable."
+    "notes": "Third-party copy only (gear4music.com). driverCount 2 and active true are taken from the same page: '5.25\" woofer and a 1\" silk tweeter' and 'Active Studio Monitors'. The 103 dB SPL figure is a maximum output level and is not stored as sensitivity. Pass-140 (2026-10-10): third-party tier applied."
   },
   {
     "id": "eaw-kf760",
@@ -40228,7 +40241,7 @@
     "model": "Virtus 602",
     "category": "custom",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
       "value": null,
@@ -40238,18 +40251,21 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 140,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://dolphinaccessories.com/products/morel-virtus-602",
+      "sourceType": "THIRD_PARTY",
+      "role": "speaker_power_handling",
+      "notes": "140 W RMS per speaker. Agreed by dolphinaccessories.com ('Nominal Power Output RMS - 140W RMS'), woofersetc.com ('Power Handling: 140Wrms') and amazon.com ('RMS: 140 watts each side'). The 300 W peak / max transient figures are not stored as RMS power."
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://dolphinaccessories.com/products/morel-virtus-602",
+      "sourceType": "THIRD_PARTY",
+      "notes": "Nominal 4 ohm. Agreed by dolphinaccessories.com (exact model, 'Impedance - 4 ohm'), woofersetc.com ('Nominal Impedance: 4 Ohms') and amazon.com ('Impedance: 4 Ohms'). Third-party copies only; no Morel manufacturer page was reached."
     },
     "resonantFreq": {
       "value": null,
@@ -40281,7 +40297,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "Pass-128 check (2026-10-10): Retailer sensitivities conflict (88, 90 and 91 dB); no Morel official page located; none transferred. Pass-132 check (2026-10-10): the Morel site (morelhifi.com) was reached, but the Virtus 602 product page was not located there. Retailer copies conflict (91 dB and 88 dB; 55 Hz–22 kHz; 140 W RMS; 300 W max). Morel's Virtus range is a car-audio component line on the site. Pass-136 check (2026-10-10): Retailer copies still conflict: car-tronic.pl gives 90 dB (2.83 V/1 m), 65–22000 Hz, 120 W RMS and 300 W max; Amazon and Onlinecarstereo give 88 dB, 55–22000 Hz, 140 W RMS and 300 W peak; a further listing gives 89 dB. No Morel manufacturer product page for the Virtus 602 was reached, so nothing is stored. Pass-138 check (2026-10-10): Retailer listings conflict: 55-22 kHz, 91 dB, 4 ohm and 140 W RMS / 300 W peak per speaker (dolphinaccessories.com and dynamicautosound.net) against 88 dB and 280 W RMS per pair (Amazon). No Morel manufacturer product page was reached."
+    "notes": "Third-party copies only (dolphinaccessories.com, woofersetc.com, amazon.com). Sensitivity is NOT stored: 88 dB (woofersetc, amazon) conflicts with 91 dB (dolphinaccessories). The frequency range (55 Hz-22 kHz) is a marketing range with no stated criterion and is not stored as a response. No manufacturer page was reached. Pass-140 (2026-10-10): third-party tier applied to values agreed across exact-model copies."
   },
   {
     "id": "morel-elate-carbon-62a",
@@ -45249,7 +45265,7 @@
     "model": "5150 412",
     "category": "custom",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
       "value": null,
@@ -45266,11 +45282,12 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 16,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
+      "sourceType": "THIRD_PARTY",
+      "notes": "16 ohm per bluebookofguitarvalues.com exact-model listing ('PEAVEY 5150 412 SPEAKER CABINET', 'Impedance: 16'). The equipboard.com and reverb.com copies for '5150 4x12 Slant' also give 16 ohm but describe a different (slant, 412ES-type) variant and are not used for this field."
     },
     "resonantFreq": {
       "value": null,
@@ -45287,11 +45304,12 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 12,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
+      "sourceType": "THIRD_PARTY",
+      "notes": "Four 12 in Sheffield 1200 speakers per bluebookofguitarvalues.com ('300W, 4-12 in. Sheffield 1200 speakers'). The 12 in figure is per driver; driverCount 4 comes from the same text."
     },
     "frequencyResponse": {
       "low_hz": null,
@@ -45300,9 +45318,9 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 4,
     "panel": null,
-    "notes": "Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Pass-135 check (2026-10-10): Blue Book lists the 5150 412 at '300W, 4-12 in. Sheffield 1200 speakers, 16 Ohm'; equipboard and reverb list 240 W for the 4x12 slant cabinet, and reverb lists 300 W 'Rated at 300 watts and 16 ohms' for a Sheffield-speaker listing. The sources do not agree on the model variant or the power figure, and no Peavey manufacturer page was reached, so nothing is stored. Pass-136 check (2026-10-10): The Peavey literature located for this query is the Invective 412 cabinet, a different product, so it is not used. The 5150 412 figures (Sheffield 1200 ×4, 16 Ω, 300 W, 1992–2004) come only from a price-guide listing. No Peavey 5150 412 manufacturer page was found, so nothing is stored. Pass-138 check (2026-10-10): The Peavey 5150 II operating guide found in search is an amplifier manual (120 W RMS into 4, 8 or 16 ohm). It is not a speaker specification and is not transferred to the 5150 412 cabinet."
+    "notes": "Third-party copy only (bluebookofguitarvalues.com, mfg. 1992-2004). Power is NOT stored: the exact-model listing gives 300 W with no rating definition, and the slant-cabinet listings give 240 W for a different variant, so the copies conflict. Pass-140 (2026-10-10): third-party tier applied to the exact-model impedance and driver layout."
   },
   {
     "id": "bang-olufsen-beosound-a5",

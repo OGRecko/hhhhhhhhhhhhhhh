@@ -5,7 +5,7 @@ export function formatSensitivity(value: number | null | undefined, reference?: 
   if (typeof value !== 'number' || !Number.isFinite(value) || value <= 0) {
     return 'Unavailable — simulation uses a neutral reference level (modeled, not a speaker spec)';
   }
-  const suffix = sourceType === 'REPUTABLE_DATABASE' ? ' (secondary source)' : sourceType === 'MEASUREMENT' ? ' (measurement)' : '';
+  const suffix = sourceType === 'REPUTABLE_DATABASE' ? ' (secondary source)' : sourceType === 'THIRD_PARTY' ? ' (third-party copy)' : sourceType === 'MEASUREMENT' ? ' (measurement)' : '';
   return reference ? `${value} dB @ ${reference}${suffix}` : `${value} dB (source reference not specified)${suffix}`;
 }
 

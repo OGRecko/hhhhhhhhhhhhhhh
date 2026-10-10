@@ -11,7 +11,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | altec-604e | Altec Lansing | 604E Duplex | PARTIALLY_VERIFIED | sensitivity, impedance, voiceCoil |
 | altec-a7 | Altec Lansing | A7 Voice of the Theatre | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer |
 | ar-3a | Acoustic Research | AR-3a | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil |
-| klh-model-6 | KLH | Model Six | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| klh-model-6 | KLH | Model Six | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | klipsch-heresy | Klipsch | Heresy | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | klipsch-klipschorn | Klipsch | Klipschorn | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | tannoy-monitor-gold | Tannoy | Monitor Gold 15 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
@@ -23,8 +23,8 @@ This inventory lists fields that are not currently populated with retained sourc
 | yamaha-ns1000m | Yamaha | NS-1000M | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | jbl-4350 | JBL | 4350 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil |
 | altec-model-19 | Altec Lansing | Model 19 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| infinity-rs1 | Infinity | RS-1B | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| cerwin-vega-d9 | Cerwin Vega | D-9 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| infinity-rs1 | Infinity | RS-1B | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, frequency-response limits |
+| cerwin-vega-d9 | Cerwin Vega | D-9 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil, woofer |
 | eV-eliminator | Electro-Voice | Eliminator | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | jbl-4430 | JBL | 4430 | PARTIALLY_VERIFIED | resonantFreq |
 | boston-a150 | Boston Acoustics | A150 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
@@ -177,7 +177,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | atc-scm19 | ATC | SCM19 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | adam-t5v | Adam Audio | T5V | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
 | behringer-truth-b2031 | Behringer | Truth B2031A | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
-| equator-d5 | Equator Audio | D5 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| equator-d5 | Equator Audio | D5 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
 | eaw-kf760 | EAW | KF760 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | adamson-e15 | Adamson | E15 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq |
 | void-air-8 | Void Acoustics | Air 8 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, frequency-response limits |
@@ -586,7 +586,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | kicker-46css674 | Kicker | 46CSS674 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | kicker-46csc654 | Kicker | 46CSC654 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | morel-maximo-ultra-602 | Morel | Maximo Ultra 602 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| morel-virtus-602 | Morel | Virtus 602 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| morel-virtus-602 | Morel | Virtus 602 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | morel-elate-carbon-62a | Morel | Elate Carbon 62A | PARTIALLY_VERIFIED | impedance, resonantFreq |
 | audison-prima-apk-165 | Audison | Prima APK 165 | PARTIALLY_VERIFIED | sensitivity |
 | audison-voce-av-k6 | Audison | Voce AV K6 | PARTIALLY_VERIFIED | sensitivity |
@@ -667,7 +667,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | mesa-boogie-2x12-rectifier | Mesa/Boogie | 2x12 Rectifier | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | mesa-boogie-fillmore-2x12 | Mesa/Boogie | Fillmore 2x12 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
 | mesa-boogie-lone-star-2x12 | Mesa/Boogie | Lone Star 2x12 | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
-| peavey-5150-412 | Peavey | 5150 412 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| peavey-5150-412 | Peavey | 5150 412 | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
 | bang-olufsen-beosound-a5 | Bang & Olufsen | Beosound A5 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | bang-olufsen-beosound-balance | Bang & Olufsen | Beosound Balance | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | bang-olufsen-beosound-level | Bang & Olufsen | Beosound Level | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
@@ -700,6 +700,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 649
-**Records with no source-backed acoustic field:** 44
+**Records with at least one source-backed acoustic field:** 655
+**Records with no source-backed acoustic field:** 38
 **Unavailable identities or confirmed non-loudspeaker records:** 0

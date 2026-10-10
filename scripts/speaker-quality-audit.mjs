@@ -20,8 +20,8 @@ const warnings = [];
 const ids = new Set();
 const names = new Set();
 const validStatuses = new Set(['LEGACY', 'FULLY_VERIFIED', 'PARTIALLY_VERIFIED', 'UNVERIFIED', 'UNAVAILABLE']);
-const validFieldStatuses = new Set(['MANUFACTURER_VERIFIED', 'MEASUREMENT_VERIFIED', 'REPUTABLE_DATABASE_VERIFIED', 'ESTIMATED', 'UNAVAILABLE', 'LEGACY']);
-const validSourceTypes = new Set(['NONE', 'MANUFACTURER', 'MEASUREMENT', 'REPUTABLE_DATABASE', 'RETAILER', 'ESTIMATED', 'UNKNOWN']);
+const validFieldStatuses = new Set(['MANUFACTURER_VERIFIED', 'MEASUREMENT_VERIFIED', 'REPUTABLE_DATABASE_VERIFIED', 'THIRD_PARTY_VERIFIED', 'ESTIMATED', 'UNAVAILABLE', 'LEGACY']);
+const validSourceTypes = new Set(['NONE', 'MANUFACTURER', 'MEASUREMENT', 'REPUTABLE_DATABASE', 'THIRD_PARTY', 'RETAILER', 'ESTIMATED', 'UNKNOWN']);
 
 const provenanceCounts = { measurement: 0, manufacturer: 0, verified_database: 0, physically_modeled: 0 };
 const { ids: knownCurveIds, manufacturer: knownManufacturer, modeled: knownModeled } = parseKnownCurves(responseSource);

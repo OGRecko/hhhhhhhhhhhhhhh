@@ -6,7 +6,7 @@ const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../.
 const dsPath = path.join(root, 'src/data/speakers.json');
 const data = JSON.parse(fs.readFileSync(dsPath, 'utf8'));
 const batch = JSON.parse(fs.readFileSync(path.resolve(process.argv[2]), 'utf8'));
-const statusFor = (t) => t === 'MANUFACTURER' ? 'MANUFACTURER_VERIFIED' : t === 'MEASUREMENT' ? 'MEASUREMENT_VERIFIED' : t === 'REPUTABLE_DATABASE' ? 'REPUTABLE_DATABASE_VERIFIED' : null;
+const statusFor = (t) => t === 'MANUFACTURER' ? 'MANUFACTURER_VERIFIED' : t === 'MEASUREMENT' ? 'MEASUREMENT_VERIFIED' : t === 'REPUTABLE_DATABASE' ? 'REPUTABLE_DATABASE_VERIFIED' : t === 'THIRD_PARTY' ? 'THIRD_PARTY_VERIFIED' : null;
 const validCurveSources = new Set(['MANUFACTURER', 'MEASUREMENT', 'REPUTABLE_DATABASE']);
 const acousticFields = ['sensitivity', 'power', 'impedance', 'resonantFreq', 'voiceCoil', 'woofer'];
 const hasSourceBackedAcousticField = (s) =>

@@ -19,7 +19,7 @@ for (const s of data) {
     if (v.value!==null) {
       if (typeof v.value!=='number' || !Number.isFinite(v.value)) problems.push(`${s.id}: ${f}.value invalid`);
       if (!/^https?:\/\//i.test(String(v.source||''))) problems.push(`${s.id}: ${f} populated without URL provenance`);
-      if (!['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED'].includes(v.status)) problems.push(`${s.id}: ${f} populated with invalid status ${v.status}`);
+      if (!['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED','THIRD_PARTY_VERIFIED'].includes(v.status)) problems.push(`${s.id}: ${f} populated with invalid status ${v.status}`);
       if (f === 'sensitivity' && !v.reference) problems.push(`${s.id}: populated sensitivity is missing its measurement reference`);
       if (f === 'sensitivity' && v.reference === '2.83V/1m' && (s.impedance?.value == null || !Number.isFinite(s.impedance.value) || s.impedance.value <= 0)) {
         // Preserve the manufacturer's voltage-referenced sensitivity as published. Without an exact nominal
@@ -35,7 +35,7 @@ for (const s of data) {
     if (populated) {
       if ((fr.low_hz!==null && (!Number.isFinite(fr.low_hz) || fr.low_hz<=0)) || (fr.high_hz!==null && (!Number.isFinite(fr.high_hz) || fr.high_hz<=0))) problems.push(`${s.id}: invalid frequency bound`);
       if (!/^https?:\/\//i.test(String(fr.source||''))) problems.push(`${s.id}: frequency response populated without URL provenance`);
-      if (!['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED'].includes(fr.status)) problems.push(`${s.id}: frequency response populated with invalid status ${fr.status}`);
+      if (!['MANUFACTURER_VERIFIED','MEASUREMENT_VERIFIED','REPUTABLE_DATABASE_VERIFIED','THIRD_PARTY_VERIFIED'].includes(fr.status)) problems.push(`${s.id}: frequency response populated with invalid status ${fr.status}`);
     }
   }
 }
