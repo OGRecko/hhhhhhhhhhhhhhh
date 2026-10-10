@@ -6,7 +6,7 @@ This file records the current release-engineering evidence and does not convert 
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 355 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 356 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
 - `node scripts/speaker-quality-audit.mjs` — **PASS**, 774 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (22 manufacturer, 5 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
@@ -20,15 +20,15 @@ This file records the current release-engineering evidence and does not convert 
 - 0 duplicate IDs
 - 774 unique brand/model pairs
 - 0 duplicate brand/model pairs
-- `PARTIALLY_VERIFIED`: 648
-- `UNVERIFIED`: 48
+- `PARTIALLY_VERIFIED`: 649
+- `UNVERIFIED`: 47
 - `UNAVAILABLE`: 78
-- source-backed fields: sensitivity 307, power 416, impedance 351, resonant frequency 17, voice-coil size 63, woofer size 583, frequency-response limits 559
+- source-backed fields: sensitivity 307, power 417, impedance 351, resonant frequency 17, voice-coil size 63, woofer size 584, frequency-response limits 560
 - embedded JSON response-point datasets: 27
 - declared response-point provenance: manufacturer 22, measurement 5, verified database 0
 - physically modeled response models: 747
-- generic reference models: 221
-- models derived from published bandwidth limits: 526
+- generic reference models: 220
+- models derived from published bandwidth limits: 527
 - embedded speaker polar/directivity data: 0
 
 The database does not claim that every catalog record is independently web-verified. Records without source-backed fields are explicitly `UNVERIFIED` and retain `N/A` physical fields rather than guessed values.

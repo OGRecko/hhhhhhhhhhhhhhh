@@ -325,7 +325,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-klip-8 | Klipsch | R-41M | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-mack-2 | Mackie | HR624 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-mack-3 | Mackie | MR624 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
-| legacy-mack-4 | Mackie | CR3 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-mack-4 | Mackie | CR3 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | legacy-mack-5 | Mackie | Thump15 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
 | legacy-mack-6 | Mackie | SRM450 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer |
 | legacy-mack-7 | Mackie | DLM12 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
@@ -781,6 +781,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 648
-**Records with no source-backed acoustic field:** 48
+**Records with at least one source-backed acoustic field:** 649
+**Records with no source-backed acoustic field:** 47
 **Unavailable identities or confirmed non-loudspeaker records:** 78

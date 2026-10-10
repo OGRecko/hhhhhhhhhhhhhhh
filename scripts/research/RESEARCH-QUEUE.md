@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **126** of 774 (48 UNVERIFIED, 78 UNAVAILABLE) across 42 brands.
+Records still needing research: **125** of 774 (47 UNVERIFIED, 78 UNAVAILABLE) across 41 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -47,6 +47,5 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Sonance | 1 | Mariner 6 (`sonance-mariner-6`) |
 | JBL | 1 | Ranger Paragon D44000 (`legacy-jbl-2`) |
 | Yamaha | 1 | VXC series (`legacy-yam-8`) |
-| Mackie | 1 | CR3 (`legacy-mack-4`) |
 | Pioneer | 1 | TS-A1607F (`pioneer-ts-a1607f`) |
 | Wilson Audio | 1 | Alexia (`wilson-audio-alexia`) |

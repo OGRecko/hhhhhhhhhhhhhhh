@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 623 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 624 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -3597,6 +3597,12 @@ The source is attached to the exact field it supports. A source URL here does no
 - Pioneer SP-BS22-LR — power
 - Pioneer SP-BS22-LR — sensitivity
 - Pioneer SP-BS22-LR — woofer size
+
+## https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf
+
+- Mackie CR3 — frequency-response limits
+- Mackie CR3 — power
+- Mackie CR3 — woofer size
 
 ## https://www.pioneerelectronics.com/PUSA/Car/Speakers/A-Series/TS-A1670F
 

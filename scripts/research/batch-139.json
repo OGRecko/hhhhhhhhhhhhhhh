@@ -1,0 +1,120 @@
+[
+  {
+    "id": "legacy-mack-4",
+    "model_check": "CR3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 70,
+        "high_hz": 20000,
+        "unit": "Hz",
+        "notes": "Mackie CR3 owner's manual (pdf-manuals.com copy): '(-3 dB) 70 Hz - 20 kHz' for the CR3 column. The (-10 dB) 80 Hz figure is a different measure and is not stored as the response."
+      },
+      "power": {
+        "value": 28,
+        "unit": "W",
+        "role": "amplifier_output",
+        "notes": "Mackie CR3 owner's manual: 'Rated Power 28 watts rms' (Class AB amplifier, CR3 column). The 50 W peak figure is not stored as rated power."
+      },
+      "woofer": {
+        "value": 3,
+        "unit": "in",
+        "notes": "Mackie CR3 owner's manual: 'Low Frequency 3.0 in / 76 mm polypropylene-coated woofer [CR3]'."
+      }
+    },
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored. Pass-136 check (2026-10-10): The B&H listing for the Mackie CR3 (Class-AB active 2-way, 3 in woofer, 0.75 in tweeter, 28 W RMS / 50 W peak) is internally inconsistent: it gives \"–3 dB 80–20,000 Hz; –10 dB 70–20,000 Hz\" and also \"70 Hz to 20 kHz ± 3 dB\". The CR3-X (Class-D, 50 W peak; 80 Hz at −3 dB, 70 Hz at −10 dB) is a different revision. The revision and the response statement are unresolved, so no values are stored. Pass-138 check (2026-10-10): Mackie CR3 owner's manual (combined CR3 and CR4 manual; text copy at pdf-manuals.com; the zikinf.com copy was behind a verification challenge and was read only through its search index). For CR3 the table gives frequency response (-3 dB) 70 Hz-20 kHz and (-10 dB) 80 Hz-20 kHz; amplifier rated power 28 W RMS (Class AB), with 50 W peak; low-frequency driver 3.0 in (76 mm) and high-frequency driver 0.75 in silk dome, 3 kHz crossover (2 drivers); powered. Stored: -3 dB 70 Hz-20 kHz; 28 W RMS amplifier output; woofer 3.0 in; driverCount 2; active true. Not stored: the 97 dB figure in these copies is labelled 'Maximum SPL Peak Per Pair', not sensitivity; the -10 dB 80 Hz figure is not stored as the response; the 50 W peak is not converted or stored as rated power. The Class-D 50 W, 80 Hz at -3 dB text in earlier copies belongs to a different revision and is not merged.",
+    "scalars": {
+      "driverCount": 2,
+      "active": true
+    }
+  },
+  {
+    "id": "boston-a150",
+    "model_check": "A150",
+    "sourceType": "MANUFACTURER",
+    "source": "https://stereonomono.blogspot.com/2020/01/boston-a150-loudspeakers.html",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer, blog and forum copies conflict between the vintage A150 and the A150 Series 2 / current A150; none transferred. Pass-130 check (2026-10-10): only forum, resale and retailer listings were found, and they conflict (36–25 kHz ±3 dB vs 38 Hz–20 kHz; ~90 dB; 15–150 W vs 100 W). No Boston Acoustics manufacturer source was found. Nothing stored. Pass-136 check (2026-10-10): Secondary sources describe the A150 as produced in Series I, II and III. Copies conflict on the low-frequency limit (36 Hz vs 38 Hz), the sensitivity (about 90 dB) and the power rating (15–150 W vs 100 W). No Boston Acoustics manufacturer source is available for any series, so the revision is unresolved and no values are stored. Pass-138 check (2026-10-10): Secondary copies differ by series. A 1970s-era A150 description (stereonomono.blogspot.com, 2020) gives 36 Hz-25 kHz +/-3 dB, 90 dB at 1 W/1 m, 8 ohm, 550 Hz and 3 kHz crossovers, three-way with a 10 in woofer; a Series 2 forum copy gives 36-25 kHz and 100 W. These are not merged with the bare A150 record, which does not state a series. Nothing stored."
+  },
+  {
+    "id": "equator-d5",
+    "model_check": "D5",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair-Ex-Demo/1JRD",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Nothing stored. Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored. Pass-136 check (2026-10-10): A search surfaced an Equator page at equatoraudio.com/D5_Studio_Monitors_with_DSP_300_Pair_p/d5.htm; fetching that exact URL returned 404 (not found) on this pass, so it cannot be cited as a verified source. Retailer copies (gear4music) repeat 53 Hz–20 kHz ±3 dB, 2 × 50 W RMS and 103 dB SPL; the SPL has no reference condition and is not a sensitivity, so nothing is stored. The 5.25 in coaxial woofer and 1 in silk tweeter (two transducers) are described in these copies but not confirmed from a live manufacturer page. Pass-138 check (2026-10-10): Retailer copy (gear4music) gives 53 Hz-20 kHz (+/-3 dB) and 100 W (2 x 50 W RMS); a forum copy gives 103 dB SPL for a pair with no reference condition. Retailer and forum copies only; the manufacturer page is not reachable. Nothing stored."
+  },
+  {
+    "id": "legacy-ma-1",
+    "model_check": "Wavefront",
+    "sourceType": "MANUFACTURER",
+    "source": "https://martin-audio.com/downloads/archive/datasheets/W8datasheet.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio archive PDFs (W8_EN, W1_EN, W8LSER) mix several Wavefront variants with per-driver specs; bare 'Wavefront 8' is not established; none transferred. Pass-132 check (2026-10-10): Martin Audio archive datasheets show several Wavefront-family products with different driver complements (for example a W8LSER variant with 1 x 15 in LF, 2 x 8 in MF and 4 x 1 in HF, and a 1 x 12 in / 2 x 6.5 in / 3 x 1 in variant). The W8LC and W8LMI datasheets are different products. No datasheet names the bare 'Wavefront 8' record, so nothing is stored. Pass-136 check (2026-10-10): Martin Audio archive user guide W8_EN.pdf (Wavefront touring series applications guide) describes a product named \"W8\": 3-way full-range trapezoid, 120 Hz–18 kHz ±3 dB, 2 × 12 in low-mid horn, 1 × 6.5 in high-mid horn, 1 × 1 in HF. It is recorded as a candidate only. The catalog row is \"Wavefront 8\" and the guide does not state that it is the same product, and the Wavefront family contains other W8 variants (W8LC, W8LM), so no values are stored until the identity is confirmed. Pass-138 check (2026-10-10): Martin Audio archive datasheet 'W8 Three-way full range system' gives 120 Hz-18 kHz +/-3 dB, 400 W AES low-mid, 8 ohm LF and 16 ohm HF, but the datasheet does not establish that it is the record 'Wavefront 8'. The W8C guide (45-200 Hz, 800 W AES, 105 dB) is a different product. Nothing stored."
+  },
+  {
+    "id": "legacy-ma-2",
+    "model_check": "F2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://martin-audio.com/downloads/datasheets/FP8datasheet.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio F2 official page not located; the search returned only the unrelated MartinLogan Foundation F2. No values transferred. Pass-130 check (2026-10-10): the search for 'Martin Audio F2' returned MartinLogan Foundation F2 material, which is a different manufacturer's model. No Martin Audio F2 source was found. Nothing stored. Pass-135 check (2026-10-10): the Martin Audio F2 system datasheet (martin-audio.com/downloads/datasheets/F2systemdatasheet.pdf, manufacturer) describes a reconfigurable two-box system: the F2R rack plus the F2M, F2H, F2V and F2T modules, each with its own bandwidth, sensitivity and power. It gives no single-loudspeaker specification for the record 'F2', and the system vs component identity is not established, so nothing is stored. Pass-138 check (2026-10-10): The Martin Audio FP8 datasheet (63 Hz-18 kHz +/-3 dB, 94 dB, 8 ohm, 250 W AES) is a different product and is not transferred to F2. No single-enclosure F2 datasheet was found. Nothing stored."
+  },
+  {
+    "id": "legacy-la-1",
+    "model_check": "V-DOSC",
+    "sourceType": "MANUFACTURER",
+    "source": "https://base.ren-ting.com/pictures/prod_pdf/1000019.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source. Pass-136 correction: a third-party yumpu copy of an L-Acoustics V-DOSC sheet (2003 revision; 50–18000 Hz ±3 dB, 3WX HI preset, eight drivers) was located in pass 135 but is held as a lead only. The Batch-116 ruling keeps this record UNVERIFIED until an L-Acoustics manufacturer source is found. Pass-138 check (2026-10-10): A V-DOSC specification sheet copy (2003-era, base.ren-ting.com) gives 50-18 kHz +/-3 dB and 40-20 kHz (-10 dB) usable bandwidth for the 3WX HI preset, band sensitivities of 100/105/108 dB, and continuous SPL of 134-146 dB for one to four enclosures. These depend on the preset and the number of enclosures, so no single-speaker value is stored and the record stays UNVERIFIED."
+  },
+  {
+    "id": "legacy-la-7",
+    "model_check": "X15",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.promusic.cz/sites/default/files/product/field_files/x15_hiq_um_en.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open. Pass-131 check (2026-10-10): the official L-Acoustics X15 HiQ page (l-acoustics.com/products/x15-hiq/) gives 2-way active coaxial, 1 x 15 in LF + 1 x 3 in HF, -10 dB 55 Hz–20 kHz and 138 dB max SPL, but these figures are labelled with the '[X15]' preset, and the page is for the HiQ. The original X15 product page was not found at the expected address. Nothing is transferred from the HiQ to the record 'X15'. Pass-135 check (2026-10-10): an archived 'X 15 – Technical Specifications (rev1 23/07/02)' sheet (logicsystems.co.uk archive) describes a passive full-range enclosure: 15 in cone plus 1 in exit compression driver, 58 Hz–18 kHz, 99 dB sensitivity at 1 m with 2.83 V, 8 Ω, 500 W, 29 kg. The sheet does not identify L-Acoustics as the manufacturer and does not match the active X15 HiQ, so it is not attributed to this record. The L-Acoustics original X15 page is still not reached. Pass-136 check (2026-10-10): Searches again returned only the X15 HiQ (manufacturer owner's manual copies on AVC Group and ProMusic; a 15 in LF with 3 in HF; 55 Hz–20 kHz at −10 dB; 40° × 60°). The HiQ is a different product from the catalog row \"X15\", so none of its figures are transferred. The original X15 has no manufacturer page in the results. Pass-138 check (2026-10-10): The X15 HiQ owner's manual (L-Acoustics document, promusic.cz copy) describes the HiQ revision: active 2-way coaxial, 1 x 15 in LF and 1 x 3 in HF, 8 ohm, -10 dB 55 Hz-20 kHz and 138 dB under the [X15] preset. It is not transferred because the record is 'X15' with no HiQ identity, and a bandwidth figure alone is not stored as a response. Nothing stored."
+  },
+  {
+    "id": "infinity-rs1",
+    "model_check": "RS-1B",
+    "sourceType": "MANUFACTURER",
+    "source": "https://support.harmanaudio.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwfa146801/pdfs/REFERENCE%20RS%201%20(1)-REFERENCE%20RS%202%20(1)-REFERENCE%20RS%203%20(1)%5EINF%5Eom%5E%5E%5E%5E.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): UNAVAILABLE: identity not established. Sources conflict on configuration: an active 4-way with servo (6 ohm, 86 dB, 25-32 kHz) versus a passive 5-way (4 ohm, 25-32 kHz). The RS-1B revision cannot be fixed from the catalog row, so no values are transferred. Pass-136 correction: the pass-128 UNAVAILABLE label is reverted to UNVERIFIED because no exact RS-1B identity ledger entry exists for this row; no values are assigned from either conflicting configuration. Pass-136 check (2026-10-10): Secondary sources conflict on the RS-1B configuration: vintagetechnologyarchive.com describes a 1985 four-way active servo system (6 Ω, 86 dB, 25 Hz–32 kHz, 400 W); hifi-guide.com describes a passive five-way (4 Ω, 25–32 kHz). The infinity-classics.de RS_1B_technical_sheet.pdf URL returned 404 on this pass. No manufacturer RS-1B sheet was reached, so no values are stored and the record stays UNVERIFIED. Pass-138 check (2026-10-10): The Harman support owner's manual (part 333365-001) covers the Reference Standard RS 1, RS 2 and RS 3 bookshelf models and does not include the RS-1B. A vintagetechnologyarchive RS-1B (1985) entry describes an active four-way system with 6 ohm, 86 dB, 25 Hz-32 kHz and 400 W, which conflicts with the earlier passive five-way copy. Nothing stored."
+  },
+  {
+    "id": "cerwin-vega-d9",
+    "model_check": "D-9",
+    "sourceType": "MANUFACTURER",
+    "source": "https://reverb.com/item/73504257-vintage-cerwin-vega-d-9-floor-speakers-professionally-re-foamed",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer listings conflict on impedance (4 vs 8 ohm), power and sensitivity; none transferred. Pass-130 check (2026-10-10): only resale listings were found (reverb, classified ads) quoting 29 Hz–20 kHz, 101 dB, 8 or 4 Ω and 350 W. No Cerwin-Vega manufacturer page or archive was reached. Nothing stored. Pass-136 check (2026-10-10): Copies conflict. 365electric describes a D-9 system (two satellites and a 15 in subwoofer; 29 Hz–20 kHz; 350 W). Parts-Express forum copies of a D-9 sheet give 101 dB (1 W/1 m), 4 Ω, 5/350 W, and an owner's-manual variant with different impedance and driver sizes. A classified listing gives 5/400 W. No Cerwin-Vega manufacturer archive page was reached, so nothing is stored. Pass-138 check (2026-10-10): Reverb listings (secondary) give 29 Hz-20 kHz, 101 dB, 8 ohm and 350 W with no reference stated. A 365electric page describes a 'D-9 digital speaker system' of two satellites and a 15 in subwoofer, which conflicts with the three-way floor-standing reading. No Cerwin-Vega manufacturer page was reached. Nothing stored."
+  },
+  {
+    "id": "morel-virtus-602",
+    "model_check": "Virtus",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dolphinaccessories.com/products/morel-virtus-602",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer sensitivities conflict (88, 90 and 91 dB); no Morel official page located; none transferred. Pass-132 check (2026-10-10): the Morel site (morelhifi.com) was reached, but the Virtus 602 product page was not located there. Retailer copies conflict (91 dB and 88 dB; 55 Hz–22 kHz; 140 W RMS; 300 W max). Morel's Virtus range is a car-audio component line on the site. Nothing stored. Pass-136 check (2026-10-10): Retailer copies still conflict: car-tronic.pl gives 90 dB (2.83 V/1 m), 65–22000 Hz, 120 W RMS and 300 W max; Amazon and Onlinecarstereo give 88 dB, 55–22000 Hz, 140 W RMS and 300 W peak; a further listing gives 89 dB. No Morel manufacturer product page for the Virtus 602 was reached, so nothing is stored. Pass-138 check (2026-10-10): Retailer listings conflict: 55-22 kHz, 91 dB, 4 ohm and 140 W RMS / 300 W peak per speaker (dolphinaccessories.com and dynamicautosound.net) against 88 dB and 280 W RMS per pair (Amazon). No Morel manufacturer product page was reached. Nothing stored."
+  },
+  {
+    "id": "pmc-tb2",
+    "model_check": "TB2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://pmc-speakers.com/wp-content/uploads/2012/02/PMC-iSeries-TB2i-Data-Sheet.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): No PMC official TB2 page located. The PMC archive page found is for the TB2S+ (a different model). Retailer copies conflict between TB2 and TB2+ (40 Hz-25 kHz, 90 dB); none transferred. Pass-132 check (2026-10-10): the hifi-guide.com database entry is for the 'TB2 I Series' (40–25000 Hz, 90 dB, 8 Ω, transmission line), and a resale listing gives 40 Hz–25 kHz, 90 dB (1 W at 1 m), 8 Ω, with a recommended amplifier range. The 'I Series' revision label does not match the record's 'TB2', and the PMC manufacturer page was not reached, so nothing is stored. The recommended amplifier range is not stored as a field. Pass-136 check (2026-10-10): The PMC manufacturer archive page is for the TB2S+ (40 Hz–25 kHz; 90 dB 1 W/1 m; 8 Ω; 2 kHz crossover; a recommended amplifier range is printed but is not stored). A resale listing describes a \"TB2\" (40 Hz–25 kHz, 90 dB, 150 W peak). The TB2, TB2+ and TB2S+ revisions conflict and the catalog row does not name one, so no values are stored. Pass-138 check (2026-10-10): The PMC iSeries TB2i datasheet (2012, pmc-speakers.com) lists several models in one table (response rows from 19 Hz to 50 Hz low ends, 87-90 dB at 1 W/1 m, 4-8 ohm, 2 kHz and 380 Hz/3.8 kHz crossovers). The model names of the columns are not visible in the copy reached, so no column is assigned to the bare TB2. Nothing stored."
+  },
+  {
+    "id": "peavey-5150-412",
+    "model_check": "5150",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.peavey.com/literature/manuals/80304643.pdf",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Nothing stored. Pass-135 check (2026-10-10): Blue Book lists the 5150 412 at '300W, 4-12 in. Sheffield 1200 speakers, 16 Ohm'; equipboard and reverb list 240 W for the 4x12 slant cabinet, and reverb lists 300 W 'Rated at 300 watts and 16 ohms' for a Sheffield-speaker listing. The sources do not agree on the model variant or the power figure, and no Peavey manufacturer page was reached, so nothing is stored. Pass-136 check (2026-10-10): The Peavey literature located for this query is the Invective 412 cabinet, a different product, so it is not used. The 5150 412 figures (Sheffield 1200 ×4, 16 Ω, 300 W, 1992–2004) come only from a price-guide listing. No Peavey 5150 412 manufacturer page was found, so nothing is stored. Pass-138 check (2026-10-10): The Peavey 5150 II operating guide found in search is an amplifier manual (120 W RMS into 4, 8 or 16 ohm). It is not a speaker specification and is not transferred to the 5150 412 cabinet. Nothing stored."
+  }
+]
