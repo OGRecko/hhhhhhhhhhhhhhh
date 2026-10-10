@@ -6,14 +6,14 @@
   "uniqueBrandModels": 774,
   "duplicateBrandModels": 0,
   "statusCounts": {
-    "PARTIALLY_VERIFIED": 626,
-    "UNVERIFIED": 74,
-    "UNAVAILABLE": 74
+    "PARTIALLY_VERIFIED": 637,
+    "UNVERIFIED": 62,
+    "UNAVAILABLE": 75
   },
   "sourceTypeCounts": {
-    "MANUFACTURER": 1519,
-    "NONE": 2948,
-    "REPUTABLE_DATABASE": 176,
+    "MANUFACTURER": 1539,
+    "NONE": 2921,
+    "REPUTABLE_DATABASE": 183,
     "MEASUREMENT": 1
   },
   "responseCurveData": {
@@ -31,11 +31,11 @@
     "physicallyModeledCurves": 747,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
-      "total": 235,
-      "missingBothLimits": 229,
+      "total": 225,
+      "missingBothLimits": 219,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
-      "modeledFromPublishedLimits": 512,
+      "modeledFromPublishedLimits": 522,
       "explicitCurves": 27,
       "speakers": 774
     },
@@ -44,14 +44,14 @@
   "nullableFlags": {
     "counts": {
       "driverCount": {
-        "known": 612,
-        "unknown": 162,
+        "known": 622,
+        "unknown": 152,
         "absent": 0,
         "invalid": 0
       },
       "active": {
-        "known": 526,
-        "unknown": 248,
+        "known": 529,
+        "unknown": 245,
         "absent": 0,
         "invalid": 0
       },

@@ -368,7 +368,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact-model identity and two-loudspeaker configuration verified from RadioMuseum; no sensitivity/impedance/frequency-response values are populated because the exact source does not provide them. Source: https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2"
+    "notes": "Exact-model identity and two-loudspeaker configuration verified from RadioMuseum; no sensitivity/impedance/frequency-response values are populated because the exact source does not provide them. Source: https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2 Pass-128 check (2026-10-10): Pass-128 check: no exact-model manufacturer source located in this pass; existing driverCount retained as recorded; no acoustic values transferred."
   },
   {
     "id": "bose-901",
@@ -1247,7 +1247,7 @@
     "model": "RS-1B",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "UNAVAILABLE",
     "driverCount": null,
     "active": null,
     "panel": null,
@@ -1300,7 +1300,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): UNAVAILABLE: identity not established. Sources conflict on configuration: an active 4-way with servo (6 ohm, 86 dB, 25-32 kHz) versus a passive 5-way (4 ohm, 25-32 kHz). The RS-1B revision cannot be fixed from the catalog row, so no values are transferred."
   },
   {
     "id": "cerwin-vega-d9",
@@ -1361,7 +1361,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer listings conflict on impedance (4 vs 8 ohm), power and sensitivity; none transferred."
   },
   {
     "id": "bang-olufsen-beovox-s45",
@@ -1609,7 +1609,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer, blog and forum copies conflict between the vintage A150 and the A150 Series 2 / current A150; none transferred."
   },
   {
     "id": "quad-esl-63",
@@ -5235,7 +5235,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five."
+    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-five share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them."
   },
   {
     "id": "sonos-sub-mini",
@@ -9519,23 +9519,26 @@
     "model": "Response D2",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 88.5,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+      "sourceType": "REPUTABLE_DATABASE",
+      "reference": "unspecified by source"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 30,
+      "high_hz": 30000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "as listed in the hifiengine manual-library entry (Loudspeaker System, 2009-21); tolerance not stated in the excerpt"
     },
     "power": {
       "value": null,
@@ -9545,11 +9548,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+      "sourceType": "REPUTABLE_DATABASE"
     },
     "resonantFreq": {
       "value": null,
@@ -9566,13 +9569,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 6.5,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+      "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Secondary: hifiengine manual library entry for the ProAc Response D2 Loudspeaker System (2009-21): 2-way, 2-driver bass-reflex system; 1 x 165 mm (6.5 in) bass unit; 1 x 25 mm dome tweeter; 8 ohm nominal impedance; 88.5 dB sensitivity; 30 Hz-30 kHz frequency response; 430 x 203 x 260 mm; 11 kg. The excerpt does not state the sensitivity reference, so the reference is recorded as unspecified by source (a retailer copy states 1 W at 1 m, which is not used). The Response D2D (dome) and D2R (ribbon) tweeter variants are not distinguished by this entry. Recommended amplifier power (30-150 W in this source) is a range and is not stored. No manufacturer ProAc page was located in this pass. Source: https://www.hifiengine.com/manual_library/proac/response-d2.shtml."
   },
   {
     "id": "jbl-l16",
@@ -9759,7 +9762,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Only marketplace/aggregator copies (59 Hz-20 kHz, 89 dB, 8 ohm, 150 W peak / 15 W RMS) were found; these are not field sources and none are transferred."
   },
   {
     "id": "infinity-kappa-9",
@@ -9890,7 +9893,7 @@
     "model": "CS2.4",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "UNAVAILABLE",
     "driverCount": null,
     "active": null,
     "panel": null,
@@ -9943,7 +9946,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "UNAVAILABLE - the Thiel CS2.4 has at least two documented production runs with different published specifications, and the catalog row does not name one. Stereophile's specification sidebar (https://www.stereophile.com/content/thiel-cs24-loudspeaker-specifications) describes units reviewed with serial numbers from 1991 and 1992 (8-inch woofer, 8.5 x 11-inch passive radiator, 4 ohm nominal / 3 ohm minimum, 87 dB/2.83V/m, 36 Hz-25 kHz +/-2 dB, recommended power 100-400 W). AudioWorld's 2003 announcement of the 'new CS2.4' describes a different coincident-driver design with a 7.5 x 11-inch passive radiator and a -3 dB bandwidth of 33 Hz-37 kHz (https://audioworld.com/music-tech/2003/thiel-cs2-4-loudspeaker/). Because the revision cannot be established, no values from either run are transferred and all physical fields remain N/A. Catalog ID preserved. Source for the revision conflict: the two URLs cited above."
   },
   {
     "id": "vandersteen-2ce",
@@ -10190,7 +10193,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Manufacturer page not located. Secondary sources conflict across generations (1 or 4 ohm wiring, earlier vs later production, Scintilla vs Scintilla Signature); none transferred."
   },
   {
     "id": "genelec-8260a",
@@ -10408,7 +10411,8 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.genelec.com/8331a",
       "sourceType": "MANUFACTURER",
-      "role": "unknown"
+      "role": "amplifier_output",
+      "notes": "Sum of the three published amplifier channel ratings on the Genelec page (72 W bass + 36 W midrange + 36 W treble, all Class D). Genelec does not publish a single total; the sum is an amplifier-output total, not a continuous speaker rating."
     },
     "impedance": {
       "value": null,
@@ -10438,7 +10442,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Manufacturer: 45 Hz–37 kHz (-6 dB); 72 W LF + 36 W MF + 36 W HF amplification. Three-way coaxial point-source architecture with four physical drivers (dual LF racetrack drivers plus MF and HF). Source: Genelec 8331A. Source-backed fields are retained per exact field; unsupported fields remain N/A."
+    "notes": "Manufacturer: 45 Hz–37 kHz (-6 dB); 72 W LF + 36 W MF + 36 W HF amplification. Three-way coaxial point-source architecture with four physical drivers (dual LF racetrack drivers plus MF and HF). Source: Genelec 8331A. Source-backed fields are retained per exact field; unsupported fields remain N/A. Pass-128 check (2026-10-10): sample re-check against the live Genelec page confirmed the 45 Hz-37 kHz (-6 dB) response, 104 dB SPL and the three amplifier channel ratings; the power role was corrected from unknown to amplifier_output because the value is a sum of channel ratings."
   },
   {
     "id": "kali-lp6",
@@ -10508,7 +10512,7 @@
     "model": "IN-8",
     "category": "studio-monitor",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "UNAVAILABLE",
     "driverCount": null,
     "active": null,
     "panel": null,
@@ -10561,7 +10565,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "UNAVAILABLE - the catalog row says 'IN-8' without a generation. Kali Audio's IN-8 (first generation) and IN-8 V2 are documented with different specifications (for example, the first generation is published with 140 W Class D, -10 dB 37 Hz-25 kHz, 114 dB max SPL; the V2 retailer listing gives 85 dB continuous at 2.8 m and a 280 Hz / 2.8 kHz crossover). The record does not establish which generation is meant, so no values from either are transferred and all physical fields remain N/A. Sources consulted: https://www.americanmusical.com/p/kali-audio-in-8-v2-8-3-way-powered-studio-monitor ; https://vibetoolsng.com/products/kali-audio-in-8-studio-monitor-pair (retailer listing) ; https://www.musicradar.com/reviews/kali-audio-in-8 (review)."
   },
   {
     "id": "bose-freespace-ds16s",
@@ -12086,23 +12090,26 @@
     "model": "WATT/Puppy 8",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 4,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 92,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+      "sourceType": "MANUFACTURER",
+      "reference": "1W/1m"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 21,
+      "high_hz": 22500,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "+0/-3 dB, average in-room response, per the manufacturer's WATT/Puppy Series 8 technical specifications"
     },
     "power": {
       "value": null,
@@ -12112,11 +12119,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+      "sourceType": "MANUFACTURER"
     },
     "resonantFreq": {
       "value": null,
@@ -12133,13 +12140,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 8,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+      "sourceType": "MANUFACTURER"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Wilson Audio official WATT / Puppy Series 8 technical specifications page: two 8-inch woofers (20.32 cm), one 7-inch midrange and one 1-inch inverted titanium dome tweeter (driverCount 4 counts transducers). Sensitivity is published as '92 dB @ 1 watt (2.83V at one meter)'; stored as 1W/1m because the manufacturer states the 1 W reference explicitly, and the 2.83 V wording is retained here for transparency. Nominal impedance 4 ohms, minimum 3 ohms. Frequency response +0/-3 dB 21 Hz - 22.5 kHz is the manufacturer's average in-room response and is not a free-field or anechoic limit. Minimum amplifier power (7 W per channel) is not a recommended or continuous power rating and is not stored. No power handling, response points, or directivity are published on this page and none are imported. Source: https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8."
   },
   {
     "id": "focal-utopia-scala",
@@ -12200,7 +12207,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "UNRESOLVED — a Focal-authored Scala Utopia manual, preserved by ManualsLib, explicitly labels the product ‘Scala Utopia’ and lists 28 Hz–40 kHz (±3 dB), a 24 Hz low-frequency point (-6 dB), 92 dB (2.83 V/1 m), 8-ohm nominal/3.1-ohm minimum impedance, an 11-inch woofer, a 6.5-inch midrange and 40–500 W recommended amplifier power. A separate Focal-authored manual explicitly titled ‘Scala V2 Utopia’ lists 27 Hz–40 kHz (±3 dB), while Focal’s distinct official Scala Utopia III Evo documentation specifies 27 Hz–40 kHz and 3.2-ohm minimum impedance. Focal’s product-history page says Utopia III launched in 2008 and describes Scala Utopia Evo as an evolution of the previous Scala, but the database label ‘Scala Utopia III’ does not identify the non-Evo V1/V2 revision. Because the published response limit differs, no revision-specific values are transferred; all physical/acoustic fields remain N/A until the exact revision is established. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11; https://media.focal-naim.com/dam/scala-utopia-evo/notice_scalautopiaevo_web.pdf; https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/."
+    "notes": "UNAVAILABLE - the Focal manual located for the Scala Utopia III is for the SCALA UTOPIA III EVO (3-way bass-reflex floorstander: 11 in W woofer, 6.5 in W midrange with TMD, 1.06 in IAL2 beryllium dome; +/-3 dB 27 Hz-40 kHz; 92 dB @ 2.83 V/1 m; 8 ohm nominal / 3.2 ohm minimum; recommended amplifier power 40-500 W; crossover 220 Hz / 2.4 kHz). The catalog row is 'Scala Utopia III' with no EVO designation, and a separate row (legacy-focal-3, 'Utopia III Scala') names the same family, so the revision cannot be established. The EVO values are not transferred to the un-suffixed record. Catalog ID preserved; physical fields remain N/A. Source: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf."
   },
   {
     "id": "atc-scm19",
@@ -12447,7 +12454,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered."
   },
   {
     "id": "eaw-kf760",
@@ -13837,7 +13844,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Autograph MINI (MINI-OW) data was located and is not transferable. The full Autograph official page was not located."
   },
   {
     "id": "ohm-walsh-2",
@@ -13845,23 +13852,26 @@
     "model": "Walsh 2",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": null,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 88,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://ohmspeaker.com/legacy-products/2/",
+      "sourceType": "MANUFACTURER",
+      "reference": "2.83V/1m"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 42,
+      "high_hz": 17000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://ohmspeaker.com/legacy-products/2/",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "+/-3 dB per Ohm legacy-products page"
     },
     "power": {
       "value": null,
@@ -13871,11 +13881,12 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://ohmspeaker.com/legacy-products/2/",
+      "sourceType": "MANUFACTURER",
+      "notes": "typical"
     },
     "resonantFreq": {
       "value": null,
@@ -13898,7 +13909,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Ohm Acoustics official legacy-products page for the Walsh 2 (manufacturer): production period 1982-1989; frequency response 42-17,000 Hz (+/-3 dB); sensitivity 88 dB measured at 2.8 V (stored as 2.83V/1m, the dataset convention for the same 2.83 V / 1 m reference; the page states 2.8 V); impedance 4 ohms typical. Amplifiers recommended 125 W is a recommendation and is not stored as a power rating. Dimensions 11 x 11 x 32 in (legacy page). The record has no production year; the values apply to the 1982-1989 Walsh 2 documented on the manufacturer's legacy page. No driver count is stored from this page (it does not state one); a secondary vintage-retailer description of a down-firing Walsh driver plus conventional tweeter is not used. Source: https://ohmspeaker.com/legacy-products/2/."
   },
   {
     "id": "bw-802-original",
@@ -14144,7 +14155,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Earthquake 18-inch folded-horn variants (powered EL-36DP, passive EL-36D, JE-36 junior) carry different published specs and the catalog row does not identify one; none transferred."
   },
   {
     "id": "beolab-5",
@@ -14205,7 +14216,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred."
   },
   {
     "id": "sonos-arc",
@@ -14266,7 +14277,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc."
+    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-arc share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them."
   },
   {
     "id": "sonos-beam",
@@ -17065,23 +17076,26 @@
     "model": "Motion 40",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 4,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 92,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "sourceType": "MANUFACTURER",
+      "reference": "2.83V/1m"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 40,
+      "high_hz": 25000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "+/-3 dB per manufacturer brochure"
     },
     "power": {
       "value": null,
@@ -17091,11 +17105,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "sourceType": "MANUFACTURER"
     },
     "resonantFreq": {
       "value": null,
@@ -17112,13 +17126,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 6.5,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "sourceType": "MANUFACTURER"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "MartinLogan official Motion Series brochure for the Motion 40: 40-25,000 Hz +/-3 dB; sensitivity 92 dB @ 2.83 volts/meter (stored as 2.83V/1m, the dataset's existing reference label for the same 2.83 V at 1 m measurement); 4 ohms nominal, compatible with 4/6/8 ohm amplifiers; crossover 500 and 2,600 Hz; drivers: 1 x 1 in x 1.4 in folded Motion tweeter, 1 x 5.5 in aluminum midrange, 2 x 6.5 in aluminum-cone woofers (driverCount 4 counts transducers; woofer value is the 6.5-inch driver). Recommended amplifier power 20-300 W is a range and is not stored as a scalar. Dispersion 80 x 80 degrees is a published coverage angle and is not a polar dataset. The later Motion 40i listings share these figures; they are not transferred to a separately-named record and no 40i-specific values are imported. Source: https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf."
   },
   {
     "id": "martinlogan-motion-20",
@@ -17736,7 +17750,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Manufacturer page for the exact Model 1 not located. Totem's current page is for the Model-1 Signature Center; secondary sources describe Model 1 and Model 1 Signature with different drivers and specs; none transferred."
   },
   {
     "id": "psb-synchrony-t600",
@@ -17806,23 +17820,26 @@
     "model": "Model T",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": null,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 89,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://bryston.com/passive/model-t/",
+      "sourceType": "MANUFACTURER",
+      "reference": "unspecified by source"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 25,
+      "high_hz": 20000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://bryston.com/passive/model-t/",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "+/-3 dB per Bryston passive Model T page"
     },
     "power": {
       "value": null,
@@ -17832,11 +17849,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://bryston.com/passive/model-t/",
+      "sourceType": "MANUFACTURER"
     },
     "resonantFreq": {
       "value": null,
@@ -17853,13 +17870,14 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 8,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://bryston.com/passive/model-t/",
+      "sourceType": "MANUFACTURER",
+      "notes": "three 8-inch bass drivers per Bryston spec"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Bryston official passive Model T page (bryston.com/passive/model-t): frequency response 25 Hz - 20 kHz +/-3 dB; impedance 4 ohms; sensitivity 89 dB with no reference stated by the source, so the reference is recorded as unspecified (a retailer copy of the active variant quotes 89 dB at 1 W / 1 m anechoic, which is not used). Triple 8-inch bass drivers (woofer size 8 in), dual titanium dome tweeters, and anodized aluminum midranges; the page does not state a midrange count, so driverCount is not stored. Dimensions 10.5 x 52.5 x 16.5 in; 107 lb. Recommended power 100-500 W per speaker is a range and is not stored as a scalar. The Model T Active (bi-amplified, retailer listing) is a separate configuration and its values are not used. Dynamic range 118 dB @ 1 m anechoic is a marketing figure and is not stored. Source: https://bryston.com/passive/model-t/."
   },
   {
     "id": "klipsch-awr650sm",
@@ -17983,7 +18001,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Sonance Mariner MX62 and MX66 retailer pages were found; these are not the exact 'Mariner 6' catalog row. No values transferred."
   },
   {
     "id": "legacy-jbl-1",
@@ -18973,7 +18991,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact variant not established. The Bowers & Wilkins CWM8 family has several variants (for example CWM8.3 D and CWM8.5 D) with different specs; retailer copies only; none transferred."
   },
   {
     "id": "legacy-bw-10",
@@ -19716,7 +19734,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "UNRESOLVED — fetched Focal-authored manuals identify ‘Scala Utopia’ and ‘Scala V2 Utopia’, and Focal’s product-history page describes the Scala Utopia Evo as an evolution of the Utopia III generation launched in 2008. None identifies a separate product using the exact database label ‘Utopia III Scala’ or establishes whether this reversed-name row is an alias of ‘Scala Utopia III’ or a different revision. The non-Evo manuals publish different response lower limits (28 Hz versus 27 Hz), so no values are copied and no alias/deduplication is assumed. Retain all physical/acoustic fields as N/A pending exact identity and revision evidence. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11; https://media.focal-naim.com/dam/scala-utopia-evo/notice_scalautopiaevo_web.pdf; https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/."
+    "notes": "UNAVAILABLE - this row ('Utopia III Scala') appears to name the same product family as focal-utopia-scala ('Scala Utopia III'). The only Focal manual located is for the SCALA UTOPIA III EVO, and the catalog does not establish which generation or whether either row is the EVO. No values transferred between the rows or from the EVO manual. Both records are retained for historical traceability; they should be reviewed for merge only with a confirmed exact product identity. Catalog ID preserved; physical fields remain N/A. Source consulted: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf."
   },
   {
     "id": "legacy-focal-5",
@@ -19786,23 +19804,26 @@
     "model": "Kanta No2",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNAVAILABLE",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 4,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 91,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
+      "sourceType": "REPUTABLE_DATABASE",
+      "reference": "2.83V/1m"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 35,
+      "high_hz": 40000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "+/-3 dB per hi-fi+ specification list; -6 dB low-frequency point 29 Hz"
     },
     "power": {
       "value": null,
@@ -19812,11 +19833,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
+      "sourceType": "REPUTABLE_DATABASE"
     },
     "resonantFreq": {
       "value": null,
@@ -19833,13 +19854,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 6.5,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
+      "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "UNAVAILABLE as a separate speaker identity — Focal's official product data sheet names the model ‘Kanta N°2’ and the dataset already contains the exact, source-backed canonical record `focal-kanta-n-2` for that speaker. ‘No2’ is the plain-text rendering of the same number designation; no distinct Kanta model or revision called ‘Kanta No2’ was established. To avoid duplicating one physical product or its acoustic values, this legacy alias is retained with all physical/acoustic fields N/A and no copied specifications. Canonical exact-model data: https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf. The catalog ID is preserved as an unavailable alias and is not assigned a second copy of the canonical speaker specifications."
+    "notes": "Secondary technical specification: hi-fi+ review of the Focal Kanta N°2 floorstanding loudspeaker (2024). Revision note: the hi-fi+ review describes the current Kanta N°2 and the record does not name a production run, so no earlier-revision values are transferred. Driver complement per the review: 1 x 27 mm IAL3 beryllium inverted dome tweeter, 1 x 165 mm flax midrange with TMD, 2 x 165 mm flax woofers (driverCount 4). Sensitivity 91 dB at 2.83 V / 1 m; nominal 8 ohms with 3.1 ohm minimum; recommended amplifier power (40-300 W, per other sources) is a range and is not stored. Crossover 260 Hz - 2.7 kHz. Woofer size is the 6.5-inch (165 mm) LF driver. Not verified against the Focal manufacturer page, which was not located in the research pass. Source: https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/."
   },
   {
     "id": "legacy-focal-8",
@@ -20772,9 +20793,9 @@
     "model": "HR624",
     "category": "studio-monitor",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
-    "active": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -20784,11 +20805,13 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 52,
+      "high_hz": 20000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "flat response +/-1.5 dB, 52 Hz to 20 kHz, per the original HR624 manual excerpt"
     },
     "power": {
       "value": null,
@@ -20819,13 +20842,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 6.7,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Secondary copy of the Mackie HR624 (original, not MK2) owner's manual, hosted by ManualsLib: active 2-way, bi-amplified studio monitor with a 6.7-inch (170 mm) die-cast LF driver and 1-inch titanium/aluminum HF dome, plus a rear passive radiator (not counted as a driver). Frequency response +/-1.5 dB 52 Hz - 20 kHz; LF amplifier 100 W rms, HF amplifier 40 W rms. The LF and HF amplifier ratings are not summed into one scalar power value (not a single published figure). Sensitivity and impedance per driver are listed in the manual's technical data but the excerpt's exact-model match with the catalog row is by model name only and so no sensitivity is entered from this copy. The HR624 MK2 manual is a different revision and its values are not used. Official Mackie original-HR624 PDF not located in this pass. Source: https://www.manualslib.com/manual/293781/Mackie-Hr624.html."
   },
   {
     "id": "legacy-mack-3",
@@ -20947,7 +20970,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred."
   },
   {
     "id": "legacy-mack-5",
@@ -21008,7 +21031,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Retailer copies for Thump15 and Thump15A differ; Mackie official page not located; none transferred."
   },
   {
     "id": "legacy-mack-6",
@@ -21069,7 +21092,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Third-party copies conflict between SRM450 and SRM450v3 figures; Mackie official page not located; none transferred."
   },
   {
     "id": "legacy-mack-7",
@@ -22190,7 +22213,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. No driver diameters or standardized response limits are asserted; sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300."
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. No driver diameters or standardized response limits are asserted; sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-era-300 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them."
   },
   {
     "id": "legacy-bose-2",
@@ -22559,7 +22582,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio archive PDFs (W8_EN, W1_EN, W8LSER) mix several Wavefront variants with per-driver specs; bare 'Wavefront 8' is not established; none transferred."
   },
   {
     "id": "legacy-ma-2",
@@ -22620,7 +22643,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio F2 official page not located; the search returned only the unrelated MartinLogan Foundation F2. No values transferred."
   },
   {
     "id": "legacy-ma-3",
@@ -22690,9 +22713,9 @@
     "model": "MLA",
     "category": "pa",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
-    "active": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 7,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -22702,11 +22725,13 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 52,
+      "high_hz": 18000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://martin-audio.com/products/loudspeakers/mla",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "+/-3 dB on-axis per Martin Audio MLA page"
     },
     "power": {
       "value": null,
@@ -22737,13 +22762,14 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 12,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://martin-audio.com/products/loudspeakers/mla",
+      "sourceType": "MANUFACTURER",
+      "notes": "two 12-inch horn-loaded LF drivers"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Martin Audio official MLA product page (martin-audio.com): 2 x 12 inch powered three-way line-array element; on-axis frequency response 52 Hz - 18 kHz +/-3 dB; drivers per the page: two 12-inch horn-loaded LF, two 6.5-inch midrange, three 1-inch exit compression HF (driverCount 7 counts transducers). Self-powered (active) with integral six-channel Class-D amplifier module. The page gives maximum SPL per band in continuous and peak forms and amplifier power per band on the Martin Audio Italy mirror page; those are multi-band figures and are not collapsed into one speaker power or sensitivity value. Sensitivity is not published on the MLA page, so none is entered. MLA Compact (10-inch, 65 Hz-18 kHz) is a separate model and is not merged. Source: https://martin-audio.com/products/loudspeakers/mla."
   },
   {
     "id": "legacy-la-1",
@@ -22804,7 +22830,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source."
   },
   {
     "id": "legacy-la-2",
@@ -22865,7 +22891,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred."
   },
   {
     "id": "legacy-la-3",
@@ -22926,7 +22952,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): KARA vs KARA II retailer copies conflict on configuration and frequency response; exact model not established; none transferred."
   },
   {
     "id": "legacy-la-4",
@@ -23170,7 +23196,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred."
   },
   {
     "id": "genelec-8020d",
@@ -26280,37 +26306,42 @@
     "model": "ZX1",
     "category": "pa",
     "year": null,
-    "overallStatus": "UNAVAILABLE",
-    "driverCount": null,
-    "active": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
+    "active": false,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 92,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://products.electrovoice.com/emea/en/zx1",
+      "sourceType": "MANUFACTURER",
+      "reference": "1W/1m"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 60,
+      "high_hz": 20000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://products.electrovoice.com/emea/en/zx1",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "-3 dB; -10 dB range 48 Hz - 20 kHz is listed separately on the same manufacturer page"
     },
     "power": {
-      "value": null,
+      "value": 200,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://products.electrovoice.com/emea/en/zx1",
+      "sourceType": "MANUFACTURER",
+      "role": "speaker_power_handling",
+      "notes": "continuous (long-term) rated power only; program 400 W and peak 800 W are separate definitions and are not stored as continuous power"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://products.electrovoice.com/emea/en/zx1",
+      "sourceType": "MANUFACTURER"
     },
     "resonantFreq": {
       "value": null,
@@ -26327,13 +26358,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 8,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://products.electrovoice.com/emea/en/zx1",
+      "sourceType": "MANUFACTURER"
     },
-    "notes": "UNRESOLVED — the catalog label 'ZX1' does not identify a specific horn/model suffix or revision. Fetching the official EV route for ZX1 resolved to the specific 'Zx1 90' page (https://www.electrovoice.com/product/zx1-90), which describes a 90° × 50° version but did not expose a complete specifications table in the fetched page. The fetched ZX1-family brochure (hosted copy: https://manualzz.com/doc/40471422/electro-voice-zx1-90-brochure-and-specs) explicitly distinguishes portable ZX1-90 from installation ZX1i-90, ZX1i-100 and ZX1i-100T variants, with different sensitivity/coverage across its listed variants. No suffix-specific or installation-version data is assigned to the bare ZX1 record; its physical fields remain N/A pending exact product/revision identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+    "notes": "Electro-Voice EMEA official product page for the ZX1: 8-inch 2-way passive full-range composite loudspeaker; EV8L 8-inch LF transducer and DH2005 1-inch exit compression driver (driverCount 2); axial sensitivity 92 dB (1 W/1 m); nominal impedance 8 ohms, minimum 6 ohms; crossover 1.7 kHz; rated system power 200 W continuous / 400 W program / 800 W peak (only the continuous value is stored); frequency response -3 dB 60 Hz - 20 kHz, -10 dB 48 Hz - 20 kHz (the -3 dB limits are stored); coverage 100 x 100 deg on the EMEA page (retailer listings give 90 x 50 deg and are not used). Not the ZX1i (powered) or ZX1-90 variants. Dimensions 457 x 282 x 264 mm; net weight 8.4 kg. Source: https://products.electrovoice.com/emea/en/zx1."
   },
   {
     "id": "electro-voice-zx1i",
@@ -38945,7 +38976,7 @@
     },
     "driverCount": 6,
     "panel": null,
-    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300."
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and legacy-sonos-6 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them."
   },
   {
     "id": "sonos-sonos-five",
@@ -39006,7 +39037,7 @@
     },
     "driverCount": 6,
     "panel": null,
-    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with sonos-five. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/five."
+    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with sonos-five. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-five share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them."
   },
   {
     "id": "sonos-sonos-move-2",
@@ -39189,7 +39220,7 @@
     },
     "driverCount": 11,
     "panel": null,
-    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. Kept as a separate existing database record; it is not merged with sonos-arc. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc."
+    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. Kept as a separate existing database record; it is not merged with sonos-arc. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-arc share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them."
   },
   {
     "id": "sonos-sonos-arc-ultra",
@@ -40285,9 +40316,9 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 13,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Sony official HT-A9000 specification page (sony.com), the BRAVIA Theater Bar 9 (HT-A9000): speaker structure 7.0.2ch with 13 speaker units; dual subwoofer; amplifier channels 13 (UK page). Driver count 13 is Sony's stated unit count. Sony's published total amplifier output (585 W) is quoted on the Sony sonyofficial.com marketing page and by retailers with an unstated RMS/peak basis, so it is not stored as a speaker power value. No sensitivity, impedance, or frequency response is published on the Sony page. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications."
   },
   {
     "id": "sony-sony-bravia-theatre-bar-8",
@@ -40356,7 +40387,7 @@
     "model": "Sony HT-A7000",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
       "value": null,
@@ -40366,11 +40397,13 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 500,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+      "sourceType": "MANUFACTURER",
+      "role": "amplifier_output",
+      "notes": "Sony 'Power Output (Total)' 500 W; the RMS vs peak basis is not stated by the source; total system amplifier output, not per-driver or continuous speaker power"
     },
     "impedance": {
       "value": null,
@@ -40407,9 +40440,9 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 11,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Sony official HT-A7000 specification page (sony.com): 7.1.2ch soundbar with built-in subwoofer; amplifier channels 11ch; 'Power Output (Total)' 500 W (basis not stated, so stored only as amplifier_output with that caveat). Driver count 11 is derived from Sony's stated configuration on the regional HT-A7000 page: two up-firing speakers, two beam tweeters, five front speakers, and a built-in dual subwoofer (2+2+5+2). Sony's 'amplifier channels 11ch' figure is not used as a driver count on its own. No sensitivity, impedance, or frequency response is published on the page. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications."
   },
   {
     "id": "sony-sony-ht-a5000",
@@ -43508,28 +43541,31 @@
     "model": "Excelon KFC-XP6903C",
     "category": "custom",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
-      "value": null,
+      "value": 84,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
+      "sourceType": "MANUFACTURER",
+      "reference": "unspecified by source"
     },
     "power": {
-      "value": null,
+      "value": 100,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
+      "sourceType": "MANUFACTURER",
+      "role": "speaker_power_handling",
+      "notes": "RMS input power per CTA standards (continuous); peak input power 300 W is a separate definition and is not stored"
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
+      "sourceType": "MANUFACTURER"
     },
     "resonantFreq": {
       "value": null,
@@ -43553,15 +43589,17 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 45,
+      "high_hz": 23000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "CTA standards frequency response 45-23,000 Hz per Kenwood page; tolerance not stated"
     },
-    "driverCount": null,
+    "driverCount": 3,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Kenwood USA official product page for the eXcelon KFC-XP6903C (car component set): 6x9-inch shallow PP-cone woofer (oval; not stored as a single diameter), 3.5-inch 2-way mid-high (PP-cone midrange with silk balanced-dome 1-inch tweeter); driverCount 3 is the woofer plus midrange plus tweeter listed on the page. Sensitivity 84 dB (listed as dB at 1 m, CTA standards); the source does not state the 1 W/1 m or 2.83 V reference, so the reference is recorded as unspecified. Impedance 4 ohms. RMS input power 100 W (CTA) stored as continuous/RMS; peak input 300 W not stored as continuous. Crossover 850 Hz, 6 dB/oct (the page lists -6 dB/oct at 850 Hz for both woofer and midrange). Source: https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/."
   },
   {
     "id": "rockford-fosgate-r165x3",
@@ -44124,7 +44162,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Morel official page not located. Not searched to field level in this pass; no values transferred from Virtus 602."
   },
   {
     "id": "morel-virtus-602",
@@ -44185,7 +44223,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer sensitivities conflict (88, 90 and 91 dB); no Morel official page located; none transferred."
   },
   {
     "id": "morel-elate-carbon-62a",
@@ -44433,7 +44471,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only retailer copies (87 dB, 4 ohm, 40 Hz-26 kHz, 150 W continuous / 300 W peak) of the TH K2 II A CORO component set were found; no Audison official page located; not field sources; none transferred."
   },
   {
     "id": "sonus-faber-lumina-i",
@@ -49740,7 +49778,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mesa official legacy page lists a Standard OS Slant Rectifier 4x12 (Celestion Vintage 30, 240 W, 8 ohm mono / 4 ohm stereo). The catalog row does not specify slant, straight or OS, so the exact variant is not established and no values are entered."
   },
   {
     "id": "mesa-boogie-2x12-rectifier",
@@ -49801,7 +49839,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Not established as an exact Mesa/Boogie product in this pass; no values transferred from the 4x12 cabinet."
   },
   {
     "id": "mesa-boogie-fillmore-2x12",
@@ -50046,7 +50084,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred."
   },
   {
     "id": "bang-olufsen-beosound-a5",
@@ -50970,7 +51008,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): No PMC official TB2 page located. The PMC archive page found is for the TB2S+ (a different model). Retailer copies conflict between TB2 and TB2+ (40 Hz-25 kHz, 90 dB); none transferred."
   },
   {
     "id": "pmc-bb5-xbd-a",
@@ -51031,7 +51069,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred."
   },
   {
     "id": "jbl-708p",

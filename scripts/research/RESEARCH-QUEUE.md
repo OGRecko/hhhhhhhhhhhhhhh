@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **148** of 774 (74 UNVERIFIED, 74 UNAVAILABLE) across 52 brands.
+Records still needing research: **137** of 774 (62 UNVERIFIED, 75 UNAVAILABLE) across 47 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -13,23 +13,22 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Monitor Audio | 10 | Silver 500 (`monitor-audio-silver-500`); Bronze 50 (`monitor-audio-bronze-50`); Bronze 100 (`monitor-audio-bronze-100`); Bronze 200 (`monitor-audio-bronze-200`); Bronze 500 (`monitor-audio-bronze-500`); Silver 50 (`monitor-audio-silver-50`); Silver 100 (`monitor-audio-silver-100`); Silver 300 (`monitor-audio-silver-300`); Creator Q50 (`monitor-audio-creator-q50`); Creator Q250 (`monitor-audio-creator-q250`) |
 | Samsung | 6 | Samsung HW-Q990D (`samsung-samsung-hw-q990d`); Samsung HW-Q990F (`samsung-samsung-hw-q990f`); Samsung HW-Q930D (`samsung-samsung-hw-q930d`); Samsung HW-Q800D (`samsung-samsung-hw-q800d`); Samsung HW-Q700D (`samsung-samsung-hw-q700d`); Samsung HW-S800D (`samsung-samsung-hw-s800d`) |
 | Bowers & Wilkins | 5 | 802 (1979 original) (`bw-802-original`); 800 D4 (`bw-800-d4`); CWM8 (`legacy-bw-9`); CCM8 (`legacy-bw-10`); Zeppelin (`bowers-wilkins-zeppelin`) |
-| Sony | 5 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`); Sony HT-A7000 (`sony-sony-ht-a7000`); Sony HT-A5000 (`sony-sony-ht-a5000`); Sony HT-A3000 (`sony-sony-ht-a3000`) |
 | Fender | 5 | Twin Reverb (`fender-twin-reverb`); Deluxe Reverb (`fender-deluxe-reverb`); Hot Rod Deluxe (`fender-hot-rod-deluxe`); Princeton Reverb (`fender-princeton-reverb`); Super Reverb (`fender-super-reverb`) |
-| Electro-Voice | 4 | Live X X2 (`eV-live-x2`); ZX1 (`electro-voice-zx1`); ZX1i (`electro-voice-zx1i`); EVF-1152D (`electro-voice-evf-1152d`) |
-| Focal | 4 | Scala Utopia III (`focal-utopia-scala`); Utopia III Scala (`legacy-focal-3`); Kanta No2 (`legacy-focal-7`); Shape 80 (`focal-shape-80`) |
-| Mackie | 4 | HR624 (`legacy-mack-2`); CR3 (`legacy-mack-4`); Thump15 (`legacy-mack-5`); SRM450 (`legacy-mack-6`) |
 | L-Acoustics | 4 | V-DOSC (`legacy-la-1`); ARCS (`legacy-la-2`); Kara (`legacy-la-3`); X15 (`legacy-la-7`) |
+| Sony | 4 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`); Sony HT-A5000 (`sony-sony-ht-a5000`); Sony HT-A3000 (`sony-sony-ht-a3000`) |
 | JL Audio | 4 | C7-650 (`jl-audio-c7-650`); 10W0v3 (`jl-audio-10w0v3`); 12W0v3 (`jl-audio-12w0v3`); 13W7AE (`jl-audio-13w7ae`) |
 | PreSonus | 4 | Eris 3.5 (`presonus-eris-3-5`); Eris 5 (`presonus-eris-5`); Eris 6 (`presonus-eris-6`); Eris 8 (`presonus-eris-8`) |
 | Bang & Olufsen | 3 | Beovox S45 (`bang-olufsen-beovox-s45`); BeoLab 5 (`beolab-5`); Beosound 2 (`bang-olufsen-beosound-2`) |
+| Electro-Voice | 3 | Live X X2 (`eV-live-x2`); ZX1i (`electro-voice-zx1i`); EVF-1152D (`electro-voice-evf-1152d`) |
 | Peavey | 3 | SP 2 (`peavey-sp2`); 6505 412 (`peavey-6505-412`); 5150 412 (`peavey-5150-412`) |
+| Focal | 3 | Scala Utopia III (`focal-utopia-scala`); Utopia III Scala (`legacy-focal-3`); Shape 80 (`focal-shape-80`) |
 | Klipsch | 3 | Cornwall (`legacy-klip-3`); La Scala (`legacy-klip-4`); RF-8000F (`klipsch-rf-8000f`) |
-| Martin Audio | 3 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`); MLA (`legacy-ma-4`) |
+| Mackie | 3 | CR3 (`legacy-mack-4`); Thump15 (`legacy-mack-5`); SRM450 (`legacy-mack-6`) |
 | Infinity | 2 | RS-1B (`infinity-rs1`); Kappa 9 (`infinity-kappa-9`) |
 | Cerwin Vega | 2 | D-9 (`cerwin-vega-d9`); Earthquake (`cerwin-vega-earthquake`) |
 | Boston Acoustics | 2 | A150 (`boston-a150`); VR-M50 (`boston-vr-m50`) |
-| Wilson Audio | 2 | WATT/Puppy 8 (`wilson-watt-puppy`); Alexia (`wilson-audio-alexia`) |
 | KEF | 2 | Ci200 (`legacy-kef-10`); Blade Meta (`kef-blade-meta`) |
+| Martin Audio | 2 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`) |
 | QSC | 2 | CP15 (`qsc-cp15`); AD-C8T (`qsc-ad-c8t`) |
 | LG | 2 | LG S95TR (`lg-lg-s95tr`); LG SC9S (`lg-lg-sc9s`) |
 | Morel | 2 | Maximo Ultra 602 (`morel-maximo-ultra-602`); Virtus 602 (`morel-virtus-602`) |
@@ -39,7 +38,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | RCF | 1 | ART 312-A MK5 (`rcf-art312a`) |
 | Community | 1 | CS215 (`community-cs215`) |
 | Turbosound | 1 | TCS-115 (`turbosound-tcs-115`) |
-| ProAc | 1 | Response D2 (`proac-response-d2`) |
 | Thiel | 1 | CS2.4 (`thiel-cs2.4`) |
 | Apogee Acoustics | 1 | Scintilla (`apogee-scintilla`) |
 | Kali Audio | 1 | IN-8 (`kali-in8`) |
@@ -47,16 +45,13 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Rogers | 1 | LS3/5a (`rogers-ls3-5a`) |
 | Wharfedale | 1 | W60 (`wharfedale-w60`) |
 | Tannoy | 1 | Autograph (`tannoy-autograph`) |
-| Ohm Acoustics | 1 | Walsh 2 (`ohm-walsh-2`) |
 | Apple | 1 | HomePod (2nd gen) (`apple-homepod`) |
 | Amazon | 1 | Echo (4th gen) (`amazon-echo`) |
-| MartinLogan | 1 | Motion 40 (`martinlogan-motion-40`) |
 | Genelec | 1 | 7060C (`genelec-7060c`) |
 | Totem Acoustic | 1 | Model 1 (`totem-model1`) |
-| Bryston | 1 | Model T (`bryston-model-t`) |
 | Sonance | 1 | Mariner 6 (`sonance-mariner-6`) |
 | JBL | 1 | Ranger Paragon D44000 (`legacy-jbl-2`) |
 | Yamaha | 1 | VXC series (`legacy-yam-8`) |
 | Pioneer | 1 | TS-A1607F (`pioneer-ts-a1607f`) |
-| Kenwood | 1 | Excelon KFC-XP6903C (`kenwood-excelon-kfc-xp6903c`) |
 | Audison | 1 | Thesis TH K2 II A (`audison-thesis-th-k2-ii-a`) |
+| Wilson Audio | 1 | Alexia (`wilson-audio-alexia`) |

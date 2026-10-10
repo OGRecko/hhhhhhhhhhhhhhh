@@ -1,0 +1,11 @@
+[
+  {
+    "id": "sony-sony-bravia-theatre-bar-9",
+    "model_check": "BRAVIA Theatre Bar 9",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications",
+    "fields": {},
+    "scalars": { "driverCount": 13 },
+    "notes": "Sony official HT-A9000 specification page (sony.com), the BRAVIA Theater Bar 9 (HT-A9000): speaker structure 7.0.2ch with 13 speaker units; dual subwoofer; amplifier channels 13 (UK page). Driver count 13 is Sony's stated unit count. Sony's published total amplifier output (585 W) is quoted on the Sony sonyofficial.com marketing page and by retailers with an unstated RMS/peak basis, so it is not stored as a speaker power value. No sensitivity, impedance, or frequency response is published on the Sony page. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications."
+  }
+]

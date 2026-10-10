@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-08 from the authoritative dataset. 601 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 612 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -787,6 +787,13 @@ The source is attached to the exact field it supports. A source URL here does no
 - Genelec 1032C — power
 - Genelec 1032C — woofer size
 
+## https://bryston.com/passive/model-t/
+
+- Bryston Model T — frequency-response limits
+- Bryston Model T — impedance
+- Bryston Model T — sensitivity
+- Bryston Model T — woofer size
+
 ## https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html
 
 - Yamaha NS-690 — woofer size
@@ -1190,6 +1197,13 @@ The source is attached to the exact field it supports. A source URL here does no
 
 - QSC AD-C4T — woofer size
 
+## https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/
+
+- Focal Kanta No2 — frequency-response limits
+- Focal Kanta No2 — impedance
+- Focal Kanta No2 — sensitivity
+- Focal Kanta No2 — woofer size
+
 ## https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/
 
 - Yamaha NS-10M — impedance
@@ -1504,6 +1518,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - Martin Audio CDD12 — voice-coil size
 - Martin Audio CDD12 — woofer size
 
+## https://martin-audio.com/products/loudspeakers/mla
+
+- Martin Audio MLA — frequency-response limits
+- Martin Audio MLA — woofer size
+
 ## https://mea.yamaha.com/en/business/audio/products/speakers/dxr/specs.html
 
 - Yamaha DXR10 — frequency-response limits
@@ -1634,6 +1653,12 @@ The source is attached to the exact field it supports. A source URL here does no
 - Turbosound iP15B — frequency-response limits
 - Turbosound iP15B — source-backed response points (manufacturer)
 - Turbosound iP15B — woofer size
+
+## https://ohmspeaker.com/legacy-products/2/
+
+- Ohm Acoustics Walsh 2 — frequency-response limits
+- Ohm Acoustics Walsh 2 — impedance
+- Ohm Acoustics Walsh 2 — sensitivity
 
 ## https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf
 
@@ -1827,6 +1852,14 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice SX300 — power
 - Electro-Voice SX300 — sensitivity
 - Electro-Voice SX300 — woofer size
+
+## https://products.electrovoice.com/emea/en/zx1
+
+- Electro-Voice ZX1 — frequency-response limits
+- Electro-Voice ZX1 — impedance
+- Electro-Voice ZX1 — power
+- Electro-Voice ZX1 — sensitivity
+- Electro-Voice ZX1 — woofer size
 
 ## https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf
 
@@ -2999,6 +3032,13 @@ The source is attached to the exact field it supports. A source URL here does no
 - Pioneer HPM-100 — sensitivity
 - Pioneer HPM-100 — woofer size
 
+## https://www.hifiengine.com/manual_library/proac/response-d2.shtml
+
+- ProAc Response D2 — frequency-response limits
+- ProAc Response D2 — impedance
+- ProAc Response D2 — sensitivity
+- ProAc Response D2 — woofer size
+
 ## https://www.hifiengine.com/manual_library/yamaha/ns-1000m.shtml
 
 - Yamaha NS-1000M — frequency-response limits
@@ -3111,6 +3151,13 @@ The source is attached to the exact field it supports. A source URL here does no
 - Kenwood KFC-1666S — impedance
 - Kenwood KFC-1666S — power
 - Kenwood KFC-1666S — woofer size
+
+## https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/
+
+- Kenwood Excelon KFC-XP6903C — frequency-response limits
+- Kenwood Excelon KFC-XP6903C — impedance
+- Kenwood Excelon KFC-XP6903C — power
+- Kenwood Excelon KFC-XP6903C — sensitivity
 
 ## https://www.kicker.com/47KSC650
 
@@ -3269,6 +3316,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - KEF Q100 — sensitivity
 - KEF Q100 — woofer size
 
+## https://www.manualslib.com/manual/293781/Mackie-Hr624.html
+
+- Mackie HR624 — frequency-response limits
+- Mackie HR624 — woofer size
+
 ## https://www.manualslib.com/manual/365796/Altec-Lansing-A7.html
 
 - Altec Lansing A7 Voice of the Theatre — frequency-response limits
@@ -3396,6 +3448,13 @@ The source is attached to the exact field it supports. A source URL here does no
 - MartinLogan Motion 60XT — impedance
 - MartinLogan Motion 60XT — sensitivity
 - MartinLogan Motion 60XT — woofer size
+
+## https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf
+
+- MartinLogan Motion 40 — frequency-response limits
+- MartinLogan Motion 40 — impedance
+- MartinLogan Motion 40 — sensitivity
+- MartinLogan Motion 40 — woofer size
 
 ## https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/
 
@@ -3865,6 +3924,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - Sonus Faber Lumina I — sensitivity
 - Sonus Faber Lumina I — woofer size
 
+## https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications
+
+- Sony Sony HT-A7000 — power
+
 ## https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench
 
 - Bowers & Wilkins CM10 — frequency-response limits
@@ -4068,6 +4131,13 @@ The source is attached to the exact field it supports. A source URL here does no
 - Wharfedale Linton Heritage — frequency-response limits
 - Wharfedale Linton Heritage — impedance
 - Wharfedale Linton Heritage — woofer size
+
+## https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8
+
+- Wilson Audio WATT/Puppy 8 — frequency-response limits
+- Wilson Audio WATT/Puppy 8 — impedance
+- Wilson Audio WATT/Puppy 8 — sensitivity
+- Wilson Audio WATT/Puppy 8 — woofer size
 
 ## https://www.zzounds.com/item--VOXV212
 

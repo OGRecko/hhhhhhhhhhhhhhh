@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ohm-walsh-2",
+    "model_check": "Walsh 2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://ohmspeaker.com/legacy-products/2/",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm", "notes": "typical" },
+      "frequencyResponse": { "low_hz": 42, "high_hz": 17000, "unit": "Hz", "notes": "+/-3 dB per Ohm legacy-products page" }
+    },
+    "scalars": {},
+    "notes": "Ohm Acoustics official legacy-products page for the Walsh 2 (manufacturer): production period 1982-1989; frequency response 42-17,000 Hz (+/-3 dB); sensitivity 88 dB measured at 2.8 V (stored as 2.83V/1m, the dataset convention for the same 2.83 V / 1 m reference; the page states 2.8 V); impedance 4 ohms typical. Amplifiers recommended 125 W is a recommendation and is not stored as a power rating. Dimensions 11 x 11 x 32 in (legacy page). The record has no production year; the values apply to the 1982-1989 Walsh 2 documented on the manufacturer's legacy page. No driver count is stored from this page (it does not state one); a secondary vintage-retailer description of a down-firing Walsh driver plus conventional tweeter is not used. Source: https://ohmspeaker.com/legacy-products/2/."
+  },
+  {
+    "id": "bryston-model-t",
+    "model_check": "Model T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://bryston.com/passive/model-t/",
+    "fields": {
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "unspecified by source" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in", "notes": "three 8-inch bass drivers per Bryston spec" },
+      "frequencyResponse": { "low_hz": 25, "high_hz": 20000, "unit": "Hz", "notes": "+/-3 dB per Bryston passive Model T page" }
+    },
+    "scalars": {},
+    "notes": "Bryston official passive Model T page (bryston.com/passive/model-t): frequency response 25 Hz - 20 kHz +/-3 dB; impedance 4 ohms; sensitivity 89 dB with no reference stated by the source, so the reference is recorded as unspecified (a retailer copy of the active variant quotes 89 dB at 1 W / 1 m anechoic, which is not used). Triple 8-inch bass drivers (woofer size 8 in), dual titanium dome tweeters, and anodized aluminum midranges; the page does not state a midrange count, so driverCount is not stored. Dimensions 10.5 x 52.5 x 16.5 in; 107 lb. Recommended power 100-500 W per speaker is a range and is not stored as a scalar. The Model T Active (bi-amplified, retailer listing) is a separate configuration and its values are not used. Dynamic range 118 dB @ 1 m anechoic is a marketing figure and is not stored. Source: https://bryston.com/passive/model-t/."
+  },
+  {
+    "id": "legacy-ma-4",
+    "model_check": "MLA",
+    "sourceType": "MANUFACTURER",
+    "source": "https://martin-audio.com/products/loudspeakers/mla",
+    "fields": {
+      "woofer": { "value": 12, "unit": "in", "notes": "two 12-inch horn-loaded LF drivers" },
+      "frequencyResponse": { "low_hz": 52, "high_hz": 18000, "unit": "Hz", "notes": "+/-3 dB on-axis per Martin Audio MLA page" }
+    },
+    "scalars": { "driverCount": 7, "active": true },
+    "notes": "Martin Audio official MLA product page (martin-audio.com): 2 x 12 inch powered three-way line-array element; on-axis frequency response 52 Hz - 18 kHz +/-3 dB; drivers per the page: two 12-inch horn-loaded LF, two 6.5-inch midrange, three 1-inch exit compression HF (driverCount 7 counts transducers). Self-powered (active) with integral six-channel Class-D amplifier module. The page gives maximum SPL per band in continuous and peak forms and amplifier power per band on the Martin Audio Italy mirror page; those are multi-band figures and are not collapsed into one speaker power or sensitivity value. Sensitivity is not published on the MLA page, so none is entered. MLA Compact (10-inch, 65 Hz-18 kHz) is a separate model and is not merged. Source: https://martin-audio.com/products/loudspeakers/mla."
+  },
+  {
+    "id": "kenwood-excelon-kfc-xp6903c",
+    "model_check": "KFC-XP6903C",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
+    "fields": {
+      "sensitivity": { "value": 84, "unit": "dB", "reference": "unspecified by source" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling", "notes": "RMS input power per CTA standards (continuous); peak input power 300 W is a separate definition and is not stored" },
+      "frequencyResponse": { "low_hz": 45, "high_hz": 23000, "unit": "Hz", "notes": "CTA standards frequency response 45-23,000 Hz per Kenwood page; tolerance not stated" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Kenwood USA official product page for the eXcelon KFC-XP6903C (car component set): 6x9-inch shallow PP-cone woofer (oval; not stored as a single diameter), 3.5-inch 2-way mid-high (PP-cone midrange with silk balanced-dome 1-inch tweeter); driverCount 3 is the woofer plus midrange plus tweeter listed on the page. Sensitivity 84 dB (listed as dB at 1 m, CTA standards); the source does not state the 1 W/1 m or 2.83 V reference, so the reference is recorded as unspecified. Impedance 4 ohms. RMS input power 100 W (CTA) stored as continuous/RMS; peak input 300 W not stored as continuous. Crossover 850 Hz, 6 dB/oct (the page lists -6 dB/oct at 850 Hz for both woofer and midrange). Source: https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/."
+  },
+  {
+    "id": "sony-sony-ht-a7000",
+    "model_check": "HT-A7000",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+    "fields": {
+      "power": { "value": 500, "unit": "W", "role": "amplifier_output", "notes": "Sony 'Power Output (Total)' 500 W; the RMS vs peak basis is not stated by the source; total system amplifier output, not per-driver or continuous speaker power" }
+    },
+    "scalars": { "driverCount": 11 },
+    "notes": "Sony official HT-A7000 specification page (sony.com): 7.1.2ch soundbar with built-in subwoofer; amplifier channels 11ch; 'Power Output (Total)' 500 W (basis not stated, so stored only as amplifier_output with that caveat). Driver count 11 is derived from Sony's stated configuration on the regional HT-A7000 page: two up-firing speakers, two beam tweeters, five front speakers, and a built-in dual subwoofer (2+2+5+2). Sony's 'amplifier channels 11ch' figure is not used as a driver count on its own. No sensitivity, impedance, or frequency response is published on the page. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications."
+  }
+]

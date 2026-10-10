@@ -1,0 +1,227 @@
+[
+  {
+    "id": "wilson-watt-puppy",
+    "model_check": "WATT/Puppy 8",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+    "fields": {
+      "sensitivity": {
+        "value": 92,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 8,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 21,
+        "high_hz": 22500,
+        "unit": "Hz",
+        "notes": "+0/-3 dB, average in-room response, per the manufacturer's WATT/Puppy Series 8 technical specifications"
+      }
+    },
+    "scalars": {
+      "driverCount": 4
+    },
+    "notes": "Wilson Audio official WATT / Puppy Series 8 technical specifications page: two 8-inch woofers (20.32 cm), one 7-inch midrange and one 1-inch inverted titanium dome tweeter (driverCount 4 counts transducers). Sensitivity is published as '92 dB @ 1 watt (2.83V at one meter)'; stored as 1W/1m because the manufacturer states the 1 W reference explicitly, and the 2.83 V wording is retained here for transparency. Nominal impedance 4 ohms, minimum 3 ohms. Frequency response +0/-3 dB 21 Hz - 22.5 kHz is the manufacturer's average in-room response and is not a free-field or anechoic limit. Minimum amplifier power (7 W per channel) is not a recommended or continuous power rating and is not stored. No power handling, response points, or directivity are published on this page and none are imported. Source: https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8."
+  },
+  {
+    "id": "legacy-focal-7",
+    "model_check": "Kanta No2",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
+    "fields": {
+      "sensitivity": {
+        "value": 91,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 35,
+        "high_hz": 40000,
+        "unit": "Hz",
+        "notes": "+/-3 dB per hi-fi+ specification list; -6 dB low-frequency point 29 Hz"
+      }
+    },
+    "scalars": {
+      "driverCount": 4
+    },
+    "notes": "Secondary technical specification: hi-fi+ review of the Focal Kanta N°2 floorstanding loudspeaker (2024). Revision note: the hi-fi+ review describes the current Kanta N°2 and the record does not name a production run, so no earlier-revision values are transferred. Driver complement per the review: 1 x 27 mm IAL3 beryllium inverted dome tweeter, 1 x 165 mm flax midrange with TMD, 2 x 165 mm flax woofers (driverCount 4). Sensitivity 91 dB at 2.83 V / 1 m; nominal 8 ohms with 3.1 ohm minimum; recommended amplifier power (40-300 W, per other sources) is a range and is not stored. Crossover 260 Hz - 2.7 kHz. Woofer size is the 6.5-inch (165 mm) LF driver. Not verified against the Focal manufacturer page, which was not located in the research pass. Source: https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/."
+  },
+  {
+    "id": "proac-response-d2",
+    "model_check": "Response D2",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+    "fields": {
+      "sensitivity": {
+        "value": 88.5,
+        "unit": "dB",
+        "reference": "unspecified by source"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 30,
+        "high_hz": 30000,
+        "unit": "Hz",
+        "notes": "as listed in the hifiengine manual-library entry (Loudspeaker System, 2009-21); tolerance not stated in the excerpt"
+      }
+    },
+    "scalars": {
+      "driverCount": 2
+    },
+    "notes": "Secondary: hifiengine manual library entry for the ProAc Response D2 Loudspeaker System (2009-21): 2-way, 2-driver bass-reflex system; 1 x 165 mm (6.5 in) bass unit; 1 x 25 mm dome tweeter; 8 ohm nominal impedance; 88.5 dB sensitivity; 30 Hz-30 kHz frequency response; 430 x 203 x 260 mm; 11 kg. The excerpt does not state the sensitivity reference, so the reference is recorded as unspecified by source (a retailer copy states 1 W at 1 m, which is not used). The Response D2D (dome) and D2R (ribbon) tweeter variants are not distinguished by this entry. Recommended amplifier power (30-150 W in this source) is a range and is not stored. No manufacturer ProAc page was located in this pass. Source: https://www.hifiengine.com/manual_library/proac/response-d2.shtml."
+  },
+  {
+    "id": "thiel-cs2.4",
+    "model_check": "CS2.4",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.stereophile.com/content/thiel-cs24-loudspeaker-specifications",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE - the Thiel CS2.4 has at least two documented production runs with different published specifications, and the catalog row does not name one. Stereophile's specification sidebar (https://www.stereophile.com/content/thiel-cs24-loudspeaker-specifications) describes units reviewed with serial numbers from 1991 and 1992 (8-inch woofer, 8.5 x 11-inch passive radiator, 4 ohm nominal / 3 ohm minimum, 87 dB/2.83V/m, 36 Hz-25 kHz +/-2 dB, recommended power 100-400 W). AudioWorld's 2003 announcement of the 'new CS2.4' describes a different coincident-driver design with a 7.5 x 11-inch passive radiator and a -3 dB bandwidth of 33 Hz-37 kHz (https://audioworld.com/music-tech/2003/thiel-cs2-4-loudspeaker/). Because the revision cannot be established, no values from either run are transferred and all physical fields remain N/A. Catalog ID preserved. Source for the revision conflict: the two URLs cited above."
+  },
+  {
+    "id": "kali-in8",
+    "model_check": "IN-8",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.americanmusical.com/p/kali-audio-in-8-v2-8-3-way-powered-studio-monitor",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE - the catalog row says 'IN-8' without a generation. Kali Audio's IN-8 (first generation) and IN-8 V2 are documented with different specifications (for example, the first generation is published with 140 W Class D, -10 dB 37 Hz-25 kHz, 114 dB max SPL; the V2 retailer listing gives 85 dB continuous at 2.8 m and a 280 Hz / 2.8 kHz crossover). The record does not establish which generation is meant, so no values from either are transferred and all physical fields remain N/A. Sources consulted: https://www.americanmusical.com/p/kali-audio-in-8-v2-8-3-way-powered-studio-monitor ; https://vibetoolsng.com/products/kali-audio-in-8-studio-monitor-pair (retailer listing) ; https://www.musicradar.com/reviews/kali-audio-in-8 (review)."
+  },
+  {
+    "id": "focal-utopia-scala",
+    "model_check": "Scala Utopia III",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE - the Focal manual located for the Scala Utopia III is for the SCALA UTOPIA III EVO (3-way bass-reflex floorstander: 11 in W woofer, 6.5 in W midrange with TMD, 1.06 in IAL2 beryllium dome; +/-3 dB 27 Hz-40 kHz; 92 dB @ 2.83 V/1 m; 8 ohm nominal / 3.2 ohm minimum; recommended amplifier power 40-500 W; crossover 220 Hz / 2.4 kHz). The catalog row is 'Scala Utopia III' with no EVO designation, and a separate row (legacy-focal-3, 'Utopia III Scala') names the same family, so the revision cannot be established. The EVO values are not transferred to the un-suffixed record. Catalog ID preserved; physical fields remain N/A. Source: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf."
+  },
+  {
+    "id": "legacy-focal-3",
+    "model_check": "Utopia III Scala",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE - this row ('Utopia III Scala') appears to name the same product family as focal-utopia-scala ('Scala Utopia III'). The only Focal manual located is for the SCALA UTOPIA III EVO, and the catalog does not establish which generation or whether either row is the EVO. No values transferred between the rows or from the EVO manual. Both records are retained for historical traceability; they should be reviewed for merge only with a confirmed exact product identity. Catalog ID preserved; physical fields remain N/A. Source consulted: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf."
+  },
+  {
+    "id": "martinlogan-motion-40",
+    "model_check": "Motion 40",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+    "fields": {
+      "sensitivity": {
+        "value": 92,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 40,
+        "high_hz": 25000,
+        "unit": "Hz",
+        "notes": "+/-3 dB per manufacturer brochure"
+      }
+    },
+    "scalars": {
+      "driverCount": 4
+    },
+    "notes": "MartinLogan official Motion Series brochure for the Motion 40: 40-25,000 Hz +/-3 dB; sensitivity 92 dB @ 2.83 volts/meter (stored as 2.83V/1m, the dataset's existing reference label for the same 2.83 V at 1 m measurement); 4 ohms nominal, compatible with 4/6/8 ohm amplifiers; crossover 500 and 2,600 Hz; drivers: 1 x 1 in x 1.4 in folded Motion tweeter, 1 x 5.5 in aluminum midrange, 2 x 6.5 in aluminum-cone woofers (driverCount 4 counts transducers; woofer value is the 6.5-inch driver). Recommended amplifier power 20-300 W is a range and is not stored as a scalar. Dispersion 80 x 80 degrees is a published coverage angle and is not a polar dataset. The later Motion 40i listings share these figures; they are not transferred to a separately-named record and no 40i-specific values are imported. Source: https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf."
+  },
+  {
+    "id": "legacy-mack-2",
+    "model_check": "HR624",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 52,
+        "high_hz": 20000,
+        "unit": "Hz",
+        "notes": "flat response +/-1.5 dB, 52 Hz to 20 kHz, per the original HR624 manual excerpt"
+      },
+      "woofer": {
+        "value": 6.7,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": true
+    },
+    "notes": "Secondary copy of the Mackie HR624 (original, not MK2) owner's manual, hosted by ManualsLib: active 2-way, bi-amplified studio monitor with a 6.7-inch (170 mm) die-cast LF driver and 1-inch titanium/aluminum HF dome, plus a rear passive radiator (not counted as a driver). Frequency response +/-1.5 dB 52 Hz - 20 kHz; LF amplifier 100 W rms, HF amplifier 40 W rms. The LF and HF amplifier ratings are not summed into one scalar power value (not a single published figure). Sensitivity and impedance per driver are listed in the manual's technical data but the excerpt's exact-model match with the catalog row is by model name only and so no sensitivity is entered from this copy. The HR624 MK2 manual is a different revision and its values are not used. Official Mackie original-HR624 PDF not located in this pass. Source: https://www.manualslib.com/manual/293781/Mackie-Hr624.html."
+  },
+  {
+    "id": "electro-voice-zx1",
+    "model_check": "ZX1",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.electrovoice.com/emea/en/zx1",
+    "fields": {
+      "sensitivity": {
+        "value": 92,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "power": {
+        "value": 200,
+        "unit": "W",
+        "role": "speaker_power_handling",
+        "notes": "continuous (long-term) rated power only; program 400 W and peak 800 W are separate definitions and are not stored as continuous power"
+      },
+      "woofer": {
+        "value": 8,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 60,
+        "high_hz": 20000,
+        "unit": "Hz",
+        "notes": "-3 dB; -10 dB range 48 Hz - 20 kHz is listed separately on the same manufacturer page"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Electro-Voice EMEA official product page for the ZX1: 8-inch 2-way passive full-range composite loudspeaker; EV8L 8-inch LF transducer and DH2005 1-inch exit compression driver (driverCount 2); axial sensitivity 92 dB (1 W/1 m); nominal impedance 8 ohms, minimum 6 ohms; crossover 1.7 kHz; rated system power 200 W continuous / 400 W program / 800 W peak (only the continuous value is stored); frequency response -3 dB 60 Hz - 20 kHz, -10 dB 48 Hz - 20 kHz (the -3 dB limits are stored); coverage 100 x 100 deg on the EMEA page (retailer listings give 90 x 50 deg and are not used). Not the ZX1i (powered) or ZX1-90 variants. Dimensions 457 x 282 x 264 mm; net weight 8.4 kg. Source: https://products.electrovoice.com/emea/en/zx1."
+  }
+]

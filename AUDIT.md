@@ -1,12 +1,12 @@
 # Cavity Audio — Release Audit Notes
 
-**Date:** 2026-10-08
+**Date:** 2026-10-10
 
 This file records the current release-engineering evidence and does not convert unavailable execution environments into PASS results.
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 343 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 347 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
 - `node scripts/speaker-quality-audit.mjs` — **PASS**, 774 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (22 manufacturer, 5 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
@@ -20,15 +20,15 @@ This file records the current release-engineering evidence and does not convert 
 - 0 duplicate IDs
 - 774 unique brand/model pairs
 - 0 duplicate brand/model pairs
-- `PARTIALLY_VERIFIED`: 626
-- `UNVERIFIED`: 74
-- `UNAVAILABLE`: 74
-- source-backed fields: sensitivity 299, power 405, impedance 340, resonant frequency 16, voice-coil size 62, woofer size 574, frequency-response limits 545
+- `PARTIALLY_VERIFIED`: 637
+- `UNVERIFIED`: 62
+- `UNAVAILABLE`: 75
+- source-backed fields: sensitivity 307, power 408, impedance 348, resonant frequency 16, voice-coil size 62, woofer size 582, frequency-response limits 555
 - embedded JSON response-point datasets: 27
 - declared response-point provenance: manufacturer 22, measurement 5, verified database 0
 - physically modeled response models: 747
-- generic reference models: 235
-- models derived from published bandwidth limits: 512
+- generic reference models: 225
+- models derived from published bandwidth limits: 522
 - embedded speaker polar/directivity data: 0
 
 The database does not claim that every catalog record is independently web-verified. Records without source-backed fields are explicitly `UNVERIFIED` and retain `N/A` physical fields rather than guessed values.
