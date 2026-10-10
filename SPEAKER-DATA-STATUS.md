@@ -8,15 +8,15 @@ The authoritative dataset contains **774 catalog records**. A record is `PARTIAL
 
 ## Record status
 - PARTIALLY_VERIFIED: 647
-- UNVERIFIED: 51
-- UNAVAILABLE: 76
+- UNVERIFIED: 50
+- UNAVAILABLE: 77
 
 ## Current source-backed fields
-- Sensitivity: 309
-- Power: 414
-- Impedance: 352
-- Resonant frequency: 16
-- Voice-coil size: 62
+- Sensitivity: 307
+- Power: 415
+- Impedance: 351
+- Resonant frequency: 17
+- Voice-coil size: 63
 - Woofer size: 583
 - Frequency-response limits: 558
 

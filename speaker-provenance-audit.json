@@ -7,13 +7,13 @@
   "duplicateBrandModels": 0,
   "statusCounts": {
     "PARTIALLY_VERIFIED": 647,
-    "UNVERIFIED": 51,
-    "UNAVAILABLE": 76
+    "UNVERIFIED": 50,
+    "UNAVAILABLE": 77
   },
   "sourceTypeCounts": {
-    "MANUFACTURER": 1547,
+    "MANUFACTURER": 1548,
     "NONE": 2908,
-    "REPUTABLE_DATABASE": 188,
+    "REPUTABLE_DATABASE": 187,
     "MEASUREMENT": 1
   },
   "responseCurveData": {

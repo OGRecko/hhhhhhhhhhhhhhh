@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **127** of 774 (51 UNVERIFIED, 76 UNAVAILABLE) across 43 brands.
+Records still needing research: **127** of 774 (50 UNVERIFIED, 77 UNAVAILABLE) across 42 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -14,16 +14,16 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Samsung | 6 | Samsung HW-Q990D (`samsung-samsung-hw-q990d`); Samsung HW-Q990F (`samsung-samsung-hw-q990f`); Samsung HW-Q930D (`samsung-samsung-hw-q930d`); Samsung HW-Q800D (`samsung-samsung-hw-q800d`); Samsung HW-Q700D (`samsung-samsung-hw-q700d`); Samsung HW-S800D (`samsung-samsung-hw-s800d`) |
 | Bowers & Wilkins | 5 | 802 (1979 original) (`bw-802-original`); 800 D4 (`bw-800-d4`); CWM8 (`legacy-bw-9`); CCM8 (`legacy-bw-10`); Zeppelin (`bowers-wilkins-zeppelin`) |
 | Fender | 5 | Twin Reverb (`fender-twin-reverb`); Deluxe Reverb (`fender-deluxe-reverb`); Hot Rod Deluxe (`fender-hot-rod-deluxe`); Princeton Reverb (`fender-princeton-reverb`); Super Reverb (`fender-super-reverb`) |
+| Electro-Voice | 4 | Live X X2 (`eV-live-x2`); ZX1 (`electro-voice-zx1`); ZX1i (`electro-voice-zx1i`); EVF-1152D (`electro-voice-evf-1152d`) |
+| Focal | 4 | Scala Utopia III (`focal-utopia-scala`); Utopia III Scala (`legacy-focal-3`); Kanta No2 (`legacy-focal-7`); Shape 80 (`focal-shape-80`) |
 | L-Acoustics | 4 | V-DOSC (`legacy-la-1`); ARCS (`legacy-la-2`); Kara (`legacy-la-3`); X15 (`legacy-la-7`) |
 | JL Audio | 4 | C7-650 (`jl-audio-c7-650`); 10W0v3 (`jl-audio-10w0v3`); 12W0v3 (`jl-audio-12w0v3`); 13W7AE (`jl-audio-13w7ae`) |
 | PreSonus | 4 | Eris 3.5 (`presonus-eris-3-5`); Eris 5 (`presonus-eris-5`); Eris 6 (`presonus-eris-6`); Eris 8 (`presonus-eris-8`) |
-| Bang & Olufsen | 3 | Beovox S45 (`bang-olufsen-beovox-s45`); BeoLab 5 (`beolab-5`); Beosound 2 (`bang-olufsen-beosound-2`) |
-| Electro-Voice | 3 | Live X X2 (`eV-live-x2`); ZX1i (`electro-voice-zx1i`); EVF-1152D (`electro-voice-evf-1152d`) |
 | Peavey | 3 | SP 2 (`peavey-sp2`); 6505 412 (`peavey-6505-412`); 5150 412 (`peavey-5150-412`) |
-| Focal | 3 | Scala Utopia III (`focal-utopia-scala`); Utopia III Scala (`legacy-focal-3`); Shape 80 (`focal-shape-80`) |
 | Klipsch | 3 | Cornwall (`legacy-klip-3`); La Scala (`legacy-klip-4`); RF-8000F (`klipsch-rf-8000f`) |
 | Infinity | 2 | RS-1B (`infinity-rs1`); Kappa 9 (`infinity-kappa-9`) |
 | Cerwin Vega | 2 | D-9 (`cerwin-vega-d9`); Earthquake (`cerwin-vega-earthquake`) |
+| Bang & Olufsen | 2 | Beovox S45 (`bang-olufsen-beovox-s45`); Beosound 2 (`bang-olufsen-beosound-2`) |
 | KEF | 2 | Ci200 (`legacy-kef-10`); Blade Meta (`kef-blade-meta`) |
 | Mackie | 2 | CR3 (`legacy-mack-4`); Thump15 (`legacy-mack-5`) |
 | Martin Audio | 2 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`) |
@@ -49,5 +49,4 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | JBL | 1 | Ranger Paragon D44000 (`legacy-jbl-2`) |
 | Yamaha | 1 | VXC series (`legacy-yam-8`) |
 | Pioneer | 1 | TS-A1607F (`pioneer-ts-a1607f`) |
-| Audison | 1 | Thesis TH K2 II A (`audison-thesis-th-k2-ii-a`) |
 | Wilson Audio | 1 | Alexia (`wilson-audio-alexia`) |

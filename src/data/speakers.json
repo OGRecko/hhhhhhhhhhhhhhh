@@ -1247,7 +1247,7 @@
     "model": "RS-1B",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNAVAILABLE",
+    "overallStatus": "UNVERIFIED",
     "driverCount": null,
     "active": null,
     "panel": null,
@@ -1300,7 +1300,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): UNAVAILABLE: identity not established. Sources conflict on configuration: an active 4-way with servo (6 ohm, 86 dB, 25-32 kHz) versus a passive 5-way (4 ohm, 25-32 kHz). The RS-1B revision cannot be fixed from the catalog row, so no values are transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): UNAVAILABLE: identity not established. Sources conflict on configuration: an active 4-way with servo (6 ohm, 86 dB, 25-32 kHz) versus a passive 5-way (4 ohm, 25-32 kHz). The RS-1B revision cannot be fixed from the catalog row, so no values are transferred. Pass-136 correction: the pass-128 UNAVAILABLE label is reverted to UNVERIFIED because no exact RS-1B identity ledger entry exists for this row; no values are assigned from either conflicting configuration."
   },
   {
     "id": "cerwin-vega-d9",
@@ -12210,7 +12210,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "UNAVAILABLE - the Focal manual located for the Scala Utopia III is for the SCALA UTOPIA III EVO (3-way bass-reflex floorstander: 11 in W woofer, 6.5 in W midrange with TMD, 1.06 in IAL2 beryllium dome; +/-3 dB 27 Hz-40 kHz; 92 dB @ 2.83 V/1 m; 8 ohm nominal / 3.2 ohm minimum; recommended amplifier power 40-500 W; crossover 220 Hz / 2.4 kHz). The catalog row is 'Scala Utopia III' with no EVO designation, and a separate row (legacy-focal-3, 'Utopia III Scala') names the same family, so the revision cannot be established. The EVO values are not transferred to the un-suffixed record. Catalog ID preserved; physical fields remain N/A. Source: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf."
+    "notes": "UNAVAILABLE - the Focal manual located for the Scala Utopia III is for the SCALA UTOPIA III EVO (3-way bass-reflex floorstander: 11 in W woofer, 6.5 in W midrange with TMD, 1.06 in IAL2 beryllium dome; +/-3 dB 27 Hz-40 kHz; 92 dB @ 2.83 V/1 m; 8 ohm nominal / 3.2 ohm minimum; recommended amplifier power 40-500 W; crossover 220 Hz / 2.4 kHz). The catalog row is 'Scala Utopia III' with no EVO designation, and a separate row (legacy-focal-3, 'Utopia III Scala') names the same family, so the revision cannot be established. The EVO values are not transferred to the un-suffixed record. Catalog ID preserved; physical fields remain N/A. Source: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf. Pass-136 check: the located Focal manual is for the SCALA UTOPIA III EVO and does not identify the non-Evo V1/V2 revision, so no non-Evo values are transferred. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13 ; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11."
   },
   {
     "id": "atc-scm19",
@@ -12457,7 +12457,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Nothing stored."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Nothing stored. Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored."
   },
   {
     "id": "eaw-kf760",
@@ -13847,7 +13847,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Autograph MINI (MINI-OW) data was located and is not transferable. The full Autograph official page was not located. Pass-130 check (2026-10-10): sources found cover the Tannoy Autograph MINI only (88 dB 2.83 V/1 m, 8 Ω, 68 Hz–54 kHz; 106 Hz–20 kHz ±3 dB). The full Autograph is not covered, and Mini data must not be transferred. Nothing stored."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Autograph MINI (MINI-OW) data was located and is not transferable. The full Autograph official page was not located. Pass-130 check (2026-10-10): sources found cover the Tannoy Autograph MINI only (88 dB 2.83 V/1 m, 8 Ω, 68 Hz–54 kHz; 106 Hz–20 kHz ±3 dB). The full Autograph is not covered, and Mini data must not be transferred. Nothing stored. Pass-135 check (2026-10-10): the tannoy.com guessed product URL returned a 404. Autograph MINI sources (hifiengine, avstore, theaudiospecialists) carry the Mini's 106 Hz–20 kHz ±3 dB and 85–88 dB figures; they are not transferable to the full Autograph. No full Autograph manufacturer page was reached."
   },
   {
     "id": "ohm-walsh-2",
@@ -14166,9 +14166,9 @@
     "model": "BeoLab 5",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
-    "active": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 4,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -14178,18 +14178,22 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 20,
+      "high_hz": 20000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "B&O technical specification table, 'Effective frequency range +/-3dB 20 – 20,000 Hz'. The '−10 dB low frequency limit 12 Hz' in the same table is a different measure and is not used as the response."
     },
     "power": {
-      "value": null,
+      "value": 2500,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "role": "amplifier_output",
+      "notes": "B&O text: 'Each BeoLab 5 incorporates a total of 2,500 watts of power, provided by four built-in ICEpower amplifiers' (lower bass 1000 W, upper bass 1000 W, mid-range 250 W, treble 250 W). The basis (RMS, program or peak) is not stated, so this is total amplifier output, not a continuous speaker power rating."
     },
     "impedance": {
       "value": null,
@@ -14213,13 +14217,14 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 15,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "notes": "Lower bass driver 38 cm / 15 in (long-throw), B&O technical specification table. The 6.5 in upper bass driver is not stored as the woofer."
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred. Pass-130 check (2026-10-10): secondary listings (linephaze, eBay, skyfiaudio) give 20 Hz–20 kHz, 108 dB and a 2500 W peak, with generation and variant unresolved. No B&O manufacturer page was reached. Nothing stored."
+    "notes": "Source: B&O 'BeoLab 5' technical brochure (document '16055_BL5_Tekn_EU_UK'), hosted on content.abt.com. The brochure is a manufacturer document copied by a retailer, so it is labelled REPUTABLE_DATABASE. The specification table lists: treble 1.8 cm (3/4 in), mid-range 7.6 cm (3 in), upper bass 16.5 cm (6.5 in), lower bass 38 cm (15 in); 'Sealed box / 5 l.' upper bass and 'Sealed box / 29 l.' lower bass; 'Max. sound pressure level 108 dB (stereo, pair)'; 'Height 97 cm, Ø 49 cm / 61 kg'. driverCount 4 is the four drivers in that table; active=true is the brochure's '4 way active technology with 4 ICEpower amplifiers'. Not stored: sensitivity (not in the brochure; the 91 dB 're 125 mVrms' figure on a secondary site uses a non-standard reference and is not used); impedance (not published here). The brochure carries no revision marker; the 2003 launch date comes from secondary sources (beoworld.org, specs4audio) and is consistent with the brochure's features (ABC microphone, ALT). Earlier pass-128 'MK2' conflict was not re-verified in this pass and remains a caveat. Earlier pass history: No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred. Pass-130 check (2026-10-10): secondary listings (linephaze, eBay, skyfiaudio) give 20 Hz–20 kHz, 108 dB and a 2500 W peak, with generation and variant unresolved. No B&O manufacturer page was reached. Nothing stored."
   },
   {
     "id": "sonos-arc",
@@ -17693,7 +17698,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "UNAVAILABLE — the exact Genelec product/revision 7060C could not be confirmed. Genelec's official 7060A archive page says that model was produced from 2002 to 2006 and replaced by the 7060B and later the 7360A (https://www.genelec.com/previous-models/7060a); its separate 7060B archive page says 7060B was produced from 2007 to 2016 and replaced by 7360A (https://www.genelec.com/previous-models/7060b). The official 7060C archive route returns Not Found (https://www.genelec.com/previous-models/7060c), and the manufacturer archive lists the documented predecessor/successor records (https://www.genelec.com/previous-models). This leaves the intended 7060C identity unresolved; it does not establish a substitute model. No 7060A, 7060B, or 7050C specifications are transferred, and all physical/acoustic fields and active/driver-count facts remain N/A until the exact identity is established. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+    "notes": "UNAVAILABLE — the exact Genelec product/revision 7060C could not be confirmed. Genelec's official 7060A archive page says that model was produced from 2002 to 2006 and replaced by the 7060B and later the 7360A (https://www.genelec.com/previous-models/7060a); its separate 7060B archive page says 7060B was produced from 2007 to 2016 and replaced by 7360A (https://www.genelec.com/previous-models/7060b). The official 7060C archive route returns Not Found (https://www.genelec.com/previous-models/7060c), and the manufacturer archive lists the documented predecessor/successor records (https://www.genelec.com/previous-models). This leaves the intended 7060C identity unresolved; it does not establish a substitute model. No 7060A, 7060B, or 7050C specifications are transferred, and all physical/acoustic fields and active/driver-count facts remain N/A until the exact identity is established. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred. Pass-135 check (2026-10-10): Genelec 7000-series datasheets located (7060A/7070A/7071A and 7060B/7070A/7071A) cover 7060A and 7060B (120 W, 19–85 Hz ±3 dB in the B&H copy). No 7060C datasheet was found in the search results, so no value is transferred to the 7060C row and identity remains unconfirmed."
   },
   {
     "id": "totem-model1",
@@ -18008,7 +18013,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Sonance Mariner MX62 and MX66 retailer pages were found; these are not the exact 'Mariner 6' catalog row. No values transferred. Pass-130 check (2026-10-10): retailer listings describe different Sonance Mariner models (Mariner MX66, 6-1/2-inch 2-way outdoor), with conflicting specs (50 Hz–20 kHz ±3 dB vs 55 Hz–20 kHz; 89 vs 90 dB; 8 vs 6 Ω). The Mariner 6 record's exact variant is not established. Nothing stored."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Sonance Mariner MX62 and MX66 retailer pages were found; these are not the exact 'Mariner 6' catalog row. No values transferred. Pass-130 check (2026-10-10): retailer listings describe different Sonance Mariner models (Mariner MX66, 6-1/2-inch 2-way outdoor), with conflicting specs (50 Hz–20 kHz ±3 dB vs 55 Hz–20 kHz; 89 vs 90 dB; 8 vs 6 Ω). The Mariner 6 record's exact variant is not established. Nothing stored. Pass-135 check (2026-10-10): the sonance.com product URL guess returned a 404 page and the site is blocked for the fetch tool. Retailer copies (Abt, Best Buy, auditorium.de) describe the MX62 (6.5 in, 2-way, 55 Hz–20 kHz ±3 dB, 89 dB SPL 2.83 V/1 m, 8 Ω nominal / 6 Ω minimum, operating power 5–125 W) and the MX66 (50 Hz–20 kHz ±3 dB, 90 dB, same impedance). Both are described as '6-inch' outdoor speakers, so 'Mariner 6' does not establish which catalog row is meant. Neither set of values is transferred."
   },
   {
     "id": "legacy-jbl-1",
@@ -19741,7 +19746,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "UNAVAILABLE - this row ('Utopia III Scala') appears to name the same product family as focal-utopia-scala ('Scala Utopia III'). The only Focal manual located is for the SCALA UTOPIA III EVO, and the catalog does not establish which generation or whether either row is the EVO. No values transferred between the rows or from the EVO manual. Both records are retained for historical traceability; they should be reviewed for merge only with a confirmed exact product identity. Catalog ID preserved; physical fields remain N/A. Source consulted: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf."
+    "notes": "UNAVAILABLE - this row ('Utopia III Scala') appears to name the same product family as focal-utopia-scala ('Scala Utopia III'). The only Focal manual located is for the SCALA UTOPIA III EVO, and the catalog does not establish which generation or whether either row is the EVO. No values transferred between the rows or from the EVO manual. Both records are retained for historical traceability; they should be reviewed for merge only with a confirmed exact product identity. Catalog ID preserved; physical fields remain N/A. Source consulted: https://dam.focal-naim.com/m/7277bf4c30353acf/original/Notice_ScalaUtopiaEvo_Web-pdf.pdf. Pass-136 check: no alias/deduplication is assumed against focal-utopia-scala; both rows remain separate until a revision is established. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13 ; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11."
   },
   {
     "id": "legacy-focal-5",
@@ -19811,26 +19816,23 @@
     "model": "Kanta No2",
     "category": "hifi",
     "year": null,
-    "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 4,
+    "overallStatus": "UNAVAILABLE",
+    "driverCount": null,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": 91,
+      "value": null,
       "unit": "dB",
-      "status": "REPUTABLE_DATABASE_VERIFIED",
-      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
-      "sourceType": "REPUTABLE_DATABASE",
-      "reference": "2.83V/1m"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": 35,
-      "high_hz": 40000,
-      "status": "REPUTABLE_DATABASE_VERIFIED",
-      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
-      "sourceType": "REPUTABLE_DATABASE",
-      "unit": "Hz",
-      "notes": "+/-3 dB per hi-fi+ specification list; -6 dB low-frequency point 29 Hz"
+      "low_hz": null,
+      "high_hz": null,
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "power": {
       "value": null,
@@ -19840,11 +19842,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": 8,
+      "value": null,
       "unit": "ohm",
-      "status": "REPUTABLE_DATABASE_VERIFIED",
-      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
-      "sourceType": "REPUTABLE_DATABASE"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "resonantFreq": {
       "value": null,
@@ -19861,13 +19863,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": 6.5,
+      "value": null,
       "unit": "in",
-      "status": "REPUTABLE_DATABASE_VERIFIED",
-      "source": "https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/",
-      "sourceType": "REPUTABLE_DATABASE"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
-    "notes": "Secondary technical specification: hi-fi+ review of the Focal Kanta N°2 floorstanding loudspeaker (2024). Revision note: the hi-fi+ review describes the current Kanta N°2 and the record does not name a production run, so no earlier-revision values are transferred. Driver complement per the review: 1 x 27 mm IAL3 beryllium inverted dome tweeter, 1 x 165 mm flax midrange with TMD, 2 x 165 mm flax woofers (driverCount 4). Sensitivity 91 dB at 2.83 V / 1 m; nominal 8 ohms with 3.1 ohm minimum; recommended amplifier power (40-300 W, per other sources) is a range and is not stored. Crossover 260 Hz - 2.7 kHz. Woofer size is the 6.5-inch (165 mm) LF driver. Not verified against the Focal manufacturer page, which was not located in the research pass. Source: https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/."
+    "notes": "UNAVAILABLE as a separate speaker identity — Focal's official product data sheet names the model ‘Kanta N°2’ and the dataset already contains the exact, source-backed canonical record `focal-kanta-n-2` for that speaker. ‘No2’ is the plain-text rendering of the same number designation; no distinct Kanta model or revision called ‘Kanta No2’ was established. To avoid duplicating one physical product or its acoustic values, this legacy alias is retained with all physical/acoustic fields N/A and no copied specifications. Canonical exact-model data: https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf. The catalog ID is preserved as an unavailable alias and is not assigned a second copy of the canonical speaker specifications."
   },
   {
     "id": "legacy-focal-8",
@@ -20977,7 +20979,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored."
   },
   {
     "id": "legacy-mack-5",
@@ -22652,7 +22654,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio F2 official page not located; the search returned only the unrelated MartinLogan Foundation F2. No values transferred. Pass-130 check (2026-10-10): the search for 'Martin Audio F2' returned MartinLogan Foundation F2 material, which is a different manufacturer's model. No Martin Audio F2 source was found. Nothing stored."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio F2 official page not located; the search returned only the unrelated MartinLogan Foundation F2. No values transferred. Pass-130 check (2026-10-10): the search for 'Martin Audio F2' returned MartinLogan Foundation F2 material, which is a different manufacturer's model. No Martin Audio F2 source was found. Nothing stored. Pass-135 check (2026-10-10): the Martin Audio F2 system datasheet (martin-audio.com/downloads/datasheets/F2systemdatasheet.pdf, manufacturer) describes a reconfigurable two-box system: the F2R rack plus the F2M, F2H, F2V and F2T modules, each with its own bandwidth, sensitivity and power. It gives no single-loudspeaker specification for the record 'F2', and the system vs component identity is not established, so nothing is stored."
   },
   {
     "id": "legacy-ma-3",
@@ -22839,7 +22841,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source. Pass-136 correction: a third-party yumpu copy of an L-Acoustics V-DOSC sheet (2003 revision; 50–18000 Hz ±3 dB, 3WX HI preset, eight drivers) was located in pass 135 but is held as a lead only. The Batch-116 ruling keeps this record UNVERIFIED until an L-Acoustics manufacturer source is found."
   },
   {
     "id": "legacy-la-2",
@@ -23205,7 +23207,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open. Pass-131 check (2026-10-10): the official L-Acoustics X15 HiQ page (l-acoustics.com/products/x15-hiq/) gives 2-way active coaxial, 1 x 15 in LF + 1 x 3 in HF, -10 dB 55 Hz–20 kHz and 138 dB max SPL, but these figures are labelled with the '[X15]' preset, and the page is for the HiQ. The original X15 product page was not found at the expected address. Nothing is transferred from the HiQ to the record 'X15'."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open. Pass-131 check (2026-10-10): the official L-Acoustics X15 HiQ page (l-acoustics.com/products/x15-hiq/) gives 2-way active coaxial, 1 x 15 in LF + 1 x 3 in HF, -10 dB 55 Hz–20 kHz and 138 dB max SPL, but these figures are labelled with the '[X15]' preset, and the page is for the HiQ. The original X15 product page was not found at the expected address. Nothing is transferred from the HiQ to the record 'X15'. Pass-135 check (2026-10-10): an archived 'X 15 – Technical Specifications (rev1 23/07/02)' sheet (logicsystems.co.uk archive) describes a passive full-range enclosure: 15 in cone plus 1 in exit compression driver, 58 Hz–18 kHz, 99 dB sensitivity at 1 m with 2.83 V, 8 Ω, 500 W, 29 kg. The sheet does not identify L-Acoustics as the manufacturer and does not match the active X15 HiQ, so it is not attributed to this record. The L-Acoustics original X15 page is still not reached."
   },
   {
     "id": "genelec-8020d",
@@ -26315,42 +26317,37 @@
     "model": "ZX1",
     "category": "pa",
     "year": null,
-    "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": false,
+    "overallStatus": "UNAVAILABLE",
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
-      "value": 92,
+      "value": null,
       "unit": "dB",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://products.electrovoice.com/emea/en/zx1",
-      "sourceType": "MANUFACTURER",
-      "reference": "1W/1m"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": 60,
-      "high_hz": 20000,
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://products.electrovoice.com/emea/en/zx1",
-      "sourceType": "MANUFACTURER",
-      "unit": "Hz",
-      "notes": "-3 dB; -10 dB range 48 Hz - 20 kHz is listed separately on the same manufacturer page"
+      "low_hz": null,
+      "high_hz": null,
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "power": {
-      "value": 200,
+      "value": null,
       "unit": "W",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://products.electrovoice.com/emea/en/zx1",
-      "sourceType": "MANUFACTURER",
-      "role": "speaker_power_handling",
-      "notes": "continuous (long-term) rated power only; program 400 W and peak 800 W are separate definitions and are not stored as continuous power"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "impedance": {
-      "value": 8,
+      "value": null,
       "unit": "ohm",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://products.electrovoice.com/emea/en/zx1",
-      "sourceType": "MANUFACTURER"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "resonantFreq": {
       "value": null,
@@ -26367,13 +26364,13 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": 8,
+      "value": null,
       "unit": "in",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://products.electrovoice.com/emea/en/zx1",
-      "sourceType": "MANUFACTURER"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
-    "notes": "Electro-Voice EMEA official product page for the ZX1: 8-inch 2-way passive full-range composite loudspeaker; EV8L 8-inch LF transducer and DH2005 1-inch exit compression driver (driverCount 2); axial sensitivity 92 dB (1 W/1 m); nominal impedance 8 ohms, minimum 6 ohms; crossover 1.7 kHz; rated system power 200 W continuous / 400 W program / 800 W peak (only the continuous value is stored); frequency response -3 dB 60 Hz - 20 kHz, -10 dB 48 Hz - 20 kHz (the -3 dB limits are stored); coverage 100 x 100 deg on the EMEA page (retailer listings give 90 x 50 deg and are not used). Not the ZX1i (powered) or ZX1-90 variants. Dimensions 457 x 282 x 264 mm; net weight 8.4 kg. Source: https://products.electrovoice.com/emea/en/zx1."
+    "notes": "UNRESOLVED — the catalog label 'ZX1' does not identify a specific horn/model suffix or revision. Fetching the official EV route for ZX1 resolved to the specific 'Zx1 90' page (https://www.electrovoice.com/product/zx1-90), which describes a 90° × 50° version but did not expose a complete specifications table in the fetched page. The fetched ZX1-family brochure (hosted copy: https://manualzz.com/doc/40471422/electro-voice-zx1-90-brochure-and-specs) explicitly distinguishes portable ZX1-90 from installation ZX1i-90, ZX1i-100 and ZX1i-100T variants, with different sensitivity/coverage across its listed variants. No suffix-specific or installation-version data is assigned to the bare ZX1 record; its physical fields remain N/A pending exact product/revision identification. Pass-136 correction: the pass-128 EMEA ZX1 values were reverted to N/A because the ambiguous-variant ruling in the removal ledger stands; the EMEA product page is kept as a source reference only and no ZX1 values are stored in the record."
   },
   {
     "id": "electro-voice-zx1i",
@@ -29762,7 +29759,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "Individual exact-identity review: Electro-Voice's official EVF/EVH User Manual (June 2010) defines the slash suffix in the model number as the coverage-pattern code and lists six distinct 15-inch EVF-1152D variants: /43, /64, /66, /94, /96, and /99, with rotatable coverage from 40° × 30° through 90° × 90°. Exact /43, /66, /94, and /96 Engineering Data Sheets publish variant-specific coverage, response tables, and 1/3-octave polar plots. The manufacturer also distinguishes PI and FG weatherization suffixes; the exact sheets state an externally accessible jumper selects passive or active operation. The database row is only 'EVF-1152D' and does not identify its pattern, environmental suffix, or operating configuration. No exact SKU/polar variant is established, so none of the pattern-specific response, sensitivity, impedance, power, driver, or directivity specifications is assigned. The catalog retains the exact EVF-1152D/96 as the separate record `electro-voice-evf-1152d-96`; its suffix-specific values are not transferred to this bare row. Review of all text-extractable chunks of the official /43, /66, /94, and /96 engineering sheets confirms their response-table and polar/beamwidth/directivity sections. However, the extracted /94 and /96 low-frequency rows include values inconsistent with the same sheets’ stated frequency-range limits (for example, /96 shows 80 dB at 44 Hz despite a 40 Hz -10 dB lower limit). This may be an extraction artifact; without reliable visual verification, no response points are digitized. The polar charts are not exposed as numeric angle-resolved samples in the text extraction, so no directivity payload is imported. The separate exact /96 record remains unchanged; no suffix-specific values are transferred to the unsuffixed row. Preserve the legitimate row with unsupported fields N/A and identity status UNAVAILABLE until the exact suffix/configuration is known. Sources: https://products.electrovoice.com/binary/F01U310062%20EVF-EVH%20User%20Manual.pdf ; https://products.electrovoice.com/binary/EVF-1152D_43_EDS_en.pdf ; https://products.electrovoice.com/binary/EVF-1152D_66_EDS_en.pdf ; https://products.electrovoice.com/binary/EVF-1152D_94_EDS_en.pdf ; https://products.electrovoice.com/binary/EVF-1152D_96_EDS_en.pdf ; https://products.electrovoice.com/na/en/evf-1152d94 ; https://products.electrovoice.com/na/en/evf-1152d96."
+    "notes": "Individual exact-identity review: Electro-Voice's official EVF/EVH User Manual (June 2010) defines the slash suffix in the model number as the coverage-pattern code and lists six distinct 15-inch EVF-1152D variants: /43, /64, /66, /94, /96, and /99, with rotatable coverage from 40° × 30° through 90° × 90°. Exact /43, /66, /94, and /96 Engineering Data Sheets publish variant-specific coverage, response tables, and 1/3-octave polar plots. The manufacturer also distinguishes PI and FG weatherization suffixes; the exact sheets state an externally accessible jumper selects passive or active operation. The database row is only 'EVF-1152D' and does not identify its pattern, environmental suffix, or operating configuration. No exact SKU/polar variant is established, so none of the pattern-specific response, sensitivity, impedance, power, driver, or directivity specifications is assigned. The catalog retains the exact EVF-1152D/96 as the separate record `electro-voice-evf-1152d-96`; its suffix-specific values are not transferred to this bare row. Review of all text-extractable chunks of the official /43, /66, /94, and /96 engineering sheets confirms their response-table and polar/beamwidth/directivity sections. However, the extracted /94 and /96 low-frequency rows include values inconsistent with the same sheets’ stated frequency-range limits (for example, /96 shows 80 dB at 44 Hz despite a 40 Hz -10 dB lower limit). This may be an extraction artifact; without reliable visual verification, no response points are digitized. The polar charts are not exposed as numeric angle-resolved samples in the text extraction, so no directivity payload is imported. The separate exact /96 record remains unchanged; no suffix-specific values are transferred to the unsuffixed row. Preserve the legitimate row with unsupported fields N/A and identity status UNAVAILABLE until the exact suffix/configuration is known. Sources: https://products.electrovoice.com/binary/F01U310062%20EVF-EVH%20User%20Manual.pdf ; https://products.electrovoice.com/binary/EVF-1152D_43_EDS_en.pdf ; https://products.electrovoice.com/binary/EVF-1152D_66_EDS_en.pdf ; https://products.electrovoice.com/binary/EVF-1152D_94_EDS_en.pdf ; https://products.electrovoice.com/binary/EVF-1152D_96_EDS_en.pdf ; https://products.electrovoice.com/na/en/evf-1152d94 ; https://products.electrovoice.com/na/en/evf-1152d96. Pass-135 check (2026-10-10): the manufacturer page products.electrovoice.com/na/en/evf-1152d64-fg/ lists a 60°x40° variant with a 12 in LF driver (DVX3121A) and '97 (1 W/1 m) dB', while EV-sourced retailer and product copies for the /96-BLK and /94-WHT variants list a 15 in LF (DVX3151A), 90° x 60° or 90° x 40° coverage and '100 dB' at 1 W/1 m. The pattern and finish suffixes carry different sensitivity and driver data, so the bare 'EVF-1152D' row is not one exact model and UNAVAILABLE stands."
   },
   {
     "id": "electro-voice-evf-1152d-96",
@@ -34565,7 +34562,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "UNAVAILABLE — exact Klipsch model identity cannot be resolved. The official Klipsch URL https://www.klipsch.com/products/rf-8000f returns a page-not-found result, while the located official product is RP-8000F at https://www.klipsch.com/products/rp-8000f-floorstanding-speaker. 'RF-8000F' may be a data-entry error, but it is not silently corrected to RP-8000F and no specs are assigned. Retain pending exact model identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+    "notes": "UNAVAILABLE — exact Klipsch model identity cannot be resolved. The official Klipsch URL https://www.klipsch.com/products/rf-8000f returns a page-not-found result, while the located official product is RP-8000F at https://www.klipsch.com/products/rp-8000f-floorstanding-speaker. 'RF-8000F' may be a data-entry error, but it is not silently corrected to RP-8000F and no specs are assigned. Retain pending exact model identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred. Pass-135 check (2026-10-10): Klipsch's RP-8000F II spec sheet (cloudfront-hosted manufacturer PDF; Reference Premiere line) gives 35–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 150 W continuous / 600 W peak, 8 Ω, crossover 1630 Hz and a 1 in titanium LTS tweeter. That is the RP (Reference Premiere) series, not the RF-8000F row, so none of these values are transferred."
   },
   {
     "id": "klipsch-r-120sw",
@@ -44436,7 +44433,7 @@
     "model": "Thesis TH K2 II A",
     "category": "custom",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
       "value": null,
@@ -44446,50 +44443,58 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 150,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "sourceType": "MANUFACTURER",
+      "role": "speaker_power_handling",
+      "notes": "Official 'Power Handling - Continuous 150 W'. The 300 W figure on the same page is 'Power Handling - Peak' and is not stored as the continuous rating."
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "sourceType": "MANUFACTURER",
+      "notes": "Official kit listing 'Impedance 4 Ohm' (TH K2 II A CORO, 2-way kit)."
     },
     "resonantFreq": {
-      "value": null,
+      "value": 55,
       "unit": "Hz",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "sourceType": "MANUFACTURER",
+      "notes": "Official LF electro-acoustic spec 'Fs 55 Hz' for the woofer (not a kit-level value)."
     },
     "voiceCoil": {
-      "value": null,
+      "value": 1.97,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "sourceType": "MANUFACTURER",
+      "notes": "Official 'Voice Coil Diameter 50 mm (1.97 in)' for the TH 6.5 II Sax woofer."
     },
     "woofer": {
-      "value": null,
+      "value": 6.5,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "sourceType": "MANUFACTURER",
+      "notes": "TH 6.5 II Sax woofer, 165 mm (6.5 in), official LF spec. Cone material TPX."
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 40,
+      "high_hz": 26000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "sourceType": "MANUFACTURER",
+      "unit": "Hz",
+      "notes": "Official LF spec 'Frequency Response 40 Hz ÷ 26 kHz'. No tolerance (±3 dB, −6 dB or −10 dB) is stated on the page, so none is recorded."
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only retailer copies (87 dB, 4 ohm, 40 Hz-26 kHz, 150 W continuous / 300 W peak) of the TH K2 II A CORO component set were found; no Audison official page located; not field sources; none transferred. Pass-130 check (2026-10-10): retailer and magazine copies describe the TH K2 II A Coro kit, which conflicts with other variant listings ('Sax Violino' kit; woofer 165 mm vs 50 mm; 87 dB; 4 Ω; 40 Hz–26 kHz; 150 W RMS / 300 W peak). No Audison manufacturer page was reached and the variant is not established. Nothing stored."
+    "notes": "Official Audison product page for the TH K2 II A CORO kit (audison.com/product/th-k2-ii-a-coro-2/): 'Kit | 300 W Peak Power | Kit 2 way 4 ohm | TH 1.5 II Violino + TH 6.5 Sax'. driverCount 2 is the kit's two transducers (TH 1.5 II Violino tweeter and TH 6.5 II Sax woofer). Revision: the 'A' variant (the 'P CORO' is a separate Audison kit and is not merged). Sensitivity is NOT stored: the page prints 'Spl 87 dB' only inside the LF electro-acoustic table, with no reference condition and for the woofer alone, so it is not a verified kit sensitivity. Re, Qts, Vas, Xmax and other woofer parameters are on the same page and are not record fields. Source: https://audison.com/product/th-k2-ii-a-coro-2/. Earlier pass history: No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only retailer copies (87 dB, 4 ohm, 40 Hz-26 kHz, 150 W continuous / 300 W peak) of the TH K2 II A CORO component set were found; no Audison official page located; not field sources; none transferred. Pass-130 check (2026-10-10): retailer and magazine copies describe the TH K2 II A Coro kit, which conflicts with other variant listings ('Sax Violino' kit; woofer 165 mm vs 50 mm; 87 dB; 4 Ω; 40 Hz–26 kHz; 150 W RMS / 300 W peak). No Audison manufacturer page was reached and the variant is not established. Nothing stored."
   },
   {
     "id": "sonus-faber-lumina-i",
@@ -50108,7 +50113,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Nothing stored."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Nothing stored. Pass-135 check (2026-10-10): Blue Book lists the 5150 412 at '300W, 4-12 in. Sheffield 1200 speakers, 16 Ohm'; equipboard and reverb list 240 W for the 4x12 slant cabinet, and reverb lists 300 W 'Rated at 300 watts and 16 ohms' for a Sheffield-speaker listing. The sources do not agree on the model variant or the power figure, and no Peavey manufacturer page was reached, so nothing is stored."
   },
   {
     "id": "bang-olufsen-beosound-a5",
@@ -51093,7 +51098,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred. Pass-130 check (2026-10-10): the only frequency data found (17 Hz–25 kHz, 136 kg, 2 x 900 W LF amplification) belongs to the BB5 XBD-A SE (Signature Edition), which is not the record's variant. The SE data is not transferred and the XBD-A vs SE conflict remains open."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred. Pass-130 check (2026-10-10): the only frequency data found (17 Hz–25 kHz, 136 kg, 2 x 900 W LF amplification) belongs to the BB5 XBD-A SE (Signature Edition), which is not the record's variant. The SE data is not transferred and the XBD-A vs SE conflict remains open. Pass-135 check (2026-10-10): the PMC archive page for the BB5 XBD-A (pmc-speakers.com/products/archive/archive/bb5-xbd/, c.2011) states 'down to 17Hz' (no tolerance, no upper limit) and amplifier power LF 900 W, LF 900 W, MF 300 W, HF 300 W. The current BB5 XBD-A SE page gives 17 Hz–25 kHz (no tolerance) with the same amplifier layout. A Vintage King listing for 'BB5 XBD-A-C' gives 800/800/250/250 W (a different revision). The revision is still not resolved for this record, so no value is stored. A lower limit alone is not a field."
   },
   {
     "id": "jbl-708p",

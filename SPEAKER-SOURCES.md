@@ -750,6 +750,15 @@ The source is attached to the exact field it supports. A source URL here does no
 - Audison Voce AV K6 — voice-coil size
 - Audison Voce AV K6 — woofer size
 
+## https://audison.com/product/th-k2-ii-a-coro-2/
+
+- Audison Thesis TH K2 II A — frequency-response limits
+- Audison Thesis TH K2 II A — impedance
+- Audison Thesis TH K2 II A — power
+- Audison Thesis TH K2 II A — resonant frequency
+- Audison Thesis TH K2 II A — voice-coil size
+- Audison Thesis TH K2 II A — woofer size
+
 ## https://avantonepro.com/en/products/mixcube-passive
 
 - Avantone Mixcube — frequency-response limits
@@ -855,6 +864,12 @@ The source is attached to the exact field it supports. A source URL here does no
 - Celestion Vintage 30 — power
 - Celestion Vintage 30 — sensitivity
 - Celestion Vintage 30 — woofer size
+
+## https://content.abt.com/documents/6162/1680009_specs.pdf
+
+- Bang & Olufsen BeoLab 5 — frequency-response limits
+- Bang & Olufsen BeoLab 5 — power
+- Bang & Olufsen BeoLab 5 — woofer size
 
 ## https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/CDT-5650-C-II-Spec-Sheet-v02_2024-07-09-213225_uzir.pdf?v=1720560745
 
@@ -1196,13 +1211,6 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm
 
 - QSC AD-C4T — woofer size
-
-## https://hifiplus.com/articles/focal-kanta-no-2-floorstanding-loudspeaker/
-
-- Focal Kanta No2 — frequency-response limits
-- Focal Kanta No2 — impedance
-- Focal Kanta No2 — sensitivity
-- Focal Kanta No2 — woofer size
 
 ## https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/
 
@@ -1862,14 +1870,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice SX300 — power
 - Electro-Voice SX300 — sensitivity
 - Electro-Voice SX300 — woofer size
-
-## https://products.electrovoice.com/emea/en/zx1
-
-- Electro-Voice ZX1 — frequency-response limits
-- Electro-Voice ZX1 — impedance
-- Electro-Voice ZX1 — power
-- Electro-Voice ZX1 — sensitivity
-- Electro-Voice ZX1 — woofer size
 
 ## https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf
 

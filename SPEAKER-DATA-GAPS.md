@@ -24,7 +24,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | yamaha-ns1000m | Yamaha | NS-1000M | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | jbl-4350 | JBL | 4350 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil |
 | altec-model-19 | Altec Lansing | Model 19 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| infinity-rs1 | Infinity | RS-1B | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| infinity-rs1 | Infinity | RS-1B | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | cerwin-vega-d9 | Cerwin Vega | D-9 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | bang-olufsen-beovox-s45 | Bang & Olufsen | Beovox S45 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | eV-eliminator | Electro-Voice | Eliminator | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
@@ -220,7 +220,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | infinity-irs-v | Infinity | IRS V | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil |
 | jbl-paragon | JBL | Paragon D44000 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, woofer, frequency-response limits |
 | cerwin-vega-earthquake | Cerwin Vega | Earthquake | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| beolab-5 | Bang & Olufsen | BeoLab 5 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| beolab-5 | Bang & Olufsen | BeoLab 5 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | sonos-arc | Sonos | Arc | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-beam | Sonos | Beam Gen 2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | apple-homepod | Apple | HomePod (2nd gen) | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
@@ -309,7 +309,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-focal-2 | Focal | Electra 1027Be | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | legacy-focal-3 | Focal | Utopia III Scala | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-focal-5 | Focal | Trio6 Be | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
-| legacy-focal-7 | Focal | Kanta No2 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
+| legacy-focal-7 | Focal | Kanta No2 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-focal-8 | Focal | Aria 906 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | legacy-yam-2 | Yamaha | NS-10M | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, frequency-response limits |
 | legacy-yam-3 | Yamaha | NS-690 | PARTIALLY_VERIFIED | voiceCoil |
@@ -394,7 +394,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-evolve-70 | Electro-Voice | EVOLVE 70 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-evolve-90 | Electro-Voice | EVOLVE 90 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-pxm-12mp | Electro-Voice | PXM-12MP | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
-| electro-voice-zx1 | Electro-Voice | ZX1 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
+| electro-voice-zx1 | Electro-Voice | ZX1 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | electro-voice-zx1i | Electro-Voice | ZX1i | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | electro-voice-zx3 | Electro-Voice | ZX3 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | electro-voice-zx4 | Electro-Voice | ZX4 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
@@ -655,7 +655,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | morel-elate-carbon-62a | Morel | Elate Carbon 62A | PARTIALLY_VERIFIED | impedance, resonantFreq |
 | audison-prima-apk-165 | Audison | Prima APK 165 | PARTIALLY_VERIFIED | sensitivity |
 | audison-voce-av-k6 | Audison | Voce AV K6 | PARTIALLY_VERIFIED | sensitivity |
-| audison-thesis-th-k2-ii-a | Audison | Thesis TH K2 II A | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| audison-thesis-th-k2-ii-a | Audison | Thesis TH K2 II A | PARTIALLY_VERIFIED | sensitivity |
 | sonus-faber-lumina-i | Sonus Faber | Lumina I | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | sonus-faber-lumina-ii | Sonus Faber | Lumina II | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | sonus-faber-lumina-iii | Sonus Faber | Lumina III | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
@@ -782,5 +782,5 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
 **Records with at least one source-backed acoustic field:** 647
-**Records with no source-backed acoustic field:** 51
-**Unavailable identities or confirmed non-loudspeaker records:** 76
+**Records with no source-backed acoustic field:** 50
+**Unavailable identities or confirmed non-loudspeaker records:** 77

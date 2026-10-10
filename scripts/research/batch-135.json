@@ -1,0 +1,42 @@
+[
+  {
+    "id": "audison-thesis-th-k2-ii-a",
+    "model_check": "TH K2 II A",
+    "sourceType": "MANUFACTURER",
+    "source": "https://audison.com/product/th-k2-ii-a-coro-2/",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 26000, "unit": "Hz", "notes": "Official LF spec 'Frequency Response 40 Hz ÷ 26 kHz'. No tolerance (±3 dB, −6 dB or −10 dB) is stated on the page, so none is recorded." },
+      "impedance": { "value": 4, "unit": "ohm", "notes": "Official kit listing 'Impedance 4 Ohm' (TH K2 II A CORO, 2-way kit)." },
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling", "notes": "Official 'Power Handling - Continuous 150 W'. The 300 W figure on the same page is 'Power Handling - Peak' and is not stored as the continuous rating." },
+      "woofer": { "value": 6.5, "unit": "in", "notes": "TH 6.5 II Sax woofer, 165 mm (6.5 in), official LF spec. Cone material TPX." },
+      "voiceCoil": { "value": 1.97, "unit": "in", "notes": "Official 'Voice Coil Diameter 50 mm (1.97 in)' for the TH 6.5 II Sax woofer." },
+      "resonantFreq": { "value": 55, "unit": "Hz", "notes": "Official LF electro-acoustic spec 'Fs 55 Hz' for the woofer (not a kit-level value)." }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Official Audison product page for the TH K2 II A CORO kit (audison.com/product/th-k2-ii-a-coro-2/): 'Kit | 300 W Peak Power | Kit 2 way 4 ohm | TH 1.5 II Violino + TH 6.5 Sax'. driverCount 2 is the kit's two transducers (TH 1.5 II Violino tweeter and TH 6.5 II Sax woofer). Revision: the 'A' variant (the 'P CORO' is a separate Audison kit and is not merged). Sensitivity is NOT stored: the page prints 'Spl 87 dB' only inside the LF electro-acoustic table, with no reference condition and for the woofer alone, so it is not a verified kit sensitivity. Re, Qts, Vas, Xmax and other woofer parameters are on the same page and are not record fields. Source: https://audison.com/product/th-k2-ii-a-coro-2/."
+  },
+  {
+    "id": "legacy-la-1",
+    "model_check": "V-DOSC",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.yumpu.com/en/document/view/32782359/specs-v-dosc-1002-gb-revised-31012003qxd",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 18000, "unit": "Hz", "notes": "Frequency response 50–18k Hz (±3 dB), '3WX HI preset' (preset condition is part of the figure). The −10 dB usable bandwidth 40–20k Hz is a different measure and is not stored as the response. Source is a third-party copy (sisme.com upload on yumpu) of the L-Acoustics document 'specs-V-Dosc-1002-GB revised 31012003' (footnotes: free-field, scaled to 1 m). The L-Acoustics domain was not reached." }
+    },
+    "scalars": { "driverCount": 8, "active": true },
+    "notes": "Copy of the V-DOSC element specification (2003 revision, 'specs-V-Dosc-1002-GB revised 31012003.qxd') on yumpu.com (sisme.com upload). Text: 'Active 3-way enclosure (2 x 15\" LF, 4 x 7\" MF, 2 x 1.4\" HF)'; 'Components: LF 2 x 15\" weather-resistant loudspeaker ... LF 4 x 7\" ... HF 2 x 1.4\" compression driver mounted on patented DOSC waveguide'. driverCount 8 = 2 + 4 + 2 transducers. Stored: frequency response ±3 dB with the 3WX HI preset condition, and active=true. Not stored: sensitivity (multi-band: LF 100 dB 40–200 Hz; MF 105 dB 200–1.3 kHz; HF 108 dB 1.3–18 kHz; each band has its own bandwidth and reference, so no single speaker value is supported); power (long-term RMS per band, 375 W LF pair, 600 W MF, 200 W HF, each with different amplification); impedance (per band 8/8/16 Ω). This is a line-array element, not a single-driver speaker, and the copy is not the L-Acoustics domain. The 'V-DOSC' record is not the V-DOSC II or dV-DOSC (different revisions)."
+  },
+  {
+    "id": "beolab-5",
+    "model_check": "BeoLab 5",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 20, "high_hz": 20000, "unit": "Hz", "notes": "B&O technical specification table, 'Effective frequency range +/-3dB 20 – 20,000 Hz'. The '−10 dB low frequency limit 12 Hz' in the same table is a different measure and is not used as the response." },
+      "power": { "value": 2500, "unit": "W", "role": "amplifier_output", "notes": "B&O text: 'Each BeoLab 5 incorporates a total of 2,500 watts of power, provided by four built-in ICEpower amplifiers' (lower bass 1000 W, upper bass 1000 W, mid-range 250 W, treble 250 W). The basis (RMS, program or peak) is not stated, so this is total amplifier output, not a continuous speaker power rating." },
+      "woofer": { "value": 15, "unit": "in", "notes": "Lower bass driver 38 cm / 15 in (long-throw), B&O technical specification table. The 6.5 in upper bass driver is not stored as the woofer." }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Source: B&O 'BeoLab 5' technical brochure (document '16055_BL5_Tekn_EU_UK'), hosted on content.abt.com. The brochure is a manufacturer document copied by a retailer, so it is labelled REPUTABLE_DATABASE. The specification table lists: treble 1.8 cm (3/4 in), mid-range 7.6 cm (3 in), upper bass 16.5 cm (6.5 in), lower bass 38 cm (15 in); 'Sealed box / 5 l.' upper bass and 'Sealed box / 29 l.' lower bass; 'Max. sound pressure level 108 dB (stereo, pair)'; 'Height 97 cm, Ø 49 cm / 61 kg'. driverCount 4 is the four drivers in that table; active=true is the brochure's '4 way active technology with 4 ICEpower amplifiers'. Not stored: sensitivity (not in the brochure; the 91 dB 're 125 mVrms' figure on a secondary site uses a non-standard reference and is not used); impedance (not published here). The brochure carries no revision marker; the 2003 launch date comes from secondary sources (beoworld.org, specs4audio) and is consistent with the brochure's features (ABC microphone, ALT). Earlier pass-128 'MK2' conflict was not re-verified in this pass and remains a caveat."
+  }
+]
