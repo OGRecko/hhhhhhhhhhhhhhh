@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **127** of 774 (50 UNVERIFIED, 77 UNAVAILABLE) across 42 brands.
+Records still needing research: **126** of 774 (48 UNVERIFIED, 78 UNAVAILABLE) across 42 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -25,7 +25,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Cerwin Vega | 2 | D-9 (`cerwin-vega-d9`); Earthquake (`cerwin-vega-earthquake`) |
 | Bang & Olufsen | 2 | Beovox S45 (`bang-olufsen-beovox-s45`); Beosound 2 (`bang-olufsen-beosound-2`) |
 | KEF | 2 | Ci200 (`legacy-kef-10`); Blade Meta (`kef-blade-meta`) |
-| Mackie | 2 | CR3 (`legacy-mack-4`); Thump15 (`legacy-mack-5`) |
 | Martin Audio | 2 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`) |
 | QSC | 2 | CP15 (`qsc-cp15`); AD-C8T (`qsc-ad-c8t`) |
 | Sony | 2 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`) |
@@ -48,5 +47,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Sonance | 1 | Mariner 6 (`sonance-mariner-6`) |
 | JBL | 1 | Ranger Paragon D44000 (`legacy-jbl-2`) |
 | Yamaha | 1 | VXC series (`legacy-yam-8`) |
+| Mackie | 1 | CR3 (`legacy-mack-4`) |
 | Pioneer | 1 | TS-A1607F (`pioneer-ts-a1607f`) |
 | Wilson Audio | 1 | Alexia (`wilson-audio-alexia`) |

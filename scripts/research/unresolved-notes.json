@@ -726,5 +726,15 @@
       "https://cerwinvega.ca/products/cerwin-vega-earthquake-18-powered-sub",
       "https://www.musiciansfriend.com/pro-audio/cerwin-vega-el-36b-earthquake-18-subwoofer"
     ]
+  },
+  "legacy-bw-9": {
+    "model": "CWM8",
+    "status": "UNAVAILABLE",
+    "note": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact variant not established. The Bowers & Wilkins CWM8 family has several variants (for example CWM8.3 D and CWM8.5 D) with different specs; retailer copies only; none transferred. Pass-130 check (2026-10-10): the Bowers & Wilkins CWM8i information sheet (archive PDF) describes a different model (the CWM8i, 40 Hz–20 kHz ±3 dB, 90 dB 2.83 V 1 m, 4 Ω). The CWM8.3 D is also a different model. No CWM8 page was found. Nothing stored. Pass-136 check (2026-10-10): UNAVAILABLE as an unresolved identity: searches of retailer and manufacturer listings returned only the CWM8.3 D (1 in diamond-dome tweeter, 5 in midrange, two 7 in bass drivers; 30 Hz–35 kHz; 89 dB; 8 Ω) and the CWM8.5 D (2-way, 35 Hz–35 kHz; 89 dB; 8 Ω). No listing for a bare \"CWM8\" was found, so the catalog row cannot be matched to an exact model and no values are transferred from these revisions.",
+    "sources": [
+      "https://www.abt.com/Bowers-Wilkins-CWM8.3-D-3-Way-In-Wall-Speaker-Each-FP39349/p/156664.html",
+      "https://www.audioadvice.com/products/bowers-wilkins-cwm8-5-d-in-wall-speaker",
+      "https://listenup.com/products/bowers-wilkins-cwm8-3-d-in-wall-speaker"
+    ]
   }
 }

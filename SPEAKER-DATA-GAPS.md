@@ -295,7 +295,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-bw-5 | Bowers & Wilkins | 802D | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | legacy-bw-6 | Bowers & Wilkins | CM10 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | legacy-bw-7 | Bowers & Wilkins | 800 D3 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
-| legacy-bw-9 | Bowers & Wilkins | CWM8 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-bw-9 | Bowers & Wilkins | CWM8 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-bw-10 | Bowers & Wilkins | CCM8 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-kef-1 | KEF | Concord | PARTIALLY_VERIFIED | sensitivity, impedance, voiceCoil, woofer |
 | legacy-kef-2 | KEF | Model 104 | PARTIALLY_VERIFIED | sensitivity, voiceCoil |
@@ -326,7 +326,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-mack-2 | Mackie | HR624 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-mack-3 | Mackie | MR624 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-mack-4 | Mackie | CR3 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| legacy-mack-5 | Mackie | Thump15 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-mack-5 | Mackie | Thump15 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
 | legacy-mack-6 | Mackie | SRM450 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer |
 | legacy-mack-7 | Mackie | DLM12 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
 | legacy-adam-1 | Adam Audio | S3A | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq |
@@ -781,6 +781,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 647
-**Records with no source-backed acoustic field:** 50
-**Unavailable identities or confirmed non-loudspeaker records:** 77
+**Records with at least one source-backed acoustic field:** 648
+**Records with no source-backed acoustic field:** 48
+**Unavailable identities or confirmed non-loudspeaker records:** 78

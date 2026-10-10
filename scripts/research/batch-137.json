@@ -1,0 +1,37 @@
+[
+  {
+    "id": "amazon-echo",
+    "model_check": "Echo (4th gen)",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.amazon.com/All-new-generation-International-Version-Charcoal/dp/B085H3DKLT",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-131 check (2026-10-10): retailer and review copies (Best Buy Canada blog, XDA-Developers, a retailer listing) describe 1 x 3-inch woofer and 2 x 0.8-inch tweeters; the Amazon product page was not reached. Driver count and power are not stored from secondary copies. Nothing else found. Pass-136 check (2026-10-10): Amazon's own listing for Echo (4th generation), International Version (ASIN B085H3DKLT), states \"3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters\": driverCount 3 (one woofer, two tweeters). The listing publishes no power, sensitivity, impedance or frequency response, so none is stored. The US listing is not separately checked; the driver description is the same in the retail copies. Pass-137 check (2026-10-10): the second chunk of the Amazon product page (ASIN B085H3DKLT, Echo (4th Gen) International Version) repeats the technical details: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters. The pending chunk check is closed. driverCount 3 is unchanged; no other field is published on this page.",
+    "scalars": {
+      "driverCount": 3
+    }
+  },
+  {
+    "id": "klh-model-6",
+    "model_check": "Model Six",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.reverb.com/item/97370115-klh-model-6-speakers-in-excellent-condition-1960-s",
+    "fields": {},
+    "notes": "Exact-model identity and two-loudspeaker configuration verified from RadioMuseum; no sensitivity/impedance/frequency-response values are populated because the exact source does not provide them. Source: https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2 Pass-128 check (2026-10-10): Pass-128 check: no exact-model manufacturer source located in this pass; existing driverCount retained as recorded; no acoustic values transferred. Pass-130 check (2026-10-10): the existing driverCount 2 and identity (RadioMuseum) are retained, but secondary sources conflict. One vintagetechnologyarchive page gives three-way, 45 Hz–20 kHz and 108 dB; another gives two-way, 8 Ω, 12 W RMS (150 W max), and a resale listing gives ~88 dB and 40 W RMS. Revision/era conflicts are unresolved. The driverCount is retained only as the RadioMuseum value and must be re-checked against the 1958–1972 Model Six documentation. Pass-137 check (2026-10-10): sources still conflict on woofer size, impedance and sensitivity. The aphenos.net early KLH table lists the early-style Six as 8 Ω, 12 in woofer, 2-way, 32–16k; a Reverb listing gives 8 Ω, ~88 dB at 1 W/1 m (no tolerance stated), 40 W RMS and 'usable to 40 Hz' (secondary, listing copy); a classicspeakerpages forum thread reports a 10–11 in frame woofer. None is exact-model manufacturer text; no field is stored. driverCount 2 is unchanged."
+  },
+  {
+    "id": "legacy-la-3",
+    "model_check": "Kara",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.l-acoustics.com/products/kara-ii/",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): KARA vs KARA II retailer copies conflict on configuration and frequency response; exact model not established; none transferred. Pass-131 check (2026-10-10): the L-Acoustics KARA product URL (l-acoustics.com/products/kara/) did not resolve to a KARA product page (it redirects to the KARA-ANGARMEX accessory). The KARA vs KARA II identity conflict remains open. Nothing stored. Pass-137 check (2026-10-10): the L-Acoustics KARA II manufacturer page and its datasheet (usable bandwidth −10 dB 55 Hz–20 kHz; max SPL 142 dB; LF 2×8 in, HF 1×3 in; 8 Ω; 26 kg) describe KARA II, a different model from this record's KARA. These values are not transferred. No exact KARA manufacturer page was located; the record remains UNVERIFIED with no fields."
+  },
+  {
+    "id": "pmc-bb5-xbd-a",
+    "model_check": "BB5",
+    "sourceType": "MANUFACTURER",
+    "source": "https://pmc-speakers.com/products/archive/archive/bb5-xbd/",
+    "fields": {},
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred. Pass-130 check (2026-10-10): the only frequency data found (17 Hz–25 kHz, 136 kg, 2 x 900 W LF amplification) belongs to the BB5 XBD-A SE (Signature Edition), which is not the record's variant. The SE data is not transferred and the XBD-A vs SE conflict remains open. Pass-135 check (2026-10-10): the PMC archive page for the BB5 XBD-A (pmc-speakers.com/products/archive/archive/bb5-xbd/, c.2011) states 'down to 17Hz' (no tolerance, no upper limit) and amplifier power LF 900 W, LF 900 W, MF 300 W, HF 300 W. The current BB5 XBD-A SE page gives 17 Hz–25 kHz (no tolerance) with the same amplifier layout. A Vintage King listing for 'BB5 XBD-A-C' gives 800/800/250/250 W (a different revision). The revision is still not resolved for this record, so no value is stored. A lower limit alone is not a field. Pass-137 check (2026-10-10): the PMC archive page for BB5 XBD (manufacturer, undated, c.2011) lists drive units LF 2×380 mm, MF 75 mm, HF 34 mm, crossover 380 Hz / 3.8 kHz, amplifier LF 900 W, MF 300 W, HF 300 W, and 'down to 17Hz' with no upper limit. It does not state the XBD-A or SE designation. The SE retailer copy (17 Hz–25 kHz) is a different revision. Revision is unresolved; driverCount stays unset and no field is stored."
+  }
+]

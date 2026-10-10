@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 622 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 623 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -3659,6 +3659,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - Polk Audio RC85i — frequency-response limits
 - Polk Audio RC85i — sensitivity
 - Polk Audio RC85i — woofer size
+
+## https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html
+
+- Mackie Thump15 — frequency-response limits
+- Mackie Thump15 — power
 
 ## https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf
 
