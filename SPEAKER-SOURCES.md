@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 631 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 634 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -1762,6 +1762,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - PMC PMC8-2 — frequency-response limits
 - PMC PMC8-2 — woofer size
 
+## https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/
+
+- Amazon Echo (4th gen) — woofer size
+
 ## https://products.bose.com/pdf/customer_service/owners/251_guide.pdf
 
 - Bose 251 Environmental — impedance
@@ -1969,6 +1973,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - Hertz Mille Pro MPK 165.3 — voice-coil size
 - Hertz Mille Pro MPK 165.3 — woofer size
 
+## https://static.qobuz.com/info/IMG/pdf/Specif_Sonos_Play_1.pdf
+
+- Sonos Play:1 — woofer size
+
 ## https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf
 
 - Kali Audio LP-6 — frequency-response limits
@@ -2028,6 +2036,10 @@ The source is attached to the exact field it supports. A source URL here does no
 
 - Harbeth Super HL5 Plus — power
 - Harbeth Super HL5 Plus — sensitivity
+
+## https://thenextweb.com/news/measured-how-the-sonos-move-balances-performance-and-durability-in-a-bluetooth-speaker
+
+- Sonos Move — woofer size
 
 ## https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf
 

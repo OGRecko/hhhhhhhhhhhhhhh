@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sonos-play1",
+    "model_check": "Play:1",
+    "sourceType": "THIRD_PARTY",
+    "source": "https://static.qobuz.com/info/IMG/pdf/Specif_Sonos_Play_1.pdf",
+    "fields": {
+      "woofer": {
+        "value": 3.5,
+        "unit": "in",
+        "notes": "'MID-WOOFER One 3.5 in/9 cm mid-woofer' per the Sonos PLAY:1 specification sheet copy hosted on static.qobuz.com (not sonos.com). Single third-party copy; the sheet also lists one tweeter and two Class-D amplifiers, which agree with driverCount 2."
+      }
+    },
+    "notes": "Third-party copy of the Sonos PLAY:1 specification sheet (static.qobuz.com). The sheet publishes no frequency response, sensitivity, impedance or power rating, so none is stored. Pass-142 (2026-10-11): third-party tier applied to the mid-woofer diameter."
+  },
+  {
+    "id": "legacy-sonos-5",
+    "model_check": "Move",
+    "sourceType": "THIRD_PARTY",
+    "source": "https://thenextweb.com/news/measured-how-the-sonos-move-balances-performance-and-durability-in-a-bluetooth-speaker",
+    "fields": {
+      "woofer": {
+        "value": 3.5,
+        "unit": "in",
+        "notes": "'It has a fairly typical 3.5-inch woofer' per thenextweb.com's measurement article on the Sonos Move (Gen 1, $399). Single third-party source; Sonos publishes no driver size on its shop page."
+      }
+    },
+    "notes": "Third-party measurement article (thenextweb.com, January 2020). The record is the first-generation Move; the Move 2 record is separate and is not merged. The article gives no frequency response, sensitivity, impedance or power figure that is usable, so none is stored. Pass-142 (2026-10-11): third-party tier applied to the woofer diameter."
+  },
+  {
+    "id": "amazon-echo",
+    "model_check": "Echo",
+    "sourceType": "THIRD_PARTY",
+    "source": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
+    "fields": {
+      "woofer": {
+        "value": 3,
+        "unit": "in",
+        "notes": "3.0 in (76 mm) neodymium woofer per proaudiovideo.in ('Driver Size: 3.0\" (76mm) neodymium woofer + two 0.8\" (20mm) tweeters'). The same figure appears on mahajanelectronics.com ('3.0\" woofer and dual 0.8\" tweeters') and in the Amazon ASIN B085H3DKLT listing already recorded in notes. Two third-party copies agree."
+      }
+    },
+    "notes": "Third-party copies only (proaudiovideo.in; mahajanelectronics.com; Amazon listing). Both spec copies state Impedance and Sensitivity as N/A for this active, mains-powered speaker, so neither is stored. The 'full-range' frequency statement has no criterion and is not stored. Pass-142 (2026-10-11): third-party tier applied to the woofer diameter."
+  }
+]

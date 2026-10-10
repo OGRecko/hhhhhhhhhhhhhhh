@@ -203,7 +203,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | sonos-arc | Sonos | Arc | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-beam | Sonos | Beam Gen 2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | apple-homepod | Apple | HomePod (2nd gen) | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
-| amazon-echo | Amazon | Echo (4th gen) | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| amazon-echo | Amazon | Echo (4th gen) | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | yamaha-ns500 | Yamaha | NS-500 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | jbl-k2-s9900 | JBL | K2 S9900 | PARTIALLY_VERIFIED | power, resonantFreq |
 | klipsch-cornwall-iv | Klipsch | Cornwall IV | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
@@ -242,7 +242,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | mackie-srm212 | Mackie | SRM212 V-Class | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | yamaha-dbr12 | Yamaha | DBR12 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | bose-wave-music-system | Bose | Wave Music System IV | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| sonos-play1 | Sonos | Play:1 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| sonos-play1 | Sonos | Play:1 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | sonos-play3 | Sonos | Play:3 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | martinlogan-motion-40 | MartinLogan | Motion 40 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | martinlogan-motion-20 | MartinLogan | Motion 20 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
@@ -310,7 +310,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-dyn-3 | Dynaudio | Confidence C1 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-dyn-4 | Dynaudio | Evidence Platinum | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-dyn-7 | Dynaudio | Contour 20 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| legacy-sonos-5 | Sonos | Move | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-sonos-5 | Sonos | Move | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | legacy-bose-2 | Bose | 501 | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, frequency-response limits |
 | legacy-bose-6 | Bose | FreeSpace DS 16F | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-bose-7 | Bose | 251 Environmental | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
@@ -700,6 +700,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 656
-**Records with no source-backed acoustic field:** 37
+**Records with at least one source-backed acoustic field:** 659
+**Records with no source-backed acoustic field:** 34
 **Unavailable identities or confirmed non-loudspeaker records:** 0
