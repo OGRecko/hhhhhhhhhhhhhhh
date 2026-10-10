@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **137** of 774 (62 UNVERIFIED, 75 UNAVAILABLE) across 47 brands.
+Records still needing research: **135** of 774 (60 UNVERIFIED, 75 UNAVAILABLE) across 47 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -15,7 +15,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Bowers & Wilkins | 5 | 802 (1979 original) (`bw-802-original`); 800 D4 (`bw-800-d4`); CWM8 (`legacy-bw-9`); CCM8 (`legacy-bw-10`); Zeppelin (`bowers-wilkins-zeppelin`) |
 | Fender | 5 | Twin Reverb (`fender-twin-reverb`); Deluxe Reverb (`fender-deluxe-reverb`); Hot Rod Deluxe (`fender-hot-rod-deluxe`); Princeton Reverb (`fender-princeton-reverb`); Super Reverb (`fender-super-reverb`) |
 | L-Acoustics | 4 | V-DOSC (`legacy-la-1`); ARCS (`legacy-la-2`); Kara (`legacy-la-3`); X15 (`legacy-la-7`) |
-| Sony | 4 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`); Sony HT-A5000 (`sony-sony-ht-a5000`); Sony HT-A3000 (`sony-sony-ht-a3000`) |
 | JL Audio | 4 | C7-650 (`jl-audio-c7-650`); 10W0v3 (`jl-audio-10w0v3`); 12W0v3 (`jl-audio-12w0v3`); 13W7AE (`jl-audio-13w7ae`) |
 | PreSonus | 4 | Eris 3.5 (`presonus-eris-3-5`); Eris 5 (`presonus-eris-5`); Eris 6 (`presonus-eris-6`); Eris 8 (`presonus-eris-8`) |
 | Bang & Olufsen | 3 | Beovox S45 (`bang-olufsen-beovox-s45`); BeoLab 5 (`beolab-5`); Beosound 2 (`bang-olufsen-beosound-2`) |
@@ -30,6 +29,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | KEF | 2 | Ci200 (`legacy-kef-10`); Blade Meta (`kef-blade-meta`) |
 | Martin Audio | 2 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`) |
 | QSC | 2 | CP15 (`qsc-cp15`); AD-C8T (`qsc-ad-c8t`) |
+| Sony | 2 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`) |
 | LG | 2 | LG S95TR (`lg-lg-s95tr`); LG SC9S (`lg-lg-sc9s`) |
 | Morel | 2 | Maximo Ultra 602 (`morel-maximo-ultra-602`); Virtus 602 (`morel-virtus-602`) |
 | Mesa/Boogie | 2 | Rectifier 4x12 (`mesa-boogie-rectifier-4x12`); 2x12 Rectifier (`mesa-boogie-2x12-rectifier`) |

@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 612 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 614 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -3924,9 +3924,17 @@ The source is attached to the exact field it supports. A source URL here does no
 - Sonus Faber Lumina I — sensitivity
 - Sonus Faber Lumina I — woofer size
 
+## https://www.sony.ca/en/electronics/sound-bars/ht-a3000/specifications
+
+- Sony Sony HT-A3000 — power
+
 ## https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications
 
 - Sony Sony HT-A7000 — power
+
+## https://www.sony.com/en-jo/electronics/sound-bars/ht-a5000/specifications
+
+- Sony Sony HT-A5000 — power
 
 ## https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench
 

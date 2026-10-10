@@ -1,0 +1,33 @@
+[
+  {
+    "id": "sony-sony-ht-a3000",
+    "model_check": "HT-A3000",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sony.ca/en/electronics/sound-bars/ht-a3000/specifications",
+    "fields": {
+      "power": { "value": 250, "unit": "W", "role": "amplifier_output", "notes": "Sony 'Power Output (TOTAL)' 250 W; RMS vs peak basis not stated by the source; total amplifier output, not continuous speaker power" }
+    },
+    "scalars": {},
+    "notes": "Sony official HT-A3000 specification page (sony.ca): amplifier channels 5ch; digital amplifier (S-Master); 'Power Output (TOTAL)' 250 W, basis not stated, stored only as amplifier_output. The regional Sony Asia and Sony India pages give the same 250 W total. Driver count is not stored: the page describes a 'built-in dual subwoofer and front speakers' while the regional page describes a built-in subwoofer, so the unit count cannot be fixed from the sources. No sensitivity, impedance or response is published. Source: https://www.sony.ca/en/electronics/sound-bars/ht-a3000/specifications."
+  },
+  {
+    "id": "sony-sony-ht-a5000",
+    "model_check": "HT-A5000",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sony.com/en-jo/electronics/sound-bars/ht-a5000/specifications",
+    "fields": {
+      "power": { "value": 450, "unit": "W", "role": "amplifier_output", "notes": "Sony 'Power Output (Total)' 450 W; RMS vs peak basis not stated by the source; total amplifier output, not continuous speaker power" }
+    },
+    "scalars": {},
+    "notes": "Sony official HT-A5000 specification page (sony.com/en-jo): speaker structure 5.1.2ch (built-in subwoofer); amplifier channels 9ch; 'Power Output (Total)' 450 W, basis not stated, stored only as amplifier_output. Driver count is not stored: Sony's product text lists two up-firing speakers, two beam tweeters, three front speakers and 'a subwoofer' (which would total 8 units), but a third-party review describes dual built-in bass woofers, so the unit count cannot be fixed from manufacturer text alone. No sensitivity, impedance or response is published. Source: https://www.sony.com/en-jo/electronics/sound-bars/ht-a5000/specifications."
+  },
+  {
+    "id": "sony-sony-bravia-theatre-bar-8",
+    "model_check": "BRAVIA Theatre Bar 8",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a8000/specifications",
+    "fields": {},
+    "scalars": { "driverCount": 11 },
+    "notes": "Sony official HT-A8000 / BRAVIA Theatre Bar 8 specification page (sony.com, US): 'Speaker Structure 5.0.2 ch (11 Speaker Units)'; amplifier channels 11 ch; dual subwoofer listed as an option. Driver count 11 is Sony's stated unit count. The US Sony page does not publish a total output power figure; retailer copies quoting 495 W or 90 W RMS are not used. No sensitivity, impedance or frequency response is published. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a8000/specifications."
+  }
+]
