@@ -149,13 +149,10 @@ check("Sonos structural facts use exact manufacturer sources without invented ac
     { id: "sonos-play1", drivers: 2, active: null, source: "https://newsroom.sonos.com/254814-introducing-sonos-play-1/" },
     { id: "sonos-play3", drivers: 3, active: true, source: "https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/" },
     { id: "legacy-sonos-5", drivers: 2, active: true, source: "https://www.sonos.com/en-us/guides/move" },
-    { id: "legacy-sonos-6", drivers: 6, active: true, source: "https://www.sonos.com/en-us/guides/era300" },
     { id: "sonos-sonos-era-100", drivers: 3, active: true, source: "https://www.sonos.com/en-us/guides/era100" },
     { id: "sonos-sonos-era-300", drivers: 6, active: true, source: "https://www.sonos.com/en-us/guides/era300" },
-    { id: "sonos-sonos-five", drivers: 6, active: true, source: "https://www.sonos.com/en-us/guides/five" },
     { id: "sonos-sonos-move-2", drivers: 3, active: true, source: "https://www.sonos.com/en-us/guides/move2" },
     { id: "sonos-sonos-roam-2", drivers: 2, active: true, source: "https://www.sonos.com/en-us/guides/roam2" },
-    { id: "sonos-sonos-arc", drivers: 11, active: true, source: "https://www.sonos.com/en-us/guides/arc" },
     { id: "sonos-sonos-arc-ultra", drivers: 14, active: true, source: "https://www.sonos.com/en-us/guides/arcultra" },
     { id: "sonos-sonos-ray", drivers: 4, active: true, source: "https://www.sonos.com/en-us/guides/ray" },
   ];
@@ -1412,7 +1409,7 @@ check("Marshall active speakers retain published ranges and distinguish amp outp
   const cases = [
     { id: "marshall-marshall-acton-iii", source: "https://www.marshall.com/us/en/product/acton-iii?pid=1006008", low: 45, high: 20000, power: 60, drivers: null, woofer: null, category: "hifi" },
     { id: "marshall-marshall-stanmore-iii", source: "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642", low: 45, high: 20000, power: 80, drivers: null, woofer: null, category: "hifi" },
-    { id: "marshall-marshall-woburn-iii", source: "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020", low: 35, high: 20000, power: 150, drivers: null, woofer: null, category: "hifi" },
+    { id: "marshall-marshall-woburn-iii", source: "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020", low: 35, high: 20000, power: null, drivers: null, woofer: null, category: "hifi" },
     { id: "marshall-marshall-middleton", source: "https://www.marshall.com/us/en/product/middleton?pid=1006034", low: 50, high: 20000, power: 60, drivers: 4, woofer: 3, category: "portable" },
   ];
   for (const c of cases) {
@@ -1425,10 +1422,15 @@ check("Marshall active speakers retain published ranges and distinguish amp outp
     nodeAssert.equal(s.driverCount, c.drivers, `${c.id}: do not infer driver count from amplifier channels`);
     nodeAssert.equal(s.woofer.value, c.woofer, `${c.id}: only an explicitly published woofer size is populated`);
     nodeAssert.equal(s.power.value, c.power);
-    nodeAssert.equal(s.power.role, "amplifier_output", `${c.id}: integrated amplifier ratings are not speaker power handling`);
-    nodeAssert.equal(s.power.source, c.source);
-    nodeAssert.equal(s.power.sourceType, "MANUFACTURER");
-    nodeAssert.equal(s.power.status, "MANUFACTURER_VERIFIED");
+    if (c.power === null) {
+      nodeAssert.equal(s.power.source, null, `${c.id}: the arithmetic sum of channel ratings is not a published power value`);
+      nodeAssert.equal(s.power.status, "UNAVAILABLE");
+    } else {
+      nodeAssert.equal(s.power.role, "amplifier_output", `${c.id}: integrated amplifier ratings are not speaker power handling`);
+      nodeAssert.equal(s.power.source, c.source);
+      nodeAssert.equal(s.power.sourceType, "MANUFACTURER");
+      nodeAssert.equal(s.power.status, "MANUFACTURER_VERIFIED");
+    }
     nodeAssert.equal(s.frequencyResponse.low_hz, c.low);
     nodeAssert.equal(s.frequencyResponse.high_hz, c.high);
     nodeAssert.equal(s.frequencyResponse.source, c.source);
@@ -1441,7 +1443,7 @@ check("Marshall active speakers retain published ranges and distinguish amp outp
     nodeAssert.match(s.notes, /no response tolerance or measurement conditions stated/i);
     nodeAssert.match(s.notes, /maximum SPL, not sensitivity/i);
     nodeAssert.match(s.notes, /arithmetic sum/i);
-    nodeAssert.match(s.notes, /amplifier_output/i);
+    if (c.power !== null) nodeAssert.match(s.notes, /amplifier_output/i);
     nodeAssert.match(s.notes, /no (?:response )?curve or directivity data is imported/i);
     assert(s.notes.includes(c.source), `${c.id} notes must cite the exact manufacturer source`);
   }

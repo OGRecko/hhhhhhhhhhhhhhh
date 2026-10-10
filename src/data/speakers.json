@@ -5235,7 +5235,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-five share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-sonos-five (Sonos Sonos Five); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong. Pass-137 driver-count check (2026-10-10): Same product as the Sonos Five shop page (manufacturer): 3 tweeters and 3 midwoofers; driverCount 6 matches. This is a second record for the same model; it is not merged here."
+    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): Pass-137 driver-count check (2026-10-10): Same product as the Sonos Five shop page (manufacturer): 3 tweeters and 3 midwoofers; driverCount 6 matches. Duplicate alias (2026-10-10): `sonos-sonos-five` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry."
   },
   {
     "id": "sonos-sub-mini",
@@ -14285,7 +14285,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-arc share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-sonos-arc (Sonos Sonos Arc); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong."
+    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Duplicate alias (2026-10-10): `sonos-sonos-arc` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry."
   },
   {
     "id": "sonos-beam",
@@ -22180,9 +22180,9 @@
     "model": "Era 300",
     "category": "studio-monitor",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": 6,
-    "active": true,
+    "overallStatus": "UNAVAILABLE",
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -22233,7 +22233,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. No driver diameters or standardized response limits are asserted; sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-era-300 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-sonos-era-300 (Sonos Sonos Era 300); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong. Pass-132 check (2026-10-10): the Sonos Era 300 product and support pages were not reached. Secondary reviews (PCMag, SoundGuys, Sound & Vision) state that Sonos publishes no frequency range, power or driver size for the Era 300; the amplifier count (six Class-D) and transducer count (four tweeters, two woofers) are consistent with the Sonos manufacturer guide already cited. Driver count only; no acoustic field stored. Pass-137 driver-count check (2026-10-10): Same record as Era 300 (Sonos shop page): 4 tweeters and 2 woofers; driverCount 6 matches. No acoustic specification is published, so no field is stored."
+    "notes": "UNAVAILABLE as a separate record. This is a duplicate alias of the canonical record `sonos-sonos-era-300`: the same brand, model and manufacturer guide (https://www.sonos.com/en-us/guides/era300) are already held there, so the driver count and powered status are kept only on `sonos-sonos-era-300` and are not copied here. Under the project's duplicate-alias rule, this catalog ID is preserved for 774-record continuity, and all physical and acoustic fields remain N/A with no copied specifications. Canonical manufacturer source: https://www.sonos.com/en-us/guides/era300. The catalog ID is preserved as an unavailable alias."
   },
   {
     "id": "legacy-bose-2",
@@ -31783,7 +31783,7 @@
     },
     "driverCount": 3,
     "panel": null,
-    "notes": "The dataset's WL2102w label maps to the exact QSC manual model WL2102-w (birch plywood enclosure; punctuation only differs). The manual specifies two 10-inch LF transducers plus one 1.4-inch-exit HF compression driver; frequency response 55 Hz–18 kHz (±3 dB) and range 48 Hz–20 kHz (-10 dB), both with recommended DSP processing. This is an externally amplified passive bi-amp/tri-amp cabinet. HF/LF sensitivity (107.5/98 dB at 1 W/1 m), impedance, and continuous/recommended power ratings differ by band and bi-/tri-amp mode; no scalar sensitivity, impedance, or power is asserted or combined. The source's 140° horizontal and array-dependent vertical coverage is not a polar dataset. No response points are digitized from the graph."
+    "notes": "The dataset's WL2102w label maps to the exact QSC manual model WL2102-w (birch plywood enclosure; punctuation only differs). The manual specifies two 10-inch LF transducers plus one 1.4-inch-exit HF compression driver; frequency response 55 Hz–18 kHz (±3 dB) and range 48 Hz–20 kHz (-10 dB), both with recommended DSP processing. This is an externally amplified passive bi-amp/tri-amp cabinet. HF/LF sensitivity (107.5/98 dB at 1 W/1 m), impedance, and continuous/recommended power ratings differ by band and bi-/tri-amp mode; no scalar sensitivity, impedance, or power is asserted or combined. The source's 140° horizontal and array-dependent vertical coverage is not a polar dataset. No response points are digitized from the graph. The manual's introduction describes bass response as '55 Hz (-3 dB)', but its specification table, which is the exact-model data, gives Frequency Response (±3 dB) 55 Hz–18 kHz and Frequency Range (-10 dB) 48 Hz–20 kHz; the stored values follow the table, and the -10 dB range is not stored as the response."
   },
   {
     "id": "qsc-wl212-sw",
@@ -38991,7 +38991,7 @@
     },
     "driverCount": 6,
     "panel": null,
-    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and legacy-sonos-6 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of legacy-sonos-6 (Sonos Era 300); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong. Pass-132 check (2026-10-10): secondary reviews (PCMag, SoundGuys, Sound & Vision) state that Sonos publishes no frequency range, power or driver size for the Era 300. Driver count 6 is from the Sonos manufacturer guide; no acoustic field stored. Pass-137 driver-count check (2026-10-10): Sonos Era 300 shop page (manufacturer) lists 4 tweeters and 2 woofers (6 Class-D amplifiers); this matches driverCount 6. No acoustic specification is published, so no field is stored."
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): Pass-132 check (2026-10-10): secondary reviews (PCMag, SoundGuys, Sound & Vision) state that Sonos publishes no frequency range, power or driver size for the Era 300. Driver count 6 is from the Sonos manufacturer guide; no acoustic field stored. Pass-137 driver-count check (2026-10-10): Sonos Era 300 shop page (manufacturer) lists 4 tweeters and 2 woofers (6 Class-D amplifiers); this matches driverCount 6. No acoustic specification is published, so no field is stored. Duplicate alias (2026-10-10): `legacy-sonos-6` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry."
   },
   {
     "id": "sonos-sonos-five",
@@ -38999,11 +38999,20 @@
     "model": "Sonos Five",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "active": true,
+    "overallStatus": "UNAVAILABLE",
+    "driverCount": null,
+    "active": null,
+    "panel": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
+    },
+    "frequencyResponse": {
+      "low_hz": null,
+      "high_hz": null,
       "status": "UNAVAILABLE",
       "source": null,
       "sourceType": "NONE"
@@ -39043,16 +39052,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "driverCount": 6,
-    "panel": null,
-    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with sonos-five. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-five share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-five (Sonos Five); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong. Pass-137 driver-count check (2026-10-10): Sonos Five shop page (manufacturer) lists 1 center tweeter, 2 angled tweeters and 3 midwoofers; this matches driverCount 6. No acoustic specification is published, so no field is stored."
+    "notes": "UNAVAILABLE as a separate record. This is a duplicate alias of the canonical record `sonos-five`: the same brand, model and manufacturer guide (https://www.sonos.com/en-us/guides/five) are already held there, so the driver count and powered status are kept only on `sonos-five` and are not copied here. Under the project's duplicate-alias rule, this catalog ID is preserved for 774-record continuity, and all physical and acoustic fields remain N/A with no copied specifications. Canonical manufacturer source: https://www.sonos.com/en-us/guides/five. The catalog ID is preserved as an unavailable alias."
   },
   {
     "id": "sonos-sonos-move-2",
@@ -39182,11 +39182,20 @@
     "model": "Sonos Arc",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "active": true,
+    "overallStatus": "UNAVAILABLE",
+    "driverCount": null,
+    "active": null,
+    "panel": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
+    },
+    "frequencyResponse": {
+      "low_hz": null,
+      "high_hz": null,
       "status": "UNAVAILABLE",
       "source": null,
       "sourceType": "NONE"
@@ -39226,16 +39235,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "driverCount": 11,
-    "panel": null,
-    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. Kept as a separate existing database record; it is not merged with sonos-arc. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-arc share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-arc (Sonos Arc); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong."
+    "notes": "UNAVAILABLE as a separate record. This is a duplicate alias of the canonical record `sonos-arc`: the same brand, model and manufacturer guide (https://www.sonos.com/en-us/guides/arc) are already held there, so the driver count and powered status are kept only on `sonos-arc` and are not copied here. Under the project's duplicate-alias rule, this catalog ID is preserved for 774-record continuity, and all physical and acoustic fields remain N/A with no copied specifications. Canonical manufacturer source: https://www.sonos.com/en-us/guides/arc. The catalog ID is preserved as an unavailable alias."
   },
   {
     "id": "sonos-sonos-arc-ultra",
@@ -41471,12 +41471,11 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": 150,
+      "value": null,
       "unit": "W",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
-      "sourceType": "MANUFACTURER",
-      "role": "amplifier_output"
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
     },
     "impedance": {
       "value": null,
@@ -41516,7 +41515,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "Exact Marshall Woburn III product page: frequency range 35–20,000 Hz (no response tolerance or measurement conditions stated); built-in Class D amplifier ratings are one 90 W woofer amplifier, two 15 W midrange amplifiers, and two 15 W tweeter amplifiers. The stored 150 W is the arithmetic sum of those published internal channel ratings, marked `amplifier_output` rather than speaker power handling; Marshall does not identify the rating basis as RMS or peak. Built-in amplification supports active=true. The page's 100.5 dB @ 1 m figure is maximum SPL, not sensitivity. The page does not explicitly state woofer size or total driver count; neither is inferred from amplifier count. Passive speaker impedance, sensitivity, resonant frequency, and voice-coil diameter remain N/A. The published frequency bounds are not response-curve points; no curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/woburn-iii?pid=1006020."
+    "notes": "Exact Marshall Woburn III product page: frequency range 35–20,000 Hz (no response tolerance or measurement conditions stated); built-in Class D amplifier ratings are one 90 W woofer amplifier, two 15 W midrange amplifiers, and two 15 W tweeter amplifiers. The four published internal channel ratings are listed above. Their arithmetic sum (150 W) is not a figure Marshall publishes as speaker or amplifier power, so no scalar power is stored and power remains N/A. Marshall does not identify the rating basis as RMS or peak. Built-in amplification supports active=true. The page's 100.5 dB @ 1 m figure is maximum SPL, not sensitivity. The page does not explicitly state woofer size or total driver count; neither is inferred from amplifier count. Passive speaker impedance, sensitivity, resonant frequency, and voice-coil diameter remain N/A. The published frequency bounds are not response-curve points; no curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/woburn-iii?pid=1006020."
   },
   {
     "id": "marshall-marshall-middleton",

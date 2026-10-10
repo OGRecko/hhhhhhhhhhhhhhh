@@ -740,5 +740,29 @@
       "https://www.audioadvice.com/products/bowers-wilkins-cwm8-5-d-in-wall-speaker",
       "https://listenup.com/products/bowers-wilkins-cwm8-3-d-in-wall-speaker"
     ]
+  },
+  "sonos-sonos-five": {
+    "model": "Sonos Five",
+    "status": "UNAVAILABLE",
+    "note": "UNAVAILABLE as a separate record. This is a duplicate alias of the canonical record `sonos-five`: the same brand, model and manufacturer guide (https://www.sonos.com/en-us/guides/five) are already held there, so the driver count and powered status are kept only on `sonos-five` and are not copied here. Under the project's duplicate-alias rule, this catalog ID is preserved for 774-record continuity, and all physical and acoustic fields remain N/A with no copied specifications. Canonical manufacturer source: https://www.sonos.com/en-us/guides/five. The catalog ID is preserved as an unavailable alias.",
+    "sources": [
+      "https://www.sonos.com/en-us/guides/five"
+    ]
+  },
+  "sonos-sonos-arc": {
+    "model": "Sonos Arc",
+    "status": "UNAVAILABLE",
+    "note": "UNAVAILABLE as a separate record. This is a duplicate alias of the canonical record `sonos-arc`: the same brand, model and manufacturer guide (https://www.sonos.com/en-us/guides/arc) are already held there, so the driver count and powered status are kept only on `sonos-arc` and are not copied here. Under the project's duplicate-alias rule, this catalog ID is preserved for 774-record continuity, and all physical and acoustic fields remain N/A with no copied specifications. Canonical manufacturer source: https://www.sonos.com/en-us/guides/arc. The catalog ID is preserved as an unavailable alias.",
+    "sources": [
+      "https://www.sonos.com/en-us/guides/arc"
+    ]
+  },
+  "legacy-sonos-6": {
+    "model": "Era 300",
+    "status": "UNAVAILABLE",
+    "note": "UNAVAILABLE as a separate record. This is a duplicate alias of the canonical record `sonos-sonos-era-300`: the same brand, model and manufacturer guide (https://www.sonos.com/en-us/guides/era300) are already held there, so the driver count and powered status are kept only on `sonos-sonos-era-300` and are not copied here. Under the project's duplicate-alias rule, this catalog ID is preserved for 774-record continuity, and all physical and acoustic fields remain N/A with no copied specifications. Canonical manufacturer source: https://www.sonos.com/en-us/guides/era300. The catalog ID is preserved as an unavailable alias.",
+    "sources": [
+      "https://www.sonos.com/en-us/guides/era300"
+    ]
   }
 }
