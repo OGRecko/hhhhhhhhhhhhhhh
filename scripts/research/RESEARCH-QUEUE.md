@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **129** of 774 (53 UNVERIFIED, 76 UNAVAILABLE) across 44 brands.
+Records still needing research: **127** of 774 (51 UNVERIFIED, 76 UNAVAILABLE) across 43 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -30,7 +30,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | QSC | 2 | CP15 (`qsc-cp15`); AD-C8T (`qsc-ad-c8t`) |
 | Sony | 2 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`) |
 | Morel | 2 | Maximo Ultra 602 (`morel-maximo-ultra-602`); Virtus 602 (`morel-virtus-602`) |
-| Mesa/Boogie | 2 | Rectifier 4x12 (`mesa-boogie-rectifier-4x12`); 2x12 Rectifier (`mesa-boogie-2x12-rectifier`) |
 | PMC | 2 | TB2 (`pmc-tb2`); BB5 (`pmc-bb5-xbd-a`) |
 | KLH | 1 | Model Six (`klh-model-6`) |
 | Boston Acoustics | 1 | A150 (`boston-a150`) |

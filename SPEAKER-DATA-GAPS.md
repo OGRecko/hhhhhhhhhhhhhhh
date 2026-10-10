@@ -741,8 +741,8 @@ This inventory lists fields that are not currently populated with retained sourc
 | vox-v212c | Vox | V212C | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | vox-v212hwx | Vox | V212HWX | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
 | vox-v212bn | Vox | V212BN | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
-| mesa-boogie-rectifier-4x12 | Mesa/Boogie | Rectifier 4x12 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| mesa-boogie-2x12-rectifier | Mesa/Boogie | 2x12 Rectifier | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| mesa-boogie-rectifier-4x12 | Mesa/Boogie | Rectifier 4x12 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| mesa-boogie-2x12-rectifier | Mesa/Boogie | 2x12 Rectifier | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | mesa-boogie-fillmore-2x12 | Mesa/Boogie | Fillmore 2x12 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
 | mesa-boogie-lone-star-2x12 | Mesa/Boogie | Lone Star 2x12 | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
 | peavey-6505-412 | Peavey | 6505 412 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
@@ -781,6 +781,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 645
-**Records with no source-backed acoustic field:** 53
+**Records with at least one source-backed acoustic field:** 647
+**Records with no source-backed acoustic field:** 51
 **Unavailable identities or confirmed non-loudspeaker records:** 76

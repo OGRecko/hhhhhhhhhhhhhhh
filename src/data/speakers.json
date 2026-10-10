@@ -22222,7 +22222,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. No driver diameters or standardized response limits are asserted; sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-era-300 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-sonos-era-300 (Sonos Sonos Era 300); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong."
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. No driver diameters or standardized response limits are asserted; sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and sonos-sonos-era-300 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of sonos-sonos-era-300 (Sonos Sonos Era 300); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong. Pass-132 check (2026-10-10): the Sonos Era 300 product and support pages were not reached. Secondary reviews (PCMag, SoundGuys, Sound & Vision) state that Sonos publishes no frequency range, power or driver size for the Era 300; the amplifier count (six Class-D) and transducer count (four tweeters, two woofers) are consistent with the Sonos manufacturer guide already cited. Driver count only; no acoustic field stored."
   },
   {
     "id": "legacy-bose-2",
@@ -22591,7 +22591,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio archive PDFs (W8_EN, W1_EN, W8LSER) mix several Wavefront variants with per-driver specs; bare 'Wavefront 8' is not established; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio archive PDFs (W8_EN, W1_EN, W8LSER) mix several Wavefront variants with per-driver specs; bare 'Wavefront 8' is not established; none transferred. Pass-132 check (2026-10-10): Martin Audio archive datasheets show several Wavefront-family products with different driver complements (for example a W8LSER variant with 1 x 15 in LF, 2 x 8 in MF and 4 x 1 in HF, and a 1 x 12 in / 2 x 6.5 in / 3 x 1 in variant). The W8LC and W8LMI datasheets are different products. No datasheet names the bare 'Wavefront 8' record, so nothing is stored."
   },
   {
     "id": "legacy-ma-2",
@@ -38985,7 +38985,7 @@
     },
     "driverCount": 6,
     "panel": null,
-    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and legacy-sonos-6 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of legacy-sonos-6 (Sonos Era 300); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong."
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): this record and legacy-sonos-6 share the same brand and product name. Both are retained with their IDs preserved and are flagged for review; neither is merged or deleted, and no values are transferred between them. Duplicate-name flag (2026-10-10): possible duplicate of legacy-sonos-6 (Sonos Era 300); both records are kept, not merged, pending manual review. This flag is not a finding that either record is wrong. Pass-132 check (2026-10-10): secondary reviews (PCMag, SoundGuys, Sound & Vision) state that Sonos publishes no frequency range, power or driver size for the Era 300. Driver count 6 is from the Sonos manufacturer guide; no acoustic field stored."
   },
   {
     "id": "sonos-sonos-five",
@@ -39473,7 +39473,7 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Bose's exact 2018 launch announcement identifies the Home Speaker 500 and states that two custom drivers point in opposite directions to deliver stereo separation from one enclosure. driverCount=2 counts the active transducers; the announcement does not establish driver diameter, standardized response bounds, or a complete polar/directivity dataset, so those fields remain N/A. Source: https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars."
+    "notes": "Bose's exact 2018 launch announcement identifies the Home Speaker 500 and states that two custom drivers point in opposite directions to deliver stereo separation from one enclosure. driverCount=2 counts the active transducers; the announcement does not establish driver diameter, standardized response bounds, or a complete polar/directivity dataset, so those fields remain N/A. Source: https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars. Pass-132 check (2026-10-10): no Bose manufacturer spec page was reached. Secondary sources (Trusted Reviews, SoundGuys, PCMag) describe two 2.5-inch (64 mm) full-range drivers and 50 W Class-D amplification, with no frequency range or sensitivity published. Power is not stored because its basis (RMS, peak or program) is not stated by the source."
   },
   {
     "id": "bose-bose-home-speaker-300",
@@ -39595,7 +39595,7 @@
     },
     "driverCount": 1,
     "panel": null,
-    "notes": "The exact Bose Portable Smart Speaker product page states that one high-excursion transducer radiates through an acoustic deflector and separately identifies three passive radiators. driverCount=1 counts the active transducer only; passive radiators are not counted as drivers. No transducer size, frequency-response bounds, or directivity payload is inferred. Source: https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html."
+    "notes": "The exact Bose Portable Smart Speaker product page states that one high-excursion transducer radiates through an acoustic deflector and separately identifies three passive radiators. driverCount=1 counts the active transducer only; passive radiators are not counted as drivers. No transducer size, frequency-response bounds, or directivity payload is inferred. Source: https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html. Pass-132 check (2026-10-10): the bose.com product page describes an 'ultra-efficient, high-excursion transducer' and three passive radiators; the stored driver count of 1 is the one transducer named by Bose. No power or frequency figure is published on the Bose page. A marketplace listing quoting 5 W output is not used."
   },
   {
     "id": "bose-bose-soundlink-flex",
@@ -39778,7 +39778,7 @@
     },
     "driverCount": 9,
     "panel": null,
-    "notes": "The exact Bose Smart Ultra Soundbar product page states that the system has nine total speakers, including two upward-firing speakers. driverCount=9 records that published total; the included upward-firing units are not added a second time. The page does not provide a full angular response dataset, so no directivity is inferred. Frequency limits, dimensions of individual drivers, and other acoustic values remain N/A unless separately sourced. Source: https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html."
+    "notes": "The exact Bose Smart Ultra Soundbar product page states that the system has nine total speakers, including two upward-firing speakers. driverCount=9 records that published total; the included upward-firing units are not added a second time. The page does not provide a full angular response dataset, so no directivity is inferred. Frequency limits, dimensions of individual drivers, and other acoustic values remain N/A unless separately sourced. Source: https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html. Pass-132 check (2026-10-10): the bose.com product comparison says '9 total speakers and center tweeter'. WhatHiFi describes nine drivers (three tweeters and six racetrack full-range units). The bose.com wording is ambiguous about whether the centre tweeter is inside the total, so the count of 9 is kept as the review-consistent figure and flagged as not fully resolved. No power or response figure is published."
   },
   {
     "id": "bose-bose-smart-soundbar",
@@ -39839,7 +39839,7 @@
     },
     "driverCount": 5,
     "panel": null,
-    "notes": "Bose's September 2024 launch release identifies the exact unnumbered Bose Smart Soundbar as replacing Smart Soundbar 600 and specifies five transducers: two side-firing racetrack units, one center tweeter, and two up-firing units. driverCount=5 counts those active transducers; no Soundbar 600 values are otherwise transferred. Published orientation descriptions do not constitute a complete polar/directivity dataset, so directivity remains N/A. Source: https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound. Pass-131 check (2026-10-10): the Bose support pages found are for the Smart Soundbar 900 and the 2024 'Smart Soundbar' is not identified on them, so the exact product identity is not established. Nothing stored."
+    "notes": "Bose's September 2024 launch release identifies the exact unnumbered Bose Smart Soundbar as replacing Smart Soundbar 600 and specifies five transducers: two side-firing racetrack units, one center tweeter, and two up-firing units. driverCount=5 counts those active transducers; no Soundbar 600 values are otherwise transferred. Published orientation descriptions do not constitute a complete polar/directivity dataset, so directivity remains N/A. Source: https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound. Pass-131 check (2026-10-10): the Bose support pages found are for the Smart Soundbar 900 and the 2024 'Smart Soundbar' is not identified on them, so the exact product identity is not established. Nothing stored. Pass-132 check (2026-10-10): the bose.com product comparison says '5 total speakers and center tweeter', the same ambiguous wording as the Smart Ultra. The 2024 product's exact driver count is not confirmed beyond that wording. No power or response figure is published."
   },
   {
     "id": "bose-bose-tv-speaker",
@@ -39900,7 +39900,7 @@
     },
     "driverCount": 3,
     "panel": null,
-    "notes": "Bose's exact TV Speaker product page comparison table names “Bose TV Speaker” and specifies “3 total speakers,” supporting driverCount=3. The page does not establish the individual driver sizes or publish a complete polar/directivity dataset; neither is inferred. Source: https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html."
+    "notes": "Bose's exact TV Speaker product page comparison table names “Bose TV Speaker” and specifies “3 total speakers,” supporting driverCount=3. The page does not establish the individual driver sizes or publish a complete polar/directivity dataset; neither is inferred. Source: https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html. Pass-132 check (2026-10-10): the bose.com TV Speaker product comparison states '3 total speakers', consistent with the stored driver count. No power, sensitivity or response figure is published. Driver count only; no acoustic field stored."
   },
   {
     "id": "samsung-samsung-hw-q990d",
@@ -44180,7 +44180,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Morel official page not located. Not searched to field level in this pass; no values transferred from Virtus 602."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Morel official page not located. Not searched to field level in this pass; no values transferred from Virtus 602. Pass-132 check (2026-10-10): retailer copies for the Maximo Ultra 602 conflict by revision: HE MKII (94 dB, 60 Hz–22 kHz), MKII (90.5 dB, 50 Hz–20 kHz), and a coaxial 80 W RMS version (91 dB at 2.83 V, 55 Hz–20 kHz). The revision is not established for the record and nothing is stored."
   },
   {
     "id": "morel-virtus-602",
@@ -44241,7 +44241,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer sensitivities conflict (88, 90 and 91 dB); no Morel official page located; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer sensitivities conflict (88, 90 and 91 dB); no Morel official page located; none transferred. Pass-132 check (2026-10-10): the Morel site (morelhifi.com) was reached, but the Virtus 602 product page was not located there. Retailer copies conflict (91 dB and 88 dB; 55 Hz–22 kHz; 140 W RMS; 300 W max). Morel's Virtus range is a car-audio component line on the site. Nothing stored."
   },
   {
     "id": "morel-elate-carbon-62a",
@@ -49743,7 +49743,7 @@
     "model": "Rectifier 4x12",
     "category": "custom",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
       "value": null,
@@ -49753,18 +49753,21 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 240,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+      "sourceType": "MANUFACTURER",
+      "role": "unknown",
+      "notes": "Mesa 'Wattage: 240 Watts' (Standard OS Slant page). Mesa does not define the power basis; stored with the basis unknown."
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+      "sourceType": "MANUFACTURER",
+      "notes": "Mesa 'Cabinet Impedance: 8 Ohm Mono / 4 Ohm Stereo'; the 8 Ω value is the mono figure"
     },
     "resonantFreq": {
       "value": null,
@@ -49794,9 +49797,9 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 4,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mesa official legacy page lists a Standard OS Slant Rectifier 4x12 (Celestion Vintage 30, 240 W, 8 ohm mono / 4 ohm stereo). The catalog row does not specify slant, straight or OS, so the exact variant is not established and no values are entered. Pass-130 check (2026-10-10): retailer copies (equipboard, GuitarCenter, Thomann) describe a Rectifier Standard 4x12 with four Celestion Vintage 30 speakers, 240 W, 8 Ω mono and 4 Ω stereo. These are not Mesa-official, and straight vs slant variants are not separated. Nothing stored."
+    "notes": "Mesa/Boogie official legacy product pages for the Rectifier 4x12 cabinets (legacy.mesaboogie.com): the Standard OS Slant page gives 'Speaker(s): Celestion Vintage 30s / Rear Mounted', 'Wattage 240 Watts', 'Cabinet Impedance 8 Ohm Mono / 4 Ohm Stereo', closed back; the Traditional Slant page gives the same 240 W and 8 Ω mono / 4 Ω stereo figures. driverCount 4 follows the official 4x12 configuration (four 12-inch speakers). The record does not name a variant (Standard, Traditional, straight or slant), and this record does not separate them; the rated values are the same across the pages checked. Sensitivity and frequency response are not published and are not stored. Source: https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html."
   },
   {
     "id": "mesa-boogie-2x12-rectifier",
@@ -49804,7 +49807,7 @@
     "model": "2x12 Rectifier",
     "category": "custom",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": null,
     "sensitivity": {
       "value": null,
@@ -49814,18 +49817,21 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 120,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
+      "sourceType": "MANUFACTURER",
+      "role": "unknown",
+      "notes": "Mesa 'Wattage: 120 Watts'. Mesa does not define the power basis (RMS, program or peak); stored as the manufacturer's single wattage figure with the basis unknown."
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
+      "sourceType": "MANUFACTURER",
+      "notes": "Mesa 'Cabinet Impedance: 8 Ohm' (closed back, mono)"
     },
     "resonantFreq": {
       "value": null,
@@ -49855,9 +49861,9 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Not established as an exact Mesa/Boogie product in this pass; no values transferred from the 4x12 cabinet. Pass-130 check (2026-10-10): this record was not individually searched in this pass. No source stored."
+    "notes": "Mesa/Boogie official legacy product page for the 2x12 Recto Horizontal cabinet (legacy.mesaboogie.com): 'Speaker(s): Celestion Vintage 30s / Rear Mounted', 'Wattage 120 Watts', 'Cabinet Impedance 8 Ohm', mono plus optional stereo input, closed back. driverCount 2 follows the official 2x12 configuration (two 12-inch speakers). A GuitarCenter listing for a Vertical/Slant 2x12 Rectifier quotes the same 120 W and 8 Ω, so the rated values agree across the cabinet variants; the horizontal and slant variants are not separated by this record. Sensitivity, frequency response and driver diameter are not published on the page and are not stored. Source: https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html."
   },
   {
     "id": "mesa-boogie-fillmore-2x12",
@@ -51026,7 +51032,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): No PMC official TB2 page located. The PMC archive page found is for the TB2S+ (a different model). Retailer copies conflict between TB2 and TB2+ (40 Hz-25 kHz, 90 dB); none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): No PMC official TB2 page located. The PMC archive page found is for the TB2S+ (a different model). Retailer copies conflict between TB2 and TB2+ (40 Hz-25 kHz, 90 dB); none transferred. Pass-132 check (2026-10-10): the hifi-guide.com database entry is for the 'TB2 I Series' (40–25000 Hz, 90 dB, 8 Ω, transmission line), and a resale listing gives 40 Hz–25 kHz, 90 dB (1 W at 1 m), 8 Ω, with a recommended amplifier range. The 'I Series' revision label does not match the record's 'TB2', and the PMC manufacturer page was not reached, so nothing is stored. The recommended amplifier range is not stored as a field."
   },
   {
     "id": "pmc-bb5-xbd-a",

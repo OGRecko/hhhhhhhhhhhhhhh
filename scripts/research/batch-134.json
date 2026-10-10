@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mesa-boogie-2x12-rectifier",
+    "model_check": "2x12 Rectifier",
+    "sourceType": "MANUFACTURER",
+    "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
+    "fields": {
+      "impedance": { "value": 8, "unit": "ohm", "notes": "Mesa 'Cabinet Impedance: 8 Ohm' (closed back, mono)" },
+      "power": { "value": 120, "unit": "W", "role": "unknown", "notes": "Mesa 'Wattage: 120 Watts'. Mesa does not define the power basis (RMS, program or peak); stored as the manufacturer's single wattage figure with the basis unknown." }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Mesa/Boogie official legacy product page for the 2x12 Recto Horizontal cabinet (legacy.mesaboogie.com): 'Speaker(s): Celestion Vintage 30s / Rear Mounted', 'Wattage 120 Watts', 'Cabinet Impedance 8 Ohm', mono plus optional stereo input, closed back. driverCount 2 follows the official 2x12 configuration (two 12-inch speakers). A GuitarCenter listing for a Vertical/Slant 2x12 Rectifier quotes the same 120 W and 8 Ω, so the rated values agree across the cabinet variants; the horizontal and slant variants are not separated by this record. Sensitivity, frequency response and driver diameter are not published on the page and are not stored. Source: https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html."
+  },
+  {
+    "id": "mesa-boogie-rectifier-4x12",
+    "model_check": "Rectifier 4x12",
+    "sourceType": "MANUFACTURER",
+    "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+    "fields": {
+      "impedance": { "value": 8, "unit": "ohm", "notes": "Mesa 'Cabinet Impedance: 8 Ohm Mono / 4 Ohm Stereo'; the 8 Ω value is the mono figure" },
+      "power": { "value": 240, "unit": "W", "role": "unknown", "notes": "Mesa 'Wattage: 240 Watts' (Standard OS Slant page). Mesa does not define the power basis; stored with the basis unknown." }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Mesa/Boogie official legacy product pages for the Rectifier 4x12 cabinets (legacy.mesaboogie.com): the Standard OS Slant page gives 'Speaker(s): Celestion Vintage 30s / Rear Mounted', 'Wattage 240 Watts', 'Cabinet Impedance 8 Ohm Mono / 4 Ohm Stereo', closed back; the Traditional Slant page gives the same 240 W and 8 Ω mono / 4 Ω stereo figures. driverCount 4 follows the official 4x12 configuration (four 12-inch speakers). The record does not name a variant (Standard, Traditional, straight or slant), and this record does not separate them; the rated values are the same across the pages checked. Sensitivity and frequency response are not published and are not stored. Source: https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html."
+  }
+]

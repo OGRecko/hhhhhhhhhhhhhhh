@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 620 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 622 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -1403,6 +1403,16 @@ The source is attached to the exact field it supports. A source URL here does no
 
 - Mesa/Boogie Lone Star 2x12 — impedance
 - Mesa/Boogie Lone Star 2x12 — woofer size
+
+## https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html
+
+- Mesa/Boogie 2x12 Rectifier — impedance
+- Mesa/Boogie 2x12 Rectifier — power
+
+## https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html
+
+- Mesa/Boogie Rectifier 4x12 — impedance
+- Mesa/Boogie Rectifier 4x12 — power
 
 ## https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf
 
