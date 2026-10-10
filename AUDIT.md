@@ -21,9 +21,9 @@ This file records the current release-engineering evidence and does not convert 
 - 774 unique brand/model pairs
 - 0 duplicate brand/model pairs
 - `PARTIALLY_VERIFIED`: 649
-- `UNVERIFIED`: 47
-- `UNAVAILABLE`: 78
-- source-backed fields: sensitivity 307, power 417, impedance 351, resonant frequency 17, voice-coil size 63, woofer size 584, frequency-response limits 560
+- `UNVERIFIED`: 44
+- `UNAVAILABLE`: 81
+- source-backed fields: sensitivity 307, power 416, impedance 351, resonant frequency 17, voice-coil size 63, woofer size 584, frequency-response limits 560
 - embedded JSON response-point datasets: 27
 - declared response-point provenance: manufacturer 22, measurement 5, verified database 0
 - physically modeled response models: 747

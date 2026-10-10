@@ -3443,7 +3443,6 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://www.marshall.com/us/en/product/woburn-iii?pid=1006020
 
 - Marshall Marshall Woburn III — frequency-response limits
-- Marshall Marshall Woburn III — power
 
 ## https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet
 

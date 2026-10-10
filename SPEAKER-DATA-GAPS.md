@@ -345,7 +345,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-dyn-7 | Dynaudio | Contour 20 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-sonos-1 | Sonos | ZonePlayer 100 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-sonos-5 | Sonos | Move | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| legacy-sonos-6 | Sonos | Era 300 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-sonos-6 | Sonos | Era 300 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-bose-2 | Bose | 501 | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, frequency-response limits |
 | legacy-bose-3 | Bose | 802 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-bose-4 | Bose | 402 | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
@@ -567,10 +567,10 @@ This inventory lists fields that are not currently populated with retained sourc
 | svs-pb-4000 | SVS | PB-4000 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
 | sonos-sonos-era-100 | Sonos | Sonos Era 100 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-sonos-era-300 | Sonos | Sonos Era 300 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| sonos-sonos-five | Sonos | Sonos Five | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| sonos-sonos-five | Sonos | Sonos Five | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-sonos-move-2 | Sonos | Sonos Move 2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-sonos-roam-2 | Sonos | Sonos Roam 2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| sonos-sonos-arc | Sonos | Sonos Arc | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| sonos-sonos-arc | Sonos | Sonos Arc | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-sonos-arc-ultra | Sonos | Sonos Arc Ultra | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-sonos-beam | Sonos | Sonos Beam | UNAVAILABLE | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sonos-sonos-ray | Sonos | Sonos Ray | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
@@ -607,7 +607,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | marshall-marshall-mx212 | Marshall | Marshall MX212 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
 | marshall-marshall-acton-iii | Marshall | Marshall Acton III | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
 | marshall-marshall-stanmore-iii | Marshall | Marshall Stanmore III | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
-| marshall-marshall-woburn-iii | Marshall | Marshall Woburn III | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
+| marshall-marshall-woburn-iii | Marshall | Marshall Woburn III | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer |
 | marshall-marshall-middleton | Marshall | Marshall Middleton | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | orange-orange-ppc108 | Orange | Orange PPC108 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
 | orange-orange-ppc112 | Orange | Orange PPC112 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
@@ -782,5 +782,5 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
 **Records with at least one source-backed acoustic field:** 649
-**Records with no source-backed acoustic field:** 47
-**Unavailable identities or confirmed non-loudspeaker records:** 78
+**Records with no source-backed acoustic field:** 44
+**Unavailable identities or confirmed non-loudspeaker records:** 81

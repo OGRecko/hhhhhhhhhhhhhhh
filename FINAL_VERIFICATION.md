@@ -16,9 +16,9 @@ The source/data gates are prepared and current documentation is generated from t
 - Unique IDs: 774
 - Unique brand/model pairs: 774
 - PARTIALLY_VERIFIED: 649
-- UNVERIFIED: 47
-- UNAVAILABLE: 78
-- Source-backed fields: sensitivity 307; power 417; impedance 351; resonant frequency 17; voice-coil size 63; woofer size 584; frequency-response limits 560.
+- UNVERIFIED: 44
+- UNAVAILABLE: 81
+- Source-backed fields: sensitivity 307; power 416; impedance 351; resonant frequency 17; voice-coil size 63; woofer size 584; frequency-response limits 560.
 - Response models: 774; 527 are modeled from published response limits, 220 use the generic reference path, and 27 use source-backed response-point datasets.
 - Source-backed response-point datasets: 27 (measurement 5, manufacturer 22, reputable database 0).
 - Embedded polar/CLF/GLL speaker directivity datasets: 0.
