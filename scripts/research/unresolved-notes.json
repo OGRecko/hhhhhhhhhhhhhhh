@@ -241,10 +241,11 @@
   "jl-audio-10w0v3": {
     "model": "10W0v3",
     "status": "UNAVAILABLE",
-    "note": "Individual exact-identity review: the unsuffixed catalog model '10W0v3' is not the full manufacturer SKU. The current JL Audio/Garmin listing explicitly names the 10-inch single-4-ohm product 10W0v3-4 (part number 010-03039-00); JL Audio's owner's-manual table likewise identifies its documented model as 10WØv3-4. The available evidence establishes the suffixed variant, not that the catalog's shortened string denotes that exact SKU or revision. Therefore no -4-specific power, impedance, sensitivity, resonance, diameter, voice-coil, response, or directivity values are assigned; all unsupported fields remain N/A and identity status is UNAVAILABLE. The manual is JL-authored but hosted by a reseller; the SKU identity is independently corroborated by the current manufacturer/Garmin listing. Sources: https://www.garmin.com/en-US/p/1666237/pn/010-03039-00/ ; https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf.",
+    "note": "Individual exact-identity review: the unsuffixed catalog model '10W0v3' is not the full manufacturer SKU. The current JL Audio/Garmin listing explicitly names the 10-inch single-4-ohm product 10W0v3-4 (part number 010-03039-00); JL Audio's owner's-manual table likewise identifies its documented model as 10WØv3-4. The available evidence establishes the suffixed variant, not that the catalog's shortened string denotes that exact SKU or revision. Therefore no -4-specific power, impedance, sensitivity, resonance, diameter, voice-coil, response, or directivity values are assigned; all unsupported fields remain N/A and identity status is UNAVAILABLE. The manual is JL-authored but hosted by a reseller; the SKU identity is independently corroborated by the current manufacturer/Garmin listing. Sources: https://www.garmin.com/en-US/p/1666237/pn/010-03039-00/ ; https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf. Pass-137 re-check (2026-10-10): retailer copies of the 10W0v3-4 (https://shopaudioxtc.com/products/jl-audio-10w0v3-4-w0v3-series-10-4-ohm-subwoofer; https://www.soundoftristate.com/pair-of-jl-audio-10w0v3-4) give 75–300 W RMS, 600 W peak, 25–250 Hz, 84.07 dB and 4 Ω. These describe the −4 variant, which the bare row does not confirm, so nothing is transferred. Identity remains UNAVAILABLE.",
     "sources": [
       "https://www.garmin.com/en-US/p/1666237/pn/010-03039-00/",
-      "https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf"
+      "https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf",
+      "https://shopaudioxtc.com/products/jl-audio-10w0v3-4-w0v3-series-10-4-ohm-subwoofer"
     ]
   },
   "jl-audio-12w0v3": {
@@ -391,10 +392,11 @@
   "monitor-audio-bronze-100": {
     "model": "Bronze 100",
     "status": "UNAVAILABLE",
-    "note": "Monitor Audio's official Bronze Series 6G (2020) archive lists Bronze 100 6G, but the database row is the unqualified name 'Bronze 100' with no generation, year, finish, or manufacturer product code. The current Bronze 7G lineup is a separate, explicitly generation-labelled range and does not identify this bare catalog row. The exact intended revision therefore cannot be established from the record. Preserve the legitimate row with acoustic fields N/A and status UNAVAILABLE; no 6G/7G family or retailer values are transferred. No exact response/directivity dataset is assigned. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/ ; https://www.monitoraudio.com/en/us/bronze-series-7g/.",
+    "note": "Monitor Audio's official Bronze Series 6G (2020) archive lists Bronze 100 6G, but the database row is the unqualified name 'Bronze 100' with no generation, year, finish, or manufacturer product code. The current Bronze 7G lineup is a separate, explicitly generation-labelled range and does not identify this bare catalog row. The exact intended revision therefore cannot be established from the record. Preserve the legitimate row with acoustic fields N/A and status UNAVAILABLE; no 6G/7G family or retailer values are transferred. No exact response/directivity dataset is assigned. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/ ; https://www.monitoraudio.com/en/us/bronze-series-7g/. Pass-137 re-check (2026-10-10): a 2020 review (https://audiofi.net/2020/09/monitor-audio-bronze-100-speakers-best-with-more-space/) and a retailer copy of Monitor Audio text (https://e-shop.highendstudios.de/monitor-audio-bronze-100-loudspeakers.html?language=en) give 37 Hz–30 kHz in-room, 52 Hz–25 kHz free-field at −6 dB, 87–88 dB, 8 Ω and 100 W RMS. The bare row has no generation, so nothing is transferred. Identity remains UNAVAILABLE.",
     "sources": [
       "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/",
-      "https://www.monitoraudio.com/en/us/bronze-series-7g/"
+      "https://www.monitoraudio.com/en/us/bronze-series-7g/",
+      "https://e-shop.highendstudios.de/monitor-audio-bronze-100-loudspeakers.html?language=en"
     ]
   },
   "monitor-audio-bronze-200": {
@@ -479,11 +481,12 @@
   "monitor-audio-silver-500": {
     "model": "Silver 500",
     "status": "UNAVAILABLE",
-    "note": "Monitor Audio's official Silver 6G (2017) and Silver 7G (2021) archives document distinct generation-labelled Silver 500 models, with exact-model specifications available for Silver 500 7G. The database label is only 'Silver 500' and includes no generation, year, finish, region, or manufacturer product code. Preserve the legitimate row, leave unsupported fields N/A, and mark identity UNAVAILABLE rather than assigning either generation's values or response/directivity data. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/ ; https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/ ; https://www.monitoraudio.com/en/us/product-ranges/silver-series-7g/silver-500-7g/.",
+    "note": "Monitor Audio's official Silver 6G (2017) and Silver 7G (2021) archives document distinct generation-labelled Silver 500 models, with exact-model specifications available for Silver 500 7G. The database label is only 'Silver 500' and includes no generation, year, finish, region, or manufacturer product code. Preserve the legitimate row, leave unsupported fields N/A, and mark identity UNAVAILABLE rather than assigning either generation's values or response/directivity data. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/ ; https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/ ; https://www.monitoraudio.com/en/us/product-ranges/silver-series-7g/silver-500-7g/. Pass-137 re-check (2026-10-10): the Stereophile Silver 500 7G sidebar (https://www.stereophile.com/content/monitor-audio-silver-500-7g-loudspeaker-specifications: −6 dB 27 Hz–35 kHz, 90.5 dB/2.83 V/m, 8 Ω, 250 W RMS) and the Salon 1 copy (30 Hz–35 kHz ±3 dB, 90 dB) are 7G-labelled and disagree on response and sensitivity. The bare row has no generation, so nothing is transferred. Identity remains UNAVAILABLE.",
     "sources": [
       "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/",
       "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/",
-      "https://www.monitoraudio.com/en/us/product-ranges/silver-series-7g/silver-500-7g/"
+      "https://www.monitoraudio.com/en/us/product-ranges/silver-series-7g/silver-500-7g/",
+      "https://www.stereophile.com/content/monitor-audio-silver-500-7g-loudspeaker-specifications"
     ]
   },
   "peavey-6505-412": {
@@ -537,12 +540,13 @@
   "presonus-eris-5": {
     "model": "Eris 5",
     "status": "UNAVAILABLE",
-    "note": "The shortened row 'Eris 5' has no E5 product code, XT, BT, or generation identifier. PreSonus separately documents the base Eris E5, the E5 XT update, the Bluetooth-equipped E5 BT, and the later Eris 5BT 2nd Gen pair; an E5 exact-model record already exists separately in this catalog and is tied to its own official E5 tech sheet. Nothing in this shorter row establishes whether it is the base E5 alias, another variant, or an erroneous duplicate, so specifications are not copied and records are not merged. Preserve this row with all unsupported fields N/A and mark identity UNAVAILABLE until its SKU/revision is resolved. Sources: https://www.presonus.com/products/eris-e5-studio-monitor ; https://www.presonus.com/products/eris-e5-xt-studio-monitor ; https://www.presonus.com/products/eris-e5-bt-studio-monitor ; https://www.presonus.com/products/eris-5bt-2nd-gen-pair.",
+    "note": "The shortened row 'Eris 5' has no E5 product code, XT, BT, or generation identifier. PreSonus separately documents the base Eris E5, the E5 XT update, the Bluetooth-equipped E5 BT, and the later Eris 5BT 2nd Gen pair; an E5 exact-model record already exists separately in this catalog and is tied to its own official E5 tech sheet. Nothing in this shorter row establishes whether it is the base E5 alias, another variant, or an erroneous duplicate, so specifications are not copied and records are not merged. Preserve this row with all unsupported fields N/A and mark identity UNAVAILABLE until its SKU/revision is resolved. Sources: https://www.presonus.com/products/eris-e5-studio-monitor ; https://www.presonus.com/products/eris-e5-xt-studio-monitor ; https://www.presonus.com/products/eris-e5-bt-studio-monitor ; https://www.presonus.com/products/eris-5bt-2nd-gen-pair. Pass-137 re-check (2026-10-10): the PreSonus Eris Studio 5 page (https://www.presonus.com/products/eris-studio-5-single: 5.25 in LF, 1 in silk dome, 48 Hz–20 kHz, 45 W LF / 35 W HF) and retailer copies describe a Studio 5 product that is not named 'Eris 5' in this row; nothing is transferred. Identity remains UNAVAILABLE.",
     "sources": [
       "https://www.presonus.com/products/eris-e5-studio-monitor",
       "https://www.presonus.com/products/eris-e5-xt-studio-monitor",
       "https://www.presonus.com/products/eris-e5-bt-studio-monitor",
-      "https://www.presonus.com/products/eris-5bt-2nd-gen-pair"
+      "https://www.presonus.com/products/eris-5bt-2nd-gen-pair",
+      "https://www.presonus.com/products/eris-studio-5-single"
     ]
   },
   "presonus-eris-6": {
