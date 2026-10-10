@@ -593,10 +593,10 @@ This inventory lists fields that are not currently populated with retained sourc
 | sony-sony-ht-a7000 | Sony | Sony HT-A7000 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sony-sony-ht-a5000 | Sony | Sony HT-A5000 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | sony-sony-ht-a3000 | Sony | Sony HT-A3000 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| lg-lg-s95tr | LG | LG S95TR | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| lg-lg-s95tr | LG | LG S95TR | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | lg-lg-s90tr | LG | LG S90TR | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | lg-lg-s80tr | LG | LG S80TR | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| lg-lg-sc9s | LG | LG SC9S | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| lg-lg-sc9s | LG | LG SC9S | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | marshall-marshall-1960a | Marshall | Marshall 1960A | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | marshall-marshall-1960b | Marshall | Marshall 1960B | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | marshall-marshall-1960av | Marshall | Marshall 1960AV | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
@@ -781,6 +781,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 643
-**Records with no source-backed acoustic field:** 55
+**Records with at least one source-backed acoustic field:** 645
+**Records with no source-backed acoustic field:** 53
 **Unavailable identities or confirmed non-loudspeaker records:** 76

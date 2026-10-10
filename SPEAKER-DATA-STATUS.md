@@ -7,13 +7,13 @@ Updated 2026-10-10.
 The authoritative dataset contains **774 catalog records**. A record is `PARTIALLY_VERIFIED` only when at least one sourced acoustic specification (sensitivity, power, impedance, resonant frequency, voice-coil size, woofer size, or a structured frequency-response limit) is retained. Source-backed structural facts such as driver count or active status alone remain `UNVERIFIED` because they do not supply an acoustic specification for simulation. `UNAVAILABLE` is reserved for unresolved catalog identities and confirmed non-loudspeaker components; those records are retained but excluded from speaker selection.
 
 ## Record status
-- PARTIALLY_VERIFIED: 643
-- UNVERIFIED: 55
+- PARTIALLY_VERIFIED: 645
+- UNVERIFIED: 53
 - UNAVAILABLE: 76
 
 ## Current source-backed fields
 - Sensitivity: 309
-- Power: 410
+- Power: 412
 - Impedance: 350
 - Resonant frequency: 16
 - Voice-coil size: 62

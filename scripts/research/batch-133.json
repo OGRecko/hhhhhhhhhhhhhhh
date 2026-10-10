@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lg-lg-sc9s",
+    "model_check": "SC9S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.lg.com/africa/audio/lg-sc9s",
+    "fields": {
+      "power": { "value": 400, "unit": "W", "role": "amplifier_output", "notes": "LG product page 'Output Power: 400 W' (3.1.3 ch system); LG spec sheet copy says 'Total Power 400W'. Basis (RMS, peak or program) is not stated by LG, so this is total amplifier output, not continuous speaker power." }
+    },
+    "scalars": { "driverCount": 9 },
+    "notes": "LG official product page for the SC9S (lg.com/africa, 3.1.3 ch soundbar): 'Output Power: 400 W' and 'Number of Speakers: 9 EA'. The 9 speaker units are LG's stated count (front L/R, centre, front height L/R and centre height, plus the wireless subwoofer). The spec-sheet copy hosted by Value Electronics shows the same 9 units and 400 W total output and is consistent with LG's page. Subwoofer output (220 W on the spec sheet) is a separate component figure and is not stored as a speaker field. No sensitivity, impedance or frequency response is published. Source: https://www.lg.com/africa/audio/lg-sc9s."
+  },
+  {
+    "id": "lg-lg-s95tr",
+    "model_check": "S95TR",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
+    "fields": {
+      "power": { "value": 810, "unit": "W", "role": "amplifier_output", "notes": "LG 2024 S95TR spec sheet (copy hosted by Value Electronics): 'Total Power 810W', 9.1.5 ch. Basis (RMS, peak or program) is not stated on the sheet; a Dolby listing calls it 'RMS rated power: 810 W'; SoundGuys lists 820 W total, which conflicts and is not used. Stored as amplifier total output, not speaker power." }
+    },
+    "scalars": { "driverCount": 17 },
+    "notes": "Secondary (REPUTABLE_DATABASE) copy of the LG 2024 S95TR 9.1.5 soundbar spec sheet (valueelectronics.com): 'Number of Speaker Units 17'; 'Total Power 810W'. Driver count 17 is also listed by SoundGuys. The subwoofer (220 W wireless) and rear/upfiring kit power figures are separate components and are not stored as speaker fields. No sensitivity, impedance or frequency response is published on the sheet. Source: https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf."
+  }
+]

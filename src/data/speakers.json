@@ -14464,7 +14464,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-131 check (2026-10-10): retailer and review copies (Best Buy Canada blog, XDA-Developers, a retailer listing) describe 1 x 3-inch woofer and 2 x 0.8-inch tweeters; the Amazon product page was not reached. Driver count and power are not stored from secondary copies. Nothing else found."
   },
   {
     "id": "yamaha-ns500",
@@ -22900,7 +22900,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred. Pass-131 check (2026-10-10): the L-Acoustics ARCS product URL (l-acoustics.com/products/arcs/) did not resolve to a product page. Nothing stored."
   },
   {
     "id": "legacy-la-3",
@@ -22961,7 +22961,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): KARA vs KARA II retailer copies conflict on configuration and frequency response; exact model not established; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): KARA vs KARA II retailer copies conflict on configuration and frequency response; exact model not established; none transferred. Pass-131 check (2026-10-10): the L-Acoustics KARA product URL (l-acoustics.com/products/kara/) did not resolve to a KARA product page (it redirects to the KARA-ANGARMEX accessory). The KARA vs KARA II identity conflict remains open. Nothing stored."
   },
   {
     "id": "legacy-la-4",
@@ -23205,7 +23205,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open. Pass-131 check (2026-10-10): the official L-Acoustics X15 HiQ page (l-acoustics.com/products/x15-hiq/) gives 2-way active coaxial, 1 x 15 in LF + 1 x 3 in HF, -10 dB 55 Hz–20 kHz and 138 dB max SPL, but these figures are labelled with the '[X15]' preset, and the page is for the HiQ. The original X15 product page was not found at the expected address. Nothing is transferred from the HiQ to the record 'X15'."
   },
   {
     "id": "genelec-8020d",
@@ -39656,7 +39656,7 @@
     },
     "driverCount": 1,
     "panel": null,
-    "notes": "Bose's October 2021 launch release identifies the first-generation SoundLink Flex (the release links its exact SLFLX-SPEAKERWIRELESS product page) and specifies one custom transducer plus dual-opposing passive radiators. driverCount=1 counts the active transducer only; passive radiators are excluded. No size, standardized response limits, or directivity data is inferred, and no second-generation specifications are transferred. Source: https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker."
+    "notes": "Bose's October 2021 launch release identifies the first-generation SoundLink Flex (the release links its exact SLFLX-SPEAKERWIRELESS product page) and specifies one custom transducer plus dual-opposing passive radiators. driverCount=1 counts the active transducer only; passive radiators are excluded. No size, standardized response limits, or directivity data is inferred, and no second-generation specifications are transferred. Source: https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker. Pass-131 check (2026-10-10): the Bose SoundLink Flex (2nd Gen) support and product pages were found, but the record is the first-generation Flex (October 2021 release). The 2nd-generation pages are not used. The first-generation RMS power listed by a third-party manual site is blank. Nothing stored."
   },
   {
     "id": "bose-bose-soundlink-max",
@@ -39717,7 +39717,7 @@
     },
     "driverCount": 3,
     "panel": null,
-    "notes": "Bose's exact 2024 SoundLink Max launch release explicitly describes a Bose Articulated Array with three transducers across the front and two custom-designed passive radiators; driverCount=3 counts active transducers only. A later Bose story says “dual transducers handle mids and highs,” but does not state that two is the total; the exact launch release is the source for the explicit total. No response bounds, driver dimensions, or directivity are inferred. Source: https://www.bose.com/pressroom/bose-soundlink-max; secondary wording checked: https://www.bose.com/stories/bose-soundlink-max-ultimate-party-speaker."
+    "notes": "Bose's exact 2024 SoundLink Max launch release explicitly describes a Bose Articulated Array with three transducers across the front and two custom-designed passive radiators; driverCount=3 counts active transducers only. A later Bose story says “dual transducers handle mids and highs,” but does not state that two is the total; the exact launch release is the source for the explicit total. No response bounds, driver dimensions, or directivity are inferred. Source: https://www.bose.com/pressroom/bose-soundlink-max; secondary wording checked: https://www.bose.com/stories/bose-soundlink-max-ultimate-party-speaker. Pass-131 check (2026-10-10): secondary reviews (TechRadar; Sound Advice) describe 2 x 89 mm transducers, 1 x 23 mm transducer and 2 passive racetrack radiators; another listing (speakerranking.com) gives 2 x 63.5 mm midrange and 1 x 20 mm tweeter. These conflict and no Bose page was reached, so the driver count is not stored. One review states that Bose does not publish a power or frequency-response figure."
   },
   {
     "id": "bose-bose-smart-ultra-soundbar",
@@ -39839,7 +39839,7 @@
     },
     "driverCount": 5,
     "panel": null,
-    "notes": "Bose's September 2024 launch release identifies the exact unnumbered Bose Smart Soundbar as replacing Smart Soundbar 600 and specifies five transducers: two side-firing racetrack units, one center tweeter, and two up-firing units. driverCount=5 counts those active transducers; no Soundbar 600 values are otherwise transferred. Published orientation descriptions do not constitute a complete polar/directivity dataset, so directivity remains N/A. Source: https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound."
+    "notes": "Bose's September 2024 launch release identifies the exact unnumbered Bose Smart Soundbar as replacing Smart Soundbar 600 and specifies five transducers: two side-firing racetrack units, one center tweeter, and two up-firing units. driverCount=5 counts those active transducers; no Soundbar 600 values are otherwise transferred. Published orientation descriptions do not constitute a complete polar/directivity dataset, so directivity remains N/A. Source: https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound. Pass-131 check (2026-10-10): the Bose support pages found are for the Smart Soundbar 900 and the 2024 'Smart Soundbar' is not identified on them, so the exact product identity is not established. Nothing stored."
   },
   {
     "id": "bose-bose-tv-speaker",
@@ -40585,7 +40585,7 @@
     "model": "LG S95TR",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": true,
     "sensitivity": {
       "value": null,
@@ -40595,11 +40595,13 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 810,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "role": "amplifier_output",
+      "notes": "LG 2024 S95TR spec sheet (copy hosted by Value Electronics): 'Total Power 810W', 9.1.5 ch. Basis (RMS, peak or program) is not stated on the sheet; a Dolby listing calls it 'RMS rated power: 810 W'; SoundGuys lists 820 W total, which conflicts and is not used. Stored as amplifier total output, not speaker power."
     },
     "impedance": {
       "value": null,
@@ -40638,7 +40640,7 @@
     },
     "driverCount": 17,
     "panel": null,
-    "notes": "LG’s exact S95TR US page states that the soundbar package has 17 speakers and an included wireless active subwoofer/rear-speaker system. The page provides no total amplifier-output rating or acoustic frequency/sensitivity/impedance specification suitable for these fields, so none is inferred. Channel count is not treated as driverCount. No response-point or polar dataset is imported. Source: https://www.lg.com/us/soundbars/lg-s95tr-home-theater-soundbar."
+    "notes": "Secondary (REPUTABLE_DATABASE) copy of the LG 2024 S95TR 9.1.5 soundbar spec sheet (valueelectronics.com): 'Number of Speaker Units 17'; 'Total Power 810W'. Driver count 17 is also listed by SoundGuys. The subwoofer (220 W wireless) and rear/upfiring kit power figures are separate components and are not stored as speaker fields. No sensitivity, impedance or frequency response is published on the sheet. Source: https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf."
   },
   {
     "id": "lg-lg-s90tr",
@@ -40770,7 +40772,7 @@
     "model": "LG SC9S",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "PARTIALLY_VERIFIED",
     "active": true,
     "sensitivity": {
       "value": null,
@@ -40780,11 +40782,13 @@
       "sourceType": "NONE"
     },
     "power": {
-      "value": null,
+      "value": 400,
       "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.lg.com/africa/audio/lg-sc9s",
+      "sourceType": "MANUFACTURER",
+      "role": "amplifier_output",
+      "notes": "LG product page 'Output Power: 400 W' (3.1.3 ch system); LG spec sheet copy says 'Total Power 400W'. Basis (RMS, peak or program) is not stated by LG, so this is total amplifier output, not continuous speaker power."
     },
     "impedance": {
       "value": null,
@@ -40823,7 +40827,7 @@
     },
     "driverCount": 9,
     "panel": null,
-    "notes": "LG’s exact SC9S US page states “9 speakers” and lists a wireless active subwoofer; the separate 3.1.3 channel label is not used as driverCount. The page does not provide a total amplifier-output rating or acoustic frequency/sensitivity/impedance specification suitable for these fields, so none is inferred. No response-point or polar dataset is imported. Source: https://www.lg.com/us/soundbars/lg-sc9s-soundbar."
+    "notes": "LG official product page for the SC9S (lg.com/africa, 3.1.3 ch soundbar): 'Output Power: 400 W' and 'Number of Speakers: 9 EA'. The 9 speaker units are LG's stated count (front L/R, centre, front height L/R and centre height, plus the wireless subwoofer). The spec-sheet copy hosted by Value Electronics shows the same 9 units and 400 W total output and is consistent with LG's page. Subwoofer output (220 W on the spec sheet) is a separate component figure and is not stored as a speaker field. No sensitivity, impedance or frequency response is published. Source: https://www.lg.com/africa/audio/lg-sc9s."
   },
   {
     "id": "marshall-marshall-1960a",
