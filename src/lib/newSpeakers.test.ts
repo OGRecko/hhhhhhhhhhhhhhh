@@ -33,7 +33,6 @@ const NEW_IDS = [
   "genelec-1032c",
   "revel-ultima-salon2",
   "magico-m2",
-  "wilson-audio-alexia",
   "jbl-hdi-3800",
   "kef-r7",
   "meyer-sound-upj-1p",

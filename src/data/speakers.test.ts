@@ -11,6 +11,7 @@
 import speakers from "./speakers.json";
 import unresolvedNotes from "../../scripts/research/unresolved-notes.json";
 import removedRecords from "../../scripts/research/removed-records.json";
+import removedUnavailable from "../../scripts/research/removed-unavailable-records.json";
 import directivityLeads from "../../scripts/research/directivity-leads.json";
 import nodeAssert from "node:assert/strict";
 import { resolveSensitivity } from "../lib/speakerResponse";
@@ -36,11 +37,15 @@ function assert(cond: unknown, msg = "assertion failed"): asserts cond {
 }
 
 const db = speakers as any[];
+// Live dataset plus the archived UNAVAILABLE records (removed 2026-10-10 at owner request); used only for lookups of archived IDs.
+const allDb = [...db, ...((removedUnavailable as any).records as any[])];
+// Notes ledger for live and archived UNAVAILABLE records (archived ledger entries are kept in the removal archive).
+const unresolvedAll: Record<string, any> = { ...(unresolvedNotes as Record<string, any>), ...((removedUnavailable as any).unresolvedNotes as Record<string, any>) };
 const removalLog = removedRecords as { reviewDate: string; entries: Array<{ id: string; brand: string; model: string; statusBeforeRemoval: string; disposition: string; reason: string; sourceRefs: string[]; researchNote: string; restored: boolean }> };
 const removedById = new Map(removalLog.entries.map((entry) => [entry.id, entry]));
 function assertPreservedUnavailable(id: string) {
   const entry = removedById.get(id);
-  const record = db.find((item) => item.id === id);
+  const record = allDb.find((item) => item.id === id);
   assert(entry, `${id} must retain its individual historical research record`);
   assert(record, `${id} must remain in the preserved catalog`);
   nodeAssert.equal(entry.statusBeforeRemoval, "UNAVAILABLE", `${id} must have been reviewed as unavailable`);
@@ -58,18 +63,21 @@ function assertPreservedUnavailable(id: string) {
   nodeAssert.equal(record.frequencyResponse?.low_hz ?? null, null);
   nodeAssert.equal(record.frequencyResponse?.high_hz ?? null, null);
   nodeAssert.equal(record.frequencyResponse?.source ?? null, null);
-  nodeAssert.equal(record.notes, (unresolvedNotes as Record<string, any>)[id]?.note);
+  nodeAssert.equal(record.notes, (unresolvedAll as Record<string, any>)[id]?.note);
 }
 
 console.log("\n=== Speaker database integrity ===\n");
 
 check("total record count matches the reviewed dataset", () => {
   assert(Array.isArray(db), "speakers.json is not an array");
-  assert(db.length === 774, `expected all 774 preserved records, found ${db.length}`);
+  assert(db.length === 693, `expected 693 live records after removing UNAVAILABLE records, found ${db.length}`);
+  assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
+  assert(db.length + (removedUnavailable as any).records.length === 774, "live plus archived records must total the 774 reviewed records");
 });
 
 check("overall status follows sourced fields or an audited unresolved-identity disposition", () => {
   const physical = ["sensitivity", "power", "impedance", "resonantFreq", "voiceCoil", "woofer"] as const;
+  // Live ledger only: archived UNAVAILABLE records are checked separately in the archive assertions.
   const unresolvedIds = Object.keys(unresolvedNotes as Record<string, any>).sort();
   const hasSourceBackedField = (s: (typeof db)[number]) =>
     physical.some((f) => s[f]?.value !== null && s[f]?.value !== undefined) ||
@@ -83,8 +91,8 @@ check("overall status follows sourced fields or an audited unresolved-identity d
   const unavailableIds = db.filter((s) => s.overallStatus === "UNAVAILABLE").map((s) => s.id).sort();
   nodeAssert.deepEqual(unavailableIds, unresolvedIds, "every unresolved identity must remain present with an auditable UNAVAILABLE disposition");
   for (const id of unavailableIds) {
-    const record = db.find((s) => s.id === id);
-    const note = (unresolvedNotes as Record<string, any>)[id];
+    const record = allDb.find((s) => s.id === id);
+    const note = (unresolvedAll as Record<string, any>)[id];
     assert(record, `${id} unavailable record must remain in the database`);
     nodeAssert.equal(note.status, "UNAVAILABLE");
     assert(typeof note.note === "string" && note.note.length > 80, `${id} needs an individual diligence note`);
@@ -157,7 +165,7 @@ check("Sonos structural facts use exact manufacturer sources without invented ac
     { id: "sonos-sonos-ray", drivers: 4, active: true, source: "https://www.sonos.com/en-us/guides/ray" },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.driverCount, c.drivers, `${c.id} driver count`);
     nodeAssert.equal(s.active, c.active, `${c.id} powered/active status`);
@@ -169,7 +177,7 @@ check("Sonos structural facts use exact manufacturer sources without invented ac
     nodeAssert.equal(s.frequencyResponse.high_hz, null, `${c.id} must not inherit a response cutoff`);
   }
 
-  const subMini = db.find((s) => s.id === "sonos-sub-mini");
+  const subMini = allDb.find((s) => s.id === "sonos-sub-mini");
   assert(subMini, "sonos-sub-mini must remain in the database");
   nodeAssert.equal(subMini.woofer.value, 6);
   nodeAssert.equal(subMini.woofer.unit, "in");
@@ -199,7 +207,7 @@ check("Bose structural facts retain exact manufacturer sources without invented 
     { id: "bose-wave-music-system", drivers: 2, active: null, source: "https://assets.bosecreative.com/m/deb85fef843b3c2/original/AM745087_OG_WMSIV-SPEAKERWAVE_enUS.pdf" },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.overallStatus, "UNVERIFIED", `${c.id} structural facts alone do not verify simulation inputs`);
     nodeAssert.equal(s.driverCount, c.drivers);
@@ -276,7 +284,7 @@ check("Bowers & Wilkins exact-model sources preserve published limits and unsupp
     },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
     nodeAssert.equal(s.driverCount, c.drivers);
@@ -310,19 +318,19 @@ check("Bowers & Wilkins exact-model sources preserve published limits and unsupp
     }
   }
 
-  const asw610 = db.find((s) => s.id === "bowers-wilkins-asw610");
+  const asw610 = allDb.find((s) => s.id === "bowers-wilkins-asw610");
   nodeAssert.match(asw610.notes, /27 Hz to a variable 40\/140 Hz upper cutoff/i);
   nodeAssert.match(asw610.notes, /power consumption, not amplifier output/i);
   nodeAssert.match(asw610.notes, /input impedance, not driver nominal impedance/i);
   nodeAssert.equal(asw610.frequencyResponse.high_hz, null, "do not choose an arbitrary adjustable ASW610 upper cutoff");
 
   for (const id of ["bw-802d3", "legacy-bw-7"]) {
-    const s = db.find((x) => x.id === id);
+    const s = allDb.find((x) => x.id === id);
     nodeAssert.equal(s.active, null, "do not infer passive/active classification from a recommended-amplifier range");
     nodeAssert.match(s.notes, /recommended-amplifier range, not a scalar speaker rating/i);
   }
   for (const id of ["bowers-wilkins-formation-flex", "bowers-wilkins-formation-wedge"]) {
-    const s = db.find((x) => x.id === id);
+    const s = allDb.find((x) => x.id === id);
     nodeAssert.match(s.notes, /no single scalar power value is entered|single total output figure/i);
   }
 
@@ -332,7 +340,7 @@ check("Bowers & Wilkins exact-model sources preserve published limits and unsupp
 });
 
 check("Bowers & Wilkins historical and exact-model findings retain source context and gaps", () => {
-  const byId = (id: string) => db.find((s) => s.id === id);
+  const byId = (id: string) => allDb.find((s) => s.id === id);
   const dm6 = byId("legacy-bw-1");
   const dm6Source = "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf";
   assert(dm6, "DM6 record must remain present");
@@ -436,7 +444,7 @@ check("recommended-amplifier ranges are not collapsed into scalar power values",
 });
 
 check("KEF research retains exact-model sources and does not merge revisions", () => {
-  const byId = (id: string) => db.find((s) => s.id === id);
+  const byId = (id: string) => allDb.find((s) => s.id === id);
   const ls50 = byId("kef-ls50");
   const reference5 = byId("kef-reference-5");
   const q100 = byId("legacy-kef-5");
@@ -539,7 +547,7 @@ check("Klipsch research retains exact revision sources and does not merge siblin
     "klipsch-kg4": "https://www.hifi-guide.com/loudspeaker/klipsch-kg-4-5/",
   };
   for (const [id, source] of Object.entries(batchSources)) {
-    const s = db.find((x) => x.id === id);
+    const s = allDb.find((x) => x.id === id);
     assert(s, `${id} must remain in the database`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED", `${id} status must derive from sourced physical fields`);
     for (const f of ["sensitivity", "power", "impedance", "frequencyResponse", "woofer"] as const) {
@@ -551,10 +559,10 @@ check("Klipsch research retains exact revision sources and does not merge siblin
     }
   }
 
-  const original500 = db.find((s) => s.id === "klipsch-rp-500m");
-  const revision500 = db.find((s) => s.id === "klipsch-rp500m");
-  const original600 = db.find((s) => s.id === "klipsch-rp-600m");
-  const revision600 = db.find((s) => s.id === "klipsch-rp600m");
+  const original500 = allDb.find((s) => s.id === "klipsch-rp-500m");
+  const revision500 = allDb.find((s) => s.id === "klipsch-rp500m");
+  const original600 = allDb.find((s) => s.id === "klipsch-rp-600m");
+  const revision600 = allDb.find((s) => s.id === "klipsch-rp600m");
   nodeAssert.equal(original500?.model, "RP-500M");
   nodeAssert.equal(original500?.sensitivity.value, 93);
   nodeAssert.equal(revision500?.model, "RP-500M II");
@@ -566,21 +574,21 @@ check("Klipsch research retains exact revision sources and does not merge siblin
   nodeAssert.equal(revision600?.sensitivity.value, 94.5);
   nodeAssert.notEqual(original600?.sensitivity.source, revision600?.sensitivity.source);
 
-  const rp8060 = db.find((s) => s.id === "klipsch-rp8060fa");
+  const rp8060 = allDb.find((s) => s.id === "klipsch-rp8060fa");
   nodeAssert.equal(rp8060?.power.value, null, "separate main/height-channel ratings are not collapsed into one scalar");
   nodeAssert.equal(rp8060?.driverCount, 5, "the exact sheet lists three main-channel and two height-channel transducers");
   for (const id of ["klipsch-r-120sw", "klipsch-r-121sw", "klipsch-spl-100", "klipsch-spl-120", "klipsch-spl-150"]) {
-    const sub = db.find((s) => s.id === id);
+    const sub = allDb.find((s) => s.id === id);
     nodeAssert.equal(sub?.power.role, "amplifier_output", `${id} internal amp output is not passive speaker handling`);
   }
-  nodeAssert.equal(db.find((s) => s.id === "klipsch-kg4")?.sensitivity.reference, "unspecified by source");
-  const laScalaII = db.find((s) => s.id === "klipsch-la-scala-ii");
+  nodeAssert.equal(allDb.find((s) => s.id === "klipsch-kg4")?.sensitivity.reference, "unspecified by source");
+  const laScalaII = allDb.find((s) => s.id === "klipsch-la-scala-ii");
   nodeAssert.equal(laScalaII?.frequencyResponse.low_hz, 51);
   nodeAssert.equal(laScalaII?.frequencyResponse.high_hz, 17000);
   nodeAssert.equal(laScalaII?.sensitivity.reference, "2.83V/1m");
   nodeAssert.match(laScalaII?.notes ?? "", /average listening room/i);
 
-  const forte = db.find((s) => s.id === "legacy-klip-5");
+  const forte = allDb.find((s) => s.id === "legacy-klip-5");
   nodeAssert.equal(forte?.overallStatus, "PARTIALLY_VERIFIED");
   nodeAssert.equal(forte?.sensitivity.value, 98);
   nodeAssert.equal(forte?.sensitivity.reference, "1W/1m");
@@ -591,7 +599,7 @@ check("Klipsch research retains exact revision sources and does not merge siblin
   nodeAssert.equal(forte?.frequencyResponse.pointsSource, "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf");
   nodeAssert.match(forte?.frequencyResponse.pointsContext ?? "", /on-axis.*1 m.*0 = 100 dB SPL/i);
   nodeAssert.match(forte?.notes ?? "", /conflicts with its tabulated low-frequency values/i);
-  nodeAssert.match(db.find((s) => s.id === "klipsch-cdt5650c")?.notes ?? "", /overview paragraph incorrectly names CDT-5800-C II/i);
+  nodeAssert.match(allDb.find((s) => s.id === "klipsch-cdt5650c")?.notes ?? "", /overview paragraph incorrectly names CDT-5800-C II/i);
 
   for (const id of ["legacy-klip-3", "legacy-klip-4", "klipsch-rf-8000f"]) assertPreservedUnavailable(id);
   nodeAssert.match(removedById.get("legacy-klip-3")?.reason ?? "", /Cornwall IV/);
@@ -600,7 +608,7 @@ check("Klipsch research retains exact revision sources and does not merge siblin
 });
 
 check("Dynaudio Core, Emit, and Evoke data keep exact-source context and honest power/sensitivity roles", () => {
-  const byId = (id: string) => db.find((s) => s.id === id);
+  const byId = (id: string) => allDb.find((s) => s.id === id);
   const coreCases = [
     { id: "dynaudio-core-7", source: "https://dynaudio.com/professional-audio/core/core-7", sheet: "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore7_SpecSheet_WEB.pdf?hsLang=en", low: 40, high: 27000, woofer: 7, drivers: 2 },
     { id: "dynaudio-core-47", source: "https://dynaudio.com/professional-audio/core/core-47", sheet: "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore47_SpecSheet_WEB.pdf?hsLang=en", low: 41, high: 24000, woofer: 7, drivers: 3 },
@@ -719,7 +727,7 @@ check("Monitor Audio Creator and Platinum 3G values retain exact-page provenance
     { id: "monitor-audio-platinum-200-3g", source: "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/", low: 32, high: 60000, sensitivity: 88, impedance: 4, power: 300, woofer: 6, drivers: 4, context: /free-field frequency-response limits 32 Hz[–-]60 kHz \(-6 dB\)/i },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
     nodeAssert.equal(s.year, null, `${c.id}: do not infer a release year`);
@@ -761,9 +769,9 @@ check("Monitor Audio Creator and Platinum 3G values retain exact-page provenance
     nodeAssert.ok(Math.abs(resolved.valueDb - normalized) < 1e-10, `${c.id}: 2.83 Vrms sensitivity must be normalized using its sourced nominal impedance`);
   }
 
-  const unresolvedLedger = unresolvedNotes as Record<string, any>;
+  const unresolvedLedger = unresolvedAll as Record<string, any>;
   for (const id of ["monitor-audio-bronze-50", "monitor-audio-bronze-100", "monitor-audio-bronze-200", "monitor-audio-bronze-500", "monitor-audio-silver-50", "monitor-audio-silver-100", "monitor-audio-silver-300", "monitor-audio-silver-500"]) {
-    const unresolved = db.find((s) => s.id === id);
+    const unresolved = allDb.find((s) => s.id === id);
     assert(unresolved, `${id} must remain in the database`);
     nodeAssert.equal(unresolved.overallStatus, "UNAVAILABLE", `${id} exact revision remains unresolved after individual research`);
     nodeAssert.equal(unresolved.notes, unresolvedLedger[id].note);
@@ -788,7 +796,7 @@ check("DALI OPTICON MK2, RUBICON, and EPICON values use exact official specifica
     { id: "dali-epicon-8", source: "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/", low: 35, high: 30000, sensitivity: 89, impedance: 5, woofer: 8, drivers: 5 },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
     nodeAssert.equal(s.year, null, `${c.id}: do not infer a launch year`);
@@ -827,7 +835,7 @@ check("DALI OPTICON MK2, RUBICON, and EPICON values use exact official specifica
     nodeAssert.ok(Math.abs(resolved.valueDb - normalized) < 1e-10, `${c.id}: 2.83 V sensitivity must be normalized from its sourced nominal impedance`);
   }
 
-  const oberon9 = db.find((s) => s.id === "dali-oberon-9");
+  const oberon9 = allDb.find((s) => s.id === "dali-oberon-9");
   assert(oberon9, "dali-oberon-9 must remain in the database");
   const oberon9Source = "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf";
   nodeAssert.equal(oberon9.overallStatus, "PARTIALLY_VERIFIED");
@@ -869,7 +877,7 @@ check("Polk RTi, RCi, Signature, Reserve, and Signature Elite fields preserve ex
     { id: "polk-audio-signature-elite-es20", model: "Signature Elite ES20", source: "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html", low: 41, high: 40000, sensitivity: 86, reference: "2.83V/1m", impedance: null, woofer: 6.5, drivers: 2, responseContext: /no stated tolerance\/measurement condition/i },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -931,7 +939,7 @@ check("Wharfedale exact models retain published response context and do not infe
     { id: "wharfedale-evo4-2", model: "EVO4.2", source: "https://www.wharfedale.co.uk/products/evo4-2", low: 54, high: 22000, woofer: 6.5, drivers: 3, sensitivity: 87, bassExtension: 48 },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -973,16 +981,16 @@ check("Wharfedale exact models retain published response context and do not infe
     nodeAssert.match(s.notes, /directivity/i);
     assert(s.notes.includes(c.source), `${c.id} must retain its exact manufacturer source`);
   }
-  const d122 = db.find((s) => s.id === "wharfedale-diamond-12-2");
+  const d122 = allDb.find((s) => s.id === "wharfedale-diamond-12-2");
   nodeAssert.match(d122.notes, /6\.5 inches and parenthetically 150 mm/i);
   nodeAssert.match(d122.notes, /not a conversion from millimetres/i);
-  const evo42 = db.find((s) => s.id === "wharfedale-evo4-2");
+  const evo42 = allDb.find((s) => s.id === "wharfedale-evo4-2");
   nodeAssert.match(evo42.notes, /3-way.*bookshelf speaker/i);
   nodeAssert.match(evo42.notes, /2-inch \(50 mm\) soft-dome midrange/i);
 });
 
 check("Wharfedale W60 remains distinct from suffix revisions when secondary sources conflict", () => {
-  const s = db.find((x) => x.id === "wharfedale-w60");
+  const s = allDb.find((x) => x.id === "wharfedale-w60");
   assert(s, "exact no-suffix W60 row must remain in the database");
   nodeAssert.equal(s.model, "W60");
   nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
@@ -1025,7 +1033,7 @@ check("Q Acoustics exact models retain published response and sensitivity refere
     },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1085,10 +1093,10 @@ check("Q Acoustics exact models retain published response and sensitivity refere
     nodeAssert.match(s.notes, /directivity|polar/i);
     assert(s.notes.includes(c.source), `${c.id} must retain its exact Q Acoustics product-page source`);
   }
-  const r3030 = db.find((s) => s.id === "q-acoustics-3030i");
+  const r3030 = allDb.find((s) => s.id === "q-acoustics-3030i");
   nodeAssert.match(r3030.notes, /average impedance 6 Ω and minimum impedance 4 Ω, not nominal impedance/i);
   nodeAssert.match(r3030.notes, /no impedance-dependent sensitivity conversion is made/i);
-  const r5020 = db.find((s) => s.id === "q-acoustics-5020");
+  const r5020 = allDb.find((s) => s.id === "q-acoustics-5020");
   nodeAssert.match(r5020.notes, /internally ambiguous/i);
   nodeAssert.match(r5020.notes, /sensitivity remains N\/A/i);
 });
@@ -1119,7 +1127,7 @@ check("PreSonus exact-model batches retain sourced limits and keep unsupported f
     },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1153,7 +1161,7 @@ check("PreSonus exact-model batches retain sourced limits and keep unsupported f
     assert(s.notes.includes(c.wooferSource), `${c.id} notes must retain the source for woofer diameter`);
     assert(s.notes.includes(c.powerSource), `${c.id} notes must retain the source for amplifier output`);
   }
-  const r80 = db.find((s) => s.id === "presonus-r80");
+  const r80 = allDb.find((s) => s.id === "presonus-r80");
   nodeAssert.match(r80.notes, /R80 technical sheet explicitly lists 150 W/i);
   nodeAssert.match(r80.notes, /detailed LF-driver row conflicts/i);
   nodeAssert.equal(r80.woofer.value, 8, "R80 woofer diameter must come from its distinct manual row, not the conflicting copied table cell");
@@ -1173,7 +1181,7 @@ check("Mackie source-backed records preserve exact model limits and leave unsupp
     { id: "legacy-mack-7", model: "DLM12", source: "https://mackie.com/img/file_resources/DLM8_12_SS.pdf", low: 38, high: 20000, woofer: 12, voiceCoil: 2.5, drivers: 2, power: 1000, responseContext: /38 Hz–20 kHz at −10 dB/i },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1223,7 +1231,7 @@ check("SVS subwoofer fields preserve exact-model response modes and distinguish 
     { id: "svs-pb-2000-pro", model: "PB-2000 Pro", source: "https://www.svsound.com/products/pb-2000-pro", low: 16, high: 290, power: 550, woofer: 12, voiceCoil: null },
   ];
   for (const c of cases) {
-    const s = db.find((x) => x.id === c.id);
+    const s = allDb.find((x) => x.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1266,7 +1274,7 @@ check("SVS subwoofer fields preserve exact-model response modes and distinguish 
 });
 
 check("Genelec S30 retains exact-model limits and leaves conflicting amplifier ratings unavailable", () => {
-  const s = db.find((item) => item.id === "legacy-gen-1");
+  const s = allDb.find((item) => item.id === "legacy-gen-1");
   assert(s, "legacy-gen-1 Genelec S30 record is missing");
   const dataSheet = "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf";
   nodeAssert.equal(s.model, "S30");
@@ -1294,7 +1302,7 @@ check("Genelec S30 retains exact-model limits and leaves conflicting amplifier r
 });
 
 check("Genelec 4430 uses its exact launch source and does not import the 4430A revision", () => {
-  const s = db.find((item) => item.id === "legacy-gen-8");
+  const s = allDb.find((item) => item.id === "legacy-gen-8");
   assert(s, "legacy-gen-8 Genelec 4430 record is missing");
   const source = "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1";
   nodeAssert.equal(s.model, "4430");
@@ -1319,7 +1327,7 @@ check("Genelec 4430 uses its exact launch source and does not import the 4430A r
 });
 
 check("Genelec 8020C retains only exact-model specifications and keeps active-system ratings distinct", () => {
-  const s = db.find((item) => item.id === "genelec-8020c");
+  const s = allDb.find((item) => item.id === "genelec-8020c");
   assert(s, "genelec-8020c record is missing");
   const dataSheet = "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf";
   nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1367,7 +1375,7 @@ check("Marshall passive guitar cabinets retain exact ratings and omit mode-ambig
     { id: "marshall-marshall-mx212", source: "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176", power: 160, drivers: 2, woofer: 12, impedance: 8 },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.brand, "Marshall");
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1401,8 +1409,8 @@ check("Marshall passive guitar cabinets retain exact ratings and omit mode-ambig
     nodeAssert.match(s.notes, /No response curve or directivity data is imported/i);
     assert(s.notes.includes(c.source), `${c.id} notes must cite the exact manufacturer source`);
   }
-  nodeAssert.match(db.find((item) => item.id === "marshall-marshall-1960b")?.notes ?? "", /direct product route previously returned Page not found/i);
-  nodeAssert.match(db.find((item) => item.id === "marshall-marshall-1960av")?.notes ?? "", /GENERAL\/Model cell is mislabeled 1960A/i);
+  nodeAssert.match(allDb.find((item) => item.id === "marshall-marshall-1960b")?.notes ?? "", /direct product route previously returned Page not found/i);
+  nodeAssert.match(allDb.find((item) => item.id === "marshall-marshall-1960av")?.notes ?? "", /GENERAL\/Model cell is mislabeled 1960A/i);
 });
 
 check("Marshall active speakers retain published ranges and distinguish amp output from sensitivity", () => {
@@ -1413,7 +1421,7 @@ check("Marshall active speakers retain published ranges and distinguish amp outp
     { id: "marshall-marshall-middleton", source: "https://www.marshall.com/us/en/product/middleton?pid=1006034", low: 50, high: 20000, power: 60, drivers: 4, woofer: 3, category: "portable" },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.brand, "Marshall");
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1447,7 +1455,7 @@ check("Marshall active speakers retain published ranges and distinguish amp outp
     nodeAssert.match(s.notes, /no (?:response )?curve or directivity data is imported/i);
     assert(s.notes.includes(c.source), `${c.id} notes must cite the exact manufacturer source`);
   }
-  nodeAssert.match(db.find((item) => item.id === "marshall-marshall-middleton")?.notes ?? "", /passive radiators are not counted as drivers/i);
+  nodeAssert.match(allDb.find((item) => item.id === "marshall-marshall-middleton")?.notes ?? "", /passive radiators are not counted as drivers/i);
 });
 
 check("Focal active Trio6 monitors preserve exact model generation, published ranges, and amplifier roles", () => {
@@ -1472,7 +1480,7 @@ check("Focal active Trio6 monitors preserve exact model generation, published ra
     },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.brand, "Focal");
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1511,7 +1519,7 @@ check("Focal Utopia Evo data retain sensitivity references and do not mislabel r
     { id: "focal-grande-utopia-em-evo", source: "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf", low: 18, high: 40000, sensitivity: 94, woofer: 16, drivers: 5 },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.brand, "Focal");
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1563,7 +1571,7 @@ check("Focal pre-Evo Scala records remain unavailable until exact V1/V2 identity
     },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
@@ -1587,7 +1595,7 @@ check("Focal pre-Evo Scala records remain unavailable until exact V1/V2 identity
 });
 
 check("Focal Kanta No2 alias remains preserved as unavailable while the canonical exact model remains", () => {
-  const canonical = db.find((item) => item.id === "focal-kanta-n-2");
+  const canonical = allDb.find((item) => item.id === "focal-kanta-n-2");
   assert(canonical, "focal-kanta-n-2 must remain as the canonical exact-model record");
   assertPreservedUnavailable("legacy-focal-7");
   const source = "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf";
@@ -1599,7 +1607,7 @@ check("Focal Kanta No2 alias remains preserved as unavailable while the canonica
 });
 
 check("Focal Electra 1027 Be uses its exact official table row and keeps amplifier recommendations out of power", () => {
-  const s = db.find((item) => item.id === "legacy-focal-2");
+  const s = allDb.find((item) => item.id === "legacy-focal-2");
   assert(s, "legacy-focal-2 must remain in the database");
   const source = "https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf";
   nodeAssert.equal(s.model, "Electra 1027Be");
@@ -1631,7 +1639,7 @@ check("Focal Electra 1027 Be uses its exact official table row and keeps amplifi
 });
 
 check("Focal Chorus 707 is not merged with 707 S and retains exact legacy source roles", () => {
-  const s = db.find((item) => item.id === "legacy-focal-1");
+  const s = allDb.find((item) => item.id === "legacy-focal-1");
   assert(s, "legacy-focal-1 must remain in the database");
   const source = "https://www.tnt-audio.com/casse/jmchorus707_e.html";
   nodeAssert.equal(s.model, "Chorus 707");
@@ -1679,7 +1687,7 @@ check("ADAM Audio exact active monitors retain published response cutoffs and am
     { id: "adam-audio-a77h", model: "A77H", source: "https://www.adam-audio.com/en/a-series/a77h/", low: 34, high: 45000, cutoff: /at -6 dB/i, power: 340, powerType: /peak internal amplifier power/i, woofer: 7, drivers: 4 },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1708,13 +1716,13 @@ check("ADAM Audio exact active monitors retain published response cutoffs and am
     nodeAssert.match(s.notes, /no response points or directivity dataset is imported/i);
     assert(s.notes.includes(c.source), `${c.id} notes must cite its exact official page`);
   }
-  const s3h = db.find((item) => item.id === "adam-audio-s3h");
+  const s3h = allDb.find((item) => item.id === "adam-audio-s3h");
   assert(s3h, "adam-audio-s3h must remain in the database");
   nodeAssert.match(s3h.notes, /not summed or used to derive the total/i, "preserve the S3H page's component-versus-total amp-rating ambiguity");
 });
 
 check("ADAM archived monitors retain exact revision sources and leave unsupported fields unavailable", () => {
-  const s3x = db.find((item) => item.id === "adam-s3x");
+  const s3x = allDb.find((item) => item.id === "adam-s3x");
   assert(s3x, "adam-s3x must remain the S3X-V record");
   const s3xSource = "https://www.adam-audio.com/en/sx-series/s3x-v/";
   nodeAssert.equal(s3x.model, "S3X-V", "do not transfer S3V successor data to the S3X-V");
@@ -1739,7 +1747,7 @@ check("ADAM archived monitors retain exact revision sources and leave unsupporte
   nodeAssert.match(s3x.notes, /not sensitivity/i);
   assert(s3x.notes.includes(s3xSource), "S3X-V notes must cite its exact archived product page");
 
-  const a5x = db.find((item) => item.id === "adam-a5x");
+  const a5x = allDb.find((item) => item.id === "adam-a5x");
   assert(a5x, "adam-a5x must remain in the database");
   const a5xSource = "https://www.adam-audio.com/en/ax-series/a5x/";
   nodeAssert.equal(a5x.model, "A5X");
@@ -1768,7 +1776,7 @@ check("ADAM archived monitors retain exact revision sources and leave unsupporte
   nodeAssert.match(a5x.notes, /not sensitivity/i);
   assert(a5x.notes.includes(a5xSource), "A5X notes must cite its exact archived product page");
 
-  const s3a = db.find((item) => item.id === "legacy-adam-1");
+  const s3a = allDb.find((item) => item.id === "legacy-adam-1");
   assert(s3a, "legacy-adam-1 must remain the S3A record");
   const s3aSource = "https://www.soundonsound.com/reviews/adam-s3a";
   nodeAssert.equal(s3a.model, "S3A");
@@ -1828,7 +1836,7 @@ check("JL Audio C1–C5 component-system manuals preserve exact model identity, 
     },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model, `${c.id}: do not transfer sibling or suffix-variant specifications`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1868,7 +1876,7 @@ check("JL Audio C1–C5 component-system manuals preserve exact model identity, 
 });
 
 check("JL Audio W7AE exact variant and W3v3 family data preserve model and impedance distinctions", () => {
-  const w7 = db.find((item) => item.id === "jl-audio-12w7");
+  const w7 = allDb.find((item) => item.id === "jl-audio-12w7");
   assert(w7, "jl-audio-12w7 must remain in the database");
   const w7Manual = "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf";
   const w7Product = "https://www.garmin.com/en-US/p/1669677/pn/010-03031-00/";
@@ -1910,7 +1918,7 @@ check("JL Audio W7AE exact variant and W3v3 family data preserve model and imped
     },
   ];
   for (const c of familyCases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model, `${c.id} remains the unsuffixed family record`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -1953,11 +1961,11 @@ check("unresolved JL Audio suffix and component identities remain individually d
     },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model, `${c.id} model identity must not be silently rewritten`);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE", `${c.id} exact suffix remains unresolved rather than borrowing sibling/variant data`);
-    const ledger = unresolvedNotes as Record<string, any>;
+    const ledger = unresolvedAll as Record<string, any>;
     nodeAssert.equal(s.notes, ledger[c.id].note, `${c.id} needs a matching individual unresolved-identity entry`);
     for (const f of ["sensitivity", "power", "impedance", "resonantFreq", "voiceCoil", "woofer"]) {
       nodeAssert.equal(s[f].value, null, `${c.id}.${f} remains N/A without exact-model support`);
@@ -1994,9 +2002,9 @@ check("Peavey SP 2 and 6505 412 remain unavailable when manufacturer documentati
       revisionEvidence: /Sheffield 1200.*Celestion Greenback 25.*Sheffield 1230\+/i,
     },
   ];
-  const ledger = unresolvedNotes as Record<string, any>;
+  const ledger = unresolvedAll as Record<string, any>;
   for (const c of cases) {
-    const s = db.find((record) => record.id === c.id);
+    const s = allDb.find((record) => record.id === c.id);
     assert(s, `${c.id} must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
@@ -2015,8 +2023,8 @@ check("Peavey SP 2 and 6505 412 remain unavailable when manufacturer documentati
 });
 
 check("Electro-Voice Force i and SB122 retain manufacturer response tables with context", () => {
-  const force = db.find((s) => s.id === "eV-force-i");
-  const sb122 = db.find((s) => s.id === "electro-voice-sb122");
+  const force = allDb.find((s) => s.id === "eV-force-i");
+  const sb122 = allDb.find((s) => s.id === "electro-voice-sb122");
   assert(force, "Force i record must remain in the database");
   assert(sb122, "SB122 record must remain in the database");
 
@@ -2075,9 +2083,9 @@ check("Electro-Voice Force i and SB122 retain manufacturer response tables with 
 });
 
 check("Electro-Voice Sentry 500, Sx100+, and Sx300E keep exact-model fields and unavailable caveats", () => {
-  const sentry = db.find((s) => s.id === "eV-sentry-500");
-  const sx100 = db.find((s) => s.id === "electro-voice-sx100");
-  const sx300e = db.find((s) => s.id === "electro-voice-sx300e");
+  const sentry = allDb.find((s) => s.id === "eV-sentry-500");
+  const sx100 = allDb.find((s) => s.id === "electro-voice-sx100");
+  const sx300e = allDb.find((s) => s.id === "electro-voice-sx300e");
   assert(sentry, "Sentry 500 record must remain in the database");
   assert(sx100, "Sx100+ record must remain in the database");
   assert(sx300e, "Sx300E record must remain in the database");
@@ -2134,14 +2142,14 @@ check("Electro-Voice Sentry 500, Sx100+, and Sx300E keep exact-model fields and 
   nodeAssert.equal(sx300e.frequencyResponse.points, undefined, "do not import ambiguous multi-column table points");
   assert(sx300e.notes.includes("Sx300E (11053031, black)"));
   assert(sx300e.notes.includes("https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf"));
-  const genericSx300 = db.find((s) => s.brand === "Electro-Voice" && s.model.toLowerCase() === "sx300");
+  const genericSx300 = allDb.find((s) => s.brand === "Electro-Voice" && s.model.toLowerCase() === "sx300");
   assert(genericSx300, "the separate generic Sx300 record must remain");
   assert(genericSx300.id !== sx300e.id, "Sx300E must not overwrite or merge with generic Sx300");
 });
 
 check("Electro-Voice Sx300PI and Sx300PIX remain distinct where transformer data differs", () => {
-  const pi = db.find((s) => s.id === "electro-voice-sx300pi");
-  const pix = db.find((s) => s.id === "electro-voice-sx300pix");
+  const pi = allDb.find((s) => s.id === "electro-voice-sx300pi");
+  const pix = allDb.find((s) => s.id === "electro-voice-sx300pix");
   assert(pi, "Sx300PI record must remain in the database");
   assert(pix, "Sx300PIX record must remain in the database");
   nodeAssert.equal(pi.model, "Sx300PI");
@@ -2178,7 +2186,7 @@ check("Electro-Voice Sx300PI and Sx300PIX remain distinct where transformer data
 });
 
 check("Electro-Voice Sx600 exact data are retained while unresolved Live X X2 remains unavailable", () => {
-  const sx600 = db.find((item) => item.id === "electro-voice-sx600");
+  const sx600 = allDb.find((item) => item.id === "electro-voice-sx600");
   assert(sx600, "exact-model Sx600 data must remain in the database");
   nodeAssert.equal(sx600.overallStatus, "PARTIALLY_VERIFIED");
   nodeAssert.equal(sx600.frequencyResponse.pointsSource, "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf");
@@ -2188,8 +2196,8 @@ check("Electro-Voice Sx600 exact data are retained while unresolved Live X X2 re
 });
 
 check("Martin Audio W8LM and d&b T10 exact manufacturer fields preserve context and unsupported values", () => {
-  const w8lm = db.find((item) => item.id === "legacy-ma-3");
-  const t10 = db.find((item) => item.id === "dandb-t10");
+  const w8lm = allDb.find((item) => item.id === "legacy-ma-3");
+  const t10 = allDb.find((item) => item.id === "dandb-t10");
   const w8Source = "https://martin-audio.com/products/archive/w8lm";
   const w8Sheet = "https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf";
   const t10Source = "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf";
@@ -2238,9 +2246,9 @@ check("Martin Audio W8LM and d&b T10 exact manufacturer fields preserve context 
 });
 
 check("RCF NX 45-A, Behringer B215XL, and DAS Aero 12A retain exact sourced fields and rating limits", () => {
-  const rcf = db.find((item) => item.id === "rcf-nx45a");
-  const behringer = db.find((item) => item.id === "behringer-b215xl");
-  const aero = db.find((item) => item.id === "das-audio-aero-12a");
+  const rcf = allDb.find((item) => item.id === "rcf-nx45a");
+  const behringer = allDb.find((item) => item.id === "behringer-b215xl");
+  const aero = allDb.find((item) => item.id === "das-audio-aero-12a");
   const rcfSource = "https://www.rcf.it/en/products/product-detail/nx-45-a";
   const behringerSource = "https://www.behringer.com/en/products/0313-ACS";
   const aeroSource = "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf";
@@ -2289,8 +2297,8 @@ check("RCF NX 45-A, Behringer B215XL, and DAS Aero 12A retain exact sourced fiel
 });
 
 check("base NEXO PS15 and Turbosound iP15B keep exact revision, response provenance, and unavailable scalars", () => {
-  const nexo = db.find((item) => item.id === "nexo-ps15");
-  const turbo = db.find((item) => item.id === "turbosound-ip15b");
+  const nexo = allDb.find((item) => item.id === "nexo-ps15");
+  const turbo = allDb.find((item) => item.id === "turbosound-ip15b");
   const nexoSource = "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf";
   const turboSource = "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf";
   assert(nexo && turbo, "both exact subwoofer records must remain in the database");
@@ -2365,7 +2373,7 @@ check("Sonus faber Olympica Nova I, II, III, and V retain exact manufacturer-man
     },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} record must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2415,7 +2423,7 @@ check("Sonus faber Homage Tradition Amati, Guarneri, and Serafino retain their e
     },
   ];
   for (const c of cases) {
-    const s = db.find((item) => item.id === c.id);
+    const s = allDb.find((item) => item.id === c.id);
     assert(s, `${c.id} record must remain in the database`);
     nodeAssert.equal(s.model, c.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2447,7 +2455,7 @@ check("Sonus faber Homage Tradition Amati, Guarneri, and Serafino retain their e
 });
 
 check("Sonus faber first-generation Olympica III uses its exact manual data-sheet row", () => {
-  const s = db.find((item) => item.id === "sonus-faber-olympica3");
+  const s = allDb.find((item) => item.id === "sonus-faber-olympica3");
   const source = "https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual";
   assert(s, "Olympica III record must remain in the database");
   nodeAssert.equal(s.model, "Olympica III");
@@ -2482,7 +2490,7 @@ check("Sonus faber first-generation Olympica III uses its exact manual data-shee
 });
 
 check("Sonus faber Guarneri Evolution uses its exact manufacturer data sheet without inventing a power role", () => {
-  const s = db.find((item) => item.id === "sonus-faber-guarneri");
+  const s = allDb.find((item) => item.id === "sonus-faber-guarneri");
   const source = "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf";
   assert(s, "Guarneri Evolution record must remain in the database");
   nodeAssert.equal(s.model, "Guarneri Evolution");
@@ -2525,7 +2533,7 @@ check("first-generation Sonetto I, II, III, and V retain exact 2018 launch-table
     { id: "sonus-faber-sonetto-v", model: "Sonetto V", low: 38, high: 25000, sensitivity: 90 },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.model} record must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2558,7 +2566,7 @@ check("TRIANGLE Borea BR02, BR03, and Comète Ez retain exact manufacturer limit
     { id: "triangle-comete-ez", model: "Comete Ez", low: 49, high: 22000, sensitivity: 89, power: 80, woofer: 6.5, minimumOhms: "4.2 Ω minimum", ampRange: "25–130 W" },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     const source = s?.frequencyResponse.source;
     assert(s, `${item.model} record must remain in the database`);
     nodeAssert.equal(s.model, item.model);
@@ -2587,14 +2595,14 @@ check("TRIANGLE Borea BR02, BR03, and Comète Ez retain exact manufacturer limit
     nodeAssert.match(s.notes, new RegExp(item.minimumOhms.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
     nodeAssert.match(s.notes, new RegExp(item.ampRange.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
-  const comete = db.find((record) => record.id === "triangle-comete-ez");
+  const comete = allDb.find((record) => record.id === "triangle-comete-ez");
   assert(comete, "Comète Ez record must remain in the database");
   nodeAssert.match(comete.notes, /not the 40th-anniversary Comète 40th/);
 });
 
 check("JBL EON15 uses the exact passive non-G2 manufacturer sheet, not the powered G2 revision", () => {
   const source = "https://www.warehousesound.com/r/jblEon15.pdf";
-  const s = db.find((record) => record.id === "jbl-eon15");
+  const s = allDb.find((record) => record.id === "jbl-eon15");
   assert(s, "JBL EON15 record must remain in the database");
   nodeAssert.equal(s.model, "EON15");
   nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2623,7 +2631,7 @@ check("JBL EON15 uses the exact passive non-G2 manufacturer sheet, not the power
 check("JBL Paragon D44000 keeps common ratings and does not merge revision-specific driver data", () => {
   const source = "https://audio-database.com/JBL/speaker/paragon.html";
   const officialIdentity = "https://jp.jbl.com/jamaica.html";
-  const s = db.find((record) => record.id === "jbl-paragon");
+  const s = allDb.find((record) => record.id === "jbl-paragon");
   assert(s, "JBL Paragon D44000 record must remain in the database");
   nodeAssert.equal(s.model, "Paragon D44000");
   nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2658,7 +2666,7 @@ check("Rockford Fosgate and Pioneer car-speaker fields preserve exact ratings, r
     { id: "pioneer-ts-z65f", model: "TS-Z65F", source: "https://pioneer-car.eu/ts-z65f/ts-z65f", sensitivity: null, reference: undefined, power: 110, role: "allowable_input", impedance: 4, low: 32, high: 96000, woofer: 17, wooferUnit: "cm", drivers: 2 },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.model} record must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2678,7 +2686,7 @@ check("Rockford Fosgate and Pioneer car-speaker fields preserve exact ratings, r
     nodeAssert.match(s.notes, /no tolerance|no response tolerance/i);
     nodeAssert.match(s.notes, /not (?:treated as )?a measured (?:response )?curve/i);
   }
-  const p3 = db.find((record) => record.id === "rockford-fosgate-p3");
+  const p3 = allDb.find((record) => record.id === "rockford-fosgate-p3");
   assert(p3, "Rockford Fosgate P3D4-12 record must remain in the database");
   nodeAssert.equal(p3.model, "Punch P3D4-12 (Dual 4Ω)");
   nodeAssert.equal(p3.overallStatus, "PARTIALLY_VERIFIED");
@@ -2697,22 +2705,22 @@ check("Rockford Fosgate and Pioneer car-speaker fields preserve exact ratings, r
   nodeAssert.match(p3.notes, /dual 4-ohm voice coils/);
   nodeAssert.match(p3.notes, /Fs is retained as resonant frequency/);
   nodeAssert.match(p3.notes, /No standardized response limits/);
-  const pioneer = db.find((record) => record.id === "pioneer-ts-z65f");
+  const pioneer = allDb.find((record) => record.id === "pioneer-ts-z65f");
   assert(pioneer, "Pioneer TS-Z65F record must remain in the database");
   nodeAssert.equal(pioneer.sensitivity.value, null, "manufacturer's 85 dB value has no stated reference");
   nodeAssert.equal(pioneer.power.value, 110, "retain nominal input power, not the 330 W maximum");
   nodeAssert.equal(pioneer.power.role, "allowable_input");
   nodeAssert.match(pioneer.notes, /sensitivity field remains N\/A/);
   nodeAssert.match(pioneer.notes, /330 W maximum is not substituted/);
-  const t1650 = db.find((record) => record.id === "rockford-fosgate-t1650");
-  const t1650s = db.find((record) => record.id === "rockford-fosgate-t1650-s");
+  const t1650 = allDb.find((record) => record.id === "rockford-fosgate-t1650");
+  const t1650s = allDb.find((record) => record.id === "rockford-fosgate-t1650-s");
   assert(t1650 && t1650s, "both exact T1650 revisions must remain separately represented");
   nodeAssert.notEqual(t1650.model, t1650s.model);
   nodeAssert.notEqual(t1650.frequencyResponse.low_hz, t1650s.frequencyResponse.low_hz);
 });
 
 check("Kali LP-6 uses the original-generation manual and keeps active-monitor ratings in their correct roles", () => {
-  const lp6 = db.find((s) => s.id === "kali-lp6");
+  const lp6 = allDb.find((s) => s.id === "kali-lp6");
   assert(lp6, "Kali LP-6 record must remain in the database");
   const source = "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf";
   nodeAssert.equal(lp6.model, "LP-6");
@@ -2743,7 +2751,7 @@ check("L-Acoustics K1, K2, and Syva use exact manufacturer limits without flatte
     { id: "legacy-la-6", model: "Syva", source: "https://www.l-acoustics.com/products/syva/", low: 87, high: 20000, woofer: null, drivers: 9, impedance: 8, active: false },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.model} record must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2760,9 +2768,9 @@ check("L-Acoustics K1, K2, and Syva use exact manufacturer limits without flatte
     nodeAssert.match(s.notes, /-10 dB/);
     nodeAssert.match(s.notes, /No response-point or polar\/directivity data are imported/);
   }
-  const k1 = db.find((record) => record.id === "legacy-la-4");
-  const k2 = db.find((record) => record.id === "legacy-la-5");
-  const syva = db.find((record) => record.id === "legacy-la-6");
+  const k1 = allDb.find((record) => record.id === "legacy-la-4");
+  const k2 = allDb.find((record) => record.id === "legacy-la-5");
+  const syva = allDb.find((record) => record.id === "legacy-la-6");
   assert(k1 && k2 && syva, "exact L-Acoustics records must exist");
   nodeAssert.match(k1.notes, /LF\/MF\/HF impedance is specified separately/);
   nodeAssert.match(k2.notes, /LF\/MF\/HF impedance is specified separately/);
@@ -2777,7 +2785,7 @@ check("Yamaha NS-series and Pioneer TS-D65C ratings retain exact references and 
     { id: "pioneer-ts-d65c", model: "TS-D65C", source: "https://pioneer-car.eu/ts-d65c/ts-d65c", sensitivity: null, reference: undefined, power: 90, impedance: 4, low: 32, high: 49000, woofer: 17, wooferUnit: "cm", drivers: 2 },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.model} record must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -2796,10 +2804,10 @@ check("Yamaha NS-series and Pioneer TS-D65C ratings retain exact references and 
     nodeAssert.equal(s.active, null, "do not infer onboard amplification status");
     assert(s.notes.includes(item.source));
   }
-  const ns5000 = db.find((record) => record.id === "yamaha-ns-5000");
-  const ns777 = db.find((record) => record.id === "yamaha-ns-777");
-  const ns6490 = db.find((record) => record.id === "yamaha-ns-6490");
-  const tsd65c = db.find((record) => record.id === "pioneer-ts-d65c");
+  const ns5000 = allDb.find((record) => record.id === "yamaha-ns-5000");
+  const ns777 = allDb.find((record) => record.id === "yamaha-ns-777");
+  const ns6490 = allDb.find((record) => record.id === "yamaha-ns-6490");
+  const tsd65c = allDb.find((record) => record.id === "pioneer-ts-d65c");
   assert(ns5000 && ns777 && ns6490 && tsd65c, "all exact-model records must exist");
   nodeAssert.match(ns5000.notes, /26 Hz–40 kHz at -10 dB/);
   nodeAssert.match(ns5000.notes, /100 kHz at -30 dB is not combined/);
@@ -2812,7 +2820,7 @@ check("Yamaha NS-series and Pioneer TS-D65C ratings retain exact references and 
 });
 
 check("Electro-Voice Sx600 uses exact manufacturer response data while preserving PI/PIX distinctions", () => {
-  const sx600 = db.find((record) => record.id === "electro-voice-sx600");
+  const sx600 = allDb.find((record) => record.id === "electro-voice-sx600");
   assert(sx600, "the exact unsuffixed Sx600 family record must remain");
   const source = "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf";
   nodeAssert.equal(sx600.model, "Sx600");
@@ -2848,10 +2856,10 @@ check("Electro-Voice Sx600 uses exact manufacturer response data while preservin
 });
 
 check("unqualified Electro-Voice EVF-1152D remains unavailable without a pattern and configuration suffix", () => {
-  const row = db.find((record) => record.id === "electro-voice-evf-1152d");
-  const unresolved = (unresolvedNotes as Record<string, any>)["electro-voice-evf-1152d"];
+  const row = allDb.find((record) => record.id === "electro-voice-evf-1152d");
+  const unresolved = (unresolvedAll as Record<string, any>)["electro-voice-evf-1152d"];
   const lead = (directivityLeads as any[]).find((item) => item.id === "electro-voice-evf-1152d");
-  const exact96 = db.find((record) => record.id === "electro-voice-evf-1152d-96");
+  const exact96 = allDb.find((record) => record.id === "electro-voice-evf-1152d-96");
   assert(row && unresolved && lead && exact96, "the EVF-1152D row, exact /96 record, identity disposition, and directivity lead must all remain separate");
   nodeAssert.equal(exact96.model, "EVF-1152D/96");
   nodeAssert.equal(exact96.overallStatus, "PARTIALLY_VERIFIED");
@@ -2887,12 +2895,12 @@ check("unqualified Electro-Voice EVF-1152D remains unavailable without a pattern
 });
 
 check("Pioneer CS, Elite, and Andrew Jones records keep exact identity, rating roles, and honest sensitivity references", () => {
-  const cs99 = db.find((record) => record.id === "legacy-pio-1");
-  const hpm100 = db.find((record) => record.id === "legacy-pio-2");
-  const cs88 = db.find((record) => record.id === "legacy-pio-3");
-  const s1ex = db.find((record) => record.id === "legacy-pio-4");
-  const bs22 = db.find((record) => record.id === "legacy-pio-5");
-  const fs52 = db.find((record) => record.id === "legacy-pio-6");
+  const cs99 = allDb.find((record) => record.id === "legacy-pio-1");
+  const hpm100 = allDb.find((record) => record.id === "legacy-pio-2");
+  const cs88 = allDb.find((record) => record.id === "legacy-pio-3");
+  const s1ex = allDb.find((record) => record.id === "legacy-pio-4");
+  const bs22 = allDb.find((record) => record.id === "legacy-pio-5");
+  const fs52 = allDb.find((record) => record.id === "legacy-pio-6");
   assert(cs99 && hpm100 && cs88 && s1ex && bs22 && fs52, "all six exact Pioneer speakers must remain");
 
   nodeAssert.equal(cs99.model, "CS-99A");
@@ -2992,9 +3000,9 @@ check("Pioneer CS, Elite, and Andrew Jones records keep exact identity, rating r
 });
 
 check("Yamaha NS-500, original NS-10M, and first-generation NS-690 keep revision-specific evidence and honest gaps", () => {
-  const ns500 = db.find((record) => record.id === "yamaha-ns500");
-  const ns10m = db.find((record) => record.id === "legacy-yam-2");
-  const ns690 = db.find((record) => record.id === "legacy-yam-3");
+  const ns500 = allDb.find((record) => record.id === "yamaha-ns500");
+  const ns10m = allDb.find((record) => record.id === "legacy-yam-2");
+  const ns690 = allDb.find((record) => record.id === "legacy-yam-3");
   assert(ns500 && ns10m && ns690, "all three exact Yamaha speaker records must remain present");
 
   nodeAssert.equal(ns500.model, "NS-500");
@@ -3079,7 +3087,7 @@ check("Orange PPC, VOX V212, and Mesa 2x12 cabs retain exact sourced ratings wit
     { id: "mesa-boogie-lone-star-2x12", source: "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html", sourceType: "MANUFACTURER", power: null, powerRole: undefined, impedance: 8, woofer: 12, drivers: 2 },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.id} must remain in the database`);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
     nodeAssert.equal(s.driverCount, item.drivers);
@@ -3114,11 +3122,11 @@ check("Orange PPC, VOX V212, and Mesa 2x12 cabs retain exact sourced ratings wit
       nodeAssert.equal(s.impedance.sourceType, item.sourceType);
     }
   }
-  const v212c = db.find((record) => record.id === "vox-v212c");
-  const v212hwx = db.find((record) => record.id === "vox-v212hwx");
-  const v212bn = db.find((record) => record.id === "vox-v212bn");
-  const ppc412 = db.find((record) => record.id === "orange-ppc412");
-  const loneStar = db.find((record) => record.id === "mesa-boogie-lone-star-2x12");
+  const v212c = allDb.find((record) => record.id === "vox-v212c");
+  const v212hwx = allDb.find((record) => record.id === "vox-v212hwx");
+  const v212bn = allDb.find((record) => record.id === "vox-v212bn");
+  const ppc412 = allDb.find((record) => record.id === "orange-ppc412");
+  const loneStar = allDb.find((record) => record.id === "mesa-boogie-lone-star-2x12");
   assert(v212c && v212hwx && v212bn && ppc412 && loneStar, "variant-sensitive cabinet records must exist");
   nodeAssert.match(v212c.notes, /8 or 16 Ohms.*no single scalar impedance/i);
   nodeAssert.match(v212hwx.notes, /30 Watts RMS.*power field remains N\/A/i);
@@ -3128,7 +3136,7 @@ check("Orange PPC, VOX V212, and Mesa 2x12 cabs retain exact sourced ratings wit
 });
 
 check("REL S/812 keeps its powered-subwoofer output role and one-sided published extension", () => {
-  const s = db.find((item) => item.id === "rel-s812");
+  const s = allDb.find((item) => item.id === "rel-s812");
   const source = "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf";
   assert(s, "REL S/812 record must remain in the database");
   nodeAssert.equal(s.model, "S/812");
@@ -3168,7 +3176,7 @@ check("Revel, ATC, PMC, and KRK Batch 099 specs retain exact source context and 
     { id: "krk-v6-s4", model: "V6 S4", source: "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor", low: 49, high: 19000, woofer: 6.5, wooferUnit: "in", drivers: 2, active: true, sensitivity: null, impedance: null, power: 155, powerRole: "amplifier_output" },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.id} must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -3212,19 +3220,19 @@ check("Revel, ATC, PMC, and KRK Batch 099 specs retain exact source context and 
     }
   }
 
-  const f206 = db.find((record) => record.id === "revel-f206");
-  const scm19 = db.find((record) => record.id === "atc-scm19");
-  const scm45 = db.find((record) => record.id === "atc-scm45a-pro");
-  const scm50 = db.find((record) => record.id === "atc-scm50asl-pro");
-  const scm100 = db.find((record) => record.id === "atc-scm100asl-pro");
-  const result6 = db.find((record) => record.id === "pmc-result6");
-  const pmc6 = db.find((record) => record.id === "pmc-pmc6-2");
-  const pmc8 = db.find((record) => record.id === "pmc-pmc8-2");
-  const krk = db.find((record) => record.id === "krk-v6-s4");
+  const f206 = allDb.find((record) => record.id === "revel-f206");
+  const scm19 = allDb.find((record) => record.id === "atc-scm19");
+  const scm45 = allDb.find((record) => record.id === "atc-scm45a-pro");
+  const scm50 = allDb.find((record) => record.id === "atc-scm50asl-pro");
+  const scm100 = allDb.find((record) => record.id === "atc-scm100asl-pro");
+  const result6 = allDb.find((record) => record.id === "pmc-result6");
+  const pmc6 = allDb.find((record) => record.id === "pmc-pmc6-2");
+  const pmc8 = allDb.find((record) => record.id === "pmc-pmc8-2");
+  const krk = allDb.find((record) => record.id === "krk-v6-s4");
   assert(f206 && scm19 && scm45 && scm50 && scm100 && result6 && pmc6 && pmc8 && krk, "all Batch 099 speakers must exist");
   nodeAssert.match(f206.notes, /33 Hz \(-10 dB\).*40 Hz \(-6 dB\).*52 Hz \(-3 dB\)/);
   nodeAssert.match(f206.notes, /stores the explicit -3 dB point, 52 Hz/);
-  const m106 = db.find((record) => record.id === "revel-m106");
+  const m106 = allDb.find((record) => record.id === "revel-m106");
   assert(m106, "Revel M106 must remain in the database");
   nodeAssert.match(m106.notes, /39 Hz \(-10 dB\).*54 Hz \(-6 dB\).*59 Hz \(-3 dB\)/);
   nodeAssert.match(m106.notes, /stores the explicit -3 dB point, 59 Hz/);
@@ -3254,7 +3262,7 @@ check("KICKER Batch 100 automotive speakers retain exact model limits and separa
     { id: "kicker-46css674", model: "46CSS674", source: "https://www.kicker.com/CSS67-Component-System-4-Ohm", drivers: 2, woofer: 6.75, low: 35, high: 21000, sensitivity: null, impedance: 4, power: 300, powerRole: "allowable_input" },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.id} must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -3286,10 +3294,10 @@ check("KICKER Batch 100 automotive speakers retain exact model limits and separa
     nodeAssert.equal(s.voiceCoil.value, null);
     assert(s.notes.includes(item.source), `${item.id} notes must retain exact-model source`);
   }
-  const ds = db.find((record) => record.id === "kicker-43dsc6504");
-  const ks = db.find((record) => record.id === "kicker-47ksc6504");
-  const csc = db.find((record) => record.id === "kicker-46csc654");
-  const css = db.find((record) => record.id === "kicker-46css674");
+  const ds = allDb.find((record) => record.id === "kicker-43dsc6504");
+  const ks = allDb.find((record) => record.id === "kicker-47ksc6504");
+  const csc = allDb.find((record) => record.id === "kicker-46csc654");
+  const css = allDb.find((record) => record.id === "kicker-46css674");
   assert(ds && ks && csc && css, "all exact KICKER product records must exist");
   nodeAssert.match(ds.notes, /240 W figure is a peak input rating per ANSI\/CTA-2031-A/i);
   nodeAssert.match(ds.notes, /60 W RMS recommended-amplifier figure is not substituted/i);
@@ -3312,7 +3320,7 @@ check("Alpine, Hertz, and Audison Batch 101 values use exact model sources and c
     { id: "audison-voce-av-k6", model: "Voce AV K6", source: "https://audison.com/product/av-k6/", low: 50, high: 22000, power: 125, impedance: 4, woofer: 165, wooferUnit: "mm", voiceCoil: 30, voiceCoilUnit: "mm", resonance: 68, drivers: 2, active: null },
   ];
   for (const item of expected) {
-    const s = db.find((record) => record.id === item.id);
+    const s = allDb.find((record) => record.id === item.id);
     assert(s, `${item.id} must remain in the database`);
     nodeAssert.equal(s.model, item.model);
     nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -3354,12 +3362,12 @@ check("Alpine, Hertz, and Audison Batch 101 values use exact model sources and c
       nodeAssert.equal(s.resonantFreq.source, null);
     }
   }
-  const s65 = db.find((record) => record.id === "alpine-s-s65");
-  const dsk = db.find((record) => record.id === "hertz-dieci-dsk-165-3");
-  const ck = db.find((record) => record.id === "hertz-cento-ck-165");
-  const mpk = db.find((record) => record.id === "hertz-mille-pro-mpk-165-3");
-  const apk = db.find((record) => record.id === "audison-prima-apk-165");
-  const avk6 = db.find((record) => record.id === "audison-voce-av-k6");
+  const s65 = allDb.find((record) => record.id === "alpine-s-s65");
+  const dsk = allDb.find((record) => record.id === "hertz-dieci-dsk-165-3");
+  const ck = allDb.find((record) => record.id === "hertz-cento-ck-165");
+  const mpk = allDb.find((record) => record.id === "hertz-mille-pro-mpk-165-3");
+  const apk = allDb.find((record) => record.id === "audison-prima-apk-165");
+  const avk6 = allDb.find((record) => record.id === "audison-voce-av-k6");
   assert(s65 && dsk && ck && mpk && apk && avk6, "exact Batch 101 entries must exist");
   nodeAssert.match(s65.notes, /35 mm voice coil for its S-Series 6.5-inch speakers/i);
   nodeAssert.match(s65.notes, /80 W RMS, 240 W peak/);
@@ -3374,7 +3382,7 @@ check("Alpine, Hertz, and Audison Batch 101 values use exact model sources and c
 });
 
 check("Yamaha DXS12 source-backed specifications retain -10 dB and amplifier-output context", () => {
-  const s = db.find((record) => record.id === "yamaha-dxs12");
+  const s = allDb.find((record) => record.id === "yamaha-dxs12");
   assert(s, "Yamaha DXS12 must remain in the database");
   nodeAssert.equal(s.model, "DXS12");
   nodeAssert.equal(s.category, "subwoofer");
@@ -3430,7 +3438,7 @@ check("zero duplicate brand + model pairs", () => {
 });
 
 check("Morel Elate Carbon 62A uses its exact system row without inferring powered operation or system impedance", () => {
-  const s = db.find((x) => x.id === "morel-elate-carbon-62a");
+  const s = allDb.find((x) => x.id === "morel-elate-carbon-62a");
   assert(s, "morel-elate-carbon-62a must remain in the database");
   const source = "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158";
   nodeAssert.equal(s.model, "Elate Carbon 62A");
@@ -3460,7 +3468,7 @@ check("Morel Elate Carbon 62A uses its exact system row without inferring powere
 });
 
 check("HEDD Type 20 original manual stays distinct from MK2/A-CORE and preserves its active-input sensitivity reference", () => {
-  const s = db.find((x) => x.id === "hedd-type-20");
+  const s = allDb.find((x) => x.id === "hedd-type-20");
   assert(s, "hedd-type-20 must remain in the database");
   const source = "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf";
   nodeAssert.equal(s.model, "Type 20");
@@ -3486,7 +3494,7 @@ check("HEDD Type 20 original manual stays distinct from MK2/A-CORE and preserves
 });
 
 check("ELAC original Uni-Fi UB5 uses the 2016 UB5 row and normalizes only its stated 2.83 V/1 m sensitivity", () => {
-  const s = db.find((x) => x.id === "elac-uni-fi-ub5");
+  const s = allDb.find((x) => x.id === "elac-uni-fi-ub5");
   assert(s, "elac-uni-fi-ub5 must remain in the database");
   const source = "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf";
   nodeAssert.equal(s.model, "Uni-Fi UB5");
@@ -3511,7 +3519,7 @@ check("ELAC original Uni-Fi UB5 uses the 2016 UB5 row and normalizes only its st
 });
 
 check("Avantone base Mixcube uses only the exact passive-page data", () => {
-  const s = db.find((x) => x.id === "ath-avantone-mixcube");
+  const s = allDb.find((x) => x.id === "ath-avantone-mixcube");
   assert(s, "ath-avantone-mixcube must remain in the database");
   const source = "https://avantonepro.com/en/products/mixcube-passive";
   nodeAssert.equal(s.model, "Mixcube");
@@ -3533,7 +3541,7 @@ check("Avantone base Mixcube uses only the exact passive-page data", () => {
 });
 
 check("Fostex 6301B preserves the old manual's exact sensitivity reference and active-system limits", () => {
-  const s = db.find((x) => x.id === "fostex-6301b");
+  const s = allDb.find((x) => x.id === "fostex-6301b");
   assert(s, "fostex-6301b must remain in the database");
   const source = "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf";
   nodeAssert.equal(s.model, "6301B");
@@ -3557,7 +3565,7 @@ check("Fostex 6301B preserves the old manual's exact sensitivity reference and a
 });
 
 check("Auratone 5C is the exact passive base model and uses the manufacturer's current specification", () => {
-  const s = db.find((x) => x.id === "auratone-5c");
+  const s = allDb.find((x) => x.id === "auratone-5c");
   assert(s, "auratone-5c must remain in the database");
   const source = "https://www.auratoneaudio.com/products";
   nodeAssert.equal(s.model, "5C Sound Cube");
@@ -3581,7 +3589,7 @@ check("Auratone 5C is the exact passive base model and uses the manufacturer's c
 });
 
 check("Harbeth Super HL5 Plus fields remain tied to the original RADIAL2 generation", () => {
-  const s = db.find((x) => x.id === "harbeth-shl5");
+  const s = allDb.find((x) => x.id === "harbeth-shl5");
   assert(s, "harbeth-shl5 must remain in the database");
   nodeAssert.equal(s.model, "Super HL5 Plus");
   nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -3607,7 +3615,7 @@ check("Harbeth Super HL5 Plus fields remain tied to the original RADIAL2 generat
 });
 
 check("Meyer MJF-212 retains only uncontroversial exact non-A identity and amplifier data", () => {
-  const s = db.find((x) => x.id === "meyer-mjf212");
+  const s = allDb.find((x) => x.id === "meyer-mjf212");
   assert(s, "meyer-mjf212 must remain in the database");
   nodeAssert.equal(s.model, "MJF-212");
   nodeAssert.equal(s.overallStatus, "PARTIALLY_VERIFIED");
@@ -3629,7 +3637,7 @@ check("Meyer MJF-212 retains only uncontroversial exact non-A identity and ampli
 });
 
 check("Opera 405 is sourced as the no-suffix Live analog model, not the distinct 405D", () => {
-  const s = db.find((x) => x.id === "dbtechnologies-opera-405");
+  const s = allDb.find((x) => x.id === "dbtechnologies-opera-405");
   assert(s, "dbtechnologies-opera-405 must remain in the database");
   const source = "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6";
   nodeAssert.equal(s.model, "Opera 405");
@@ -3654,7 +3662,7 @@ check("Opera 405 is sourced as the no-suffix Live analog model, not the distinct
 });
 
 check("Magnepan MG 1.7 uses the exact 1.7 manual and preserves its 500 Hz sensitivity reference", () => {
-  const s = db.find((x) => x.id === "magnepan-mg1.7");
+  const s = allDb.find((x) => x.id === "magnepan-mg1.7");
   assert(s, "magnepan-mg1.7 must remain in the database");
   const source = "https://magnepan.com/pages/manual-controller";
   nodeAssert.equal(s.model, "MG 1.7");
@@ -3679,11 +3687,11 @@ check("Magnepan MG 1.7 uses the exact 1.7 manual and preserves its 500 Hz sensit
 });
 
 check("Batch 116 exact-model research preserves tolerance, subsystem, and revision distinctions", () => {
-  const adamson = db.find((s) => s.id === "adamson-e15");
-  const air8 = db.find((s) => s.id === "void-air-8");
-  const danley = db.find((s) => s.id === "danley-sh96");
-  const eaw = db.find((s) => s.id === "eaw-kf760");
-  const res2 = db.find((s) => s.id === "funktion-one-res2");
+  const adamson = allDb.find((s) => s.id === "adamson-e15");
+  const air8 = allDb.find((s) => s.id === "void-air-8");
+  const danley = allDb.find((s) => s.id === "danley-sh96");
+  const eaw = allDb.find((s) => s.id === "eaw-kf760");
+  const res2 = allDb.find((s) => s.id === "funktion-one-res2");
   assert(adamson && air8 && danley && eaw && res2, "all five Batch 116 records must remain present");
 
   const adamsonSource = "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file";
@@ -3809,7 +3817,7 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
   ];
   for (const c of laCases) {
     const lead = leads.find((item) => item.id === c.id);
-    const record = db.find((item) => item.id === c.id);
+    const record = allDb.find((item) => item.id === c.id);
     assert(lead && record, `${c.id} exact-model directivity/documentation lead must be retained`);
     nodeAssert.equal(lead.status, "LEAD_NOT_IMPORTED");
     nodeAssert.equal(record.model, c.model);
@@ -3817,7 +3825,7 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
     nodeAssert.match(lead.note, /not imported|not be imported|not yet been inspected|have not been inspected|not inspected|No .* (imported|added)/i);
     if (c.archive) nodeAssert.match(lead.archive, new RegExp(c.archive));
   }
-  const arcsWide = db.find((item) => item.id === "lacoustics-arcs");
+  const arcsWide = allDb.find((item) => item.id === "lacoustics-arcs");
   const arcsWideSource = "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf";
   nodeAssert.equal(arcsWide.driverCount, 2, "the exact passive two-way enclosure contains one LF and one HF transducer");
   nodeAssert.equal(arcsWide.active, false, "the manufacturer describes ARCS WIDE as passive and externally amplified");
@@ -3845,10 +3853,10 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
 });
 
 check("Batch 117 exact KRK and Fender sources preserve generation, power-role, and tolerance distinctions", () => {
-  const krk7000 = db.find((s) => s.id === "krk-7000");
-  const rok5 = db.find((s) => s.id === "krk-rokit-5");
-  const rok8 = db.find((s) => s.id === "krk-rokit-8");
-  const bluesJr = db.find((s) => s.id === "fender-blues-junior-iv");
+  const krk7000 = allDb.find((s) => s.id === "krk-7000");
+  const rok5 = allDb.find((s) => s.id === "krk-rokit-5");
+  const rok8 = allDb.find((s) => s.id === "krk-rokit-8");
+  const bluesJr = allDb.find((s) => s.id === "fender-blues-junior-iv");
   assert(krk7000 && rok5 && rok8 && bluesJr, "all Batch 117 records must remain present");
 
   const krk7000Source = "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022";
@@ -3908,7 +3916,7 @@ check("Batch 117 exact KRK and Fender sources preserve generation, power-role, a
 });
 
 check("Fender Bassman 410 uses its exact passive-cabinet manual and the other unqualified Fender revisions remain unavailable", () => {
-  const bassman = db.find((record) => record.id === "fender-bassman-410");
+  const bassman = allDb.find((record) => record.id === "fender-bassman-410");
   assert(bassman, "fender-bassman-410 must remain in the database");
   const source = "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf";
   nodeAssert.equal(bassman.model, "Bassman 410");
@@ -3940,9 +3948,9 @@ check("Fender Bassman 410 uses its exact passive-cabinet manual and the other un
     "fender-princeton-reverb",
     "fender-super-reverb",
   ];
-  const ledger = unresolvedNotes as Record<string, any>;
+  const ledger = unresolvedAll as Record<string, any>;
   for (const id of expected) {
-    const s = db.find((record) => record.id === id);
+    const s = allDb.find((record) => record.id === id);
     assert(s, `${id} must be preserved`);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
     nodeAssert.equal(s.notes, ledger[id].note);
@@ -3956,12 +3964,12 @@ check("Fender Bassman 410 uses its exact passive-cabinet manual and the other un
     nodeAssert.equal(s.driverCount, null);
     nodeAssert.equal(s.active, null);
   }
-  nodeAssert.match(db.find((s) => s.id === "fender-twin-reverb").notes, /Twin Reverb \(1976\).*Twin Reverb II/);
-  nodeAssert.match(db.find((s) => s.id === "fender-hot-rod-deluxe").notes, /Hot Rod Deluxe Rev A.*Hot Rod Deluxe.*III/);
+  nodeAssert.match(allDb.find((s) => s.id === "fender-twin-reverb").notes, /Twin Reverb \(1976\).*Twin Reverb II/);
+  nodeAssert.match(allDb.find((s) => s.id === "fender-hot-rod-deluxe").notes, /Hot Rod Deluxe Rev A.*Hot Rod Deluxe.*III/);
 });
 
 check("PreSonus Eris E4.5 uses exact non-Bluetooth product documentation; shortened E5, E6, and E8 rows stay unavailable", () => {
-  const e45 = db.find((record) => record.id === "presonus-eris-4-5");
+  const e45 = allDb.find((record) => record.id === "presonus-eris-4-5");
   assert(e45, "presonus-eris-4-5 must remain in the database");
   const source = "https://www.fmicassets.com/Damroot/Original/10017/OM_2777500103_PreSonus-Eris-E4.5_EN.pdf";
   nodeAssert.equal(e45.model, "Eris 4.5");
@@ -3984,9 +3992,9 @@ check("PreSonus Eris E4.5 uses exact non-Bluetooth product documentation; shorte
   nodeAssert.match(e45.notes, /no tolerance is stated/);
 
   const expected = ["presonus-eris-5", "presonus-eris-6", "presonus-eris-8"];
-  const ledger = unresolvedNotes as Record<string, any>;
+  const ledger = unresolvedAll as Record<string, any>;
   for (const id of expected) {
-    const s = db.find((record) => record.id === id);
+    const s = allDb.find((record) => record.id === id);
     assert(s, `${id} must be preserved`);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
     nodeAssert.equal(s.notes, ledger[id].note);
@@ -4000,15 +4008,15 @@ check("PreSonus Eris E4.5 uses exact non-Bluetooth product documentation; shorte
     nodeAssert.equal(s.driverCount, null);
     nodeAssert.equal(s.active, null);
   }
-  nodeAssert.match(db.find((s) => s.id === "presonus-eris-5").notes, /E5 XT update/);
-  nodeAssert.match(db.find((s) => s.id === "presonus-eris-6").notes, /Eris E66 MTM monitor.*Eris Pro 6/);
-  nodeAssert.match(db.find((s) => s.id === "presonus-eris-8").notes, /explicitly third-generation Eris Studio 8/);
+  nodeAssert.match(allDb.find((s) => s.id === "presonus-eris-5").notes, /E5 XT update/);
+  nodeAssert.match(allDb.find((s) => s.id === "presonus-eris-6").notes, /Eris E66 MTM monitor.*Eris Pro 6/);
+  nodeAssert.match(allDb.find((s) => s.id === "presonus-eris-8").notes, /explicitly third-generation Eris Studio 8/);
 });
 
 check("PreSonus Eris 3.5 remains unavailable until the original-versus-2nd-generation identity is resolved", () => {
-  const s = db.find((record) => record.id === "presonus-eris-3-5");
+  const s = allDb.find((record) => record.id === "presonus-eris-3-5");
   assert(s, "presonus-eris-3-5 must be preserved");
-  const ledger = unresolvedNotes as Record<string, any>;
+  const ledger = unresolvedAll as Record<string, any>;
   nodeAssert.equal(s.model, "Eris 3.5");
   nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
   nodeAssert.equal(s.notes, ledger["presonus-eris-3-5"].note);
@@ -4032,9 +4040,9 @@ check("PreSonus Eris 3.5 remains unavailable until the original-versus-2nd-gener
 
 check("Community CS215 and bare Turbosound TCS-115 remain preserved as individually researched unavailable identities", () => {
   const expected = ["community-cs215", "turbosound-tcs-115"];
-  const ledger = unresolvedNotes as Record<string, any>;
+  const ledger = unresolvedAll as Record<string, any>;
   for (const id of expected) {
-    const s = db.find((record) => record.id === id);
+    const s = allDb.find((record) => record.id === id);
     assert(s, `${id} must not be removed`);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
     nodeAssert.equal(s.notes, ledger[id].note);
@@ -4051,10 +4059,10 @@ check("Community CS215 and bare Turbosound TCS-115 remain preserved as individua
     nodeAssert.equal(s.panel, null);
     assert(ledger[id].sources.length > 0, `${id} must cite individually reviewed sources`);
   }
-  nodeAssert.match(db.find((s) => s.id === "community-cs215").notes, /no source establishes that V2-215S is the intended CS215/i);
-  nodeAssert.match(db.find((s) => s.id === "community-cs215").notes, /SLS CSB215 is a different manufacturer/i);
-  nodeAssert.match(db.find((s) => s.id === "turbosound-tcs-115").notes, /TCS-115C.*with the C suffix/i);
-  nodeAssert.match(db.find((s) => s.id === "turbosound-tcs-115").notes, /TCS115B-AN/);
+  nodeAssert.match(allDb.find((s) => s.id === "community-cs215").notes, /no source establishes that V2-215S is the intended CS215/i);
+  nodeAssert.match(allDb.find((s) => s.id === "community-cs215").notes, /SLS CSB215 is a different manufacturer/i);
+  nodeAssert.match(allDb.find((s) => s.id === "turbosound-tcs-115").notes, /TCS-115C.*with the C suffix/i);
+  nodeAssert.match(allDb.find((s) => s.id === "turbosound-tcs-115").notes, /TCS115B-AN/);
 });
 
 check("Monitor Audio Bronze and Silver generation-ambiguous records are individually preserved as unavailable", () => {
@@ -4068,9 +4076,9 @@ check("Monitor Audio Bronze and Silver generation-ambiguous records are individu
     "monitor-audio-silver-300",
     "monitor-audio-silver-500",
   ];
-  const ledger = unresolvedNotes as Record<string, any>;
+  const ledger = unresolvedAll as Record<string, any>;
   for (const id of expected) {
-    const s = db.find((record) => record.id === id);
+    const s = allDb.find((record) => record.id === id);
     assert(s, `${id} must be preserved`);
     nodeAssert.equal(s.overallStatus, "UNAVAILABLE");
     nodeAssert.equal(s.notes, ledger[id].note);
@@ -4087,12 +4095,12 @@ check("Monitor Audio Bronze and Silver generation-ambiguous records are individu
     nodeAssert.equal(s.active, null);
     nodeAssert.equal(s.panel, null);
   }
-  nodeAssert.match(db.find((s) => s.id === "monitor-audio-bronze-50").notes, /Bronze 50 6G.*Bronze 50 7G/);
-  nodeAssert.match(db.find((s) => s.id === "monitor-audio-silver-500").notes, /Silver 6G.*Silver 7G/);
+  nodeAssert.match(allDb.find((s) => s.id === "monitor-audio-bronze-50").notes, /Bronze 50 6G.*Bronze 50 7G/);
+  nodeAssert.match(allDb.find((s) => s.id === "monitor-audio-silver-500").notes, /Silver 6G.*Silver 7G/);
 });
 
 check("known Jensen P10R corrections preserved", () => {
-  const s = db.find((x) => x.id === "jensen-p10r");
+  const s = allDb.find((x) => x.id === "jensen-p10r");
   assert(s, "jensen-p10r record is missing");
   assert(s.sensitivity.value === 94.2, `sensitivity ${s.sensitivity.value} != 94.2 dB`);
   assert(s.power.value === 25, `power ${s.power.value} != 25 W`);
@@ -4101,7 +4109,7 @@ check("known Jensen P10R corrections preserved", () => {
 });
 
 check("known Jensen P12N corrections preserved", () => {
-  const s = db.find((x) => x.id === "jensen-p12n");
+  const s = allDb.find((x) => x.id === "jensen-p12n");
   assert(s, "jensen-p12n record is missing");
   assert(s.sensitivity.value === 97.5, `sensitivity ${s.sensitivity.value} != 97.5 dB`);
   assert(s.power.value === 50, `power ${s.power.value} != 50 W`);

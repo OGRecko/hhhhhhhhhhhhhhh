@@ -6,28 +6,28 @@ This file records the current release-engineering evidence and does not convert 
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 356 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 357 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
-- `node scripts/speaker-quality-audit.mjs` — **PASS**, 774 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (22 manufacturer, 5 measurement), no category-based response synthesis.
+- `node scripts/speaker-quality-audit.mjs` — **PASS**, 693 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (22 manufacturer, 5 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
 
 ## Speaker DB
 
 **PASS — static database audit.** Counts below are generated from the authoritative `src/data/speakers.json` dataset:
 
-- 774 records
-- 774 unique IDs
+- 693 records
+- 693 unique IDs
 - 0 duplicate IDs
-- 774 unique brand/model pairs
+- 693 unique brand/model pairs
 - 0 duplicate brand/model pairs
 - `PARTIALLY_VERIFIED`: 649
 - `UNVERIFIED`: 44
-- `UNAVAILABLE`: 81
+- `UNAVAILABLE`: 0
 - source-backed fields: sensitivity 307, power 416, impedance 351, resonant frequency 17, voice-coil size 63, woofer size 584, frequency-response limits 560
 - embedded JSON response-point datasets: 27
 - declared response-point provenance: manufacturer 22, measurement 5, verified database 0
-- physically modeled response models: 747
-- generic reference models: 220
+- physically modeled response models: 666
+- generic reference models: 139
 - models derived from published bandwidth limits: 527
 - embedded speaker polar/directivity data: 0
 
