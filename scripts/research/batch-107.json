@@ -1,0 +1,85 @@
+[
+  {
+    "id": "rcf-nx45a",
+    "model_check": "NX 45-A",
+    "source": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 20000 },
+      "power": { "value": 700, "unit": "W", "role": "amplifier_output" },
+      "voiceCoil": { "value": 3.5, "unit": "in" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact archived RCF NX 45-A manufacturer product page. It specifies a 45 Hz–20 kHz frequency response but gives no tolerance, so none is added; 700 W RMS total Class-D amplifier output (500 W LF + 200 W HF; 1400 W peak is retained only as context); one 15-inch LF woofer with a 3.5-inch voice coil and one 1.4-inch exit compression driver whose voice coil is 4.0 inches; two transducers total; active powered operation; and nominal 90° × 50° coverage. The scalar voice-coil field is the LF woofer's 3.5-inch value; the separate HF coil is not collapsed into it. Input sensitivity in dBu is an electrical input level, not acoustic sensitivity; no sensitivity or passive speaker impedance is assigned. Maximum SPL is not sensitivity. Nominal coverage is not imported as a polar response. Source: https://www.rcf.it/en/products/product-detail/nx-45-a."
+  },
+  {
+    "id": "behringer-b215xl",
+    "model_check": "B215XL",
+    "source": "https://www.behringer.com/en/products/0313-ACS",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 1000, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Behringer EUROLIVE B215XL manufacturer product page identifies a passive two-way PA speaker with a 15-inch LF driver and a 1.75-inch titanium-diaphragm HF compression driver (two transducers) and explicitly calls its 1000 W claim 'power handling capacity.' The scalar stores that generic manufacturer power-handling claim without assigning a continuous, program, peak, or test-standard convention, none of which the page states. The page describes external power-amplifier connections, so active is false. It does not publish an acoustic sensitivity, nominal impedance, standardized frequency-response limits, voice-coil size, or response-point data; those remain N/A. Source: https://www.behringer.com/en/products/0313-ACS."
+  },
+  {
+    "id": "das-audio-aero-12a",
+    "model_check": "Aero 12A",
+    "source": "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 600, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact DAS Audio Aero 12A manufacturer Technical Report (the report explicitly names Aero 12A). It documents one 12-inch 12LNC4 low-frequency driver and one M-75N neodymium compression driver (two transducers), integrated 24-bit DSP and Class-D amplification, and an amplifier stated as 600 W. The scalar power records the published internal amplifier output; the report does not identify a continuous/RMS/peak rating convention, so none is inferred. The report says the design was intended to operate down to 60 Hz but does not supply a formal measured response limit/tolerance or upper endpoint; no frequency-response bound or curve is assigned from that design statement. It does not publish a single whole-system sensitivity, nominal speaker impedance, voice-coil diameter, or resonance. The source's component comparison and phase/step-response discussion are not imported as a full-system magnitude response or directivity data. Source: https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf."
+  },
+  {
+    "id": "nexo-ps15",
+    "model_check": "PS15",
+    "source": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 18000 },
+      "sensitivity": { "value": 99, "unit": "dB", "reference": "1W/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "NEXO-authored PS Series brochure section is explicitly for the base PS15 (not PS15-R2) with the PS15 TDcontroller MkII. It specifies 50 Hz–18 kHz ±3 dB and usable range 47 Hz–18 kHz at -6 dB; the response-data note states anechoic far-field response for PS15 + PS15 TD MkII. Sensitivity is 102 dB SPL nominal and 99 dB SPL wideband at 1 W/1 m; the brochure defines nominal as the 300 Hz–3 kHz voice decade and wideband as its specified ±3 dB range. The stored scalar is the wideband 99 dB value; measurement is band-limited pink noise and represents speaker + processor + recommended amplifier, with level depending on spectrum/crest factor. The passive full-range nominal impedance is 8 ohms; the same brochure lists different active bi-amp driver loads (LF 6 ohms, HF 8 ohms), which are not substituted for the passive system value. The cabinet has one 15-inch LF driver plus one HF compression driver (two transducers); it is externally amplified and not self-powered. Recommended amplifier ranges and peak SPL are not stored as speaker power handling. No response points are imported from chart/table extraction, and the brochure's off-axis/directivity curves and nominal 50°–100° horizontal by 55° vertical coverage are retained only as a lead. This is the unsuffixed PS15, not the PS15-R2. Source: https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf."
+  },
+  {
+    "id": "turbosound-ip15b",
+    "model_check": "iP15B",
+    "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 150,
+        "points": [
+          { "hz": 20, "db": 67 },
+          { "hz": 30, "db": 84 },
+          { "hz": 40, "db": 91 },
+          { "hz": 50, "db": 93.5 },
+          { "hz": 60, "db": 94.5 },
+          { "hz": 70, "db": 94.5 },
+          { "hz": 80, "db": 94 },
+          { "hz": 90, "db": 93 },
+          { "hz": 100, "db": 91.5 },
+          { "hz": 200, "db": 74 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A."
+      },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Exact Turbosound iNSPIRE iP15B manufacturer Product Information Document, fetched as a third-party mirror; the same manufacturer PDF is identified at https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. It specifies a powered 15-inch subwoofer, one LF transducer, 45–150 Hz ±3 dB and 38–200 Hz at -10 dB. The source separately lists 600 W for the subwoofer amplifier and 2 × 200 W for satellite amplifiers, but a rear-panel output diagram gives differing power labels (500 W/sub and 2 × 125 W/8 ohms or 2 × 250 W/4 ohms); no power scalar is assigned due to this internal rating discrepancy. Its electrical 4 dBu input sensitivity is not acoustic sensitivity; no scalar sensitivity or passive speaker impedance is populated. The exact manufacturer's 1 W/1 m response/SPL table is retained as 10 raw points with source wording and context; because this is an active sub and the document does not state a measurement space or an overall acoustic sensitivity, its curve is used only for normalized shape and no scalar sensitivity is inferred. The stated half-space dispersion is not an angular polar dataset. Sources: https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf and https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf."
+  }
+]

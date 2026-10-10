@@ -1,0 +1,142 @@
+{
+  "name": "cavity",
+  "private": true,
+  "version": "3.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs && esbuild server/solverWorker.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/solverWorker.cjs",
+    "start": "npm run build && NODE_ENV=production node dist/server.cjs",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "test": "node scripts/runTests.mjs",
+    "test:solver": "npx tsx server/solverWorker.test.ts",
+    "typecheck": "tsc --noEmit",
+    "firebase:rules:test": "npx --yes firebase-tools@15.32.1 emulators:exec --only firestore,storage --project demo-cavity \"node scripts/firebase-emulator-smoke.mjs\"",
+    "storage:lifecycle": "node scripts/apply-storage-lifecycle.mjs",
+    "cleanup": "node scripts/trigger-cleanup.mjs",
+    "verify": "npm run docs:release && npm run docs:consistency && npm run typecheck && npm test && npm run firebase:rules:test && npm run audit:final && npm run audit:release && npm run audit:speaker && npm run audit:provenance && npm run audit:third-party && npm run release:source && npm run release:source:verify && npm run build && npm audit --audit-level=high",
+    "production:smoke": "node scripts/production-smoke.mjs",
+    "storage:lifecycle:check": "node scripts/check-storage-lifecycle.mjs",
+    "abuse:smoke": "node scripts/abuse-smoke.mjs",
+    "cloudtasks:ensure": "node scripts/ensure-cloud-tasks-queue.mjs",
+    "gcp:ensure": "node scripts/ensure-gcp-production.mjs",
+    "deploy:cloudrun": "node scripts/deploy-cloud-run.mjs",
+    "audit:final": "node scripts/final-audit.mjs",
+    "audit:release": "node scripts/release-audit.mjs",
+    "audit:speaker": "node scripts/speaker-quality-audit.mjs",
+    "desktop:build": "npm run build && node scripts/stage-desktop-deps.mjs && electron-builder --win nsis --x64 --publish never",
+    "release:exe": "node scripts/release-exe.mjs",
+    "release:windows": "npm run desktop:build && node scripts/release-exe.mjs",
+    "release:verify": "node scripts/verify-release.mjs",
+    "test:e2e": "npm run build && playwright test",
+    "desktop:smoke": "node scripts/desktop-smoke.mjs",
+    "monitoring:ensure": "node scripts/ensure-gcp-monitoring.mjs",
+    "docs:release": "node scripts/generate-release-docs.mjs",
+    "audit:provenance": "node scripts/speaker-provenance-audit.mjs",
+    "docs:consistency": "node scripts/check-doc-consistency.mjs",
+    "audit:third-party": "node scripts/check-third-party-notices.mjs",
+    "release:source": "node scripts/source-release.mjs",
+    "test:electron-permissions": "node scripts/electronPermissionPolicy.test.mjs",
+    "release:source:verify": "node scripts/verify-source-release.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "chart.js": "^4.5.1",
+    "express": "^4.21.2",
+    "firebase-admin": "^14.4.0",
+    "google-auth-library": "^11.0.2",
+    "helmet": "^8.3.0",
+    "idb": "^8.0.3",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "pdfkit": "^0.15.0",
+    "react": "19.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "19.2.0",
+    "react-router-dom": "^7.18.3",
+    "three": "^0.186.0",
+    "tsx": "^4.21.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/pdfkit": "^0.13.4",
+    "@types/react-dom": "^19.3.0",
+    "@types/supertest": "^7.2.1",
+    "autoprefixer": "^10.4.21",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.25.0",
+    "supertest": "^7.2.2",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3",
+    "pdf-parse": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=22.23.3 <23"
+  },
+  "packageManager": "npm@10.9.9",
+  "main": "electron/main.cjs",
+  "description": "Cavity Audio \u2013 deterministic acoustic simulation engine",
+  "author": "Cavity Audio",
+  "build": {
+    "appId": "audio.cavity.desktop",
+    "productName": "Cavity Audio",
+    "artifactName": "Cavity-Audio-Setup-v${version}.${ext}",
+    "directories": {
+      "output": "release-build"
+    },
+    "files": [
+      "electron/**",
+      "dist/**",
+      "build/icon.ico",
+      "package.json",
+      "!**/*.map",
+      "!node_modules/**"
+    ],
+    "asar": false,
+    "extraMetadata": {
+      "main": "electron/main.cjs"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "signAndEditExecutable": true,
+      "legalTrademarks": "Cavity Audio"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Cavity Audio",
+      "uninstallDisplayName": "Cavity Audio",
+      "deleteAppDataOnUninstall": false
+    },
+    "copyright": "Copyright \u00a9 Cavity Audio",
+    "extraResources": [
+      {
+        "from": "build/stage/node_modules",
+        "to": "app/node_modules"
+      }
+    ]
+  },
+  "productName": "Cavity Audio",
+  "license": "SEE LICENSE IN LICENSE"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "presonus-eris-e5",
+    "model_check": "Eris E5",
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500107_Eris-E5_Tech-Sheet_EN.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 53, "high_hz": 20000 },
+      "power": { "value": 80, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "PreSonus's official Eris E5 technical sheet is exact to this E5 model (the sheet identifies an Eris E5 2-way active monitor, not the separate E5 XT or E5 BT): it lists 53 Hz–20 kHz frequency-response limits (no tolerance is stated), 80 W Class AB biamplification total (45 W LF + 35 W HF), a 5.25-inch LF driver, and a 1-inch silk-dome HF driver. Two-way/active status and driver count are explicitly supported. The sheet's 102 dB maximum continuous SPL is not acoustic sensitivity; its input impedance is line-level, not speaker-load impedance. No speaker-load impedance, resonance, or voice-coil diameter is supplied. Although the sheet includes a frequency/SPL table, its measurement level and acoustic test conditions are not identified, so no response points are imported. No directivity data is supplied. Source: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500107_Eris-E5_Tech-Sheet_EN.pdf"
+  },
+  {
+    "id": "presonus-r65",
+    "model_check": "R65",
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 22000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R65 and R80 models without a V2 suffix and supplies separate model rows. For R65 it specifies 45 Hz–22 kHz frequency response at −3 dB and a 6.5-inch LF driver; the shared feature section identifies both as 2-way active AMT monitors. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 104 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. Its frequency limits are retained, but no response-point curve or directivity dataset is imported. The official R65 technical sheet separately states 150 W Class D biamplification; its sampled SPL table has no stated measurement conditions and is not imported. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_Tech-Sheet_Multi.pdf"
+  },
+  {
+    "id": "presonus-r65",
+    "model_check": "R65",
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_Tech-Sheet_Multi.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 150, "unit": "W", "role": "amplifier_output" }
+    },
+    "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R65 and R80 models without a V2 suffix and supplies separate model rows. For R65 it specifies 45 Hz–22 kHz frequency response at −3 dB and a 6.5-inch LF driver; the shared feature section identifies both as 2-way active AMT monitors. Its official R65 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 104 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_Tech-Sheet_Multi.pdf"
+  },
+  {
+    "id": "presonus-r80",
+    "model_check": "R80",
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 22000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R80 model without a V2 suffix and supplies a distinct R80 row: 40 Hz–22 kHz frequency response at −3 dB and an 8-inch LF driver. The shared feature section identifies it as a 2-way active AMT monitor. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 107 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. The R80 technical sheet explicitly states 150 W Class D biamplification, but its detailed LF-driver row conflicts with its own 8-inch feature and the model-specific R65/R80 manual; therefore woofer size is taken only from the manual, while the sheet is used only for its explicit power rating. The technical sheet's sampled SPL table lacks stated measurement conditions, so no response points are imported. No directivity data is imported. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf"
+  },
+  {
+    "id": "presonus-r80",
+    "model_check": "R80",
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 150, "unit": "W", "role": "amplifier_output" }
+    },
+    "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R80 model without a V2 suffix and supplies a distinct R80 row: 40 Hz–22 kHz frequency response at −3 dB and an 8-inch LF driver. The shared feature section identifies it as a 2-way active AMT monitor. Its official R80 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The sheet's detailed LF-driver row conflicts with its own 8-inch feature and the model-specific manual, so that row is not used. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 107 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf"
+  }
+]

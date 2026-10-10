@@ -1,0 +1,111 @@
+[
+  {
+    "id": "adamson-e15",
+    "model_check": "E15",
+    "source": "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 18000 },
+      "woofer": { "value": 15, "unit": "in" },
+      "voiceCoil": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 6, "active": false, "panel": false },
+    "notes": "Adamson's exact E15 technical-data sheet identifies a 3-way line-source enclosure with two 15-inch LF drivers, two 7-inch MF drivers, and two 4-inch-diaphragm/1.5-inch-exit HF compression drivers (6 transducers total), 60 Hz–18 kHz ±3 dB, and a 4-inch LF voice coil. The LF voice-coil field refers only to the 15-inch LF drivers. The sheet lists separate subsystem impedances (LF 2 × 8 Ω, MF 16 Ω, HF 16 Ω) and separate AES/peak power (LF 2 × 800/2 × 3200 W, MF 700/2800 W, HF 320/1280 W); the single-value power and impedance fields remain N/A rather than collapsing subsystem ratings. The published 147 dB maximum peak SPL uses 12 dB crest-factor pink noise at 1 m, free field, with specified processing/amplification; it is not sensitivity. Two NL8 connectors and Lake processing describe external multi-way operation; the standard E15 is not self-powered. Nominal 90° × 6° (-6 dB) coverage is not a polar dataset. Adamson's official Design Tools page lists an EASE Data V17 archive described as the complete GLL library for all Adamson loudspeaker products, but its 106 MB contents and an exact E15 file have not been inspected; no response/directivity payload is imported. Sources: https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file ; https://legacy.adamson.ai/support/downloads-directory/e-series/e15/185-e-series-user-manual-2/file ; https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data ; https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data/489-adamson-ease-data-v17/file."
+  },
+  {
+    "id": "void-air-8",
+    "model_check": "Air 8",
+    "source": "https://voidacoustics.com/products/air/air8/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 95, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Void's current Air 8 page and TD10706 v2.0 specification sheet (©2026) identify the exact passive 8-inch two-way coaxial model, 95 dB sensitivity referenced exactly as 1 W/1 m (manufacturer footnote: measured in half-space), 300 W AES handling, 8 Ω nominal impedance, and one 8-inch LF driver with one 1-inch coaxial HF driver. The current specification sheet gives 80 Hz–20 kHz at -10 dB per IEC 60268-5 and 80° × 80° nominal dispersion; neither is written into fields that cannot retain that tolerance/directivity context. An older exact Air 8 specification sheet (v1.0, ©2018) instead states 70 Hz–20 kHz ±3 dB, 90° × 90°, and contains numeric response points plus horizontal/vertical directivity-isobar plots; its revision equivalence to the current v2.0 Air 8 is not established, so none of those points/plots or its 2-inch LF voice-coil value is imported. The old sheet's calculated peak-output figure (121 dB) also differs from the current sheet's 125 dB; maximum-output values are not a sensitivity substitute and are not stored. A guessed Air_8_v2.2.gll URL returned a page-not-found response; the current product page's GLL target has not been verified, and no GLL binary/header or polar payload is confirmed. No synthetic directivity is derived from either nominal coverage statement. Sources: https://voidacoustics.com/products/air/air8/ ; https://voidacoustics.com/wp-content/uploads/TD10706-2.0-Void-Acoustics-Air-8-Spec-Sheet.pdf ; historical exact-model v1.0 sheet: https://d181c7pevbxova.cloudfront.net/media/support-materials/pdfs/Void%20Technical%20Public/Specification%20Sheets/Air%20Series/Air_8_Specification_Sheet.pdf."
+  },
+  {
+    "id": "danley-sh96",
+    "model_check": "SH-96",
+    "source": "https://www.danleysoundlabs.com/products/sh96/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 50,
+        "high_hz": 16000,
+        "points": [
+          { "hz": 30, "db": 87.5 },
+          { "hz": 40, "db": 92.5 },
+          { "hz": 50, "db": 97.5 },
+          { "hz": 60, "db": 100 },
+          { "hz": 70, "db": 98.5 },
+          { "hz": 80, "db": 97.5 },
+          { "hz": 90, "db": 97.5 },
+          { "hz": 100, "db": 99 },
+          { "hz": 200, "db": 102 },
+          { "hz": 300, "db": 97 },
+          { "hz": 400, "db": 103.5 },
+          { "hz": 500, "db": 102 },
+          { "hz": 600, "db": 103 },
+          { "hz": 700, "db": 103.5 },
+          { "hz": 800, "db": 101.5 },
+          { "hz": 900, "db": 101 },
+          { "hz": 1000, "db": 101 },
+          { "hz": 2000, "db": 101.5 },
+          { "hz": 3000, "db": 100.5 },
+          { "hz": 4000, "db": 98 },
+          { "hz": 5000, "db": 101 },
+          { "hz": 6000, "db": 100.5 },
+          { "hz": 7000, "db": 100.5 },
+          { "hz": 8000, "db": 101.5 },
+          { "hz": 9000, "db": 101 },
+          { "hz": 10000, "db": 101 },
+          { "hz": 11000, "db": 98 },
+          { "hz": 12000, "db": 103.5 },
+          { "hz": 13000, "db": 103.5 },
+          { "hz": 14000, "db": 103 },
+          { "hz": 15000, "db": 103 },
+          { "hz": 16000, "db": 103 },
+          { "hz": 17000, "db": 97 },
+          { "hz": 18000, "db": 91.5 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Danley's exact-model 2012 SH96 sheet prints these raw values in a table titled 'SH96 outside tds (dB, Pascals)' and prints phase separately. Values are transcribed as published; the sheet does not specify the table's smoothing, microphone distance, drive level, or on-axis setup. Do not treat them as absolute SPL or infer those conditions."
+      },
+      "sensitivity": { "value": 101, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 1400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 11, "active": false, "panel": false },
+    "notes": "Danley's exact SH96 product page and 2022 specification sheet specify 50 Hz–16 kHz ±3 dB and 36 Hz–19 kHz ±10 dB, 101 dB sensitivity at 2.83 V into rated impedance/1 m in free space, 8 Ω rated impedance, four 15-inch LF, six 4-inch MF, and one 1.4-inch HF driver (11 total), 1400 W continuous and 2800 W program power. The structured power field stores only the continuous rating; program and the older sheet's separate 5600 W peak figure remain distinct. The 2012 exact SH96 sheet separately publishes the numeric table retained as response points, labelled 'outside tds (dB, Pascals)'; its measurement setup is not specified, so raw dB values and uncertainty are preserved in pointsContext rather than presented as normalized SPL. The newer page's separate 'Magnitude Response 65 Hz–16 kHz' label is not substituted for its operating-frequency limits. The user manual states that SM/SH models other than SH96HO, SH46, and SM80M are wired passive; the standard SH96 therefore is not self-powered. A separately mentioned powered version is not merged. The manufacturer lists nominal 90° × 60° coverage but no polar data were extracted. Its exact SH96 CLF and GLL archives are linked from the product page, but both archives failed to fetch/inspect; no directivity payload is imported. Sources: https://www.danleysoundlabs.com/products/sh96/ ; https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf ; https://www.danleysoundlabs.com/wp-content/uploads/2021/11/SH96.pdf ; https://www.danleysoundlabs.com/wp-content/uploads/2021/12/Danley-Sound-Labs-SH-96.zip ; https://www.danleysoundlabs.com/wp-content/uploads/2025/04/SH96-v4.0-GLL-v5.0.gll_.zip."
+  },
+  {
+    "id": "eaw-kf760",
+    "model_check": "KF760",
+    "source": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 80, "high_hz": 16000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 6, "active": false, "panel": false },
+    "notes": "EAW's exact KF760 manufacturer spec sheet describes a 3-way, tri-amplified, externally powered enclosure with two 12-inch LF woofers, two 10-inch MF cones, and two 2-inch-exit HF compression drivers (6 total). Its ±3 dB response is 80 Hz–16 kHz for one enclosure; the distinct eight-enclosure-array range is 40 Hz–16 kHz and is not assigned to a single-module record. The sheet gives subsystem sensitivity (single enclosure LF/MF/HF 96/108/113 dB at 1 W/1 m; eight-box array 106/125/117 dB), continuous power (LF/MF/HF 2000/800/300 W), and impedance (LF 2 × 8 Ω, MF 8 Ω from two 16 Ω drivers, HF 8 Ω from two 16 Ω drivers). No single-value sensitivity, power, or impedance is substituted for these subsystem/array-specific values; the HF 3-inch voice coil is not stored in the single generic voice-coil field. Nominal horizontal coverage is 80° when used in the KF760 array, with array vertical splay up to 3°; neither is a full polar dataset. The official EAW EASE page currently offers Standard EASE rev18 and EASE GLL v1.11 archives, but its page does not identify a KF760 entry and the archives have not been inspected. EAW's 2023 announcement described RADIUS as its first GLL and said KF-line GLLs were planned; this does not confirm a KF760 file in the later archive. No response points or polar data are imported, and no coverage angle is converted into directivity. Sources: https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf ; https://eaw.com/ease-data/ ; https://eaw.com/wp-content/uploads/2026/06/EAW-EASE-GLL-v1_11.zip ; https://eaw.com/eaw-adds-ease-gll-and-q-sys-plugins/."
+  },
+  {
+    "id": "funktion-one-res2",
+    "model_check": "Res 2",
+    "source": "https://funktion-one.com/product/res-2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 18000 },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Funktion-One's exact Res 2 manufacturer page identifies a 15-inch bass driver, 8-inch midrange, and 1-inch HF driver (3 total), a three-way bi-amplified design with passive HF, and lists usable bandwidth (-3 dB) as 60 Hz–18 kHz. That current official figure is stored with the source's 'usable bandwidth' meaning. The exact 2015 manufacturer-authored Res 2 specification sheet, rehosted by Coherent Distribution, instead labels 50 Hz–18 kHz as 'Frequency Response ±3 dB'; it also splits power/sensitivity by drivers (15-inch 400 W RMS, 8-inch 200 W RMS, 1-inch 50 W RMS; sensitivities 102/106/107 dB at 1 W/1 m; the 8-inch and 1-inch sections each have 12 Ω total). The current page's upper section combines 8-inch + 1-inch at 250 W AES and gives voltage-referenced sensitivities (102 dB at 2.8 V LF; 106 dB at 4 V upper section). These are not collapsed into scalar power, impedance, or sensitivity fields. The low-end bandwidth discrepancy and differing source labels are retained explicitly; the manufacturer gives no revision mapping, so the current page's stated 60 Hz usable bandwidth is selected without averaging and the older 50 Hz figure remains documented. The Res 2's nominal 50° × 25° dispersion is not a polar dataset. The manufacturer's current downloads listing has specification/drawing files for Res 2 but no EASE data; the separate Res 2SH entry has EASE Data and is a distinct model, so it is not transferred. No exact Res 2 response-point or polar dataset is imported. Sources: https://funktion-one.com/product/res-2/ ; https://coherentdistribution.com/wp-content/uploads/2021/08/Funktion-One-Res-2-Specification-Sheet.pdf ; https://funktion-one.com/downloads/."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "fender-twin-reverb",
+    "model_check": "Twin Reverb",
+    "source": "https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Fender's official archive separates multiple Twin Reverb identities: Twin Reverb (1976), Twin Reverb (1981), Twin Reverb II, and Twin Reverb Silverface (1978). The current manufacturer's product is specifically the '65 Twin Reverb reissue (model 0217300000); Fender says its '65 Twin Reverb reissue dates from 1992-present and may not fit vintage amplifiers. The database row says only 'Twin Reverb' and has no year, generation, model number, or other identifier to select among them. Preserve the row, leave all unsupported acoustic/physical fields N/A, and set identity status UNAVAILABLE. No current or historical variant values are transferred. Sources: https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals ; https://www.fender.com/products/65-twin-reverb ; https://www.fender.com/products/65-twin-reverb-amplifier-cover."
+  },
+  {
+    "id": "fender-deluxe-reverb",
+    "model_check": "Deluxe Reverb",
+    "source": "https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Fender's official amplifier-manual archive lists separate Deluxe Reverb (1968), Deluxe Reverb (1978), Deluxe Reverb II, and Deluxe Reverb Solid State products. The current manufacturer's products also distinguish the '65 Deluxe Reverb from the '68 Custom Deluxe Reverb. This database row is only 'Deluxe Reverb', with no year, generation, circuit/revision, or model number; the exact intended unit cannot be determined. Preserve the legitimate row, keep unsupported fields N/A, and mark identity UNAVAILABLE rather than importing specifications from one of these variants. Sources: https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals ; https://www.fender.com/products/65-deluxe-reverb ; https://www.fender.com/products/68-custom-deluxe-reverb."
+  },
+  {
+    "id": "fender-hot-rod-deluxe",
+    "model_check": "Hot Rod Deluxe",
+    "source": "https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Fender's official Hot Rod manual archive distinguishes Hot Rod Deluxe, Hot Rod Deluxe Rev A, and Hot Rod Deluxe & DeVille III manuals. The current product is specifically Hot Rod Deluxe IV; Fender also sells a separately specified 30th Anniversary IV variant with a different speaker. The database model is the bare name 'Hot Rod Deluxe' and provides no generation, revision, year, speaker, or model number. Preserve this legitimate record with unsupported fields N/A and identity status UNAVAILABLE; do not transfer IV/III or anniversary specifications. Sources: https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals ; https://www.fender.com/products/hot-rod-deluxe-iv ; https://de.fender.com/products/hot-rod-deluxe-30th-anniversary."
+  },
+  {
+    "id": "fender-princeton-reverb",
+    "model_check": "Princeton Reverb",
+    "source": "https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Fender's official archive includes distinct Princeton Reverb and Princeton Reverb II manuals, and current Fender pages distinguish the '65 Princeton Reverb from the '68 Custom Princeton Reverb. The database row has only 'Princeton Reverb' and no year, revision, reissue designation, model number, or speaker variant to identify its intended product. Preserve it with unsupported fields N/A and identity status UNAVAILABLE; no values from either current reissue or historical version are imported. Sources: https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals ; https://www.fender.com/products/65-princeton-reverb ; https://www.fender.com/products/68-custom-princeton-reverb."
+  },
+  {
+    "id": "fender-super-reverb",
+    "model_check": "Super Reverb",
+    "source": "https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Fender's official archive lists separate Super Reverb (1976) and Super Reverb (1982) manuals; the present Fender product page is explicitly for the '65 Super Reverb reissue (model 0217600000), described as a recreation of the 1963-1968 amplifier. The database row is the bare name 'Super Reverb', with no year, reissue, revision, or model number. Preserve the legitimate record, retain N/A for unsupported fields, and mark identity UNAVAILABLE instead of applying the '65 or another era's specifications. Sources: https://support.fender.com/hc/en-us/articles/47450512831259-Fender-Guitar-Amplifier-Owner-s-Manuals ; https://www.fender.com/products/65-super-reverb."
+  },
+  {
+    "id": "fender-bassman-410",
+    "model_check": "Bassman 410",
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 96, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 350, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "active": false },
+    "notes": "Exact-model Fender Bassman 410/115 enclosure owner's manual; the specification table identifies Bassman 410 by model/part number 2347000000. It documents four 10-inch Eminence 8-ohm woofers, 96 dB sensitivity at 1 W/1 m, 8-ohm cabinet impedance, 350 W continuous power handling, and a separate 700 W program rating. Store only 350 W as continuous speaker power handling; the 700 W program figure is not substituted or collapsed into it. The manual describes a passive enclosure connected to a Bassman 250 head or another external bass amplifier, so active=false. It also mentions a fuse-protected horn, but does not state an unambiguous total driver count in the specification table; driverCount remains N/A. The official support archive calls this manual Bassman 115-410 (2005); 2005 is not assumed to be the model's release year. No frequency-response limit, response-point dataset, or directivity/polar dataset is published in the cited evidence. This non-Neo Bassman 410 is kept distinct from the separately documented Bassman 410 Neo. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf ; https://support.fender.com/hc/en-us/articles/42585188764187-Fender-Bass-Amplifiers-Speaker-Enclosure-Owner-s-Manuals ; https://www.fender.com/products/bassman-410-neo-enclosure."
+  }
+]

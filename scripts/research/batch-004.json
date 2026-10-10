@@ -1,0 +1,28 @@
+[
+  {
+    "id": "legacy-kef-9",
+    "model_check": "LS50 Meta",
+    "source": "https://us.kef.com/products/ls50-meta",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 79,
+        "high_hz": 28000
+      },
+      "sensitivity": {
+        "value": 85,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 5.25,
+        "unit": "in"
+      }
+    },
+    "notes": "KEF US official product page (LS50 Meta): two-way bass reflex Uni-Q array; response 79 Hz–28 kHz (±3 dB), frequency range 47 Hz–45 kHz; sensitivity 85 dB (2.83 V/1 m); 8 Ω nominal, 3.5 Ω minimum; recommended amplifier 40–100 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); HF 25 mm vented aluminium dome, MF/LF 130 mm (5.25 in) cone; crossover 2.1 kHz; 302 x 200 x 280.5 mm; 7.8 kg. No directivity or measured-response dataset imported."
+  }
+]

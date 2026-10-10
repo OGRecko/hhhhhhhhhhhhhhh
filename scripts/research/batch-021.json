@@ -1,0 +1,28 @@
+[
+ {
+  "id": "krk-v4-s4",
+  "model_check": "V4 S4",
+  "source": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 58, "high_hz": 19000 },
+   "power": { "value": 85, "unit": "W", "role": "amplifier_output" },
+   "woofer": { "value": 4, "unit": "in" }
+  },
+  "scalars": { "driverCount": 2, "active": true },
+  "notes": "KRK official V4 Series 4 page (https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor), exact model V4 Series 4. Frequency response 58 Hz-19 kHz at +/-3 dB is stored; 50 Hz-24 kHz at -10 dB is also published. Amplifiers: LF 55 W + HF 30 W = total 85 W (Class-D bi-amp; stored as the published total, amplifier_output; peak/RMS not stated). Drivers: 4 in Kevlar woofer + 1 in Kevlar dome tweeter, 2-way, crossover 2.1 kHz; peak SPL 110 dB; balanced 10 kOhm XLR/TRS input (analog input impedance, not stored as speaker impedance); 256 x 166 x 218 mm (H x W x D); 5.8 kg. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported."
+ },
+ {
+  "id": "krk-v8-s4",
+  "model_check": "V8 S4",
+  "source": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 35, "high_hz": 19000 },
+   "power": { "value": 230, "unit": "W", "role": "amplifier_output" },
+   "woofer": { "value": 8, "unit": "in" }
+  },
+  "scalars": { "driverCount": 2, "active": true },
+  "notes": "KRK official V8 Series 4 page (https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor), exact model V8 Series 4. Frequency response 35 Hz-19 kHz at +/-3 dB is stored; 29 Hz-24 kHz at -10 dB is also published. Amplifiers: LF 200 W + HF 30 W = total 230 W (Class-D bi-amp; stored as the published total, amplifier_output; peak/RMS not stated). Drivers: 8 in Kevlar woofer + 1 in Kevlar dome tweeter, 2-way, crossover 1.8 kHz; peak SPL 118 dB; balanced 10 kOhm XLR/TRS input (analog input impedance, not stored as speaker impedance); 435 x 284 x 347 mm (H x W x D); 14.4 kg. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported."
+ }
+]

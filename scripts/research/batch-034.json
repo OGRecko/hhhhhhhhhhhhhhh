@@ -1,0 +1,28 @@
+[
+  {
+    "id": "eV-zlx12p",
+    "model_check": "ZLX-12P",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 65, "high_hz": 18000 },
+      "power": { "value": 1000, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice ZLX-12P powered loudspeaker; source is the 2015.12 / 02 / F.01U.319.253 ZLX Series user manual (not the later ZLX-12P-G2). It specifies a full-space 65 Hz–18 kHz (-3 dB) response using the Music DSP preset, 50 Hz–20 kHz (-10 dB), 126 dB maximum SPL, 90° × 60° coverage, a 1,000 W power rating, an EVS-12K 12-inch woofer, and DH-1K HF driver. The manual's response table lists separate Live, Music, Speech, and Club modes; no mode-specific response points are selected as a generic curve. Sensitivity and passive impedance are not specified for this powered model and remain N/A. Coverage is nominal only, not a polar/directivity dataset. Source: https://www.leone.sk/file/230/ev-zlx-manual.pdf."
+  },
+  {
+    "id": "eV-zlx15p",
+    "model_check": "ZLX-15P",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 18000 },
+      "power": { "value": 1000, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice ZLX-15P powered loudspeaker; source is the 2015.12 / 02 / F.01U.319.253 ZLX Series user manual (not the later ZLX-15P-G2). It specifies a full-space 55 Hz–18 kHz (-3 dB) response using the Music DSP preset, 42 Hz–20 kHz (-10 dB), 127 dB maximum SPL, 90° × 60° coverage, a 1,000 W power rating, an EVS-15L 15-inch woofer, and DH-1K HF driver. The manual's response table lists separate Live, Music, Speech, and Club modes; no mode-specific response points are selected as a generic curve. Sensitivity and passive impedance are not specified for this powered model and remain N/A. Coverage is nominal only, not a polar/directivity dataset. Source: https://www.leone.sk/file/230/ev-zlx-manual.pdf."
+  }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "id": "legacy-gen-9",
+  "model_check": "1237A",
+  "source": "https://www.genelec.com/1237a",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 32,
+    "high_hz": 22000
+   },
+   "power": {
+    "value": 950,
+    "unit": "W",
+    "role": "amplifier_output"
+   },
+   "woofer": {
+    "value": 12,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 3,
+   "active": true
+  },
+  "notes": "Genelec official 1237A page (https://www.genelec.com/1237a), exact model 1237A (product code 1237APM). Frequency response: 32 Hz\u201322 kHz at the -6 dB cutoff points (stored limits, same convention as the other Genelec records); 37 Hz\u201320 kHz within \u00b12.5 dB is also published. Amplifiers: 500 W bass (Class D) + 250 W midrange (Class D) + 200 W treble (Class AB); the stored 950 W is the sum of those three published ratings. Drivers: 305 mm (12 in) bass cone, 125 mm (5 in) midrange cone, 25 mm (1 in) metal-dome treble = 3 drivers; reflex-port MDF enclosure; 680 x 400 x 380 mm; 42 kg (a retailer listing that said 38 kg disagrees with Genelec and was not used); short-term max SPL >=118 dB. Active monitor: no sensitivity or passive impedance published. Genelec publishes a CLF simulation file for this exact model (https://assets.ctfassets.net/4zjnzn055a4v/ZtlepnTZComovfoo8azqQ/944ea7dd0fc0dbb15c82575a68908963/Genelec_Oy-1237A.CF2); it is NOT imported (see scripts/research/directivity-leads.json)."
+ }
+]

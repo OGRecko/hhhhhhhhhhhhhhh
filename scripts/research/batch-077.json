@@ -1,0 +1,11 @@
+[
+  {
+    "id": "legacy-focal-7",
+    "model_check": "Kanta No2",
+    "source": "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE as a separate speaker identity — Focal's official product data sheet names the model ‘Kanta N°2’ and the dataset already contains the exact, source-backed canonical record `focal-kanta-n-2` for that speaker. ‘No2’ is the plain-text rendering of the same number designation; no distinct Kanta model or revision called ‘Kanta No2’ was established. To avoid duplicating one physical product or its acoustic values, this legacy alias is retained with all physical/acoustic fields N/A and no copied specifications. Canonical exact-model data: https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf."
+  }
+]

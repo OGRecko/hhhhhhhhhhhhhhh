@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sonus-faber-olympica3",
+    "model_check": "Olympica III",
+    "source": "https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 7.09, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact first-generation Olympica III row in the Sonus faber-authored Olympica series user manual, hosted as a page-text mirror on Manualslib. The English Data Sheet on printed page 13 labels the column OLYMPICA III and specifies a 3-way floorstanding system: one 29 mm DAD tweeter, one MW15XTR 150 mm midwoofer, and two W18XTR 180 mm woofers (four total drivers; the 180 mm woofer diameter is converted to 7.09 in for the database field). The table publishes 35–30,000 Hz frequency response with the tuning port included, 90 dB SPL sensitivity at 2.83 V/1 m, and 4 ohms nominal impedance. No tolerance is stated for the response limits. The separate 50–300 W suggested amplifier output (without clipping) and 22 Vrms long-term maximum input voltage are manufacturer specifications, not speaker power handling; the power field remains N/A. No response points or directivity data are digitized, and active/passive status remains unknown because the table does not explicitly label it. Source: https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual."
+  }
+]

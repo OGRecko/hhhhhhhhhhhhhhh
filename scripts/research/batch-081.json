@@ -1,0 +1,70 @@
+[
+  {
+    "id": "jl-audio-c1-650",
+    "model_check": "C1-650",
+    "source": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "car-audio",
+    "fields": {
+      "sensitivity": { "value": 90.5, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 48, "high_hz": 24000 },
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "voiceCoil": { "value": 1, "unit": "in" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Fetched the exact JL Audio C1-650 Owner's Manual (the document heading identifies the C1-650 6.50-inch 2-way component system; it is not the C1-650x). The manual specifies 50 W continuous power handling, 4-ohm nominal impedance, 48 Hz–24 kHz ±3 dB system response, a 6.50-inch woofer and a 1.0-inch woofer voice coil. JL labels its acoustic rating 'Efficiency': 90.5 dB @ 1 W/1 m and 96.5 dB @ 1 W/0.5 m; it separately lists 93.0 dB @ 2.83 V/1 m. The stored sensitivity is only the published 1 W/1 m figure; no conversion or impedance-derived normalization is made. The 10–75 W/ch recommended-amplifier range is not stored as scalar power. The manual lists two woofers and two tweeters in the passive kit; driverCount is 2 per speaker side, and active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf."
+  },
+  {
+    "id": "jl-audio-c2-650",
+    "model_check": "C2-650",
+    "source": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "car-audio",
+    "fields": {
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 59, "high_hz": 22000 },
+      "power": { "value": 60, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "voiceCoil": { "value": 1, "unit": "in" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Fetched the exact JL Audio C2-650 Owner's Manual (the document heading identifies the C2-650 6.50-inch 2-way component system; it is not the C2-650x). The manual specifies 60 W continuous power handling, 4-ohm nominal impedance, 59 Hz–22 kHz ±3 dB system response, a 6.50-inch woofer and a 1.0-inch woofer voice coil. JL labels its acoustic rating 'Efficiency': 91.0 dB @ 1 W/1 m and 97.0 dB @ 1 W/0.5 m; it separately lists 94.0 dB @ 2.83 V/1 m. The stored sensitivity is only the published 1 W/1 m figure; no conversion or impedance-derived normalization is made. The 15–100 W/ch recommended-amplifier range is not stored as scalar power. The manual lists two woofers and two tweeters in the passive kit; driverCount is 2 per speaker side, and active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf."
+  },
+  {
+    "id": "jl-audio-c3-650",
+    "model_check": "C3-650",
+    "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "car-audio",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 48, "high_hz": 25000 },
+      "power": { "value": 75, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "voiceCoil": { "value": 1.2, "unit": "in" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Fetched the exact JL Audio C3-650 Owner's Manual: it identifies a 6.50-inch convertible 2-way component system, with two C3-650cw woofers and two C3-100ct tweeters in the kit. It specifies 75 W continuous power handling, 4-ohm nominal impedance, 48 Hz–25 kHz ±3 dB system response, 90.0 dB efficiency @ 1 W/1 m, a 6.50-inch woofer and a 1.2-inch (31 mm) woofer voice coil. Sensitivity uses the manual's explicit 1 W/1 m reference; no conversion is made. DriverCount is 2 per speaker side despite the kit being sold as a pair, and active=false reflects the external amplifier and passive crossover network; the convertible coaxial/component mounting option does not change the per-side transducer count. No peak or recommended-amplifier figure is promoted into the scalar power field. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf."
+  },
+  {
+    "id": "jl-audio-c5-650",
+    "model_check": "C5-650",
+    "source": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "car-audio",
+    "fields": {
+      "sensitivity": { "value": 89.5, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 48, "high_hz": 25000 },
+      "power": { "value": 75, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "voiceCoil": { "value": 1, "unit": "in" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Fetched the exact JL Audio C5-650 Owner's Manual (6.50-inch 2-way component system; not the C5-650x). It specifies 75 W continuous power handling, 225 W peak music power, a 25–150 W recommended amplifier range, 4-ohm nominal impedance, 48 Hz–25 kHz ±3 dB system response and 89.5 dB efficiency @ 1 W/1 m. It identifies two 6.50-inch woofers per kit and a 1.0-inch woofer voice coil. The stored sensitivity retains the manual's explicit 1 W/1 m reference. Only continuous power handling is stored; peak music power and the recommended-amplifier range are context, not scalar power values. DriverCount is 2 per speaker side for the pair kit; active=false reflects its external amplifier/passive crossover arrangement. The response bounds retain the manual's ±3 dB context in this note; no response points, resonance or directivity data are imported. Source: https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf."
+  }
+]

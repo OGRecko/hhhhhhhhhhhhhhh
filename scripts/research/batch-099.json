@@ -1,0 +1,127 @@
+[
+  {
+    "id": "revel-f206",
+    "model_check": "F206",
+    "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 52 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact Revel F206 Performa3 manufacturer product page. It specifies nominal 8-ohm impedance and four transducers: two 6.5-inch woofers, one 5.25-inch midrange, and one 1-inch tweeter. The manufacturer publishes low-frequency extension at 33 Hz (-10 dB), 40 Hz (-6 dB), and 52 Hz (-3 dB). The primary frequencyResponse lower bound stores the explicit -3 dB point, 52 Hz; the deeper -6/-10 dB extensions remain documented here, not substituted as the primary response limit. No upper limit or response curve is inferred. Published sensitivity is 88 dB without a measurement reference, so sensitivity remains N/A. The 50–200 W recommended-amplifier range is not speaker power handling, so power remains N/A. No resonant frequency, voice-coil size, response-point table, or directivity data are imported. Source: https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html."
+  },
+  {
+    "id": "revel-m106",
+    "model_check": "M106",
+    "source": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 59 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Revel M106 Performa3 manufacturer product page. It specifies nominal 8-ohm impedance and two transducers: one 6.5-inch woofer and one 1-inch tweeter. The manufacturer publishes low-frequency extension at 39 Hz (-10 dB), 54 Hz (-6 dB), and 59 Hz (-3 dB). The primary frequencyResponse lower bound stores the explicit -3 dB point, 59 Hz; the deeper -6/-10 dB extensions remain documented here, not substituted as the primary response limit. No upper limit or response curve is inferred. Published sensitivity is 87 dB without a measurement reference, so sensitivity remains N/A. The 50–150 W recommended-amplifier range is not speaker power handling, so power remains N/A. No resonant frequency, voice-coil size, response-point table, or directivity data are imported. Source: https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html."
+  },
+  {
+    "id": "atc-scm19",
+    "model_check": "SCM19",
+    "source": "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 54, "high_hz": 22000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 150, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact ATC SCM19 manufacturer product page (not the separately named SCM19A). It lists 85 dB sensitivity at 1 W/1 m, 8-ohm nominal impedance, a 150 mm mid/low-frequency driver, and a 25 mm high-frequency driver (two transducers). Published cut-off frequencies are 54 Hz–22 kHz at -6 dB; those limits are stored with the stated tolerance. The 75–300 W recommended amplifier range is not speaker power handling, so power remains N/A. No resonance, voice-coil size, response-point table, or directivity dataset is imported. Source: https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/."
+  },
+  {
+    "id": "atc-scm45a-pro",
+    "model_check": "SCM45A Pro",
+    "source": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 42, "high_hz": 25000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ATC SCM45A Pro manufacturer product page. It identifies an active three-way monitor with 6.5-inch LF, 3-inch midrange, and 1-inch HF drivers (three transducers); free-standing cut-off frequencies are 42 Hz–25 kHz at -6 dB. The listed 150/60/25 W ratings are separate LF/mid/HF amplifier-channel outputs and are not collapsed into a scalar speaker-power or total-output field. The 1 V input-sensitivity figure is not acoustic sensitivity, and balanced input impedance is not speaker-load impedance; those fields remain N/A. No response-point table or directivity dataset is imported. Source: https://atc.audio/professional/loudspeakers/scm45a-pro/."
+  },
+  {
+    "id": "atc-scm50asl-pro",
+    "model_check": "SCM50ASL Pro",
+    "source": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 25000 },
+      "woofer": { "value": 9, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ATC SCM50ASL Pro manufacturer product page. It identifies an active three-way monitor with one 9-inch LF, one 3-inch midrange, and one 1-inch HF driver (three transducers); free-standing cut-off frequencies are 38 Hz–25 kHz at -6 dB. The listed 200/100/50 W ratings are separate LF/mid/HF amplifier-channel outputs and are not collapsed into a scalar speaker-power or total-output field. The 1 V input-sensitivity figure is not acoustic sensitivity, and balanced input impedance is not speaker-load impedance; those fields remain N/A. No response-point table or directivity dataset is imported. Source: https://atc.audio/professional/loudspeakers/scm50a-pro/."
+  },
+  {
+    "id": "atc-scm100asl-pro",
+    "model_check": "SCM100ASL Pro",
+    "source": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 32, "high_hz": 25000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ATC SCM100ASL Pro manufacturer product page. It identifies an active three-way monitor with one 12-inch LF, one 3-inch midrange, and one 1-inch HF driver (three transducers); free-standing cut-off frequencies are 32 Hz–25 kHz at -6 dB. Its LF/mid/HF amplifier outputs are separately specified as 200/100/50 W; no scalar speaker-power or total-output value is entered. The 1 V input-sensitivity figure is not acoustic sensitivity, and balanced input impedance is not speaker-load impedance; those fields remain N/A. The published horizontal/vertical dispersion descriptions are not a complete directivity dataset and are not imported. No response-point table is imported. Source: https://atc.audio/professional/loudspeakers/scm100asl-pro/."
+  },
+  {
+    "id": "pmc-result6",
+    "model_check": "result6",
+    "source": "https://pmc-speakers.com/studio/active/result6",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 22000 },
+      "woofer": { "value": 170, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact PMC result6 manufacturer product page. It describes an active two-way system with one 170 mm LF driver and one 27 mm HF driver (two transducers) and publishes a 45 Hz–22 kHz frequency-response range without stating a tolerance or measurement condition; no tolerance is added. LF and HF amplifier ratings are listed separately (100 W and 65 W), so no single scalar power figure is entered. Input electrical specifications are not treated as passive driver impedance, and maximum SPL is not treated as sensitivity. No response points or directivity data are imported. Source: https://pmc-speakers.com/studio/active/result6."
+  },
+  {
+    "id": "pmc-pmc6-2",
+    "model_check": "PMC6-2",
+    "source": "https://pmc-speakers.com/studio/pmc-6-2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 33, "high_hz": 25000 },
+      "woofer": { "value": 6, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact PMC PMC6-2 manufacturer product page. The monitor is active three-way, with two 6-inch LF drivers, one 2-inch midrange, and one 1-inch HF driver (four transducers). Published response is 33 Hz–25 kHz at -3 dB, measured at 1 m full-space, on-axis. The manufacturer lists separate LF/mid/HF amplifier-channel ratings, which are not collapsed into a single power value. Its +4 dBu-to-SPL input calibration is not entered as passive 1 W/1 m sensitivity; signal-input impedance is not speaker-load impedance. No curve points or polar/directivity data are imported. Source: https://pmc-speakers.com/studio/pmc-6-2/."
+  },
+  {
+    "id": "pmc-pmc8-2",
+    "model_check": "PMC8-2",
+    "source": "https://pmc-speakers.com/studio/pmc-8-2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 25, "high_hz": 25000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact PMC PMC8-2 manufacturer product page. The monitor is active three-way, with two 8-inch LF drivers, one 2-inch midrange, and one 1-inch HF driver (four transducers). Published response is 25 Hz–25 kHz at -3 dB, measured at 1 m full-space, on-axis. The manufacturer lists separate LF/mid/HF amplifier-channel ratings, which are not collapsed into a single power value. Its +4 dBu-to-SPL input calibration is not entered as passive 1 W/1 m sensitivity; signal-input impedance is not speaker-load impedance. No curve points or polar/directivity data are imported. Source: https://pmc-speakers.com/studio/pmc-8-2/."
+  },
+  {
+    "id": "krk-v6-s4",
+    "model_check": "V6 S4",
+    "source": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 49, "high_hz": 19000 },
+      "power": { "value": 155, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact KRK V6 Series 4 powered monitor page; the database's V6 S4 label denotes this Series 4 model, not another V6 revision. It is an active two-way monitor with a 6.5-inch woofer and 1-inch tweeter. The published response is 49 Hz–19 kHz at ±3 dB; the separate 40 Hz–24 kHz -10 dB range is not substituted for it. KRK specifies 155 W total internal amplifier output (125 W LF + 30 W HF), stored as amplifier_output rather than passive-speaker handling. Peak SPL is not sensitivity, and electrical input impedance is not driver load impedance; those fields remain N/A. No response-point curve or directivity data are imported. Source: https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor."
+  }
+]

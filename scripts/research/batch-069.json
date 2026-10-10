@@ -1,0 +1,56 @@
+[
+  {
+    "id": "q-acoustics-3010i",
+    "model_check": "3010i",
+    "source": "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 65, "high_hz": 30000 },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Q Acoustics' exact 3010i product page identifies a 2-way reflex design with a 100 mm (4 in) bass unit and 22 mm treble unit. It specifies frequency-response limits of 65 Hz–30 kHz with the source's (+3 dB, −6 dB) context, nominal impedance 6 Ω, and sensitivity 86 dB at 2.83 Vrms/1 m. The listed 15–75 W stereo-amplifier and 50–125 W AV-receiver ranges are recommendations, not passive-speaker power handling, so power remains N/A. The response bounds are retained without inventing curve points; no measurement-point table or polar/directivity data is provided. Resonant frequency and voice-coil diameter remain N/A. The source does not explicitly classify active/passive status, so active remains N/A. Source: https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair"
+  },
+  {
+    "id": "q-acoustics-3020i",
+    "model_check": "3020i",
+    "source": "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 64, "high_hz": 30000 },
+      "woofer": { "value": 5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Q Acoustics' exact 3020i product page identifies a 2-way reflex design with a 125 mm (5 in) bass unit and 22 mm treble unit. It specifies frequency-response limits of 64 Hz–30 kHz with the source's (+3 dB, −6 dB) context, nominal impedance 6 Ω, and sensitivity 88 dB at 2.83 Vrms/1 m. The listed 25–75 W stereo-amplifier and 50–75 W AV-receiver ranges are recommendations, not passive-speaker power handling, so power remains N/A. The response bounds are retained without inventing curve points; no measurement-point table or polar/directivity data is provided. Resonant frequency and voice-coil diameter remain N/A. The source does not explicitly classify active/passive status, so active remains N/A. Source: https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair"
+  },
+  {
+    "id": "q-acoustics-3030i",
+    "model_check": "3030i",
+    "source": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m (RMS not stated)" },
+      "frequencyResponse": { "low_hz": 46, "high_hz": 30000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Q Acoustics' exact 3030i product page identifies a 2-way reflex design with a 165 mm (6.5 in) bass unit and 22 mm treble unit. It lists frequency-response limits of 46 Hz–30 kHz with the source's combined '(+/−3 dB, −6 dB)' notation; that notation does not unambiguously assign a tolerance to each endpoint, so it is preserved here without interpretation. Sensitivity is listed as 88 dB at 2.83 V/1 m, but RMS is not specified; the value is stored with that reference, not treated as 1 W/1 m. The page gives average impedance 6 Ω and minimum impedance 4 Ω, not nominal impedance, so the structured impedance field stays N/A and no impedance-dependent sensitivity conversion is made. The 25–75 W stereo-amplifier and 50–145 W AV-receiver ranges are recommendations, not speaker power handling, so power remains N/A. No response-point curve or polar/directivity dataset is provided. Resonant frequency and voice-coil diameter remain N/A; active/passive status is not explicitly classified. Source: https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair"
+  },
+  {
+    "id": "q-acoustics-5020",
+    "model_check": "5020",
+    "source": "https://www.qacoustics.com/products/5020-bookshelf-speaker",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "impedance": { "value": 6, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 53, "high_hz": 30000 },
+      "woofer": { "value": 5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Q Acoustics' exact 5020 product page identifies a 2-way standmount/reflex design with one 125 mm (5 in) bass unit and one 25 mm treble unit. It specifies 53 Hz–30 kHz frequency-response limits at −6 dB and nominal impedance 6 Ω. The published sensitivity line pairs '2.83 V @ 1 kHz' with a 'dB/W/m' label, leaving its reference internally ambiguous; sensitivity remains N/A rather than selecting or converting a disputed reference. The 25–100 W recommended-amplifier range is not speaker power handling, so power remains N/A. No response-point curve or polar/directivity data is published on the exact product page. Resonant frequency and voice-coil diameter remain N/A; active/passive status is not explicitly classified. Source: https://www.qacoustics.com/products/5020-bookshelf-speaker"
+  }
+]

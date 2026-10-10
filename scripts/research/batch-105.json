@@ -1,0 +1,54 @@
+[
+  {
+    "id": "electro-voice-sx600",
+    "model_check": "Electro-Voice Sx600 family (unsuffixed catalog label); exact manufacturer documentation covers Sx600PI low-impedance and Sx600PIX transformer variants",
+    "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 100,
+        "high_hz": 14000,
+        "points": [
+          { "hz": 40, "db": 72 },
+          { "hz": 50, "db": 82 },
+          { "hz": 60, "db": 90 },
+          { "hz": 70, "db": 95 },
+          { "hz": 80, "db": 95.5 },
+          { "hz": 90, "db": 96.5 },
+          { "hz": 100, "db": 98.5 },
+          { "hz": 200, "db": 100 },
+          { "hz": 300, "db": 101 },
+          { "hz": 400, "db": 102 },
+          { "hz": 500, "db": 103 },
+          { "hz": 600, "db": 103.5 },
+          { "hz": 700, "db": 103.5 },
+          { "hz": 800, "db": 103 },
+          { "hz": 900, "db": 103 },
+          { "hz": 1000, "db": 103 },
+          { "hz": 2000, "db": 105 },
+          { "hz": 3000, "db": 104 },
+          { "hz": 4000, "db": 103 },
+          { "hz": 5000, "db": 105 },
+          { "hz": 6000, "db": 106.5 },
+          { "hz": 7000, "db": 104 },
+          { "hz": 8000, "db": 104 },
+          { "hz": 9000, "db": 102 },
+          { "hz": 10000, "db": 100 },
+          { "hz": 20000, "db": 82 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact Sx600 manufacturer datasheet frequency-response SPL table at 1 W/1 m. It states the response/impedance data were measured in an anechoic chamber according to EN 54-24 and defines the reference axis at the center of the grille, perpendicular to its surface. Only the published 40 Hz–20 kHz rows with numeric SPL values are transcribed; blank 20/30 Hz rows are omitted without interpolation. The same sheet separately rates sensitivity at 105 dB 1 W/1 m while its 1 kHz response-table row is 103 dB; retain that source discrepancy, and use the table for shape only (the runtime normalizes the curve separately from sensitivity)."
+      },
+      "sensitivity": { "value": 105, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 600, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "year": null, "driverCount": 3, "active": false },
+    "fieldSources": {
+      "frequencyResponse_sensitivity_power_woofer_driverCount_active": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf"
+    },
+    "notes": "Electro-Voice's exact Sx600 datasheet documents both the Sx600PI low-impedance system and the Sx600PIX transformer-input system. The published response limits are 100 Hz–14 kHz at -3 dB (the separate -10 dB range is 70 Hz–16 kHz); the manufacturer response table is retained as a source-backed point set with its anechoic EN 54-24 context, blank rows omitted, and its 103 dB-at-1-kHz versus 105 dB rated-sensitivity discrepancy explicitly noted in pointsContext. The sheet rates sensitivity 105 dB at 1 W/1 m, gives 600 W continuous power handling (2400 W peak is noted but not stored as a second rating), and describes two 12-inch LF/midbass drivers plus one DH2T compression driver (three transducers). The impedance value is deliberately left N/A because the published 4-ohm/3.5-ohm figures are explicitly for the PI version only; the PIX variant uses transformer taps. The 2010 manual revision is not treated as a launch year. The exact sheet also publishes beamwidth and DI/Q tables; they are recorded as a directivity lead only because those aggregate tables are not a full angular polar dataset supported by the current speaker-record schema. Source: https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf"
+  }
+]

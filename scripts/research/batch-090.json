@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sonus-faber-sonetto-i",
+    "model_check": "Sonetto I",
+    "source": "https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 25000 },
+      "impedance": { "value": 4, "unit": "ohm" }
+    },
+    "notes": "Exact first-generation Sonetto I, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 45 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 87 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection."
+  },
+  {
+    "id": "sonus-faber-sonetto-ii",
+    "model_check": "Sonetto II",
+    "source": "https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 42, "high_hz": 25000 },
+      "impedance": { "value": 4, "unit": "ohm" }
+    },
+    "notes": "Exact first-generation Sonetto II, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 42 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 87 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection."
+  },
+  {
+    "id": "sonus-faber-sonetto-iii",
+    "model_check": "Sonetto III",
+    "source": "https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 42, "high_hz": 25000 },
+      "impedance": { "value": 4, "unit": "ohm" }
+    },
+    "notes": "Exact first-generation Sonetto III, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 42 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 89 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection."
+  },
+  {
+    "id": "sonus-faber-sonetto-v",
+    "model_check": "Sonetto V",
+    "source": "https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 25000 },
+      "impedance": { "value": 4, "unit": "ohm" }
+    },
+    "notes": "Exact first-generation Sonetto V, identified in Audioholics' Sonetto collection launch article dated July 4, 2018; the article describes the original collection announced for that year's launch, not Sonetto G2. Its model-specific specification table lists 38 Hz–25,000 Hz frequency response and 4 Ω impedance. No response tolerance or test condition is stated, so only the published bounds are retained and no response curve is inferred. The table also lists sensitivity as 90 dB but omits the reference standard, so the sensitivity field remains N/A rather than assuming 2.83 V/1 m or 1 W/1 m. The article does not supply a scalar speaker power rating; amplifier recommendations are not imported. No response-point or directivity data are imported. Source: https://www.audioholics.com/tower-speaker-reviews/sonus-faber-sonetto-speaker-collection."
+  }
+]

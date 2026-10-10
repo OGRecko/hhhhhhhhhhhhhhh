@@ -1,0 +1,65 @@
+[
+ {
+  "id": "mackie-thump212",
+  "model_check": "Thump212",
+  "source": "https://goknight.com/content/documentation/THUMP_2022_SS.pdf",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 54,
+    "high_hz": 20000
+   },
+   "woofer": {
+    "value": 12,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 2,
+   "active": true
+  },
+  "notes": "Mackie (LOUD Audio) Thump 2022 series specification sheet SW1377 Rev. A 07/22, Thump212 column, read from a copy hosted on goknight.com. Powered 2-way: 12 in ferrite woofer + 1 in polymer compression driver; frequency response 54 Hz-20 kHz at -3 dB (47 Hz-23 kHz at -10 dB also published; the stored limits are the -3 dB points); 90 x 60 deg; max SPL 128 dB peak; crossover 2.1 kHz; amplifier 1400 W peak system (1200 W LF + 200 W HF, Class D) - peak rating, not stored as power; 620 x 356 x 356 mm; 12.5 kg. This is the 2022 revision; earlier Thump12/Thump212 generations are separate models. No sensitivity published (active). No response dataset or directivity file imported."
+ },
+ {
+  "id": "mackie-thump215",
+  "model_check": "Thump215",
+  "source": "https://goknight.com/content/documentation/THUMP_2022_SS.pdf",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 47,
+    "high_hz": 20000
+   },
+   "woofer": {
+    "value": 15,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 2,
+   "active": true
+  },
+  "notes": "Mackie (LOUD Audio) Thump 2022 series specification sheet SW1377 Rev. A 07/22, Thump215 column, read from a copy hosted on goknight.com. Powered 2-way: 15 in ferrite woofer + 1 in polymer compression driver; frequency response 47 Hz-20 kHz at -3 dB (40 Hz-23 kHz at -10 dB also published; the stored limits are the -3 dB points); 90 x 60 deg; max SPL 129 dB peak; crossover 2.1 kHz; amplifier 1400 W peak system (1200 W LF + 200 W HF, Class D) - peak rating, not stored as power; 696 x 439 x 356 mm; 14.8 kg. Thump215XT is a separate model and was not used. No sensitivity published (active). No response dataset or directivity file imported."
+ },
+ {
+  "id": "mackie-thump118s",
+  "model_check": "Thump118S",
+  "source": "https://goknight.com/content/documentation/THUMP_SUBS_2022_SS.pdf",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 40,
+    "high_hz": 120
+   },
+   "woofer": {
+    "value": 18,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 1,
+   "active": true
+  },
+  "notes": "Mackie (LOUD Audio) Thump 2022 subwoofer series specification sheet SW1375 Rev. A 07/22, Thump118S column, read from a copy hosted on goknight.com. Powered subwoofer: one 18 in ferrite woofer; frequency response 40 Hz-120 Hz at -3 dB (30 Hz-150 Hz at -10 dB also published; stored limits are the -3 dB points); max SPL 131-132 dB peak (132 dB for the 118S); amplifier 1400 W peak Class D (peak rating, not stored as power); 540 x 530 x 605 mm; 29.7 kg. Thump115S is a separate model and was not used. No sensitivity published (active). No response dataset or directivity file imported."
+ }
+]

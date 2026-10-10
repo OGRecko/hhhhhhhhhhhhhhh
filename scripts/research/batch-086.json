@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sonus-faber-homage-tradition-amati",
+    "model_check": "Homage Tradition Amati",
+    "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 8.66, "unit": "in" },
+      "frequencyResponse": { "low_hz": 28, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Homage Tradition Amati row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 29 Technical Specifications row describes a passive 3.5-way floorstander with one H28 XTR-04 tweeter, one M15 XTR-04 midrange, and two 220 mm W22XTR-08 woofers (220 mm converted to 8.66 in for the database's inch field; four total drivers). It publishes 28–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 100–500 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 25 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual."
+  },
+  {
+    "id": "sonus-faber-homage-tradition-guarneri",
+    "model_check": "Homage Tradition Guarneri",
+    "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 5.91, "unit": "in" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Homage Tradition Guarneri row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 30 Technical Specifications row describes a passive 2-way stand-mount system with one H28 XTR-04 tweeter and one 150 mm W15 XTR-04 midwoofer (150 mm converted to 5.91 in for the database's inch field; two total drivers). It publishes 40–35,000 Hz frequency response, 87 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 30–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual."
+  },
+  {
+    "id": "sonus-faber-homage-tradition-serafino",
+    "model_check": "Homage Tradition Serafino",
+    "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 7.09, "unit": "in" },
+      "frequencyResponse": { "low_hz": 30, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Homage Tradition Serafino row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 30 Technical Specifications row describes a passive 3.5-way floorstander with one H28 XTR-04 tweeter, one M15 XTR-04 midrange, and two 180 mm W18XTR-08 woofers (180 mm converted to 7.09 in for the database's inch field; four total drivers). It publishes 30–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 80–350 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 20 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual."
+  }
+]

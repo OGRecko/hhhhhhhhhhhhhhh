@@ -1,0 +1,133 @@
+[
+  {
+    "id": "kef-r3",
+    "model_check": "R3",
+    "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 58, "high_hz": 28000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "panel": false },
+    "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R3 (the non-Meta R3; not R3 Meta): three-way bass reflex; frequency response 58 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–180 W (retained here as the full range because the database power.value is a scalar and is therefore left N/A); one 165 mm/6.5 in LF cone plus the 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 422.2 × 199.6 × 335.5 mm with terminal; weight 13.5 kg. `driverCount` counts the three stated transducers. Passive/active classification is left N/A because this brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf. No measurement dataset or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-r5",
+    "model_check": "R5",
+    "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 52, "high_hz": 28000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "panel": false },
+    "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R5 (the non-Meta R5; not R5 Meta): three-way bass reflex; frequency response 52 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–200 W (retained as a range in this note; scalar power.value is N/A because the schema cannot represent both endpoints); two 130 mm/5.25 in LF cones plus 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 1025 × 175 × 343.5 mm with terminal, 1071.4 × 271.6 × 343.5 mm with plinth; weight 27.3 kg. `driverCount` counts the two LF drivers and two Uni-Q transducers. Passive/active classification is left N/A because the brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf. No measurement dataset or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-r7",
+    "model_check": "R7",
+    "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 48, "high_hz": 28000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "panel": false },
+    "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R7 (the non-Meta R7; not R7 Meta): three-way bass reflex; frequency response 48 Hz–28 kHz (±3 dB); frequency range 33 Hz–50 kHz (-6 dB); sensitivity 88 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–250 W (retained as a range in this note; scalar power.value is N/A because the schema cannot represent both endpoints); two 165 mm/6.5 in LF cones plus 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 1062 × 200 × 383.5 mm with terminal, 1108.9 × 310.6 × 383.5 mm with plinth; weight 31.4 kg. `driverCount` counts two LF drivers and two Uni-Q transducers. Passive/active classification is left N/A because the brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf. No measurement dataset or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-r11",
+    "model_check": "R11",
+    "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 46, "high_hz": 28000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 6, "panel": false },
+    "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R11 (the non-Meta R11; not R11 Meta): three-way bass reflex; frequency response 46 Hz–28 kHz (±3 dB); frequency range 30 Hz–50 kHz (-6 dB); sensitivity 90 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–300 W (retained as a range in this note; scalar power.value is N/A because the schema cannot represent both endpoints); four 165 mm/6.5 in LF cones plus 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 1249 × 200 × 383.5 mm with terminal, 1295.5 × 310.6 × 383.5 mm with plinth; weight 37.7 kg. `driverCount` counts four LF drivers and two Uni-Q transducers. Passive/active classification is left N/A because the brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf. No measurement dataset or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-kube-8b",
+    "model_check": "KUBE-8b",
+    "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 34, "high_hz": 140 },
+      "power": { "value": 300, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "KEF official Kube subwoofer information sheet, exact Kube8b column: powered sealed subwoofer; one 200 mm/8 in driver; frequency response 34–140 Hz (-6 dB); built-in Class-D amplifier rated 300 W RMS; maximum output 105 dB; dimensions 293 × 293 × 310 mm with rear panel and feet; weight 11.3 kg. The response bounds are manufacturer-published but the schema has no tolerance field; the -6 dB criterion is retained here. No sensitivity or passive impedance is specified. `power.value` is the published amplifier output, not a recommended-amplifier range. Source: https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-kube-10b",
+    "model_check": "KUBE-10b",
+    "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 24, "high_hz": 140 },
+      "power": { "value": 300, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "KEF official Kube subwoofer information sheet, exact Kube10b column: powered sealed subwoofer; one 250 mm/10 in driver; frequency response 24–140 Hz (±3 dB); built-in Class-D amplifier rated 300 W RMS; maximum output 111 dB; dimensions 370 × 353 × 370 mm with rear panel and feet; weight 17.4 kg. No sensitivity or passive impedance is specified. `power.value` is the published amplifier output, not a recommended-amplifier range. Source: https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-kube-12b",
+    "model_check": "KUBE-12b",
+    "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 22, "high_hz": 140 },
+      "power": { "value": 300, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "KEF official Kube subwoofer information sheet, exact Kube12b column: powered sealed subwoofer; one 300 mm/12 in driver; frequency response 22–140 Hz (±3 dB); built-in Class-D amplifier rated 300 W RMS; maximum output 114 dB; dimensions 410 × 393 × 410 mm with rear panel and feet; weight 20.6 kg. No sensitivity or passive impedance is specified. `power.value` is the published amplifier output, not a recommended-amplifier range. Source: https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-kf92",
+    "model_check": "KF92",
+    "source": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 11, "high_hz": 200 },
+      "power": { "value": 1000, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 9, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true, "panel": false },
+    "notes": "KEF official KF92 information sheet (03.2021), exact model KF92: force-cancelling powered sealed subwoofer; two opposing 9 in drivers; frequency response 11–200 Hz (±3 dB); built-in Class-D amplifier 1000 W RMS total (2 × 500 W RMS); maximum output 110 dB; dimensions 352.4 × 330 × 360.5 mm with rear panel and feet; weight 20 kg. No sensitivity or passive impedance is specified. `power.value` is the explicitly published total amplifier rating, not a sum inferred from separate channels. Source: https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-ls50-wireless",
+    "model_check": "LS50 Wireless II",
+    "source": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 28000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true, "panel": false },
+    "notes": "KEF official LS50 Wireless II product information sheet, exact active model: frequency response 45 Hz–28 kHz (±3 dB), measured at 85 dB/1 m and dependent on EQ; frequency range 40 Hz–47 kHz (-6 dB); per-speaker Uni-Q LF 130 mm/5.25 in cone and HF 25 mm dome; built-in amplifier outputs are separately stated as 280 W LF and 100 W HF per speaker. Sensitivity and passive impedance are not published. The database has one scalar power field, so it remains N/A rather than combining the separate LF and HF amplifier outputs into an unpublished total. Source: https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf. No measured response dataset or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-lsx-ii",
+    "model_check": "LSX II",
+    "source": "https://us.kef.com/products/lsx-2",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "woofer": { "value": 4.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true, "panel": false },
+    "notes": "KEF official LSX II product page (exact powered wireless speaker system): one Uni-Q 115 mm/4.5 in LF/MF cone and one 19 mm HF dome per speaker; per-speaker amplifier types are listed as Class D. The specifications page labels 49 Hz–47 kHz as Frequency Response (±3 dB) measured at 85 dB/1 m, and separately labels 54 Hz–28 kHz as Frequency Range (also ±3 dB). Because these response/range labels and tolerance are internally inconsistent on the exact-model page, structured frequencyResponse is deliberately left N/A rather than choosing or correcting one value. Power-output watts, sensitivity, and passive impedance are not published on this page and remain N/A. Source: https://us.kef.com/products/lsx-2. No measured response dataset or directivity file is claimed/imported."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "bw-803-d4",
+    "model_check": "803 D4",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwdf0b2886/downloads/803D4-Information-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 19, "high_hz": 28000 },
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact Bowers & Wilkins 803 D4 manufacturer information sheet. It specifies a 3-way vented-box system with one 25 mm Diamond tweeter, one 130 mm Continuum FST midrange, and two 180 mm (7 in) Aerofoil bass units (four transducers total). Published frequency response is 19 Hz–28 kHz (±3 dB from the reference axis); sensitivity is 90 dB SPL on-axis at 2.83 Vrms/1 m; nominal impedance is 8 Ω (minimum 3.0 Ω). The sheet gives a 50–500 W recommended-amplifier range, not speaker power handling, so the scalar power field remains N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwdf0b2886/downloads/803D4-Information-Sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-804-d4",
+    "model_check": "804 D4",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 24, "high_hz": 28000 },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact Bowers & Wilkins 804 D4 manufacturer information sheet. It specifies a 3-way vented-box system with one 25 mm Diamond tweeter, one 130 mm Continuum FST midrange, and two 165 mm (6.5 in) Aerofoil bass units (four transducers total). Published frequency response is 24 Hz–28 kHz (±3 dB from the reference axis); sensitivity is 89 dB SPL on-axis at 2.83 Vrms/1 m; nominal impedance is 8 Ω (minimum 3.0 Ω). The sheet gives a 50–200 W recommended-amplifier range, not speaker power handling, so the scalar power field remains N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-702-s3",
+    "model_check": "702 S3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw5e6a829f/downloads/english--bw--702-s3-information-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 46, "high_hz": 28000 },
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 5 },
+    "notes": "Exact Bowers & Wilkins 702 S3 manufacturer information sheet. It specifies a 3-way vented-box system with one 25 mm carbon-dome tweeter, one 150 mm Continuum FST midrange, and three 165 mm (6.5 in) Aerofoil Profile bass units (five transducers total). Published frequency response is 46 Hz–28 kHz (±3 dB from the reference axis); sensitivity is 90 dB SPL on-axis at 2.83 Vrms/1 m; nominal impedance is 8 Ω (minimum 3.1 Ω). The sheet gives a 30–300 W recommended-amplifier range, not speaker power handling, so the scalar power field remains N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw5e6a829f/downloads/english--bw--702-s3-information-sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-704-s3",
+    "model_check": "704 S3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw63583732/downloads/english--bw--704-s3-information-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 48, "high_hz": 28000 },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact Bowers & Wilkins 704 S3 manufacturer information sheet. It specifies a 3-way vented-box system with one 25 mm carbon-dome tweeter, one 130 mm Continuum FST midrange, and two 130 mm (5 in) Aerofoil Profile bass units (four transducers total). Published frequency response is 48 Hz–28 kHz (±3 dB from the reference axis); sensitivity is 88 dB SPL on-axis at 2.83 Vrms/1 m; nominal impedance is 8 Ω (minimum 3.1 Ω). The sheet gives a 30–150 W recommended-amplifier range, not speaker power handling, so the scalar power field remains N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw63583732/downloads/english--bw--704-s3-information-sheet.pdf."
+  }
+]

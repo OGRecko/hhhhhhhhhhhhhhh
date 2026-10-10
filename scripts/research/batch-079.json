@@ -1,0 +1,58 @@
+[
+  {
+    "id": "adam-audio-t7v",
+    "model_check": "T7V",
+    "source": "https://www.adam-audio.com/en/t-series/t7v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 39, "high_hz": 25000 },
+      "power": { "value": 70, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact ADAM Audio T7V official product page: two-way active nearfield monitor with one 7-inch polypropylene woofer and one U-ART tweeter (two transducers). The manufacturer specifies 39 Hz–25 kHz frequency response at -6 dB and a 70 W total RMS amplifier rating (50 W woofer + 20 W tweeter), recorded only as amplifier_output, not passive-speaker power handling. Maximum SPL of at least 110 dB per pair at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/t-series/t7v/."
+  },
+  {
+    "id": "adam-audio-t8v",
+    "model_check": "T8V",
+    "source": "https://www.adam-audio.com/en/t-series/t8v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 33, "high_hz": 25000 },
+      "power": { "value": 90, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact ADAM Audio T8V official product page: two-way active studio monitor with one 8-inch polypropylene woofer and one U-ART tweeter (two transducers). The manufacturer specifies 33 Hz–25 kHz frequency response at -6 dB and 90 W total RMS internal amplifier output, recorded only as amplifier_output, not passive-speaker power handling. Maximum SPL of at least 118 dB per pair at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/t-series/t8v/."
+  },
+  {
+    "id": "adam-audio-a44h",
+    "model_check": "A44H",
+    "source": "https://www.adam-audio.com/en/a-series/a44h/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 46, "high_hz": 45000 },
+      "power": { "value": 130, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ADAM Audio A44H official product page: active horizontal monitor with two 4-inch Multi-Layer Mineral woofers and one X-ART tweeter (three transducers). It specifies 46 Hz–45 kHz frequency response at -6 dB and 130 W total peak internal amplifier power; the latter is stored only as amplifier_output, not passive-speaker handling or RMS output. Maximum peak SPL of 103 dB per speaker at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/a-series/a44h/."
+  },
+  {
+    "id": "adam-audio-a77h",
+    "model_check": "A77H",
+    "source": "https://www.adam-audio.com/en/a-series/a77h/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 34, "high_hz": 45000 },
+      "power": { "value": 340, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact ADAM Audio A77H official product page: three-way active midfield monitor with two 7-inch Multi-Layer Mineral woofers, one 3.5-inch DCH midrange and one X-ART tweeter (four transducers). It specifies 34 Hz–45 kHz frequency response at -6 dB and 340 W total peak internal amplifier power; the latter is recorded only as amplifier_output, not passive-speaker handling or RMS output. Maximum peak SPL of 106 dB per speaker at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/a-series/a77h/."
+  }
+]

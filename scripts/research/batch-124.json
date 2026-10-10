@@ -1,0 +1,15 @@
+[
+  {
+    "id": "lacoustics-arcs",
+    "model_check": "ARCS Wide",
+    "source": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 450, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact L-Acoustics ARCS WIDE. The cited PDF is the manufacturer-published ARCS WIDE Product Information/specification sheet, version 5.0 (03-17), hosted as a full document by ProMusic; it identifies the exact enclosure as 2-way passive, one 12-inch LF transducer plus one 3-inch HF diaphragm compression driver, 8 Ω nominal impedance, and 450 W RMS power handling. The 450 W value remains speaker power handling with its RMS definition retained here; it is not amplifier output or program/peak rating. The sheet states usable bandwidth 55 Hz–20 kHz at -10 dB with the [ARCS_WIFO] preset and maximum SPL 137 dB at 1 m in free field using pink noise with crest factor 4 and that preset. Frequency bounds remain N/A because the current record has no tolerance field and flattening -10 dB limits would erase the published response criterion; no response points are transcribed. The same sheet specifies a -6 dB nominal coverage angle of 30° × 90°, but that is not an angle-resolved polar-response dataset and is not imported as a directivity curve. L-Acoustics' official archive page lists the separate ARCS WIFO archive; its ZIP contents and any exact ARCS WIDE response/polar files remain uninspected because the direct archive fetch failed. Sensitivity, impedance-dependent sensitivity conversion, system resonance, voice-coil diameter, and measured response/directivity data remain N/A. Sources: https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf ; https://www.l-acoustics.com/archives-product/ ; https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS%20WIFO/documents.zip."
+  }
+]

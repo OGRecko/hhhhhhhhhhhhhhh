@@ -1,0 +1,33 @@
+[
+  {
+    "id": "legacy-focal-2",
+    "model_check": "Electra 1027Be",
+    "source": "https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "hifi",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 40000 },
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Electra 1027 Be row in Focal's official Electra 1000 Be/S user manual (the manual's model table distinguishes 1007 Be, 1027 Be, and 1037 Be). It specifies a passive three-way floorstanding speaker with two 6.5-inch W woofers, one 6.5-inch W midrange and one 25 mm pure-Beryllium IAL tweeter (four drivers). Published response is 38 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 30 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms, and minimum impedance is 3.5 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized and no directivity dataset is imported. Source: https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf."
+  },
+  {
+    "id": "legacy-focal-1",
+    "model_check": "Chorus 707",
+    "source": "https://www.tnt-audio.com/casse/jmchorus707_e.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "category": "hifi",
+    "fields": {
+      "frequencyResponse": { "low_hz": 54, "high_hz": 22000 },
+      "sensitivity": { "value": 91.5, "unit": "dB", "reference": "1W/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "power": { "value": 100, "unit": "W", "role": "program_rating" },
+      "woofer": { "value": 178, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "TNT Audio's exact-model March 2001 JMLab Chorus 707 review (not Chorus 707 S) identifies one 178 mm mid/bass driver and one 25 mm titanium inverted-dome tweeter. It reports 54 Hz–22 kHz response (±3 dB), 91.5 dB sensitivity at 1 W/1 m, 8-ohm nominal and 3.6-ohm minimum impedance, 25–80 W recommended amplifier power, and 100 W maximum permissible program-material power. The 100 W scalar is retained only as `program_rating`; the recommended amplifier range is not collapsed into a power value. The Audio Database's independently fetched exact Chorus707 record also identifies the 18 cm driver, 54 Hz–22 kHz range, 8-ohm impedance and 91.5 dB/W/m sensitivity: https://audio-database.com/FOCAL-JMLAB/speaker/chorus707.html. No response points are digitized; the review's dispersion comments do not constitute polar data, so no directivity dataset is imported. Source: https://www.tnt-audio.com/casse/jmchorus707_e.html."
+  }
+]

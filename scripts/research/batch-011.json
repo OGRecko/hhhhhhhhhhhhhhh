@@ -1,0 +1,11 @@
+[
+ {"id":"qsc-ad-c820","model_check":"AD-C820","source":"https://in.qsc.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c820/","sourceType":"MANUFACTURER",
+  "fields":{
+   "sensitivity":{"value":91,"unit":"dB","reference":"1W/1m"},
+   "impedance":{"value":16,"unit":"ohm"},
+   "power":{"value":200,"unit":"W","role":"speaker_power_handling"},
+   "frequencyResponse":{"low_hz":61,"high_hz":18000},
+   "woofer":{"value":8,"unit":"in"}},
+  "scalars":{"driverCount":2,"active":false},
+  "notes":"QSC official AD-C820 product page. Passive 2-way: 8 in ferrite woofer + 1.4 in neodymium compression driver; sensitivity 91 dB SPL, 1 W/1 m; nominal impedance 16 ohm (bypass; 70 V/100 V transformer taps also published); continuous power handling 200 W (IEC, 50 Hz-20 kHz, 6 dB crest), recommended amplifier power 400 W program; frequency response 61 Hz-18 kHz at -6 dB (52 Hz-18 kHz usable at -10 dB), measured half-space (2 pi); 90 deg conical coverage; ported; 18 L back box AD-C800BB; 7.9 kg system. AD-C821 is a separate model and was not used. No response dataset or directivity file found."}
+]

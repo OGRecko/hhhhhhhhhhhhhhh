@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bowers-wilkins-db1d",
+    "model_check": "DB1D",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 10, "high_hz": 350 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Bowers & Wilkins DB1D manufacturer information sheet. It identifies an active DB Series subwoofer with two 300 mm (12 in) Aerofoil-cone drive units in a balanced configuration and a built-in 2000 W Class D Hypex amplifier. Published response is 10–350 Hz at -3 dB, centered on the level at 100 Hz; its separate -6 dB range is 8.5–500 Hz. The database stores the specified -3 dB response limits only. Amplifier max output is not stored as speaker power handling; sensitivity and driver impedance are not published as passive-speaker specifications and remain N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-db2d",
+    "model_check": "DB2D",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 10, "high_hz": 350 },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Bowers & Wilkins DB2D manufacturer information sheet. It specifies two 250 mm (10 in) Aerofoil-cone drive units in a balanced configuration and a built-in 1000 W Class D Hypex amplifier. Published response is 10–350 Hz at -3 dB, centered on the level at 100 Hz; its separate -6 dB range is 8.5–500 Hz. The database stores the specified -3 dB response limits only. Amplifier max output is not stored as speaker power handling; sensitivity and driver impedance are not published as passive-speaker specifications and remain N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-db3d",
+    "model_check": "DB3D",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 10, "high_hz": 350 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Bowers & Wilkins DB3D manufacturer information sheet. It specifies two 200 mm (8 in) Aerofoil-cone drive units in a balanced configuration and a built-in 1000 W Class D Hypex amplifier. Published response is 10–350 Hz at -3 dB, centered on the level at 100 Hz; its separate -6 dB range is 8.5–500 Hz. The database stores the specified -3 dB response limits only. Amplifier max output is not stored as speaker power handling; sensitivity and driver impedance are not published as passive-speaker specifications and remain N/A. No response points or directivity data are imported. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-db4s",
+    "model_check": "DB4S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 10, "high_hz": 350 },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Exact Bowers & Wilkins DB4S manufacturer information sheet. It specifies one 250 mm (10 in) Aerofoil-cone bass unit in a closed-box configuration and a built-in 1000 W Class D Hypex amplifier; the official product page identifies the system as an active closed-box subwoofer. Published response is 10–350 Hz at -3 dB, centered on the level at 100 Hz; its separate -6 dB range is 8.5–500 Hz. The database stores the specified -3 dB response limits only. Amplifier max output is not stored as speaker power handling; sensitivity and driver impedance are not published as passive-speaker specifications and remain N/A. No response points or directivity data are imported. Sources: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf; https://www.bowerswilkins.com/en-us/product/subwoofers/db-series/db4s/150211.html."
+  }
+]

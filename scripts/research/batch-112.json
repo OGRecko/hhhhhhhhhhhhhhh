@@ -1,0 +1,31 @@
+[
+  {
+    "id": "elac-uni-fi-ub5",
+    "model_check": "Uni-Fi UB5",
+    "source": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 46, "high_hz": 25000 },
+      "power": { "value": 140, "unit": "W", "role": "allowable_input" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "ELAC's exact original Uni-Fi UB5 sell sheet (the original Andrew Jones UB5, not the later UB52/Uni-Fi 2.0) specifies a 3-way bass-reflex bookshelf system, 46–25,000 Hz (no response tolerance stated), nominal 4 ohms, 85 dB at 2.83 V/1 m, maximum power input 140 W, a 1-inch soft-dome tweeter, 4-inch aluminum midrange and 5.25-inch aluminum woofer. The sensitivity retains the published voltage/distance reference; the shared resolver may convert 2.83 V to its 1 W equivalent using the separately published nominal 4-ohm impedance. The 140 W entry is retained as maximum allowable input, not amplifier output or a continuous/peak handling claim beyond the sheet's wording. No Fs or voice-coil diameter is specified. The sheet describes the concentric driver/directivity design but supplies no polar or measured response-point dataset; no directivity curve is imported. Source: https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf."
+  },
+  {
+    "id": "ath-avantone-mixcube",
+    "model_check": "Mixcube",
+    "source": "https://avantonepro.com/en/products/mixcube-passive",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 93, "unit": "dB", "reference": "1W/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 200, "high_hz": 10000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false, "panel": false },
+    "notes": "This catalog's unqualified Avantone model is aligned with the manufacturer's original passive Mixcube page (a single 5.25-inch dynamic full-range driver, external binding posts, nominal 8-ohm system), not the separately documented Mixcube Active. The manufacturer publishes 200 Hz–10 kHz with no tolerance, and sensitivity 93 dB at 1 W/1 m. Its 10–200 W range is explicitly recommended amplifier power, not speaker power handling, so the power field remains N/A; active-model amplifier data are not transferred. The product page supplies no published response-point table or polar/directivity dataset. Source: https://avantonepro.com/en/products/mixcube-passive."
+  }
+]

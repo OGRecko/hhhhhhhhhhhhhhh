@@ -1,0 +1,60 @@
+[
+  {
+    "id": "kicker-43dsc6504",
+    "model_check": "43DSC6504",
+    "source": "https://www.kicker.com/ds-coaxial-speakers-65",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 20000 },
+      "power": { "value": 240, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact KICKER DS Series 6.5-inch coax product page; its support section links the 2016 DS Coaxials manual, and the official DS lineup maps SKU 43DSC6504 to this 6.5-inch, 4-ohm model. The product specification lists a 2-way design, 6.5-inch woofer and 0.5-inch tweeter (two drivers per speaker side), rated 4-ohm impedance, 90 dB sensitivity at 1 W/1 m, and 40 Hz–20 kHz effective response with no tolerance stated. The 240 W figure is a peak input rating per ANSI/CTA-2031-A, stored as allowable_input rather than continuous/RMS power handling; KICKER's separate 60 W RMS recommended-amplifier figure is not substituted. No response curve, resonance, voice-coil size, or directivity data are imported. Sources: https://www.kicker.com/ds-coaxial-speakers-65; https://www.kicker.com/2016-ds-series."
+  },
+  {
+    "id": "kicker-47ksc6504",
+    "model_check": "47KSC6504",
+    "source": "https://www.kicker.com/47KSC650",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 43, "high_hz": 21000 },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact KICKER KS Series KSC650 product page and linked 2020 KS manual identify the 47KSC6504 6.5-inch 4-ohm coaxial model. The manufacturer specifies a 2-way system with one 6.5-inch woofer and one 0.75-inch tweeter (two drivers per speaker side), 4-ohm rated impedance, 90 dB sensitivity at 1 W/1 m, and 43 Hz–21 kHz frequency response with no tolerance stated. The 15–100 W RMS figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response curve, resonance, voice-coil size, or directivity data are imported. Source: https://www.kicker.com/47KSC650."
+  },
+  {
+    "id": "kicker-46csc654",
+    "model_check": "46CSC654",
+    "source": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 20000 },
+      "power": { "value": 300, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact KICKER 2019 CS Series CSC65 page; the official CS lineup maps code 46CSC654 to this 6.5-inch, 4-ohm coaxial. The manufacturer specifies a 2-way design, 6.5-inch woofer plus 0.5-inch tweeter (two drivers per speaker side), 90 dB sensitivity at 1 W/1 m, and 40 Hz–20 kHz effective frequency range with no tolerance stated. The 3.3-ohm table entry is DC resistance, not substituted for nominal impedance. The listed 300 W peak rating is per ANSI/CTA-2031-A and is stored as allowable_input; 100 W RMS is recommended amplifier power, not continuous speaker handling. No response curve, resonance, voice-coil size, or directivity data are imported. Sources: https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm; https://www.kicker.com/2019-CS-Series."
+  },
+  {
+    "id": "kicker-46css674",
+    "model_check": "46CSS674",
+    "source": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 21000 },
+      "power": { "value": 300, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.75, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact KICKER 2019 CS Series CSS67 component-system page; the manufacturer's CS lineup maps SKU 46CSS674 to the 6.75-inch, 4-ohm component system. The per-side component set contains one 6.75-inch woofer and one 0.75-inch tweeter (two transducers; the full kit is sold as a pair). Published effective frequency range is 35 Hz–21 kHz with no tolerance stated. The listed 300 W peak rating is per ANSI/CTA-2031-A and is stored as allowable_input; 100 W RMS is recommended amplifier power, not continuous speaker handling. The product page does not publish a sensitivity value, so sensitivity remains N/A. No response curve, resonance, voice-coil size, or directivity data are imported. Sources: https://www.kicker.com/CSS67-Component-System-4-Ohm; https://www.kicker.com/2019-CS-Series."
+  }
+]

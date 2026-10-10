@@ -1,0 +1,125 @@
+name: Deploy production
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: cavity-production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23.3
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: Validate production deployment secrets
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+          CLOUD_RUN_SERVICE: ${{ secrets.CLOUD_RUN_SERVICE }}
+          CLOUD_RUN_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+          CLOUD_RUN_SERVICE_ACCOUNT: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT }}
+          APP_URL: ${{ secrets.APP_URL }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+          CLEANUP_SECRET: ${{ secrets.CLEANUP_SECRET }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+          CLOUD_TASKS_DISPATCH_SECRET: ${{ secrets.CLOUD_TASKS_DISPATCH_SECRET }}
+          MONITORING_ALERT_EMAIL: ${{ secrets.MONITORING_ALERT_EMAIL }}
+        run: |
+          test -n "$GCP_PROJECT_ID"
+          test -n "$GCP_SERVICE_ACCOUNT_KEY"
+          test -n "$CLOUD_RUN_SERVICE"
+          test -n "$CLOUD_RUN_REGION"
+          test -n "$CLOUD_RUN_SERVICE_ACCOUNT"
+          test -n "$APP_URL"
+          test -n "$FIREBASE_STORAGE_BUCKET"
+          test -n "$RELEASES_BUCKET"
+          test -n "$CLEANUP_SECRET"
+          test -n "$CLOUD_TASKS_QUEUE"
+          test -n "$CLOUD_TASKS_LOCATION"
+          test -n "$CLOUD_TASKS_DISPATCH_SECRET"
+          test -n "$MONITORING_ALERT_EMAIL"
+          test "$(node -e 'process.stdout.write(JSON.parse(process.env.GCP_SERVICE_ACCOUNT_KEY).project_id)')" = "$GCP_PROJECT_ID" || { echo "GCP_SERVICE_ACCOUNT_KEY project_id does not match GCP_PROJECT_ID"; exit 1; }
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: '${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}'
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Deploy Firebase rules
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        run: |
+          printf '%s' "$GCP_SERVICE_ACCOUNT_KEY" > "$RUNNER_TEMP/gcp-key.json"
+          export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/gcp-key.json"
+          npx --yes firebase-tools@15.32.1 deploy --only firestore:rules,storage --project "$GCP_PROJECT_ID" --non-interactive
+
+      - name: Ensure GCP production infrastructure
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          CLOUD_RUN_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+          CLOUD_RUN_SERVICE_ACCOUNT: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+        run: npm run gcp:ensure
+      - name: Ensure Cloud Tasks queue
+        env:
+          CLOUD_TASKS_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+        run: npm run cloudtasks:ensure
+      - name: Ensure production monitoring
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          CLOUD_RUN_SERVICE: ${{ secrets.CLOUD_RUN_SERVICE }}
+          MONITORING_ALERT_EMAIL: ${{ secrets.MONITORING_ALERT_EMAIL }}
+        run: npm run monitoring:ensure
+      - name: Deploy Cloud Run
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          CLOUD_RUN_SERVICE: ${{ secrets.CLOUD_RUN_SERVICE }}
+          CLOUD_RUN_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+          CLOUD_RUN_SERVICE_ACCOUNT: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT }}
+          APP_URL: ${{ secrets.APP_URL }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          CLEANUP_SECRET: ${{ secrets.CLEANUP_SECRET }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+          CLOUD_TASKS_DISPATCH_SECRET: ${{ secrets.CLOUD_TASKS_DISPATCH_SECRET }}
+          TRUST_PROXY: ${{ secrets.TRUST_PROXY }}
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+        run: npm run deploy:cloudrun
+      - name: Verify deployed service
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          CLEANUP_SECRET: ${{ secrets.CLEANUP_SECRET }}
+          SMOKE_RUN_SOLVER: 'true'
+          SMOKE_RUN_CLEANUP: 'true'
+          SMOKE_TIMEOUT_MS: '180000'
+        run: npm run production:smoke
+      - name: Verify abuse controls
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          ABUSE_CONCURRENCY: '50'
+        run: npm run abuse:smoke
+      - name: Apply and verify lifecycle
+        env:
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+        run: npm run storage:lifecycle && npm run storage:lifecycle:check

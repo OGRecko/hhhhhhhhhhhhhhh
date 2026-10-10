@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dali-oberon-9",
+    "model_check": "Oberon 9",
+    "source": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90.5, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 9, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 26000 }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact DALI OBERON Series manual technical-specifications table (Table 2, p. 45), manufacturer-authored DALI A/S content mirrored at the cited URL; the table has an explicit OBERON 9 column. It gives 35–26,000 Hz ±3 dB, 90.5 dB at 1 m for 2.83 V, 4 ohms nominal, two 9-inch low-frequency drivers, one 7-inch low/mid driver, and one 29 mm soft-dome high-frequency driver. The stored woofer value represents the two published 9-inch woofers; the distinct 7-inch midrange is retained here, not substituted as a woofer. Driver count is the exact sum of the listed LF/MF and HF transducers (4). The manual specifies a single-wire connection, external amplifier connection instructions, and 50–400 W recommended amplifier power, supporting passive operation; the recommended amplifier range is not speaker power handling and power remains N/A. The table also lists a 31 Hz bass-reflex tuning frequency, which is not driver resonant frequency (Fs), so resonantFreq remains N/A. Published bounds are not a measured response curve, and the source does not supply response points or a polar/directivity dataset. Sensitivity reference is retained for impedance-aware normalization. Source: https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf."
+  }
+]

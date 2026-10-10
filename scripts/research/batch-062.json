@@ -1,0 +1,77 @@
+[
+  {
+    "id": "monitor-audio-creator-c1m",
+    "model_check": "Creator C1M",
+    "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "power": { "value": 65, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 7, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Manufacturer specification for the exact Creator C1M: installed frequency-response limits 35 Hz–30 kHz (-6 dB); sensitivity 86 dB at 2.83 Vrms/1 m, installed; nominal impedance 8 ohm; continuous power handling 65 W RMS into nominal impedance with pink noise and 6 dB crest factor; one 7-inch C-CAM mid-bass driver and one 1-inch C-CAM tweeter (2 drive units). The structured response field stores only the published installed -6 dB limits; no response curve or directivity data is inferred. Sensitivity reference is retained as 2.83Vrms/1m for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/"
+  },
+  {
+    "id": "monitor-audio-creator-c2m",
+    "model_check": "Creator C2M",
+    "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "power": { "value": 75, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 7, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Manufacturer specification for the exact Creator C2M: installed frequency-response limits 35 Hz–35 kHz (-6 dB); sensitivity 86 dB at 2.83 Vrms/1 m, installed; nominal impedance 8 ohm; continuous power handling 75 W RMS into nominal impedance with pink noise and 6 dB crest factor; one 7-inch RST II mid-bass driver and one 1-inch C-CAM tweeter (2 drive units). The structured response field stores only the published installed -6 dB limits; no response curve or directivity data is inferred. Sensitivity reference is retained as 2.83Vrms/1m for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/"
+  },
+  {
+    "id": "monitor-audio-creator-c3m",
+    "model_check": "Creator C3M",
+    "source": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "power": { "value": 120, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 7, "unit": "in" },
+      "frequencyResponse": { "low_hz": 45, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Manufacturer specification for the exact Creator C3M: installed frequency-response limits 45 Hz–35 kHz (-6 dB); sensitivity 87 dB at 2.83 Vrms/1 m, installed; nominal impedance 6 ohm; continuous power handling 120 W RMS into nominal impedance with pink noise and 6 dB crest factor; one 7-inch RDT III bass driver, one 4-inch IDC II midrange driver, and one 1-inch IDC II tweeter (3 drive units). The structured response field stores only the published installed -6 dB limits; no response curve or directivity data is inferred. Sensitivity reference is retained as 2.83Vrms/1m for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/"
+  },
+  {
+    "id": "monitor-audio-platinum-100-3g",
+    "model_check": "Platinum 100 3G",
+    "source": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6, "unit": "in" },
+      "frequencyResponse": { "low_hz": 37, "high_hz": 60000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Manufacturer specification for the exact Platinum 100 3G: free-field frequency-response limits 37 Hz–60 kHz (-6 dB); sensitivity 85 dB at 2.83 Vrms/1 m, free-field; nominal impedance 4 ohm; continuous power handling 150 W RMS into 4 ohm with pink noise and 6 dB crest factor; one 6-inch RDT III bass driver and one MPD III tweeter (2 drive units). The manufacturer separately lists in-room limits of 28 Hz–60 kHz (-6 dB); the structured response field stores the free-field limits only so that contexts are not combined. No response curve or directivity data is inferred. Sensitivity reference is retained as 2.83Vrms/1m for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/"
+  },
+  {
+    "id": "monitor-audio-platinum-200-3g",
+    "model_check": "Platinum 200 3G",
+    "source": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83Vrms/1m" },
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6, "unit": "in" },
+      "frequencyResponse": { "low_hz": 32, "high_hz": 60000 }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Manufacturer specification for the exact Platinum 200 3G: free-field frequency-response limits 32 Hz–60 kHz (-6 dB); sensitivity 88 dB at 2.83 Vrms/1 m, free-field; nominal impedance 4 ohm; continuous power handling 300 W RMS into 4 ohm with pink noise and 6 dB crest factor; two 6-inch RDT III bass drivers, one 4-inch RDT III midrange driver, and one MPD III tweeter (4 drive units). The manufacturer separately lists in-room limits of 23 Hz–60 kHz (-6 dB); the structured response field stores the free-field limits only so that contexts are not combined. No response curve or directivity data is inferred. Sensitivity reference is retained as 2.83Vrms/1m for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/"
+  }
+]

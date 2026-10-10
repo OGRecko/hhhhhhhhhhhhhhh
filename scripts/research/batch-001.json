@@ -1,0 +1,8 @@
+[
+ {"id":"genelec-1032a","model_check":"1032A","source":"https://assets.ctfassets.net/4zjnzn055a4v/5C4rCdOHwAIWM6yoQ24s6q/4091d26f60d3e5e1669800d8fdc1f625/1032A_datasheet.pdf","sourceType":"MANUFACTURER",
+  "fields":{"frequencyResponse":{"low_hz":42,"high_hz":21000},"power":{"value":300,"unit":"W","role":"amplifier_output"},"woofer":{"value":10,"unit":"in"}},
+  "notes":"Genelec 1032A official datasheet (BBA32001a, 6.2000): free-field response 42 Hz–21 kHz ±2.5 dB; bass amplifier 180 W (4 Ω) + treble amplifier 120 W (8 Ω) short-term, summed per the 1031A convention (300 W); 10 in bass driver + 1 in metal dome; crossover 1.8 kHz. No sensitivity or passive impedance is published for this powered monitor; those stay N/A."},
+ {"id":"genelec-1029a","model_check":"1029A","source":"https://assets.ctfassets.net/4zjnzn055a4v/7547Y1zhZuQeaO68yMCYGe/98dd2e2995803eae08cddc2709797e38/1029A_datasheet.pdf","sourceType":"MANUFACTURER",
+  "fields":{"frequencyResponse":{"low_hz":70,"high_hz":18000},"power":{"value":80,"unit":"W","role":"amplifier_output"},"woofer":{"value":5,"unit":"in"}},
+  "notes":"Genelec 1029A official datasheet (BBA29001a, 1.2003): free-field response 70 Hz–18 kHz ±2.5 dB; bass 40 W + treble 40 W amplifiers into 8 Ω, summed per the 1031A convention (80 W); 5 in bass driver + 3/4 in metal dome; crossover 3.3 kHz. No sensitivity or passive impedance is published for this powered monitor; those stay N/A."}
+]

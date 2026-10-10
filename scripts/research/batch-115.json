@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dbtechnologies-opera-405",
+    "model_check": "Opera 405",
+    "source": "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 18000 },
+      "power": { "value": 300, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 15, "unit": "in" },
+      "voiceCoil": { "value": 2.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true, "panel": false },
+    "notes": "The catalog's bare “Opera 405” label is resolved to the unsuffixed analog dB Technologies OPERA Live 405: the exact-title “DB TECHNOLOGIES Opera 405” product listing identifies that bare name, while the manufacturer-authored OPERA LIVE manual/brochure lists model 405 in the OPERA LIVE family. The distinct later digital model is explicitly OPERA 405D; no D-series specifications are transferred. The exact Live 405 manual describes a two-way bi-amplified active system: one 15-inch LF woofer with 2.5-inch voice coil and one 1-inch compression driver with 1.5-inch voice coil; response 60 Hz–18 kHz (no tolerance stated); and 250 W LF + 50 W HF RMS internal amplifier output, stored as their 300 W sum with role amplifier_output—not passive loudspeaker power handling. The separate 500 W LF + 100 W HF “musical section power” is not stored as RMS output. The manual's “input sensitivity” is a mic/line switch (-40 dB/0 dB), not acoustic sensitivity; listed 30 kΩ/1.2 kΩ balanced and 15 kΩ/600 Ω unbalanced values are LINE/MIC input impedances, not loudspeaker impedance. Sensitivity, system impedance, Fs, and response points remain N/A. The Live-series brochure states 90° × 60° nominal coverage, but supplies no exact-model polar dataset, so no directivity curve is imported. Sources: https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6 ; https://warehousesound.com/r/dbtechnologiesOPERALIVE.pdf ; exact bare-name product listing: https://www.strumentimusicali.net/product_info.php/products_id/7665/db-technologies-opera-405.html ; distinct OPERA D manual: https://warehousesound.com/r/dbtechnologiesOPERADmanual.pdf."
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "rel-s812",
+    "model_check": "S/812",
+    "source": "https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 800, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" },
+      "frequencyResponse": { "low_hz": 19, "high_hz": null }
+    },
+    "scalars": { "active": true },
+    "notes": "Exact REL Acoustics S/812 brochure. The REL-hosted PDF URL redirects to REL's current Shopify CDN asset (https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf). The brochure states front-firing active woofer plus down-firing passive radiator, a 12 in active driver, low-frequency extension of -6 dB at 19 Hz, and 800 W RMS output from a NextGen5 Class D amplifier. The stored power role is integrated amplifier output, not passive-speaker power handling. Only the published low-frequency extension is stored; no upper limit, passive impedance, or sensitivity is supplied by the brochure, so those fields remain N/A. Driver count remains unknown because the sheet distinguishes one active woofer from one passive radiator and the database count field does not encode that distinction. No response points or directivity data are imported. Source: https://rel.net/wp-content/uploads/2019/08/S812-brochure.pdf."
+  }
+]

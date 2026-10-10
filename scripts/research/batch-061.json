@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bw-802-original",
+    "model_check": "802 (1979 original)",
+    "source": "https://www.bowerswilkins.com/en-us/product-archive.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {},
+    "fields": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the catalog label ‘802 (1979 original)’ could not be matched to one exact Bowers & Wilkins model/revision. B&W’s official history identifies the original 801 as the model launched in 1979; its official archive lists separate 802 products including 802 FS, Nautilus 802, 802 D, 802 D3, 802 Diamond, and 802 S3. The exact B&W 802 FS information sheet is explicitly for 802 FS and does not establish that it is the intended database model. No sibling/revision values are transferred; all physical and acoustic fields remain N/A pending exact identity confirmation. Sources: https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html; https://www.bowerswilkins.com/en-us/product-archive.html; https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw67ce08f7/archive-manuals/eng_ft00005_802fs_info_sheet.pdf."
+  }
+]

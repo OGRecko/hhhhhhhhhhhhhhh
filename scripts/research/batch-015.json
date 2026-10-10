@@ -1,0 +1,10 @@
+[
+ {"id":"meyer-sound-leopard","model_check":"LEOPARD","source":"https://docs.meyersound.com/pdf/leopard_ds_e2.pdf","sourceType":"MANUFACTURER",
+  "fields":{"woofer":{"value":9,"unit":"in"}},
+  "scalars":{"driverCount":3,"active":true},
+  "notes":"Meyer Sound LEOPARD datasheet (PN 04.243.004.02 E2, 2021), LEOPARD column (not LEOPARD-M80). Self-powered; LF two 9 in long-excursion cone drivers (2 ohm nominal), HF one 3 in compression driver on a constant-directivity horn (4 ohm nominal) = 3 drivers; 3-channel class D, 3900 W peak total; operating frequency range 55 Hz-18 kHz and 110 deg horizontal coverage; maximum SPL 142 dB (free-field, 4 m referred to 1 m); 75 lb / 34.0 kg. NOT stored: frequency response (Meyer publishes a 'recommended maximum operating frequency range' with no dB window, which does not match the dataset's -6 dB limit convention) and power (3900 W is a peak amplifier figure). No sensitivity published (active). No response dataset or directivity file imported."},
+ {"id":"meyer-sound-lina","model_check":"LINA","source":"https://docs.meyersound.com/pdf/lina_ds_b2.pdf","sourceType":"MANUFACTURER",
+  "fields":{"woofer":{"value":6.5,"unit":"in"}},
+  "scalars":{"driverCount":3,"active":true},
+  "notes":"Meyer Sound LINA datasheet (PN 04.270.004.02 B2, 2021). Self-powered; LF two 6.5 in long-excursion cone drivers (4 ohm nominal), HF one 3 in compression driver on a constant-directivity horn (8 ohm nominal) = 3 drivers; 3-channel class D, 1950 W peak total; operating frequency range 65 Hz-18 kHz and 100 deg horizontal coverage; maximum SPL 138 dB (free-field, 4 m referred to 1 m); 43 lb / 19.5 kg. NOT stored: frequency response (no dB window published) and power (peak amplifier figure). No sensitivity published (active). No response dataset or directivity file imported."}
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "polk-rti-a7",
+    "model_check": "RTi A7",
+    "source": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 26000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Polk's exact archived RTi A7 specification lists 89 dB sensitivity at 1 W/1 m, nominal impedance 8 ohms, two 7-inch subwoofer drivers, one 6.5-inch midrange, and one 1-inch tweeter (four drivers total). The manufacturer gives total response as 20 Hz–27 kHz and separately labels 35 Hz–26 kHz as the lower/upper -3 dB limits; the structured bounds use the explicitly labeled -3 dB limits, not the wider total response. The 20–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The page supplies no resonant frequency or voice-coil diameter. No response points or directivity data are imported. Source: https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html"
+  },
+  {
+    "id": "polk-rc85i",
+    "model_check": "RC85i",
+    "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 30, "high_hz": 20000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "The Polk RCi-series owner's-manual specification table has a distinct RC85i column: 30 Hz–20 kHz frequency response, 90 dB efficiency at 1 W/1 m, one 8-inch mineral-filled polypropylene mid-bass cone, and one 1-inch soft-dome swivel-mount tweeter. The manual does not state a response tolerance or measurement condition, so these endpoints are not described as ±3 dB and are not response-curve points. It lists 20–100 W RMS recommended power and compatibility with 8-ohm amplifiers; recommended amplifier power is not speaker power handling, and amplifier compatibility is not treated as a published nominal impedance, so those fields remain N/A. Resonant frequency and voice-coil diameter remain N/A; no directivity data are imported. Source: https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf"
+  },
+  {
+    "id": "polk-signature-s50",
+    "model_check": "Signature S50",
+    "source": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 33, "high_hz": 40000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Polk's exact archived Signature S50 product specification lists total frequency response 33 Hz–40 kHz, sensitivity 89 dB at 1 W/1 m, and a driver complement of two 5.25-inch mid/woofers plus one 1-inch tweeter. The response endpoints are the published total-response range; no tolerance or measurement condition is stated, and no response points or directivity data are imported. The 20–150 W figure is recommended amplifier power rather than speaker power handling, so power remains N/A. The product page does not state nominal impedance, resonant frequency, or voice-coil diameter; those remain N/A. Source: https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html"
+  },
+  {
+    "id": "polk-signature-s15",
+    "model_check": "Signature S15",
+    "source": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "unspecified by source" },
+      "frequencyResponse": { "low_hz": 50, "high_hz": 40000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Polk's official Signature Series information sheet has a model-specific S15 specification table: 50 Hz–40 kHz overall response, 88 dB sensitivity (the sheet does not state its drive or distance reference), a 5.25-inch mid-bass driver, and a 1-inch tweeter. Sensitivity is retained with its reference explicitly marked unspecified, so simulation must use the neutral fallback rather than interpreting it as 1 W/1 m or 2.83 V/1 m. The sheet's 20–100 W figure is recommended amplification, not speaker power handling. It describes compatibility with 8-ohm outputs but does not give a nominal impedance; impedance remains N/A. The response has no stated tolerance/measurement condition; no response points or directivity data are imported. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf"
+  },
+  {
+    "id": "polk-audio-reserve-r100",
+    "model_check": "Reserve R100",
+    "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 58, "high_hz": 39000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Polk's exact Reserve R100 specification table lists sensitivity 86 dB at 2.83 V/1 m, a 5.25-inch Turbine Cone woofer and one 1-inch Pinnacle Ring Radiator tweeter, overall response 44 Hz–50 kHz, and frequency-response (-3 dB limits) 58 Hz–39 kHz. The structured bounds use the explicitly labeled -3 dB limits; measurement conditions are not stated, and no response points or directivity data are imported. The source lists 30–150 W recommended amplifier power, amplifier-output compatibility with 8/6/4-ohm outputs, and 3.6-ohm minimum impedance; it does not publish nominal impedance, so impedance remains N/A and the 2.83 V sensitivity is not converted to 1 W. Recommended amplifier power is not speaker power handling, so power remains N/A. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html"
+  },
+  {
+    "id": "polk-audio-reserve-r200",
+    "model_check": "Reserve R200",
+    "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 51, "high_hz": 38000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Polk's exact Reserve R200 specification table lists sensitivity 86 dB at 2.83 V/1 m, a 6.5-inch Turbine Cone woofer and one 1-inch Pinnacle Ring Radiator tweeter, overall response 39 Hz–50 kHz, and frequency-response (-3 dB limits) 51 Hz–38 kHz. The structured bounds use the explicitly labeled -3 dB limits; measurement conditions are not stated, and no response points or directivity data are imported. The source lists 30–200 W recommended amplifier power, amplifier-output compatibility with 8/6/4-ohm outputs, and 3.8-ohm minimum impedance; it does not publish nominal impedance, so impedance remains N/A and the 2.83 V sensitivity is not converted to 1 W. Recommended amplifier power is not speaker power handling, so power remains N/A. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html"
+  },
+  {
+    "id": "polk-audio-signature-elite-es15",
+    "model_check": "Signature Elite ES15",
+    "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 44, "high_hz": 40000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Polk's exact Signature Elite ES15 product specification lists total response 44 Hz–40 kHz, sensitivity 85 dB at 2.83 V/1 m, one 5.25-inch Dynamic Balance mica-reinforced polypropylene driver and one 1-inch Terylene tweeter. Its 20–100 W figure is recommended amplifier power, not speaker power handling, and the published compatibility with 8-ohm outputs is not treated as nominal impedance; power and impedance remain N/A. The response has no stated tolerance/measurement condition and is stored only as manufacturer-published bounds, not curve points. No directivity data, resonant frequency, or voice-coil diameter is published/imported. Source: https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html"
+  },
+  {
+    "id": "polk-audio-signature-elite-es20",
+    "model_check": "Signature Elite ES20",
+    "source": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 41, "high_hz": 40000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Polk's exact Signature Elite ES20 product specification lists total response 41 Hz–40 kHz, sensitivity 86 dB at 2.83 V/1 m, one 6.5-inch Dynamic Balance mica-reinforced polypropylene driver and one 1-inch Terylene tweeter. Its 20–125 W figure is recommended amplifier power, not speaker power handling, and the published compatibility with 4- and 8-ohm outputs is not treated as nominal impedance; power and impedance remain N/A. The response has no stated tolerance/measurement condition and is stored only as manufacturer-published bounds, not curve points. No directivity data, resonant frequency, or voice-coil diameter is published/imported. Source: https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html"
+  }
+]

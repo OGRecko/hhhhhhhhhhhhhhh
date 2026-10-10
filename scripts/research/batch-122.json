@@ -1,0 +1,32 @@
+[
+  {
+    "id": "jl-audio-10w0v3",
+    "model_check": "10W0v3",
+    "source": "https://www.garmin.com/en-US/p/1666237/pn/010-03039-00/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Individual exact-identity review: the unsuffixed catalog model '10W0v3' is not the full manufacturer SKU. The current JL Audio/Garmin listing explicitly names the 10-inch single-4-ohm product 10W0v3-4 (part number 010-03039-00); JL Audio's owner's-manual table likewise identifies its documented model as 10WØv3-4. The available evidence establishes the suffixed variant, not that the catalog's shortened string denotes that exact SKU or revision. Therefore no -4-specific power, impedance, sensitivity, resonance, diameter, voice-coil, response, or directivity values are assigned; all unsupported fields remain N/A and identity status is UNAVAILABLE. The manual is JL-authored but hosted by a reseller; the SKU identity is independently corroborated by the current manufacturer/Garmin listing. Sources: https://www.garmin.com/en-US/p/1666237/pn/010-03039-00/ ; https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf."
+  },
+  {
+    "id": "jl-audio-12w0v3",
+    "model_check": "12W0v3",
+    "source": "https://www.garmin.com/en-US/p/1666237/pn/010-03040-00/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Individual exact-identity review: the unsuffixed catalog model '12W0v3' is not the full manufacturer SKU. The current JL Audio/Garmin listing explicitly names the 12-inch single-4-ohm product 12W0v3-4 (part number 010-03040-00); JL Audio's owner's-manual table likewise identifies its documented model as 12WØv3-4. The available evidence establishes the suffixed variant, not that the catalog's shortened string denotes that exact SKU or revision. Therefore no -4-specific power, impedance, sensitivity, resonance, diameter, voice-coil, response, or directivity values are assigned; all unsupported fields remain N/A and identity status is UNAVAILABLE. The manual is JL-authored but hosted by a reseller; the SKU identity is independently corroborated by the current manufacturer/Garmin listing. Sources: https://www.garmin.com/en-US/p/1666237/pn/010-03040-00/ ; https://www.customsounds.com/uploads/docs/6701ce5b41180ad749fd5ed190e4d4992bcde6b9.pdf."
+  },
+  {
+    "id": "jl-audio-13w7ae",
+    "model_check": "13W7AE",
+    "source": "https://www.garmin.com/en-US/p/1669677/pn/010-03032-00/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Individual exact-identity review: the unsuffixed catalog model '13W7AE' is not the full manufacturer SKU. The current JL Audio/Garmin listing identifies the 13-inch product as 13W7AE-D1.5, a dual-1.5-ohm variant (part number 010-03032-00), and JL Audio's owner's-manual specification table is headed 13W7AE-D1.5. The listing confirms that the W7AE family spans multiple diameters; it does not establish that this unqualified catalog row denotes that specific SKU/revision. No D1.5-specific power, impedance, sensitivity, resonance, diameter, voice-coil, response, or directivity values are assigned; unsupported fields remain N/A and identity status is UNAVAILABLE. The manual is JL-authored but hosted by a reseller; the exact SKU is independently corroborated by the current manufacturer/Garmin listing. Sources: https://www.garmin.com/en-US/p/1669677/pn/010-03032-00/ ; https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf."
+  }
+]

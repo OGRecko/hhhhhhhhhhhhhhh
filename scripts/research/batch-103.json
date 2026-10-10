@@ -1,0 +1,58 @@
+[
+  {
+    "id": "yamaha-ns500",
+    "model_check": "NS-500 (vintage two-way model; not NS-500M, NS-F500, or NS-5000)",
+    "source": "https://audio-heritage.jp/YAMAHA/speaker/ns-500.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 20000 },
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 60, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 25, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": null },
+    "secondarySources": ["https://www.hifiengine.com/manual_library/yamaha/ns-500.shtml"],
+    "notes": "Audio Heritage identifies an exact NS-500 two-way/two-speaker bass-reflex bookshelf system and publishes a 25 cm woofer, 40 Hz–20 kHz playback band (tolerance unspecified), 91 dB/W/m, 8 ohms, and 60 W maximum allowable input. HiFi Engine corroborates the model and most ratings but labels 30 W as 'Power Handling'; that distinct label is retained in the note, not substituted for the explicit 60 W maximum allowable input. Available date descriptions are approximate/inconsistent, so year remains N/A. No response curve, directivity, resonance, or voice-coil dimension is imported."
+  },
+  {
+    "id": "legacy-yam-2",
+    "model_check": "NS-10M, original 1978 model only (not Studio/Pro/MC/MX/MT)",
+    "source": "https://audio-database.com/YAMAHA/speaker/ns-10m.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 50, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "year": 1978, "driverCount": 2, "active": null },
+    "fieldSources": {
+      "year": "https://usa.yamaha.com/products/contents/proaudio/hs_series_story/index.html",
+      "driverCount_impedance": "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
+      "woofer": "https://usa.yamaha.com/products/contents/audio_visual/hifi_components/hifi-history/speaker/index.html"
+    },
+    "notes": "Yamaha's official history identifies the 1978 original as a two-way speaker with an 18 cm woofer; the fetched exact-model text does not explicitly establish powered/passive status, so active remains N/A. Audio Database lists 90 dB/W/m, 25 W rated input, and 50 W max input. The 50 W maximum is stored as allowable input, not amplifier output. Response remains N/A because Yamaha Hub states 85 Hz–20 kHz for the original NS-10M while the exact-model Audio Database table states 60 Hz–20 kHz. The listed 27 mm voice coil belongs to the tweeter, not the LF woofer represented by the single voiceCoil field. No response curve/directivity is imported."
+  },
+  {
+    "id": "legacy-yam-3",
+    "model_check": "NS-690, original 1973 generation only (not NS-690 II or III)",
+    "source": "https://audio-database.com/YAMAHA/speaker/ns-690.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 20000 },
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 60, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "resonantFreq": { "value": 40, "unit": "Hz" },
+      "woofer": { "value": 30, "unit": "cm" }
+    },
+    "scalars": { "year": 1973, "driverCount": 3, "active": null },
+    "fieldSources": {
+      "year_woofer": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
+      "driverCount_frequencyResponse_sensitivity_power_impedance_resonantFreq": "https://audio-database.com/YAMAHA/speaker/ns-690.html"
+    },
+    "secondarySources": ["https://www.hifiengine.com/manual_library/yamaha/ns-690.shtml#I"],
+    "notes": "Yamaha's official history identifies the original NS-690 as a 1973, 30 cm, three-way bookshelf speaker, and separately dates NS-690 II to 1976 and NS-690 III to 1980; no later-generation data is transferred. Audio Database publishes the exact-model playback band, 90 dB/W/m (new JIS), 8 ohms, 60 W maximum allowable input, 40 Hz lowest resonance, and a 66-phi woofer voice-coil bobbin; the source does not state its unit, so voice-coil diameter remains unavailable rather than being interpreted as millimetres. HiFi Engine's I section lists 96 dB without a measurement reference; this is not substituted for the explicit 90 dB/W/m value. The published response-range tolerance is unspecified. No response curve or directivity is imported."
+  }
+]

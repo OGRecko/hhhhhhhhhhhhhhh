@@ -1,0 +1,67 @@
+[
+  {
+    "id": "jbl-charge5",
+    "model_check": "Charge 5",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 20000 }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model JBL Charge 5 manufacturer specification sheet (©2020). It specifies a 60 Hz–20 kHz frequency response (no dB tolerance stated), a 52 × 90 mm racetrack woofer, a 20 mm tweeter, two passive bass radiators, 30 W RMS woofer output plus 10 W RMS tweeter output, and a rechargeable battery/Bluetooth portable system. driverCount is two active transducers; the passive radiators are not counted as drivers. The scalar power field remains N/A because the sheet publishes separate woofer/tweeter amplifier ratings rather than a single total in the field’s structure; no total is derived. The racetrack woofer’s two dimensions are not compressed into a circular inch-size field. Sensitivity and passive-speaker impedance are not specified. No response points or directivity data are imported. Source: https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf."
+  },
+  {
+    "id": "jbl-flip6",
+    "model_check": "Flip 6",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 63, "high_hz": 20000 }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model JBL Flip 6 manufacturer specification sheet (©2021). It specifies 63 Hz–20 kHz frequency response (no dB tolerance stated), a 45 × 80 mm racetrack woofer, a 16 mm tweeter, two passive bass radiators, 20 W RMS woofer output plus 10 W RMS tweeter output, and a rechargeable battery/Bluetooth portable system. driverCount is two active transducers; the passive radiators are not counted as drivers. The scalar power field remains N/A because the sheet publishes separate woofer/tweeter amplifier ratings rather than one total rating in the field’s structure; no total is derived. The racetrack woofer’s two dimensions are not compressed into a circular inch-size field. Sensitivity and passive-speaker impedance are not specified. No response points or directivity data are imported. Source: https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf."
+  },
+  {
+    "id": "jbl-partybox-1000",
+    "model_check": "PartyBox 1000",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 30, "high_hz": 20000 },
+      "power": { "value": 1100, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact JBL PartyBox 1000 Quick Start Guide. It specifies a 30 Hz–20 kHz response at -6 dB, total built-in amplifier output of 1100 W, one 12-inch subwoofer, two 7-inch midrange drivers, and one compression driver (four transducers); the system is powered from AC and has an internal amplifier. The 1100 W value is recorded as amplifier output, not passive speaker power handling. The guide lists 3-ohm subwoofer, 4-ohm midrange, and 4-ohm compression-driver impedances; because the system has distinct driver impedances, no single nominal impedance is entered. The separately listed 150 W AC power consumption is not substituted for amplifier output. Sensitivity, voice-coil size, response points, and directivity remain N/A. Source: https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf."
+  },
+  {
+    "id": "legacy-jbl-11",
+    "model_check": "Control 25",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/products/control-25",
+    "fields": {
+      "frequencyResponse": { "low_hz": 80, "high_hz": 16000 },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact discontinued JBL Control 25 product page, corroborated by the linked Control 25 spec sheet (updated October 2020; https://jblpro.com/en-US/site_elements/control-25-spec-sheet). The sheet specifies 80 Hz–16 kHz at -10 dB (half-space/on-wall), 88 dB SPL at 1 W/1 m (half-space/on-wall average 100 Hz–10 kHz), 150 W continuous program power (the product page also lists 75 W continuous pink noise), 8-ohm nominal impedance, a 135 mm (5.25 in) LF woofer and a separate 19 mm (0.75 in) HF tweeter (two drivers). JBL's Control Series Passive Speakers declaration explicitly includes Control 25, supporting active=false (https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf). No voice-coil dimension is asserted. The spec sheet includes response and directivity tables/charts, but its single SPL table is not unambiguously mapped to the adjacent half-space/full-space curves in the available extraction, and its partial beamwidth/off-axis data do not form a supported full polar payload. No response points or directivity are imported; nominal 90° × 90° coverage is not converted into a radiation shape. Sources: https://jblpro.com/en-US/products/control-25; https://jblpro.com/en-US/site_elements/control-25-spec-sheet; https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf."
+  },
+  {
+    "id": "jbl-k2-s9900",
+    "model_check": "K2 S9900",
+    "sourceType": "MANUFACTURER",
+    "source": "https://global.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw168a89f9/pdfs/JBL%20Project%20K2%209900%20Data%20Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 48, "high_hz": 50000 },
+      "sensitivity": { "value": 93, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" },
+      "voiceCoil": { "value": 100, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact JBL Project K2 S9900 manufacturer data sheet (©2009), corroborated by the current exact-model JBL page and owner’s manual. The data sheet specifies 48 Hz–50 kHz (-6 dB), 93 dB sensitivity at 2.83 V/1 m, 8-ohm nominal impedance (minimum 7 ohms at 100 Hz and 4 ohms at 40 kHz), and three transducers: a 15-inch pulp-cone 1500AL-1 woofer with a 100 mm voice coil, a 4-inch 476Mg magnesium compression driver, and a 1-inch 045Be-1 ultra-high-frequency compression driver. The exact 100 mm coil dimension is retained in millimetres as published. Maximum recommended amplifier power is 500 W, not speaker power handling, so the power field remains N/A. The product requires external amplification/crossover and has a normal/bi-amp mode; it is passive, not a powered loudspeaker. Published 100° × 60° HF and 60° × 30° UHF coverage are not converted into directivity data. The owner’s manual contains response graphics but no numeric point table is imported. Sources: https://global.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw168a89f9/pdfs/JBL%20Project%20K2%209900%20Data%20Sheet.pdf; https://global.jbl.com/K2+S9900-.html; https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwba790e54/pdfs/K2_S9900_OM_EN.pdf."
+  }
+]

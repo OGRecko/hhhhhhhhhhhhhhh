@@ -1,0 +1,86 @@
+[
+  {
+    "id": "focal-kanta-n-1",
+    "model_check": "Kanta N°1",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/kanta-n-1/fp_kantan-1_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 46, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Focal Kanta N°1 Product Data Sheet (2024, v4). It specifies a passive two-way bass-reflex bookshelf loudspeaker with one 6.5-inch Flax bass/midrange driver and one 27 mm IAL3 pure-Beryllium tweeter. Published response is 46 Hz–40 kHz (±3 dB), low-frequency point 42 Hz (-6 dB), sensitivity 88 dB (2.83 V/1 m), nominal impedance 8 ohms and minimum impedance 3.9 ohms. The sensitivity reference and nominal impedance are retained exactly for impedance-dependent conversion. The 25–150 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/kanta-n-1/fp_kantan-1_en.pdf."
+  },
+  {
+    "id": "focal-kanta-n-3",
+    "model_check": "Kanta N°3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/kanta-n-3/fp_kanta_n-3_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 33, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Kanta N°3 Product Data Sheet. It specifies a passive three-way bass-reflex floorstander with two 8-inch Flax bass drivers, one 6.5-inch Flax midrange driver and one 27 mm IAL3 pure-Beryllium tweeter (four drivers total). Response is 33 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 26 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–400 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/kanta-n-3/fp_kanta_n-3_en.pdf."
+  },
+  {
+    "id": "focal-sopra-n-1",
+    "model_check": "Sopra N°1",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Focal Sopra N°1 Product Data Sheet. It specifies a passive two-way bass-reflex bookshelf loudspeaker with one 6.5-inch W-cone bass/midrange driver and one 27 mm IHL pure-Beryllium inverted-dome tweeter. Response is 45 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 41 Hz, sensitivity is 89 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.9 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 25–150 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf."
+  },
+  {
+    "id": "focal-sopra-n-2",
+    "model_check": "Sopra N°2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 34, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Sopra N°2 Product Sheet. It specifies a passive three-way bass-reflex floorstander with two 7-inch (18 cm) W-cone woofers, one 6.5-inch W-cone midrange driver and one 27 mm IHL Beryllium tweeter (four drivers total). Response is 34 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 28 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.1 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf."
+  },
+  {
+    "id": "focal-sopra-n-3",
+    "model_check": "Sopra N°3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/sopra-n-3/fp_sopra_n3_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 33, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 91.5, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 8.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Sopra N°3 Product Data Sheet. It specifies a passive three-way bass-reflex floorstander with two 8¼-inch (21 cm) W-cone woofers, one 6.5-inch W-cone midrange driver and one 27 mm IHL pure-Beryllium tweeter (four drivers total). Response is 33 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 26 Hz, sensitivity is 91.5 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.1 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–400 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sopra-n-3/fp_sopra_n3_en.pdf."
+  },
+  {
+    "id": "focal-chora-826",
+    "model_check": "Chora 826",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dam.focal-naim.com/m/5b74d69b5e450e5b/original/FP_Chora826_GB-pdf.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 48, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Chora 826 Product Data Sheet. It specifies a passive three-way bass-reflex floorstander with two 6.5-inch Slatefiber woofers, one 6.5-inch Slatefiber midrange driver and one 1-inch TNF Al/Mg inverted-dome tweeter (four drivers total). Response is 48 Hz–28 kHz (±3 dB), the -6 dB low-frequency point is 39 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 2.9 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–250 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://dam.focal-naim.com/m/5b74d69b5e450e5b/original/FP_Chora826_GB-pdf.pdf."
+  }
+]

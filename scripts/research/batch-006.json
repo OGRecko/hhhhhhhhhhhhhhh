@@ -1,0 +1,24 @@
+[
+ {
+  "id": "genelec-8361a",
+  "model_check": "8361A",
+  "source": "https://www.genelec.com/8361a",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 30,
+    "high_hz": 43000
+   },
+   "power": {
+    "value": 1000,
+    "unit": "W",
+    "role": "amplifier_output"
+   }
+  },
+  "scalars": {
+   "driverCount": 4,
+   "active": true
+  },
+  "notes": "Genelec official 8361A page (https://www.genelec.com/8361a), exact model 8361A (variants 8361AP/AM/AW are colour options of the same model). Frequency response: 30 Hz\u201343 kHz at the -6 dB cutoff points (stored limits); 36 Hz\u201320 kHz within \u00b11.5 dB is also published. Amplifiers: 700 W bass + 150 W midrange + 150 W treble, all Class D; the stored 1000 W is the sum of those three published ratings. Drivers: two 263 x 137 mm obround bass cones (count 2) + one 130 mm coaxial midrange + one 25 mm coaxial treble = 4 drivers; crossover 320 Hz / 2800 Hz; reflex-port die-cast aluminium enclosure; 593 x 357 x 347 mm with Iso-Pod; 31.9 kg; peak SPL >=124 dB, short-term >=118 dB. Woofer size is left N/A because the bass drivers are obround, not round (no single honest diameter). Active monitor: no sensitivity or passive impedance is published. Genelec publishes CLF (https://assets.ctfassets.net/4zjnzn055a4v/6KHnixRmie8DrWCbGh6OlL/82346384e3cc6bc240e010163d33a440/8361A.CF2) and GLL (https://assets.ctfassets.net/4zjnzn055a4v/BSyaCbIQUTKM1d8rbc6lg/7199667c6ca6a2b766fe7c90c0d002b0/Genelec_8361A.gll) simulation files for this exact model; they are NOT imported yet (see SPEAKER-DATA-GAPS.md)."
+ }
+]

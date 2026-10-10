@@ -1,0 +1,22 @@
+[
+  {
+    "id": "peavey-sp2",
+    "model_check": "SP 2",
+    "source": "https://peavey.com/products/sp-2-1000-watt-2-way-pa-speaker",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Individual identity/revision review: the catalog label 'SP 2' has no year, suffix, SKU, or revision. Peavey's own sources document multiple non-interchangeable products under this naming family: an older SP 2X specification, several SP 2 specifications over time (including differing response limits and power tables), the separately powered SP 2P, and the current SP 2 115 listing. These sources do not establish which edition the unqualified row denotes. The current SP 2 115 page and archived SP 2 documents therefore are not used to populate this row; all unsupported acoustic fields remain N/A and identity status is UNAVAILABLE. Published beamwidth/coverage statements are not imported as angular polar data, and no response points/directivity curve are assigned. Sources: https://peavey.com/products/sp-2-1000-watt-2-way-pa-speaker ; https://peavey.com/2008/01/17/winter-namm-legendary-peavey-sp-series-loudspeakers-redesigned-for-even-more-durability/ ; https://peavey.com/2012/01/19/peavey-releases-the-toughest-sp-series-enclosures-ever/ ; https://assets.peavey.com/literature/manuals/sp2_specs.pdf ; https://assets.peavey.com/literature/manuals/80304850.pdf ; https://assets.peavey.com/literature/manuals/118801_31284.pdf ; https://assets.peavey.com/literature/manuals/118999_36461.pdf."
+  },
+  {
+    "id": "peavey-6505-412",
+    "model_check": "6505 412",
+    "source": "https://peavey.com/products/6505-reissue-412-straight-guitar-cabinet",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Individual exact-revision review: the row '6505 412' does not specify production year, speaker complement, Reissue designation, straight/slant cabinet, or SKU. Peavey documentation distinguishes at least three 6505 cabinet configurations: an archived 6505 cabinet with four Sheffield 1200 drivers and 300 W mono handling (2011 documentation), a 6505 model documented with four Celestion Greenback 25 speakers and 100 W mono handling, and the current 6505 Reissue 412 with four Sheffield 1230+ drivers and 300 W handling. The reissue is explicitly a current model and is not treated as the unqualified row. Because driver type and power handling vary across exact editions, none of those revision-specific values is transferred; unsupported fields remain N/A and this row is UNAVAILABLE until its revision/SKU is identified. No directivity or response dataset is assigned. Sources: https://assets.peavey.com/literature/manuals/116183_14326.pdf ; https://assets.peavey.com/literature/specs/116183_16124.pdf ; https://assets.peavey.com/literature/manuals/119280_38585.pdf ; https://peavey.com/products/6505-reissue-412-straight-guitar-cabinet ; https://peavey.com/product/6505-reissue-412-slant-guitar-cabinet/."
+  }
+]

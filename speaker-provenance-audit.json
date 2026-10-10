@@ -1,0 +1,74 @@
+{
+  "ok": true,
+  "records": 774,
+  "uniqueIds": 774,
+  "duplicateIds": 0,
+  "uniqueBrandModels": 774,
+  "duplicateBrandModels": 0,
+  "statusCounts": {
+    "PARTIALLY_VERIFIED": 626,
+    "UNVERIFIED": 74,
+    "UNAVAILABLE": 74
+  },
+  "sourceTypeCounts": {
+    "MANUFACTURER": 1519,
+    "NONE": 2948,
+    "REPUTABLE_DATABASE": 176,
+    "MEASUREMENT": 1
+  },
+  "responseCurveData": {
+    "embeddedJsonCurves": 27,
+    "embeddedCurveProvenance": {
+      "total": 27,
+      "manufacturer": 22,
+      "measurement": 5,
+      "reputable_database": 0
+    },
+    "embeddedCurveProblems": 0,
+    "declaredManufacturerCurves": 22,
+    "declaredMeasurementCurves": 5,
+    "declaredVerifiedDatabaseCurves": 0,
+    "physicallyModeledCurves": 747,
+    "knownCurveLibraryEntries": 0,
+    "genericReference": {
+      "total": 235,
+      "missingBothLimits": 229,
+      "missingLowOnly": 0,
+      "missingHighOnly": 6,
+      "modeledFromPublishedLimits": 512,
+      "explicitCurves": 27,
+      "speakers": 774
+    },
+    "categoryBasedSynthesisAbsent": true
+  },
+  "nullableFlags": {
+    "counts": {
+      "driverCount": {
+        "known": 612,
+        "unknown": 162,
+        "absent": 0,
+        "invalid": 0
+      },
+      "active": {
+        "known": 526,
+        "unknown": 248,
+        "absent": 0,
+        "invalid": 0
+      },
+      "panel": {
+        "known": 70,
+        "unknown": 704,
+        "absent": 0,
+        "invalid": 0
+      }
+    },
+    "legacyWithConcreteFlags": 0
+  },
+  "directivity": {
+    "embeddedSpeakerPolarData": 0,
+    "supportedBySolverWhenExplicitlySupplied": true
+  },
+  "problems": [],
+  "warnings": [],
+  "verificationNote": "Provenance labels are code/data declarations. Independent verification of cited manuals/measurements requires external source access and is not claimed by this audit."
+}

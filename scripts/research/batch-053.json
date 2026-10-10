@@ -1,0 +1,188 @@
+[
+  {
+    "id": "sonos-one",
+    "model_check": "One",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/one",
+    "fields": {},
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Sonos One manufacturer guide: two Class-D digital amplifiers drive one tweeter and one midwoofer (two transducers total), supporting driverCount=2 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/one."
+  },
+  {
+    "id": "sonos-five",
+    "model_check": "Five",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/five",
+    "fields": {},
+    "scalars": { "driverCount": 6, "active": true },
+    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five."
+  },
+  {
+    "id": "sonos-sub-mini",
+    "model_check": "Sub Mini",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/submini",
+    "fields": {
+      "woofer": { "value": 6, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Sonos Sub Mini manufacturer guide: two 6-inch force-canceling woofers and two Class-D amplifiers (driverCount=2; active=true). The guide's phrase ‘plays down to 25 Hz’ has no stated tolerance or standardized response-limit context, so no structured frequency-response bound is entered. Sensitivity, passive impedance, and speaker power handling remain N/A; no response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/submini."
+  },
+  {
+    "id": "sonos-arc",
+    "model_check": "Arc",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/arc",
+    "fields": {},
+    "scalars": { "driverCount": 11, "active": true },
+    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc."
+  },
+  {
+    "id": "sonos-beam",
+    "model_check": "Beam Gen 2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/beam",
+    "fields": {},
+    "scalars": { "driverCount": 5, "active": true },
+    "notes": "Exact Sonos Beam (Gen 2) manufacturer guide: five Class-D amplifiers drive four elliptical midwoofers and one tweeter (five transducers total), supporting driverCount=5 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, a standardized response limit, a response curve, or directivity data; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/beam."
+  },
+  {
+    "id": "sonos-play1",
+    "model_check": "Play:1",
+    "sourceType": "MANUFACTURER",
+    "source": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
+    "fields": {},
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Sonos Play:1 manufacturer announcement identifies one custom-designed mid-woofer and one tweeter, supporting driverCount=2. It does not establish amplifier class/count, so active remains N/A; no response limits, sensitivity, passive impedance, acoustic power rating, response curve, or directivity data are populated from this source. Source: https://newsroom.sonos.com/254814-introducing-sonos-play-1/."
+  },
+  {
+    "id": "sonos-play3",
+    "model_check": "Play:3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/",
+    "fields": {},
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact Sonos Play:3 manufacturer announcement identifies three speaker drivers and three Class-D digital amplifiers, supporting driverCount=3 and active=true. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/."
+  },
+  {
+    "id": "legacy-sonos-5",
+    "model_check": "Move",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/move",
+    "fields": {},
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact first-generation Sonos Move manufacturer guide: two Class-D amplifiers drive one tweeter and one midwoofer (two transducers total), supporting driverCount=2 and active=true. This source is for Move, not Move 2. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/move."
+  },
+  {
+    "id": "legacy-sonos-6",
+    "model_check": "Era 300",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/era300",
+    "fields": {},
+    "scalars": { "driverCount": 6, "active": true },
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. No driver diameters or standardized response limits are asserted; sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300."
+  },
+  {
+    "id": "sonos-sonos-era-100",
+    "model_check": "Era 100",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/era100",
+    "fields": {},
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact Sonos Era 100 manufacturer guide: three Class-D amplifiers drive two angled tweeters and one midwoofer (three transducers total), supporting driverCount=3 and active=true. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era100."
+  },
+  {
+    "id": "sonos-sonos-era-300",
+    "model_check": "Era 300",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/era300",
+    "fields": {},
+    "scalars": { "driverCount": 6, "active": true },
+    "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/era300."
+  },
+  {
+    "id": "sonos-sonos-five",
+    "model_check": "Sonos Five",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/five",
+    "fields": {},
+    "scalars": { "driverCount": 6, "active": true },
+    "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with sonos-five. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/five."
+  },
+  {
+    "id": "sonos-sonos-move-2",
+    "model_check": "Move 2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/move2",
+    "fields": {},
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact Sonos Move 2 manufacturer guide: three Class-D amplifiers drive two angled tweeters and one midwoofer (three transducers total), supporting driverCount=3 and active=true. These are Move 2 specifications only; none are transferred to the earlier Move record. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/move2."
+  },
+  {
+    "id": "sonos-sonos-roam-2",
+    "model_check": "Roam 2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/roam2",
+    "fields": {},
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Sonos Roam 2 manufacturer guide: two Class-H amplifiers drive one tweeter and one elliptical midwoofer (two transducers total), supporting driverCount=2 and active=true. The guide's amplifier class is retained as stated and is not changed to Class D. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/roam2."
+  },
+  {
+    "id": "sonos-sonos-arc",
+    "model_check": "Sonos Arc",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/arc",
+    "fields": {},
+    "scalars": { "driverCount": 11, "active": true },
+    "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. Kept as a separate existing database record; it is not merged with sonos-arc. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc."
+  },
+  {
+    "id": "sonos-sonos-arc-ultra",
+    "model_check": "Arc Ultra",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/arcultra",
+    "fields": {},
+    "scalars": { "driverCount": 14, "active": true },
+    "notes": "Exact Sonos Arc Ultra manufacturer guide: the 14 transducers comprise seven tweeters, six midwoofers, and one Sound Motion woofer; the system uses 15 Class-D amplifiers, supporting driverCount=14 and active=true. Amplifier count is not substituted for transducer count. Sensitivity, passive impedance, acoustic power handling, standardized response limits, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arcultra."
+  },
+  {
+    "id": "sonos-sonos-ray",
+    "model_check": "Sonos Ray",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/en-us/guides/ray",
+    "fields": {},
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact Sonos Ray manufacturer guide: four Class-D amplifiers drive two full-range woofers and two tweeters (four transducers total), supporting driverCount=4 and active=true. No driver diameters or standardized response limits are asserted. Sensitivity, passive impedance, acoustic power handling, response curve, and directivity remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/ray."
+  },
+  {
+    "id": "sonos-play5",
+    "model_check": "Play:5",
+    "sourceType": "MANUFACTURER",
+    "source": "https://support.sonos.com/en-us/products/play-5-gen-1",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the existing generic Play:5 record does not specify generation. Sonos maintains separate exact support pages for Play:5 (Gen 1) and Play:5 (Gen 2); neither revision is selected and no generation-specific specifications are transferred. All acoustic fields remain N/A pending exact revision identification. Sources: https://support.sonos.com/en-us/products/play-5-gen-1 and https://support.sonos.com/en-us/products/play-5-gen-2."
+  },
+  {
+    "id": "sonos-sonos-beam",
+    "model_check": "Sonos Beam",
+    "sourceType": "MANUFACTURER",
+    "source": "https://support.sonos.com/en-us/products/beam-gen-1",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — this generic Sonos Beam record does not specify generation. Sonos maintains distinct support pages for Beam (Gen 1) and Beam (Gen 2); neither revision is selected and no generation-specific specifications are transferred. The Gen 1 support page links to a guide that identifies Beam (Gen 2), so that guide is not used as Gen 1 evidence. All acoustic fields remain N/A pending exact revision identification. Sources: https://support.sonos.com/en-us/products/beam-gen-1 and https://support.sonos.com/en-us/products/beam-gen-2."
+  },
+  {
+    "id": "legacy-sonos-1",
+    "model_check": "ZonePlayer 100",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.sonos.com/pdfs/productguides/en-us/zoneplayer100_en.pdf",
+    "fields": {},
+    "scalars": {},
+    "category": "component",
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE as a loudspeaker — Sonos identifies the exact ZonePlayer 100 as an amplified component for connecting external speakers; it is not a loudspeaker/transducer. The record is retained, reclassified as category=component, and excluded from speaker selection by the existing UNAVAILABLE filter. No speaker acoustic specifications or response/directivity data are applicable or populated. Sources: https://www.sonos.com/pdfs/productguides/en-us/zoneplayer100_en.pdf and https://support.sonos.com/en-us/products/zp100."
+  }
+]

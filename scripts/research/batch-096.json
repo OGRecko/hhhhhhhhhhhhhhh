@@ -1,0 +1,38 @@
+[
+  {
+    "id": "legacy-la-4",
+    "model_check": "K1",
+    "source": "https://www.l-acoustics.com/products/k1/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 20000 },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 9 },
+    "notes": "Exact L-Acoustics K1 manufacturer specification page. It identifies a 3-way full-range WST enclosure, quad-amplified by the external LA12X controller, with usable bandwidth 35 Hz–20 kHz (-10 dB), two 15-inch LF drivers, four 6.5-inch MF drivers, and three 3-inch HF compression drivers (nine transducers). The 15-inch value is the LF driver size; the LF/MF/HF impedance is specified separately (2 × 8 Ω, 8 Ω, 8 Ω), so no single scalar system impedance is asserted. Maximum SPL is not sensitivity, and no speaker power-handling rating is published here. The active/crossover terminology refers to the externally amplified system; no onboard-amplifier status is asserted. No response-point or polar/directivity data are imported; the page's nominal coverage description is not a polar dataset. Source: https://www.l-acoustics.com/products/k1/."
+  },
+  {
+    "id": "legacy-la-5",
+    "model_check": "K2",
+    "source": "https://www.l-acoustics.com/products/k2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 20000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 8 },
+    "notes": "Exact L-Acoustics K2 manufacturer specification page. It identifies a 3-way full-range WST enclosure, quad-amplified by external LA4X/LA8/LA12X controllers, with usable bandwidth 35 Hz–20 kHz (-10 dB), two 12-inch LF cone drivers, four 6.5-inch MF drivers, and two 3-inch HF compression drivers (eight transducers). The 12-inch value is the LF driver size; LF/MF/HF impedance is specified separately (2 × 8 Ω, 8 Ω, 16 Ω), so no single scalar system impedance is asserted. Maximum SPL is not sensitivity, and no speaker power-handling rating is published here. The active/crossover terminology refers to the externally amplified system; no onboard-amplifier status is asserted. No response-point or polar/directivity data are imported; nominal coverage options are not a polar dataset. Source: https://www.l-acoustics.com/products/k2/."
+  },
+  {
+    "id": "legacy-la-6",
+    "model_check": "Syva",
+    "source": "https://www.l-acoustics.com/products/syva/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 87, "high_hz": 20000 },
+      "impedance": { "value": 8, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 9, "active": false },
+    "notes": "Exact L-Acoustics Syva manufacturer specification page. It identifies a 2-way passive enclosure, externally amplified by LA2Xi/LA4X/LA8/LA12X, with usable bandwidth 87 Hz–20 kHz (-10 dB), six 5-inch MF cone drivers, three 1.75-inch HF compression drivers (nine transducers total), and 8 Ω nominal impedance. The six 5-inch drivers are published as mid-frequency transducers, not a dedicated woofer, so the woofer-size field remains N/A. Maximum SPL is not sensitivity; no scalar speaker power-handling rating is published. No response-point or polar/directivity data are imported; the stated nominal coverage angles do not constitute a polar dataset. Source: https://www.l-acoustics.com/products/syva/."
+  }
+]

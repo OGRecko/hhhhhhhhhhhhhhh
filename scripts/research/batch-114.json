@@ -1,0 +1,52 @@
+[
+  {
+    "id": "auratone-5c",
+    "model_check": "5C Sound Cube",
+    "source": "https://www.auratoneaudio.com/products",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 80, "high_hz": 15000 },
+      "power": { "value": 25, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 4.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false, "panel": false },
+    "notes": "Auratone's own current product page lists the exact unqualified base product “5C Super Sound Cube” as a passive reference monitor and lists “5C Active Super Sound Cube” separately; the catalog's unqualified “5C Sound Cube” is aligned with that base passive model, not the Active variant. The manufacturer specifies one 4.5-inch full-range cone, sealed 5/8-inch MDF, 80 Hz–15 kHz (no tolerance stated), nominal 8 ohms, 90 dB SPL at 1 W/1 m, and 25 W RMS / 50 W peak power handling. The scalar power field retains the RMS value and role; the separately published 50 W peak is not treated as a continuous rating. An older exact-product page at Auratone's exclusive US distributor, TransAudio Group, lists 75 Hz as the low endpoint; the manufacturer's current direct product page states 80 Hz, which is retained without averaging or importing active-model values. Auratone/TransAudio's 2022 announcement calls the powered product the first-ever Active 5C, confirming the product distinction. No Fs, voice-coil size, response-point table, or polar/directivity dataset is published. Sources: https://www.auratoneaudio.com/products ; https://www.transaudiogroup.com/products/auratone/5c/ ; https://www.transaudiogroup.com/press-releases/auratone-introduces-the-first-ever-active-5c-super-sound-cube/."
+  },
+  {
+    "id": "harbeth-shl5",
+    "model_check": "Super HL5",
+    "source": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "impedance": { "value": 6, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 20000 },
+      "woofer": { "value": 7.8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact original Harbeth Super HL5 plus (RADIAL2 generation, without XD/XD2 suffix): Stereophile's 2015 technical specification sidebar identifies the model, a three-way reflex-loaded standmount, 7.8-inch (200 mm) polymeric-cone mid/woofer, 20 mm and 25 mm tweeters, 40 Hz–20 kHz ±3 dB, nominal 6 ohms, and 86 dB/W/m. The review identifies the measured pair as serials 12287L/R. Its companion measurement article specifies DRA Labs MLSSA, calibrated DPA 4006 far-field and Earthworks QTC-40 near-field methods, and plots horizontal/vertical response families. The The Ear's exact Super HL5 Plus review (not XD) explicitly records sensitivity as 86 dB/1W/1m and 150 W programme handling; that programme rating is stored separately with its proper role. Response curves/polar plots are not digitized into the dataset because the published plots are not a numeric point table; no Fs or voice-coil size is stated. No data from the distinct XD/XD2 revisions are transferred. Sources: https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications ; https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-measurements ; https://the-ear.net/review-hardware/harbeth-super-hl5-plus-loudspeaker/."
+  },
+  {
+    "id": "harbeth-shl5",
+    "model_check": "Super HL5",
+    "source": "https://the-ear.net/review-hardware/harbeth-super-hl5-plus-loudspeaker/",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 150, "unit": "W", "role": "program_rating" }
+    }
+  },
+  {
+    "id": "meyer-mjf212",
+    "model_check": "MJF-212",
+    "source": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "power": { "value": 1275, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true, "panel": false },
+    "notes": "Exact original Meyer Sound MJF-212 (announced January 2007), not the later MJF-212A: the contemporaneous report identifies a self-powered system with two 12-inch neodymium cone drivers and one 4-inch-diaphragm compression driver on a three-channel Class AB/H amplifier. Its 1,275 W figure is total burst amplifier output (the release also states 2,550 W peak), not passive-speaker handling, so the stored role is amplifier_output. Two contemporaneous January 2007 announcements disagree on the phase-corrected lower response endpoint (55 Hz versus 60 Hz) and peak amplifier output (2,550 W versus 2,250 W); both agree on 1,275 W total burst output. Without the original MJF-212 datasheet to resolve the differences, response bounds and disputed peak output remain N/A. The 10 kΩ line-input value and the later A-revision's driver-load impedances are not treated as system speaker impedance. No sensitivity, Fs, voice-coil size, numeric response-point table, or polar/directivity dataset for the exact non-A model is asserted. Sources: https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663 ; https://fohonline.com/newsroom/news/meyer-sound-releases-mjf-212-stage-monitor/ ; later but distinct MJF-212A manual for identity contrast only: https://cdn-docs.av-iq.com/instructions/Meyer%20Sound%20MJF-212A%20Operating%20Instructions.pdf."
+  }
+]

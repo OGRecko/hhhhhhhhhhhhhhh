@@ -1,0 +1,17 @@
+[
+  {
+    "id": "jbl-eon15",
+    "model_check": "EON15",
+    "source": "https://www.warehousesound.com/r/jblEon15.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 100, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 250, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 80, "high_hz": 16000 },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact JBL Professional EON15 (non-G2) passive 15-inch two-way system. The fetched JBL-branded manufacturer specification sheet states a frequency response of 80 Hz–16 kHz (−3 dB), a separate frequency range of 60 Hz–18 kHz (−10 dB), 100 dB SPL sensitivity at 1 W/1 m, 8 Ω nominal impedance, and 250 W power handling; it identifies one 15-inch LF transducer and an HF driver/horn, and explicitly describes this EON 15 as passive. The PDF is hosted by Warehouse Sound, not on a JBL domain; its document content identifies JBL Professional and the exact EON15 model. The similarly named powered EON15 G2 is a distinct later model and is not the source for these values. Published response limits are not a measured response curve; no response points or directivity dataset are imported. Source: https://www.warehousesound.com/r/jblEon15.pdf."
+  }
+]

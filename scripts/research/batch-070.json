@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wharfedale-diamond-12-0",
+    "model_check": "Diamond 12.0",
+    "source": "https://www.wharfedale.co.uk/products/diamond-12-0",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m (RMS not stated)" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 70, "high_hz": 20000 },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Wharfedale's exact DIAMOND 12.0 product page identifies a 2-way bass-reflex speaker with a 4-inch (100 mm) bass driver and 1-inch (25 mm) textile-dome treble driver. It specifies sensitivity 87 dB at 2.83 V/1 m (the source does not say RMS), nominal impedance '8 Ω Compatible', and frequency response 70 Hz–20 kHz at ±3 dB. The separately listed 65 Hz bass extension is at −6 dB and is not substituted for the ±3 dB low limit. The 20–60 W recommended-amplifier range is not speaker power handling, so power remains N/A; sensitivity is retained with its stated reference but is not converted to 1 W/1 m because RMS is unspecified. No measured response-point table or polar/directivity dataset is published. Resonant frequency, voice-coil diameter, and explicit active/passive classification remain N/A. Source: https://www.wharfedale.co.uk/products/diamond-12-0"
+  },
+  {
+    "id": "wharfedale-diamond-12-2",
+    "model_check": "Diamond 12.2",
+    "source": "https://www.wharfedale.co.uk/products/diamond-12-2",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m (RMS not stated)" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 50, "high_hz": 20000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Wharfedale's exact DIAMOND 12.2 product page identifies a 2-way bass-reflex speaker with one bass driver and one 1-inch (25 mm) textile-dome treble driver. The page prints the bass-driver size as 6.5 inches and parenthetically 150 mm; those values do not exactly convert, so the structured inch value is the manufacturer's explicitly stated nominal size, not a conversion from millimetres. It specifies sensitivity 88 dB at 2.83 V/1 m (the source does not say RMS), nominal impedance '8 Ω Compatible', and frequency response 50 Hz–20 kHz at ±3 dB. Its separate 43 Hz bass-extension figure is at −6 dB and is not substituted for the ±3 dB lower limit. The 20–120 W recommended-amplifier range is not speaker power handling, so power remains N/A; sensitivity is retained with its stated reference but is not converted to 1 W/1 m because RMS is unspecified. No measured response-point table or polar/directivity dataset is published. Resonant frequency, voice-coil diameter, and explicit active/passive classification remain N/A. Source: https://www.wharfedale.co.uk/products/diamond-12-2"
+  },
+  {
+    "id": "wharfedale-evo4-1",
+    "model_check": "EVO4.1",
+    "source": "https://www.wharfedale.co.uk/products/evo4-1",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m (RMS not stated)" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 64, "high_hz": 22000 },
+      "woofer": { "value": 5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Wharfedale's exact EVO4.1 product page identifies a 2-way bass-reflex bookshelf speaker with a 5-inch (130 mm) bass driver and a 30 × 60 mm AMT treble driver. It specifies sensitivity 87 dB at 2.83 V/1 m (the source does not say RMS), nominal impedance '8 Ω Compatible', and frequency response 64 Hz–22 kHz at ±3 dB. The separately listed 55 Hz bass-extension figure is at −6 dB and is not substituted for the ±3 dB lower limit. The 25–100 W recommended-amplifier range is not speaker power handling, so power remains N/A; sensitivity is retained with its stated reference but is not converted to 1 W/1 m because RMS is unspecified. No measured response-point table or polar/directivity dataset is published. Resonant frequency, voice-coil diameter, and explicit active/passive classification remain N/A. Source: https://www.wharfedale.co.uk/products/evo4-1"
+  },
+  {
+    "id": "wharfedale-evo4-2",
+    "model_check": "EVO4.2",
+    "source": "https://www.wharfedale.co.uk/products/evo4-2",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m (RMS not stated)" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 54, "high_hz": 22000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Wharfedale's exact EVO4.2 product page identifies a 3-way bass-reflex bookshelf speaker with a 6.5-inch (165 mm) bass driver, 2-inch (50 mm) soft-dome midrange driver, and 30 × 60 mm AMT treble driver. It specifies sensitivity 87 dB at 2.83 V/1 m (the source does not say RMS), nominal impedance '8 Ω Compatible', and frequency response 54 Hz–22 kHz at ±3 dB. Its separately listed 48 Hz bass-extension figure is at −6 dB and is not substituted for the ±3 dB low limit. The 25–120 W recommended-amplifier range is not speaker power handling, so power remains N/A; sensitivity is retained with its stated reference but is not converted to 1 W/1 m because RMS is unspecified. No measured response-point table or polar/directivity dataset is published. Resonant frequency, voice-coil diameter, and explicit active/passive classification remain N/A. Source: https://www.wharfedale.co.uk/products/evo4-2"
+  }
+]

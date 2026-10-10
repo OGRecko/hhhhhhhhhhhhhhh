@@ -1,0 +1,450 @@
+[
+  {
+    "id": "bose-designmax-dm3se",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact-model Bose Professional DM3SE TDS provides frequency-dependent horizontal/vertical beamwidth values, measured in whole space. Beamwidth alone is not an angular polar-response dataset and cannot be converted to the solver input without inventing a radiation shape. No directivity payload is imported; the independently published on-axis response table is retained separately with context.",
+    "page": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf"
+  },
+  {
+    "id": "bose-designmax-dm6se",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact-model Bose Professional DM6SE TDS provides frequency-dependent horizontal/vertical beamwidth values, measured in whole space. Beamwidth alone is not an angular polar-response dataset and cannot be converted to the solver input without inventing a radiation shape. No directivity payload is imported; the independently published on-axis response table is retained separately with context.",
+    "page": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf"
+  },
+  {
+    "id": "bose-designmax-dm8se",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact-model Bose Professional DM8SE TDS provides frequency-dependent horizontal/vertical beamwidth values, measured in whole space. Beamwidth alone is not an angular polar-response dataset and cannot be converted to the solver input without inventing a radiation shape. No directivity payload is imported; the independently published on-axis response table is retained separately with context.",
+    "page": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf"
+  },
+  {
+    "id": "bose-freespace-ds100se",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Bose Professional’s official resource page lists the exact FreeSpace DS 100SE and links CLF and EASE archives dated July 2010. The archives were not downloaded or inspected, so exact entries and measurement conventions are not yet established. No polar/directivity dataset is imported; nominal 180° × 75° coverage and TDS beamwidth/DI values are not converted into angular response.",
+    "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
+    "clf": "https://assets.boseprofessional.com/m/79c75b9d64f3f8e7/original/clf_bose_products_july2010.zip",
+    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip"
+  },
+  {
+    "id": "bose-freespace-ds16s",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Bose Professional’s official resource page lists the exact FreeSpace DS 16S (and separate DS 16SE) and links CLF and EASE archives dated July 2010. The archives were not downloaded or inspected, so exact entries/variant applicability and measurement conventions are not yet established. No polar/directivity dataset is imported; nominal 170° × 160° coverage and TDS beamwidth/DI values are not converted into angular response.",
+    "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
+    "clf": "https://assets.boseprofessional.com/m/79c75b9d64f3f8e7/original/clf_bose_products_july2010.zip",
+    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip"
+  },
+  {
+    "id": "bose-l1-compact",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact-model Bose L1 Compact TDS contains manufacturer-published horizontal and vertical 1/3-octave polar tables for selected low-frequency (100/125/160 Hz) and high-frequency (12.5/16 kHz) bands. These are genuine speaker-specific data but sparse across frequency, and the current speaker-record audit rejects embedded polar/directivity fields. They are not imported; the source TDS remains pinned for future schema-supported use.",
+    "page": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf"
+  },
+  {
+    "id": "bose-sub1",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact-model Bose Sub1 TDS describes omnidirectional nominal horizontal coverage and a -10 dB rear-rejection Cardioid mode that requires multiple-sub deployment. It does not provide a complete angular polar table for one Sub1 in ordinary operation; the multi-sub mode is not assigned as intrinsic single-speaker directivity. No directivity payload is imported.",
+    "page": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf"
+  },
+  {
+    "id": "dandb-t10",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact d&b T10 datasheet publishes setup-specific nominal dispersion (105° horizontal in line-source mode; 90° × 35° in point-source mode) but does not provide an angle-resolved polar-response table. These coverage specifications are retained as a research lead and are not converted into a synthetic directivity pattern.",
+    "page": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
+    "sources": [
+      "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf"
+    ]
+  },
+  {
+    "id": "electro-voice-sx600",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact Sx600 manufacturer datasheet publishes frequency-dependent -6 dB beamwidth and DI/Q tables for the Sx600PI/Sx600PIX system, with EN 54-24 anechoic measurement context. These aggregate angular constraints are not a complete angle-resolved polar response accepted by the current speaker-record schema; no directivity payload or radiation shape is synthesized. The exact on-axis response SPL table is retained separately in the speaker record with its context.",
+    "page": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf"
+  },
+  {
+    "id": "electro-voice-evf-1152d",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Electro-Voice’s official EVF/EVH manual defines the slash suffix as the coverage-pattern code and lists six EVF-1152D variants (/43, /64, /66, /94, /96, /99). Exact manufacturer engineering sheets for /43, /66, /94, and /96 contain frequency-dependent on/off-axis response tables and 1/3-octave polar plots, but the database row has no /xx suffix and therefore does not identify a directivity pattern. Weatherization (PI/FG) and passive/active jumper configuration are also not specified. These exact-variant response/polar data are not digitized, assigned, or converted into a synthetic pattern for the unsuffixed row; no response points or directivity are imported. The exact EVF-1152D/96 remains a separate database record; no suffix-specific polar data are moved to the unsuffixed row. Review of all text-extractable chunks of the official /43, /66, /94, and /96 engineering sheets confirms their response-table and polar/beamwidth/directivity sections. However, the extracted /94 and /96 low-frequency rows include values inconsistent with the same sheets’ stated frequency-range limits (for example, /96 shows 80 dB at 44 Hz despite a 40 Hz -10 dB lower limit). This may be an extraction artifact; without reliable visual verification, no response points are digitized. The polar charts are not exposed as numeric angle-resolved samples in the text extraction, so no directivity payload is imported. The separate exact EVF-1152D/96 record remains independent; any future exact-variant data must be scoped to that row.",
+    "page": "https://products.electrovoice.com/na/en/evf-1152d94",
+    "sources": [
+      "https://products.electrovoice.com/binary/F01U310062%20EVF-EVH%20User%20Manual.pdf",
+      "https://products.electrovoice.com/binary/EVF-1152D_43_EDS_en.pdf",
+      "https://products.electrovoice.com/binary/EVF-1152D_66_EDS_en.pdf",
+      "https://products.electrovoice.com/binary/EVF-1152D_94_EDS_en.pdf",
+      "https://products.electrovoice.com/binary/EVF-1152D_96_EDS_en.pdf"
+    ]
+  },
+  {
+    "id": "electro-voice-zx1i",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Electro-Voice's exact ZX1i-90 and ZX1i-100 Engineering Data Sheets publish on-axis/off-axis response tables plus beamwidth and directivity-index/factor data. These versions have different published axial sensitivities (94 dB vs 92 dB) and nominal coverage (90° × 50° vs 100° × 100°); the database row is only ZX1i, so neither variant's response/directivity is assigned. Directivity remains unimported rather than inferred from nominal coverage.",
+    "page": "https://www.electrovoice.com/product-documents/zx1i-100",
+    "sources": [
+      "https://assets.electrovoicedynacord.com/asset/d6446dc1-757d-4ff5-b7bd-89f57d61dc9b/ZX1i-90-Engineering-Data-Sheet.pdf",
+      "https://assets.electrovoicedynacord.com/asset/bedc6858-ea22-4e81-837b-6583f63c68be/ZX1i-100-Engineering-Data-Sheet.pdf"
+    ]
+  },
+  {
+    "id": "electro-voice-zx3",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The Electro-Voice Zx3 Owner's Manual contains numeric frequency-response, beamwidth, directivity-index/factor and off-axis response tables, with response/directivity tables distinguished for ZX3-60 and ZX3-90 variants. The database row is the unsuffixed ZX3, so no horn-specific curve or directivity is assigned. Source is the manufacturer manual hosted at the URL below; the current speaker-record schema/audit does not accept an embedded polar/directivity payload.",
+    "page": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf"
+  },
+  {
+    "id": "electro-voice-zx4",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact ZX4 manufacturer Engineering Data Sheet (Part Number 38110416 Rev D, 12/2010) publishes numeric horizontal/vertical beamwidth and directivity-index/factor tables. These are not a full angular polar response set in the format accepted by the solver, so they were not converted or imported as directivity. The same sheet's independently tabulated half-space response values are imported with their own source/context in the speaker record.",
+    "page": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf"
+  },
+  {
+    "id": "electro-voice-zx5",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The Electro-Voice Zx5 Series Owner's Manual (Part Number 38110-355 Rev E, 01/2007) publishes numeric response, beamwidth and directivity tables separately for ZX5-60 and ZX5-90. The database row lacks a horn suffix, so no variant-specific response or directivity is assigned. The current speaker-record schema/audit does not accept an embedded polar/directivity payload.",
+    "page": "https://www.adorama.com/col/productManuals/EVZX560B.pdf"
+  },
+  {
+    "id": "genelec-8361a",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Genelec publishes simulation files for this exact model on its official page. Not imported: the project has no CLF/GLL parser or storage format yet, and the files were not downloaded or inspected.",
+    "page": "https://www.genelec.com/8361a",
+    "clf": "https://assets.ctfassets.net/4zjnzn055a4v/6KHnixRmie8DrWCbGh6OlL/82346384e3cc6bc240e010163d33a440/8361A.CF2",
+    "gll": "https://assets.ctfassets.net/4zjnzn055a4v/BSyaCbIQUTKM1d8rbc6lg/7199667c6ca6a2b766fe7c90c0d002b0/Genelec_8361A.gll"
+  },
+  {
+    "id": "jbl-4310",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact JBL 4310 manual reports 90° dispersion. This is a nominal angle without a complete angle-resolved polar data set; the schema does not accept a single angle as measured directivity, so no directivity payload is imported.",
+    "page": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+    "sources": [
+      "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf"
+    ]
+  },
+  {
+    "id": "jbl-4311",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "JBL’s exact 4311 page reports 90° dispersion and off-axis limits at 45° horizontally/vertically (no more than 6 dB deviation at 2 kHz or 10 dB at 8 kHz). These are useful directivity constraints, not a complete polar data set. Retain directivity as unavailable rather than synthesizing an angular response.",
+    "page": "https://jblpro.com/en-US/site_elements/4311-information",
+    "sources": [
+      "https://jblpro.com/en-US/site_elements/4311-information"
+    ]
+  },
+  {
+    "id": "jbl-4312",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact base-4312 specification source lists 90° horizontal/vertical directionality but gives no frequency-resolved angular response. Do not convert this single nominal coverage figure into a polar pattern; directivity remains unavailable.",
+    "page": "https://audio-database.com/JBL/speaker/4312-e.html",
+    "sources": [
+      "https://audio-database.com/JBL/speaker/4312-e.html"
+    ]
+  },
+  {
+    "id": "jbl-4350",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact 4350/4350WX source publishes directional property through 12 kHz within −3 dB: 60° horizontal and 30° vertical. These aggregate angles are not an angle-resolved polar data set and are not converted into one.",
+    "page": "https://audio-database.com/JBL/speaker/4350.html",
+    "sources": [
+      "https://audio-database.com/JBL/speaker/4350.html"
+    ]
+  },
+  {
+    "id": "jbl-4412",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "JBL’s exact 4412 page publishes frequency-dependent DI/Q, −6 dB beamwidth and off-axis response tables. The extracted angular tables/graphs are partial and not a complete polar field accepted by the current speaker-record schema; retain the numeric source as a research lead and do not convert coverage or DI/Q into an invented polar.",
+    "page": "https://jblpro.com/en-US/site_elements/4412-information",
+    "sources": [
+      "https://jblpro.com/en-US/site_elements/4412-information"
+    ]
+  },
+  {
+    "id": "jbl-4430",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "JBL’s combined exact 4430/4435 page includes separate 4430 beamwidth-versus-frequency, directivity-index, and normalized vertical off-axis tables/plots. Only the 4430 column applies to this record. The current speaker-record schema cannot store this partial frequency/angle evidence as a complete polar data set, so no directivity payload is imported.",
+    "page": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+    "sources": [
+      "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
+    ]
+  },
+  {
+    "id": "jbl-control-30",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact Control 30 Version B manufacturer sheet (March 2020) includes horizontal and vertical 1/3-octave polar charts plus numeric off-axis attenuation, beamwidth, and DI/Q tables. These are model-specific published data, but the raster polar charts and partial angle/frequency tables cannot be represented as a complete speaker polar in the current speaker-record schema/audit, so no directivity payload is imported. The sheet’s 2π/4π SPL table also needs clarification against the published ±3 dB response limits before it can be used as a response-point dataset; only the independently stated frequency limits are stored. Retain directivity as unavailable rather than infer a radiation shape from nominal 120° × 110° coverage.",
+    "page": "https://jblpro.com/en-US/products/control-30",
+    "sources": [
+      "https://jblpro.com/en-US/products/control-30",
+      "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf"
+    ]
+  },
+  {
+    "id": "jbl-l19",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact 1977 L19 brochure defines 120° dispersion at 15 kHz as the angle within which output is no more than 6 dB below on-axis. This single frequency/threshold value is not a complete polar data set; no radiation pattern is synthesized.",
+    "page": "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf",
+    "sources": [
+      "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf"
+    ]
+  },
+  {
+    "id": "jbl-lsr32",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact LSR32 manual describes an EOS waveguide with 100° × 60° dispersion and a target listening window of ±30° horizontal/±15° vertical with response within 1.5 dB of on-axis; it also publishes spatial-average, first-reflection, total-radiated-response and DI curves. These data are useful directivity evidence but do not form a complete angle-resolved polar payload accepted by the speaker-record schema. No directivity shape is inferred.",
+    "page": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+    "sources": [
+      "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual"
+    ]
+  },
+  {
+    "id": "jbl-srx815",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "JBL Professional’s exact SRX815 manufacturer material includes older (2015) main-tuning/speech response tables, -6 dB beamwidth values, and DI/Q data. The current exact-model page links the later SRX815 Spec Sheet Version 11_11_19 (Dec 2019); no source establishes that the older response/directivity data have equivalent revision/configuration context. No points or directivity are imported from the 2015 sheet, and the published 90° × 50° coverage is not converted into a polar pattern. The current speaker-record schema does not accept an embedded directivity payload.",
+    "page": "https://jblpro.com/en-US/products/srx815",
+    "sources": [
+      "https://jblpro.com/en-US/products/srx815",
+      "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
+      "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw99912afa/pdfs/JBL_SRX815_SpecSheet_8%2013%2015.pdf"
+    ]
+  },
+  {
+    "id": "jbl-vrx932",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact VRX932LA guide specifies nominal 100° × 15° coverage and includes response plots for operating modes/array tunings. Nominal coverage does not determine the complete directivity pattern of this line-array element; retain directivity as unavailable. Do not transfer LA-1 data.",
+    "page": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+    "sources": [
+      "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "https://www.avc-group.com/assets/products/JBL/manuals/jbl-um-vrx900series.pdf"
+    ]
+  },
+  {
+    "id": "kef-reference-1",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "SoundStage publishes exact-model National Research Council measurement plots for the pre-Meta KEF Reference 1: on-axis and off-axis responses at 0°, 15°, 30°, 45°, 60° and 75°, plus a listening-window average, with grille off and the long port installed. The page documents measurement distance, normalization, and sensitivity context, but provides raster charts rather than numeric samples. No chart points were digitized and no directivity/response dataset was imported; retain as a measured-source lead only.",
+    "page": "https://www.soundstagenetwork.com/index.php?option=com_content&view=article&id=1298:nrc-measurements-kef-reference-1&catid=77&Itemid=153"
+  },
+  {
+    "id": "legacy-bose-6",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Bose Professional’s official resource page lists the exact FreeSpace DS 16F and links CLF and EASE archives dated July 2010. The archives were not downloaded or inspected, so their contents and measurement conventions remain unverified. No polar/directivity dataset is imported; nominal 140° conical coverage and TDS beamwidth/DI values are not converted into angular response.",
+    "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
+    "clf": "https://assets.boseprofessional.com/m/79c75b9d64f3f8e7/original/clf_bose_products_july2010.zip",
+    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip"
+  },
+  {
+    "id": "legacy-gen-9",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Genelec publishes a CLF file for this exact model on its official page. Not downloaded or inspected; no CLF parser exists in the project yet.",
+    "page": "https://www.genelec.com/1237a",
+    "clf": "https://assets.ctfassets.net/4zjnzn055a4v/ZtlepnTZComovfoo8azqQ/944ea7dd0fc0dbb15c82575a68908963/Genelec_Oy-1237A.CF2"
+  },
+  {
+    "id": "legacy-jbl-1",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact JBL D130 source states 90° directionality but supplies no full angle-by-frequency polar or clear frequency context for that angle. No directivity shape is inferred; this record’s 8 Ω/16 Ω variant identity remains unresolved separately.",
+    "page": "https://audio-database.com/JBL/unit/d130.html",
+    "sources": [
+      "https://audio-database.com/JBL/unit/d130.html"
+    ]
+  },
+  {
+    "id": "legacy-jbl-11",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact JBL Control 25 manufacturer spec sheet (updated October 2020) publishes frequency-dependent horizontal/vertical beamwidth, DI/Q, and off-axis response tables, plus an SPL response table and plotted response data. No directivity payload is imported: the partial angular tables do not define a complete polar field in the current speaker-record schema. The numeric SPL table is not unambiguously mapped to the adjacent half-space/full-space curves in the available extraction, so no response-point dataset is asserted; retain the independently published -10 dB limits and nominal coverage only.",
+    "page": "https://jblpro.com/en-US/products/control-25",
+    "sources": [
+      "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",
+      "https://jblpro.com/en-US/products/control-25"
+    ]
+  },
+  {
+    "id": "legacy-jbl-3",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Duplicate legacy record for the exact JBL 4310. The JBL manual reports 90° dispersion, but it does not provide a complete polar data set supported by the current schema. No angle is turned into a radiation pattern.",
+    "page": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+    "sources": [
+      "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf"
+    ]
+  },
+  {
+    "id": "legacy-jbl-5",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Duplicate legacy record for exact JBL 4311. Its manufacturer source reports 90° dispersion and 45° off-axis response limits at 2 kHz/8 kHz, but not a complete polar data set. No synthetic directivity is imported.",
+    "page": "https://jblpro.com/en-US/site_elements/4311-information",
+    "sources": [
+      "https://jblpro.com/en-US/site_elements/4311-information"
+    ]
+  },
+  {
+    "id": "legacy-jbl-6",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Duplicate legacy record for exact JBL 4430. JBL publishes 4430-specific beamwidth, DI and off-axis response data, but these partial tables/plots do not constitute a complete polar payload supported by the current schema. No values are borrowed from the 4435.",
+    "page": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+    "sources": [
+      "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
+    ]
+  },
+  {
+    "id": "legacy-ma-3",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact W8LM manufacturer datasheet contains nominal dispersion (100° horizontal, 7.5° vertical at -6 dB; horizontal control reported down to 800 Hz), frequency-dependent HF horizontal beamwidth, polar plots, and a partial numerical angle-resolved response table for 0°–50° over 2–20 kHz (dB SPL/2.83 V, 1/3-octave smoothing). This is useful exact-model evidence but does not provide a complete full-band angle-resolved response in the supported payload; the table is not treated as a full-band response curve and no directivity pattern is synthesized.",
+    "page": "https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf",
+    "sources": [
+      "https://martin-audio.com/products/archive/w8lm",
+      "https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf"
+    ]
+  },
+  {
+    "id": "nexo-ps15",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact base-PS15 NEXO-authored PS Series brochure publishes horn-rotation coverage (50°–100° horizontal × 55° vertical), Q/DI and off-axis/directivity curves. These are manufacturer-specific leads, but the available plots/aggregate coverage are not imported as a fabricated or incomplete angle-resolved polar payload. Do not substitute PS15-R2 directivity.",
+    "page": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+    "sources": [
+      "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf"
+    ]
+  },
+  {
+    "id": "rcf-nx45a",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact archived RCF NX 45-A page reports nominal constant-directivity coverage of 90° × 50°. This nominal coverage is not a complete angle-resolved response dataset, so no polar pattern is generated or imported.",
+    "page": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+    "sources": [
+      "https://www.rcf.it/en/products/product-detail/nx-45-a"
+    ]
+  },
+  {
+    "id": "adamson-e15",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Adamson’s official Design Tools download page describes ADAMSON EASE DATA V17 as the complete GLL library for all Adamson loudspeaker products. E15 is an exact Adamson model, but this 106.05 MB archive has not been inspected to confirm its internal E15 object or to extract angular data. The manufacturer’s E15 sheet separately gives nominal 90° × 6° coverage, which is not converted into a polar response. No directivity payload is imported.",
+    "page": "https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data",
+    "gll": "https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data/489-adamson-ease-data-v17/file",
+    "sources": [
+      "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
+      "https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data"
+    ]
+  },
+  {
+    "id": "void-air-8",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "A guessed Air_8_v2.2.gll URL returned page-not-found; the current Air 8 product page's GLL target has not been verified, so no binary/header or polar payload is confirmed. The current 2026 specification sheet gives nominal 80° × 80° dispersion, while the exact-model 2018 v1.0 sheet gives 90° × 90° and plotted angular isobars; revision equivalence is not established, and neither nominal coverage nor the older plots are substituted for a confirmed current-version polar dataset. No directivity payload is imported.",
+    "page": "https://voidacoustics.com/products/air/air8/",
+    "sources": [
+      "https://voidacoustics.com/wp-content/uploads/TD10706-2.0-Void-Acoustics-Air-8-Spec-Sheet.pdf",
+      "https://d181c7pevbxova.cloudfront.net/media/support-materials/pdfs/Void%20Technical%20Public/Specification%20Sheets/Air%20Series/Air_8_Specification_Sheet.pdf"
+    ]
+  },
+  {
+    "id": "danley-sh96",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Danley’s exact SH96 page links both SH96 CLF and GLL archives. Direct retrieval of the manufacturer-linked ZIPs failed (HTTP 500), so their file contents, measurement conventions, and polar arrays could not be inspected. The product page’s 90° × 60° nominal coverage is not a substitute for the linked polar data. No directivity payload is imported; the separately published 2012 numeric response table is retained only as response points with its raw table label and context caveats.",
+    "page": "https://www.danleysoundlabs.com/products/sh96/",
+    "clf": "https://www.danleysoundlabs.com/wp-content/uploads/2021/12/Danley-Sound-Labs-SH-96.zip",
+    "gll": "https://www.danleysoundlabs.com/wp-content/uploads/2025/04/SH96-v4.0-GLL-v5.0.gll_.zip",
+    "sources": [
+      "https://www.danleysoundlabs.com/products/sh96/",
+      "https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf"
+    ]
+  },
+  {
+    "id": "eaw-kf760",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "EAW’s current official EASE page offers a global Standard EASE archive and EASE GLL v1.11 (updated 2026-06-24), but does not enumerate internal model files; the archives have not been inspected for an exact KF760 entry. EAW’s 2023 announcement said RADIUS was its first GLL release and that KF-line GLL files were planned, not that KF760 data was present. The exact KF760 spec sheet supplies only nominal 80° horizontal array coverage and no full polar table. No directivity values are inferred or imported.",
+    "page": "https://eaw.com/ease-data/",
+    "gll": "https://eaw.com/wp-content/uploads/2026/06/EAW-EASE-GLL-v1_11.zip",
+    "sources": [
+      "https://eaw.com/ease-data/",
+      "https://eaw.com/eaw-adds-ease-gll-and-q-sys-plugins/",
+      "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf"
+    ]
+  },
+  {
+    "id": "funktion-one-res2",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Funktion-One’s exact Res 2 page gives nominal 50° × 25° dispersion but no full angular response. The manufacturer’s current downloads list shows a specification sheet and drawings for Res 2 but no EASE file; it lists EASE data for the separate Res 2SH model only. Res 2SH is not substituted. No response-points or directivity dataset is imported, and nominal coverage is not converted to polar data.",
+    "page": "https://funktion-one.com/product/res-2/",
+    "sources": [
+      "https://funktion-one.com/product/res-2/",
+      "https://funktion-one.com/downloads/",
+      "https://funktion-one.com/product/res-2sh/"
+    ]
+  },
+  {
+    "id": "lacoustics-arcs",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "The exact L-Acoustics ARCS WIDE Product Information/specification sheet (version 5.0, 03-17; full manufacturer-issued document hosted by ProMusic) states a -6 dB nominal coverage angle of 30° × 90° and usable bandwidth 55 Hz–20 kHz at -10 dB with the [ARCS_WIFO] preset. These are not an angle-resolved polar dataset; the -10 dB bandwidth is also not flattened into the response fields because the current schema cannot retain its tolerance. No response points or directivity curve are imported. L-Acoustics’ official archive page lists a separate ARCS WIFO archive, but its contents and any model-specific CLF/CATT response or polar data remain uninspected; direct archive retrieval failed (HTTP 500 from the page fetcher and a closed TLS connection from curl).",
+    "page": "https://www.l-acoustics.com/archives-product/",
+    "archive": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS%20WIFO/documents.zip",
+    "sources": [
+      "https://www.l-acoustics.com/archives-product/",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCSII/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CATT%20database/documents.zip",
+      "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf"
+    ]
+  },
+  {
+    "id": "legacy-la-1",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "L-Acoustics’ official discontinued-product archive lists a V-DOSC documentation ZIP and a separate dV-DOSC archive; its site also describes a separate CLF database. This is an exact-model documentation lead, not evidence that the inaccessible/uninspected ZIP contains a particular response or polar object. The V-DOSC/dV-DOSC distinction is preserved. No frequency-response points or directivity data are imported until the exact file and measurement conventions are inspected.",
+    "page": "https://www.l-acoustics.com/archives-product/",
+    "archive": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/V-DOSC/documents.zip",
+    "sources": [
+      "https://www.l-acoustics.com/archives-product/",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/dV-DOSC/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip"
+    ]
+  },
+  {
+    "id": "legacy-la-2",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "L-Acoustics’ official archives page lists a dedicated ARCS archive and distinct ARCS WIFO and ARCSII archives, as well as CATT/CLF database archives. The exact database row is the unqualified ARCS model; the separate Wide/WIFO and ARCSII archives are not used to fill it. The product ZIP and database contents have not been inspected for an exact ARCS response or polar dataset, so no frequency-response points or directivity values are imported.",
+    "page": "https://www.l-acoustics.com/archives-product/",
+    "archive": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS/documents.zip",
+    "sources": [
+      "https://www.l-acoustics.com/archives-product/",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS%20WIFO/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCSII/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip"
+    ]
+  },
+  {
+    "id": "legacy-la-3",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "L-Acoustics’ official archives page lists a dedicated Kara archive and a separate Karai archive. The database row is first-generation Kara; Kara II/Karai data are not substituted. The exact ZIP and separate CLF/CATT database contents have not been inspected to confirm model entries, response measurement context, or angle-resolved polar data. No modeled or inferred response/directivity points are added.",
+    "page": "https://www.l-acoustics.com/archives-product/",
+    "archive": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/Kara/documents.zip",
+    "sources": [
+      "https://www.l-acoustics.com/archives-product/",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/Karai/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip",
+      "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CATT%20database/documents.zip"
+    ]
+  },
+  {
+    "id": "legacy-la-7",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "L-Acoustics’ current exact X15 HiQ page publishes a nominal -6 dB directivity of 40° horizontal × 60° vertical and identifies an active coaxial enclosure driven by external amplified controllers. The database row is only X15; the manufacturer’s HiQ suffix is not silently equated with the bare catalog model. The page gives nominal beamwidth, not an angle-resolved polar response, and its documentation-center/older manual polar files were not inspected for this exact row. No directivity payload or response points are imported.",
+    "page": "https://www.l-acoustics.com/products/x15-hiq/",
+    "sources": [
+      "https://www.l-acoustics.com/products/x15-hiq/",
+      "https://www.l-acoustics.com/loudspeakers/x-series/",
+      "https://www.l-acoustics.com/archives-product/"
+    ]
+  },
+  {
+    "id": "ik-multimedia-iloud-mtm",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Exact original iLoud MTM (not MTM MKII) ASR/Klippel NFS measurements are indexed on Spinorama with separate horizontal/vertical off-axis responses, CEA-2034 curves, and horizontal/vertical polar-contour plots. The plotted result establishes a real measurement/directivity lead, but numeric measurement-data reuse/licence terms have not been verified. No graph was digitized and no response/directivity payload is imported.",
+    "page": "https://www.spinorama.org/speakers/IK%20Multimedia%20iLoud%20MTM/ASR/index_asr.html",
+    "sources": [
+      "https://www.audiosciencereview.com/forum/index.php?threads/ik-multimedia-iloud-mtm-review-active-monitor.18347/",
+      "https://www.ikmultimedia.com/news/?id=iloudmtm"
+    ]
+  },
+  {
+    "id": "psb-synchrony-t600",
+    "status": "LEAD_NOT_IMPORTED",
+    "note": "Stereophile publishes measured on-axis/off-axis and radiation/directivity plots for the exact PSB Synchrony T600. The retrieved source is chart-only rather than a numeric response/polar dataset suitable for the catalog schema; no points were digitized and no polar curve was fabricated. PSB’s own 30° ±1.5 dB off-axis specification remains text in the speaker notes, not a full angular dataset.",
+    "page": "https://www.stereophile.com/content/psb-synchrony-t600-loudspeaker-measurements",
+    "sources": [
+      "https://www.stereophile.com/content/psb-synchrony-t600-loudspeaker-measurements",
+      "https://www.psbspeakers.com/products/synchrony-t600-tower"
+    ]
+  }
+]

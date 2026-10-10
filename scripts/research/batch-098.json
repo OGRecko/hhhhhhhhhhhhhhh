@@ -1,0 +1,129 @@
+[
+  {
+    "id": "orange-orange-ppc108",
+    "model_check": "PPC108",
+    "source": "https://orangeamps.com/en-us/products/ppc108",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 20, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1 },
+    "notes": "Exact Orange PPC108 manufacturer product page. It specifies a 1 × 8-inch Voice of the World speaker cabinet, 20 W power handling, and 8 ohms impedance. The single driver is counted per cabinet. The page does not publish a standardized frequency-response limit, sensitivity, resonant frequency, or voice-coil size; no response points or directivity data are imported. Source: https://orangeamps.com/en-us/products/ppc108."
+  },
+  {
+    "id": "orange-orange-ppc112",
+    "model_check": "PPC112",
+    "source": "https://orangeamps.com/en-us/products/ppc112",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 60, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1 },
+    "notes": "Exact Orange PPC112 manufacturer product page. The full specification identifies a closed-back 1 × 12-inch cabinet with one Celestion Vintage 30, 60 W mono power handling, and 16 ohms impedance. The rating is stored as cabinet speaker-power handling, not amplifier output. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published on this page. Source: https://orangeamps.com/en-us/products/ppc112."
+  },
+  {
+    "id": "orange-ppc212",
+    "model_check": "PPC212",
+    "source": "https://orangeamps.com/en-us/products/ppc212",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 120, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Orange PPC212 manufacturer product page. It specifies a closed-back 2 × 12-inch cabinet with two Celestion Vintage 30 speakers, 120 W mono power handling, and 16 ohms cabinet impedance. The 8-ohm total stated for daisy-chaining this cabinet with another 16-ohm cabinet is a combined load, not the impedance of this individual PPC212, so the stored value remains 16 ohms. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://orangeamps.com/en-us/products/ppc212."
+  },
+  {
+    "id": "orange-ppc212v",
+    "model_check": "PPC212V",
+    "source": "https://orangeamps.com/en-us/products/ppc212v",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 120, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Orange PPC212V manufacturer product page. It identifies the vertical, open-back 2 × 12-inch cabinet with two Celestion Neo Creamback speakers, 120 W mono power handling, and 16 ohms impedance. This remains distinct from the PPC212 model. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://orangeamps.com/en-us/products/ppc212v."
+  },
+  {
+    "id": "orange-ppc412",
+    "model_check": "PPC412",
+    "source": "https://orangeamps.com/en-us/products/ppc412",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 240, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact Orange PPC412 manufacturer product page. It specifies a straight-front, closed-back 4 × 12-inch cabinet with four Celestion Vintage 30 speakers, 240 W mono power handling, and 16 ohms impedance for one cabinet. The page's 8-ohm total load applies only when daisy-chaining a second 16-ohm cabinet and is not stored as this cabinet's impedance. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://orangeamps.com/en-us/products/ppc412."
+  },
+  {
+    "id": "vox-v212c",
+    "model_check": "V212C",
+    "source": "https://voxamps.com/product/v212c-extension-cabinet/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 50, "unit": "W", "role": "allowable_input" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact VOX V212C manufacturer product page and linked owner manual. The page identifies two 12-inch Celestion G12M Greenback speakers and a maximum input power of 50 W RMS. It lists impedance as ‘8 or 16 Ohms’ without identifying which configuration applies to this database record, so no single scalar impedance is entered. Maximum input is retained as allowable_input, not amplifier output. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://voxamps.com/product/v212c-extension-cabinet/."
+  },
+  {
+    "id": "vox-v212hwx",
+    "model_check": "V212HWX",
+    "source": "https://voxamps.com/wp-content/uploads/support/AC15_30HW_V212HWX_OM_EFGS2.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact VOX AC Hand-Wired/V212HWX manufacturer owner's manual; the V212HWX has its own speaker-cabinet specification section. It lists two 12-inch 8-ohm Celestion Alnico Blue speakers and the load as 16 ohms. The adjacent ‘30 Watts RMS into 16 Ohms’ wording is not unambiguously stated as cabinet power handling, so the power field remains N/A. This entry is V212HWX and is not mapped to the newer, distinct V212HWRX. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://voxamps.com/wp-content/uploads/support/AC15_30HW_V212HWX_OM_EFGS2.pdf."
+  },
+  {
+    "id": "vox-v212bn",
+    "model_check": "V212BN",
+    "source": "https://www.zzounds.com/item--VOXV212",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "power": { "value": 60, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact-model V212BN historical retailer specifications from zZounds list 16 ohms, 60 total watts, and two Vox Custom GSH12-30 speakers. Sweetwater's exact V212BN listing independently describes a 2 × 12-inch cabinet and states 30 W capacity per 12-inch driver; The VOX Showroom's historical page identifies V212BN as a distinct 2005–2009 cabinet, separate from V212BNX. The field source is the fetched zZounds listing: https://www.zzounds.com/item--VOXV212. Cross-checks: https://www.sweetwater.com/store/detail/V212BN--vox-v212bn and https://www.voxshowroom.com/uk/amp/v212bn.html. No manufacturer specification page for the discontinued exact model was located. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are imported."
+  },
+  {
+    "id": "mesa-boogie-fillmore-2x12",
+    "model_check": "Fillmore 2x12",
+    "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 180, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Mesa/Boogie Fillmore 2x12 cabinet page (the manufacturer titles it ‘2x12 Fillmore’ within the Fillmore Cabinets series). It specifies rear-mounted Celestion C90 speakers, 180 W, and 8 ohms; the model designation identifies two 12-inch drivers. The rating is cabinet speaker-power handling, not amplifier output. No standardized response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html."
+  },
+  {
+    "id": "mesa-boogie-lone-star-2x12",
+    "model_check": "Lone Star 2x12",
+    "source": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Mesa/Boogie 2x12 Lone Star cabinet page in the Lone Star Cabinets series. It identifies a two-12-inch cabinet and 8-ohm impedance, but lists speaker options of two Celestion C90s (180 W) or two Vintage 30s (120 W). Because the exact speaker configuration is not specified for this record, power remains N/A rather than selecting one option. No response limits, sensitivity, resonant frequency, voice-coil size, response points, or directivity are published. Source: https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html."
+  }
+]

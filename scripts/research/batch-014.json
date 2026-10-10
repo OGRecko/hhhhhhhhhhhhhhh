@@ -1,0 +1,11 @@
+[
+ {"id":"qsc-e215","model_check":"E215","source":"https://www.markertek.com/Attachments/Specifications/QSCAudio/E215-Specifications.pdf","sourceType":"MANUFACTURER",
+  "fields":{
+   "sensitivity":{"value":98,"unit":"dB","reference":"1W/1m"},
+   "impedance":{"value":4,"unit":"ohm"},
+   "power":{"value":1000,"unit":"W","role":"speaker_power_handling"},
+   "woofer":{"value":15,"unit":"in"},
+   "voiceCoil":{"value":3.5,"unit":"in"}},
+  "scalars":{"driverCount":3,"active":false},
+  "notes":"QSC-authored E Series spec sheet for the E215 (dated 11/2017, QSC copyright), retrieved from a copy hosted on markertek.com because the E215 is discontinued and QSC's own page was not located. Passive 2 x 15 in 2-way; sensitivity 98 dB, 1 W @ 1 m; nominal impedance 4 ohm; power capacity 1000 W continuous (500 W per woofer) / 4000 W peak; frequency range 39 Hz-20 kHz at -10 dB only (no -6 dB figure published, so frequency response left N/A); LF 2 x 381 mm/15 in with 89 mm/3.5 in voice coil; HF 1.5 in exit, 2.8 in voice-coil compression driver (3 drivers total); crossover 1.8 kHz; 75 deg conical DMT; peak SPL 134 dB @ 1 m with QSC processing; 420 x 1125 x 464 mm; 49.1 kg. The sheet states 'Additional specifications to be announced'. No response dataset or directivity file found."}
+]

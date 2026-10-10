@@ -1,0 +1,9 @@
+[
+ {"id":"meyer-sound-upj-1p","model_check":"UPJ-1P","source":"https://fullcompass.com/common/files/48041-UPJ1datasheet.pdf","sourceType":"MANUFACTURER",
+  "fields":{
+   "power":{"value":300,"unit":"W","role":"amplifier_output"},
+   "woofer":{"value":10,"unit":"in"},
+   "voiceCoil":{"value":2,"unit":"in"}},
+  "scalars":{"driverCount":2,"active":true},
+  "notes":"Meyer Sound UPJ-1P datasheet (PN 04.134.097.01 B, (c) 2005 Meyer Sound), read from a copy hosted on fullcompass.com. Self-powered 2-way: LF one 10 in neodymium cone driver (4 ohm nominal, 2 in voice coil, 400 W AES), HF one 3 in compression driver (16 ohm nominal, 100 W AES) on an 80 x 50 deg rotatable horn; two-channel class AB/bridged amplifier, 300 W total; crossover 2 kHz; operating frequency range 55 Hz-20 kHz and free-field response 66 Hz-18 kHz +/-4 dB (NOT stored: the dataset's frequency-response limits use the -6 dB convention); maximum peak SPL 128 dB at 1 m with music; 283 x 570 x 311 mm; 20.87 kg. No sensitivity published (active). No response dataset or directivity file imported."}
+]

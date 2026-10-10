@@ -1,0 +1,18 @@
+[
+  {
+    "id": "focal-utopia-scala",
+    "model_check": "Scala Utopia III",
+    "source": "https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "notes": "UNRESOLVED — a Focal-authored Scala Utopia manual, preserved by ManualsLib, explicitly labels the product ‘Scala Utopia’ and lists 28 Hz–40 kHz (±3 dB), a 24 Hz low-frequency point (-6 dB), 92 dB (2.83 V/1 m), 8-ohm nominal/3.1-ohm minimum impedance, an 11-inch woofer, a 6.5-inch midrange and 40–500 W recommended amplifier power. A separate Focal-authored manual explicitly titled ‘Scala V2 Utopia’ lists 27 Hz–40 kHz (±3 dB), while Focal’s distinct official Scala Utopia III Evo documentation specifies 27 Hz–40 kHz and 3.2-ohm minimum impedance. Focal’s product-history page says Utopia III launched in 2008 and describes Scala Utopia Evo as an evolution of the previous Scala, but the database label ‘Scala Utopia III’ does not identify the non-Evo V1/V2 revision. Because the published response limit differs, no revision-specific values are transferred; all physical/acoustic fields remain N/A until the exact revision is established. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11; https://media.focal-naim.com/dam/scala-utopia-evo/notice_scalautopiaevo_web.pdf; https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/."
+  },
+  {
+    "id": "legacy-focal-3",
+    "model_check": "Utopia III Scala",
+    "source": "https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "notes": "UNRESOLVED — fetched Focal-authored manuals identify ‘Scala Utopia’ and ‘Scala V2 Utopia’, and Focal’s product-history page describes the Scala Utopia Evo as an evolution of the Utopia III generation launched in 2008. None identifies a separate product using the exact database label ‘Utopia III Scala’ or establishes whether this reversed-name row is an alias of ‘Scala Utopia III’ or a different revision. The non-Evo manuals publish different response lower limits (28 Hz versus 27 Hz), so no values are copied and no alias/deduplication is assumed. Retain all physical/acoustic fields as N/A pending exact identity and revision evidence. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11; https://media.focal-naim.com/dam/scala-utopia-evo/notice_scalautopiaevo_web.pdf; https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/."
+  }
+]

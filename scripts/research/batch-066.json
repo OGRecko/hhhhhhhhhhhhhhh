@@ -1,0 +1,109 @@
+[
+  {
+    "id": "mackie-srm550",
+    "model_check": "SRM550",
+    "source": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 17000 },
+      "power": { "value": 800, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" },
+      "voiceCoil": { "value": 2.6, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's official SRM550/SRM650/SRM750 specification sheet has a model-specific SRM550 column: frequency response 55 Hz–17 kHz at −3 dB (49 Hz–20 kHz at −10 dB), one 12-inch LF woofer and one 1.4-inch titanium HF compression driver, and a 2.6-inch LF voice coil. SRM550 is a powered loudspeaker. The system amplifier is rated 800 W RMS / 1600 W peak; only the explicitly stated 800 W RMS is entered as amplifier_output, not passive-speaker power handling. The sheet separately lists 132 dB maximum peak SPL, 90° × 50° nominal dispersion, and 3 kHz crossover; SPL is not sensitivity and nominal coverage is not imported as a polar dataset. No response points/directivity dataset are imported. Acoustic sensitivity, speaker-load impedance, resonant frequency, HF coil diameter, and any other unpublished fields remain N/A. Source: https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf"
+  },
+  {
+    "id": "mackie-srm212",
+    "model_check": "SRM212 V-Class",
+    "source": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 20000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's official SRM | V-Class specification sheet identifies the exact SRM212 model (ordering numbers 2050940-xx): frequency response 50 Hz–20 kHz at −3 dB (42 Hz–20 kHz at −10 dB), one 12-inch LF woofer and one 1.4-inch polymer HF compression driver. It is a powered loudspeaker with a published 2000 W peak system-amplifier rating and 135 dB maximum peak SPL; the peak-only wattage is retained here as context, not entered as an unqualified continuous power value. Nominal coverage is 90° × 60°; no model-specific polar dataset is imported, and the separate V-Class polar material is not treated as SRM212-only data. Acoustic sensitivity, speaker-load impedance, resonant frequency, and voice-coil diameter remain N/A. No response-point table is imported as an acoustic response curve. Source: https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf"
+  },
+  {
+    "id": "mackie-thump215xt",
+    "model_check": "Thump215XT",
+    "source": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 47, "high_hz": 20000 },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's official THUMPXT 2022 specification sheet has a distinct Thump215XT entry (P/N 2053511-xx): frequency response 47 Hz–20 kHz at −3 dB (40 Hz–23 kHz at −10 dB), a 15-inch LF woofer, and a 1-inch polymer HF compression driver. This is a powered 2-way loudspeaker; the sheet lists a 1400 W peak system amplifier (1200 W LF + 200 W HF), 129 dB maximum peak SPL, and 90° × 60° nominal coverage. The peak-only amplifier number is retained as context, not entered as an unqualified continuous power value. Sensitivity and speaker-load impedance are not published; no response points or model-specific directivity dataset are imported. Resonant frequency and voice-coil diameter remain N/A. Source: https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf"
+  },
+  {
+    "id": "mackie-mr524",
+    "model_check": "MR524",
+    "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 57, "high_hz": 20000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's MR Studio Monitors Owner's Manual (©2017) gives an MR524-specific table: frequency response 57 Hz–20 kHz at −3 dB (45 Hz–20 kHz at −10 dB), a 5.25-inch polypropylene LF woofer, and a 1-inch silk-dome HF tweeter. The product is a powered two-way studio monitor. The manual lists separate LF/HF amplifier outputs (30 W at 4 Ω / 60 W peak, and 20 W at 6 Ω / 40 W peak); because no single aggregate output or passive-speaker power-handling rating is stated, the structured power field remains N/A rather than summing channels. Its +4 dBu at 300 Hz full-output figure is input sensitivity, not acoustic sensitivity; 20 kΩ balanced / 10 kΩ unbalanced are input impedances, not speaker-load impedance. Resonant frequency and voice-coil diameter are not specified. No response curve or directivity dataset is imported. Source: https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf"
+  },
+  {
+    "id": "legacy-mack-3",
+    "model_check": "MR624",
+    "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 20000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's MR Studio Monitors Owner's Manual (©2017) gives an MR624-specific table: frequency response 45 Hz–20 kHz at −3 dB (38 Hz–20 kHz at −10 dB), a 6.5-inch polypropylene LF woofer, and a 1-inch silk-dome HF tweeter. The product is a powered two-way studio monitor. The manual lists separate LF/HF amplifier outputs (40 W at 4 Ω / 80 W peak, and 25 W at 6 Ω / 50 W peak); because no single aggregate output or passive-speaker power-handling rating is stated, the structured power field remains N/A rather than summing channels. Its +4 dBu at 300 Hz full-output figure is input sensitivity, not acoustic sensitivity; 20 kΩ balanced / 10 kΩ unbalanced are input impedances, not speaker-load impedance. Resonant frequency and voice-coil diameter are not specified. No response curve or directivity dataset is imported. Source: https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf"
+  },
+  {
+    "id": "mackie-mr824",
+    "model_check": "MR824",
+    "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 20000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's MR Studio Monitors Owner's Manual (©2017) gives an MR824-specific table: frequency response 38 Hz–20 kHz at −3 dB (35 Hz–20 kHz at −10 dB), an 8-inch polypropylene LF woofer, and a 1-inch silk-dome HF tweeter. The product is a powered two-way studio monitor. The manual lists separate LF/HF amplifier outputs (55 W at 4 Ω / 110 W peak, and 30 W at 6 Ω / 60 W peak); because no single aggregate output or passive-speaker power-handling rating is stated, the structured power field remains N/A rather than summing channels. Its +4 dBu at 300 Hz full-output figure is input sensitivity, not acoustic sensitivity; 20 kΩ balanced / 10 kΩ unbalanced are input impedances, not speaker-load impedance. Resonant frequency and voice-coil diameter are not specified. No response curve or directivity dataset is imported. Source: https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf"
+  },
+  {
+    "id": "mackie-cr3-x",
+    "model_check": "CR3-X",
+    "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 70, "high_hz": 20000 }
+    },
+    "scalars": { "active": true },
+    "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR3-X entry and labels its frequency range as 70 Hz–20 kHz at −10 dB; it also lists 97 dB maximum peak SPL and a 50 W peak Class-D amplifier. The guide describes a stereo set with one powered monitor and one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf"
+  },
+  {
+    "id": "mackie-cr4-x",
+    "model_check": "CR4-X",
+    "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 20000 }
+    },
+    "scalars": { "active": true },
+    "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR4-X entry in its shared technical-specification table, which labels frequency range at −10 dB: 55 Hz–20 kHz. The guide lists 100 dB maximum peak SPL and a 50 W peak Class-D amplifier. It describes the CR-X stereo set as one powered monitor with one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf"
+  },
+  {
+    "id": "mackie-cr5-x",
+    "model_check": "CR5-X",
+    "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 51, "high_hz": 20000 }
+    },
+    "scalars": { "active": true },
+    "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR5-X entry in its shared technical-specification table, which labels frequency range at −10 dB: 51 Hz–20 kHz. The guide lists 105 dB maximum peak SPL and an 80 W peak Class-D amplifier. It describes the CR-X stereo set as one powered monitor with one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf"
+  }
+]

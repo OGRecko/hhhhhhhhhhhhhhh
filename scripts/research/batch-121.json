@@ -1,0 +1,45 @@
+[
+  {
+    "id": "presonus-eris-4-5",
+    "model_check": "Eris 4.5",
+    "source": "https://www.fmicassets.com/Damroot/Original/10017/OM_2777500103_PreSonus-Eris-E4.5_EN.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 50, "unit": "W", "role": "amplifier_output" },
+      "frequencyResponse": { "low_hz": 70, "high_hz": 20000 },
+      "woofer": { "value": 4.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact PreSonus Eris E4.5 (non-Bluetooth) product: the official product page identifies SKU 2777500103 and links this owner's manual. The manual distinguishes Eris E4.5 from E4.5 BT (Bluetooth is available only on BT models) and documents a paired system with one active and one passive enclosure. Per monitor, the source lists a 4.5-inch LF driver and 1-inch silk-dome HF driver; driverCount=2 and active=true describe that powered two-way monitor system. The published E4.5 frequency-response limits are 70 Hz–20 kHz; no tolerance is stated, so none is added. The manual lists 50 W amplifier power for the pair (25 W per speaker); the stored 50 W retains the pair-level total and amplifier-output role, not speaker power handling. The 100 dB value is peak SPL, not sensitivity; 10 kΩ is line-input impedance, not speaker impedance. Resonance, voice coil, response points, and a quantitative directivity dataset are not provided. The record's bare Eris 4.5 maps to the official non-BT E4.5 product/SKU, not the distinct 4.5BT 2nd Gen product. Sources: https://www.presonus.com/products/eris-e45-studio-monitor ; https://www.fmicassets.com/Damroot/Original/10017/OM_2777500103_PreSonus-Eris-E4.5_EN.pdf ; https://www.presonus.com/products/eris-45bt-2nd-gen-pair."
+  },
+  {
+    "id": "presonus-eris-5",
+    "model_check": "Eris 5",
+    "source": "https://www.presonus.com/products/eris-e5-studio-monitor",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "The shortened row 'Eris 5' has no E5 product code, XT, BT, or generation identifier. PreSonus separately documents the base Eris E5, the E5 XT update, the Bluetooth-equipped E5 BT, and the later Eris 5BT 2nd Gen pair; an E5 exact-model record already exists separately in this catalog and is tied to its own official E5 tech sheet. Nothing in this shorter row establishes whether it is the base E5 alias, another variant, or an erroneous duplicate, so specifications are not copied and records are not merged. Preserve this row with all unsupported fields N/A and mark identity UNAVAILABLE until its SKU/revision is resolved. Sources: https://www.presonus.com/products/eris-e5-studio-monitor ; https://www.presonus.com/products/eris-e5-xt-studio-monitor ; https://www.presonus.com/products/eris-e5-bt-studio-monitor ; https://www.presonus.com/products/eris-5bt-2nd-gen-pair."
+  },
+  {
+    "id": "presonus-eris-6",
+    "model_check": "Eris 6",
+    "source": "https://www.presonus.com/products/eris-pro-6-single",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "No exact PreSonus product identity 'Eris 6' is established by the manufacturer's official pages reviewed. PreSonus documents an Eris E66 MTM monitor (two 6.5-inch LF/MF drivers) and a separate Eris Pro 6 (6.5-inch coaxial design); neither is named Eris 6, and their configurations are not interchangeable. The bare catalog label has no E66/Pro suffix, SKU, or generation to support either match. Preserve the legitimate row with acoustic fields N/A and status UNAVAILABLE; no E66 or Pro 6 values are transferred. Sources: https://intl.presonus.com/products/eris-e66-studio-monitor ; https://www.presonus.com/products/eris-pro-6-single."
+  },
+  {
+    "id": "presonus-eris-8",
+    "model_check": "Eris 8",
+    "source": "https://www.presonus.com/products/eris-e8-xt-monitor",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "The bare row 'Eris 8' lacks the model/revision needed to distinguish PreSonus's original Eris E8 family from the E8 XT monitor, the explicitly third-generation Eris Studio 8, and the separate coaxial Eris Pro 8. These are manufacturer-named product variants/generations, not evidence that the database row means any one of them. A separate Eris E8 XT record already exists in this dataset, so it is not used to fill this row. Preserve the legitimate entry with unsupported fields N/A and status UNAVAILABLE until its exact model number/SKU is established; no response or directivity data is assigned. Sources: https://legacy.presonus.com/products/Eris-E5/downloads ; https://www.presonus.com/products/eris-e8-xt-monitor ; https://www.presonus.com/products/eris-studio-8-single ; https://www.presonus.com/products/eris-pro-8-single."
+  }
+]

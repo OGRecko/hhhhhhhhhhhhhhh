@@ -1,0 +1,17 @@
+[
+  {
+    "id": "yamaha-dxs12",
+    "model_check": "DXS12",
+    "source": "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "subwoofer",
+    "fields": {
+      "frequencyResponse": { "low_hz": 47, "high_hz": 160 },
+      "power": { "value": 600, "unit": "W", "role": "amplifier_output" },
+      "voiceCoil": { "value": 2.5, "unit": "in" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Yamaha DXR/DXS Owner's Manual (C0; copyright 2011–2013), Specifications table, exact DXS12 column: powered subwoofer, band-pass type; frequency range 47–160 Hz (-10 dB); one 12-inch cone with a 2.5-inch voice coil; Class-D internal amplifier rated 950 W dynamic and 600 W continuous; maximum SPL 131 dB peak. The primary response bounds retain the published -10 dB context. The 600 W continuous figure is internal amplifier output, not passive speaker power handling; the separate 950 W dynamic rating is not substituted. Peak SPL and the +1 dBu line-input sensitivity are not acoustic sensitivity, and the 10 kΩ figure is input impedance rather than loudspeaker load impedance, so those fields remain N/A. No response curve, resonance, or directivity data is published in this table. Source: https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf."
+  }
+]

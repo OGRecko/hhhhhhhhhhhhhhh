@@ -1,0 +1,12 @@
+[
+  {
+    "id": "presonus-eris-3-5",
+    "model_check": "Eris 3.5",
+    "source": "https://www.presonus.com/products/eris-e35-studio-monitor",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "The bare catalog label 'Eris 3.5' does not identify a revision. PreSonus's official page for the earlier, explicitly named 'Eris E3.5 Studio Monitor' lists SKU 2777500101 and links its E3.5-series owner's manual; the manufacturer's separate current product is explicitly 'Eris 3.5 2nd Gen (Pair)' and links a different generation-specific manual (SKU 2777500121/2777500133 regional/color variants). These are distinct generation labels and source documents. Neither is tied to this unqualified database row, and the E3.5BT is a separate Bluetooth model that is not assumed. Preserve the legitimate row, retain N/A in all unsupported acoustic/physical fields, and mark identity UNAVAILABLE until its generation/SKU is established; no specification from either revision is transferred. Published bandwidth limits and peak SPL are not response curves, and the manufacturer's qualitative 'wide pattern' text is not a directivity dataset. No exact curve or polar data is asserted. Sources: https://www.presonus.com/products/eris-e35-studio-monitor ; https://pae-web.presonusmusic.com/downloads/products/pdf/Eris-series_E3.5_E3.5_BT_E4.5_E4.5_BT_OwnersManual_EN_11102019.pdf ; https://www.presonus.com/products/eris-35-2nd-gen-pair ; https://www.fmicassets.com/Damroot/Original/10017/OM_2777500121_Eris-3.5_EN.pdf."
+  }
+]

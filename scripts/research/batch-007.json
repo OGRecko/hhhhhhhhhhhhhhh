@@ -1,0 +1,80 @@
+[
+ {
+  "id": "neumann-kh-80-dsp",
+  "model_check": "KH 80 DSP",
+  "source": "https://www.neumann.com/en-be/products/monitors/kh-80-dsp-a-g",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 57,
+    "high_hz": 21000
+   },
+   "power": {
+    "value": 190,
+    "unit": "W",
+    "role": "amplifier_output"
+   },
+   "woofer": {
+    "value": 4,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 2,
+   "active": true
+  },
+  "notes": "Neumann official KH 80 DSP A G page (the anthracite variant; the white KH 80 DSP A W is listed by Neumann as a colour variant and its page was not read). Free-field response 57 Hz\u201321 kHz (\u00b13 dB) is stored; 53 Hz\u201321 kHz (\u00b16 dB) and 61 Hz\u201320 kHz (\u00b11.25 dB pass band) are also published. Amplifiers: 120 W woofer + 70 W tweeter at 10% THD+N with limiter deactivated (stored 190 W is that sum); 90 W + 50 W at 0.1% THD+N. Drivers: 100 mm (4 in) woofer + 25 mm (1 in) tweeter; crossover 1.8 kHz, 48 dB/oct; front-ported; 233 x 154 x 194 mm; 3.5 kg; max SPL 108.8 dB (half space, 3% THD). Active monitor: no sensitivity or speaker impedance is published (the 14 kOhm figure is analog input impedance, not a speaker rating). Horizontal and vertical directivity are published only as plot images on the page; no data file was imported."
+ },
+ {
+  "id": "neumann-kh-420",
+  "model_check": "KH 420",
+  "source": "https://www.neumann.com/en-be/products/monitors/kh-420",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 26,
+    "high_hz": 22000
+   },
+   "power": {
+    "value": 610,
+    "unit": "W",
+    "role": "amplifier_output"
+   },
+   "woofer": {
+    "value": 10,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 3,
+   "active": true
+  },
+  "notes": "Neumann official KH 420 (KH 420 G) page. Free-field response 26 Hz\u201322 kHz (\u00b13 dB) is stored; 25 Hz\u201322 kHz (\u00b16 dB) and 28 Hz\u201320 kHz (\u00b12 dB pass band) are also published. Three-way tri-amplified: the page text states Class AB amplifiers of 330 W and two times 140 W (the data table lists woofer 330 W and tweeter 140 W at 10% THD+N, limiter deactivated); the stored 610 W is 330 + 140 + 140. Drivers: 265 mm (10 in) woofer, fabric-dome midrange (size not published), 25 mm (1 in) tweeter; crossover 570 Hz and 2.0 kHz; front-ported; 645 x 330 x 444 mm; 35.0 kg; max SPL 122.4 dB (half space, 3% THD). Active monitor: no sensitivity or speaker impedance published. Directivity is published only as plot images (both cabinet orientations); no data file imported."
+ },
+ {
+  "id": "neumann-kh-750-dsp",
+  "model_check": "KH 750 DSP",
+  "source": "https://www.neumann.com/en-be/products/monitors/kh-750-dsp",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": {
+    "low_hz": 18,
+    "high_hz": 750
+   },
+   "power": {
+    "value": 256,
+    "unit": "W",
+    "role": "amplifier_output"
+   },
+   "woofer": {
+    "value": 10,
+    "unit": "in"
+   }
+  },
+  "scalars": {
+   "driverCount": 1,
+   "active": true
+  },
+  "notes": "Neumann official KH 750 DSP (KH 750 DSP D G) page. Free-field response 18 Hz\u2013750 Hz (\u00b13 dB) is stored; 16\u2013800 Hz (\u00b16 dB) is also published. Amplifier: 256 W at 10% THD+N with limiter deactivated. Single 265 mm (10 in) driver in a sealed cabinet; fixed 80 Hz, 4th-order crossover for its bass-managed output; 383 x 330 x 383 mm; 19.5 kg; bass-capability max SPL 105.0 dB (half space, 3% THD, 50\u2013100 Hz). Active subwoofer: no sensitivity or speaker impedance published (the >13 kOhm figure is analog input impedance)."
+ }
+]

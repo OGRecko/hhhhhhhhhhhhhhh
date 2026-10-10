@@ -1,0 +1,15 @@
+[
+  {
+    "id": "fostex-6301b",
+    "model_check": "6301B",
+    "source": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 84, "unit": "dB", "reference": "W/m" },
+      "frequencyResponse": { "low_hz": 80, "high_hz": 13000 },
+      "woofer": { "value": 3.94, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "Exact Fostex Model 6301B Personal Monitor owner's manual (Fostex copyright; printed May 2004), not the later 6301N/6301NB series, describes a self-powered monitor with one 10 cm full-range cone. The built-in speaker section is specified as 80 Hz–13 kHz, 84 dB with the manual's exact sensitivity notation “dB (W/m),” and 4 ohms. The 84 dB value is retained with its unaltered W/m reference; because the manual does not write the reference in the schema's exact 1W/1m form, the shared sensitivity resolver deliberately uses its neutral fallback rather than normalizing it. The 4-ohm value is for the internal speaker section, not the active monitor's line-level input, so system impedance remains N/A. The “higher than 10 W RMS into 8 ohms” figure is the optional EXT SP output, not the monitor's built-in amplifier rating or internal speaker handling, and is not stored as power. The 10 cm driver diameter is represented as 3.94 in; no separate woofer, voice-coil diameter, Fs, response tolerance, published response-point table, or directivity data are specified. Source: https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf."
+  }
+]

@@ -1,0 +1,8 @@
+[
+ {"id":"kef-kc62","model_check":"KC62","source":"https://us.kef.com/products/kc62-subwoofer","sourceType":"MANUFACTURER",
+  "fields":{
+   "frequencyResponse":{"low_hz":11,"high_hz":200},
+   "power":{"value":1000,"unit":"W","role":"amplifier_output"},
+   "woofer":{"value":6.5,"unit":"in"}},
+  "notes":"KEF US official product page (KC62 powered subwoofer): Uni-Core force-cancelling design; response 11 Hz–200 Hz (±3 dB); built-in Class D amplification 1,000 W RMS (2 x 500 W); two 6.5 in drivers; maximum SPL 105 dB at 1 m; recommended high-pass 40–120 Hz (bypass) / 40–140 Hz (LFE); 246 x 256 x 248 mm; 14 kg. Powered subwoofer: no sensitivity or passive impedance published."}
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "jl-audio-c7-650",
+    "model_check": "C7-650",
+    "source": "https://www.garmin.com/en-US/p/1668178/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "notes": "Identity remains unresolved for the dataset's exact unsuffixed label C7-650. The JL-authored owner's manual is explicitly for C7-650cw, a 6.50-inch component woofer, and discusses its use with a separate midrange/tweeter in two- or three-way systems; its numeric specifications and response tables belong to that component/model only. JL Audio's current product page (part 010-03126-00) likewise identifies the item as a single C7-650cw component woofer. These sources do not establish that the distinct unsuffixed C7-650 record is that component or a packaged system. No C7-650cw values or response data are transferred; all acoustic fields remain N/A pending exact identity. Sources: https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/C7650cw_MAN.pdf and https://www.garmin.com/en-US/p/1668178/."
+  },
+  {
+    "id": "jl-audio-10w0v3",
+    "model_check": "10W0v3",
+    "source": "https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "notes": "Exact-model check retained without importing variant data: the fetched JL-authored owner's manual's technical table is explicitly headed 10WØv3-4, not the dataset's unsuffixed 10W0v3 label. The manual's separate 10W0V3 power-chart label describes recommended amplifier zones, not a replacement exact-model speaker specification. Because the impedance suffix is absent from this record, no -4 sensitivity, 4-ohm impedance, resonance, power, size, or other suffix-specific values are transferred; all acoustic fields remain N/A. Source: https://www.customsounds.com/uploads/docs/41f18bef9ad076e32518791d7cd04729dccfb9fd.pdf."
+  },
+  {
+    "id": "jl-audio-12w0v3",
+    "model_check": "12W0v3",
+    "source": "https://www.customsounds.com/uploads/docs/6701ce5b41180ad749fd5ed190e4d4992bcde6b9.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "notes": "Exact-model check retained without importing variant data: the fetched JL-authored owner's manual's technical table is explicitly headed 12WØv3-4, not the dataset's unsuffixed 12W0v3 label. The manual's separate 12W0V3 power chart gives recommended amplifier zones, not a scalar speaker power rating for this unsuffixed record. Because the impedance suffix is absent, no -4 sensitivity, 4-ohm impedance, resonance, power, size, or other suffix-specific values are transferred; all acoustic fields remain N/A. Source: https://www.customsounds.com/uploads/docs/6701ce5b41180ad749fd5ed190e4d4992bcde6b9.pdf."
+  },
+  {
+    "id": "jl-audio-13w7ae",
+    "model_check": "13W7AE",
+    "source": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "notes": "Exact-model check retained without importing variant data: the JL-authored W7AE manual's technical specification section is explicitly headed 13W7AE-D1.5 and specifies that dual-1.5-ohm variant. The manual's broader 13W7AE amplifier-power chart is a recommended-amplifier range, not a scalar power-handling value for the unsuffixed dataset record. No D1.5-specific sensitivity, impedance, resonance, power, size, or other data are transferred; the unsuffixed 13W7AE acoustic fields remain N/A. Source: https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf."
+  }
+]

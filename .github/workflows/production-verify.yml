@@ -1,0 +1,98 @@
+name: Production verification
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: cavity-production-verification
+  cancel-in-progress: false
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23.3
+      - run: npm ci
+      - name: Validate production verification secrets
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+          CLOUD_TASKS_DISPATCH_SECRET: ${{ secrets.CLOUD_TASKS_DISPATCH_SECRET }}
+          MONITORING_ALERT_EMAIL: ${{ secrets.MONITORING_ALERT_EMAIL }}
+          CLOUD_RUN_SERVICE: ${{ secrets.CLOUD_RUN_SERVICE }}
+          CLOUD_RUN_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+          CLOUD_RUN_SERVICE_ACCOUNT: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT }}
+          CLEANUP_SECRET: ${{ secrets.CLEANUP_SECRET }}
+        run: |
+          test -n "$APP_URL"
+          test -n "$FIREBASE_STORAGE_BUCKET"
+          test -n "$RELEASES_BUCKET"
+          test -n "$GCP_SERVICE_ACCOUNT_KEY"
+          test -n "$CLOUD_TASKS_QUEUE"
+          test -n "$CLOUD_TASKS_LOCATION"
+          test -n "$CLOUD_TASKS_DISPATCH_SECRET"
+          test -n "$MONITORING_ALERT_EMAIL"
+          test -n "$CLOUD_RUN_SERVICE"
+          test -n "$CLOUD_RUN_REGION"
+          test -n "$CLOUD_RUN_SERVICE_ACCOUNT"
+          test -n "$CLEANUP_SECRET"
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: '${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}'
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Resolve GCP project from service account
+        id: project
+        env:
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        run: echo "project_id=$(node -e 'process.stdout.write(JSON.parse(process.env.GCP_SERVICE_ACCOUNT_KEY).project_id)')" >> "$GITHUB_OUTPUT"
+      - name: Ensure GCP production infrastructure
+        env:
+          GCP_PROJECT_ID: ${{ steps.project.outputs.project_id }}
+          CLOUD_RUN_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+          CLOUD_RUN_SERVICE_ACCOUNT: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+        run: npm run gcp:ensure
+
+      - name: Ensure Cloud Tasks queue
+        env:
+          CLOUD_TASKS_PROJECT_ID: ${{ steps.project.outputs.project_id }}
+          CLOUD_TASKS_QUEUE: ${{ secrets.CLOUD_TASKS_QUEUE }}
+          CLOUD_TASKS_LOCATION: ${{ secrets.CLOUD_TASKS_LOCATION }}
+        run: npm run cloudtasks:ensure
+      - name: Ensure production monitoring
+        env:
+          GCP_PROJECT_ID: ${{ steps.project.outputs.project_id }}
+          CLOUD_RUN_SERVICE: ${{ secrets.CLOUD_RUN_SERVICE }}
+          MONITORING_ALERT_EMAIL: ${{ secrets.MONITORING_ALERT_EMAIL }}
+        run: npm run monitoring:ensure
+      - name: Production API smoke
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          SMOKE_RUN_SOLVER: 'true'
+          SMOKE_RUN_CLEANUP: 'true'
+          CLEANUP_SECRET: ${{ secrets.CLEANUP_SECRET }}
+        run: npm run production:smoke
+      - name: Production abuse smoke
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          ABUSE_CONCURRENCY: '50'
+        run: node scripts/abuse-smoke.mjs
+      - name: Apply Storage lifecycle
+        env:
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+        run: npm run storage:lifecycle
+      - name: Verify Storage lifecycle
+        env:
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+        run: npm run storage:lifecycle:check

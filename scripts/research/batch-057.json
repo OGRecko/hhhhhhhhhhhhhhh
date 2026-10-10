@@ -1,0 +1,133 @@
+[
+  {
+    "id": "bw-802d3",
+    "model_check": "802 D3",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 4
+    },
+    "fields": {
+      "sensitivity": {
+        "value": 90,
+        "unit": "dB",
+        "reference": "2.83Vrms on-axis; measurement distance not stated"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 8,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 17,
+        "high_hz": 28000
+      }
+    },
+    "notes": "Exact Bowers & Wilkins 802 D3 information sheet: four transducers (two 8-inch Aerofoil bass units, one 6-inch Continuum midrange, one 1-inch diamond tweeter); published response 17 Hz–28 kHz, ±3 dB from the reference axis; nominal impedance 8 ohms (minimum 3.0 ohms). The sheet reports 90 dB on-axis at 2.83 Vrms but does not state measurement distance; the raw manufacturer value is retained with that limitation, and the simulator will not convert it as a 1 W/1 m sensitivity. The 50–500 W figure is a recommended-amplifier range, not a scalar speaker rating, so power remains N/A. No directivity or response points are inferred. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf."
+  },
+  {
+    "id": "legacy-bw-7",
+    "model_check": "800 D3",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 4
+    },
+    "fields": {
+      "sensitivity": {
+        "value": 90,
+        "unit": "dB",
+        "reference": "2.83Vrms on-axis; measurement distance not stated"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 10,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 15,
+        "high_hz": 28000
+      }
+    },
+    "notes": "Exact Bowers & Wilkins 800 D3 information sheet: four transducers (two 10-inch Aerofoil bass units, one 6-inch Continuum midrange, one 1-inch diamond tweeter); published response 15 Hz–28 kHz, ±3 dB from the reference axis; nominal impedance 8 ohms (minimum 3.0 ohms). The sheet reports 90 dB on-axis at 2.83 Vrms but does not state measurement distance; the raw manufacturer value is retained with that limitation, and the simulator will not convert it as a 1 W/1 m sensitivity. The 50–1000 W figure is a recommended-amplifier range, not a scalar speaker rating, so power remains N/A. No directivity or response points are inferred. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf."
+  },
+  {
+    "id": "bowers-wilkins-formation-flex",
+    "model_check": "Formation Flex",
+    "source": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 2,
+      "active": true
+    },
+    "fields": {
+      "woofer": {
+        "value": 4,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 50,
+        "high_hz": 28000
+      }
+    },
+    "notes": "Exact Bowers & Wilkins Formation Flex archived product page: one 100 mm (4-inch) woven-glass-fibre bass/midrange unit and one 25 mm tweeter (two drive units total), with a digital amplifier; manufacturer-published frequency response is 50 Hz–28 kHz (no tolerance stated). The page lists two 50 W amplifier channels; because the database power field is scalar and the source does not state a single total output figure, power remains N/A rather than summing or reinterpreting the channels. Sensitivity, nominal driver impedance, directivity, and response points are not published in this page and remain N/A. Source: https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html."
+  },
+  {
+    "id": "bowers-wilkins-formation-wedge",
+    "model_check": "Formation Wedge",
+    "source": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 5,
+      "active": true
+    },
+    "fields": {
+      "woofer": {
+        "value": 6,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 35,
+        "high_hz": 28000
+      }
+    },
+    "notes": "Exact Bowers & Wilkins Formation Wedge archived product page: five drive units (two 25 mm tweeters, two 90 mm FST midrange units, one 150 mm/6-inch subwoofer) and a digital amplifier; published frequency response is 35 Hz–28 kHz (no tolerance stated). The manufacturer gives separate amplifier outputs for tweeter, midrange, and subwoofer channels; no single scalar power value is entered. Sensitivity, nominal driver impedance, directivity, and response points are not published in this page and remain N/A. Source: https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html."
+  },
+  {
+    "id": "bowers-wilkins-asw610",
+    "model_check": "ASW610",
+    "source": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 1,
+      "active": true
+    },
+    "fields": {
+      "woofer": {
+        "value": 10,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 27,
+        "high_hz": null
+      }
+    },
+    "notes": "Exact Bowers & Wilkins ASW610 product page identifies an active closed-box subwoofer with one 250 mm (10-inch) long-throw driver. Its published ±3 dB response is 27 Hz to a variable 40/140 Hz upper cutoff (EQ at A); only the fixed 27 Hz lower limit is stored, and no setting-dependent upper limit is selected. The page's 40 W/0.5 W figures are power consumption, not amplifier output; its 33 kΩ figure is input impedance, not driver nominal impedance. Sensitivity, output power, directivity, and response points remain N/A. Source: https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html."
+  },
+  {
+    "id": "bw-800-d4",
+    "model_check": "800 D4",
+    "source": "https://www.bowerswilkins.com/en/category/loudspeakers/800-series-diamond/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "UNAVAILABLE — Bowers & Wilkins' official 800 Series Diamond D4 page identifies the individual models as 801 D4, 802 D4, 803 D4, 804 D4, 805 D4, HTM81 D4, and HTM82 D4; it does not identify a standalone loudspeaker named ‘800 D4’. This catalog label is a series-level/ambiguous identity, so no individual D4 variant is selected and no variant specifications are transferred. All physical and response fields remain N/A pending an exact model identity. Source: https://www.bowerswilkins.com/en/category/loudspeakers/800-series-diamond/.",
+    "overallStatus": "UNAVAILABLE"
+  }
+]

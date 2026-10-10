@@ -1,0 +1,11 @@
+import { spawnSync } from 'node:child_process';
+const bucket = process.env.FIREBASE_STORAGE_BUCKET || process.env.GCLOUD_STORAGE_BUCKET;
+if (!bucket) throw new Error('FIREBASE_STORAGE_BUCKET or GCLOUD_STORAGE_BUCKET is required.');
+const result = spawnSync('gcloud', ['storage', 'buckets', 'describe', `gs://${bucket}`, '--format=json'], { encoding: 'utf8' });
+if (result.error) throw result.error;
+if (result.status !== 0) throw new Error(result.stderr || `gcloud exited ${result.status}`);
+const data = JSON.parse(result.stdout);
+const rules = data.lifecycle?.rule || [];
+const hasDelete = rules.some(r => r.action?.type === 'Delete' && Number(r.condition?.age) === 1 && Array.isArray(r.condition?.matchesPrefix) && r.condition.matchesPrefix.includes('public-simulations/'));
+if (!hasDelete) throw new Error(`Bucket ${bucket} does not have the required 1-day delete lifecycle rule.`);
+console.log(`PASS Cloud Storage lifecycle rule on ${bucket}: 1 day, public-simulations/ only`);

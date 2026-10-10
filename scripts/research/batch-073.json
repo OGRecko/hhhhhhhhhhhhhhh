@@ -1,0 +1,158 @@
+[
+  {
+    "id": "marshall-marshall-1960a",
+    "model_check": "Marshall 1960A",
+    "source": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Marshall 1960A product page: four 12-inch Celestion G12T-75 drivers; cabinet power handling 300 W mono / 150 W stereo; unit impedance is 16/4 Ω mono or 8 Ω stereo. `power.value=300 W` retains the published mono rating as total cabinet handling; the stereo rating is preserved here in context, not collapsed or represented as a per-channel assumption. The cabinet is passive (external guitar-amplifier cabinet; the page describes speaker drivers, input(s), power handling, and output impedance, with no onboard amplifier), so active=false. Impedance remains N/A because this record has one scalar impedance field but the manufacturer specifies mode-dependent 16/4 Ω mono and 8 Ω stereo. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269."
+  },
+  {
+    "id": "marshall-marshall-1960b",
+    "model_check": "Marshall 1960B",
+    "source": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Marshall support entry titled 1960B 4x12 Base Cabinet: it identifies the 1960B 300 W cabinet, four 12-inch Celestion G12T-75 speakers, 300 W mono / 150 W stereo handling, and 16/4 Ω mono or 8 Ω stereo unit impedance. The direct product route previously returned Page not found; this exact-model manufacturer support page supplies the evidence used here. `power.value=300 W` retains the published mono total handling, with the stereo rating preserved in this note. The cabinet is passive, so active=false. Impedance remains N/A because the published load varies by wiring mode and the data field accepts only one scalar value. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet."
+  },
+  {
+    "id": "marshall-marshall-1960av",
+    "model_check": "Marshall 1960AV",
+    "source": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 280, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Marshall support entry titled 1960AV 4x12 Angled Cabinet: it identifies the 1960AV 280 W cabinet, four 12-inch Celestion G12-Vintage speakers, 280 W mono / 140 W stereo handling, and 16/4 Ω mono or 8 Ω stereo unit impedance. The separate 1960AV product page's GENERAL/Model cell is mislabeled 1960A; this exact-model support entry confirms the AV identity and its own product-detail values, so that typo is not used as evidence. `power.value=280 W` retains the published mono total handling; the stereo rating is preserved in this note. The cabinet is passive, so active=false. Impedance remains N/A because the published load is mode-dependent and the data field accepts only one scalar. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet."
+  },
+  {
+    "id": "marshall-marshall-1960bv",
+    "model_check": "Marshall 1960BV",
+    "source": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 280, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Marshall support entry titled 1960BV 4x12 Base Cabinet: it identifies the 1960BV 280 W cabinet, four 12-inch Celestion G12-Vintage speakers, 280 W mono / 140 W stereo handling, and 16/4 Ω mono or 8 Ω stereo unit impedance. `power.value=280 W` retains the published mono total handling; the stereo rating is preserved in this note. The cabinet is passive, so active=false. Impedance remains N/A because the published load is mode-dependent and the data field accepts only one scalar. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet."
+  },
+  {
+    "id": "marshall-marshall-1936",
+    "model_check": "Marshall 1936",
+    "source": "https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Marshall 1936 product page: two 12-inch Celestion G12T-75 drivers; cabinet power handling 150 W mono / 75 W stereo; unit impedance 8 Ω mono / 16 Ω stereo. `power.value=150 W` retains the published mono total handling and the stereo rating is retained in context. The external-amplifier guitar cabinet is passive, so active=false. Impedance remains N/A because the load depends on mono/stereo wiring and the schema has one scalar impedance field. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263."
+  },
+  {
+    "id": "marshall-marshall-1936v",
+    "model_check": "Marshall 1936V",
+    "source": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 140, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Marshall 1936V product page: two 12-inch Celestion G12 Vintage drivers; cabinet power handling 140 W mono / 70 W stereo; unit impedance 8 Ω mono / 16 Ω stereo. `power.value=140 W` retains the published mono total handling and the stereo rating is retained in context. The external-amplifier guitar cabinet is passive, so active=false. Impedance remains N/A because the load depends on mono/stereo wiring and the schema has one scalar impedance field. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266."
+  },
+  {
+    "id": "marshall-marshall-mx112",
+    "model_check": "Marshall MX112",
+    "source": "https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 80, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact Marshall MX112 1x12 Cabinet product page: one 12-inch Celestion Seventy-80 rated 80 W, cabinet handling 80 W, and unit impedance 16 Ω. `power.value=80 W` is manufacturer-listed cabinet power handling, not amplifier output. The page describes a speaker cabinet used with a DSL20 head/combo as an extension cabinet and specifies passive speaker impedance; active=false. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173."
+  },
+  {
+    "id": "marshall-marshall-mx212",
+    "model_check": "Marshall MX212",
+    "source": "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176",
+    "sourceType": "MANUFACTURER",
+    "category": "guitar-cab",
+    "fields": {
+      "power": { "value": 160, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Marshall MX212 2x12 Cabinet product page: two 12-inch Celestion Seventy-80 drivers (each 80 W, 16 Ω), cabinet handling 160 W, and unit impedance 8 Ω. `power.value=160 W` is manufacturer-listed cabinet power handling, not amplifier output. The page describes it as a cabinet for Marshall heads/combos or an extension cabinet and specifies passive speaker impedance; active=false. Sensitivity, standard response limits, resonant frequency, and voice-coil diameter are not published. No response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176."
+  },
+  {
+    "id": "marshall-marshall-acton-iii",
+    "model_check": "Marshall Acton III",
+    "source": "https://www.marshall.com/us/en/product/acton-iii?pid=1006008",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 20000 },
+      "power": { "value": 60, "unit": "W", "role": "amplifier_output" }
+    },
+    "scalars": { "active": true },
+    "notes": "Exact Marshall Acton III product page: frequency range 45–20,000 Hz (no response tolerance or measurement conditions stated); built-in Class D amplifier ratings are one 30 W woofer amplifier plus two 15 W tweeter amplifiers. The stored 60 W is the arithmetic sum of those published internal channel ratings, marked `amplifier_output` rather than speaker power handling; Marshall does not identify the rating basis as RMS or peak. The built-in amplifiers support active=true. The page's 95 dB @ 1 m figure is maximum SPL, not sensitivity. It does not publish a woofer size or explicit total driver count; neither is inferred from amplifier count. Passive speaker impedance, sensitivity, resonant frequency, and voice-coil diameter remain N/A. The published frequency bounds are not response-curve points; no curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/acton-iii?pid=1006008."
+  },
+  {
+    "id": "marshall-marshall-stanmore-iii",
+    "model_check": "Marshall Stanmore III",
+    "source": "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 20000 },
+      "power": { "value": 80, "unit": "W", "role": "amplifier_output" }
+    },
+    "scalars": { "active": true },
+    "notes": "Exact Marshall Stanmore III product page: frequency range 45–20,000 Hz (no response tolerance or measurement conditions stated); built-in Class D amplifier ratings are one 50 W woofer amplifier plus two 15 W tweeter amplifiers. The stored 80 W is the arithmetic sum of those published internal channel ratings, marked `amplifier_output` rather than speaker power handling; Marshall does not identify the rating basis as RMS or peak. Built-in amplification supports active=true. The page's 97 dB @ 1 m figure is maximum SPL, not sensitivity. Although the description calls it a two-way driver system, it does not explicitly state total driver count or woofer diameter; those values are left N/A rather than inferred. Passive speaker impedance, sensitivity, resonant frequency, and voice-coil diameter are not published. The published frequency bounds are not response-curve points; no curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642."
+  },
+  {
+    "id": "marshall-marshall-woburn-iii",
+    "model_check": "Marshall Woburn III",
+    "source": "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 20000 },
+      "power": { "value": 150, "unit": "W", "role": "amplifier_output" }
+    },
+    "scalars": { "active": true },
+    "notes": "Exact Marshall Woburn III product page: frequency range 35–20,000 Hz (no response tolerance or measurement conditions stated); built-in Class D amplifier ratings are one 90 W woofer amplifier, two 15 W midrange amplifiers, and two 15 W tweeter amplifiers. The stored 150 W is the arithmetic sum of those published internal channel ratings, marked `amplifier_output` rather than speaker power handling; Marshall does not identify the rating basis as RMS or peak. Built-in amplification supports active=true. The page's 100.5 dB @ 1 m figure is maximum SPL, not sensitivity. The page does not explicitly state woofer size or total driver count; neither is inferred from amplifier count. Passive speaker impedance, sensitivity, resonant frequency, and voice-coil diameter remain N/A. The published frequency bounds are not response-curve points; no curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/woburn-iii?pid=1006020."
+  },
+  {
+    "id": "marshall-marshall-middleton",
+    "model_check": "Marshall Middleton",
+    "source": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
+    "sourceType": "MANUFACTURER",
+    "category": "portable",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 20000 },
+      "power": { "value": 60, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 3, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact original Marshall Middleton (not Middleton II) product page: frequency range 50–20,000 Hz with no response tolerance or measurement conditions stated; it lists two 3-inch 15 W woofers, two 0.6-inch 10 W tweeters, and two passive radiators. `driverCount=4` counts the four active transducers only; passive radiators are not counted as drivers. The stored 60 W is the arithmetic sum of two 20 W woofer amplifiers and two 10 W tweeter amplifiers and is marked `amplifier_output`, not speaker power handling; no RMS/peak basis is specified. Built-in amplifiers support active=true. The page's 87 dB SPL @ 1 m is maximum SPL, not sensitivity. Passive speaker impedance, sensitivity, resonant frequency, and voice-coil diameter remain N/A. The frequency range is retained only as the published bounds, not as curve points; no response curve or directivity data is imported. Source: https://www.marshall.com/us/en/product/middleton?pid=1006034."
+  }
+]

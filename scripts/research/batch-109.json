@@ -1,0 +1,17 @@
+[
+  {
+    "id": "morel-elate-carbon-62a",
+    "model_check": "Elate Carbon 62A",
+    "source": "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 180, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "voiceCoil": { "value": 3, "unit": "in" },
+      "frequencyResponse": { "low_hz": 30, "high_hz": 25000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Morel's exact ELATE CARBON 62A product page names the variant in its selector and table: 6½-inch, 2-way active configuration; 180 W RMS power handling / 1000 W peak; 87 dB sensitivity at 2.83 V/1 m; and 30–25,000 Hz frequency response (the page gives no response tolerance). The same exact product page states that the 5.25-, 6.5- and 9-inch Elate Carbon woofers each use a 3-inch voice coil, supporting the 62A's low-frequency voice-coil value. Two-way transducer count is 2 (woofer + MT450 tweeter). The manufacturer installation guide identifies 62A as an active-crossover configuration using an external electronic network; its 'active' label does not establish built-in amplification, so the powered-speaker active flag remains unknown. The product page does not state system nominal impedance or system resonant frequency; component-only impedance/Fs are not substituted. 1000 W peak remains context only; structured power is the explicitly identified 180 W RMS handling value. The numeric response limits are not curve points, and no response or directivity dataset is published here. Sensitivity reference is retained; with system impedance N/A it is not converted to a 1 W/1 m value by the DSP. Sources: https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158 and https://www.morelhifi.com/filecont/Elate%20carbon%20and%20Pro%20NEW%20manual%20web_7720.pdf."
+  }
+]

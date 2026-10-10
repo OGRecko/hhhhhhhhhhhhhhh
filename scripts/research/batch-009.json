@@ -1,0 +1,10 @@
+[
+ {"id":"qsc-kw153","model_check":"KW153","source":"https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf","sourceType":"MANUFACTURER",
+  "fields":{"frequencyResponse":{"low_hz":35,"high_hz":18000},"power":{"value":1000,"unit":"W","role":"amplifier_output"},"woofer":{"value":15,"unit":"in"}},
+  "scalars":{"driverCount":3,"active":true},
+  "notes":"QSC KW Series User Manual (TD-000315-01-G), specifications table, KW153 column. Frequency response 35 Hz-18 kHz at -6 dB (33 Hz-20 kHz at -10 dB also published); stored limits use the -6 dB convention. Amplifier: 1000 W Class D continuous (500 W LF + 500 W MF/HF). Drivers: 15 in LF cone, 6.5 in mid-range cone, 1.75 in compression driver = 3 drivers; nominal coverage 75 deg axisymmetric (-6 dB); max SPL 134 dB peak at 1 m; 43.1 x 18.5 x 16.8 in. The same manual gives net weight as 87 lb (39.5 kg) in the table but 88 lb (39.9 kg) in the text, so weight is left N/A. No sensitivity or passive impedance published (active). No response dataset or directivity file found."},
+ {"id":"qsc-kw122","model_check":"KW122","source":"https://www.qscaudio.com/resource-files/productresources/spk/kw/q_spk_kw_usermanual.pdf","sourceType":"MANUFACTURER",
+  "fields":{"frequencyResponse":{"low_hz":53,"high_hz":18000},"power":{"value":1000,"unit":"W","role":"amplifier_output"},"woofer":{"value":12,"unit":"in"}},
+  "scalars":{"driverCount":2,"active":true},
+  "notes":"QSC KW Series User Manual (TD-000315-01-G), specifications table, KW122 column. Frequency response 53 Hz-18 kHz at -6 dB (50 Hz-20 kHz at -10 dB also published); stored limits use the -6 dB convention. Amplifier: 1000 W Class D continuous (500 W LF + 500 W HF). Drivers: 12 in LF cone + 1.75 in compression driver = 2 drivers; nominal coverage 75 deg axisymmetric; max SPL 131 dB peak at 1 m; 26 x 15 x 15.4 in; net weight 49 lb (22.2 kg) in both table and text. No sensitivity or passive impedance published (active). No response dataset or directivity file found."}
+]

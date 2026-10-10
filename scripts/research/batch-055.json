@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bose-bose-home-speaker-500",
+    "model_check": "Home Speaker 500",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars",
+    "fields": {},
+    "scalars": { "driverCount": 2 },
+    "notes": "Bose's exact 2018 launch announcement identifies the Home Speaker 500 and states that two custom drivers point in opposite directions to deliver stereo separation from one enclosure. driverCount=2 counts the active transducers; the announcement does not establish driver diameter, standardized response bounds, or a complete polar/directivity dataset, so those fields remain N/A. Source: https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars."
+  },
+  {
+    "id": "bose-bose-home-speaker-300",
+    "model_check": "Home Speaker 300",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf",
+    "fields": {},
+    "scalars": { "active": true },
+    "notes": "The exact Bose Home Speaker 300 owner's guide identifies the product on its cover and labels type designation 427374 as a “Powered Speaker” in its regulatory materials; active=true records that explicit manufacturer classification. The guide does not establish a driver count or simulation-ready acoustic specification, so those remain N/A. Source: https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf."
+  },
+  {
+    "id": "bose-bose-portable-smart-speaker",
+    "model_check": "Portable Smart Speaker",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html",
+    "fields": {},
+    "scalars": { "driverCount": 1 },
+    "notes": "The exact Bose Portable Smart Speaker product page states that one high-excursion transducer radiates through an acoustic deflector and separately identifies three passive radiators. driverCount=1 counts the active transducer only; passive radiators are not counted as drivers. No transducer size, frequency-response bounds, or directivity payload is inferred. Source: https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html."
+  },
+  {
+    "id": "bose-bose-soundlink-flex",
+    "model_check": "SoundLink Flex",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker",
+    "fields": {},
+    "scalars": { "driverCount": 1 },
+    "notes": "Bose's October 2021 launch release identifies the first-generation SoundLink Flex (the release links its exact SLFLX-SPEAKERWIRELESS product page) and specifies one custom transducer plus dual-opposing passive radiators. driverCount=1 counts the active transducer only; passive radiators are excluded. No size, standardized response limits, or directivity data is inferred, and no second-generation specifications are transferred. Source: https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker."
+  },
+  {
+    "id": "bose-bose-soundlink-max",
+    "model_check": "SoundLink Max",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/pressroom/bose-soundlink-max",
+    "fields": {},
+    "scalars": { "driverCount": 3 },
+    "notes": "Bose's exact 2024 SoundLink Max launch release explicitly describes a Bose Articulated Array with three transducers across the front and two custom-designed passive radiators; driverCount=3 counts active transducers only. A later Bose story says “dual transducers handle mids and highs,” but does not state that two is the total; the exact launch release is the source for the explicit total. No response bounds, driver dimensions, or directivity are inferred. Source: https://www.bose.com/pressroom/bose-soundlink-max; secondary wording checked: https://www.bose.com/stories/bose-soundlink-max-ultimate-party-speaker."
+  },
+  {
+    "id": "bose-bose-smart-ultra-soundbar",
+    "model_check": "Smart Ultra Soundbar",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html",
+    "fields": {},
+    "scalars": { "driverCount": 9 },
+    "notes": "The exact Bose Smart Ultra Soundbar product page states that the system has nine total speakers, including two upward-firing speakers. driverCount=9 records that published total; the included upward-firing units are not added a second time. The page does not provide a full angular response dataset, so no directivity is inferred. Frequency limits, dimensions of individual drivers, and other acoustic values remain N/A unless separately sourced. Source: https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html."
+  },
+  {
+    "id": "bose-bose-smart-soundbar",
+    "model_check": "Smart Soundbar",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound",
+    "fields": {},
+    "scalars": { "driverCount": 5 },
+    "notes": "Bose's September 2024 launch release identifies the exact unnumbered Bose Smart Soundbar as replacing Smart Soundbar 600 and specifies five transducers: two side-firing racetrack units, one center tweeter, and two up-firing units. driverCount=5 counts those active transducers; no Soundbar 600 values are otherwise transferred. Published orientation descriptions do not constitute a complete polar/directivity dataset, so directivity remains N/A. Source: https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound."
+  },
+  {
+    "id": "bose-bose-tv-speaker",
+    "model_check": "TV Speaker",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html",
+    "fields": {},
+    "scalars": { "driverCount": 3 },
+    "notes": "Bose's exact TV Speaker product page comparison table names “Bose TV Speaker” and specifies “3 total speakers,” supporting driverCount=3. The page does not establish the individual driver sizes or publish a complete polar/directivity dataset; neither is inferred. Source: https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html."
+  }
+]

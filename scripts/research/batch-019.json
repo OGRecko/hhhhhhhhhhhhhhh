@@ -1,0 +1,39 @@
+[
+ {
+  "id": "krk-rokit-5-g4",
+  "model_check": "Rokit 5 G4",
+  "source": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 43, "high_hz": 40000 },
+   "power": { "value": 55, "unit": "W", "role": "amplifier_output" }
+  },
+  "scalars": { "driverCount": 2, "active": true },
+  "notes": "KRK official ROKIT 5 Generation 4 page (https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black), exact model ROKIT 5 G4 (not the Rokit 5 G1 or G5). Spec table: frequency response 43 Hz-40 kHz (no tolerance/-3 dB window published, so the limits are stored as published and not as a stated -3 dB bandwidth); power output 55 W (page does not say peak or RMS; stored as amplifier_output); max SPL 104 dB; input impedance 5.12 kOhm balanced (an analog input impedance, NOT stored as speaker impedance); 285 x 190 x 241 mm (H x W x D); 4.85 kg. driverCount 2 / active true: KRK ROKIT G4 manual (https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-G4-Manual-EN-ES-DE-FR-JP-CN.pdf?v=1706768486) states the 5 in, 7 in and 8 in versions are two-way monitors with one tweeter and one woofer; the page lists a 1 in HF driver. Woofer size left N/A: the page title says 5 in but the same page's summary line says 'LF Driver: 7\"', so the manufacturer page contradicts itself and no honest value can be stored. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported."
+ },
+ {
+  "id": "krk-rokit-7-g4",
+  "model_check": "Rokit 7 G4",
+  "source": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 42, "high_hz": 40000 },
+   "woofer": { "value": 7, "unit": "in" }
+  },
+  "scalars": { "driverCount": 2, "active": true },
+  "notes": "KRK official ROKIT 7 Generation 4 page (https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black), exact model ROKIT 7 G4. Spec table: frequency response 42 Hz-40 kHz (no tolerance window published); max SPL 110 dB; input impedance 5.12 kOhm balanced (analog input, not stored as speaker impedance); 339 x 225 x 284 mm (H x W x D); 7.6 kg. Woofer 7 in: page title and summary line both state 7 in LF / 1 in HF (some retailers say 6.5 in; the manufacturer value is used). driverCount 2 / active true per KRK ROKIT G4 manual (https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-G4-Manual-EN-ES-DE-FR-JP-CN.pdf?v=1706768486), which describes the 5/7/8 in versions as two-way. Power left N/A: the same page states 'Wattage: 203 Watts' in its summary line but 'Power Output: 145 Watts' in its specifications table, so the manufacturer page contradicts itself and no value is stored. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported."
+ },
+ {
+  "id": "krk-rokit-8-g4",
+  "model_check": "Rokit 8 G4",
+  "source": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 36, "high_hz": 40000 },
+   "power": { "value": 203, "unit": "W", "role": "amplifier_output" },
+   "woofer": { "value": 8, "unit": "in" }
+  },
+  "scalars": { "driverCount": 2, "active": true },
+  "notes": "KRK official ROKIT 8 Generation 4 page (https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black), exact model ROKIT 8 G4 (not the Rokit 8 G3 or G5). Spec table: frequency response 36 Hz-40 kHz (no tolerance window published); power output 203 W (summary line and spec table agree; peak/RMS not stated; stored as amplifier_output); max SPL 111 dB; input impedance 5.12 kOhm balanced (analog input, not stored as speaker impedance); 400 x 266 x 309 mm (H x W x D); 10.25 kg. Woofer 8 in / tweeter 1 in per the page's driver summary. driverCount 2 / active true per KRK ROKIT G4 manual (https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-G4-Manual-EN-ES-DE-FR-JP-CN.pdf?v=1706768486). No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported."
+ }
+]

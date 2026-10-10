@@ -1,0 +1,75 @@
+[
+  {
+    "id": "focal-trio6",
+    "model_check": "Trio6",
+    "source": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 40000 },
+      "power": { "value": 250, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact Focal Trio6 product sheet for the current ST6 monitor (not the earlier Trio6 Be): it specifies the default three-way response as 35 Hz–40 kHz at -3 dB and an 8-inch bass driver; the product sheet also identifies a separate midrange transducer and Beryllium tweeter, for three drivers total. Its overview and specification table differ on the stated midrange diameter, so no midrange size is inferred into the single woofer field. The built-in bass, midrange, and treble amplifier stages are rated 100 W RMS + 100 W RMS + 50 W RMS; 250 W is their sum and is stored as amplifier_output, not speaker power handling. The Focus modes have separate published limits and are not merged into the default three-way response range. Maximum SPL (115 dB under the sheet's CEA2034/free-field context) is not sensitivity; the 10 kOhm XLR input is not driver impedance; the sensitivity control is not an acoustic sensitivity rating. Those fields remain N/A. Published bounds are not response-curve points; no response-point or directivity dataset is imported. Source: https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf."
+  },
+  {
+    "id": "legacy-focal-5",
+    "model_check": "Trio6 Be",
+    "source": "https://www.bhphotovideo.com/lit_files/115920.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 40000 },
+      "power": { "value": 450, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact Focal TRIO6 Be User Manual, manufacturer-authored and mirrored at B&H; the document title and specification text identify the older Be model, not the current ST6 Trio6. The manual gives the three-way response as 35 Hz–40 kHz (±3 dB), with a separate 40 Hz–20 kHz (±1 dB) subrange, and the two-way Focus response as 90 Hz–20 kHz (±3 dB); only the stated three-way bounds are stored, without combining modes. It identifies one 8-inch subwoofer, one 5-inch woofer, and one 1-inch Beryllium tweeter (three drivers). The internal bass, midrange, and treble amplifiers are rated 200 W + 150 W + 100 W; their 450 W sum is marked amplifier_output, not speaker power handling. Maximum SPL of 115 dB peak at 1 m is not sensitivity; selectable input sensitivity (+4 dBu/-10 dBV) is not acoustic sensitivity; the 10 kOhm XLR input is not driver impedance. Those fields remain N/A. The manual's adjustment information is not imported as a response curve, and no directivity dataset is imported. The former official legacy product route returned HTTP 500; the cited mirrored manual is the exact Focal-authored source used. Source: https://www.bhphotovideo.com/lit_files/115920.pdf."
+  },
+  {
+    "id": "focal-scala-utopia-evo",
+    "model_check": "Scala Utopia Evo",
+    "source": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "hifi",
+    "fields": {
+      "frequencyResponse": { "low_hz": 27, "high_hz": 40000 },
+      "sensitivity": { "value": 92, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 11, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact Focal Scala Utopia Evo Product Data Sheet: passive three-way floorstanding loudspeaker with one 11-inch W woofer, one 6.5-inch W midrange, and one 27 mm IAL2 pure-Beryllium tweeter (three drivers). Published response is 27 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 24 Hz, sensitivity is 92 dB (2.83 V/1 m), nominal impedance is 8 ohms, and minimum impedance is 3.2 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 50–500 W figure is recommended amplifier power, not speaker power handling, and remains N/A in the scalar power field. No response points are digitized and no directivity dataset is imported. Source: https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf."
+  },
+  {
+    "id": "focal-maestro-utopia-evo",
+    "model_check": "Maestro Utopia Evo",
+    "source": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "hifi",
+    "fields": {
+      "frequencyResponse": { "low_hz": 25, "high_hz": 40000 },
+      "sensitivity": { "value": 93, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 11, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Maestro Utopia Evo user manual/specification table: passive three-way floorstanding loudspeaker with two 11-inch W woofers (one with MDS), one 6.5-inch W midrange, and one 27 mm IAL2 pure-Beryllium tweeter (four drivers). Published response is 25 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 21 Hz, sensitivity is 93 dB (2.83 V/1 m), nominal impedance is 8 ohms, and minimum impedance is 3.1 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The manual's 80–600 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The response graph is not digitized as data points; no directivity dataset is imported. Source: https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf."
+  },
+  {
+    "id": "focal-grande-utopia-em-evo",
+    "model_check": "Grande Utopia EM Evo",
+    "source": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "hifi",
+    "fields": {
+      "frequencyResponse": { "low_hz": 18, "high_hz": 40000 },
+      "sensitivity": { "value": 94, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 16, "unit": "in" }
+    },
+    "scalars": { "driverCount": 5, "active": false },
+    "notes": "Exact Focal Grande Utopia EM Evo user manual/specification table: four-way loudspeaker with one 16-inch (40 cm) W electromagnetic woofer, one 11-inch (27 cm) W midbass, two 6.5-inch (16.5 cm) W midrange drivers, and one 27 mm IAL2 pure-Beryllium tweeter (five drivers). Published response is 18 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 14 Hz, sensitivity is 94 dB (2.83 V/1 m), nominal impedance is 8 ohms, and minimum impedance is 3 ohms. The sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The manual's 150–1,500 W figure is recommended amplifier power, not speaker power handling, and remains N/A in the scalar power field. Its diagrams show separate external main/bass amplifier connections; the mains/DC supply energizes the electromagnetic woofer rather than providing an internal audio amplifier, so active=false. No response points are digitized and no directivity dataset is imported. Source: https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf."
+  }
+]

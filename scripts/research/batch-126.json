@@ -1,0 +1,456 @@
+[
+  {
+    "id": "bose-901",
+    "model_check": "901",
+    "sources": [
+      "https://products.bose.com/pdf/customer_service/owners/og_901.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — this row is labeled only ‘901’, while its former source (Bose 901 Series VI owner information: https://products.bose.com/pdf/customer_service/owners/og_901.pdf) is explicitly revision-specific. The dataset already contains a separate exact ‘901 Series VI’ record (bose-901-series-vi), so Series VI values are removed from the generic row rather than duplicated or presented as revision-neutral. The generic record is retained with all physical fields N/A until its exact 901 generation is identified. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bose-4.2le",
+    "model_check": "4.2LE",
+    "sources": [
+      "https://www.manualslib.com/manual/217980/Bose-4-2.html",
+      "https://www.manualslib.com/manual/403630/Bose-4-2-Series-Ii.html"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact Bose documentation for a product named ‘4.2LE’ was not located. Search results for plain ‘4.2’ and ‘4.2 Series II’ do not establish the identity or revision of this record; no values are transferred from either. Physical fields remain N/A pending a fetched source that identifies the exact 4.2LE model/revision. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bose-acoustimass-10",
+    "model_check": "Acoustimass 10",
+    "sources": [
+      "https://products.bose.com/pdf/customer_service/owners/og_am6_10.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNRESOLVED (revision not identified). Bose's official owner guide is specifically for Acoustimass 10 Series IV (https://products.bose.com/pdf/customer_service/owners/og_am6_10.pdf); this database record is only 'Acoustimass 10' and carries no series/revision identifier, so the Series IV manual cannot be assumed to describe the intended unit. No specifications or active/passive classification are populated. Retain as UNAVAILABLE until the exact series/revision is established, then use that revision's Bose documentation. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bose-lifestyle-cube",
+    "model_check": "Lifestyle Cube Speaker",
+    "sources": [
+      "https://products.bose.com/pdf/customer_service/owners/ls18ii_ls28ii_ls38_ls48_install.pdf"
+    ],
+    "disposition": "generic-component-label",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — Bose's official LIFESTYLE DVD installation guide states that the covered systems used one of three distinct cube-speaker types: a single cube in Lifestyle 18 Series II, a cube speaker array in Lifestyle 28 Series II/38, or a Jewel Cube in Lifestyle 48. This catalog row identifies none of those systems or types, and the manufacturer guide assigns different dimensions/connectors to the variants. No variant is selected and no specifications are transferred; all physical and response fields remain N/A pending exact model/system identification. Source: https://products.bose.com/pdf/customer_service/owners/ls18ii_ls28ii_ls38_ls48_install.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bose-freespace-3",
+    "model_check": "FreeSpace 3",
+    "sources": [
+      "https://assets.boseprofessional.com/m/c443aceeb9f348f/original/tds_FreeSpace_3_ltr_EN.pdf"
+    ],
+    "disposition": "ambiguous-configuration",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — Bose’s fetched FreeSpace 3 subwoofer/satellite Technical Data sheet (https://assets.boseprofessional.com/m/c443aceeb9f348f/original/tds_FreeSpace_3_ltr_EN.pdf) presents the system with multiple satellite/bass-module configurations and includes distinct Series 1 and Series 2 on-axis-response columns. This record gives no series, satellite mounting, or system configuration, so no revision/configuration-specific values are assigned. All physical fields remain N/A until the intended revision/configuration is identified. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bose-designmax-dm10se",
+    "model_check": "DesignMax DM10SE",
+    "sources": [
+      "https://assets.boseprofessional.com/m/448403433da270a9/original/tds_DesignMax_DM10S-SUB_LTR_en.pdf"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNRESOLVED — Bose's official DesignMax DM10SE product route (https://boseprofessional.com/products/loudspeakers/background_foreground/designmax/designmax-dm10se.html) returns Page Not Found. The exact official product and TDS located are for DesignMax DM10S-SUB (https://boseprofessional.com/products/loudspeakers/designmax-dm10s-sub; https://assets.boseprofessional.com/m/448403433da270a9/original/tds_DesignMax_DM10S-SUB_LTR_en.pdf), a distinct 10-inch surface-mounted subwoofer with 35–125 Hz (-10 dB) range, not a model named DM10SE. This may be a catalog-label error, but DM10S-SUB data are not substituted. Retain all physical fields as N/A until the exact intended model is established. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bw-802-original",
+    "model_check": "802 (1979 original)",
+    "sources": [
+      "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+      "https://www.bowerswilkins.com/en-us/product-archive.html",
+      "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw67ce08f7/archive-manuals/eng_ft00005_802fs_info_sheet.pdf"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the catalog label ‘802 (1979 original)’ could not be matched to one exact Bowers & Wilkins model/revision. B&W’s official history identifies the original 801 as the model launched in 1979; its official archive lists separate 802 products including 802 FS, Nautilus 802, 802 D, 802 D3, 802 Diamond, and 802 S3. The exact B&W 802 FS information sheet is explicitly for 802 FS and does not establish that it is the intended database model. No sibling/revision values are transferred; all physical and acoustic fields remain N/A pending exact identity confirmation. Sources: https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html; https://www.bowerswilkins.com/en-us/product-archive.html; https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw67ce08f7/archive-manuals/eng_ft00005_802fs_info_sheet.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bw-800-d4",
+    "model_check": "800 D4",
+    "sources": [
+      "https://www.bowerswilkins.com/en/category/loudspeakers/800-series-diamond/"
+    ],
+    "disposition": "series-not-model",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — Bowers & Wilkins' official 800 Series Diamond D4 page identifies the individual models as 801 D4, 802 D4, 803 D4, 804 D4, 805 D4, HTM81 D4, and HTM82 D4; it does not identify a standalone loudspeaker named ‘800 D4’. This catalog label is a series-level/ambiguous identity, so no individual D4 variant is selected and no variant specifications are transferred. All physical and response fields remain N/A pending an exact model identity. Source: https://www.bowerswilkins.com/en/category/loudspeakers/800-series-diamond/. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "sonos-play5",
+    "model_check": "Play:5",
+    "sources": [
+      "https://support.sonos.com/en-us/products/play-5-gen-1",
+      "https://support.sonos.com/en-us/products/play-5-gen-2"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the existing generic Play:5 record does not specify generation. Sonos maintains separate exact support pages for Play:5 (Gen 1) and Play:5 (Gen 2); neither revision is selected and no generation-specific specifications are transferred. All acoustic fields remain N/A pending exact revision identification. Sources: https://support.sonos.com/en-us/products/play-5-gen-1 and https://support.sonos.com/en-us/products/play-5-gen-2. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "genelec-7060c",
+    "model_check": "7060C",
+    "sources": [
+      "https://www.genelec.com/previous-models/7060a",
+      "https://www.genelec.com/previous-models/7060b",
+      "https://www.genelec.com/previous-models/7060c",
+      "https://www.genelec.com/previous-models"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the exact Genelec product/revision 7060C could not be confirmed. Genelec's official 7060A archive page says that model was produced from 2002 to 2006 and replaced by the 7060B and later the 7360A (https://www.genelec.com/previous-models/7060a); its separate 7060B archive page says 7060B was produced from 2007 to 2016 and replaced by 7360A (https://www.genelec.com/previous-models/7060b). The official 7060C archive route returns Not Found (https://www.genelec.com/previous-models/7060c), and the manufacturer archive lists the documented predecessor/successor records (https://www.genelec.com/previous-models). This leaves the intended 7060C identity unresolved; it does not establish a substitute model. No 7060A, 7060B, or 7050C specifications are transferred, and all physical/acoustic fields and active/driver-count facts remain N/A until the exact identity is established. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-jbl-2",
+    "model_check": "Ranger Paragon D44000",
+    "sources": [
+      "https://jp.jbl.com/jamaica.html",
+      "https://www.manualslib.com/manual/284581/Jbl-Ranger-Paragon.html"
+    ],
+    "disposition": "duplicate-alias",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. The catalog ID is preserved as an unavailable alias and is not assigned a second copy of the canonical speaker specifications."
+  },
+  {
+    "id": "legacy-bw-10",
+    "model_check": "CCM8",
+    "sources": [
+      "https://www.bowerswilkins.com/en-us/product-archive.html"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare catalog label CCM8 could not be matched to an exact Bowers & Wilkins model/revision. The manufacturer's product archive lists distinct in-ceiling products CCM80, CCM818, and CCM8.5; none is identified as CCM8, so no sibling model is selected or substituted. No acoustic or physical values are populated. Retain as UNAVAILABLE until the intended exact model is established. Source: https://www.bowerswilkins.com/en-us/product-archive.html. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-kef-10",
+    "model_check": "Ci200",
+    "sources": [
+      "https://assets.kef.com/documents/ciseries/ci_spec_sheet.pdf"
+    ],
+    "disposition": "ambiguous-variant",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact variant cannot be resolved from the bare catalog label ‘Ci200’. KEF’s official Architectural Speakers specification sheet lists distinct Ci200 products (including Ci200ER, Ci200QL, Ci200QS, Ci200QR, Ci200.2CR, Ci200RR-THX, Ci200RS-THX, Ci200QSb-THX and Ci200TRb) with differing designs/specifications; it does not identify which one this record means. No variant’s data has been assigned, all physical fields remain N/A, and this record is retained pending exact model identification. Source: https://assets.kef.com/documents/ciseries/ci_spec_sheet.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-focal-7",
+    "model_check": "Kanta No2",
+    "sources": [
+      "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf"
+    ],
+    "disposition": "duplicate-alias",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE as a separate speaker identity — Focal's official product data sheet names the model ‘Kanta N°2’ and the dataset already contains the exact, source-backed canonical record `focal-kanta-n-2` for that speaker. ‘No2’ is the plain-text rendering of the same number designation; no distinct Kanta model or revision called ‘Kanta No2’ was established. To avoid duplicating one physical product or its acoustic values, this legacy alias is retained with all physical/acoustic fields N/A and no copied specifications. Canonical exact-model data: https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf. The catalog ID is preserved as an unavailable alias and is not assigned a second copy of the canonical speaker specifications."
+  },
+  {
+    "id": "legacy-yam-8",
+    "model_check": "VXC series",
+    "sources": [
+      "https://usa.yamaha.com/products/proaudio/speakers/vxc/index.html",
+      "https://usa.yamaha.com/support/manuals/index.html?l=id&p=205"
+    ],
+    "disposition": "series-not-model",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNRESOLVED (not an exact model). Yamaha's official VXC Series overview (https://usa.yamaha.com/products/proaudio/speakers/vxc/index.html) presents the VXC family as a product line with distinct models, and Yamaha's official manual library (https://usa.yamaha.com/support/manuals/index.html?l=id&p=205) lists manuals/specifications for individual models including VXC2F, VXC3F, VXC4, VXC5F, VXC6, VXC8, VXC8S and variants. The record says only 'VXC series', so no one model or set of specifications can be selected. No individual model was substituted or guessed; retain as UNAVAILABLE until the intended model(s) are identified. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-klip-3",
+    "model_check": "Cornwall",
+    "sources": [
+      "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the catalog label 'Cornwall' omits the product revision/year. Klipsch's exact Cornwall IV sheet describes that named IV revision and says it was revoiced from its predecessor; its data cannot be assigned to the unqualified record. Retain without specifications until the intended Cornwall revision is identified. Source: https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-klip-4",
+    "model_check": "La Scala",
+    "sources": [
+      "https://assets.klipsch.com/product-specsheets/70th-Anniversary-La-Scala-Spec-Sheet-v02.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the catalog label 'La Scala' omits the revision/year. Klipsch's located La Scala II sheet is specifically for a limited 70th-anniversary edition, not an unqualified La Scala record; neither its values nor those of a later revision are transferred. Retain without specifications until the intended revision is identified. Source: https://assets.klipsch.com/product-specsheets/70th-Anniversary-La-Scala-Spec-Sheet-v02.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-sonos-1",
+    "model_check": "ZonePlayer 100",
+    "sources": [
+      "https://www.sonos.com/pdfs/productguides/en-us/zoneplayer100_en.pdf",
+      "https://support.sonos.com/en-us/products/zp100"
+    ],
+    "disposition": "non-speaker-component",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE as a loudspeaker — Sonos identifies the exact ZonePlayer 100 as an amplified component for connecting external speakers; it is not a loudspeaker/transducer. The record is retained, reclassified as category=component, and excluded from speaker selection by the existing UNAVAILABLE filter. No speaker acoustic specifications or response/directivity data are applicable or populated. Sources: https://www.sonos.com/pdfs/productguides/en-us/zoneplayer100_en.pdf and https://support.sonos.com/en-us/products/zp100. The catalog ID is preserved as an unavailable non-speaker component; speaker acoustic fields remain N/A."
+  },
+  {
+    "id": "legacy-bose-3",
+    "model_check": "802",
+    "sources": [
+      "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare model label ‘802’ does not identify a series. Fetched Bose materials document materially distinct 802 Series II (Bose-authored sheet hosted at https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf), Series IV (https://assets.boseprofessional.com/m/1e8909b79f405c27/original/tds_Panaray_802_SeriesIV_en.pdf), and Series V (https://assets.boseprofessional.com/m/f33bced011b562f/original/tds_802_SeriesV_a4_EN.pdf). The dataset separately keeps an exact 802 Series II record. None of those revision-specific values is copied to the generic ‘802’ record; physical fields remain N/A pending exact revision identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "legacy-bose-4",
+    "model_check": "402",
+    "sources": [
+      "https://assets.boseprofessional.com/m/13f66b5980cc3e19/original/260431_r3.pdf",
+      "https://assets.boseprofessional.com/m/105686bda6031ac8/original/tds_Panaray_402_SeriesIV_en.pdf",
+      "https://assets.boseprofessional.com/m/69c06d02fdc726d2/original/tds_402_SeriesV_a4_EN.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare model label ‘402’ does not identify a series. Fetched Bose materials document 402 Series II (https://assets.boseprofessional.com/m/13f66b5980cc3e19/original/260431_r3.pdf), Series IV (https://assets.boseprofessional.com/m/105686bda6031ac8/original/tds_Panaray_402_SeriesIV_en.pdf), and Series V (https://assets.boseprofessional.com/m/69c06d02fdc726d2/original/tds_402_SeriesV_a4_EN.pdf), with revision-specific specifications. No values are copied to the generic ‘402’ record; physical fields remain N/A pending exact revision identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "electro-voice-zx1",
+    "model_check": "ZX1",
+    "sources": [
+      "https://manualzz.com/doc/40471422/electro-voice-zx1-90-brochure-and-specs"
+    ],
+    "disposition": "ambiguous-variant",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNRESOLVED — the catalog label 'ZX1' does not identify a specific horn/model suffix or revision. Fetching the official EV route for ZX1 resolved to the specific 'Zx1 90' page (https://www.electrovoice.com/product/zx1-90), which describes a 90° × 50° version but did not expose a complete specifications table in the fetched page. The fetched ZX1-family brochure (hosted copy: https://manualzz.com/doc/40471422/electro-voice-zx1-90-brochure-and-specs) explicitly distinguishes portable ZX1-90 from installation ZX1i-90, ZX1i-100 and ZX1i-100T variants, with different sensitivity/coverage across its listed variants. No suffix-specific or installation-version data is assigned to the bare ZX1 record; its physical fields remain N/A pending exact product/revision identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "electro-voice-zx1i",
+    "model_check": "ZX1i",
+    "sources": [
+      "https://assets.electrovoicedynacord.com/asset/bedc6858-ea22-4e81-837b-6583f63c68be/ZX1i-100-Engineering-Data-Sheet.pdf"
+    ],
+    "disposition": "ambiguous-variant",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNRESOLVED — the catalog label 'ZX1i' does not identify the horn or transformer variant. Electro-Voice's official product documents provide separate exact ZX1i-90 and ZX1i-100 Engineering Data Sheets (https://assets.electrovoicedynacord.com/asset/d6446dc1-757d-4ff5-b7bd-89f57d61dc9b/ZX1i-90-Engineering-Data-Sheet.pdf; https://assets.electrovoicedynacord.com/asset/bedc6858-ea22-4e81-837b-6583f63c68be/ZX1i-100-Engineering-Data-Sheet.pdf) and identify -T transformer versions as well. The fetched exact sheets differ in axial sensitivity and coverage: ZX1i-90 is 94 dB (1 W/1 m), 90° × 50°; ZX1i-100 is 92 dB (1 W/1 m), 100° × 100°. Both sheets also contain variant-specific response/directivity tables. Although their published frequency limits match, no family-level values are transferred to the unsuffixed database row: all fields remain N/A until the intended exact variant/revision is established. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "qsc-cp15",
+    "model_check": "CP15",
+    "sources": [
+      "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/",
+      "https://www.qscaudio.com/resource-files/productresources/spk/cp/q_spk_cp_usermanual.pdf"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNRESOLVED (no exact match in the manufacturer sources reviewed). QSC's official CP Series overview (https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/) presents CP8 and CP12 as the CP models and links those exact products; the official CP Series manual (https://www.qscaudio.com/resource-files/productresources/spk/cp/q_spk_cp_usermanual.pdf) likewise identifies CP8 and CP12. Neither source documents a CP15. This does not establish what was intended; it may be a mislabel or another model, but no substitution is assumed. Retain as UNAVAILABLE until the exact model identity is confirmed. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "qsc-ad-c8t",
+    "model_check": "AD-C8T",
+    "sources": [
+      "https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm"
+    ],
+    "disposition": "ambiguous-variant",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare AD-C8T catalog label cannot be matched to one exact documented variant. Q-SYS's AcousticDesign ceiling-mount reference lists AD-C8T-ZB (an 8-inch two-way model) and AD-C8T-SWZB (an 8-inch subwoofer), but no unsuffixed AD-C8T; their specifications are not interchangeable. No suffix is assumed and all physical/response fields remain N/A pending exact intended-model confirmation. Source: https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "bowers-wilkins-zeppelin",
+    "model_check": "Zeppelin",
+    "sources": [
+      "https://www.bowerswilkins.com/en-us/product/zeppelin/150242.html",
+      "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0e5079dc/downloads/zeppelin-2021-owners-manual.pdf"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare catalog name ‘Zeppelin’ does not identify a generation. Bowers & Wilkins' current Zeppelin product page links to a manual explicitly named for the 2021 model, while the same official page's support Q&A distinguishes the original Zeppelin from the current Zeppelin. Because the record carries no generation/year and does not establish which version is intended, no current-generation or original-generation specifications are assigned; all physical and response fields remain N/A. Sources: https://www.bowerswilkins.com/en-us/product/zeppelin/150242.html and https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0e5079dc/downloads/zeppelin-2021-owners-manual.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "kef-blade-meta",
+    "model_check": "Blade Meta",
+    "sources": [
+      "https://assets.kef.com/documents/blade/kef-blade-meta-info-sheet.pdf"
+    ],
+    "disposition": "series-not-model",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the label identifies a series, not one exact loudspeaker. KEF’s official Blade Meta information sheet says the series consists of Blade One Meta and Blade Two Meta, and its specification table shows materially different driver sizes, frequency ranges, sensitivities and impedance minima. No model-specific value or intersection has been assigned to this generic record; it is retained separately from the exact Blade Two Meta record with all physical fields N/A. Source: https://assets.kef.com/documents/blade/kef-blade-meta-info-sheet.pdf. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "klipsch-rf-8000f",
+    "model_check": "RF-8000F",
+    "sources": [
+      "https://www.klipsch.com/products/rf-8000f",
+      "https://www.klipsch.com/products/rp-8000f-floorstanding-speaker"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact Klipsch model identity cannot be resolved. The official Klipsch URL https://www.klipsch.com/products/rf-8000f returns a page-not-found result, while the located official product is RP-8000F at https://www.klipsch.com/products/rp-8000f-floorstanding-speaker. 'RF-8000F' may be a data-entry error, but it is not silently corrected to RP-8000F and no specs are assigned. Retain pending exact model identification. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "sonos-sonos-beam",
+    "model_check": "Sonos Beam",
+    "sources": [
+      "https://support.sonos.com/en-us/products/beam-gen-1",
+      "https://support.sonos.com/en-us/products/beam-gen-2"
+    ],
+    "disposition": "ambiguous-revision",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — this generic Sonos Beam record does not specify generation. Sonos maintains distinct support pages for Beam (Gen 1) and Beam (Gen 2); neither revision is selected and no generation-specific specifications are transferred. The Gen 1 support page links to a guide that identifies Beam (Gen 2), so that guide is not used as Gen 1 evidence. All acoustic fields remain N/A pending exact revision identification. Sources: https://support.sonos.com/en-us/products/beam-gen-1 and https://support.sonos.com/en-us/products/beam-gen-2. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "rcf-art312a",
+    "model_check": "ART 312-A MK5",
+    "sources": [
+      "https://www.rcf.it/en/products/product-detail/art-312-a-mkiii",
+      "https://www.rcf.it/en/products/product-detail/art-312-a-mk4",
+      "https://www.rcf.it/en/products/product-detail/art-312-a-mk5"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact-identity research did not establish a safe specification match. The database label is ART 312-A MK5. RCF’s fetched official product pages identify ART 312-A MKIII and ART 312-A MK4, each as its own archived model; neither page identifies an ART 312-A MK5. A direct request for the exact manufacturer route https://www.rcf.it/en/products/product-detail/art-312-a-mk5 resolves to RCF’s “Page not Sound” 404. Exact-model searches also failed to locate manufacturer documentation for the claimed MK5. No specifications from MKIII or MK4 are transferred, and the catalog record is retained as UNAVAILABLE rather than treated as a verified product. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "monitor-audio-creator-q50",
+    "model_check": "Creator Q50",
+    "sources": [
+      "https://www.monitoraudio.com/en/us/creator-series/",
+      "https://www.monitoraudio.com/en/us/creator-series/creator-series-in-ceiling-models/",
+      "https://www.monitoraudio.com/en/us/creator-series/creator-series-in-wall-models/",
+      "https://international.kef.com/products/q50a-dolby-atmos-enabled-surround-speaker"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact-identity research did not establish a safe specification match. Monitor Audio’s official Creator overview and its in-ceiling and in-wall product catalogs identify the Creator series and enumerate the published model families, but none identifies a “Creator Q50”. Exact-model searches did not establish a Monitor Audio product or revision with this name. The similar Q50a is explicitly a KEF Dolby Atmos-enabled speaker on KEF’s official product page; it is a different brand and exact model, so no KEF specifications are transferred. The catalog identity remains unconfirmed and the catalog row is retained as UNAVAILABLE rather than relabeled or treated as a verified speaker. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "monitor-audio-creator-q250",
+    "model_check": "Creator Q250",
+    "sources": [
+      "https://www.monitoraudio.com/en/us/creator-series/",
+      "https://www.monitoraudio.com/en/us/creator-series/creator-series-in-ceiling-models/",
+      "https://www.monitoraudio.com/en/us/creator-series/creator-series-in-wall-models/",
+      "https://international.kef.com/products/q250c-centre-channel-speaker"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact-identity research did not establish a safe specification match. Monitor Audio’s official Creator overview and its in-ceiling and in-wall product catalogs identify the Creator series and enumerate the published model families, but none identifies a “Creator Q250”. Exact-model searches did not establish a Monitor Audio product or revision with this name. The similar Q250c is explicitly a KEF centre-channel speaker on KEF’s official product page; it is a different brand and exact model, so no KEF specifications are transferred. The catalog identity remains unconfirmed and the catalog row is retained as UNAVAILABLE rather than relabeled or treated as a verified speaker. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "pioneer-ts-a1607f",
+    "model_check": "TS-A1607F",
+    "sources": [
+      "https://pioneercarentertainment.com/products/ts-a1607f/",
+      "https://pioneer-carglobal.com/a-series/",
+      "https://pioneer-mea.com/en/products/ts-a1670f/",
+      "https://www.pioneer.com.au/shop/uncategorized/ts-a1670f/"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — diligent exact-identity research did not establish a safe specification match. A direct request to Pioneer Car Entertainment’s exact TS-A1607F route returns the manufacturer site’s “Page not found” page. The fetched official Pioneer Global A-Series product index lists distinct models including TS-A1670F and TS-A1680F; Pioneer’s official TS-A1670F page documents that separate model, which is already retained in this dataset as pioneer-ts-a. No fetched manufacturer page or manual identifies TS-A1607F or establishes that it is an alias/revision of TS-A1670F. Exact-model searches and manual-library searches also failed to establish TS-A1607F. The record may reflect a catalog-label error, but the intended product cannot be resolved without guessing; no TS-A1670F or other sibling specifications are transferred. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "eV-live-x2",
+    "model_check": "Live X X2",
+    "sources": [
+      "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact-model research did not establish a safe specification match. A fetched Electro-Voice-authored Live X passive loudspeaker manual lists the family’s exact product/model numbers as ELX112, ELX115, ELX118, and ELX215 and supplies model-specific specifications for those models; it does not identify a product named “Live X X2.” Exact-model web and manual searches did not establish that label as an alias/revision of any one ELX model. The label could combine the Live X family name with a different EV model designation, but the intended product cannot be resolved without guessing. No ELX112/115/118/215 or other sibling specifications are transferred. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "jl-audio-c7-650",
+    "model_check": "C7-650",
+    "sources": [
+      "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/C7650cw_MAN.pdf",
+      "https://www.garmin.com/en-US/p/1668178/pn/010-03126-00/",
+      "https://www.jlaudio.com/products/c7-650cw-car-audio-speakers-c7-99757"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — exact-model research did not establish a safe specification match. JL Audio’s fetched owner manual explicitly identifies “C7-650cw” as a 6.50-inch component woofer sold as one driver and intended for use with separate midrange/tweeter components; the manual does not identify an unsuffixed product called “C7-650.” The current JL/Garmin product listing likewise names the item C7-650cw (single component woofer). No official page or manual establishes that the distinct catalog label C7-650 is an alias, revision, or complete speaker kit, so no C7-650cw measurements/specifications are assigned to it. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  },
+  {
+    "id": "focal-shape-80",
+    "model_check": "Shape 80",
+    "sources": [
+      "https://www.focal.com/catalog/pro-audio/monitoring-speakers/shape",
+      "https://dam.focal-naim.com/m/64d848e21b707124/original/Notice_Shape_Web-pdf.pdf",
+      "https://www.focal.com/catalog/pro-audio/monitoring-speakers/alpha-evo",
+      "https://www.focal.com/products/alpha-80-evo",
+      "https://audioxpress.com/news/focal-professional-introduces-shape-monitor-series",
+      "https://www.mixonline.com/technology/review-focal-shape-twin"
+    ],
+    "disposition": "unconfirmed-identity",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — individual exact-identity research did not establish a safe specification match. Directly inspected Focal’s official Shape-family page: it lists Shape Twin, Shape 65 and Shape 50 as current products and Shape 40 as discontinued. Inspected every chunk of Focal’s official Shape manual; the model descriptions and English technical table list Shape 40, 50, 65 and Shape Twin, with no Shape 80. Exact-model searches across manufacturer, manual and historical coverage found no source identifying a Focal Shape 80; historical reporting describes the Shape line as launching with 40/50/65 and later adding Shape Twin. Focal’s separate official Alpha Evo catalog lists Alpha 80 Evo under Alpha Evo, not Shape; the similar number is not an identity match and no Alpha 80 specifications are transferred. The record cannot be resolved without guessing, so it is retained as UNAVAILABLE with no unsupported model specifications. The catalog ID is preserved as UNAVAILABLE; all unsupported acoustic and physical fields remain N/A, with no sibling, family, revision, or assumed values transferred."
+  }
+]

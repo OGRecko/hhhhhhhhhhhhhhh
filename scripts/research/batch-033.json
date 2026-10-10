@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "electro-voice-ekx-12",
+    "model_check": "EKX-12",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 82,
+        "high_hz": 18000,
+        "points": [
+          {
+            "hz": 20,
+            "db": 71.5
+          },
+          {
+            "hz": 25,
+            "db": 74.5
+          },
+          {
+            "hz": 30,
+            "db": 76.5
+          },
+          {
+            "hz": 35,
+            "db": 77.5
+          },
+          {
+            "hz": 40,
+            "db": 78.5
+          },
+          {
+            "hz": 45,
+            "db": 80.5
+          },
+          {
+            "hz": 50,
+            "db": 82.5
+          },
+          {
+            "hz": 55,
+            "db": 84.5
+          },
+          {
+            "hz": 60,
+            "db": 86
+          },
+          {
+            "hz": 65,
+            "db": 87
+          },
+          {
+            "hz": 70,
+            "db": 88
+          },
+          {
+            "hz": 75,
+            "db": 89
+          },
+          {
+            "hz": 80,
+            "db": 90
+          },
+          {
+            "hz": 85,
+            "db": 91
+          },
+          {
+            "hz": 90,
+            "db": 92
+          },
+          {
+            "hz": 95,
+            "db": 92.5
+          },
+          {
+            "hz": 100,
+            "db": 93
+          },
+          {
+            "hz": 110,
+            "db": 94.5
+          },
+          {
+            "hz": 120,
+            "db": 95
+          },
+          {
+            "hz": 130,
+            "db": 94.5
+          },
+          {
+            "hz": 140,
+            "db": 93.5
+          },
+          {
+            "hz": 150,
+            "db": 92.5
+          },
+          {
+            "hz": 160,
+            "db": 93
+          },
+          {
+            "hz": 170,
+            "db": 93.5
+          },
+          {
+            "hz": 180,
+            "db": 93.5
+          },
+          {
+            "hz": 190,
+            "db": 93.5
+          },
+          {
+            "hz": 200,
+            "db": 93.5
+          },
+          {
+            "hz": 220,
+            "db": 93.5
+          },
+          {
+            "hz": 250,
+            "db": 93.5
+          },
+          {
+            "hz": 300,
+            "db": 93.5
+          },
+          {
+            "hz": 350,
+            "db": 93.5
+          },
+          {
+            "hz": 400,
+            "db": 93.5
+          },
+          {
+            "hz": 450,
+            "db": 93.5
+          },
+          {
+            "hz": 500,
+            "db": 94
+          },
+          {
+            "hz": 600,
+            "db": 94.5
+          },
+          {
+            "hz": 700,
+            "db": 95
+          },
+          {
+            "hz": 800,
+            "db": 95.5
+          },
+          {
+            "hz": 900,
+            "db": 95.5
+          },
+          {
+            "hz": 1000,
+            "db": 96
+          },
+          {
+            "hz": 1100,
+            "db": 96.5
+          },
+          {
+            "hz": 1200,
+            "db": 96
+          },
+          {
+            "hz": 1300,
+            "db": 95
+          },
+          {
+            "hz": 1400,
+            "db": 93.5
+          },
+          {
+            "hz": 1500,
+            "db": 93
+          },
+          {
+            "hz": 1600,
+            "db": 93
+          },
+          {
+            "hz": 1700,
+            "db": 93
+          },
+          {
+            "hz": 1800,
+            "db": 93
+          },
+          {
+            "hz": 1900,
+            "db": 93
+          },
+          {
+            "hz": 2000,
+            "db": 93
+          },
+          {
+            "hz": 2200,
+            "db": 93.5
+          },
+          {
+            "hz": 2500,
+            "db": 91
+          },
+          {
+            "hz": 2800,
+            "db": 91
+          },
+          {
+            "hz": 3000,
+            "db": 91.5
+          },
+          {
+            "hz": 3500,
+            "db": 92.5
+          },
+          {
+            "hz": 4000,
+            "db": 93.5
+          },
+          {
+            "hz": 4500,
+            "db": 94.5
+          },
+          {
+            "hz": 5000,
+            "db": 95
+          },
+          {
+            "hz": 6000,
+            "db": 95
+          },
+          {
+            "hz": 7000,
+            "db": 95
+          },
+          {
+            "hz": 8000,
+            "db": 95
+          },
+          {
+            "hz": 9000,
+            "db": 95
+          },
+          {
+            "hz": 10000,
+            "db": 95.5
+          },
+          {
+            "hz": 11000,
+            "db": 95.5
+          },
+          {
+            "hz": 12000,
+            "db": 95
+          },
+          {
+            "hz": 13000,
+            "db": 93.5
+          },
+          {
+            "hz": 14000,
+            "db": 92
+          },
+          {
+            "hz": 15000,
+            "db": 91
+          },
+          {
+            "hz": 16000,
+            "db": 90
+          },
+          {
+            "hz": 17000,
+            "db": 89
+          },
+          {
+            "hz": 18000,
+            "db": 88
+          },
+          {
+            "hz": 19000,
+            "db": 87
+          },
+          {
+            "hz": 20000,
+            "db": 86
+          }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Electro-Voice engineering table titled Frequency Response, Full Space (Sensitivity, dB); the specification footnote identifies full-space measurement. Copied all 72 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The table does not state an input or 1 W/1 m reference, so runtime uses it as response shape normalized at 1 kHz only; the separate 95 dB axial-sensitivity scalar remains explicitly unqualified and is not converted. The separate published -3 dB band and recommended 55 Hz high-pass are retained unaltered; no high-pass correction is applied."
+      },
+      "sensitivity": {
+        "value": 95,
+        "unit": "dB",
+        "reference": "unspecified by source"
+      },
+      "power": {
+        "value": 350,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Exact-model Electro-Voice EKX-12 passive 12-inch 2-way engineering data sheet. It specifies 82 Hz–18 kHz (-3 dB), 55 Hz–20 kHz (-10 dB), 95 dB axial sensitivity, 350 W continuous / 1,400 W peak handling, 8 Ω nominal (7.5 Ω minimum), a 12-inch EVS-12M woofer and a DH-1M 1-inch titanium compression driver. The 72-row full-space sensitivity table is imported exactly as published with its input-level reference unstated; runtime uses the points only as a 1 kHz-normalized response shape. The separate sensitivity scalar remains explicitly unqualified, preventing an assumed DSP sensitivity conversion. The recommended 55 Hz high-pass is not applied to the response. Nominal coverage is 90° × 60°; no full polar/directivity data are imported. Peak handling is context only. Source: https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-ekx-15",
+    "model_check": "EKX-15",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 75,
+        "high_hz": 18000,
+        "points": [
+          {
+            "hz": 20,
+            "db": 70
+          },
+          {
+            "hz": 25,
+            "db": 75.5
+          },
+          {
+            "hz": 30,
+            "db": 77.5
+          },
+          {
+            "hz": 35,
+            "db": 78
+          },
+          {
+            "hz": 40,
+            "db": 78.5
+          },
+          {
+            "hz": 45,
+            "db": 80.5
+          },
+          {
+            "hz": 50,
+            "db": 82.5
+          },
+          {
+            "hz": 55,
+            "db": 84.5
+          },
+          {
+            "hz": 60,
+            "db": 86.5
+          },
+          {
+            "hz": 65,
+            "db": 88.5
+          },
+          {
+            "hz": 70,
+            "db": 90.5
+          },
+          {
+            "hz": 75,
+            "db": 92
+          },
+          {
+            "hz": 80,
+            "db": 93
+          },
+          {
+            "hz": 85,
+            "db": 93.5
+          },
+          {
+            "hz": 90,
+            "db": 94
+          },
+          {
+            "hz": 95,
+            "db": 95
+          },
+          {
+            "hz": 100,
+            "db": 95.8
+          },
+          {
+            "hz": 110,
+            "db": 96.5
+          },
+          {
+            "hz": 120,
+            "db": 96
+          },
+          {
+            "hz": 130,
+            "db": 95
+          },
+          {
+            "hz": 140,
+            "db": 94.5
+          },
+          {
+            "hz": 150,
+            "db": 93.5
+          },
+          {
+            "hz": 160,
+            "db": 93
+          },
+          {
+            "hz": 170,
+            "db": 93.5
+          },
+          {
+            "hz": 180,
+            "db": 94
+          },
+          {
+            "hz": 190,
+            "db": 94.3
+          },
+          {
+            "hz": 200,
+            "db": 94.3
+          },
+          {
+            "hz": 220,
+            "db": 94.3
+          },
+          {
+            "hz": 250,
+            "db": 94
+          },
+          {
+            "hz": 280,
+            "db": 94
+          },
+          {
+            "hz": 300,
+            "db": 94.5
+          },
+          {
+            "hz": 320,
+            "db": 94.5
+          },
+          {
+            "hz": 350,
+            "db": 94
+          },
+          {
+            "hz": 380,
+            "db": 94.5
+          },
+          {
+            "hz": 400,
+            "db": 95
+          },
+          {
+            "hz": 420,
+            "db": 94.5
+          },
+          {
+            "hz": 450,
+            "db": 94
+          },
+          {
+            "hz": 480,
+            "db": 94
+          },
+          {
+            "hz": 500,
+            "db": 94.5
+          },
+          {
+            "hz": 550,
+            "db": 95
+          },
+          {
+            "hz": 600,
+            "db": 95.5
+          },
+          {
+            "hz": 650,
+            "db": 96
+          },
+          {
+            "hz": 700,
+            "db": 96.5
+          },
+          {
+            "hz": 750,
+            "db": 96.5
+          },
+          {
+            "hz": 800,
+            "db": 96
+          },
+          {
+            "hz": 850,
+            "db": 95.5
+          },
+          {
+            "hz": 900,
+            "db": 95
+          },
+          {
+            "hz": 950,
+            "db": 95.5
+          },
+          {
+            "hz": 1000,
+            "db": 96
+          },
+          {
+            "hz": 1100,
+            "db": 96.5
+          },
+          {
+            "hz": 1200,
+            "db": 95.5
+          },
+          {
+            "hz": 1300,
+            "db": 94.5
+          },
+          {
+            "hz": 1400,
+            "db": 94
+          },
+          {
+            "hz": 1500,
+            "db": 93.5
+          },
+          {
+            "hz": 1600,
+            "db": 93.5
+          },
+          {
+            "hz": 1700,
+            "db": 94
+          },
+          {
+            "hz": 1800,
+            "db": 94.5
+          },
+          {
+            "hz": 1900,
+            "db": 94.5
+          },
+          {
+            "hz": 2000,
+            "db": 94
+          },
+          {
+            "hz": 2200,
+            "db": 93.5
+          },
+          {
+            "hz": 2500,
+            "db": 93
+          },
+          {
+            "hz": 2800,
+            "db": 91
+          },
+          {
+            "hz": 3000,
+            "db": 90.5
+          },
+          {
+            "hz": 3200,
+            "db": 91
+          },
+          {
+            "hz": 3500,
+            "db": 92
+          },
+          {
+            "hz": 3800,
+            "db": 93
+          },
+          {
+            "hz": 4000,
+            "db": 94
+          },
+          {
+            "hz": 4200,
+            "db": 95
+          },
+          {
+            "hz": 4500,
+            "db": 95.5
+          },
+          {
+            "hz": 4800,
+            "db": 95.5
+          },
+          {
+            "hz": 5000,
+            "db": 95.5
+          },
+          {
+            "hz": 5500,
+            "db": 95.5
+          },
+          {
+            "hz": 6000,
+            "db": 95.5
+          },
+          {
+            "hz": 6500,
+            "db": 95.5
+          },
+          {
+            "hz": 7000,
+            "db": 95.5
+          },
+          {
+            "hz": 7500,
+            "db": 95.5
+          },
+          {
+            "hz": 8000,
+            "db": 95.5
+          },
+          {
+            "hz": 8500,
+            "db": 95.5
+          },
+          {
+            "hz": 9000,
+            "db": 95.5
+          },
+          {
+            "hz": 9500,
+            "db": 95.5
+          },
+          {
+            "hz": 10000,
+            "db": 95.5
+          },
+          {
+            "hz": 11000,
+            "db": 96.5
+          },
+          {
+            "hz": 12000,
+            "db": 97
+          },
+          {
+            "hz": 13000,
+            "db": 96.5
+          },
+          {
+            "hz": 14000,
+            "db": 95
+          },
+          {
+            "hz": 15000,
+            "db": 93
+          },
+          {
+            "hz": 16000,
+            "db": 91
+          },
+          {
+            "hz": 17000,
+            "db": 90
+          },
+          {
+            "hz": 18000,
+            "db": 88.5
+          },
+          {
+            "hz": 19000,
+            "db": 87.5
+          },
+          {
+            "hz": 20000,
+            "db": 86.5
+          }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Electro-Voice engineering table titled Frequency Response, Full Space (Sensitivity, dB); the specification footnote identifies full-space measurement. Copied all 91 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The table does not state an input or 1 W/1 m reference, so runtime uses it as response shape normalized at 1 kHz only; the separate 96 dB axial-sensitivity scalar remains explicitly unqualified and is not converted. The separate published -3 dB band and recommended 50 Hz high-pass are retained unaltered; no high-pass correction is applied."
+      },
+      "sensitivity": {
+        "value": 96,
+        "unit": "dB",
+        "reference": "unspecified by source"
+      },
+      "power": {
+        "value": 400,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Exact-model Electro-Voice EKX-15 passive 15-inch 2-way engineering data sheet. It specifies 75 Hz–18 kHz (-3 dB), 50 Hz–20 kHz (-10 dB), 96 dB axial sensitivity, 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.2 Ω minimum), a 15-inch EVS-15M woofer and a DH-1M 1-inch titanium compression driver. The 91-row full-space sensitivity table is imported exactly as published with its input-level reference unstated; runtime uses the points only as a 1 kHz-normalized response shape. The separate sensitivity scalar remains explicitly unqualified, preventing an assumed DSP sensitivity conversion. The recommended 50 Hz high-pass is not applied to the response. Nominal coverage is 90° × 60°; no full polar/directivity data are imported. Peak handling is context only. Source: https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-ekx-15sp",
+    "model_check": "EKX-15SP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 150
+      },
+      "power": {
+        "value": 1300,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": true
+    },
+    "notes": "Exact-model Electro-Voice EKX-15SP powered subwoofer engineering data sheet. It specifies 45 Hz–150 Hz (-3 dB), 40 Hz–180 Hz (-10 dB), 133 dB peak SPL, 1,300 W amplification, one 15-inch EVS-15C woofer, and an adjustable low-pass setting of 80/100/120/150 Hz. Its response table is DSP-preset-specific (Music, Live, Club), so no preset is selected or imported as a generic curve. The sheet describes Cardioid Control for multiple-sub deployment but provides no single-speaker directivity dataset; none is imported. No passive sensitivity or impedance is asserted. Source: https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-ekx-18sp",
+    "model_check": "EKX-18SP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 40,
+        "high_hz": 150
+      },
+      "power": {
+        "value": 1300,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 18,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": true
+    },
+    "notes": "Exact-model Electro-Voice EKX-18SP powered subwoofer engineering data sheet. It specifies 40 Hz–150 Hz (-3 dB), 35 Hz–180 Hz (-10 dB), 134 dB peak SPL, 1,300 W amplification, one 18-inch EVS-18C woofer, and an adjustable low-pass setting of 80/100/120/150 Hz. Its response table is DSP-preset-specific (Music, Live, Club), so no preset is selected or imported as a generic curve. The sheet describes Cardioid Control for multiple-sub deployment but provides no single-speaker directivity dataset; none is imported. No passive sensitivity or impedance is asserted. Source: https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-ekx-15s",
+    "model_check": "EKX-15S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 60,
+        "high_hz": 100
+      },
+      "sensitivity": {
+        "value": 95,
+        "unit": "dB",
+        "reference": "unspecified by source"
+      },
+      "power": {
+        "value": 400,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": false
+    },
+    "notes": "Exact-model Electro-Voice EKX-15S passive subwoofer engineering data sheet. It specifies 60 Hz–100 Hz (-3 dB), 40 Hz–300 Hz (-10 dB), 95 dB axial sensitivity, 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.5 Ω minimum), and one 15-inch EVS-15C woofer. Sensitivity has no stated 1 W or voltage reference and is explicitly stored unqualified; DSP gain uses the neutral fallback. The published half-space response table has numeric values only through 2 kHz, so it is not imported: the current runtime would extrapolate beyond that incomplete table. Use the exact published bandwidth limits for the response model. No polar/directivity data are imported. Peak handling is context only. Source: https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-ekx-18s",
+    "model_check": "EKX-18S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 50,
+        "high_hz": 100,
+        "points": [
+          {
+            "hz": 20,
+            "db": 75.5
+          },
+          {
+            "hz": 25,
+            "db": 79
+          },
+          {
+            "hz": 30,
+            "db": 81.5
+          },
+          {
+            "hz": 35,
+            "db": 82.5
+          },
+          {
+            "hz": 40,
+            "db": 84
+          },
+          {
+            "hz": 45,
+            "db": 86
+          },
+          {
+            "hz": 50,
+            "db": 88
+          },
+          {
+            "hz": 55,
+            "db": 90
+          },
+          {
+            "hz": 60,
+            "db": 92
+          },
+          {
+            "hz": 65,
+            "db": 93.5
+          },
+          {
+            "hz": 70,
+            "db": 95
+          },
+          {
+            "hz": 75,
+            "db": 96
+          },
+          {
+            "hz": 80,
+            "db": 96.5
+          },
+          {
+            "hz": 85,
+            "db": 96.5
+          },
+          {
+            "hz": 90,
+            "db": 96
+          },
+          {
+            "hz": 95,
+            "db": 95.5
+          },
+          {
+            "hz": 100,
+            "db": 95
+          },
+          {
+            "hz": 110,
+            "db": 93.5
+          },
+          {
+            "hz": 120,
+            "db": 92.5
+          },
+          {
+            "hz": 130,
+            "db": 91.5
+          },
+          {
+            "hz": 140,
+            "db": 91
+          },
+          {
+            "hz": 150,
+            "db": 90
+          },
+          {
+            "hz": 160,
+            "db": 88.5
+          },
+          {
+            "hz": 170,
+            "db": 89.5
+          },
+          {
+            "hz": 180,
+            "db": 90.5
+          },
+          {
+            "hz": 190,
+            "db": 91.5
+          },
+          {
+            "hz": 200,
+            "db": 91.5
+          },
+          {
+            "hz": 220,
+            "db": 91
+          },
+          {
+            "hz": 250,
+            "db": 90.5
+          },
+          {
+            "hz": 280,
+            "db": 90.5
+          },
+          {
+            "hz": 300,
+            "db": 90.5
+          },
+          {
+            "hz": 330,
+            "db": 90
+          },
+          {
+            "hz": 350,
+            "db": 89.5
+          },
+          {
+            "hz": 380,
+            "db": 89
+          },
+          {
+            "hz": 400,
+            "db": 88.5
+          },
+          {
+            "hz": 440,
+            "db": 88
+          },
+          {
+            "hz": 480,
+            "db": 87.5
+          },
+          {
+            "hz": 500,
+            "db": 87.5
+          },
+          {
+            "hz": 550,
+            "db": 87.5
+          },
+          {
+            "hz": 600,
+            "db": 87.5
+          },
+          {
+            "hz": 650,
+            "db": 87.5
+          },
+          {
+            "hz": 700,
+            "db": 87
+          },
+          {
+            "hz": 750,
+            "db": 87
+          },
+          {
+            "hz": 800,
+            "db": 87
+          },
+          {
+            "hz": 850,
+            "db": 87
+          },
+          {
+            "hz": 900,
+            "db": 87
+          },
+          {
+            "hz": 950,
+            "db": 87
+          },
+          {
+            "hz": 1000,
+            "db": 87
+          },
+          {
+            "hz": 1100,
+            "db": 88.5
+          },
+          {
+            "hz": 1200,
+            "db": 86.5
+          },
+          {
+            "hz": 1300,
+            "db": 84.5
+          },
+          {
+            "hz": 1400,
+            "db": 83.5
+          },
+          {
+            "hz": 1500,
+            "db": 83
+          },
+          {
+            "hz": 1600,
+            "db": 82
+          },
+          {
+            "hz": 1700,
+            "db": 81.5
+          },
+          {
+            "hz": 1800,
+            "db": 81
+          },
+          {
+            "hz": 1900,
+            "db": 79
+          },
+          {
+            "hz": 2000,
+            "db": 75.5
+          },
+          {
+            "hz": 2200,
+            "db": 74.5
+          },
+          {
+            "hz": 2400,
+            "db": 74.5
+          },
+          {
+            "hz": 2600,
+            "db": 74.5
+          },
+          {
+            "hz": 2800,
+            "db": 74.5
+          },
+          {
+            "hz": 3000,
+            "db": 74.5
+          },
+          {
+            "hz": 3300,
+            "db": 74.5
+          },
+          {
+            "hz": 3600,
+            "db": 74.5
+          },
+          {
+            "hz": 3800,
+            "db": 74.5
+          },
+          {
+            "hz": 4000,
+            "db": 74.5
+          },
+          {
+            "hz": 4400,
+            "db": 74.5
+          },
+          {
+            "hz": 4800,
+            "db": 74.5
+          },
+          {
+            "hz": 5000,
+            "db": 74.5
+          },
+          {
+            "hz": 5500,
+            "db": 74.5
+          },
+          {
+            "hz": 6000,
+            "db": 74.5
+          },
+          {
+            "hz": 6500,
+            "db": 74.5
+          },
+          {
+            "hz": 7000,
+            "db": 74.5
+          },
+          {
+            "hz": 7500,
+            "db": 74.5
+          },
+          {
+            "hz": 8000,
+            "db": 74.5
+          },
+          {
+            "hz": 8500,
+            "db": 74.5
+          },
+          {
+            "hz": 9000,
+            "db": 74.5
+          },
+          {
+            "hz": 9500,
+            "db": 74.5
+          },
+          {
+            "hz": 10000,
+            "db": 74.5
+          },
+          {
+            "hz": 11000,
+            "db": 74.5
+          },
+          {
+            "hz": 12000,
+            "db": 74.5
+          },
+          {
+            "hz": 13000,
+            "db": 74.5
+          },
+          {
+            "hz": 14000,
+            "db": 74.5
+          },
+          {
+            "hz": 15000,
+            "db": 74.5
+          },
+          {
+            "hz": 16000,
+            "db": 74.5
+          },
+          {
+            "hz": 17000,
+            "db": 74.5
+          },
+          {
+            "hz": 18000,
+            "db": 74.5
+          },
+          {
+            "hz": 19000,
+            "db": 74.5
+          },
+          {
+            "hz": 20000,
+            "db": 74.5
+          }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Electro-Voice engineering table titled Frequency Response, Half Space (Sensitivity, dB); the specification footnote identifies half-space measurement. Copied all 90 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The table does not state an input or 1 W/1 m reference and reports 87 dB at 1 kHz, unlike the separate 96 dB axial-sensitivity scalar. Runtime uses the published table only as a response shape normalized at 1 kHz; the sensitivity scalar remains explicitly unqualified and is not used for absolute DSP conversion. The separate published bandwidth limits are retained unaltered."
+      },
+      "sensitivity": {
+        "value": 96,
+        "unit": "dB",
+        "reference": "unspecified by source"
+      },
+      "power": {
+        "value": 400,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 18,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": false
+    },
+    "notes": "Exact-model Electro-Voice EKX-18S passive subwoofer engineering data sheet. It specifies 50 Hz–100 Hz (-3 dB), 35 Hz–300 Hz (-10 dB), 96 dB axial sensitivity, 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.0 Ω minimum), and one 18-inch EVS-18C woofer. The full 20 Hz–20 kHz half-space sensitivity table is imported verbatim as a manufacturer-published response curve; its 1 kHz row is 87 dB versus 96 dB in the separate axial-sensitivity specification. No drive/reference level is stated, so the runtime uses these points only as a 1 kHz-normalized response shape and keeps the sensitivity scalar unqualified, preventing an assumed DSP conversion. No polar/directivity data are imported. Peak handling is context only. Source: https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-etx-10p",
+    "model_check": "ETX-10P",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 85,
+        "high_hz": 20000
+      },
+      "power": {
+        "value": 2000,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 10,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": true
+    },
+    "notes": "Exact-model Electro-Voice ETX-10P powered 2-way engineering data sheet. It specifies 85 Hz–20 kHz (-3 dB), 65 Hz–20 kHz (-10 dB), 134 dB peak SPL, 90° × 60° coverage, a 2,000 W powered system, one 10-inch SMX2100 LF transducer and one DH3-B 1.25-inch titanium HF compression driver. The stored response is the full-space Music-preset -3 dB band; the -10 dB range and SPL/coverage remain context. The response table contains mode-specific DSP columns and is incomplete; no preset curve is imported. No passive sensitivity, impedance, or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-etx-35p",
+    "model_check": "ETX-35P",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 48,
+        "high_hz": 20000
+      },
+      "power": {
+        "value": 2000,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": true
+    },
+    "notes": "Exact-model Electro-Voice ETX-35P powered 3-way engineering data sheet. It specifies 48 Hz–20 kHz (-3 dB), 38 Hz–20 kHz (-10 dB), 136 dB peak SPL, 60° × 40° coverage, a 2,000 W powered system, one 15-inch SMX2151 LF woofer, one 6.5-inch EVS-6C mid-bass driver, and one DH3-B 1.25-inch titanium HF compression driver. The stored response is the full-space Music-preset -3 dB band; the -10 dB range and SPL/coverage remain context. The response table does not provide a single unambiguous Music-mode curve; no mode-specific points are imported. No passive sensitivity, impedance, or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-etx-15sp",
+    "model_check": "ETX-15SP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 37,
+        "high_hz": 150
+      },
+      "power": {
+        "value": 1800,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": true
+    },
+    "notes": "Exact-model Electro-Voice ETX-15SP powered subwoofer engineering data sheet. It specifies 37 Hz–150 Hz (-3 dB), 32 Hz–180 Hz (-10 dB), 134 dB peak SPL, 1,800 W amplification, one 15-inch DVX3159A LF transducer, and adjustable 80/100/120/150 Hz low-pass settings. The -3 dB test condition is half space with the Music DSP preset and a 150 Hz low-pass; the separate Live/Music table is mode-specific and not imported. The sheet also provides a true-cardioid DSP preset, not an unconditional directivity dataset; none is imported. No passive sensitivity or impedance is asserted. Source: https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-etx-18sp",
+    "model_check": "ETX-18SP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 33,
+        "high_hz": 150
+      },
+      "power": {
+        "value": 1800,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 18,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": true
+    },
+    "notes": "Exact-model Electro-Voice ETX-18SP powered subwoofer engineering data sheet. It specifies 33 Hz–150 Hz (-3 dB), 28 Hz–180 Hz (-10 dB), 135 dB peak SPL, 1,800 W amplification, one 18-inch DVX3180A LF transducer, and adjustable 80/100/120/150 Hz low-pass settings. The -3 dB test condition is half space with the Music DSP preset and a 150 Hz low-pass; the separate Live/Music table is mode-specific and not imported. The sheet also provides a true-cardioid DSP preset, not an unconditional directivity dataset; none is imported. No passive sensitivity or impedance is asserted. Source: https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf."
+  }
+]

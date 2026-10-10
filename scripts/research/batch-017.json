@@ -1,0 +1,6 @@
+[
+ {"id":"meyer-ups1p","model_check":"UPA-1P","source":"https://cdn01.4wall.com/cms/rentals/files/f67ab6de47f2f4.pdf","sourceType":"MANUFACTURER",
+  "fields":{"woofer":{"value":12,"unit":"in"}},
+  "scalars":{"driverCount":2,"active":true},
+  "notes":"Meyer Sound UPA-1P datasheet (PN 04.076.016.01 B, (c) 2019 Meyer Sound), read from a copy hosted on cdn01.4wall.com. Self-powered 2-way: one 12 in cone LF driver (2 ohm nominal) + one 3 in compression driver (16 ohm nominal) on a 100 x 40 deg constant-Q horn; two-channel class AB/bridged amplifier, 1000 W peak total; operating frequency range 60 Hz-18 kHz and free-field response 80 Hz-17 kHz +/-4 dB (NOT stored: dataset uses -6 dB limits); linear peak SPL 130.5 dB (M-noise, 4 m referred to 1 m); 368 x 569 x 363 mm; 34.93 kg. Power (peak amplifier figure) not stored. No sensitivity published (active). No response dataset or directivity file imported."}
+]

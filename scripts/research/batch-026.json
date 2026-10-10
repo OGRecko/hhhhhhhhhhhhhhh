@@ -1,0 +1,102 @@
+[
+  {
+    "id": "kef-ls50",
+    "model_check": "LS50",
+    "source": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 79, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Stereophile's exact KEF LS50 Anniversary Model specification page (the original LS50, not LS50 Meta or LS50 Wireless II) lists response 79 Hz–28 kHz ±3 dB; 47 Hz–45 kHz at −6 dB; sensitivity 85 dB at 2.83 V/1 m; nominal/minimum impedance 8/3.2 Ω; and a 130 mm (5.25 in) LF driver. The separate 25–100 W recommended-amplifier range is retained here as a range only and is not collapsed into the scalar power field. Two-way passive Uni-Q system; driverCount counts the LF and HF transducers. This is specification data, not a measured response curve or directivity dataset; none is imported. Source: https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications."
+  },
+  {
+    "id": "kef-reference-5",
+    "model_check": "Reference 5",
+    "source": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 35000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 6, "active": false, "panel": false },
+    "notes": "Stereophile's exact KEF Reference 5 (non-Meta) specification page lists response 40 Hz–35 kHz ±3 dB; sensitivity 90 dB at 2.83 V/1 m; 8 Ω nominal/3.2 Ω minimum impedance; four 165 mm (6.5 in) woofers, a 125 mm midrange transducer and a 25 mm tweeter. The published 50–400 W recommended-amplifier range is preserved as a range only and is not stored as scalar power. The record is the original Reference 5, not Reference 5 Meta. Passive loudspeaker; six active drive transducers. Specification data only: no measured response curve or directivity dataset is imported. Source: https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications."
+  },
+  {
+    "id": "legacy-kef-2",
+    "model_check": "Model 104",
+    "source": "https://audio-database.com/KEF/speaker/model104.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 20000 },
+      "power": { "value": 50, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "resonantFreq": { "value": 25, "unit": "Hz" },
+      "woofer": { "value": 20, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Audio Database's exact KEF Model 104 page identifies the B200/SP1039 LF unit (20 cm) and T27/SP1032 tweeter in a two-way passive-radiator system; the passive radiator is excluded from the two-active-driver count. The unit table gives the B200 resonant frequency as 25 Hz (stored as the LF driver's resonantFreq; the T27 figure is 1.1 kHz). System specifications list 8 Ω impedance, a 30 Hz–40 kHz frequency range, 50 Hz–20 kHz ±2 dB response (also ±5 dB from 35 Hz–35 kHz and −10 dB at 30 Hz), and 50 W maximum allowable music-power input. The same page gives rated sine-wave inputs of 50 W from 100 Hz–2.5 kHz and 8 W at 3 kHz or above, plus an adaptive-input/amplifier range of 15–50 W into 8 Ω; the scalar stores only the separate 50 W maximum allowable music-power input and the other band/range context is retained here without collapsing it into a recommended-amplifier scalar. Its sensitivity figure is 96 dB at 12.5 W/8 Ω/1 m/400 Hz; that frequency- and power-specific value is not a standard broadband 1 W/1 m or 2.83 V/1 m sensitivity, so the database sensitivity remains unavailable. The page's characteristic diagram is a raster chart: horizontal response is shown on the tweeter axis at 1 m for 0°, 30° and 45° off-axis with the acoustic control at its minus setting, alongside separate acoustic-control and impedance plots. No curve has been digitized and no directivity dataset is imported; the existing modeled/reference path remains clearly distinct from measurement data. Third-party exact-model specification page (not a KEF-hosted manual). Source: https://audio-database.com/KEF/speaker/model104.html."
+  },
+  {
+    "id": "legacy-kef-3",
+    "model_check": "Model 103",
+    "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 20000 },
+      "power": { "value": 100, "unit": "W", "role": "program_rating" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "resonantFreq": { "value": 58, "unit": "Hz" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "KEF's official archived Reference Series Model 103 sheet (1976–77), explicitly labeled Model 103, specifies a two-way closed-box system with an 8 in B200 LF unit and T52 HF unit, 8 Ω impedance, 100 W programme rating, 50 Hz–20 kHz ±2 dB frequency response, and 58 Hz system resonance (Q=0.9). The source's extended table also gives a continuous sine-wave input limit of 25 V (80 W) from 100–2,500 Hz, reducing to 10 V (12 W) above 3 kHz; these band-specific limits are retained as context rather than collapsed into the power scalar. The resonantFreq field is the published complete-system resonance, not a claim about the B200 driver's free-air Fs. The published sensitivity is 96 dB for 25 W at 400 Hz; it is not a standard broadband 1 W/1 m or 2.83 V/1 m sensitivity and is therefore not populated in the standard sensitivity field. The separate amplifier requirement is 25–100 W per channel into 8 Ω and is retained here as a range only, not collapsed into scalar power. The extracted dimensions on the source appear corrupted and are not used. The archive includes horizontal/vertical dispersion material, but its extracted charts are not a clearly labeled machine-readable polar dataset; no chart digitization is imported. External amplification/passive system; two active transducers. No measured response curve or directivity dataset is imported. Source: https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77)/Reference_Series_Model_103_r.pdf."
+  },
+  {
+    "id": "legacy-kef-4",
+    "model_check": "105",
+    "source": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 200, "unit": "W", "role": "program_rating" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "The third-party Stereonomono archive reproduces original KEF Reference Series Model 105 brochure text and images; this is Model 105, not Model 105.2. The exact-model page lists 8 Ω nominal impedance, 200 W programme rating, sensitivity 86 dB SPL for 1 W at 1 m on-axis/anechoic, a 300 mm (12 in) LF driver, and three drive units. The amplifier requirement is 40 W minimum into 8 Ω with no stated upper bound, so no amplifier range endpoint is stored as scalar power. The page's frequency-response text places both 30–25,000 Hz ±2 dB and 38 Hz–22 kHz at 2 m on the measuring axis under one label without a clear single schema mapping; structured frequency limits remain unavailable rather than conflating the conditions. It also gives directional tolerance statements but no usable polar-response dataset; no response/directivity dataset is imported. Source: https://stereonomono.blogspot.com/2010/08/kef-model-105.html."
+  },
+  {
+    "id": "legacy-kef-5",
+    "model_check": "Q100",
+    "source": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 49, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "The cited page is the KEF Q100 specification table in a third-party-hosted copy of the Q100 manual. It lists 49 Hz–40 kHz ±3 dB response, 86 dB sensitivity at 2.83 V/1 m, 8 Ω impedance, and a 130 mm (5.25 in) LF driver. KEF's 10–100 W recommended-amplifier range is retained as a range only and is not placed in the scalar power field. Passive two-way Uni-Q design; driverCount counts LF and HF transducers. This is published specification data only; no measured response curve or directivity dataset is imported. Source: https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12."
+  },
+  {
+    "id": "legacy-kef-7",
+    "model_check": "Blade",
+    "source": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 35000 },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 9, "unit": "in" }
+    },
+    "scalars": { "driverCount": 6, "active": false, "panel": false },
+    "notes": "Page 10 of the third-party-hosted KEF Blade owner's manual contains a specification table headed Blade, with no Meta, One or Two suffix; it supports this exact original Blade record only and must not be transferred to Blade Meta. The table lists 40 Hz–35 kHz ±3 dB response (and separately 28 Hz–45 kHz ±6 dB), sensitivity 90 dB at 2.83 V/1 m, 4 Ω nominal/3.2 Ω minimum impedance, four 225 mm (9 in) LF units plus 125 mm MF and 25 mm HF transducers, 117 dB maximum output, and 50–400 W recommended-amplifier requirements. The amplifier range is retained as a range only and is not collapsed into scalar power. The six active transducers are counted; this is a passive loudspeaker. No measured response curve or directivity dataset is imported. Source: https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10."
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "dynaudio-core-7",
+    "model_check": "Core 7",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/professional-audio/core/core-7",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 40,
+        "high_hz": 27000,
+        "points": [
+          { "hz": 20, "db": 62 },
+          { "hz": 50, "db": 83.5 },
+          { "hz": 100, "db": 85.8 },
+          { "hz": 200, "db": 86 },
+          { "hz": 500, "db": 85 },
+          { "hz": 1000, "db": 85 },
+          { "hz": 2000, "db": 84.5 },
+          { "hz": 5000, "db": 83.5 },
+          { "hz": 10000, "db": 85 },
+          { "hz": 20000, "db": 85 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore7_SpecSheet_WEB.pdf?hsLang=en",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Dynaudio Core 7 2022 specification sheet, table titled ANSI/CEA-2034-A Directivity Response. Ten on-axis SPL values from 20 Hz through 20 kHz are transcribed verbatim; no interpolation or smoothing. The table labels SPL as referenced to 1 m but does not state input/drive level. The simulator therefore uses these published points only as curve shape, normalised at 1 kHz; they are not an acoustic sensitivity rating. The current product page separately specifies its 40 Hz–27 kHz cutoffs at 85 dB +/- 3 dB; the 2022 sheet lists 45 Hz–27 kHz +/- 3 dB and 38 Hz–31 kHz +/- 6 dB. These contexts are kept distinct rather than blended."
+      },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Dynaudio's exact current Core 7 product page identifies a two-way DSP nearfield monitor with a 7-inch MSP mid/woofer and reports a 500 W LF/mid-woofer amplifier plus a 150 W HF amplifier. Its response cutoffs are 40 Hz and 27 kHz at 85 dB +/- 3 dB; the dynamic -6 dB cutoffs are 36 Hz and 29 kHz. The 2022 spec sheet separately gives 45 Hz–27 kHz +/- 3 dB and 38 Hz–31 kHz +/- 6 dB; the structured range stores only the current page's 85 dB cutoffs, and the separately sourced response points retain their own context. The split amplifier ratings are not collapsed or summed into the single power field, which remains N/A. Maximum SPL (112 dB anechoic / 118 dB half-space) is not sensitivity; passive impedance and acoustic sensitivity remain unavailable. No polar/directivity payload is imported."
+  },
+  {
+    "id": "dynaudio-core-47",
+    "model_check": "Core 47",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/professional-audio/core/core-47",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 41,
+        "high_hz": 24000,
+        "points": [
+          { "hz": 20, "db": 62 },
+          { "hz": 50, "db": 83.5 },
+          { "hz": 100, "db": 86 },
+          { "hz": 200, "db": 85.5 },
+          { "hz": 500, "db": 85 },
+          { "hz": 1000, "db": 83 },
+          { "hz": 2000, "db": 86.5 },
+          { "hz": 5000, "db": 84 },
+          { "hz": 10000, "db": 84.5 },
+          { "hz": 20000, "db": 85.5 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore47_SpecSheet_WEB.pdf?hsLang=en",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Dynaudio Core 47 2022 specification sheet, table titled ANSI/CEA-2034-A Directivity Response. Ten on-axis SPL values from 20 Hz through 20 kHz are transcribed verbatim; no interpolation or smoothing. The table labels SPL as referenced to 1 m but does not state input/drive level. The simulator therefore uses these published points only as curve shape, normalised at 1 kHz; they are not an acoustic sensitivity rating. The current product page separately specifies its 41 Hz–24 kHz cutoffs at 85 dB +/- 3 dB; the 2022 sheet lists 44 Hz–27 kHz +/- 3 dB and 37 Hz–31 kHz +/- 6 dB. These contexts are kept distinct rather than blended."
+      },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Dynaudio's exact current Core 47 product page identifies a three-way DSP nearfield monitor with a 7-inch MSP woofer, 4-inch MSP midrange and Esotar Pro tweeter. It reports separate 500 W LF, 500 W midrange and 150 W HF amplifier ratings; these channel values are not collapsed or summed into the single power field, which remains N/A. The current page's response cutoffs are 41 Hz and 24 kHz at 85 dB +/- 3 dB, with dynamic -6 dB cutoffs of 35 Hz and 30 kHz. The 2022 spec sheet separately gives 44 Hz–27 kHz +/- 3 dB and 37 Hz–31 kHz +/- 6 dB; the structured range stores only the current page's 85 dB cutoffs, and the separately sourced response points retain their own context. Maximum SPL (113 dB anechoic / 118 dB half-space) is not sensitivity; passive impedance and acoustic sensitivity remain unavailable. No polar/directivity payload is imported."
+  },
+  {
+    "id": "dynaudio-core-59",
+    "model_check": "Core 59",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/professional-audio/core/core-59",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 39,
+        "high_hz": 27000,
+        "points": [
+          { "hz": 20, "db": 63 },
+          { "hz": 50, "db": 83.5 },
+          { "hz": 100, "db": 85.5 },
+          { "hz": 200, "db": 84.5 },
+          { "hz": 500, "db": 86 },
+          { "hz": 1000, "db": 83 },
+          { "hz": 2000, "db": 83.5 },
+          { "hz": 5000, "db": 84 },
+          { "hz": 10000, "db": 85 },
+          { "hz": 20000, "db": 85 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore59_SpecSheet_WEB.pdf?hsLang=en",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Dynaudio Core 59 2022 specification sheet, table titled ANSI/CEA-2034-A Directivity Response. Ten on-axis SPL values from 20 Hz through 20 kHz are transcribed verbatim; no interpolation or smoothing. The table labels SPL as referenced to 1 m but does not state input/drive level. The simulator therefore uses these published points only as curve shape, normalised at 1 kHz; they are not an acoustic sensitivity rating. The current product page separately specifies its 39 Hz–27 kHz cutoffs at 85 dB +/- 3 dB; the 2022 sheet lists 42 Hz–27 kHz +/- 3 dB and 36 Hz–31 kHz +/- 6 dB. These contexts are kept distinct rather than blended."
+      },
+      "woofer": { "value": 9, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Dynaudio's exact current Core 59 product page identifies a three-way DSP main monitor with a 9-inch MSP woofer, 5-inch MSP midrange and Esotar Pro tweeter. It reports separate 500 W LF, 500 W midrange and 150 W HF amplifier ratings; these channel values are not collapsed or summed into the single power field, which remains N/A. The current page's response cutoffs are 39 Hz and 27 kHz at 85 dB +/- 3 dB, with dynamic -6 dB cutoffs of 36 Hz and 29 kHz. The 2022 spec sheet separately gives 42 Hz–27 kHz +/- 3 dB and 36 Hz–31 kHz +/- 6 dB; the structured range stores only the current page's 85 dB cutoffs, and the separately sourced response points retain their own context. Maximum SPL (113 dB anechoic / 119 dB half-space) is not sensitivity; passive impedance and acoustic sensitivity remain unavailable. No polar/directivity payload is imported."
+  },
+  {
+    "id": "dynaudio-emit-10",
+    "model_check": "Emit 10",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/emit/emit-10",
+    "fields": {
+      "frequencyResponse": { "low_hz": 64, "high_hz": 25000 },
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 14, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact current Dynaudio Emit 10 product specification: two-way bookshelf speaker, 86 dB sensitivity at 2.83 V/1 m, 150 W IEC long-term power handling, 6-ohm rated impedance, 64 Hz–25 kHz at +/- 3 dB, 14 cm MSP midrange/woofer, and 28 mm Cerotar tweeter. The structured response stores only the published +/- 3 dB limits; the page separately lists 52 Hz–35 kHz at -6 dB. The raw voltage sensitivity reference is retained and no 1 W/1 m conversion is baked into the data. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count two follows the listed tweeter and midrange/woofer. No response-point or directivity payload is imported. Source: https://dynaudio.com/home-audio/emit/emit-10; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-emit-20",
+    "model_check": "Emit 20",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/emit/emit-20",
+    "fields": {
+      "frequencyResponse": { "low_hz": 53, "high_hz": 25000 },
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 160, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact current Dynaudio Emit 20 product specification: two-way bookshelf speaker, 86 dB sensitivity at 2.83 V/1 m, 160 W IEC long-term power handling, 6-ohm rated impedance, 53 Hz–25 kHz at +/- 3 dB, 18 cm MSP midrange/woofer, and 28 mm Cerotar tweeter. The structured response stores only the published +/- 3 dB limits; the page separately lists 42 Hz–35 kHz at -6 dB. The raw voltage sensitivity reference is retained and no 1 W/1 m conversion is baked into the data. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count two follows the listed tweeter and midrange/woofer. No response-point or directivity payload is imported. Source: https://dynaudio.com/home-audio/emit/emit-20; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-emit-30",
+    "model_check": "Emit 30",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/emit/emit-30",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 25000 },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 180, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 14, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact current Dynaudio Emit 30 product specification: 2.5-way floorstanding speaker, 88 dB sensitivity at 2.83 V/1 m, 180 W IEC long-term power handling, 4-ohm rated impedance, 45 Hz–25 kHz at +/- 3 dB, a 14 cm MSP midrange/woofer plus a second 14 cm MSP woofer, and a 28 mm Cerotar tweeter. The structured response stores only the published +/- 3 dB limits; the page separately lists 39 Hz–35 kHz at -6 dB. The raw voltage sensitivity reference is retained and no 1 W/1 m conversion is baked into the data. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count three follows the two listed 14 cm drivers and tweeter. No response-point or directivity payload is imported. Source: https://dynaudio.com/home-audio/emit/emit-30; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-evoke-10",
+    "model_check": "Evoke 10",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/evoke/evoke-10",
+    "fields": {
+      "frequencyResponse": { "low_hz": 47, "high_hz": 23000 },
+      "sensitivity": { "value": 84, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 160, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 14, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact current Dynaudio Evoke 10 product specification: two-way bookshelf speaker, 84 dB sensitivity at 2.83 V/1 m, 160 W IEC long-term power handling, 6-ohm rated impedance, 47 Hz–23 kHz at +/- 3 dB, 14 cm MSP midrange/woofer, and 28 mm Cerotar tweeter. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count two follows the listed tweeter and midrange/woofer. No source-backed voice-coil dimension, response-point data or directivity payload is imported. Source: https://dynaudio.com/home-audio/evoke/evoke-10; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-evoke-20",
+    "model_check": "Evoke 20",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/evoke/evoke-20",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 23000 },
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 180, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact current Dynaudio Evoke 20 product specification: two-way bookshelf speaker, 86 dB sensitivity at 2.83 V/1 m, 180 W IEC long-term power handling, 6-ohm rated impedance, 40 Hz–23 kHz at +/- 3 dB, 18 cm MSP midrange/woofer, and 28 mm Cerotar tweeter. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count two follows the listed tweeter and midrange/woofer. No source-backed voice-coil dimension, response-point data or directivity payload is imported. Source: https://dynaudio.com/home-audio/evoke/evoke-20; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-evoke-30",
+    "model_check": "Evoke 30",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/evoke/evoke-30",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 23000 },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 200, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 14, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact current Dynaudio Evoke 30 product specification: 2.5-way floorstanding speaker, 88 dB sensitivity at 2.83 V/1 m, 200 W IEC long-term power handling, 4-ohm rated impedance, 40 Hz–23 kHz at +/- 3 dB, a 14 cm MSP midrange/woofer plus a second 14 cm MSP woofer, and a 28 mm Cerotar tweeter. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count three follows the two listed 14 cm drivers and tweeter. No source-backed voice-coil dimension, response-point data or directivity payload is imported. Source: https://dynaudio.com/home-audio/evoke/evoke-30; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-evoke-50",
+    "model_check": "Evoke 50",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/evoke/evoke-50",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 23000 },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 260, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact current Dynaudio Evoke 50 product specification: three-way floorstanding speaker, 87 dB sensitivity at 2.83 V/1 m, 260 W IEC long-term power handling, 4-ohm rated impedance, 35 Hz–23 kHz at +/- 3 dB, a 15 cm MSP midrange, two 18 cm MSP bass woofers, and a 28 mm Cerotar tweeter. The single woofer field records the published bass-driver size (18 cm), not the separate 15 cm midrange. Dynaudio also specifies 3-ohm minimum impedance at 100 Hz; the structured field retains the rated 4-ohm value. The exact product page links Dynaudio's official Passive Speakers manual, which specifies connection to external amplifier outputs; active is therefore false. Driver count four follows the two bass woofers, midrange and tweeter. No source-backed voice-coil dimension, response-point data or directivity payload is imported. Source: https://dynaudio.com/home-audio/evoke/evoke-50; passive-speaker manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  }
+]

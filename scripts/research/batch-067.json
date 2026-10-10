@@ -1,0 +1,16 @@
+[
+  {
+    "id": "legacy-mack-7",
+    "model_check": "DLM12",
+    "source": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 20000 },
+      "power": { "value": 1000, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" },
+      "voiceCoil": { "value": 2.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Mackie's official DLM8 & DLM12 specification sheet has a distinct DLM12 entry and ordering numbers 2037875-00/-01: frequency response 38 Hz–20 kHz at −10 dB; one 12-inch paper-cone LF woofer with a 2.5-inch LF voice coil, plus one 1.75-inch HF compression driver. It is a powered two-way loudspeaker. The system amplifier is rated 1000 W RMS / 2000 W peak; only the stated RMS rating is stored as amplifier_output, not passive-speaker power handling. The sheet lists 128 dB maximum peak SPL (calculated at 1 m) and 90° conical nominal dispersion; the SPL is not acoustic sensitivity, and nominal dispersion is not imported as a polar dataset. The separate DLM12 1/3-octave response table has several series without model-mode labels in the published table extraction; no series is selected or imported as a response curve. Speaker-load impedance, resonant frequency, and HF voice-coil size remain N/A; input impedances are not speaker impedance. Source: https://mackie.com/img/file_resources/DLM8_12_SS.pdf"
+  }
+]

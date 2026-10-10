@@ -1,0 +1,60 @@
+[
+  {
+    "id": "yamaha-ns-5000",
+    "model_check": "NS-5000",
+    "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 200, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 26, "high_hz": 40000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Exact Yamaha NS-5000 manufacturer specification page. It lists a 3-way bookshelf bass-reflex speaker with one 12-inch cone woofer, a 3.25-inch dome midrange, and a 1.25-inch dome tweeter (three transducers). Published response is 26 Hz–40 kHz at -10 dB; the separately listed 100 kHz at -30 dB is not combined into the stored limits. Sensitivity is 88 dB at 2.83 V/1 m and is retained with its exact voltage reference; nominal impedance is 6 ohms (3.5-ohm minimum). Nominal input power is 200 W and maximum input power is 600 W; only the nominal input figure is stored as allowable_input, not speaker power handling. No response points or directivity data are imported. Source: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html."
+  },
+  {
+    "id": "yamaha-ns-777",
+    "model_check": "NS-777",
+    "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 30, "high_hz": 35000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "Exact Yamaha NS-777 manufacturer specification page. It lists a 3-way bass-reflex floorstanding speaker with two 8-inch PMD woofers, one 5-inch midrange, and one 1-inch aluminum-dome tweeter (four transducers). Published frequency response is 30 Hz–35 kHz, with no tolerance stated. Sensitivity is 89 dB at 2.83 V/1 m and is retained with its exact voltage reference; nominal impedance is 6 ohms. Input power is 100 W nominal / 250 W maximum; only nominal input is stored as allowable_input, not as speaker power handling. No response points or directivity data are imported. Source: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html."
+  },
+  {
+    "id": "yamaha-ns-6490",
+    "model_check": "NS-6490",
+    "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/m" },
+      "power": { "value": 70, "unit": "W", "role": "allowable_input" },
+      "frequencyResponse": { "low_hz": 45, "high_hz": 23000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Exact Yamaha NS-6490 manufacturer specifications identify an 8-inch cone woofer, 4-inch cone midrange, and 7/8-inch balanced-dome tweeter (three transducers), with response 45 Hz–23 kHz and sensitivity 90 dB at 2.83 V/m. The US Yamaha spec page lists 8-ohm nominal impedance, but Yamaha's Malaysia NS-6490 page lists 6 ohms for the same model; because official manufacturer sources conflict, the impedance field remains N/A rather than selecting one. Nominal input power is 70 W and maximum input is 140 W; only 70 W is stored as allowable_input, not speaker power handling. The response page gives no tolerance or measurement conditions; no response curve or directivity data is imported. Sources: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html; https://my.yamaha.com/en/audio/home-audio/products/speakers/ns-6490/."
+  },
+  {
+    "id": "pioneer-ts-d65c",
+    "model_check": "TS-D65C",
+    "source": "https://pioneer-car.eu/ts-d65c/ts-d65c",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 90, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 32, "high_hz": 49000 },
+      "woofer": { "value": 17, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Pioneer TS-D65C D-Series 17 cm separate two-way component speaker system. The official product page gives 32 Hz–49 kHz frequency response, 4-ohm impedance, 17 cm diameter, 90 W nominal input power and 270 W maximum input power; only the nominal figure is retained as allowable_input, not speaker power handling. The page lists sensitivity as 84 dB but states no measurement reference, so sensitivity remains N/A. The official user manual identifies the TS-D65C as a 2-way separate system sold as a pair; driverCount=2 is per individual speaker side (one woofer plus one tweeter), not the four transducers in the pair. The response limits have no stated tolerance or measurement conditions and are not treated as a measured curve. No response points or directivity data are imported. Sources: https://pioneer-car.eu/ts-d65c/ts-d65c; https://pioneer-car.eu/asset/user_manuals/UPLOAD_ID_12621/21672013de98603d667ca07e9b1d9d4e2a84e3f6."
+  }
+]

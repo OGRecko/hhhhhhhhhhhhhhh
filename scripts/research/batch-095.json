@@ -1,0 +1,15 @@
+[
+  {
+    "id": "kali-lp6",
+    "model_check": "LP-6",
+    "source": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 21000 },
+      "power": { "value": 80, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact first-generation Kali Audio LP-6 powered studio monitor, not the LP-6 V2/2nd Wave. Kali's official legacy page groups LP-6 (original version) separately from its successor LP-6 V2, and its second-wave guide confirms this is a distinct generation. The exact LP-6 manual specifies a powered, bi-amplified two-way system with one 6.5-inch LF woofer and one 1-inch soft-dome HF tweeter; the internal amplifiers are 40 W LF plus 40 W HF (80 W total), stored only as amplifier_output, not passive speaker power handling. The manual publishes 45 Hz–21 kHz as the ±3 dB frequency range and 38 Hz–25 kHz as the separate -10 dB frequency-response range; the database stores only the ±3 dB bounds, with no response curve inferred. Its 85 dB continuous-at-2-meters figure includes 20 dB headroom and is not acoustic sensitivity; +4 dBu/-10 dBV are input sensitivities, not acoustic sensitivity. Passive impedance, resonant frequency, and voice-coil size are not published. Kali separately hosts exact LP-6 loudspeaker-measurement data, but no points or directivity are imported from that file here. Sources: https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf; https://www.kaliaudio.com/legacy-products; https://www.kaliaudio.com/secondwave; https://www.kaliaudio.com/s/Kali-Audio-LP-6_v10-1.CF2"
+  }
+]

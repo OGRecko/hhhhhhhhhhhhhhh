@@ -1,0 +1,296 @@
+[
+  {
+    "id": "qsc-la108",
+    "model_check": "LA108",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+    "fields": {
+      "frequencyResponse": { "low_hz": 62, "high_hz": 20000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact QSC LA108 active line-array page: 8-inch LF cone plus one 1.75-inch HF compression driver (two transducers); response 62 Hz–20 kHz at -6 dB and 57 Hz–20 kHz at -10 dB; peak SPL 134 dB at 1 m. The integrated amplifier's published peak ratings are separate channels (LF 1000 W; HF 300 W), so scalar power remains N/A rather than summing or collapsing the channels. The active speaker-load impedance and acoustic sensitivity are not entered. No response points or polar/directivity data are imported."
+  },
+  {
+    "id": "qsc-la112",
+    "model_check": "LA112",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+    "fields": {
+      "frequencyResponse": { "low_hz": 58, "high_hz": 20000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact QSC LA112 active line-array page: one 12-inch LF cone and two 1.75-inch HF compression drivers (three transducers); response 58 Hz–20 kHz at -6 dB and 53 Hz–20 kHz at -10 dB; peak SPL 136 dB at 1 m. The integrated amplifier's published peak ratings are separate channels (LF 1600 W; HF 800 W), so scalar power remains N/A rather than summing or collapsing the channels. The active speaker-load impedance and acoustic sensitivity are not entered. No response points or polar/directivity data are imported."
+  },
+  {
+    "id": "qsc-ls118",
+    "model_check": "LS118",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+    "fields": {
+      "frequencyResponse": { "low_hz": 41, "high_hz": 98 },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Exact QSC LS118 active subwoofer page: one 18-inch driver; response 41–98 Hz at -6 dB and 35–111 Hz at -10 dB; peak SPL 138 dB at 1 m. The source gives a 4000 W peak amplifier rating; it is retained here as peak-only context, not placed in the single power field where the role would lose the peak qualification. No passive impedance or acoustic sensitivity is published. No response points or polar/directivity data are imported."
+  },
+  {
+    "id": "qsc-e218sw",
+    "model_check": "E218SW",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/e/e218sw/q_spk_e_218sw_specs.pdf",
+    "fields": {
+      "sensitivity": { "value": 101, "unit": "dB", "reference": "1W/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC E218sw manufacturer spec sheet: passive, non-powered dual-18-inch subwoofer; 101 dB sensitivity at 1 W/1 m; 4 Ω nominal impedance; two 18-inch LF drivers with 4-inch voice coils. Do not populate scalar power: this QSC spec sheet says 1600 W continuous / 6400 W peak, while QSC's exact-model January 10, 2017 announcement says 1800 W continuous / 6400 W peak. The same spec sheet prints its -10 dB upper frequency as 230 kHz; the unit is retained as printed in this note and no structured frequency bounds are asserted. No response points or directivity data are imported. Additional exact-model QSC source documenting the conflicting continuous rating: https://www.qscaudio.com/news/news/detail/qsc-expands-e-series-lineup-with-two-new-models/."
+  },
+  {
+    "id": "qsc-ad-c6t",
+    "model_check": "AD-C6T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 65,
+        "high_hz": 20000,
+        "points": [
+          { "hz": 20, "db": 62 }, { "hz": 30, "db": 58 }, { "hz": 40, "db": 65 }, { "hz": 50, "db": 75 },
+          { "hz": 60, "db": 80 }, { "hz": 70, "db": 85 }, { "hz": 80, "db": 91 }, { "hz": 90, "db": 96 },
+          { "hz": 100, "db": 97 }, { "hz": 200, "db": 90 }, { "hz": 300, "db": 85 }, { "hz": 400, "db": 85 },
+          { "hz": 500, "db": 84 }, { "hz": 600, "db": 85 }, { "hz": 700, "db": 85 }, { "hz": 800, "db": 84 },
+          { "hz": 900, "db": 84 }, { "hz": 1000, "db": 84 }, { "hz": 2000, "db": 87 }, { "hz": 3000, "db": 88 },
+          { "hz": 4000, "db": 91 }, { "hz": 5000, "db": 85 }, { "hz": 6000, "db": 84 }, { "hz": 7000, "db": 83 },
+          { "hz": 8000, "db": 83 }, { "hz": 9000, "db": 84 }, { "hz": 10000, "db": 85 }, { "hz": 20000, "db": 85 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AD-C6T sheet, table titled Impedance / Frequency Response, column labelled FLC: Frequency Response (Raw), 1W, 1m (dB). Transcribed all 28 tabulated values verbatim, excluding the separate Intrinsic Correction and EN54-24 columns; no interpolation or smoothing. The sheet separately defines 88 dB sensitivity as a 200 Hz–10 kHz average, so the 1 kHz response point is not forced to equal that average. Runtime uses these published points as response shape normalized at 1 kHz, while the independently specified sensitivity remains the absolute-level reference."
+      },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 60, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC AD-C6T spec sheet covering the black and white finishes of AD-C6T (not LP, ZB, or another suffix): one 6.5-inch LF woofer and one 0.75-inch aluminum dome tweeter; effective range 65 Hz–20 kHz, -10 dB from rated sensitivity; sensitivity 88 dB at 1 W/1 m (source footnotes specify the reference axis and a 200 Hz–10 kHz average); 60 W / 31 V rms rated noise power; 16 Ω bypass impedance. The 60 W rating is the source's 2-hour IEC noise rating, not a recommended amplifier value. The exact source's FLC raw 1 W/1 m response table is transcribed separately with its source/context; the separate Intrinsic Correction and EN54-24 tables are excluded. Published DMT coverage, frequency-dependent horizontal/vertical beamwidth, and directivity factor/index are not a complete angular polar dataset, so directivity remains unavailable."
+  },
+  {
+    "id": "qsc-ac-c4t",
+    "model_check": "AC-C4T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 70,
+        "high_hz": 16000,
+        "points": [
+          { "hz": 20, "db": 65 }, { "hz": 30, "db": 54 }, { "hz": 40, "db": 59 }, { "hz": 50, "db": 66 },
+          { "hz": 60, "db": 72 }, { "hz": 70, "db": 78 }, { "hz": 80, "db": 82 }, { "hz": 90, "db": 84 },
+          { "hz": 100, "db": 85 }, { "hz": 200, "db": 86 }, { "hz": 300, "db": 85 }, { "hz": 400, "db": 88 },
+          { "hz": 500, "db": 88 }, { "hz": 600, "db": 92 }, { "hz": 700, "db": 92 }, { "hz": 800, "db": 92 },
+          { "hz": 900, "db": 91 }, { "hz": 1000, "db": 91 }, { "hz": 2000, "db": 88 }, { "hz": 3000, "db": 87 },
+          { "hz": 4000, "db": 87 }, { "hz": 5000, "db": 88 }, { "hz": 6000, "db": 91 }, { "hz": 7000, "db": 90 },
+          { "hz": 8000, "db": 88 }, { "hz": 9000, "db": 86 }, { "hz": 10000, "db": 85 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AC-C4T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column only; the separate Intrinsic Correction column is not used, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the source's explicit on-axis, free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project."
+      },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 16, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact QSC AcousticCoverage AC-C4T sheet: one 4-inch full-range polypropylene transducer; effective range 70 Hz–16 kHz, with the source defining this as half-space, -10 dB from on-axis sensitivity; 89 dB SPL sensitivity at on-axis free-field 2.83 V/1 m; 16 W / 11.3 V rms rated noise power; 8 Ω impedance. The 16 W value is the source's 2-hour IEC 60268-1 noise rating, not a recommended amplifier value. The raw response table is retained separately with its own source/context. The source also publishes frequency-dependent beamwidth, but beamwidth/nominal 140° coverage is not a complete polar response; no directivity payload is inferred."
+  },
+  {
+    "id": "qsc-ac-c6t",
+    "model_check": "AC-C6T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 65,
+        "high_hz": 20000,
+        "points": [
+          { "hz": 20, "db": 63 }, { "hz": 30, "db": 65 }, { "hz": 40, "db": 63 }, { "hz": 50, "db": 69 },
+          { "hz": 60, "db": 75 }, { "hz": 70, "db": 81 }, { "hz": 80, "db": 86 }, { "hz": 90, "db": 88 },
+          { "hz": 100, "db": 88 }, { "hz": 200, "db": 87 }, { "hz": 300, "db": 87 }, { "hz": 400, "db": 90 },
+          { "hz": 500, "db": 91 }, { "hz": 600, "db": 90 }, { "hz": 700, "db": 91 }, { "hz": 800, "db": 93 },
+          { "hz": 900, "db": 91 }, { "hz": 1000, "db": 91 }, { "hz": 2000, "db": 89 }, { "hz": 3000, "db": 91 },
+          { "hz": 4000, "db": 94 }, { "hz": 5000, "db": 94 }, { "hz": 6000, "db": 88 }, { "hz": 7000, "db": 85 },
+          { "hz": 8000, "db": 88 }, { "hz": 9000, "db": 85 }, { "hz": 10000, "db": 88 }, { "hz": 20000, "db": 78 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AC-C6T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column verbatim; the source does not state an input/reference level for this response table, and the separate Intrinsic Correction column is excluded. No interpolation or smoothing is applied. The published dB values are used only for curve shape and normalized at 1 kHz; the independent 89 dB sensitivity field keeps the source's separate on-axis free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project."
+      },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 30, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC AcousticCoverage AC-C6T sheet: one 6.5-inch polypropylene LF cone and a coaxially mounted 0.86-inch silk-dome HF transducer; effective range 65 Hz–20 kHz, half-space and -10 dB from on-axis sensitivity; 89 dB SPL sensitivity at on-axis free-field 2.83 V/1 m; 30 W / 15.5 V rms rated noise power; 8 Ω impedance. The 30 W value is the source's 2-hour IEC 60268-1 noise rating, not a recommended amplifier value. Raw response points are transcribed separately from the Intrinsic Correction column; the source does not state an input/reference level for that response table, so points are used only as shape and normalized at 1 kHz. The exact sheet's 110° nominal coverage and beamwidth table are not a complete polar response; directivity remains unavailable."
+  },
+  {
+    "id": "qsc-ac-c8t",
+    "model_check": "AC-C8T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 52,
+        "high_hz": 20000,
+        "points": [
+          { "hz": 20, "db": 62.5 }, { "hz": 30, "db": 66.5 }, { "hz": 40, "db": 70 }, { "hz": 50, "db": 75 },
+          { "hz": 60, "db": 80 }, { "hz": 70, "db": 85 }, { "hz": 80, "db": 89 }, { "hz": 90, "db": 92 },
+          { "hz": 100, "db": 93 }, { "hz": 200, "db": 89.5 }, { "hz": 300, "db": 87.5 }, { "hz": 400, "db": 89 },
+          { "hz": 500, "db": 90 }, { "hz": 600, "db": 88 }, { "hz": 700, "db": 92 }, { "hz": 800, "db": 94 },
+          { "hz": 900, "db": 93 }, { "hz": 1000, "db": 92 }, { "hz": 2000, "db": 91 }, { "hz": 3000, "db": 97 },
+          { "hz": 4000, "db": 95 }, { "hz": 5000, "db": 99 }, { "hz": 6000, "db": 91 }, { "hz": 7000, "db": 94 },
+          { "hz": 8000, "db": 92 }, { "hz": 9000, "db": 91 }, { "hz": 10000, "db": 91 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AC-C8T specification sheet, table titled Impedance/Frequency Response. Transcribed each nonblank tabulated Frequency Response (Raw) value from 20 Hz through 10 kHz; the separate Intrinsic Correction column is excluded, the 20 kHz row is blank, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the explicit on-axis, free-field 2.83 V/1 m reference from footnote 3. These are manufacturer-published tabulated response values, not measurements by this project."
+      },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 80, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC AcousticCoverage AC-C8T sheet: one 8-inch polypropylene LF cone and one coaxially mounted 0.86-inch silk-dome HF transducer; effective range 52 Hz–20 kHz, half-space and -10 dB from on-axis sensitivity; 89 dB SPL sensitivity at on-axis free-field 2.83 V/1 m (the exact-model sheet's footnote 3); 80 W / 25.3 V rms rated noise power; 8 Ω bypass impedance. The 80 W value is the source's 2-hour IEC 60268-1 noise rating, not a recommended amplifier value. This exact datasheet supplies the sensitivity reference that was not present in the previously inspected page. Raw-response points are transcribed separately from the Intrinsic Correction table; the missing 20 kHz response-table value is not inferred. Published 100° coverage and beamwidth data are not a complete polar response, so directivity remains unavailable."
+  },
+  {
+    "id": "qsc-wl3082",
+    "model_check": "WL3082",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 68, "high_hz": 18000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact QSC WideLine-8 WL3082 specification: dual 8-inch LF/MF drivers plus one 3-inch-diaphragm HF compression driver (three transducers); passive externally tri-amplified line-array cabinet. Published response is 68 Hz–18 kHz (±3 dB); the separate -10 dB range is 62 Hz–20 kHz. Continuous ratings and impedances are channel-specific (HF 85 W/16 Ω, MF 250 W/16 Ω, LF 250 W/16 Ω), and sensitivity is separately stated by band (HF 108 dB; MF/LF 98 dB, 1 W at 1 m); these values are preserved here as context rather than collapsed into scalar power, impedance, or sensitivity. QSC gives 140° horizontal coverage and vertical coverage dependent on array size; neither is converted to polar directivity. No points are digitized from the response graph."
+  },
+  {
+    "id": "qsc-wl2102w",
+    "model_check": "WL2102w",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 18000 },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "The dataset's WL2102w label maps to the exact QSC manual model WL2102-w (birch plywood enclosure; punctuation only differs). The manual specifies two 10-inch LF transducers plus one 1.4-inch-exit HF compression driver; frequency response 55 Hz–18 kHz (±3 dB) and range 48 Hz–20 kHz (-10 dB), both with recommended DSP processing. This is an externally amplified passive bi-amp/tri-amp cabinet. HF/LF sensitivity (107.5/98 dB at 1 W/1 m), impedance, and continuous/recommended power ratings differ by band and bi-/tri-amp mode; no scalar sensitivity, impedance, or power is asserted or combined. The source's 140° horizontal and array-dependent vertical coverage is not a polar dataset. No response points are digitized from the graph."
+  },
+  {
+    "id": "qsc-wl212-sw",
+    "model_check": "WL212-sw",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 100 },
+      "sensitivity": { "value": 99, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 1100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC WideLine-8 WL212-sw passive subwoofer specification: dual 12-inch LF drivers; 40–100 Hz response (±3 dB), with a separately published 32–107 Hz range (-10 dB); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The power field records only the continuous capacity, not the separate recommended-amplifier range. No points are digitized from the graph, and no directivity data is inferred from the subwoofer description."
+  },
+  {
+    "id": "qsc-wl218-sw",
+    "model_check": "WL218-sw",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 37, "high_hz": 200 },
+      "sensitivity": { "value": 101, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 1700, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC WL218-sw passive dual-18-inch subwoofer sheet: 37–200 Hz response (±3 dB, without processing); the separate -10 dB range is 31 Hz–1 kHz (without processing); sensitivity 101 dB at 1 W/1 m; 1700 W continuous capacity; 4 Ω nominal impedance. The sheet separately lists 3000 W recommended power and 133/139 dB continuous/peak SPL; no recommendation is stored as speaker power handling. No response points are digitized from its graph and no directivity is inferred."
+  },
+  {
+    "id": "qsc-gp118-sw",
+    "model_check": "GP118-sw",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 29, "high_hz": 800 },
+      "sensitivity": { "value": 98, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 850, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact QSC GP118-sw passive, direct-radiating subwoofer spec sheet: one 18-inch transducer; frequency response 29 Hz–800 Hz at -10 dB; 98 dB nominal sensitivity at 1 W/1 m; 850 W continuous power capacity (the source's 2-hour IEC rating; 1700 W peak is context only); 8 Ω nominal impedance. The same PDF's extracted Frequency Response (SPL, dB) table falls far below its own sensitivity/bandwidth specifications above 100 Hz (for example, it lists 80 dB at 200 Hz and 18 dB at 800 Hz), with no explained level/reference that reconciles the discrepancy. Those questionable points are deliberately not imported; the structured response stores only the explicit -10 dB endpoints. No directivity is inferred from the cabinet's coverage or intended use."
+  },
+  {
+    "id": "qsc-gp212-sw",
+    "model_check": "GP212-sw",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 100 },
+      "sensitivity": { "value": 99, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 1100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC GP212-sw passive dual-12-inch band-pass subwoofer sheet: 40–100 Hz response (±3 dB, without processing); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The same sheet prints its separate -10 dB range as 32 Hz–107 kHz; because that is the published unit, no corrected/inferred -10 dB upper endpoint is entered. Recommended amplifier power is given as a range and is not collapsed into scalar power. No points are digitized from the graph and no directivity is inferred."
+  },
+  {
+    "id": "qsc-gp218-sw",
+    "model_check": "GP218-sw",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 24, "high_hz": 1200 },
+      "sensitivity": { "value": 102, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 1700, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact QSC GP218-sw passive, direct-radiating dual-18-inch subwoofer sheet: frequency range 24 Hz–1.2 kHz (-10 dB); 102 dB nominal sensitivity at 1 W/1 m; 1700 W continuous capacity (3400 W peak is context only); 4 Ω nominal impedance. The sheet separately recommends 3000–4000 W; that range is not collapsed into scalar power. No response points are digitized and no directivity data is inferred."
+  },
+  {
+    "id": "qsc-ad-c4t",
+    "model_check": "AD-C4T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm",
+    "fields": {
+      "woofer": { "value": 4.5, "unit": "in" }
+    },
+    "scalars": {},
+    "category": "ceiling",
+    "notes": "Q-SYS's exact AcousticDesign ceiling-mount reference lists AD-C4T (Discontinued) as a 2-way 4.5-inch-LF ceiling loudspeaker with 70/100 V transformer or low-impedance options, supporting category=ceiling and woofer size=4.5 in. The reference does not establish transducer count or standardized response bounds, so neither is inferred. Specifications from AD-C4T-LP, AD-C4T-LPZB, or AD-C4T-ZB are not transferred. Source: https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm; the variant distinction is listed in QSC's AcousticDesign ceiling section."
+  },
+  {
+    "id": "qsc-ad-c8t",
+    "model_check": "AD-C8T",
+    "sourceType": "MANUFACTURER",
+    "source": "https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare AD-C8T catalog label cannot be matched to one exact documented variant. Q-SYS's AcousticDesign ceiling-mount reference lists AD-C8T-ZB (an 8-inch two-way model) and AD-C8T-SWZB (an 8-inch subwoofer), but no unsuffixed AD-C8T; their specifications are not interchangeable. No suffix is assumed and all physical/response fields remain N/A pending exact intended-model confirmation. Source: https://help.qsys.com/Content/Schematic_Library/lua_speaker.htm."
+  }
+]

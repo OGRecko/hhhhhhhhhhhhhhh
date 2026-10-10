@@ -1,0 +1,21 @@
+[
+  {
+    "id": "bose-wave-music-system",
+    "model_check": "Wave Music System IV",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.bosecreative.com/m/deb85fef843b3c2/original/AM745087_OG_WMSIV-SPEAKERWAVE_enUS.pdf",
+    "fields": {},
+    "scalars": { "driverCount": 2 },
+    "notes": "Bose's exact Wave Music System IV owner's guide states that the system's dual tapered waveguide speaker technology connects two speakers to two 26-inch tapered waveguides; driverCount=2 records the two explicitly documented speakers. This is not inferred from the earlier Wave Radio or Acoustic Wave models mentioned in Bose's history page. The guide's 60 W maximum is AC input consumption, not an amplifier-output rating, so it is not entered as power. It publishes no simulation-ready response bounds, driver dimensions, sensitivity, or complete directivity data. Source: https://assets.bosecreative.com/m/deb85fef843b3c2/original/AM745087_OG_WMSIV-SPEAKERWAVE_enUS.pdf."
+  },
+  {
+    "id": "bose-lifestyle-cube",
+    "model_check": "Lifestyle Cube Speaker",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.bose.com/pdf/customer_service/owners/ls18ii_ls28ii_ls38_ls48_install.pdf",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — Bose's official LIFESTYLE DVD installation guide states that the covered systems used one of three distinct cube-speaker types: a single cube in Lifestyle 18 Series II, a cube speaker array in Lifestyle 28 Series II/38, or a Jewel Cube in Lifestyle 48. This catalog row identifies none of those systems or types, and the manufacturer guide assigns different dimensions/connectors to the variants. No variant is selected and no specifications are transferred; all physical and response fields remain N/A pending exact model/system identification. Source: https://products.bose.com/pdf/customer_service/owners/ls18ii_ls28ii_ls38_ls48_install.pdf."
+  }
+]

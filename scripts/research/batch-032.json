@@ -1,0 +1,170 @@
+[
+  {
+    "id": "electro-voice-elx200-10p",
+    "model_check": "ELX200-10P",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 59, "high_hz": 18000 },
+      "power": { "value": 1200, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice ELX200-10P engineering data sheet. It specifies 59 Hz–18 kHz (-3 dB), 53 Hz–20 kHz (-10 dB), 130 dB peak SPL, 90° × 60° coverage, a 1,200 W powered system, one 10-inch EVS-10M woofer and one DH-1L 1-inch compression driver. The stored response is the stated -3 dB band; other bandwidth, SPL and nominal coverage remain context only. Four onboard DSP response modes (Music, Live, Speech, Club) are tabulated; none is selected or imported as the generic response. No passive impedance or sensitivity is asserted. Source: https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-elx200-15p",
+    "model_check": "ELX200-15P",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 16000 },
+      "power": { "value": 1200, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice ELX200-15P engineering data sheet. It specifies 55 Hz–16 kHz (-3 dB), 48 Hz–19 kHz (-10 dB), 132 dB peak SPL, 90° × 60° coverage, a 1,200 W powered system, one 15-inch EVS-15M woofer and one DH-1L 1-inch compression driver. The stored response is the stated -3 dB band; other bandwidth, SPL and nominal coverage remain context only. Four onboard DSP response modes (Music, Live, Speech, Club) are tabulated; none is selected or imported as the generic response. No passive impedance or sensitivity is asserted. Source: https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-elx200-10",
+    "model_check": "ELX200-10",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 65,
+        "high_hz": 20000,
+        "points": [
+          { "hz": 30, "db": 61 }, { "hz": 35, "db": 69 }, { "hz": 40, "db": 76 }, { "hz": 45, "db": 80 }, { "hz": 50, "db": 83 }, { "hz": 55, "db": 85 }, { "hz": 60, "db": 86 }, { "hz": 65, "db": 87 }, { "hz": 70, "db": 88 }, { "hz": 75, "db": 88.5 }, { "hz": 80, "db": 89 }, { "hz": 85, "db": 89 }, { "hz": 90, "db": 89.5 }, { "hz": 95, "db": 89.5 }, { "hz": 100, "db": 90 }, { "hz": 110, "db": 90.5 }, { "hz": 120, "db": 91 }, { "hz": 130, "db": 91 }, { "hz": 140, "db": 91 }, { "hz": 150, "db": 90.5 }, { "hz": 160, "db": 90.5 }, { "hz": 170, "db": 90.5 }, { "hz": 180, "db": 90.5 }, { "hz": 190, "db": 90 }, { "hz": 200, "db": 88 }, { "hz": 220, "db": 89 }, { "hz": 250, "db": 90 }, { "hz": 280, "db": 91 }, { "hz": 300, "db": 91 }, { "hz": 350, "db": 90.5 }, { "hz": 400, "db": 90 }, { "hz": 450, "db": 90 }, { "hz": 500, "db": 90 }, { "hz": 600, "db": 89.5 }, { "hz": 700, "db": 89.5 }, { "hz": 800, "db": 89.5 }, { "hz": 900, "db": 89.5 }, { "hz": 1000, "db": 89.5 }, { "hz": 1100, "db": 90 }, { "hz": 1200, "db": 90.5 }, { "hz": 1300, "db": 90.5 }, { "hz": 1400, "db": 90 }, { "hz": 1500, "db": 90 }, { "hz": 1600, "db": 90.5 }, { "hz": 1700, "db": 91 }, { "hz": 1800, "db": 89.5 }, { "hz": 1900, "db": 89 }, { "hz": 2000, "db": 89 }, { "hz": 2200, "db": 89.5 }, { "hz": 2500, "db": 90 }, { "hz": 2800, "db": 90 }, { "hz": 3000, "db": 90 }, { "hz": 3500, "db": 90 }, { "hz": 4000, "db": 90 }, { "hz": 4500, "db": 90 }, { "hz": 5000, "db": 90 }, { "hz": 6000, "db": 90 }, { "hz": 7000, "db": 90 }, { "hz": 8000, "db": 91 }, { "hz": 9000, "db": 91 }, { "hz": 10000, "db": 92 }, { "hz": 11000, "db": 92 }, { "hz": 12000, "db": 92 }, { "hz": 13000, "db": 92 }, { "hz": 14000, "db": 92 }, { "hz": 15000, "db": 92 }, { "hz": 16000, "db": 91 }, { "hz": 17000, "db": 91 }, { "hz": 18000, "db": 91 }, { "hz": 19000, "db": 91 }, { "hz": 20000, "db": 87 }
+        ],
+        "pointsStatus": "MEASUREMENT_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MEASUREMENT",
+        "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied every nonblank response row from 30 Hz through 20 kHz; the 20 Hz and 25 Hz response cells are blank and were omitted. No interpolation or curve fitting. The sheet also lists a 55 Hz high-pass setting; no correction is applied. At 1 kHz the table gives 89.5 dB, consistent with the separately stated rounded 90 dB sensitivity; the runtime normalizes at 1 kHz for response shape."
+      },
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact-model Electro-Voice ELX200-10 passive 2-way engineering data sheet. It specifies 65 Hz–20 kHz (-3 dB), 49 Hz–22 kHz (-10 dB), 90 dB axial sensitivity (rounded; the 1 W/1 m table is 89.5 dB at 1 kHz), 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.2 Ω minimum), one 10-inch EVS-10M woofer and one DH-1L 1-inch compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as its 71 nonblank source rows without interpolation; the sheet also lists a 55 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Peak power remains context only. Source: https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-elx200-15",
+    "model_check": "ELX200-15",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 77,
+        "high_hz": 16000,
+        "points": [
+          { "hz": 20, "db": 62 }, { "hz": 25, "db": 68 }, { "hz": 30, "db": 73 }, { "hz": 35, "db": 76 }, { "hz": 40, "db": 79 }, { "hz": 45, "db": 81 }, { "hz": 50, "db": 83 }, { "hz": 55, "db": 85 }, { "hz": 60, "db": 87 }, { "hz": 65, "db": 89 }, { "hz": 70, "db": 91 }, { "hz": 75, "db": 92 }, { "hz": 80, "db": 93 }, { "hz": 85, "db": 94 }, { "hz": 90, "db": 95 }, { "hz": 95, "db": 95 }, { "hz": 100, "db": 95 }, { "hz": 110, "db": 95.5 }, { "hz": 120, "db": 95.5 }, { "hz": 130, "db": 95 }, { "hz": 140, "db": 94 }, { "hz": 150, "db": 95 }, { "hz": 160, "db": 95.5 }, { "hz": 170, "db": 95.5 }, { "hz": 180, "db": 95 }, { "hz": 190, "db": 95 }, { "hz": 200, "db": 95 }, { "hz": 220, "db": 95 }, { "hz": 250, "db": 95 }, { "hz": 280, "db": 94 }, { "hz": 300, "db": 95 }, { "hz": 330, "db": 95.5 }, { "hz": 360, "db": 95.5 }, { "hz": 400, "db": 95 }, { "hz": 450, "db": 95 }, { "hz": 500, "db": 95 }, { "hz": 550, "db": 95 }, { "hz": 600, "db": 95 }, { "hz": 650, "db": 95 }, { "hz": 700, "db": 95 }, { "hz": 750, "db": 95 }, { "hz": 800, "db": 95 }, { "hz": 850, "db": 95 }, { "hz": 900, "db": 95 }, { "hz": 950, "db": 95 }, { "hz": 1000, "db": 95 }, { "hz": 1100, "db": 94 }, { "hz": 1200, "db": 93 }, { "hz": 1300, "db": 94 }, { "hz": 1400, "db": 95 }, { "hz": 1500, "db": 95 }, { "hz": 1600, "db": 95 }, { "hz": 1700, "db": 94 }, { "hz": 1800, "db": 92 }, { "hz": 1900, "db": 92 }, { "hz": 2000, "db": 93 }, { "hz": 2200, "db": 94 }, { "hz": 2500, "db": 95 }, { "hz": 2800, "db": 95 }, { "hz": 3000, "db": 95 }, { "hz": 3300, "db": 95 }, { "hz": 3600, "db": 95 }, { "hz": 4000, "db": 95 }, { "hz": 4500, "db": 95 }, { "hz": 5000, "db": 95 }, { "hz": 5500, "db": 95 }, { "hz": 6000, "db": 95 }, { "hz": 6500, "db": 95 }, { "hz": 7000, "db": 95 }, { "hz": 7500, "db": 95 }, { "hz": 8000, "db": 95 }, { "hz": 8500, "db": 95 }, { "hz": 9000, "db": 95 }, { "hz": 9500, "db": 95 }, { "hz": 10000, "db": 95 }, { "hz": 11000, "db": 94 }, { "hz": 12000, "db": 93 }, { "hz": 13000, "db": 92 }, { "hz": 14000, "db": 91 }, { "hz": 15000, "db": 90 }, { "hz": 16000, "db": 88 }, { "hz": 17000, "db": 85 }, { "hz": 18000, "db": 82 }, { "hz": 19000, "db": 80 }, { "hz": 20000, "db": 78 }
+        ],
+        "pointsStatus": "MEASUREMENT_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MEASUREMENT",
+        "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape."
+      },
+      "sensitivity": { "value": 95, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact-model Electro-Voice ELX200-15 passive 2-way engineering data sheet. It specifies 77 Hz–16 kHz (-3 dB), 52 Hz–19 kHz (-10 dB), 95 dB axial sensitivity, 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.0 Ω minimum), one 15-inch EVS-15M woofer and one DH-1L compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as all 85 tabulated rows without interpolation; the sheet also lists a 42 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Peak power remains context only. Source: https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-elx200-12sp",
+    "model_check": "ELX200-12SP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 49, "high_hz": 135 },
+      "power": { "value": 1200, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Exact-model Electro-Voice ELX200-12SP engineering data sheet. It specifies 49 Hz–135 Hz (-3 dB), 41 Hz–165 Hz (-10 dB), 129 dB maximum SPL, 1,200 W powered amplification and one 12-inch EVS-12L woofer. The low-pass setting is adjustable to 80, 100, 120 or 150 Hz. Three DSP response modes (Music, Live, Club) are published; none is selected or imported as the generic response. No passive impedance/sensitivity or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-elx200-12s",
+    "model_check": "ELX200-12S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 42,
+        "high_hz": 220,
+        "points": [
+          { "hz": 20, "db": 66 }, { "hz": 25, "db": 72 }, { "hz": 30, "db": 78 }, { "hz": 35, "db": 82 }, { "hz": 40, "db": 86 }, { "hz": 45, "db": 89 }, { "hz": 50, "db": 92 }, { "hz": 55, "db": 93 }, { "hz": 60, "db": 94 }, { "hz": 65, "db": 94 }, { "hz": 70, "db": 95 }, { "hz": 75, "db": 95 }, { "hz": 80, "db": 95.5 }, { "hz": 85, "db": 95.5 }, { "hz": 90, "db": 95 }, { "hz": 95, "db": 95 }, { "hz": 100, "db": 95 }, { "hz": 110, "db": 94 }, { "hz": 120, "db": 92 }, { "hz": 130, "db": 90 }, { "hz": 140, "db": 90 }, { "hz": 150, "db": 90 }, { "hz": 160, "db": 86 }, { "hz": 170, "db": 84 }, { "hz": 180, "db": 86 }, { "hz": 190, "db": 88 }, { "hz": 200, "db": 90 }, { "hz": 220, "db": 90 }, { "hz": 250, "db": 87 }, { "hz": 280, "db": 86 }, { "hz": 300, "db": 85 }, { "hz": 330, "db": 86 }, { "hz": 360, "db": 86 }, { "hz": 400, "db": 85 }, { "hz": 450, "db": 85 }, { "hz": 500, "db": 86 }, { "hz": 550, "db": 87 }, { "hz": 600, "db": 87 }, { "hz": 650, "db": 86 }, { "hz": 700, "db": 86 }, { "hz": 750, "db": 86 }, { "hz": 800, "db": 87 }, { "hz": 850, "db": 87 }, { "hz": 900, "db": 86 }, { "hz": 950, "db": 86 }, { "hz": 1000, "db": 86 }, { "hz": 1100, "db": 85 }, { "hz": 1200, "db": 84 }, { "hz": 1300, "db": 82 }, { "hz": 1400, "db": 83 }, { "hz": 1500, "db": 83 }, { "hz": 1600, "db": 83 }, { "hz": 1700, "db": 83 }, { "hz": 1800, "db": 82 }, { "hz": 1900, "db": 82 }, { "hz": 2000, "db": 82 }, { "hz": 2200, "db": 82 }, { "hz": 2400, "db": 82 }, { "hz": 2600, "db": 82 }, { "hz": 2800, "db": 82 }, { "hz": 3000, "db": 82 }, { "hz": 3300, "db": 82 }, { "hz": 3600, "db": 82 }, { "hz": 4000, "db": 82 }, { "hz": 4500, "db": 82 }, { "hz": 5000, "db": 82 }, { "hz": 5500, "db": 82 }, { "hz": 6000, "db": 82 }, { "hz": 6500, "db": 82 }, { "hz": 7000, "db": 82 }, { "hz": 7500, "db": 82 }, { "hz": 8000, "db": 82 }, { "hz": 8500, "db": 82 }, { "hz": 9000, "db": 82 }, { "hz": 9500, "db": 82 }, { "hz": 10000, "db": 82 }, { "hz": 11000, "db": 82 }, { "hz": 12000, "db": 82 }, { "hz": 13000, "db": 82 }, { "hz": 14000, "db": 82 }, { "hz": 15000, "db": 82 }, { "hz": 16000, "db": 82 }, { "hz": 17000, "db": 82 }, { "hz": 18000, "db": 82 }, { "hz": 19000, "db": 82 }, { "hz": 20000, "db": 82 }
+        ],
+        "pointsStatus": "MEASUREMENT_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MEASUREMENT",
+        "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Half Space, 1W/1m (Sensitivity, dB). Copied the 86 nonblank response rows from 20 Hz through 20 kHz without interpolation or curve fitting. The separate -3 dB/-10 dB range specifications are full-space measurements, so the two contexts are kept distinct. The sheet also lists a 42 Hz high-pass setting. The runtime normalizes these published half-space points at 1 kHz for curve shape; the separate axial-sensitivity figure has no stated measurement reference and is not used for DSP conversion."
+      },
+      "sensitivity": { "value": 93, "unit": "dB", "reference": "unspecified by source" },
+      "power": { "value": 400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact-model Electro-Voice ELX200-12S passive subwoofer engineering data sheet. It specifies 42 Hz–220 Hz (-3 dB), 33 Hz–300 Hz (-10 dB), 93 dB axial sensitivity (measurement reference not stated), 400 W continuous / 1,600 W peak handling, 8 Ω nominal (6.9 Ω minimum), and one 12-inch EVS-12L woofer. The full-space bandwidth and half-space 1 W/1 m response table have different stated contexts; the 86 nonblank tabulated response values are retained verbatim without fitting or correction. The 42 Hz high-pass setting is noted in the source. No polar/directivity data are imported. Peak power remains context only. Source: https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-elx200-18s",
+    "model_check": "ELX200-18S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 200 },
+      "sensitivity": { "value": 94, "unit": "dB", "reference": "unspecified by source" },
+      "power": { "value": 400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact-model Electro-Voice ELX200-18S passive subwoofer engineering data sheet. It specifies 45 Hz–200 Hz (-3 dB), 28 Hz–300 Hz (-10 dB), 94 dB axial sensitivity (measurement reference not stated), 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.2 Ω minimum), and one 18-inch EVS-18L woofer. The published 1 W/1 m half-space table has response values only through 2 kHz and leaves higher-frequency response cells blank; it is not imported because the runtime has no way to preserve that incomplete bandwidth without extrapolation. Use the verified bandwidth-based modeled response instead. No polar/directivity data are imported. Peak power remains context only. Source: https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-everse-8",
+    "model_check": "EVERSE 8",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 20000 },
+      "power": { "value": 400, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice EVERSE 8 engineering data sheet (August 2026). It specifies 60 Hz–20 kHz (-3 dB, full space with Music DSP), 50 Hz–20 kHz (-10 dB, half space), 121 dB maximum SPL, 100° × 100° coverage, a 400 W powered battery system, one 8-inch woofer and one 1-inch HF driver. The stored range is the stated -3 dB measurement; the differently conditioned -10 dB range remains context. Four DSP preset response tables are published; none is selected or imported. No passive impedance/sensitivity or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf."
+  },
+  {
+    "id": "electro-voice-everse-12",
+    "model_check": "EVERSE 12",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 20000 },
+      "power": { "value": 400, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice EVERSE 12 engineering data sheet (December 2024). It specifies 55 Hz–20 kHz (-3 dB, full space with Music DSP), 45 Hz–20 kHz (-10 dB, half space), 126 dB maximum SPL, 100° × 60° coverage, a 400 W powered battery system, one 12-inch woofer and one 1-inch HF compression driver. The stored range is the stated -3 dB measurement; the differently conditioned -10 dB range remains context. Four DSP preset response tables are published; none is selected or imported. No passive impedance/sensitivity or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf."
+  },
+  {
+    "id": "electro-voice-pxm-12mp",
+    "model_check": "PXM-12MP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 64, "high_hz": 20000 },
+      "power": { "value": 700, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact-model Electro-Voice PXM-12MP engineering data sheet (2019). It specifies 64 Hz–20 kHz (-3 dB), 53 Hz–20 kHz (-10 dB), 129 dB peak SPL, 90° × 90° coverage, a 700 W powered system (500 W LF + 200 W HF), and one 12-inch/1.75-inch two-way coaxial transducer. Four distinct response presets/spaces are tabulated; none is selected or imported. The sheet includes polar-response plots, but no numeric exact-model polar table is extracted here, so no directivity dataset is stored. No passive sensitivity or impedance is asserted. Source: https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf."
+  }
+]

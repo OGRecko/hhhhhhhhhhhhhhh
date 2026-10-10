@@ -1,0 +1,68 @@
+[
+  {
+    "id": "klipsch-la-scala-ii",
+    "model_check": "La Scala II",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 51, "high_hz": 17000 },
+      "sensitivity": { "value": 105, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Klipsch La Scala II exact-model sheet V03 (2017): 51 Hz–17 kHz ±4 dB; 105 dB at 2.83 V/1 m, with the sheet footnoting sensitivity as measured in an average listening room; 100 W / 400 W handling (only the continuous 100 W scalar is stored); 8 ohm nominal impedance; K-33-E 15-inch woofer and three-way design. The source is explicitly La Scala II; no La Scala 70th Anniversary or La Scala AL-generation values are substituted. Source: https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf."
+  },
+  {
+    "id": "legacy-klip-5",
+    "model_check": "Forte",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 32,
+        "high_hz": 20000,
+        "points": [
+          { "hz": 20, "db": -14 },
+          { "hz": 30, "db": -8 },
+          { "hz": 40, "db": -4 },
+          { "hz": 50, "db": -3.5 },
+          { "hz": 60, "db": -3 },
+          { "hz": 70, "db": -3 },
+          { "hz": 80, "db": -2 },
+          { "hz": 90, "db": -2.5 },
+          { "hz": 100, "db": -3 },
+          { "hz": 200, "db": 0 },
+          { "hz": 300, "db": -1 },
+          { "hz": 400, "db": -2.5 },
+          { "hz": 500, "db": -0.5 },
+          { "hz": 600, "db": -3 },
+          { "hz": 700, "db": -2 },
+          { "hz": 800, "db": -2.5 },
+          { "hz": 900, "db": -2 },
+          { "hz": 1000, "db": -1.5 },
+          { "hz": 2000, "db": -1.5 },
+          { "hz": 3000, "db": -3 },
+          { "hz": 4000, "db": -2.5 },
+          { "hz": 5000, "db": -1 },
+          { "hz": 6000, "db": -1.5 },
+          { "hz": 7000, "db": -1 },
+          { "hz": 8000, "db": -1 },
+          { "hz": 9000, "db": 0 },
+          { "hz": 10000, "db": 0 },
+          { "hz": 20000, "db": -3.5 }
+        ],
+        "pointsStatus": "MEASUREMENT_VERIFIED",
+        "pointsSource": "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf",
+        "pointsSourceType": "MEASUREMENT",
+        "pointsContext": "Klipsch-published on-axis frequency-response table; measured at 1 m; table heading states dB with 0 = 100 dB SPL. These are the source's tabulated values, retained without curve fitting."
+      },
+      "sensitivity": { "value": 98, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "notes": "The source is Klipsch's exact original FORTÉ brochure; it documents 98 dB SPL at 1 W/1 m, 8 ohms, 100 W maximum continuous handling, a three-way vented design, a front 12-inch woofer, and a rear 12-inch passive 'drone'. The official on-axis response table is imported as 28 raw tabulated points, not digitized or curve-fitted; its context is 1 m and 0 dB = 100 dB SPL. For response-only DSP use, the model normalizes those points at 1 kHz so the separate 98 dB sensitivity remains the loudness reference. The same brochure's 32 Hz–20 kHz ±3 dB bandwidth statement conflicts with its tabulated low-frequency values (for example, 30 Hz = −8 dB and 40 Hz = −4 dB); both are preserved as published, and the measured points are not used to rewrite the bandwidth field. No off-axis directivity data were found in this source. Source: https://assets.klipsch.com/product-specsheets/forte-brochure.pdf."
+  }
+]

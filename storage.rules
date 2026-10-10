@@ -1,0 +1,12 @@
+rules_version = '2';
+
+// Anonymous simulations are authorized by the application server's
+// capability-token checks. Browser clients must never read or write the
+// bucket directly; Firebase Admin on the server bypasses these client rules.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

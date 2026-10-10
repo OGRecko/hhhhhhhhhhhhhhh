@@ -1,0 +1,48 @@
+[
+  {
+    "id": "jbl-srx815",
+    "model_check": "SRX815",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/products/srx815",
+    "fields": {
+      "frequencyResponse": { "low_hz": 56, "high_hz": 20000 },
+      "sensitivity": { "value": 95, "unit": "dB", "reference": "unspecified by source" },
+      "power": { "value": 800, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" },
+      "voiceCoil": { "value": 3, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact JBL Professional SRX815 product page, corroborated by its linked SRX815 Spec Sheet Version 11_11_19 (updated December 2019; https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf). The model is a passive 15-inch two-way system with one 15-inch LF woofer (JBL 2275H) and one HF compression driver (JBL 2432H); the manufacturer page identifies 3-inch voice coils in the SRX815 transducer technology. Store the published 56 Hz–20 kHz (-3 dB) response limits; the separate frequency range is 41 Hz–20 kHz (-10 dB). Nominal impedance is 8 ohms; system rating is 800 W continuous, 1600 W program, 3200 W peak. The page lists sensitivity as 95 dB but neither it nor the linked 2019 sheet specifies its reference, so the record explicitly marks the reference as 'unspecified by source' and does not convert or treat it as calibrated 1 W/1 m sensitivity. The older 2015 sheet contains response/directivity tables, but the current page points to the 2019 sheet and revision equivalence is not established; no response points or directivity payload are imported. Sources: https://jblpro.com/en-US/products/srx815; https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf."
+  },
+  {
+    "id": "jbl-control-30",
+    "model_check": "Control 30",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/products/control-30",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 16000 },
+      "power": { "value": 250, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 10, "unit": "in" },
+      "voiceCoil": { "value": 2, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact JBL Control 30 product page and Version B spec sheet (March 2020; https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf). The sheet specifies 40 Hz–16 kHz (±3 dB, half-space), with a separate 38 Hz–17 kHz (-10 dB) range; 250 W continuous IEC-shaped pink-noise capacity for 100 hours (500 W continuous program); 4-ohm nominal impedance in transformer-bypass/thru mode; one 10-inch LF woofer with a 2-inch voice coil, one 5-inch MF driver, and one 1-inch HF compression driver (three transducers). The official JBL Control Series Passive Speakers declaration lists Control 30 as a passive speaker (https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf). Sensitivity remains N/A: the current product page says 93 dB at 1 W/1 m, whereas the Version B sheet says 93 dB at 2.83 V/1 m, half-space averaged 100 Hz–10 kHz. These references conflict for a nominal 4-ohm model and are not normalized or reconciled by assumption. The sheet also contains an SPL table and polar/directivity material, but its 2π/4π values do not reconcile cleanly with the published response limits in the available extraction; no response points are imported. The published polar charts/tables are retained as a directivity lead, not converted into an unsupported speaker polar payload. Sources: https://jblpro.com/en-US/products/control-30; https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf; https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf."
+  },
+  {
+    "id": "jbl-control-52",
+    "model_check": "Control 52",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/products/control-52",
+    "fields": {
+      "frequencyResponse": { "low_hz": 180, "high_hz": 17000 },
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 15, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "voiceCoil": { "value": 0.75, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact Control 52 satellite specifications from JBL Professional's product page, corroborated by the Control 52-specific section of the Control 50 Series sheet (April 2019; https://jblpro.com/en-US/site_elements/control-50-spec-sheet). This is the standalone satellite, not the separate Control 50S/T subwoofer or the combined system. The satellite is specified at 180 Hz–17 kHz (±3 dB); its separate range is 140 Hz–20 kHz (-10 dB), half-space when mounted on a wall. Sensitivity is 85 dB at 4.0 V/1 m (=1 W), with a separately stated 82 dB at 2.83 V/1 m. Nominal impedance is 16 ohms. It has one 60 mm (2.5-inch) satellite driver with a 19 mm (0.75-inch) voice coil; that full-range satellite transducer is not asserted as a dedicated woofer, so the woofer field remains N/A. The sheet lists 50 W continuous program / 25 W continuous pink noise for 2 hours and 30 W program / 15 W pink noise for 100 hours; the scalar stores the exact 15 W long-duration continuous pink-noise rating. JBL's Control Series Passive Speakers declaration explicitly lists Control 52 as passive (https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf). Published omnidirectional coverage is not a polar-response dataset; no response points or directivity payload are imported. Sources: https://jblpro.com/en-US/products/control-52; https://jblpro.com/en-US/site_elements/control-50-spec-sheet; https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf."
+  }
+]

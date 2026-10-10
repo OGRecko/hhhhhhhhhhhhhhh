@@ -1,0 +1,12 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 366 156 A 140 140 0 1 0 366 356" fill="none" stroke="#101928" stroke-width="70" stroke-linecap="butt" />
+  <g stroke="#1C75FF" stroke-width="26" stroke-linecap="round">
+    <line x1="226" y1="196" x2="226" y2="316" />
+    <line x1="271" y1="156" x2="271" y2="356" />
+    <line x1="316" y1="116" x2="316" y2="396" />
+    <line x1="361" y1="156" x2="361" y2="356" />
+    <line x1="406" y1="196" x2="406" y2="316" />
+  </g>
+  <text x="256" y="440" font-family="sans-serif" font-weight="900" font-size="95" fill="#101928" text-anchor="middle" letter-spacing="-2">cavity</text>
+  <text x="256" y="485" font-family="sans-serif" font-weight="bold" font-size="32" fill="#1C75FF" text-anchor="middle" letter-spacing="18">AUDIO</text>
+</svg>

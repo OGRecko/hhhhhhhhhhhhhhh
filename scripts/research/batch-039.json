@@ -1,0 +1,52 @@
+[
+  {
+    "id": "bose-s1-pro",
+    "model_check": "S1 Pro",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
+    "fields": {
+      "woofer": { "value": 6, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact-model Bose S1 Pro Multi Position PA System Service Manual, reference 787930-SM Rev. 07 (not the later S1 Pro+). Bose describes the S1 Pro as a powered portable PA system; its main-assembly parts list specifies one 6-inch woofer and three 2.5-inch Twiddlers (four drivers total), so active=true, driverCount=4, and woofer=6 inches. The manual does not publish acoustic frequency response, sensitivity, nominal speaker impedance, or rated amplifier output; those remain N/A. Electrical input, battery, and service-part values are not treated as amplifier output or speaker impedance. No response points or directivity data are imported. Source: https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf."
+  },
+  {
+    "id": "bose-virtually-invisible-791",
+    "model_check": "Virtually Invisible 791",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
+    "fields": {
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact-model Bose Virtually Invisible 791 Installation Guide (©2009, AM321052 Rev. 01), for the unsuffixed 791 model—not the later Virtually Invisible 791 Series II. The guide specifies two 1-inch dome tweeters and one 7-inch high-excursion woofer per speaker (three drivers total); it lists 50 W IEC continuous power handling at rated 6 ohms. The separate 10–100 W/channel, 4–8 ohm figure is amplifier compatibility, not speaker power handling. This is a passive in-ceiling loudspeaker. Sensitivity and response limits are not published and remain N/A; no response curve, resonance, voice coil, or directivity is asserted. Source: https://products.bose.com/pdf/customer_service/owners/og_791.pdf (Bose legacy guide redirects to HTTP)."
+  },
+  {
+    "id": "legacy-bose-7",
+    "model_check": "251 Environmental",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.bose.com/pdf/customer_service/owners/251_guide.pdf",
+    "fields": {
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact-model Bose 251 Environmental Speakers Owner's Guide (October 30, 2001, AM250811_04_V.pdf). The technical section specifies two 2.5-inch environmental Twiddler drivers and one 5.25-inch environmental woofer per speaker (three drivers total); it gives 100 W IEC continuous power handling at rated 6 ohms. The separate 10–200 W/channel, 4–8 ohm statement is amplifier compatibility, not speaker power handling. This is a passive speaker. Sensitivity and response limits are not published and remain N/A; no response points, resonance, voice coil, or directivity are asserted. Source: https://products.bose.com/pdf/customer_service/owners/251_guide.pdf."
+  },
+  {
+    "id": "legacy-bose-2",
+    "model_check": "501",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+    "fields": {
+      "impedance": { "value": 4, "unit": "ohm" },
+      "voiceCoil": { "value": 1.5, "unit": "in" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact unsuffixed Bose MODEL 501 Direct/Reflecting Speaker System Owner's Manual (©1977), matching the catalog label '501'; this is the original Model 501, not Series II, III, IV, or V. The manual specifies one 10-inch acoustic-suspension woofer with a 1.5-inch voice coil and two 3-inch tweeters (three drivers total), and conservatively rated 4-ohm system impedance. It recommends a minimum 20 W RMS/channel amplifier and says to fuse when using amplifiers above 50 W/channel; neither statement is speaker power handling, so power remains N/A. Sensitivity, response limits, and resonance are not published; no curve or directivity data are asserted. No later-series specifications are transferred. Source: https://products.bose.com/pdf/customer_service/owners/501_guide.pdf."
+  }
+]

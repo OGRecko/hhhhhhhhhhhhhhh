@@ -1,0 +1,15 @@
+[
+ {
+  "id": "krk-rokit-10-3-g4",
+  "model_check": "10-3 G4",
+  "source": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 26, "high_hz": 40000 },
+   "power": { "value": 300, "unit": "W", "role": "amplifier_output" },
+   "woofer": { "value": 10, "unit": "in" }
+  },
+  "scalars": { "driverCount": 3, "active": true },
+  "notes": "KRK official ROKIT 10-3 Generation 4 page (https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor), exact model ROKIT 10-3 G4. Spec table: frequency response 26 Hz-40 kHz (no tolerance window published); power output 300 W (summary line and spec table agree; peak/RMS not stated; stored as amplifier_output); max SPL 112 dB; input impedance 5.12 kOhm balanced (analog input, not stored as speaker impedance); 546 x 329 x 371 mm (H x W x D); 15.9 kg. Drivers per the page: 10 in LF, 4.5 in MF, 1 in HF (three-way, tri-amp; the 4.5 in and 1 in drivers rotate for vertical/horizontal use). driverCount 3 / active true: KRK ROKIT G4 manual (https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-G4-Manual-EN-ES-DE-FR-JP-CN.pdf?v=1706768486) describes the 10-3 as a three-way monitor. Per-amplifier split (150/75/75 W) appears only on retailer pages and is not stored. No sensitivity or speaker impedance published (active). No response dataset or directivity file published or imported."
+ }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "alpine-s-s65",
+    "model_check": "S-S65",
+    "source": "https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 70, "high_hz": 22000 },
+      "power": { "value": 80, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "voiceCoil": { "value": 35, "unit": "mm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Alpine S-S65 2018 S-Series manufacturer launch release; it identifies the product as a 6.5-inch coaxial two-way speaker and publishes CTA-2031 ratings of 80 W RMS, 240 W peak, 4-ohm nominal impedance, and 70 Hz–22 kHz frequency response (no tolerance stated). Alpine's same release specifies a 35 mm voice coil for its S-Series 6.5-inch speakers; this is the S-S65 woofer coil, not the tweeter coil. The database power value is the published RMS continuous rating, not the separate peak figure. The release gives no sensitivity reference, so sensitivity remains N/A. No response curve, resonance, or directivity data are imported. Source: https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics."
+  },
+  {
+    "id": "alpine-r-s65c",
+    "model_check": "R-S65C",
+    "source": "https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 65, "high_hz": 29000 },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Alpine R-S65C manufacturer 2018 R-Series product entry identifies a 6.5-inch component two-way system and publishes CTA-2031 ratings of 100 W RMS, 300 W peak, 4-ohm impedance, and 65 Hz–29 kHz response (no tolerance stated). The database stores the RMS rating as speaker power handling and does not substitute the separate peak figure. The release does not provide an exact sensitivity reference, resonant frequency, or voice-coil diameter; those fields remain N/A. Driver count is two per speaker side (woofer plus tweeter), not the transducers in the complete pair. No response curve or directivity data are imported. Source: https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics."
+  },
+  {
+    "id": "alpine-x-s65c",
+    "model_check": "X-S65C",
+    "source": "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 40000 },
+      "power": { "value": 120, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Alpine X-S65C manufacturer launch release identifies a 6.5-inch component two-way speaker with a 1-inch carbon-graphite tweeter and publishes CTA-2031 ratings of 120 W RMS, 360 W peak, 4-ohm impedance, and 60 Hz–40 kHz response (no tolerance stated). The RMS value is stored as speaker power handling; the separate peak rating is retained only in this note. The press release does not state sensitivity reference, voice-coil diameter, or resonant frequency, so those remain N/A. Driver count is two per speaker side, not the complete kit pair. No response curve or directivity data are imported. Source: https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers."
+  },
+  {
+    "id": "hertz-dieci-dsk-165-3",
+    "model_check": "DSK 165.3",
+    "source": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 23000 },
+      "power": { "value": 80, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "resonantFreq": { "value": 67, "unit": "Hz" },
+      "voiceCoil": { "value": 25, "unit": "mm" },
+      "woofer": { "value": 165, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Hertz Dieci DSK165.3 manufacturer technical sheet: two-way 165 mm (6.5-inch) woofer plus 24 mm tweeter, 80 W continuous / 160 W peak handling, 4-ohm nominal impedance, 50 Hz–23 kHz response with no tolerance stated, and a 25 mm woofer voice coil. The woofer's electro-acoustic table gives Fs=67 Hz; this is retained as the LF driver's resonance. Sensitivity is listed as 93 dB SPL without a measurement reference, so sensitivity remains N/A. Continuous power, not peak, is stored. No response curve or directivity data are imported. Source: https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf."
+  },
+  {
+    "id": "hertz-cento-ck-165",
+    "model_check": "CK 165",
+    "source": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 22500 },
+      "power": { "value": 95, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "resonantFreq": { "value": 60, "unit": "Hz" },
+      "voiceCoil": { "value": 25, "unit": "mm" },
+      "woofer": { "value": 165, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Hertz Cento CK 165 manufacturer technical sheet: two-way 165 mm (6.5-inch) woofer plus 26 mm tweeter, 95 W continuous / 285 W peak handling, 4-ohm impedance, 55 Hz–22.5 kHz response with no tolerance stated, and a 25 mm woofer voice coil. The LF driver's electro-acoustic table gives Fs=60 Hz. Sensitivity is printed as 93 dB SPL but has no measurement reference, so sensitivity remains N/A. The database stores continuous power, not peak. No response curve or directivity data are imported. Source: https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf."
+  },
+  {
+    "id": "hertz-mille-pro-mpk-165-3",
+    "model_check": "MPK 165.3",
+    "source": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 22500 },
+      "power": { "value": 110, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "resonantFreq": { "value": 70, "unit": "Hz" },
+      "voiceCoil": { "value": 25, "unit": "mm" },
+      "woofer": { "value": 165, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Hertz Mille Pro MPK165.3 manufacturer technical sheet: two-way 165 mm (6.5-inch) woofer plus 29 mm tweeter, 110 W continuous / 220 W peak handling, 4-ohm impedance, and 40 Hz–22.5 kHz frequency response with no tolerance stated. Both LF woofer and HF tweeter voice coils are specified as 25 mm; the stored value is the woofer coil. The LF driver's electro-acoustic table gives Fs=70 Hz. Sensitivity is listed as 92 dB SPL without a measurement reference, so sensitivity remains N/A. Continuous power, not peak, is stored. No response curve or directivity data are imported. Source: https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf."
+  },
+  {
+    "id": "audison-prima-apk-165",
+    "model_check": "APK 165",
+    "source": "https://audison.com/product/apk-165/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 20000 },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "resonantFreq": { "value": 80, "unit": "Hz" },
+      "voiceCoil": { "value": 32, "unit": "mm" },
+      "woofer": { "value": 165, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Audison Prima APK 165 manufacturer product page. It identifies a two-way AP 6.5 woofer + AP 1 tweeter kit with supplied passive crossovers; active=false reflects the explicitly passive system. The LF specifications are 165 mm woofer, 4-ohm impedance, 100 W continuous / 300 W peak handling, 60 Hz–20 kHz response with no tolerance stated, and 32 mm woofer voice coil. The LF electro-acoustic table gives Fs=80 Hz. The 93.5 dB SPL figure has no measurement reference, so sensitivity remains N/A. Continuous power, not peak, is stored. No response curve or directivity data are imported. Source: https://audison.com/product/apk-165/."
+  },
+  {
+    "id": "audison-voce-av-k6",
+    "model_check": "AV K6",
+    "source": "https://audison.com/product/av-k6/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 22000 },
+      "power": { "value": 125, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "resonantFreq": { "value": 68, "unit": "Hz" },
+      "voiceCoil": { "value": 30, "unit": "mm" },
+      "woofer": { "value": 165, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Audison Voce AV K6 manufacturer product page identifies a two-way kit consisting of an AV 6.5 woofer, AV 1.1 tweeter, and crossover. It specifies 165 mm LF size, 4-ohm impedance, 125 W continuous / 250 W peak handling, 50 Hz–22 kHz response with no tolerance stated, and a 30 mm woofer voice coil (the HF coil is separately 28 mm). The LF electro-acoustic table gives Fs=68 Hz. Its 91 dB SPL figure has no measurement reference, so sensitivity remains N/A. Continuous power, not peak, is stored. No response curve or directivity data are imported. Source: https://audison.com/product/av-k6/."
+  }
+]

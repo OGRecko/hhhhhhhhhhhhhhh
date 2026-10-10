@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kef-ls3-5a",
+    "model_check": "LS3/5a",
+    "source": "https://manualsnet.com/kef/reference-series-model-ls3-5a",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 82.5, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 70, "high_hz": 20000 },
+      "impedance": { "value": 11, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "The cited third-party-hosted copy of KEF's Reference Series Model LS3/5A installation manual is explicitly headed 1994–98 and says KEF began manufacturing the complete BBC-licensed system in 1994; it identifies the KEF version, not a different licensee's LS3/5A. Its specification table gives a two-way closed-box bookshelf system, 11 Ω nominal impedance, 70 Hz–20 kHz ±3 dB at 2 m on the reference axis, and 82.5 dB at 1 m on the reference axis for pink noise at 2.83 V in anechoic conditions. The sensitivity keeps the published voltage reference; the simulator may normalize it using the separately sourced 11 Ω nominal impedance. The manual identifies B110/SP1228 bass-midrange and T27/SP1032 tweeter; the 25–75 W (into 8 Ω) amplifier requirement is a range, not speaker power handling, so scalar power remains N/A. The manual gives 95 dB maximum output on programme peaks; this is not a power rating. No individual driver diameter, free-air resonance, or voice-coil size is stated in this exact-model table, so those fields remain N/A. No measured response curve or directivity dataset is imported. Source is a readable mirror of the exact KEF manual: https://manualsnet.com/kef/reference-series-model-ls3-5a."
+  },
+  {
+    "id": "kef-reference-1",
+    "model_check": "Reference 1",
+    "source": "https://www.questforsound.com/speakers/spkrs_kef_reference_1.htm",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V/1m" },
+      "frequencyResponse": { "low_hz": 45, "high_hz": 35000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "This is the pre-Meta KEF Reference 1 introduced in 2014, not the later Reference 1 Meta and not the 1994–99 floorstanding Reference Series Model One. The cited archived dealer specification table is headed REFERENCE 1 and identifies its three-way bass-reflex design, one 165 mm (6.5 in.) LF unit, a 125 mm MF plus 25 mm HF Uni-Q array, 45 Hz–35 kHz ±3 dB response, 85 dB at 2.83 V/1 m, 8 Ω nominal impedance (3.2 Ω minimum), and 111 dB maximum output. Its separate free-field -6 dB limits vary with port: 40 Hz–45 kHz short port and 37 Hz–45 kHz long port; typical in-room bass response is 30 Hz at -6 dB. The 50–200 W figure is the recommended-amplifier range and is not collapsed into scalar power. The 2014 SoundStage review identifies this Reference 1 generation and corroborates the sensitivity, nominal/minimum impedance, port behavior, and external-amplifier use: https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000. SoundStage's independent NRC measurement page for this exact model reports measured sensitivity of 84.2 dB averaged over 300 Hz–3 kHz in the listening window at 2.83 V/1 m, and publishes on/off-axis charts (0°, 15°, 30°, 45°, 60°, 75°; grille off, long port; measured at 2 m and plotted at 1 m): https://www.soundstagenetwork.com/index.php?option=com_content&view=article&id=1298:nrc-measurements-kef-reference-1&catid=77&Itemid=153. That page provides plotted image charts, not tabulated curve samples; no points were digitized or imported and no directivity dataset is claimed. The structured sensitivity remains the separately identified 85 dB published specification; no measurement has been substituted for it. Sources: exact pre-Meta Reference 1 specification table https://www.questforsound.com/speakers/spkrs_kef_reference_1.htm; exact-model review https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000; NRC measurements https://www.soundstagenetwork.com/index.php?option=com_content&view=article&id=1298:nrc-measurements-kef-reference-1&catid=77&Itemid=153."
+  },
+  {
+    "id": "legacy-kef-1",
+    "model_check": "Concord",
+    "source": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 30, "high_hz": 20000 },
+      "power": { "value": 15, "unit": "W", "role": "allowable_input" },
+      "resonantFreq": { "value": 45, "unit": "Hz" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "The exact-model Radiomuseum record is KEF Concord A6243 (dated 1966) and links an 'Original prospect' scan identified as a 1967 KEF brochure; the scan is headed 'Concord', matching this unnumbered Concord record. This is the original Concord, not a later Concord II/III/IV revision. The source lists a two-way floorstanding closed box, B139 (A6171) LF and T15 (A6236) HF units with A6305 crossover, input impedance 8–16 Ω, maximum input power 15 W RMS / 30 W peak, 45 Hz system resonance, and a 30 Hz–20 kHz frequency range. The scalar stores only the explicitly stated 15 W RMS allowable-input figure; 30 W peak remains context. The impedance is a range and is therefore not collapsed into one nominal value. The published frequency range has no stated tolerance or measurement conditions, so the stored endpoints are unqualified source limits, not a ±3 dB claim; the response path remains physically modeled and is not a measured curve. The source does not provide sensitivity or a single circular woofer diameter (B139 is an oval unit); those remain N/A. No response curve or directivity dataset is imported. Source: https://www.radiomuseum.org/r/kef_concord_a6243.html."
+  }
+]

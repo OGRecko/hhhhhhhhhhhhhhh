@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bose-802",
+    "model_check": "802 Series II",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+    "notes": "Exact Bose 802 Series II product sheet (Bose-authored document fetched from Walker Sound). It specifies eight 4.5-inch full-range drivers, nominal 8-ohm impedance, 240 W continuous pink-noise power handling (55 Hz–16 kHz), and use with a separate 802C Series II systems controller and an external amplifier. Driver count and passive classification are supported. The same document gives conflicting response lower limits (55 Hz–16 kHz in the Technical Information table versus 50 Hz–16 kHz in the Engineers’ and Architects’ specification) and sensitivity values/context (91 dB full-range in the table versus 92 dB over 50 Hz–16 kHz and 99 dB over 300 Hz–3 kHz in the specification). Therefore the response bounds and sensitivity remain N/A; the 240 W rating and 8-ohm nominal impedance are retained from the exact-model document. The 4.5-inch elements are full-range drivers, not a separate woofer, so woofer size remains N/A.",
+    "fields": {
+      "power": {
+        "value": 240,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      }
+    },
+    "scalars": {
+      "active": false
+    }
+  }
+]

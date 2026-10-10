@@ -1,0 +1,53 @@
+[
+  {
+    "id": "jl-audio-12w7",
+    "model_check": "12W7AE-3",
+    "source": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86.2, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 1000, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 3, "unit": "ohm" },
+      "resonantFreq": { "value": 27.2, "unit": "Hz" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "category": "car-audio",
+    "notes": "Fetched the JL Audio W7 Anniversary Edition Owner's Manual (SKU #011171, 04-2017); its exact 12W7AE-3 specification section lists 27.2 Hz free-air resonance, 86.2 dB SPL efficiency at 1 W/1 m, 1000 W continuous thermal power handling, and 3-ohm nominal impedance. The manual describes one passive subwoofer driver connected to a separate amplifier. Only the explicit 1 W/1 m acoustic figure and continuous thermal rating are stored; no 2.83 V sensitivity conversion, peak-power rating, or recommended-amplifier range is substituted. The manual does not provide a numeric nominal diameter, voice-coil diameter, response limits, response-point curve, or directivity dataset; these remain unavailable in this manual-sourced entry. Source: https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf."
+  },
+  {
+    "id": "jl-audio-12w7",
+    "model_check": "12W7AE-3",
+    "source": "https://www.garmin.com/en-US/p/1669677/pn/010-03031-00/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "notes": "Exact-model cross-check: JL Audio's W7AE product page (part number 010-03031-00, now hosted on Garmin) identifies this variant as a 12-inch single-3-ohm 12W7AE-3 and explicitly lists Size: 12 inches. The woofer-size field is sourced from that product page, not inferred from the model name. The sensitivity, continuous power handling, impedance, and free-air resonance fields retain their separate source URL, the JL-authored W7AE manual's 12W7AE-3 specification table: https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf. That manual's efficiency label and 1 W/1 m reference are preserved; no frequency-response bound, voice-coil diameter, response curve, or directivity data are claimed. JL Audio product-page source for woofer size: https://www.garmin.com/en-US/p/1669677/pn/010-03031-00/."
+  },
+  {
+    "id": "jl-audio-10w3v3",
+    "model_check": "10W3v3",
+    "source": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "car-audio",
+    "fields": {
+      "power": { "value": 500, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Fetched the JL Audio 10W3v3 owner's manual; its specification table covers all three exact impedance variants (10W3v3-2, -4, and -8). This unsuffixed family record receives only properties the manual states identically for every variant: 10.0-inch nominal diameter and 500 W continuous power handling, plus one passive subwoofer driver. Variant-specific values are deliberately withheld: the manual lists efficiencies of 85.37/84.87/85.22 dB, free-air resonance of 32.97/31.49/32.60 Hz, and nominal impedance of 2/4/8 ohms for -2/-4/-8 respectively. Sensitivity, impedance, and resonant frequency therefore remain N/A on this unsuffixed record; the manual supplies no voice-coil diameter or full-response bounds/curve/directivity for this record. Source: https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf."
+  },
+  {
+    "id": "jl-audio-12w3v3",
+    "model_check": "12W3v3",
+    "source": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
+    "sourceType": "MANUFACTURER",
+    "category": "car-audio",
+    "fields": {
+      "power": { "value": 500, "unit": "W", "role": "speaker_power_handling" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Fetched the JL Audio 12W3v3 owner's manual; its specification table covers all three exact impedance variants (12W3v3-2, -4, and -8). This unsuffixed family record receives only properties the manual states identically for every variant: 12.0-inch nominal diameter and 500 W continuous power handling, plus one passive subwoofer driver. Variant-specific values are deliberately withheld: the manual lists efficiencies of 87.15/87.15/87.02 dB, free-air resonance of 27.97/26.72/28.28 Hz, and nominal impedance of 2/4/8 ohms for -2/-4/-8 respectively. Sensitivity, impedance, and resonant frequency therefore remain N/A on this unsuffixed record; the manual supplies no voice-coil diameter or full-response bounds/curve/directivity for this record. Source: https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "kef-105",
+    "model_check": "105.2",
+    "source": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "1W/1m" },
+      "frequencyResponse": { "low_hz": 38, "high_hz": 22000 },
+      "power": { "value": 200, "unit": "W", "role": "program_rating" },
+      "impedance": { "value": 8, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "KEF's official archived Reference Series Model 105.2 sheet (1979–87), specification table explicitly labeled Model 105.2: three-way floor-standing closed-box system; input impedance 8 Ω; sensitivity 86 dB at 1 W/1 m, anechoic; frequency response 38 Hz–22,000 Hz ±2 dB on measuring axis; rated maximum input 200 W programme (stored as role=program_rating); separate amplifier requirement 40–200 W per channel into 8 Ω is retained here as a range only and is not collapsed into the scalar power field. The archived document lists driver-unit configurations by serial-number range; `driverCount` is 3 as supported by the 3-way, three-unit system description. It gives no unambiguous woofer diameter for all serial variants, so woofer remains N/A. Passive status is supported by the published external-amplifier requirements. Source: https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87)/Reference_Series_Model_105_2_r.pdf. No measured-response data or directivity file is claimed/imported."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sonus-faber-olympica-nova-i",
+    "model_check": "Olympica Nova I",
+    "source": "https://a.storyblok.com/f/259299/x/2e9356d7ba/owners_olympica_nova_low-3.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 5.91, "unit": "in" },
+      "frequencyResponse": { "low_hz": 45, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact first-generation Olympica Nova I specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova I in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 43 identifies a passive 2-way stand-mount system: one H28 XTR3 tweeter and one 150 mm MW15 XTR2-04 midwoofer (150 mm converted to 5.91 in for the database's inch field). It publishes 45–35,000 Hz frequency response, 87 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 35–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 20 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/2e9356d7ba/owners_olympica_nova_low-3.pdf."
+  },
+  {
+    "id": "sonus-faber-olympica-nova-ii",
+    "model_check": "Olympica Nova II",
+    "source": "https://a.storyblok.com/f/259299/x/0c43f45653/owners_olympica_nova_low-2.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 7.09, "unit": "in" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact first-generation Olympica Nova II specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova II in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 43 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and one 180 mm W18XTR2-04 woofer (180 mm converted to 7.09 in for the database's inch field). It publishes 40–35,000 Hz frequency response, 88 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 50–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/0c43f45653/owners_olympica_nova_low-2.pdf."
+  },
+  {
+    "id": "sonus-faber-olympica-nova-iii",
+    "model_check": "Olympica Nova III",
+    "source": "https://a.storyblok.com/f/259299/x/905b48db22/owners_olympica_nova_low-1.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 7.09, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact first-generation Olympica Nova III specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova III in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 42 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and two 180 mm W18XTR2-08 woofers (180 mm converted to 7.09 in for the database's inch field; four total drivers). It publishes 35–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 50–300 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/905b48db22/owners_olympica_nova_low-1.pdf."
+  },
+  {
+    "id": "sonus-faber-olympica-nova-v",
+    "model_check": "Olympica Nova V",
+    "source": "https://a.storyblok.com/f/259299/x/3ed2428d5f/owners_olympica_nova_low.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 7.09, "unit": "in" },
+      "frequencyResponse": { "low_hz": 32, "high_hz": 35000 }
+    },
+    "scalars": { "driverCount": 5, "active": false },
+    "notes": "Exact first-generation Olympica Nova V specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova V in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 42 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and three 180 mm W18XTR2-12 woofers (180 mm converted to 7.09 in for the database's inch field; five total drivers). It publishes 32–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 60–400 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/3ed2428d5f/owners_olympica_nova_low.pdf."
+  }
+]

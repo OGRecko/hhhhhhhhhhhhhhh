@@ -1,0 +1,614 @@
+[
+  {
+    "id": "infinity-kappa-9",
+    "model_check": "Kappa 9",
+    "source": "https://www.infinity-classics.de/technik/manuals/Kappa_9_technical_sheet.pdf",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {},
+    "scalars": {},
+    "notes": "The archive’s Kappa 9/9A model page and Kappa technical sheet do not establish which revision the catalog’s bare “Kappa 9” row represents. The sheet file is titled Kappa_9 but its page heading says “RS 9 Kappa”; the separate Kappa 9A archive page describes a distinct A revision and does not resolve applicability to the unqualified row. Do not transfer the sheet’s driver configuration, response, sensitivity, impedance, or power range. Preserve this legitimate record as UNAVAILABLE with physical fields N/A pending exact revision evidence. Sources: https://www.infinity-classics.de/technik/infinity-datenbank.htm ; https://www.infinity-classics.de/models/Kappa-series-1987/kappa-9-9A/body_kappa_9a.html ; https://www.infinity-classics.de/technik/manuals/Kappa_9_technical_sheet.pdf.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "infinity-irs-v",
+    "model_check": "IRS V",
+    "source": "https://www.infinity-classics.de/technik/manuals/IRS_V_technical_sheet.pdf",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 15,
+        "high_hz": 45000
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      }
+    },
+    "scalars": {},
+    "notes": "The exact IRS_V technical-sheet file is titled “IRS 5” (the Roman-numeral model) and gives 15 Hz–45 kHz ±2 dB, 4 ohms nominal, and six 12-inch woofers per channel. The sheet describes a multi-module system with a per-channel driver list, an electronic crossover, and included 2 kW/channel RMS bass amplifiers. The driver list is system/channel-specific, so no whole-system driverCount is inferred; the bass-amplifier requirement is not stored as total speaker amplifier output or power handling, and active/passive remains N/A for this composite system. No raw response-point or polar dataset is supplied. Source: https://www.infinity-classics.de/technik/manuals/IRS_V_technical_sheet.pdf."
+  },
+  {
+    "id": "spendor-sp100",
+    "model_check": "SP100",
+    "source": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 20000
+      },
+      "sensitivity": {
+        "value": 90,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 125,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 11.81,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "The Spendor SP-100 owner’s manual specifies one 300 mm Bextrene LF unit, one 160 mm midrange, and one 19 mm soft-dome HF unit (three drivers); 8 ohms nominal; 45 Hz–20 kHz ±3 dB; 90 dB at 1 W/1 m; and 125 W power handling (the manual does not label this RMS/continuous). The stored 11.81-inch woofer size is a direct unit conversion of the published 300 mm. Its tri-wire/external-amplifier connections identify a passive loudspeaker. The manual’s illustrative “typical loudspeaker response curve” is not a measured SP100 response dataset, so no points or directivity are imported. Source: https://manualmachine.com/spendor/sp100/2351828-owners-manual/."
+  },
+  {
+    "id": "barefoot-footprint03",
+    "model_check": "Footprint03",
+    "source": "https://barefootsound.com/footprint03/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 40000
+      },
+      "power": {
+        "value": 260,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": true
+    },
+    "notes": "Barefoot’s exact Footprint03 page calls it a true three-way active, tri-amplified monitor and lists 260 watts of power per monitor, 45 Hz–40 kHz frequency response, a 6.5-inch woofer, 3.5-inch midrange, and 1-inch ring-radiator tweeter (three drivers). The manufacturer does not state a frequency tolerance or whether the 260 W is RMS/continuous/peak; the power field is therefore explicitly amplifier output, with no further rating implied. Its 105 dB figure is maximum peak SPL, not sensitivity. No measured response points or polar data are supplied/imported. Source: https://barefootsound.com/footprint03/."
+  },
+  {
+    "id": "ik-multimedia-iloud-mtm",
+    "model_check": "iLoud MTM",
+    "source": "https://www.ikmultimedia.com/news/?id=iloudmtm",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 40,
+        "high_hz": 24000
+      },
+      "woofer": {
+        "value": 3.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3
+    },
+    "notes": "IK Multimedia’s 2019 announcement is for the original iLoud MTM (not the later MTM MKII): it describes two 3.5-inch woofers and one 1-inch tweeter (three drivers) and calls 40 Hz–24 kHz response “flat,” without a numeric tolerance. No sensitivity, power, impedance, or active/passive field is inferred from the current MKII page. Exact original-model ASR/Klippel NFS measurements and Spinorama CEA-2034 on/off-axis and polar-contour graphs were found, but their data-reuse/licence terms have not been verified; no plotted values were digitized or imported. Manufacturer source: https://www.ikmultimedia.com/news/?id=iloudmtm ; exact-model measurement pages: https://www.audiosciencereview.com/forum/index.php?threads/ik-multimedia-iloud-mtm-review-active-monitor.18347/ ; https://www.spinorama.org/speakers/IK%20Multimedia%20iLoud%20MTM/ASR/index_asr.html."
+  },
+  {
+    "id": "psb-synchrony-t600",
+    "model_check": "Synchrony T600",
+    "source": "https://www.psbspeakers.com/products/synchrony-t600-tower",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 24,
+        "high_hz": 23000
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "power": {
+        "value": 300,
+        "unit": "W",
+        "role": "program_rating"
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 5
+    },
+    "notes": "The exact PSB T600 specifications list an on-axis 0° response of 24 Hz–23 kHz ±3 dB, 4 ohms nominal and minimum, three 6.5-inch woofers plus one 5.25-inch midrange and one 1-inch tweeter (five drivers), 300 W program power, and 20–300 W recommended amplifier power (the latter range is not collapsed into a scalar). The source gives 89 dB anechoic and 91 dB listening-room sensitivity but no electrical reference, so sensitivity remains N/A. The off-axis 30° ±1.5 dB specification (30 Hz–10 kHz) is retained in notes only, not represented as a full polar curve. Stereophile published measured on/off-axis plots for this exact model as images, not a numeric response/polar dataset; nothing was digitized. Source: https://www.psbspeakers.com/products/synchrony-t600-tower ; measured-plot lead: https://www.stereophile.com/content/psb-synchrony-t600-loudspeaker-measurements."
+  },
+  {
+    "id": "martinlogan-motion-20",
+    "model_check": "Motion 20",
+    "source": "https://www.martinlogan.com/en/product/motion-20",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 46,
+        "high_hz": 25000
+      },
+      "sensitivity": {
+        "value": 90,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 5.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "MartinLogan’s exact original Motion 20 page (launched 2012) specifies 46 Hz–25 kHz ±3 dB, 90 dB at 2.83 V/1 m, 4 ohms, two 5.5-inch woofers and one Folded Motion tweeter (three drivers), and external 5-way binding posts. The recommended amplifier range is 20–200 W/channel and is not stored as speaker power handling or a scalar. The page’s nominal 80° horizontal/vertical dispersion is not a frequency-resolved polar dataset and is not converted into one. Source: https://www.martinlogan.com/en/product/motion-20."
+  },
+  {
+    "id": "kenwood-kfc-1666s",
+    "model_check": "KFC-1666S",
+    "source": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 40,
+        "high_hz": 22000
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "power": {
+        "value": 30,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2
+    },
+    "notes": "Kenwood’s exact KFC-1666S specification table lists a 160 mm/6.5-inch woofer and separate 25 mm/1-inch tweeter (two drivers), 4 ohms, 40–22,000 Hz (no tolerance stated), 30 W RMS input power, and 300 W peak input power. The 30 W RMS input rating is stored as speaker power handling; the 300 W peak figure remains separately identified in this note and is not substituted. Kenwood labels sensitivity 90 dB at 1 m but does not state the electrical input reference, so the sensitivity field remains N/A rather than being relabelled 1 W/1 m or 2.83 V/1 m. No response points or polar dataset are published here. Source: https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html."
+  },
+  {
+    "id": "revel-ultima-salon2",
+    "model_check": "Ultima Salon2",
+    "source": "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 23,
+        "high_hz": 45000
+      },
+      "sensitivity": {
+        "value": 86.4,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 6,
+        "unit": "ohm"
+      }
+    },
+    "scalars": {
+      "active": false
+    },
+    "notes": "The exact Revel Ultima Salon2/Studio2 owner’s manual has separate model tables; only the SALON2 section is used. It specifies 86.4 dB SPL at 2.83 V/1 m (2π anechoic), 6.0 ohms nominal/3.7 ohms minimum, and 23 Hz–45 kHz at −3 dB (4π anechoic). External amplifier terminals/jumpers and the manual’s single-wire/bi-wire/bi-amplifier instructions support passive operation. The manual does not provide a raw response-point or polar dataset suitable for import. The text table used here does not enumerate transducer sizes/count, so those fields remain N/A. Recommended amplifier ranges are not stored as speaker power handling. Source: https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf."
+  },
+  {
+    "id": "bang-olufsen-beosound-a5",
+    "model_check": "Beosound A5",
+    "source": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 32,
+        "high_hz": 23000
+      },
+      "power": {
+        "value": 280,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 5.25,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 4,
+      "active": true
+    },
+    "notes": "Bang & Olufsen’s official comparison page identifies the Beosound A5 configuration as one 0.8-inch tweeter, two 2-inch full-range drivers, and one 5¼-inch woofer (four drivers), with 32–23,000 Hz frequency range and 280 W total amplification. The comparison table does not label the 280 W as RMS or peak, so no such condition is implied. Its separate 101 dB SPL maximum at 1 m is not sensitivity. No measured response-point/directivity dataset is supplied or imported. Source: https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20."
+  },
+  {
+    "id": "bang-olufsen-beosound-level",
+    "model_check": "Beosound Level",
+    "source": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 39,
+        "high_hz": 23000
+      },
+      "power": {
+        "value": 105,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 4,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 5,
+      "active": true
+    },
+    "notes": "Bang & Olufsen’s official comparison page identifies two 0.8-inch tweeters, one 2-inch full-range driver, and two 4-inch woofers (five drivers), 39–23,000 Hz, and 105 W total amplification for Beosound Level. The total is explicitly manufacturer-listed; the page does not label it RMS or peak, so neither condition is implied. Maximum 96 dB SPL at 1 m is not sensitivity. No response-point/polar data are supplied or imported. Source: https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20."
+  },
+  {
+    "id": "bang-olufsen-beosound-balance",
+    "model_check": "Beosound Balance",
+    "source": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 26,
+        "high_hz": 23000
+      },
+      "woofer": {
+        "value": 5.25,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 7,
+      "active": true
+    },
+    "notes": "The official Beosound Balance product sheet lists two 5.25-inch woofers, four 3-inch full-range drivers, one ¾-inch tweeter (seven drivers total), and 26–23,000 Hz. Its amplifier ratings are by channel and explicitly non-clipped peak values; no total is written into the power field and channel figures are not summed. No response-point or angle-resolved directivity dataset is supplied/imported. Source: https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf."
+  },
+  {
+    "id": "devialet-dione",
+    "model_check": "Dione",
+    "source": "https://www.devialet.com/en-us/soundbar/dione/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 24,
+        "high_hz": 21000
+      },
+      "power": {
+        "value": 950,
+        "unit": "W",
+        "role": "amplifier_output"
+      }
+    },
+    "scalars": {
+      "driverCount": 17,
+      "active": true
+    },
+    "notes": "Devialet’s official Dione page specifies 17 physical drivers (nine full-range and eight subwoofers), 950 W RMS total amplification, and 24 Hz–21 kHz response (no tolerance stated). Its 101 dB maximum SPL at 1 m is not sensitivity. The page does not state a subwoofer driver diameter or publish raw response/polar points; those fields remain N/A. Source: https://www.devialet.com/en-us/soundbar/dione/."
+  },
+  {
+    "id": "dutch-and-dutch-8c",
+    "model_check": "8c",
+    "source": "https://dutchdutch.com/pages/8c",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 20,
+        "high_hz": 20000
+      },
+      "power": {
+        "value": 1000,
+        "unit": "W",
+        "role": "amplifier_output"
+      }
+    },
+    "scalars": {
+      "active": true
+    },
+    "notes": "Dutch & Dutch’s exact 8c page specifies three-way active design, 20 Hz–20 kHz response (no tolerance stated), and 1000 W/channel amplification. The rating remains per channel; no whole-system sum or driverCount is inferred. Cardioid/constant-directivity are technology descriptions, not an angle-resolved polar dataset, and no directivity/response points are imported. Source: https://dutchdutch.com/pages/8c."
+  },
+  {
+    "id": "sennheiser-ambeo-soundbar-max",
+    "model_check": "AMBEO Soundbar Max",
+    "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 30,
+        "high_hz": 20000
+      },
+      "power": {
+        "value": 500,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 4,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 13,
+      "active": true
+    },
+    "notes": "Sennheiser’s exact AMBEO Soundbar Max specifications list 13 Class-D amplifier channels/drivers, 500 W total audio power (explicitly peak), six 4-inch woofers, five 1-inch tweeters, two 3.5-inch top-facing full-range drivers, and 30 Hz–20 kHz (−3 dB). The stored power role is amplifier output; “peak” is retained in this note and is not represented as RMS/continuous. No sensitivity or speaker impedance is stated, and no raw response/polar dataset is imported. Source: https://us.sennheiser-hearing.com/products/ambeo-soundbar."
+  },
+  {
+    "id": "sennheiser-ambeo-soundbar-plus",
+    "model_check": "AMBEO Soundbar Plus",
+    "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-plus",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 38,
+        "high_hz": 20000
+      },
+      "power": {
+        "value": 400,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 4,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 9,
+      "active": true
+    },
+    "notes": "Sennheiser’s exact AMBEO Soundbar Plus specifications list 400 W total audio power (RMS), nine drivers (seven 2-inch full-range drivers and two 4-inch woofers), and 38 Hz–20 kHz response; no frequency tolerance is stated. The output remains identified as RMS amplifier power, not speaker power handling. No sensitivity/impedance or raw response/polar dataset is supplied/imported. Source: https://us.sennheiser-hearing.com/products/ambeo-soundbar-plus."
+  },
+  {
+    "id": "sennheiser-ambeo-mini",
+    "model_check": "AMBEO Mini",
+    "source": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 43,
+        "high_hz": 20000
+      },
+      "power": {
+        "value": 250,
+        "unit": "W",
+        "role": "amplifier_output"
+      },
+      "woofer": {
+        "value": 4,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 6,
+      "active": true
+    },
+    "notes": "Sennheiser’s exact AMBEO Soundbar Mini specifications list 250 W total audio power (RMS), six drivers (four 1.6-inch full-range drivers and two 4-inch woofers), and 43 Hz–20 kHz response (−3 dB). The amplifier output remains distinct from speaker power handling. No sensitivity/impedance or raw response/polar dataset is supplied/imported. Source: https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini."
+  },
+  {
+    "id": "lg-lg-s80tr",
+    "model_check": "LG S80TR",
+    "source": "https://www.lg.com/pt/audio/soundbars/s80tr/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": {
+        "value": 580,
+        "unit": "W",
+        "role": "amplifier_output"
+      }
+    },
+    "scalars": {
+      "driverCount": 11,
+      "active": true
+    },
+    "notes": "LG Portugal’s exact S80TR specifications list 11 speaker units and 580 W under general “Power”; the page separately lists mains power consumption (59 W main, 20 W rear, 40 W subwoofer), so 580 W is treated as system amplifier output, not consumption or speaker handling. LG does not label this output RMS/peak. Channel count is not used to infer driver count. No acoustic response, sensitivity, impedance, or polar data are published on this page. Source: https://www.lg.com/pt/audio/soundbars/s80tr/."
+  },
+  {
+    "id": "lg-lg-s90tr",
+    "model_check": "LG S90TR",
+    "source": "https://www.lg.com/ca_en/speakers/soundbars/s90tr/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": {
+        "value": 670,
+        "unit": "W",
+        "role": "amplifier_output"
+      }
+    },
+    "scalars": {
+      "driverCount": 13,
+      "active": true
+    },
+    "notes": "LG Canada’s exact S90TR specification table lists 13 speaker units and 670 W “Output Power”; its mains-consumption figures are separately listed, so this is retained as amplifier output rather than power handling/consumption. No RMS/peak condition is stated. The 7.1.3 channel label is not used as a driver count. No sensitivity, impedance, response bandwidth, or raw polar data are published on this page. Source: https://www.lg.com/ca_en/speakers/soundbars/s90tr/."
+  },
+  {
+    "id": "lg-lg-s95tr",
+    "model_check": "LG S95TR",
+    "source": "https://www.lg.com/us/soundbars/lg-s95tr-home-theater-soundbar",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {
+      "driverCount": 17,
+      "active": true
+    },
+    "notes": "LG’s exact S95TR US page states that the soundbar package has 17 speakers and an included wireless active subwoofer/rear-speaker system. The page provides no total amplifier-output rating or acoustic frequency/sensitivity/impedance specification suitable for these fields, so none is inferred. Channel count is not treated as driverCount. No response-point or polar dataset is imported. Source: https://www.lg.com/us/soundbars/lg-s95tr-home-theater-soundbar."
+  },
+  {
+    "id": "lg-lg-sc9s",
+    "model_check": "LG SC9S",
+    "source": "https://www.lg.com/us/soundbars/lg-sc9s-soundbar",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {
+      "driverCount": 9,
+      "active": true
+    },
+    "notes": "LG’s exact SC9S US page states “9 speakers” and lists a wireless active subwoofer; the separate 3.1.3 channel label is not used as driverCount. The page does not provide a total amplifier-output rating or acoustic frequency/sensitivity/impedance specification suitable for these fields, so none is inferred. No response-point or polar dataset is imported. Source: https://www.lg.com/us/soundbars/lg-sc9s-soundbar."
+  },
+  {
+    "id": "bang-olufsen-beovox-s45",
+    "model_check": "Beovox S45",
+    "source": "https://beoworld.org/beovox-s45-1976/",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {},
+    "scalars": {
+      "active": null
+    },
+    "notes": "BeoWorld’s exact Beovox S45 (1976) page identifies original Type 6302 as three-way and links an English service manual, but the download redirects to an account-login page and the manual contents were not retrieved. The catalog row lacks a type/year; later Type 6427 material describes a two-way revision, while available manual indexes distinguish an S45 schematic from an S45.2 service manual. These do not resolve which revision the row represents. No driverCount or revision-specific acoustic values are transferred, and active/passive is reset to N/A because the accessible exact original page does not establish it for the unqualified row. Preserve the record as UNAVAILABLE with physical fields N/A. Sources: https://beoworld.org/beovox-s45-1976/ ; https://beo.zone/en/beovision-mx3500/beovox-penta-passive-loudspeakers/beovox-s45-passive-loudspeakers ; https://beomanuals.com/manuals/Beovox/Beovox%20S45/ ; https://www.analogalley.com/m_bando.htm.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "rogers-ls3-5a",
+    "model_check": "LS3/5a",
+    "source": "https://www.rogers-hifi.uk/rogers-ls35a-classic-speakers",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "Rogers’ official sources distinguish the BBC-licensed LS3/5A Classic from the separately named Classic SE; the catalog row is only “LS3/5a” with no Classic/SE, impedance/version, or production period. The exact Classic and Classic SE pages therefore do not identify the intended catalog variant, and earlier Rogers-licensed LS3/5A versions are not silently equated with either current model. Preserve the legitimate row as UNAVAILABLE and keep all unsupported physical/acoustic fields N/A; no specifications or response/directivity data are transferred. Sources: https://www.rogers-hifi.uk/rogers-ls35a-classic-speakers ; https://www.rogers-hifi.uk/rogers-ls35a-classic-se-loudspeakers.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "wharfedale-w60",
+    "model_check": "W60",
+    "source": "https://www.canuckaudiomart.com/details/171205-wharfedale_w60_british_loudspeakers_from_1961_in_mint_condition/",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {},
+    "scalars": {},
+    "notes": "UNRESOLVED — this record is the no-suffix Wharfedale W60 and is not merged with W60D/W60E. No manufacturer-issued exact W60 manual or specification sheet was located in the sources reviewed. Secondary W60 sources conflict: a 2010 classified listing reports an 8 Ω impedance and 4.5-inch high-frequency driver; a 2016 listing calls the tweeter 5 inches in its description but later lists a 4.5-inch dual-cone driver; a separate archived listing reports 6 Ω. A hobbyist account distinguishes the later W60D by its Super 3 tweeter but supplies no manufacturer or measurement data. These sources cannot establish the intended production revision or resolve the conflicting specifications, so no physical values are transferred; acoustic fields remain N/A pending an exact manufacturer document or well-provenanced unit/revision evidence. Sources: https://www.canuckaudiomart.com/details/171205-wharfedale_w60_british_loudspeakers_from_1961_in_mint_condition/ ; https://www.canuckaudiomart.com/details/649295838-vintage-british-wharfedale-w60-speakers/ ; https://www.worthpoint.com/worthopedia/wharfedale-w60-speakers-pair-137724768 ; http://6streetbridge.blogspot.com/2009/01/visit-with-wharfedale-w60.html",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "wilson-audio-alexia",
+    "model_check": "Alexia",
+    "source": "https://www.wilsonaudio.com/products/alexia/alexia-series-1",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "Wilson Audio maintains separate official Alexia Series 1 and Series 2 specifications. The catalog model says only “Alexia” and does not identify a series/revision; no Series 1/Series 2 values are assigned to it. Preserve this legitimate unresolved identity as UNAVAILABLE with physical fields N/A. No response points or directivity data are transferred. Sources: https://www.wilsonaudio.com/products/alexia/alexia-series-1 ; https://www.wilsonaudio.com/products/alexia/alexia-series-2.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "bang-olufsen-beosound-2",
+    "model_check": "Beosound 2",
+    "source": "https://support.bang-olufsen.com/hc/en-us/articles/360038206612-Documentation-Library",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "Bang & Olufsen’s official documentation library lists Beosound 2, Beosound 2 with Google Assistant, and Beosound 2 3rd Gen (2023) as separate wireless-speaker products; its legacy sound-systems list also contains a Beosound 2 (2002). The catalog row does not specify generation, Google Assistant variant, or the 2002 system, so none of these models’ specifications are transferred. Keep the legitimate record UNAVAILABLE with physical fields N/A. Sources: https://support.bang-olufsen.com/hc/en-us/articles/360038206612-Documentation-Library ; https://support.bang-olufsen.com/hc/en-us/articles/360053997612-Product-technical-sheets.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "focal-utopia-scala",
+    "model_check": "Scala Utopia III",
+    "source": "https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "UNRESOLVED — a Focal-authored Scala Utopia manual, preserved by ManualsLib, explicitly labels the product ‘Scala Utopia’ and lists 28 Hz–40 kHz (±3 dB), a 24 Hz low-frequency point (-6 dB), 92 dB (2.83 V/1 m), 8-ohm nominal/3.1-ohm minimum impedance, an 11-inch woofer, a 6.5-inch midrange and 40–500 W recommended amplifier power. A separate Focal-authored manual explicitly titled ‘Scala V2 Utopia’ lists 27 Hz–40 kHz (±3 dB), while Focal’s distinct official Scala Utopia III Evo documentation specifies 27 Hz–40 kHz and 3.2-ohm minimum impedance. Focal’s product-history page says Utopia III launched in 2008 and describes Scala Utopia Evo as an evolution of the previous Scala, but the database label ‘Scala Utopia III’ does not identify the non-Evo V1/V2 revision. Because the published response limit differs, no revision-specific values are transferred; all physical/acoustic fields remain N/A until the exact revision is established. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11; https://media.focal-naim.com/dam/scala-utopia-evo/notice_scalautopiaevo_web.pdf; https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "legacy-focal-3",
+    "model_check": "Utopia III Scala",
+    "source": "https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "UNRESOLVED — fetched Focal-authored manuals identify ‘Scala Utopia’ and ‘Scala V2 Utopia’, and Focal’s product-history page describes the Scala Utopia Evo as an evolution of the Utopia III generation launched in 2008. None identifies a separate product using the exact database label ‘Utopia III Scala’ or establishes whether this reversed-name row is an alias of ‘Scala Utopia III’ or a different revision. The non-Evo manuals publish different response lower limits (28 Hz versus 27 Hz), so no values are copied and no alias/deduplication is assumed. Retain all physical/acoustic fields as N/A pending exact identity and revision evidence. Sources: https://www.manualslib.com/manual/456276/Focal-Scala-Utopia.html?page=13; https://www.manualslib.com/manual/1230420/Focal-Scala-V2-Utopia.html?page=11; https://media.focal-naim.com/dam/scala-utopia-evo/notice_scalautopiaevo_web.pdf; https://www.focalnaimaudio.com/product/focal-scala-utopia-iii-evo/.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "samsung-samsung-hw-q700d",
+    "model_check": "Samsung HW-Q700D",
+    "source": "https://images.samsung.com/is/content/samsung/assets/au/audio-devices/soundbar-product-specs/Q700D_2024_product-specs.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "The located Samsung technical sheet is for the regional HW-Q700D/XY SKU, while the catalog row is the unqualified HW-Q700D and supplies no region suffix. Because the exact regional SKU is not established for this row, its unit count and other specifications are not transferred. Preserve the row as UNAVAILABLE with physical fields N/A pending exact regional identity. Source: https://images.samsung.com/is/content/samsung/assets/au/audio-devices/soundbar-product-specs/Q700D_2024_product-specs.pdf.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "samsung-samsung-hw-q800d",
+    "model_check": "Samsung HW-Q800D",
+    "source": "https://images.samsung.com/is/content/samsung/assets/au/audio-devices/soundbar-product-specs/Q800D_2024_product-specs.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "The located Samsung technical sheet is for the regional HW-Q800D/XY SKU, while the catalog row is the unqualified HW-Q800D and supplies no region suffix. Because the exact regional SKU is not established for this row, its unit count and other specifications are not transferred. Preserve the row as UNAVAILABLE with physical fields N/A pending exact regional identity. Source: https://images.samsung.com/is/content/samsung/assets/au/audio-devices/soundbar-product-specs/Q800D_2024_product-specs.pdf.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "samsung-samsung-hw-q930d",
+    "model_check": "Samsung HW-Q930D",
+    "source": "https://www.samsung.com/ca/business/audio-devices/soundbar/q930d-black-hw-q930d-zc/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "The official Samsung page located is for HW-Q930D/ZC (Canada), whereas the catalog row omits the regional SKU suffix. The ZC page’s system speaker count is not transferred to the unqualified row until exact region/model alignment is established. Preserve the row UNAVAILABLE with physical fields N/A. Source: https://www.samsung.com/ca/business/audio-devices/soundbar/q930d-black-hw-q930d-zc/.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "samsung-samsung-hw-q990d",
+    "model_check": "Samsung HW-Q990D",
+    "source": "https://www.samsung.com/ca/business/audio-devices/soundbar/q990d-black-hw-q990d-zc/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "The official Samsung page located is for HW-Q990D/ZC (Canada), whereas the catalog row omits the regional SKU suffix. The ZC page’s system speaker count is not transferred to the unqualified row until exact region/model alignment is established. Preserve the row UNAVAILABLE with physical fields N/A. Source: https://www.samsung.com/ca/business/audio-devices/soundbar/q990d-black-hw-q990d-zc/.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "samsung-samsung-hw-q990f",
+    "model_check": "Samsung HW-Q990F",
+    "source": "https://www.samsung.com/uk/audio-devices/soundbar/q990f-q-series-soundbar-with-subwoofer-and-rear-speakers-black-hw-q990f-xu/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "The official Samsung page located is for HW-Q990F/XU (UK), whereas the catalog row omits the regional SKU suffix. The XU page’s system speaker count is not transferred to the unqualified row until exact region/model alignment is established. Preserve the row UNAVAILABLE with physical fields N/A. Source: https://www.samsung.com/uk/audio-devices/soundbar/q990f-q-series-soundbar-with-subwoofer-and-rear-speakers-black-hw-q990f-xu/.",
+    "overallStatus": "UNAVAILABLE"
+  },
+  {
+    "id": "samsung-samsung-hw-s800d",
+    "model_check": "Samsung HW-S800D",
+    "source": "https://www.samsung.com/uk/audio-devices/soundbar/s800d-ultra-slim-lifestyle-soundbar-black-hw-s800d-xu/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "notes": "The official Samsung page located is for HW-S800D/XU (UK), whereas the catalog row omits the regional SKU suffix. The XU page’s system speaker count is not transferred to the unqualified row until exact region/model alignment is established. Preserve the row UNAVAILABLE with physical fields N/A. Source: https://www.samsung.com/uk/audio-devices/soundbar/s800d-ultra-slim-lifestyle-soundbar-black-hw-s800d-xu/.",
+    "overallStatus": "UNAVAILABLE"
+  }
+]

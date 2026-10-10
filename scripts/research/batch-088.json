@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sonus-faber-guarneri",
+    "model_check": "Guarneri Evolution",
+    "source": "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 7.05, "unit": "in" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Guarneri Evolution data sheet carrying Sonus faber branding and its Arcugnano, Italy address, mirrored by Mono Norway. The sheet identifies the GUARNERI evolution two-way compact stand-mounted system and specifies one 29 mm tweeter plus one 179 mm midrange/woofer (179 mm converted to 7.05 in for the database field; two total drivers). It publishes 40–30,000 Hz frequency response with the Stealth reflex included, 86 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. No response tolerance is stated. The sheet's POWER HANDLING entry is a 25–200 W range qualified 'without clipping'; because the schema stores one scalar and the table does not distinguish a scalar continuous/peak rating from a compatible amplifier range, no power value is assigned. The active/passive flag also remains unknown because the sheet does not explicitly label it. No response points or directivity data are imported. Source: https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf."
+  }
+]

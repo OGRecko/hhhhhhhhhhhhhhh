@@ -1,0 +1,125 @@
+[
+  {
+    "id": "legacy-bw-1",
+    "model_check": "DM6",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 3
+    },
+    "fields": {
+      "sensitivity": {
+        "value": 95,
+        "unit": "dB",
+        "reference": "at 1m; input reference unspecified"
+      },
+      "frequencyResponse": {
+        "low_hz": 50,
+        "high_hz": 20000
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      }
+    },
+    "notes": "Exact Bowers & Wilkins DM6 manufacturer information sheet: frequency response is 50 Hz–20 kHz ±3 dB, on-axis at 3 m; nominal impedance is 8 ohms; sensitivity is 95 dB SPL at 1 m, but the source does not state the voltage or power reference, so the raw figure is retained with that limitation and must not be normalized as 1 W/1 m. The sheet describes the bass, midrange and high-frequency units (including the 131 mm MW150 midrange and TW20 tweeter), supporting three drive units, but it does not provide a complete bass-driver size/configuration; woofer diameter remains N/A. Its 25–350 W power-handling range is not collapsed into the scalar power field. The stated system resonance is below 50 Hz, not an exact resonant-frequency value. No response curve or directivity data are inferred. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf."
+  },
+  {
+    "id": "legacy-bw-5",
+    "model_check": "802D",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwe4b5b4d3/archive-manuals/eng_fp20001_802-d_info_sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "scalars": {},
+    "fields": {
+      "sensitivity": {
+        "value": 90,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 8,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 34,
+        "high_hz": 28000
+      }
+    },
+    "notes": "Exact Bowers & Wilkins 802D information sheet (not 802 Diamond, 802 D3, or a Matrix 802 revision): it specifies 34 Hz–28 kHz ±3 dB on the reference axis, 90 dB SPL at 2.83 V/1 m, nominal 8-ohm impedance with a 3.5-ohm minimum, and twin 8-inch bass drivers. The separate 27 Hz–33 kHz figures are the -6 dB frequency range and are not substituted for the stated ±3 dB response. The sheet does not publish a scalar speaker power rating; no amplifier range is inferred. Other driver dimensions, sensitivity conversions, resonant frequency, response points and directivity remain N/A. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwe4b5b4d3/archive-manuals/eng_fp20001_802-d_info_sheet.pdf."
+  },
+  {
+    "id": "legacy-bw-2",
+    "model_check": "801",
+    "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 3
+    },
+    "fields": {
+      "woofer": {
+        "value": 10.63,
+        "unit": "in"
+      }
+    },
+    "notes": "Bowers & Wilkins' official 800 Series history identifies the original 801 (launched in 1979) separately from the Matrix 801, Nautilus 801 and later D revisions. For the original 801 it describes three drive units in separate enclosures: a 27 cm bass woofer, a 10 cm midrange and a 26 mm tweeter. The woofer value is the manufacturer's 27 cm diameter converted to 10.63 in. The article does not publish a standardized response limit, sensitivity, impedance or scalar power rating for this model, so those fields remain N/A; no later 801-family values are transferred. Source: https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html."
+  },
+  {
+    "id": "legacy-bw-3",
+    "model_check": "Matrix 801",
+    "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {},
+    "fields": {
+      "woofer": {
+        "value": 11.81,
+        "unit": "in"
+      },
+      "frequencyResponse": {
+        "low_hz": 20,
+        "high_hz": null
+      }
+    },
+    "notes": "Bowers & Wilkins' official 800 Series history identifies the Matrix 801 launched in 1987 and states that it used a 30 cm bass driver, giving the speaker low-end extension down to 20 Hz. The woofer diameter is converted from the manufacturer's 30 cm to 11.81 in. The 20 Hz entry preserves only the article's published lower-extension claim: it gives no response tolerance or upper limit, so none is implied. Matrix 801 S2 and S3 information sheets document later, distinct editions; none of their values are transferred here. Sensitivity, impedance, power and response points remain N/A. Source: https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html."
+  },
+  {
+    "id": "legacy-bw-4",
+    "model_check": "Nautilus",
+    "source": "https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "driverCount": 4
+    },
+    "fields": {
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      }
+    },
+    "notes": "Exact Bowers & Wilkins Nautilus flagship history page: the design uses four drivers in a four-way arrangement (one tweeter, two midrange drivers and one bass driver); the bass driver is specified as 30 cm (12 in). The article describes Nautilus as semi-active, using an external crossover and separate amplification per drive unit, so the database's binary active flag remains N/A rather than misclassifying this architecture. Its 100 W+ amplifier recommendation and 500 W optimum for the low-frequency amplifier are not speaker power-handling/output ratings. The article publishes no sensitivity, nominal impedance or standardized response limits, and no response/directivity data are imported. This is the sculptural Nautilus model, not Nautilus 801. Source: https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html."
+  },
+  {
+    "id": "legacy-bw-6",
+    "model_check": "CM10",
+    "source": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwf7d96409/archive-manuals/cm10_manual.pdf",
+    "sourceType": "MANUFACTURER",
+    "scalars": {
+      "active": false
+    },
+    "fields": {},
+    "notes": "Exact Bowers & Wilkins CM10 owner manual: it shows linked speaker terminals for conventional or bi-wire connection and instructs connection to an external amplifier, supporting passive (active=false) classification. This manual does not provide exact-model sensitivity, frequency-response limits, power handling, nominal impedance or driver dimensions; those fields remain N/A. No CM10 S2 specifications are transferred. Source: https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwf7d96409/archive-manuals/cm10_manual.pdf."
+  },
+  {
+    "id": "bowers-wilkins-zeppelin",
+    "model_check": "Zeppelin",
+    "source": "https://www.bowerswilkins.com/en-us/product/zeppelin/150242.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {},
+    "fields": {},
+    "notes": "UNAVAILABLE — the bare catalog name ‘Zeppelin’ does not identify a generation. Bowers & Wilkins' current Zeppelin product page links to a manual explicitly named for the 2021 model, while the same official page's support Q&A distinguishes the original Zeppelin from the current Zeppelin. Because the record carries no generation/year and does not establish which version is intended, no current-generation or original-generation specifications are assigned; all physical and response fields remain N/A. Sources: https://www.bowerswilkins.com/en-us/product/zeppelin/150242.html and https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0e5079dc/downloads/zeppelin-2021-owners-manual.pdf.",
+    "overallStatus": "UNAVAILABLE"
+  }
+]

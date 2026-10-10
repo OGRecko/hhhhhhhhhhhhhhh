@@ -1,0 +1,37 @@
+[
+  {
+    "id": "legacy-ma-3",
+    "model_check": "W8LM",
+    "source": "https://martin-audio.com/products/archive/w8lm",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 60, "high_hz": 18000 },
+      "power": { "value": 400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 12, "unit": "ohm" },
+      "voiceCoil": { "value": 50, "unit": "mm" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "fieldSources": {
+      "frequencyResponse_power_impedance_voiceCoil_woofer_driverCount_active": "https://martin-audio.com/products/archive/w8lm"
+    },
+    "notes": "The exact Martin Audio W8LM manufacturer archive page and datasheet describe a three-way mini line-array cabinet with two 8-inch LF+MF drivers (each specified with a 2-inch/50 mm voice coil) and two 1-inch HF compression drivers, four transducers total. The datasheet publishes 60 Hz–18 kHz ±3 dB (on-axis, open 4π space, measured at 2 m and referred to 1 m), 12-ohm full-range impedance, and 400 W AES / 1600 W peak passive power handling; the scalar power stores the explicitly stated passive AES rating (the separate bi-amp LF+MF and HF ratings are mode/component-specific). Sensitivity is specified separately for LF+MF (100 dB), HF (106 dB), and full range (99 dB rising to 105 dB at HF); its footnote states 1 W, open 4π space at 2 m, band-limited pink noise, referred to 1 m. Because the scalar field cannot represent these band/mode-specific figures, no sensitivity scalar is assigned. The speaker requires external amplification; its selectable passive/bi-amp crossover does not make it self-powered. The datasheet has a partial angle-resolved table (0°–50°, 2–20 kHz, dB SPL/2.83 V with 1/3-octave smoothing), frequency-dependent HF horizontal beamwidth, nominal coverage and polar plots; these do not supply the complete full-band angle-resolved response required for a directivity payload. The 2–20 kHz table also cannot stand in for a full-band response curve or safely replace the separately published 60 Hz–18 kHz limits, so neither curve nor directivity pattern is imported. Sources: https://martin-audio.com/products/archive/w8lm and https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf."
+  },
+  {
+    "id": "dandb-t10",
+    "model_check": "T10",
+    "source": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 68, "high_hz": 18000 },
+      "power": { "value": 200, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 16, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "fieldSources": {
+      "frequencyResponse_power_impedance_woofer_driverCount_active": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf"
+    },
+    "notes": "The exact d&b audiotechnik T10 manufacturer datasheet identifies a passive two-way loudspeaker with two 6.5-inch neodymium LF drivers and one 1.4-inch exit compression driver (three transducers), nominal 16-ohm impedance, 200 W RMS / 800 W peak power capacity, and 68 Hz–18 kHz frequency response at -5 dB in standard mode. The scalar power stores the RMS rating; peak is recorded only in this note. CUT mode changes the low-frequency limit to 120 Hz, so the stored range is standard mode and the mode distinction is retained here. The page's maximum-SPL figures depend on controller and point-/line-source configuration and are not sensitivity; no sensitivity or voice-coil diameter is populated. The unit requires a compatible external d&b amplifier and is passive. The datasheet publishes distinct nominal dispersion for line-source (105° horizontal) and point-source (90° × 35°) setup but no angle-resolved polar response table; dispersion is recorded only as a directivity research lead, not converted to a polar pattern. No frequency-response points are digitized. Source: https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf."
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "kef-r3-meta",
+    "model_check": "R3 Meta",
+    "source": "https://us.kef.com/products/r3-meta",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 87,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 58,
+        "high_hz": 28000
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official R3 Meta product page (exact model R3 Meta; three-way bass-reflex passive hi-fi speaker): frequency response 58 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 15–180 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone and LF 165 mm cone (6.5 in), crossover 420 Hz and 2.3 kHz; dimensions 422 × 200 × 336 mm; weight 12.4 kg. `driverCount` counts the stated HF, MF and LF transducers. The supported scalar impedance is nominal; minimum impedance is not a separate schema field. Exact source: https://us.kef.com/products/r3-meta. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-reference-1-meta",
+    "model_check": "Reference 1 Meta",
+    "source": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 85,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 35000
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official Reference 1 Meta product page (exact Meta revision; three-way bass-reflex passive speaker): frequency response 45 Hz–35 kHz (±3 dB); frequency range with short port 40 Hz–45 kHz and long port 37 Hz–45 kHz (-6 dB); sensitivity 85 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 50–200 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone and LF 165 mm (6.5 in) cone; crossover 450 Hz and 2.1 kHz; dimensions 440 × 205 × 422 mm; weight 18.2 kg. `driverCount` counts the stated HF, MF and LF transducers. The schema has nominal but not minimum impedance as a separate field. Exact source: https://us.kef.com/products/reference-1-bookshelf-speaker. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-r5-meta",
+    "model_check": "R5 Meta",
+    "source": "https://ap.kef.com/products/r5-meta",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 87,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 52,
+        "high_hz": 28000
+      },
+      "woofer": {
+        "value": 5.25,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 4,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official R5 Meta product page (exact model R5 Meta; compact three-way bass-reflex passive floorstanding speaker): frequency response 52 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 15–200 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone, two LF 130 mm (5.25 in) cones; crossover 400 Hz and 2.7 kHz; dimensions 1072 × 272 × 344 mm with plinth; weight 24.5 kg. `driverCount` counts the two Uni-Q transducers and two LF transducers. Minimum impedance is not a separate schema field. Exact manufacturer source: https://ap.kef.com/products/r5-meta. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-r7-meta",
+    "model_check": "R7 Meta",
+    "source": "https://us.kef.com/products/r7-meta",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 88,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 48,
+        "high_hz": 28000
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 4,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official R7 Meta product page (exact model R7 Meta; three-way bass-reflex passive floorstanding speaker): frequency response 48 Hz–28 kHz (±3 dB); frequency range 33 Hz–50 kHz (-6 dB); sensitivity 88 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 15–250 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone and two LF 165 mm (6.5 in) cones; crossover 400 Hz and 2.4 kHz; dimensions 1109 × 311 × 384 mm; weight 29.3 kg. `driverCount` counts the two Uni-Q transducers and two LF transducers. Minimum impedance is not a separate schema field. Exact source: https://us.kef.com/products/r7-meta. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-reference-3-meta",
+    "model_check": "Reference 3 Meta",
+    "source": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 86,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 43,
+        "high_hz": 35000
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 4,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official Reference 3 Meta product page (exact Meta revision; three-way bass-reflex passive floorstanding speaker): frequency response 43 Hz–35 kHz (±3 dB); frequency range with short port 38 Hz–45 kHz and long port 35 Hz–45 kHz (-6 dB); sensitivity 86 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 50–300 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone and two LF 165 mm (6.5 in) cones; crossover 450 Hz and 2.1 kHz; dimensions 1155 × 205 × 462 mm with grille/terminal; weight 51.3 kg. `driverCount` counts the two Uni-Q transducers and two LF transducers. Minimum impedance is not a separate schema field. Exact source: https://us.kef.com/products/reference-3-floorstanding-speaker. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-reference-5-meta",
+    "model_check": "Reference 5 Meta",
+    "source": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 88,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 40,
+        "high_hz": 35000
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 6,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official Reference 5 Meta product page (exact Meta revision; three-way bass-reflex passive floorstanding speaker): frequency response 40 Hz–35 kHz (±3 dB); frequency range with short port 35 Hz–45 kHz and long port 32 Hz–45 kHz (-6 dB); sensitivity 88 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 50–400 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone and four LF 165 mm (6.5 in) cones; crossover 450 Hz and 2.1 kHz; weight 60.2 kg. `driverCount` counts two Uni-Q and four LF transducers. Minimum impedance is not a separate schema field. Exact source: https://us.kef.com/products/reference-5-floorstanding-speaker. No measured response or directivity file is claimed/imported."
+  },
+  {
+    "id": "kef-blade-two-meta",
+    "model_check": "Blade Two Meta",
+    "source": "https://us.kef.com/products/blade-two",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": {
+        "value": 86,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "frequencyResponse": {
+        "low_hz": 33,
+        "high_hz": 35000
+      },
+      "woofer": {
+        "value": 6.5,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 6,
+      "active": false,
+      "panel": false
+    },
+    "notes": "KEF official Blade Two Meta product page (exact model Blade Two Meta, not Blade One Meta; three-way bass-reflex Single Apparent Source passive speaker): frequency response 33 Hz–35 kHz (±3 dB); frequency range 30 Hz–45 kHz; sensitivity 86 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 50–400 W (full manufacturer range retained in notes only; scalar power.value remains N/A because this schema cannot represent a range); Uni-Q HF 25 mm dome + MF 125 mm cone and four LF 165 mm (6.5 in) force-cancelling cones; crossover 450 Hz and 2.2 kHz; dimensions 1461 × 338 × 475 mm; weight 35.3 kg. `driverCount` counts two Uni-Q and four LF transducers. Minimum impedance is not a separate schema field. Exact source: https://us.kef.com/products/blade-two. No measured response or directivity file is claimed/imported."
+  }
+]

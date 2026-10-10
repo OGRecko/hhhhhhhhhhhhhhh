@@ -1,0 +1,108 @@
+[
+  {
+    "id": "jbl-prx815w",
+    "model_check": "PRX815W",
+    "sourceType": "MANUFACTURER",
+    "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
+    "fields": {
+      "power": { "value": 1500, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact JBL PRX815W Wi-Fi model documentation (JBL's PRX815 page identifies the Wi-Fi product; its product images and accessories explicitly name PRX815W, while JBL shortens the page/PDF heading to PRX815). The fetched JBL specification sheet identifies the powered 15-inch two-way system, one 15-inch 275G woofer and one compression driver, and a 1500 W (2 x 750 W) integrated Class-D amplifier. The 1500 W entry is amplifier output, not passive speaker power handling. JBL publishes separate Main and Monitor frequency ranges/responses (including ±3 dB limits 58.1 Hz–17.2 kHz Main and 60.7 Hz–16.7 kHz Monitor); because the database has no preset/mode selector, the single frequencyResponse field remains N/A rather than choosing a mode. Input impedances are line-input values and are not entered as speaker-load impedance. No acoustic sensitivity or speaker-load impedance is published. No response-point table or directivity plot is imported. Source: https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf; matching JBL product page: https://jblpro.com/en-US/products/prx815."
+  },
+  {
+    "id": "jbl-srx828sp",
+    "model_check": "SRX828SP",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 120 },
+      "power": { "value": 1500, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact JBL SRX828SP specification sheet. It is a self-powered dual-18-inch subwoofer with two JBL 2279F drivers. JBL specifies 35 Hz–120 Hz frequency response (-3 dB), 29 Hz–150 Hz range (-10 dB), and an integrated amplifier rated 1500 W continuous (750 W x 2) / 2000 W peak; the scalar power field stores the continuous amplifier-output rating only, not speaker handling. Line-input impedance (40 kΩ balanced / 20 kΩ unbalanced) is not speaker-load impedance, and no passive sensitivity is specified. The source includes response tables for multiple user presets/cardioid configurations; those preset tables are not imported as a single response curve. No directivity data are imported. Source: https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet."
+  },
+  {
+    "id": "jbl-jrx225",
+    "model_check": "JRX225",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+    "fields": {
+      "power": { "value": 500, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "sensitivity": { "value": 100, "unit": "dB", "reference": "1W/1m" },
+      "voiceCoil": { "value": 2.5, "unit": "in" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact JBL JRX225 specification sheet (©2013 JBL Professional). It specifies two 15-inch M115-8A LF woofers and one 1-inch-exit 2414H-C compression driver (three drivers total), 2.5-inch edgewound LF voice coils, 4-ohm nominal impedance, and 100 dB SPL sensitivity referenced to 1 W/1 m. Power Capacity is 500 W and Peak Power Capacity is 2000 W, based on JBL's 100-hour random-noise test with 6 dB crest factor; 500 W is stored as the speaker power-capacity value, not the separate 500–1000 W recommended amplifier range. The unit is passive and requires an external amplifier. JBL gives different response limits for 2π and 4π measurement space (±3 dB: 62–13 kHz in 2π, 83–13 kHz in 4π), so the single database frequencyResponse field remains N/A rather than omitting this boundary-condition distinction. No response points or directivity table are imported. Source: https://jblpro.com/en-US/site_elements/jrx225-spec-sheet."
+  },
+  {
+    "id": "jbl-vtx-a12",
+    "model_check": "VTX A12",
+    "sourceType": "MANUFACTURER",
+    "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 46, "high_hz": 19000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 9, "active": false },
+    "notes": "Exact JBL VTX A12 specification sheet (version E). It specifies a passive three-way enclosure with nine transducers: two 12-inch 2264H LF drivers, four 5.5-inch 2165H MF drivers and three 2423K HF drivers. The published range is 46 Hz–19 kHz at -10 dB with the VTX A12 preset; that qualifier is retained here and is not presented as a ±3 dB response. The system uses external Crown amplification and four amplifier channels, so active=false. Input power ratings are split by LF/MF/HF band (2 x 800 W, 400 W and 150 W continuous), and system impedances are likewise band-specific (LF 2 x 8 ohms, MF 8 ohms, HF 8 ohms); neither is collapsed into a single scalar power or impedance. Acoustic sensitivity is not stated as a single 1 W/1 m value. No frequency-response points are imported from the acoustic-measurements table because its response configurations lack a sufficiently explicit measurement/reference context; no beamwidth table is treated as a polar curve. Source: https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf."
+  },
+  {
+    "id": "legacy-focal-8",
+    "model_check": "Aria 906",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 89.5, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Focal ARIA 906 Product Data Sheet. It identifies a passive, two-way bass-reflex bookshelf speaker with one 6.5-inch Flax bass/midrange driver and one 1-inch TNF Al/Mg tweeter; published frequency response is 55 Hz–28 kHz (±3 dB), low-frequency point 47 Hz (-6 dB), sensitivity 89.5 dB (2.83 V/1 m), nominal impedance 8 ohms and minimum impedance 4.6 ohms. Sensitivity reference is retained exactly; the nominal 8-ohm impedance is also source-backed for impedance-dependent conversion. The stated 25–120 W is recommended amplifier power, not speaker power handling, so the database power field remains N/A. No response points are digitized from the source. Source: https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf."
+  },
+  {
+    "id": "focal-chora-806",
+    "model_check": "Chora 806",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 58, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Focal Chora 806 Product Data Sheet. It identifies a passive, two-way bass-reflex bookshelf speaker with one 6.5-inch Slatefiber midbass driver and one 1-inch TNF Al/Mg inverted-dome tweeter; response is 58 Hz–28 kHz (±3 dB), the -6 dB low-frequency point is 49 Hz, sensitivity is 89 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 4.6 ohms. The exact sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 25–120 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized from the product sheet. Source: https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf."
+  },
+  {
+    "id": "focal-kanta-n-2",
+    "model_check": "Kanta N°2",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 40000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Kanta N°2 Product Data Sheet. It identifies a passive, three-way bass-reflex floorstanding loudspeaker with two 6.5-inch Flax woofers, one 6.5-inch Flax midrange driver and one 27 mm IAL3 pure-Beryllium tweeter (four drivers total). Published frequency response is 35 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 29 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.1 ohms. The exact sensitivity reference and nominal impedance are retained for impedance-dependent conversion. Its 40–300 W figure is recommended amplifier power rather than speaker power handling, so power remains N/A. No response points are digitized from the data sheet. Source: https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf."
+  },
+  {
+    "id": "focal-alpha-80-evo",
+    "model_check": "Alpha 80 Evo",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 22000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Focal Alpha 80 Evo Product Sheet (revision v2, 03/09/2025). It specifies an active two-way monitor with one 8-inch Slatefiber woofer and one 1-inch aluminium inverted-dome tweeter, and 38 Hz–22 kHz frequency response (±3 dB). Focal lists separate internal amplifier ratings (80 W medium/low-frequency and 35 W high-frequency); these are not combined into a synthetic single amplifier figure. The listed 10 kΩ values are audio-input impedances, not a passive speaker load, and the adjustable 0/+6 dB control is input sensitivity, not acoustic sensitivity. Accordingly, power and sensitivity remain N/A in the scalar speaker fields, and no nominal speaker impedance is assigned. No response points are digitized from the product sheet. Source: https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf."
+  }
+]

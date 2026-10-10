@@ -1,0 +1,15 @@
+[
+  {
+    "id": "magnepan-mg1.7",
+    "model_check": "MG 1.7",
+    "source": "https://magnepan.com/pages/manual-controller",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m at 500Hz" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 22000 }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": true },
+    "notes": "Magnepan's exact 1.7 instruction manual (revision dated 2011-03-11; the manual identifies the unsuffixed 1.7, not the later 1.7i) calls it a passive 3-way, full-range quasi-ribbon loudspeaker and specifies 40 Hz–22 kHz ±3 dB, nominal 4 ohms, and sensitivity 86 dB at 500 Hz, 1 m, 2.83 V. The 500 Hz measurement condition is retained in the sensitivity reference; it is not re-labelled as broadband 1 W/1 m sensitivity, so the DSP's shared resolver uses its neutral fallback instead of impedance-normalizing this single-frequency datum. The 3-way count is explicit (bass/midrange, tweeter, super-tweeter), and the planar quasi-ribbon construction supports panel=true. The manual recommends at least 120 W RMS per channel into 4 ohms in general setup prose; this is recommended amplifier output, not loudspeaker power handling, and is not assigned to the power field. The manual does not specify driver diameter, voice-coil size or Fs, and publishes no response-point or polar/directivity dataset; those remain unavailable. Source: https://magnepan.com/pages/manual-controller."
+  }
+]

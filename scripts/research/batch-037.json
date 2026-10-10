@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bose-freespace-ds16s",
+    "model_check": "DS 16S",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
+    "fields": {
+      "sensitivity": { "value": 84, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 16, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact-model Bose Professional FreeSpace DS 16S / DS 16SE Technical Data Sheet (official Bose Professional discontinued-product page links this exact-model TDS). The model-specific shared electrical data are 84 dB SPL sensitivity (free field, 1 W/1 m, with recommended active EQ), 16 W long-term power handling (64 W peak), and 8 Ω nominal impedance with the transformer bypassed; one 2.25-inch full-range driver is documented, so driverCount is 1 but the separate woofer field remains N/A. This record is the indoor DS 16S, not the DS 16SE weather-rated sibling. Frequency response is left N/A: this undated TDS states 95 Hz–17 kHz (±3 dB), while Bose's exact DS 16S/16SE Design Guide v1.0 states 90 Hz–16 kHz (±3 dB); the record carries no product revision that resolves the difference. The TDS's fetched on-axis table is sparse and includes a 2 kHz value of 71 dB despite the stated response bandwidth, so its response points are not imported. The TDS and Bose's official product page also link July 2010 CLF/EASE archives, but those archives were not downloaded/inspected and the speaker database does not accept an embedded polar dataset; none is imported. No resonance or voice-coil value is asserted. Sources: TDS https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf; Design Guide https://assets.boseprofessional.com/m/411655f7f5c6ba17/original/dg_freespace_ds16-ds16se_en.pdf; official resource listing https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace."
+  },
+  {
+    "id": "legacy-bose-6",
+    "model_check": "DS 16F",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
+    "fields": {
+      "sensitivity": { "value": 84, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 16, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact-model Bose Professional FreeSpace DS 16F Technical Data Sheet (official Bose Professional discontinued-product page links this exact model). It documents 84 dB SPL sensitivity (free field, 1 W/1 m, with recommended active EQ), 16 W long-term power handling (64 W peak), 8 Ω nominal impedance with the transformer bypassed, and one 2.25-inch full-range driver; driverCount is 1 and the separate woofer field remains N/A. Frequency response is left N/A: this undated TDS states 95 Hz–17 kHz (±3 dB), while Bose's exact DS 16F Design Guide v1.0 states 90 Hz–16 kHz (±3 dB); the record carries no product revision that resolves the difference. The fetched TDS on-axis table is sparse and includes a 2 kHz value of 71.5 dB despite the stated response bandwidth, so its response points are not imported. The TDS and Bose's official product page link July 2010 CLF/EASE archives, but those archives were not downloaded/inspected and the speaker database does not accept an embedded polar dataset; none is imported. No resonance or voice-coil value is asserted. Sources: TDS https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf; Design Guide https://assets.boseprofessional.com/m/66b12f01c1630e1d/original/dg_freespace_ds16f_en.pdf; official resource listing https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace."
+  },
+  {
+    "id": "bose-freespace-ds40se",
+    "model_check": "DS 40SE",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 80, "high_hz": 16000 },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 40, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 1, "active": false },
+    "notes": "Exact-model Bose Professional FreeSpace DS 40SE service manual, 321278-SM Rev. 03 (©2016), corroborated by Bose's exact DS 40SE Design Guide v1.1. The service manual specifies 80 Hz–16 kHz (-3 dB), 87 dB SPL sensitivity at 1 W/1 m, 40 W power handling, 8 Ω nominal with transformer bypass, and one 4.5-inch full-range driver. Accordingly driverCount is 1; the separate woofer field remains N/A because Bose describes the sole transducer as full-range. The guide gives the same response, power, sensitivity and impedance values and 125° × 125° nominal dispersion (coverage context only, not a polar-response dataset). Do not substitute the distinct DS 40SE VA datasheet or its voice-alarm-specific values. No response points, directivity payload, resonance, or voice-coil value is asserted. Sources: service manual https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf; Design Guide https://assets.boseprofessional.com/m/43b9492920d8bb3f/original/dg_freespace_ds40se_en.pdf; distinct DS 40SE VA TDS (not used) https://assets.boseprofessional.com/m/42f5d1936260733f/original/tds_freespace-ds-40se_en.pdf."
+  },
+  {
+    "id": "bose-freespace-ds100se",
+    "model_check": "DS 100SE",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact-model Bose Professional FreeSpace DS 100SE Technical Data Sheet, linked by Bose's official discontinued-product page; the shared electrical/driver facts agree with Bose service manual 294955-SM Rev. 03 (©2020). The TDS reports 85 dB SPL sensitivity (free field, 1 W/1 m, with recommended active EQ), 100 W long-term power handling (400 W peak), 8 Ω nominal impedance with the transformer bypassed, two 2.25-inch Twiddler drivers plus one separate 5.25-inch woofer (driverCount 3), and nominal 180° H × 75° V dispersion. Only the actual 5.25-inch woofer is stored in the woofer field. Frequency response remains N/A: the TDS gives 75 Hz–18 kHz (±3 dB), whereas the exact-model 2020 Rev. 03 service manual lists 55 Hz–16 kHz without a tolerance; the catalog record does not identify a product revision to reconcile them. The TDS's fetched on-axis response table also departs from its own stated ±3 dB band (e.g. 3 kHz is 8 dB below its 1 kHz row), so no response points are imported. Bose links CLF/EASE archives from the exact DS 100SE resource listing, but those archives were not downloaded/inspected and no embedded polar/directivity payload is accepted by the speaker-record audit; none is imported. No resonance or voice-coil value is asserted. Sources: TDS https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf; service manual https://assets.boseprofessional.com/m/66edcd103b49acf3/original/294955-SM_rev3.pdf; official resource listing https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace."
+  }
+]

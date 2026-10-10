@@ -1,0 +1,895 @@
+[
+  {
+    "id": "jbl-everest-dd67000",
+    "model_check": "DD67000",
+    "sourceType": "MANUFACTURER",
+    "source": "https://global.jbl.com/DD67000RW-.html",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 60000
+      },
+      "sensitivity": {
+        "value": 96,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 4,
+      "active": false
+    },
+    "notes": "Exact JBL Project Everest DD67000 manufacturer product page. It gives 45 Hz–60 kHz anechoic response and 29 Hz–60 kHz half-space response; the dataset field stores the anechoic limits and this note preserves the distinct half-space figure because the schema has no condition field. Sensitivity is 96 dB at 2.83 V/1 m; nominal impedance is 8 ohms, with published frequency-specific minima (5 ohms at 80 Hz and 3 ohms at 40 kHz). The raw voltage reference is retained; no conversion is baked into the dataset. Driver count four follows the stated two 15-inch LF transducers, one 4-inch-diaphragm beryllium compression driver, and one 1-inch UHF driver. The manual confirms external amplification; the 500 W recommendation is amplifier guidance, not speaker power handling, so power remains N/A. No response points or directivity payload are imported. Source: https://global.jbl.com/DD67000RW-.html; owner manual: https://global.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw32c5f171/pdfs/JBL-DD67000-and-DD65000-Owners-Manual.pdf."
+  },
+  {
+    "id": "jbl-lsr32",
+    "model_check": "LSR32",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 60,
+        "high_hz": 22000,
+        "points": [
+          {
+            "hz": 20,
+            "db": 70
+          },
+          {
+            "hz": 30,
+            "db": 82
+          },
+          {
+            "hz": 40,
+            "db": 88
+          },
+          {
+            "hz": 50,
+            "db": 91
+          },
+          {
+            "hz": 60,
+            "db": 92
+          },
+          {
+            "hz": 70,
+            "db": 92.5
+          },
+          {
+            "hz": 80,
+            "db": 93
+          },
+          {
+            "hz": 90,
+            "db": 93.5
+          },
+          {
+            "hz": 100,
+            "db": 93.5
+          },
+          {
+            "hz": 200,
+            "db": 93
+          },
+          {
+            "hz": 300,
+            "db": 92.5
+          },
+          {
+            "hz": 400,
+            "db": 92.5
+          },
+          {
+            "hz": 500,
+            "db": 92.5
+          },
+          {
+            "hz": 600,
+            "db": 92.5
+          },
+          {
+            "hz": 700,
+            "db": 92
+          },
+          {
+            "hz": 800,
+            "db": 92
+          },
+          {
+            "hz": 900,
+            "db": 92.5
+          },
+          {
+            "hz": 1000,
+            "db": 93
+          },
+          {
+            "hz": 2000,
+            "db": 92.5
+          },
+          {
+            "hz": 3000,
+            "db": 92.5
+          },
+          {
+            "hz": 4000,
+            "db": 92.5
+          },
+          {
+            "hz": 5000,
+            "db": 92.5
+          },
+          {
+            "hz": 6000,
+            "db": 92.5
+          },
+          {
+            "hz": 7000,
+            "db": 92.5
+          },
+          {
+            "hz": 8000,
+            "db": 92.5
+          },
+          {
+            "hz": 9000,
+            "db": 92.5
+          },
+          {
+            "hz": 10000,
+            "db": 92.5
+          },
+          {
+            "hz": 20000,
+            "db": 92
+          }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation."
+      },
+      "sensitivity": {
+        "value": 93,
+        "unit": "dB",
+        "reference": "2.83V/1m"
+      },
+      "power": {
+        "value": 200,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 4,
+        "unit": "ohm"
+      },
+      "resonantFreq": {
+        "value": 28,
+        "unit": "Hz"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      },
+      "voiceCoil": {
+        "value": 2,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Exact JBL LSR32 specification and measurements in the official LSR Series Owner's Manual. The manual specifies 60 Hz–22 kHz (+1/−1.5 dB), with −3 dB at 54 Hz and −10 dB at 35 Hz; the field records only the stated nominal response band. It lists 93 dB at 2.83 V/1 m (also 90 dB at 1 W/1 m), 4-ohm nominal impedance, 200 W continuous / 800 W peak, 12-inch LF woofer with a 2-inch voice coil, and three transducers. The separate enclosure resonance specification is 28 Hz and is recorded as such, not as a driver free-air resonance. Response points come from the manual's exact-model Amplitude & Phase SPL table. The manual says the measurements are anechoic at 2 m referenced to 1 m and specifies microphone position; the table's drive level is not explicit, so the stored point series is used only after normalization at 1 kHz, not as an absolute sensitivity. No polar payload is imported; nominal coverage is not converted into a radiation pattern. Source: https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual."
+  },
+  {
+    "id": "jbl-vrx932",
+    "model_check": "VRX932LA",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 75,
+        "high_hz": 20000
+      },
+      "sensitivity": {
+        "value": 95,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 800,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 4,
+      "active": false
+    },
+    "notes": "JBL-authored VRX932LA user's guide, exact base LA model (not VRX932LA-1), preserved by ManualsLib. The passive-mode table specifies 75 Hz–20 kHz (±3 dB), 95 dB at 1 W/1 m, 8-ohm nominal impedance, and 800 W continuous / 1600 W program / 3200 W peak power handling; 800 W is the continuous passive-system rating, not the separate LF/HF bi-amp ratings. It lists one 2262H 12-inch LF driver and three 2407J HF drivers (four transducers total). The guide states 57 Hz–20 kHz at −10 dB and nominal 100° × 15° coverage; these are retained here as context only, not used to alter the ±3 dB response field or synthesize a polar pattern. LA and LA-1 are distinct revisions; the guide's LA-1 driver/power specifications have not been transferred. No response-point or directivity dataset is imported. Source: https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4; JBL VRX900 Series guide: https://www.avc-group.com/assets/products/JBL/manuals/jbl-um-vrx900series.pdf."
+  },
+  {
+    "id": "jbl-l16",
+    "model_check": "L16",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://audio-database.com/JBL/speaker/l16decade-e.html",
+    "fields": {
+      "sensitivity": {
+        "value": 88,
+        "unit": "dB",
+        "reference": "New JIS SPL; drive and distance reference not stated"
+      },
+      "power": {
+        "value": 35,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 200,
+        "unit": "mm"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Exact vintage JBL L16 Decade record in Audio Database; this is not the later JBL Authentics L16. The source identifies a two-way/two-speaker, 8-ohm passive system, with a 200 mm LF driver, 2.5 kHz crossover, 35 W continuous-program input rating, and 88 dB New JIS sensitivity. The New JIS result lacks a drive/distance reference that can be normalized to 1 W/1 m, so the raw reference is preserved and the simulator's sensitivity resolver must use its neutral fallback. The source's commentary and table disagree on HF driver diameter; no HF size is entered. No response range, response curve, or polar data is asserted. Source: https://audio-database.com/JBL/speaker/l16decade-e.html; passive/no-power confirmation: https://www.radiomuseum.org/r/lansing_jbl_decade_l16.html."
+  },
+  {
+    "id": "jbl-l19",
+    "model_check": "L19",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf",
+    "fields": {
+      "sensitivity": {
+        "value": 87,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 35,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 200,
+        "unit": "mm"
+      },
+      "voiceCoil": {
+        "value": 50,
+        "unit": "mm"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Exact 1977 JBL L19 brochure. It specifies a two-way/two-driver passive system, 8-ohm impedance, 35 W continuous-program capacity, 87 dB at 1 W/1 m (hemispherical free-field conditions), 200 mm woofer with a 50 mm voice coil, and a 2.5 kHz crossover. Its 120° dispersion figure is stated at 15 kHz and is not a full polar dataset. The brochure does not publish a usable frequency-response range/curve, so frequencyResponse remains N/A; recommended amplifier range is not substituted for speaker handling. Source: https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf."
+  },
+  {
+    "id": "jbl-4412",
+    "model_check": "4412",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/4412-information",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 20000
+      },
+      "sensitivity": {
+        "value": 90,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 150,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      },
+      "voiceCoil": {
+        "value": 3,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Exact JBL Professional 4412 information page. It specifies a three-way, three-transducer passive monitor; 45 Hz–20 kHz ±2 dB response (extended 35 Hz–27 kHz at −6 dB); 90 dB SPL at 1 W/1 m; 8-ohm nominal impedance; 150 W pink-noise power rating; and a 12-inch LF woofer with a 75 mm / 3-inch voice coil. The stated power test uses IEC 268-5 filtered random noise, 12 dB/octave shaping below 40 Hz and above 5 kHz, 6 dB crest factor, for 2 hours. The page's numeric 'Frequency Response (dB-SPL, 1 W at 1 m)' table is not imported as a response curve: its 1 kHz level is about 78.5 dB, inconsistent with the same page's 90 dB sensitivity and ±2 dB response, so the scale/context cannot be safely reconciled. The narrative confirms the LF voice coil is 75 mm (3 in); the specifications table has a conflicting parenthetical '12 in' after 75 mm, which is not copied. The page does publish frequency-dependent beamwidth, DI/Q and off-axis tables; they are tracked separately as a directivity lead and are not misrepresented as a complete polar dataset. Source: https://jblpro.com/en-US/site_elements/4412-information."
+  },
+  {
+    "id": "jbl-4350",
+    "model_check": "4350",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://audio-database.com/JBL/speaker/4350.html",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 30,
+        "high_hz": 20000
+      },
+      "sensitivity": {
+        "value": 86,
+        "unit": "dB",
+        "reference": "1W/10ft"
+      },
+      "woofer": {
+        "value": 380,
+        "unit": "mm"
+      }
+    },
+    "scalars": {
+      "driverCount": 5,
+      "active": false
+    },
+    "notes": "Exact JBL 4350/4350WX system entry in Audio Database; the page gives 30 Hz–20 kHz ±3 dB and 86 dB SPL at 1 W/10 ft, which is retained with its nonstandard distance reference and is not converted to 1 W/1 m. The system is a five-transducer, externally amplified multi-way monitor; its published 15-inch (380 mm) LF drivers are retained in the woofer field. The source gives frequency-dependent ratings/impedances (200 W/4 ohms below 250 Hz and 100 W/8 ohms from 250 Hz upward), so neither a single power-handling value nor a single nominal impedance is entered. It also gives a nonstandard EIA sensitivity reference; no conversion is made. Nominal 60° H × 30° V coverage is not converted to a polar pattern; directivity remains unavailable. No numeric response points are imported from the plotted curve. Source: https://audio-database.com/JBL/speaker/4350.html."
+  },
+  {
+    "id": "jbl-4312",
+    "model_check": "4312",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://audio-database.com/JBL/speaker/4312-e.html",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 15000
+      },
+      "sensitivity": {
+        "value": 91,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 80,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 300,
+        "unit": "mm"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Exact base JBL 4312 (1982) entry in Audio Database, not 4312A/4312B/4312G. It lists a three-way/three-driver passive system, 45 Hz–15 kHz ±3 dB response, 8-ohm impedance, 91 dB at 1 W/1 m, 80 W continuous-program input rating, and a 300 mm woofer. HiFi Engine's base-4312 index lists 200 W without a clear rating role; that figure is not imported or treated as speaker handling. The 80 W continuous-program value is kept with its explicit role. No response points are digitized from the source plot; its nominal 90° dispersion is not a full polar dataset. Source: https://audio-database.com/JBL/speaker/4312-e.html; comparison only: https://www.hifiengine.com/manual_library/jbl/4312.shtml."
+  },
+  {
+    "id": "legacy-jbl-1",
+    "model_check": "D130",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://audio-database.com/JBL/unit/d130.html",
+    "fields": {
+      "sensitivity": {
+        "value": 103,
+        "unit": "dB",
+        "reference": "New JIS SPL at 1 kHz; drive and distance not stated"
+      },
+      "power": {
+        "value": 60,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "woofer": {
+        "value": 380,
+        "unit": "mm"
+      },
+      "voiceCoil": {
+        "value": 102,
+        "unit": "mm"
+      }
+    },
+    "scalars": {
+      "driverCount": 1,
+      "active": false
+    },
+    "notes": "Exact JBL D130 full-range transducer entry in Audio Database. It specifies a 380 mm cone, 102 mm voice coil and 60 W continuous-program capacity. The 103 dB New JIS value is explicitly at 1 kHz but has no usable drive/distance reference, so the raw reference is retained and the sensitivity resolver must use its neutral fallback. The D130 exists in both 8-ohm and 16-ohm variants; this record does not identify which variant, so impedance remains N/A. The source's 90° directionality statement lacks a frequency-resolved polar dataset and is not imported as directivity. Source: https://audio-database.com/JBL/unit/d130.html."
+  },
+  {
+    "id": "jbl-4310",
+    "model_check": "4310",
+    "sourceType": "MANUFACTURER",
+    "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 15000
+      },
+      "sensitivity": {
+        "value": 42,
+        "unit": "dB",
+        "reference": "EIA: 1mW/30ft, averaged 500–2500Hz"
+      },
+      "power": {
+        "value": 50,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Exact JBL Professional Series Model 4310 Control Room Monitor manual, hosted by the Library of Congress. It specifies 45 Hz–15 kHz ±3 dB, 50 W program capacity, 8-ohm impedance, a 12-inch LF driver, and three transducers. Sensitivity is quoted as 42 dB at 30 ft with 1 mW, EIA averaged over 500–2500 Hz; that nonstandard reference is preserved verbatim and must not be normalized or treated as 1 W/1 m. The manual has only partial response-table/graph coverage and no complete exact numeric response-point series, so no curve is imported. Its dispersion/off-axis information is retained as a directivity lead, not encoded as a complete polar. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf."
+  },
+  {
+    "id": "legacy-jbl-3",
+    "model_check": "4310",
+    "sourceType": "MANUFACTURER",
+    "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 15000
+      },
+      "sensitivity": {
+        "value": 42,
+        "unit": "dB",
+        "reference": "EIA: 1mW/30ft, averaged 500–2500Hz"
+      },
+      "power": {
+        "value": 50,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Duplicate legacy record for the exact JBL 4310 Control Room Monitor, synchronized with jbl-4310 using the same exact-model Library of Congress-hosted JBL manual. Specifications, nonstandard EIA sensitivity reference, exclusions and caveats are identical; this entry does not refer to the separate 4311 or 4311A models. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf."
+  },
+  {
+    "id": "jbl-4311",
+    "model_check": "4311",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/4311-information",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 15000,
+        "points": [
+          {
+            "hz": 25,
+            "db": -11.5
+          },
+          {
+            "hz": 31.5,
+            "db": -11.5
+          },
+          {
+            "hz": 40,
+            "db": -7
+          },
+          {
+            "hz": 50,
+            "db": -0.5
+          },
+          {
+            "hz": 63,
+            "db": 3.5
+          },
+          {
+            "hz": 80,
+            "db": 2.5
+          },
+          {
+            "hz": 100,
+            "db": 1
+          },
+          {
+            "hz": 125,
+            "db": 0
+          },
+          {
+            "hz": 160,
+            "db": -0.5
+          },
+          {
+            "hz": 200,
+            "db": -0.5
+          },
+          {
+            "hz": 250,
+            "db": -3
+          },
+          {
+            "hz": 315,
+            "db": -2
+          },
+          {
+            "hz": 400,
+            "db": 0
+          },
+          {
+            "hz": 500,
+            "db": 1.5
+          },
+          {
+            "hz": 630,
+            "db": 1.5
+          },
+          {
+            "hz": 800,
+            "db": 1
+          },
+          {
+            "hz": 1000,
+            "db": 0
+          },
+          {
+            "hz": 1250,
+            "db": -2
+          },
+          {
+            "hz": 1600,
+            "db": 0
+          },
+          {
+            "hz": 2000,
+            "db": 2.5
+          },
+          {
+            "hz": 2500,
+            "db": 2
+          },
+          {
+            "hz": 3150,
+            "db": 2.5
+          },
+          {
+            "hz": 4000,
+            "db": 2.5
+          },
+          {
+            "hz": 5000,
+            "db": 2.5
+          },
+          {
+            "hz": 6300,
+            "db": 5
+          },
+          {
+            "hz": 8000,
+            "db": 1.5
+          },
+          {
+            "hz": 10000,
+            "db": 2.5
+          },
+          {
+            "hz": 12500,
+            "db": 2.5
+          },
+          {
+            "hz": 16000,
+            "db": -5
+          }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://jblpro.com/en-US/site_elements/4311-information",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact JBL 4311 1/3-octave band pink-noise response table; measured at 1 W/1 m. The page states the performance measurements used a flush-mounted speaker in the center of a large flat baffle in an anechoic environment. The source labels the column Response (dB), with 0 dB at 1 kHz. Values transcribed verbatim; blank 20 Hz and 20 kHz rows omitted, with no interpolation or smoothing."
+      },
+      "sensitivity": {
+        "value": 91,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 75,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      },
+      "voiceCoil": {
+        "value": 3,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Exact JBL 4311 manufacturer information page. It specifies a three-way, three-driver passive monitor; 45 Hz–15 kHz ±3 dB; 91 dB at 1 W/1 m; 75 W continuous-program capacity; 8-ohm nominal impedance; a 12-inch woofer with a 3-inch voice coil. The official 1/3-octave pink-noise response table is imported verbatim with its test context and no interpolation. Its frequency-response table reports dB relative to 0 dB at 1 kHz, while some entries do not straightforwardly reconcile with the separate ±3 dB spec; preserve the raw published table rather than altering values. The manufacturer's approximate 22 Hz LF-driver free-air resonance is not entered as an exact system resonance. Published dispersion/off-axis data are kept as a directivity lead, not represented as a full polar dataset. Source: https://jblpro.com/en-US/site_elements/4311-information."
+  },
+  {
+    "id": "legacy-jbl-5",
+    "model_check": "4311",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/4311-information",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 15000,
+        "points": [
+          {
+            "hz": 25,
+            "db": -11.5
+          },
+          {
+            "hz": 31.5,
+            "db": -11.5
+          },
+          {
+            "hz": 40,
+            "db": -7
+          },
+          {
+            "hz": 50,
+            "db": -0.5
+          },
+          {
+            "hz": 63,
+            "db": 3.5
+          },
+          {
+            "hz": 80,
+            "db": 2.5
+          },
+          {
+            "hz": 100,
+            "db": 1
+          },
+          {
+            "hz": 125,
+            "db": 0
+          },
+          {
+            "hz": 160,
+            "db": -0.5
+          },
+          {
+            "hz": 200,
+            "db": -0.5
+          },
+          {
+            "hz": 250,
+            "db": -3
+          },
+          {
+            "hz": 315,
+            "db": -2
+          },
+          {
+            "hz": 400,
+            "db": 0
+          },
+          {
+            "hz": 500,
+            "db": 1.5
+          },
+          {
+            "hz": 630,
+            "db": 1.5
+          },
+          {
+            "hz": 800,
+            "db": 1
+          },
+          {
+            "hz": 1000,
+            "db": 0
+          },
+          {
+            "hz": 1250,
+            "db": -2
+          },
+          {
+            "hz": 1600,
+            "db": 0
+          },
+          {
+            "hz": 2000,
+            "db": 2.5
+          },
+          {
+            "hz": 2500,
+            "db": 2
+          },
+          {
+            "hz": 3150,
+            "db": 2.5
+          },
+          {
+            "hz": 4000,
+            "db": 2.5
+          },
+          {
+            "hz": 5000,
+            "db": 2.5
+          },
+          {
+            "hz": 6300,
+            "db": 5
+          },
+          {
+            "hz": 8000,
+            "db": 1.5
+          },
+          {
+            "hz": 10000,
+            "db": 2.5
+          },
+          {
+            "hz": 12500,
+            "db": 2.5
+          },
+          {
+            "hz": 16000,
+            "db": -5
+          }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://jblpro.com/en-US/site_elements/4311-information",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact JBL 4311 1/3-octave band pink-noise response table; measured at 1 W/1 m. The page states the performance measurements used a flush-mounted speaker in the center of a large flat baffle in an anechoic environment. The source labels the column Response (dB), with 0 dB at 1 kHz. Values transcribed verbatim; blank 20 Hz and 20 kHz rows omitted, with no interpolation or smoothing."
+      },
+      "sensitivity": {
+        "value": 91,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 75,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in"
+      },
+      "voiceCoil": {
+        "value": 3,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 3,
+      "active": false
+    },
+    "notes": "Duplicate legacy record for the exact JBL 4311, synchronized with jbl-4311 from JBL's manufacturer page. The 1/3-octave response points and all scalar specifications/caveats are identical. It is not evidence for 4311A/4311B or the distinct 4310 model. Source: https://jblpro.com/en-US/site_elements/4311-information."
+  },
+  {
+    "id": "jbl-4430",
+    "model_check": "4430",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 35,
+        "high_hz": 16000
+      },
+      "sensitivity": {
+        "value": 93,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 300,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      },
+      "voiceCoil": {
+        "value": 4,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Exact JBL 4430 column of the combined 4430/4435 manufacturer information page; no 4435 data is transferred. The 4430 specifications are 35 Hz–16 kHz ±3 dB, 93 dB at 1 W/1 m, 8-ohm nominal impedance, 300 W continuous-program rating, and a two-way/two-driver system using one 15-inch LF transducer with a 4-inch voice coil and one 2425H compression driver. The source also gives frequency-dependent beamwidth, DI/Q and off-axis response data for 4430; those are documented in a directivity lead but not imported as a complete polar payload. No response points are extracted from the plotted curves. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information."
+  },
+  {
+    "id": "legacy-jbl-6",
+    "model_check": "4430",
+    "sourceType": "MANUFACTURER",
+    "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 35,
+        "high_hz": 16000
+      },
+      "sensitivity": {
+        "value": 93,
+        "unit": "dB",
+        "reference": "1W/1m"
+      },
+      "power": {
+        "value": 300,
+        "unit": "W",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in"
+      },
+      "voiceCoil": {
+        "value": 4,
+        "unit": "in"
+      }
+    },
+    "scalars": {
+      "driverCount": 2,
+      "active": false
+    },
+    "notes": "Duplicate legacy record for the exact JBL 4430, synchronized with jbl-4430 from the 4430-specific column of JBL's combined 4430/4435 page. Values and exclusions are identical; none are borrowed from the 4435. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information."
+  }
+]

@@ -1,0 +1,191 @@
+name: Windows release
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Publish the EXE + manifest to the releases bucket the deployed server reads'
+        type: boolean
+        default: false
+  push:
+    tags: ['v*']
+
+concurrency:
+  group: cavity-windows-release
+  cancel-in-progress: false
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23.3
+          cache: npm
+      - run: npm ci
+
+      # Pre-build quality gate: the EXE is only built from a tree that passes typecheck, tests and audits.
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run audit:final
+      - run: npm run audit:release
+      - run: npm run audit:speaker
+      # Download-button + UI smoke e2e (Electron host, real built server) on the real Windows runner.
+      - run: npm run test:e2e
+
+      # Production release requires Authenticode signing. Missing certificate configuration is a hard failure.
+      - name: Require production signing configuration
+        shell: bash
+        env:
+          CSC_LINK: ${{ secrets.WIN_CSC_LINK }}
+          CSC_KEY_PASSWORD: ${{ secrets.WIN_CSC_KEY_PASSWORD }}
+        run: |
+          test -n "$CSC_LINK" || { echo "WIN_CSC_LINK is required for a production release"; exit 1; }
+          test -n "$CSC_KEY_PASSWORD" || { echo "WIN_CSC_KEY_PASSWORD is required for a production release"; exit 1; }
+
+      - name: Build signed installer + manifest
+        env:
+          CSC_LINK: ${{ secrets.WIN_CSC_LINK }}
+          CSC_KEY_PASSWORD: ${{ secrets.WIN_CSC_KEY_PASSWORD }}
+        run: npm run release:windows
+
+      - name: Release gate (manifest present, MZ header, size + sha256 match)
+        run: npm run release:verify
+
+      - name: Verify installer version matches package + manifest
+        shell: pwsh
+        run: |
+          $pkg = (Get-Content package.json -Raw | ConvertFrom-Json).version
+          $manifest = Get-Content releases\manifest.json -Raw | ConvertFrom-Json
+          $exe = Get-ChildItem releases\*.exe | Select-Object -First 1
+          if ($manifest.version -ne $pkg) { throw "Manifest version $($manifest.version) != package version $pkg" }
+          if ($manifest.file -ne $exe.Name) { throw "Manifest file $($manifest.file) != built file $($exe.Name)" }
+          if ($manifest.file -notmatch "v$([regex]::Escape($pkg))\.exe$") { throw "Installer filename does not contain package version $pkg" }
+          $pv = $exe.VersionInfo.ProductVersion
+          if ($pv -and ($pv -notmatch [regex]::Escape($pkg))) { throw "Installer ProductVersion $pv != package version $pkg" }
+          $sha = (Get-FileHash $exe.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          if ($sha -ne $manifest.sha256) { throw "Installer SHA256 differs from manifest" }
+          Write-Host "Version consistency PASS: package=$pkg installer=$pv manifest=$($manifest.version) sha256=$sha"
+
+      - name: Report signature status
+        shell: pwsh
+        run: |
+          $exe = Get-ChildItem releases\*.exe | Select-Object -First 1
+          $sig = Get-AuthenticodeSignature $exe.FullName
+          "Authenticode status: $($sig.Status) / signer: $($sig.SignerCertificate.Subject)" | Tee-Object -FilePath signature-status.txt
+          if ($sig.Status -ne 'Valid') { throw "Production installer is not Authenticode-valid: $($sig.Status)" }
+
+      - name: Silent install
+        shell: pwsh
+        run: |
+          $exe = (Get-ChildItem releases\*.exe | Select-Object -First 1).FullName
+          $p = Start-Process -FilePath $exe -ArgumentList '/S','/D=C:\CavityTest' -Wait -PassThru
+          if ($p.ExitCode -ne 0) { throw "Installer exit code $($p.ExitCode)" }
+          if (-not (Test-Path 'C:\CavityTest\Cavity Audio.exe')) { throw 'Cavity Audio.exe was not installed' }
+          if (-not (Test-Path 'C:\CavityTest\resources\app\dist\server.cjs')) { throw 'dist/server.cjs missing from install' }
+          if (-not (Test-Path 'C:\CavityTest\resources\app\dist\solverWorker.cjs')) { throw 'dist/solverWorker.cjs missing from install' }
+          if (-not (Test-Path 'C:\CavityTest\resources\app\node_modules\express')) { throw 'node_modules/express missing from install' }
+          Get-ChildItem C:\CavityTest | Select-Object -First 30 | Format-Table Name, Length
+
+      # Real launch of the installed app: window opens, server on 127.0.0.1, /app renders, a solver job runs.
+      - name: Launch installed app (smoke run 1)
+        shell: pwsh
+        run: |
+          $out = Join-Path $env:RUNNER_TEMP 'smoke1.json'
+          $p = Start-Process -FilePath 'C:\CavityTest\Cavity Audio.exe' -ArgumentList '--smoke-test',"--smoke-out=$out" -PassThru
+          if (-not $p.WaitForExit(180000)) { $p.Kill(); throw 'Smoke run 1 timed out' }
+          Get-Content $out
+          if ($p.ExitCode -ne 0) { throw "Smoke run 1 failed (exit $($p.ExitCode))" }
+
+      - name: Relaunch installed app (smoke run 2 - jobs persisted across restart)
+        shell: pwsh
+        run: |
+          $out = Join-Path $env:RUNNER_TEMP 'smoke2.json'
+          $p = Start-Process -FilePath 'C:\CavityTest\Cavity Audio.exe' -ArgumentList '--smoke-test',"--smoke-out=$out" -PassThru
+          if (-not $p.WaitForExit(180000)) { $p.Kill(); throw 'Smoke run 2 timed out' }
+          Get-Content $out
+          if ($p.ExitCode -ne 0) { throw "Smoke run 2 failed (exit $($p.ExitCode))" }
+          if ((Get-Content $out -Raw) -notmatch 'job from previous launch persisted') { throw 'Run 2 did not confirm persistence' }
+
+      # UI-level checks against the INSTALLED app (viewport/WebGL, speaker library + Sound Tester, relaunch).
+      - name: Installed-app UI tests (3D view, speaker selection, Sound Tester)
+        shell: pwsh
+        env:
+          INSTALLED_EXE: C:\CavityTest\Cavity Audio.exe
+        run: npx playwright test tests/e2e/installed-app.spec.ts --reporter=list
+
+      - name: Production dependency audit
+        run: npm audit --omit=dev --audit-level=high
+
+      - name: Silent uninstall
+        shell: pwsh
+        run: |
+          $u = 'C:\CavityTest\Uninstall Cavity Audio.exe'
+          if (-not (Test-Path $u)) { throw 'Uninstaller not found' }
+          $p = Start-Process -FilePath $u -ArgumentList '/S','_?=C:\CavityTest' -Wait -PassThru
+          if ($p.ExitCode -ne 0) { throw "Uninstaller exit code $($p.ExitCode)" }
+
+      - name: Collect desktop logs
+        if: always()
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force desktop-logs | Out-Null
+          Get-ChildItem "$env:APPDATA\Cavity Audio","$env:APPDATA\cavity" -Filter *.log -Recurse -ErrorAction SilentlyContinue | Copy-Item -Destination desktop-logs
+          Copy-Item "$env:RUNNER_TEMP\smoke*.json" desktop-logs -ErrorAction SilentlyContinue
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: windows-release
+          path: |
+            releases/
+            signature-status.txt
+            desktop-logs/
+          if-no-files-found: warn
+          retention-days: 30
+
+  publish:
+    # Copies the verified EXE + manifest to the bucket that Cloud Run mounts at RELEASES_DIR.
+    needs: build-windows
+    if: ${{ startsWith(github.ref, 'refs/tags/v') || inputs.publish }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23.3
+      - uses: actions/download-artifact@v4
+        with:
+          name: windows-release
+          path: dl
+      - name: Re-verify the transferred release
+        run: node scripts/verify-release.mjs dl/releases
+      - name: Validate publish configuration
+        env:
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+          APP_URL: ${{ secrets.APP_URL }}
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        run: |
+          test -n "$RELEASES_BUCKET" || { echo "RELEASES_BUCKET secret is required to publish"; exit 1; }
+          test -n "$APP_URL" || { echo "APP_URL secret is required to verify the deployed button"; exit 1; }
+          test -n "$GCP_SERVICE_ACCOUNT_KEY" || { echo "GCP_SERVICE_ACCOUNT_KEY secret is required to publish"; exit 1; }
+          node -e 'const x=JSON.parse(process.env.GCP_SERVICE_ACCOUNT_KEY); if (!x.project_id || !x.client_email || !x.private_key) throw new Error("GCP_SERVICE_ACCOUNT_KEY must contain project_id, client_email and private_key")'
+      - uses: google-github-actions/auth@v2
+        with:
+          credentials_json: '${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}'
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Upload EXE first, manifest last
+        env:
+          RELEASES_BUCKET: ${{ secrets.RELEASES_BUCKET }}
+        run: |
+          # Order matters: the server only advertises a release once manifest.json points at an EXE whose size matches.
+          gcloud storage cp dl/releases/*.exe dl/releases/*.sha256 "gs://${RELEASES_BUCKET}/"
+          gcloud storage cp dl/releases/manifest.json "gs://${RELEASES_BUCKET}/manifest.json" --cache-control="no-store"
+      - name: Verify the deployed button turns on
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+        run: node scripts/verify-deployed-release.mjs "$APP_URL" dl/releases/manifest.json

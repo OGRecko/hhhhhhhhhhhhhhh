@@ -1,0 +1,118 @@
+[
+  {
+    "id": "legacy-pio-1",
+    "model_check": "Pioneer CS-99A (not CS-99 or CS-99AA)",
+    "source": "https://www.hifiengine.com/manual_library/pioneer/cs-99a.shtml",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 25, "high_hz": 22000 },
+      "sensitivity": { "value": 97, "unit": "dB", "reference": "Reference method/distance not stated" },
+      "power": { "value": 100, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 380, "unit": "mm" }
+    },
+    "scalars": { "year": null, "driverCount": 6, "active": null },
+    "fieldSources": {
+      "frequencyResponse_sensitivity_power_impedance_woofer_driverCount": "https://www.hifiengine.com/manual_library/pioneer/cs-99a.shtml"
+    },
+    "notes": "The exact-model HiFi Engine page labels CS-99A a 5-way, 6-driver system, gives 25 Hz–22 kHz, 8 ohms, 97 dB, and a 380 mm woofer, and explicitly says it accepts up to 100 W maximum input. The source's sensitivity method/distance is unstated, so the numeric source claim is retained with an explicit unknown reference and the simulator uses its neutral sensitivity fallback. The archive gives a 1971–80 production span rather than a single introduction year, so year remains N/A. No resonance, voice-coil size, measured response curve, or directivity is imported."
+  },
+  {
+    "id": "legacy-pio-2",
+    "model_check": "Pioneer HPM-100 (1976 model; not HPM-110/HPM-1000)",
+    "source": "https://www.hifiengine.com/manual_library/pioneer/hpm-100.shtml",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 30, "high_hz": 25000 },
+      "sensitivity": { "value": 92.5, "unit": "dB", "reference": "Reference method/distance not stated" },
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 300, "unit": "mm" }
+    },
+    "scalars": { "year": 1976, "driverCount": 4, "active": null },
+    "fieldSources": {
+      "year_driverCount_frequencyResponse_sensitivity_power_impedance_woofer": "https://www.hifiengine.com/manual_library/pioneer/hpm-100.shtml"
+    },
+    "notes": "The exact HPM-100 page identifies a 1976 four-way, four-driver bass-reflex speaker, a 300 mm woofer, 30 Hz–25 kHz response, 8 ohms, 92.5 dB sensitivity, and a specifications-table rating of 50 W Power Handling. The page's prose separately calls it a '100 watt' system without defining that figure's role; only the explicitly labelled 50 W table value is stored, and the 100 W wording is not treated as a second/peak input rating. The sensitivity method/distance is not specified, so it is not normalized and the DSP uses its neutral fallback. Response tolerance, active status, resonance, voice-coil size, response curve, and directivity remain unavailable."
+  },
+  {
+    "id": "legacy-pio-3",
+    "model_check": "Pioneer CS-88A (exact A-suffix model)",
+    "source": "https://www.hifiengine.com/manual_library/pioneer/cs-88a.shtml",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 25, "high_hz": 20000 },
+      "power": { "value": 80, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "year": 1971, "driverCount": 6, "active": null },
+    "fieldSources": {
+      "year_driverCount_frequencyResponse_power_impedance_woofer": "https://www.hifiengine.com/manual_library/pioneer/cs-88a.shtml"
+    },
+    "notes": "The exact-model page identifies the CS-88A as a 1971, four-way, six-driver system and specifies a 12-inch woofer, 25 Hz–20 kHz frequency response, 8 ohms, and 80 W Power Handling. The source does not publish sensitivity, resonance, or voice-coil size. Response tolerance and powered/passive status are not explicitly documented in the fetched spec table; no response curve or directivity is imported."
+  },
+  {
+    "id": "legacy-pio-4",
+    "model_check": "Pioneer S-1EX (the catalog's 'Elite S-1EX' label; not S-2EX or S-7EX)",
+    "source": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "frequencyResponse": { "low_hz": 28, "high_hz": 100000 },
+      "sensitivity": { "value": 88.5, "unit": "dB", "reference": "2.83V/m" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 180, "unit": "mm" },
+      "voiceCoil": { "value": 2.5, "unit": "in" }
+    },
+    "scalars": { "year": null, "driverCount": 4, "active": false },
+    "fieldSources": {
+      "driverCount_frequencyResponse_sensitivity_impedance": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",
+      "woofer_voiceCoil": "https://www.stereophile.com/content/pioneer-s-1ex-loudspeaker-specifications",
+      "active": "https://www.hifi-guide.com/loudspeaker/pioneer-s-1ex/"
+    },
+    "secondarySources": [
+      "https://www.stereophile.com/content/pioneer-s-1ex-loudspeaker-specifications",
+      "https://www.hifi-guide.com/loudspeaker/pioneer-s-1ex/"
+    ],
+    "notes": "Sound & Vision identifies the exact S-1EX as a three-way, four-driver system and publishes 28 Hz–100 kHz, 88.5 dB/2.83V/m, and 6 ohms. The sensitivity reference is retained in the source's literal form; no 2.83V-to-1W normalization or 1 m distance is inferred, so the DSP uses its neutral fallback. Stereophile's exact-model specification lists two 180 mm woofers and 2.5-inch voice coils; the single voiceCoil field is explicitly scoped to the woofer in this note. HiFi-Guide labels the exact model passive. The two reviews list 'Maximum power: 200 W' without an explicit input/continuous/peak role, so power remains N/A. No exact launch year, response curve, or directivity is imported."
+  },
+  {
+    "id": "legacy-pio-5",
+    "model_check": "Pioneer SP-BS22-LR Andrew Jones-designed 2012 re-engineered bookshelf model",
+    "source": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 20000 },
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V; measurement distance not stated" },
+      "power": { "value": 80, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "year": 2012, "driverCount": 2, "active": false },
+    "fieldSources": {
+      "year_driverCount_frequencyResponse_sensitivity_power_impedance_woofer": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
+      "active": "https://www.manualslib.com/manual/2391450/Pioneer-Sp-Fs52.html?page=2#manual"
+    },
+    "secondarySources": ["https://www.hifi-guide.com/loudspeaker/pioneer-sp-bs22-lr/"],
+    "notes": "The fetched Pioneer-authored brochure identifies the exact SP-BS22-LR, says it was re-engineered for 2012, and specifies a two-way 4-inch woofer/1-inch tweeter, 55 Hz–20 kHz range, 6 ohms, 85 dB at 2.83 V, and 80 W maximum input. The source does not state the sensitivity measurement distance; its literal voltage reference is retained and the DSP uses its neutral fallback rather than normalizing through impedance. The Pioneer operating guide names SP-BS22-LR and instructs connection from a receiver's speaker output to the speaker input terminals, supporting passive status. The published response tolerance is unspecified; no curve or directivity is imported."
+  },
+  {
+    "id": "legacy-pio-6",
+    "model_check": "Pioneer SP-FS52 Andrew Jones-designed floorstanding model re-engineered for 2012",
+    "source": "https://www.bhphotovideo.com/lit_files/258913.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 20000 },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V; measurement distance not stated" },
+      "power": { "value": 130, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "year": 2012, "driverCount": 4, "active": false },
+    "fieldSources": {
+      "year_driverCount_frequencyResponse_sensitivity_power_impedance_woofer": "https://www.bhphotovideo.com/lit_files/258913.pdf",
+      "active": "https://www.manualslib.com/manual/2391450/Pioneer-Sp-Fs52.html?page=2#manual"
+    },
+    "notes": "The fetched Pioneer-authored SP-FS52 sheet says re-engineered for 2012 and specifies a 3-way floorstander with two 5-1/4-inch woofer units, a 5-1/4-inch midrange, and a 1-inch tweeter (four transducers total), 40 Hz–20 kHz, 6 ohms, 87 dB at 2.83 V, and 130 W maximum input. The feature text colloquially calls the three large cones woofers, while the detailed table separates two woofer units from one same-size midrange; the woofer field records the explicit 5-1/4-inch woofer size. Sensitivity distance is not stated, so no impedance-based conversion is made and the DSP uses its neutral fallback. The Pioneer operating guide connects this exact model to an external receiver, supporting passive status. Response tolerance is unspecified; no response curve or directivity is imported."
+  }
+]

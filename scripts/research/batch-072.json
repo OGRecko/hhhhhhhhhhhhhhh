@@ -1,0 +1,27 @@
+[
+  {
+    "id": "legacy-gen-1",
+    "model_check": "S30",
+    "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 42, "high_hz": 25000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact Genelec S30 source: the S30 datasheet (https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf) identifies an S30 three-way monitor with one 8-inch bass driver, one 3.5-inch (80 mm) midrange driver, and one 9 x 65 mm ribbon tweeter. Its system specification gives free-field -3 dB cutoff bounds of ≤42 Hz and ≥25 kHz and a ±3 dB response tolerance; the official archive page's narrower ±2 dB band (43 Hz–20 kHz) is separately retained in this note, not substituted for the stored limits (https://www.genelec.com/previous-models/s30-s30nf). The exact S30 page describes three integrated amplifiers and an active crossover; the operating manual independently describes the S30 as an active three-way system (https://assets.ctfassets.net/4zjnzn055a4v/2efTH8FlgMSuwccswIqccY/5fcdec0f68300de11cf1d1757472a99b/S30_opman.pdf). Amplifier power remains N/A: the datasheet text gives 65/65/50 W peak and 50/23/3 W continuous, while Genelec's separate system-specification table gives 66/66/50 W transient and different continuous channel figures (https://assets.ctfassets.net/4zjnzn055a4v/29zPte3gXK2qyYYqgScQCm/f177f58c7f607e9474e4f09a0bc337a4/S30_sysspecs.pdf); the scalar power field cannot preserve those conflicting rating bases without conflation. The manual's -20 dBu input-to-87 dB SPL statement is not passive sensitivity, and the 10 kΩ balanced XLR value is input impedance, not speaker impedance. Resonant frequency and voice-coil size are not published. No response-point curve or polar/directivity table is imported; retain the exact published response limits only."
+  },
+  {
+    "id": "legacy-gen-8",
+    "model_check": "4430",
+    "source": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 23000 },
+      "power": { "value": 100, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Genelec 4430 source: the manufacturer's 18 November 2019 launch announcement names the model 4430 (without an A suffix), calls it a two-way active installation loudspeaker, and specifies 45 Hz–23 kHz at -6 dB, a 5-inch woofer, a 3/4-inch metal-dome tweeter, and two integral 50 W Class D amplifier stages (https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1). The 100 W stored value is only the sum of those two internal amplifier outputs, not passive-speaker power handling. Sensitivity and passive impedance remain N/A; the press release's powered/PoE design and balanced-line compatibility do not provide those values. Resonant frequency and voice-coil size are not stated. No response-point or polar/directivity table is published in the cited launch announcement, so none is imported. Genelec's separately named 4430A product page publishes a different upper -6 dB limit (39 kHz); that revision-specific 4430A figure is not transferred to this unqualified 4430 record (https://www.genelec.com/4430a)."
+  }
+]

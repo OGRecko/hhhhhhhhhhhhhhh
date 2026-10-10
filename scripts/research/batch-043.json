@@ -1,0 +1,71 @@
+[
+  {
+    "id": "focal-aria-926",
+    "model_check": "Aria 926",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 91.5, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Aria 926 Product Data Sheet. It specifies a passive three-way bass-reflex floorstander with two 6.5-inch Flax bass drivers, one 6.5-inch Flax midrange driver and one 1-inch TNF Al/Mg tweeter (four drivers total). Published response is 45 Hz–28 kHz (±3 dB), the -6 dB low-frequency point is 37 Hz, sensitivity is 91.5 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 2.9 ohms. Sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–250 W value is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf."
+  },
+  {
+    "id": "focal-aria-936",
+    "model_check": "Aria 936",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/aria-936/fp_aria_936_gb.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 39, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 92, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 5, "active": false },
+    "notes": "Exact Focal Aria 936 Product Data Sheet. It specifies a passive three-way bass-reflex floorstander with three 6.5-inch Flax bass drivers, one 6.5-inch Flax midrange driver and one 1-inch TNF Al/Mg tweeter (five drivers total). Response is 39 Hz–28 kHz (±3 dB), the -6 dB low-frequency point is 32 Hz, sensitivity is 92 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 2.8 ohms. Sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–300 W value is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/aria-936/fp_aria_936_gb.pdf."
+  },
+  {
+    "id": "focal-aria-948",
+    "model_check": "Aria 948",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/aria-948/fp_aria_948_gb.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 37, "high_hz": 28000 },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 92.5, "unit": "dB", "reference": "2.83V/1m" },
+      "woofer": { "value": 8.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact Focal Aria 948 Product Data Sheet. It specifies a passive three-way bass-reflex floorstander with two 8¼-inch (21 cm) Flax bass drivers, one 6.5-inch Flax midrange driver and one 1-inch TNF Al/Mg tweeter (four drivers total). Response is 37 Hz–28 kHz (±3 dB), the -6 dB low-frequency point is 31 Hz, sensitivity is 92.5 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 2.5 ohms. Sensitivity reference and nominal impedance are retained for impedance-dependent conversion. The 40–350 W value is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/aria-948/fp_aria_948_gb.pdf."
+  },
+  {
+    "id": "focal-sub-one",
+    "model_check": "Sub One",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 32, "high_hz": 120 },
+      "power": { "value": 200, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact Focal Sub One Product Sheet. Sub One is an active monitoring subwoofer with two 8-inch (20 cm) Slatefiber drivers and two internal Class-D amplifier channels rated 100 W RMS each (manufacturer-stated total 200 W RMS). Published frequency response is 32–120 Hz (±3 dB). The power value is integrated amplifier output, not passive speaker power handling. The 110 kΩ balanced XLR input specification is line-input impedance, not a speaker-load impedance; the adjustable subwoofer level is a control, not acoustic sensitivity. No single passive impedance or 1 W/1 m sensitivity is assigned. No response points are digitized. Source: https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf."
+  },
+  {
+    "id": "focal-sub6",
+    "model_check": "Sub6",
+    "sourceType": "MANUFACTURER",
+    "source": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 30, "high_hz": 250 },
+      "power": { "value": 350, "unit": "W", "role": "amplifier_output" },
+      "voiceCoil": { "value": 2.625, "unit": "in" },
+      "woofer": { "value": 11, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Exact Focal Sub6 professional monitoring subwoofer sheet. It specifies an active subwoofer with one nominal 11-inch (27 cm; technical drawing lists 10⅝-inch) W-cone driver, a 2⅝-inch (66 mm) diameter voice coil and a built-in 350 W RMS BASH amplifier. The published frequency-response range is 30–250 Hz; the source does not state a response tolerance, so no ±dB tolerance is implied. The power field records amplifier output, not passive speaker handling. Its 10 kΩ electronically balanced input impedance and adjustable input sensitivity are not passive speaker impedance or acoustic sensitivity; both remain N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf."
+  }
+]

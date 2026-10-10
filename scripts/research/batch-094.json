@@ -1,0 +1,91 @@
+[
+  {
+    "id": "rockford-fosgate-p3",
+    "model_check": "P3D4-12",
+    "source": "https://rockfordfosgate.com/products/details/p3d4-12/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 600, "unit": "W", "role": "speaker_power_handling" },
+      "resonantFreq": { "value": 27.7, "unit": "Hz" },
+      "voiceCoil": { "value": 2.5, "unit": "in" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1 },
+    "notes": "Exact Rockford Fosgate P3D4-12 single 12-inch Punch subwoofer driver. Its official page specifies one 12-inch subwoofer, 85 dB SPL at 1 W/1 m, 600 W RMS power handling (1200 W maximum), 2.5-inch voice-coil diameter, and Fs=27.7 Hz. The manufacturer specifies dual 4-ohm voice coils; because the effective system load depends on wiring, the scalar impedance field remains N/A rather than treating one coil or one wiring option as the single nominal load. Fs is retained as resonant frequency, not misrepresented as a response cutoff. No standardized response limits, response curve, or directivity data are published/imported. Source: https://rockfordfosgate.com/products/details/p3d4-12/."
+  },
+  {
+    "id": "rockford-fosgate-r165x3",
+    "model_check": "R165X3",
+    "source": "https://rockfordfosgate.com/products/details/r165x3/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 45, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 52, "high_hz": 20000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3 },
+    "notes": "Exact Rockford Fosgate R165X3 Prime 6.50-inch three-way coaxial full-range speaker. The manufacturer lists 91 dB sensitivity at 1 W/1 m, 45 W RMS power handling (90 W maximum), 4-ohm nominal impedance, a 6.5-inch nominal midrange/woofer, and 52 Hz–20 kHz frequency response. The product is sold as a pair; driverCount=3 is per speaker, not per pair. The response table states no tolerance or measurement conditions, so these are retained as published limits only—not a measured response curve. No response points or directivity dataset are imported. Source: https://rockfordfosgate.com/products/details/r165x3/."
+  },
+  {
+    "id": "rockford-fosgate-r1675x2",
+    "model_check": "R1675X2",
+    "source": "https://rockfordfosgate.com/products/details/r1675x2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 91, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 45, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 52, "high_hz": 20000 },
+      "woofer": { "value": 6.75, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Rockford Fosgate R1675X2 Prime 6.75-inch two-way coaxial full-range speaker. The manufacturer lists 91 dB sensitivity at 1 W/1 m, 45 W RMS power handling (90 W maximum), 4-ohm nominal impedance, a 6.75-inch nominal midrange/woofer, and 52 Hz–20 kHz frequency response. The product is sold as a pair; driverCount=2 is per speaker, not per pair. The response table states no tolerance or measurement conditions, so these are retained as published limits only—not a measured response curve. No response points or directivity dataset are imported. Source: https://rockfordfosgate.com/products/details/r1675x2/."
+  },
+  {
+    "id": "rockford-fosgate-t1650",
+    "model_check": "T1650",
+    "source": "https://rockfordfosgate.com/products/details/t1650/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 75, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 44, "high_hz": 20000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Rockford Fosgate T1650 Power 6.5-inch two-way coaxial full-range speaker. The manufacturer lists 88 dB sensitivity at 1 W/1 m, 75 W RMS power handling (150 W maximum), 4-ohm nominal impedance, 6.5-inch midrange size, and 44 Hz–20 kHz frequency response. The product is sold as a pair; driverCount=2 is per speaker, not per pair. The response table states no tolerance or measurement conditions, so these are retained as published limits only—not a measured response curve. No response points or directivity dataset are imported. Source: https://rockfordfosgate.com/products/details/t1650/."
+  },
+  {
+    "id": "rockford-fosgate-t1650-s",
+    "model_check": "T1650-S",
+    "source": "https://rockfordfosgate.com/products/details/t1650-s/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 80, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 47, "high_hz": 20000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Rockford Fosgate T1650-S Power 6.50-inch two-way component speaker system with separate tweeter and crossover; this is distinct from the coaxial T1650 model. The manufacturer lists 88 dB sensitivity at 1 W/1 m, 80 W RMS power handling (160 W maximum), 4-ohm nominal impedance, a 6.5-inch midrange, and 47 Hz–20 kHz frequency response. The kit is sold as a pair; driverCount=2 is per speaker (one midrange/woofer plus one tweeter), not the four transducers across both channels. The response table states no tolerance or measurement conditions, so these are retained as published limits only—not a measured response curve. No response points or directivity dataset are imported. Source: https://rockfordfosgate.com/products/details/t1650-s/."
+  },
+  {
+    "id": "pioneer-ts-z65f",
+    "model_check": "TS-Z65F",
+    "source": "https://pioneer-car.eu/ts-z65f/ts-z65f",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 110, "unit": "W", "role": "allowable_input" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 32, "high_hz": 96000 },
+      "woofer": { "value": 17, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact Pioneer TS-Z65F Z-Series 17 cm two-way coaxial speaker page. It lists 110 W nominal input power (330 W maximum), 4 Ω impedance, 32 Hz–96 kHz frequency response, and 17 cm diameter; the manufacturer also lists sensitivity as 85 dB but gives no measurement reference, so the sensitivity field remains N/A. The nominal input rating is preserved as allowable_input; the 330 W maximum is not substituted as continuous power handling. The page states no response tolerance/test conditions, so the frequency limits are not treated as a measured curve. No response-point table or directivity data is imported. Source: https://pioneer-car.eu/ts-z65f/ts-z65f."
+  }
+]

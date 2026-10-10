@@ -1,0 +1,7 @@
+{
+  "name": "Cavity",
+  "description": "Design rooms, place speakers and receivers, and simulate real-world room acoustics (RT60, C50/C80, STI) in your browser.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

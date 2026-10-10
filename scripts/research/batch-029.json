@@ -1,0 +1,106 @@
+[
+  {
+    "id": "klipsch-awr650sm",
+    "model_check": "AWR-650-SM",
+    "source": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 94, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 66, "high_hz": 20000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact Klipsch AWR-650-SM manufacturer spec sheet (built from 2007). It lists 66 Hz–20 kHz ±3 dB, 94 dB at 2.83 V/1 m, 50 W continuous / 200 W peak handling, and 8-ohm-compatible nominal impedance. The two-way design contains one 6.5-inch dual-voice-coil woofer and two 0.75-inch tweeters: three physical transducers, not four channels. The 100 W / 200 W peak recommended-amplifier figures are not stored as speaker power. Source: https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf."
+  },
+  {
+    "id": "klipsch-rp-500m",
+    "model_check": "RP-500M",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 93, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 75, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 48, "high_hz": 25000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact original RP-500M manufacturer spec sheet (v01, built from 2018); this is not the RP-500M II record. It specifies 48 Hz–25 kHz ±3 dB, 93 dB at 2.83 V/1 m, 75 W continuous / 300 W peak handling, 8-ohm-compatible nominal impedance, one 5.25-inch LF woofer and one HF tweeter. Continuous handling is stored; peak remains context. Source: https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf."
+  },
+  {
+    "id": "klipsch-rp-600m",
+    "model_check": "RP-600M",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 96, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 45, "high_hz": 25000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact original RP-600M manufacturer spec sheet (v01, built from 2018); this is not the RP-600M II record. It specifies 45 Hz–25 kHz ±3 dB, 96 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance, one 6.5-inch LF woofer and one HF tweeter. Continuous handling is stored; peak remains context. Source: https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf."
+  },
+  {
+    "id": "legacy-klip-6",
+    "model_check": "RF-7 III",
+    "source": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 100, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 250, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 32, "high_hz": 25000 },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact Klipsch RF-7 III manufacturer spec sheet. It specifies 32 Hz–25 kHz ±3 dB, 100 dB at 2.83 V/1 m with a footnote 'Sensitivity in average listening room', 8-ohm-compatible nominal impedance, and two 10-inch LF woofers plus one 1.75-inch HF compression driver. The sheet lists power handling as 250 W / 1000 W peak; 250 W is retained as the stated handling figure without adding an unsupported continuous label, and 1000 W peak is context. This is RF-7 III, not RP-8000F or another RF revision. Source: https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf."
+  },
+  {
+    "id": "klipsch-cdt5650c",
+    "model_check": "CDT-5650-C II",
+    "source": "https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/CDT-5650-C-II-Spec-Sheet-v02_2024-07-09-213225_uzir.pdf?v=1720560745",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 94, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 63, "high_hz": 23000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact CDT-5650-C II Klipsch manufacturer specification sheet, linked from its exact product page https://www.klipsch.com/products/cdt-5650-c-ii. The PDF title and technical table identify CDT-5650-C II and specify 63 Hz–23 kHz ±3 dB, 94 dB at 2.83 V/1 m, 8-ohm-compatible nominal impedance, 50 W RMS / 200 W peak handling, a 6.5-inch LF woofer and 1-inch HF compression driver. The overview paragraph incorrectly names CDT-5800-C II despite the CDT-5650-C II title/table; only the CDT-5650-C II technical table was used, and the exact Klipsch product page independently identifies the model's 6.5-inch woofer. The separate 100 W recommended-amplifier value is not stored as speaker power. Source: https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/CDT-5650-C-II-Spec-Sheet-v02_2024-07-09-213225_uzir.pdf?v=1720560745."
+  },
+  {
+    "id": "klipsch-cdt-5800-c-ii",
+    "model_check": "CDT-5800-C II",
+    "source": "https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/CDT-5800-C_II_-_Spec_Sheet_-_v01_635125110119760000.pdf?v=1720561036",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 95, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 49, "high_hz": 23000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact Klipsch CDT-5800-C II manufacturer specification sheet linked from https://www.klipsch.com/products/cdt-5800-c-ii. It specifies 49 Hz–23 kHz ±3 dB, 95 dB at 2.83 V/1 m, 8-ohm-compatible nominal impedance, 50 W RMS / 200 W peak handling, one 8-inch LF woofer and one 1-inch HF compression driver. The sheet separately recommends a 100 W amplifier; that recommendation is not stored as speaker handling. The source describes independently aimable drivers but provides no numeric directivity dataset. Source: https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/CDT-5800-C_II_-_Spec_Sheet_-_v01_635125110119760000.pdf?v=1720561036."
+  },
+  {
+    "id": "klipsch-kg4",
+    "model_check": "KG 4.5",
+    "source": "https://www.hifi-guide.com/loudspeaker/klipsch-kg-4-5/",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 95, "unit": "dB", "reference": "unspecified by source" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 36, "high_hz": 20000 }
+    },
+    "scalars": { "active": false },
+    "notes": "The cited independent HiFi Guide database page is explicitly for Klipsch KG 4.5 and lists passive type, 8-ohm nominal impedance, 36 Hz–20 kHz (−3 dB), 95 dB sensitivity, and 100 W power handling (500 W peak). The database does not state the sensitivity measurement reference, so the structured reference explicitly records that omission; the DSP will not convert this unqualified sensitivity using an assumed 1 W or 2.83 V reference. The 500 W peak remains context only. No source-backed woofer diameter, physical driver count, or resonance is assigned. This legacy exact model was not substituted with KG 4 or KG 4.2 data. Source: https://www.hifi-guide.com/loudspeaker/klipsch-kg-4-5/."
+  }
+]

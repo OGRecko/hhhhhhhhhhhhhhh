@@ -1,0 +1,15 @@
+[
+  {
+    "id": "jbl-paragon",
+    "model_check": "Paragon D44000",
+    "source": "https://audio-database.com/JBL/speaker/paragon.html",
+    "sourceType": "REPUTABLE_DATABASE",
+    "fields": {
+      "sensitivity": { "value": 96, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 125, "unit": "W", "role": "program_rating" },
+      "impedance": { "value": 8, "unit": "ohm" }
+    },
+    "scalars": { "driverCount": 6 },
+    "notes": "Exact JBL Paragon / D44000 entry in Audio Database (a secondary, exact-model source, not a JBL-hosted page). Its shared model-rating table states a three-way, six-speaker integrated stereo loudspeaker system, 96 dB/W/m output sound-pressure level, 8 Ω impedance and 125 W allowable input (continuous program). The page explicitly distinguishes initial D44000, mid-term D44000, and late D44000WXA revisions and documents differing woofer/midrange assemblies; the single woofer field is therefore left N/A rather than merging revision-specific diameters. JBL's own article confirms the exact Paragon D44000 identity and says its pictured unit is an early model: https://jp.jbl.com/jamaica.html. The JBL article does not publish numeric specifications. No frequency-response limits, response curve, or directivity data are imported. Source for populated fields: https://audio-database.com/JBL/speaker/paragon.html."
+  }
+]

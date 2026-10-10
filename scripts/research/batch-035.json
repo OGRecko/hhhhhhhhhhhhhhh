@@ -1,0 +1,84 @@
+[
+  {
+    "id": "electro-voice-zx3",
+    "model_check": "ZX3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 58, "high_hz": 15000 },
+      "sensitivity": { "value": 97, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 600, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). Its specification table gives 58 Hz–15 kHz (-3 dB), 48 Hz–20 kHz (-10 dB), 97 dB axial sensitivity at 1 W/1 m, 600 W continuous / 2400 W peak passive handling, 8 Ω nominal (6.2 Ω minimum), one 12-inch DVX3121 LF transducer plus one ND2 HF compression driver, passive/biamp-selectable operation, 131 dB calculated maximum SPL, and a 50 Hz recommended high-pass. The response/sensitivity footnote says half-space measurement. This manual identifies ZX3-60, ZX3-90, PI and finish variants; these structured fields are shared in its series-level specification table. Its numeric response and directivity tables are separately identified for ZX3-60 and ZX3-90, so no variant-specific curve or directivity payload is assigned to the generic ZX3 record. No resonance or voice-coil value is asserted."
+  },
+  {
+    "id": "electro-voice-zx4",
+    "model_check": "ZX4",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 60,
+        "high_hz": 20000,
+        "points": [
+          { "hz": 20, "db": 79.5 },
+          { "hz": 30, "db": 82 },
+          { "hz": 40, "db": 85 },
+          { "hz": 50, "db": 90 },
+          { "hz": 60, "db": 95 },
+          { "hz": 70, "db": 98 },
+          { "hz": 80, "db": 101 },
+          { "hz": 90, "db": 103.5 },
+          { "hz": 100, "db": 104 },
+          { "hz": 200, "db": 103 },
+          { "hz": 300, "db": 103 },
+          { "hz": 400, "db": 102 },
+          { "hz": 500, "db": 100 },
+          { "hz": 600, "db": 99 },
+          { "hz": 700, "db": 99 },
+          { "hz": 800, "db": 99 },
+          { "hz": 900, "db": 99 },
+          { "hz": 1000, "db": 99 },
+          { "hz": 2000, "db": 100 },
+          { "hz": 3000, "db": 99 },
+          { "hz": 4000, "db": 99 },
+          { "hz": 5000, "db": 99 },
+          { "hz": 6000, "db": 99 },
+          { "hz": 7000, "db": 99 },
+          { "hz": 8000, "db": 99 },
+          { "hz": 9000, "db": 99 },
+          { "hz": 10000, "db": 100 },
+          { "hz": 20000, "db": 98.5 }
+        ],
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (12/2010), table titled Frequency Response, Half Space (SPL, 1W/1m, dB). Copied all 28 published half-space values from 20 Hz through 20 kHz verbatim; no interpolation. The table gives 99 dB at 1 kHz while the separate axial-sensitivity specification states 100 dB (1W/1m); both published values are retained without forcing agreement."
+      },
+      "sensitivity": { "value": 100, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact-model Electro-Voice ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (December 2010): 60 Hz–20 kHz (-3 dB), 42 Hz–20 kHz (-10 dB), 100 dB axial sensitivity at 1 W/1 m, 400 W continuous / 1600 W peak handling, 8 Ω nominal (6.5 Ω minimum), EVS15-SF 15-inch LF driver and DH3 HF compression driver, 90° × 50° nominal coverage, 132 dB calculated maximum SPL, 42 Hz recommended high-pass, and 1.5 kHz crossover. The datasheet labels the frequency-response and axial-sensitivity specifications as half-space measurements. The stored curve is the complete 28-row manufacturer-published half-space table, in its published SPL units; its 1 kHz value (99 dB) is not substituted for the separate 100 dB sensitivity specification. The sheet also contains numerical beamwidth and directivity-index/factor tables, but no per-speaker directivity payload is imported because the current speaker-record schema/audit does not support that representation; nominal coverage is context only. No resonance or voice-coil value is asserted. Source: https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf."
+  },
+  {
+    "id": "electro-voice-zx5",
+    "model_check": "ZX5",
+    "sourceType": "MANUFACTURER",
+    "source": "https://www.adorama.com/col/productManuals/EVZX560B.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 58, "high_hz": 18000 },
+      "sensitivity": { "value": 98, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 600, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Electro-Voice Zx5 Series Owner's Manual, © Telex Communications, Inc. 01/2007, Part Number 38110-355 Rev E (manufacturer document; hosted copy: https://www.adorama.com/col/productManuals/EVZX560B.pdf). The series specification gives 58 Hz–18 kHz (-3 dB), 39 Hz–20 kHz (-10 dB), 98 dB axial sensitivity at 1 W/1 m, 600 W continuous / 2400 W peak rated handling, 8 Ω nominal (6.5 Ω minimum), a 15-inch DVX3150 LF driver and ND2 HF compression driver, passive/biamp-selectable operation, and 132 dB calculated maximum SPL. The response/sensitivity measurement footnote says half-space. This manual covers ZX5-60, ZX5-90 and PI variants; its response, beamwidth and directivity tables are horn-variant-specific. The generic ZX5 record does not identify a horn suffix, so no variant-specific response points or directivity payload is assigned. No resonance or voice-coil value is asserted."
+  }
+]

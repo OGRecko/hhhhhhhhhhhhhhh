@@ -1,0 +1,43 @@
+[
+  {
+    "id": "adam-s3x",
+    "model_check": "S3X-V",
+    "source": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 32, "high_hz": 50000 },
+      "woofer": { "value": 9, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ADAM Audio S3X-V archived-product page, not its S3V successor: the manufacturer describes a vertical three-way active system with one 9-inch woofer, one 4.5-inch midrange and one X-ART tweeter (three transducers), and publishes a linear frequency range of 32 Hz–50 kHz without a stated dB tolerance. Those limits are retained as bounds only; no tolerance is inferred. The page lists woofer, midrange and tweeter amplifier ratings separately rather than a combined scalar, so no total power value is imported. Its input impedance is an electronic line-input specification, not transducer impedance; no impedance or single voice-coil value is assigned to the multi-driver system. Published maximum SPL of at least 124 dB per pair at 1 m is not sensitivity. No response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/sx-series/s3x-v/."
+  },
+  {
+    "id": "adam-a5x",
+    "model_check": "A5X",
+    "source": "https://www.adam-audio.com/en/ax-series/a5x/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 50000 },
+      "power": { "value": 100, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 5.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact ADAM Audio A5X archived-product page and technical table: active two-way monitor with one 5.5-inch woofer and one X-ART tweeter (two transducers). Frequency response is published as 50 Hz–50 kHz at -10 dB; those limits retain that context, with no response points imported. The technical table gives amplifier output as 100 W RMS / 150 W music, and the 100 W RMS value is stored only as amplifier_output, not passive-speaker power handling. Maximum SPL per pair at 1 m is not sensitivity. The listed 30 kOhm impedance and gain/input-sensitivity controls describe the active monitor's electronics, not the driver impedance or acoustic sensitivity, so those fields remain unavailable. The voice-coil entry pairs 1.5 inches with 32 mm, which is inconsistent; it is not imported. No directivity dataset is imported. Source: https://www.adam-audio.com/en/ax-series/a5x/."
+  },
+  {
+    "id": "legacy-adam-1",
+    "model_check": "S3A",
+    "source": "https://www.soundonsound.com/reviews/adam-s3a",
+    "sourceType": "REPUTABLE_DATABASE",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 32, "high_hz": 35000 },
+      "woofer": { "value": 186, "unit": "mm" },
+      "voiceCoil": { "value": 39, "unit": "mm" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ADAM Audio S3A evidence: the manufacturer archive identifies the discontinued S3A and links its exact operation manual (https://www.adam-audio.com/en/archived-products/s3a/ and https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-S3A-en-de.pdf). The manual describes an active three-way system with one ART tweeter and two HexaCone bass/midrange drivers; its A/B variants differ in which woofer handles which band, and remain the same S3A model. Sound On Sound's exact-model review publishes 32 Hz–35 kHz at ±3 dB and two 186 mm HexaCone drivers with 39 mm voice coils; those source units are retained. The manual states up to 150 W RMS for each of three amplifier sections, but no aggregate power value is derived or imported. The review's SPL-capability wording is not mapped to acoustic sensitivity. Sensitivity, transducer impedance, resonant frequency and response/directivity datasets remain unavailable. Source: https://www.soundonsound.com/reviews/adam-s3a."
+  }
+]

@@ -1,0 +1,10 @@
+[
+ {"id":"qsc-kla12","model_check":"KLA12","source":"https://www.qsc.com/index.php?id=12780","sourceType":"MANUFACTURER",
+  "fields":{"woofer":{"value":12,"unit":"in"}},
+  "scalars":{"active":true},
+  "notes":"QSC official KLA Series page (qsc.com/index.php?id=12780), KLA12 column: 12 in cone transducer; frequency range 44 Hz-20 kHz at -10 dB (NOT stored: the dataset's frequency-response limits use the -6 dB convention and no -6 dB figure is on this page); coverage 90 x 18 deg; peak SPL 131 dB @ 1 m; amplifier listed as '500 W x 500 W continuous' (ambiguous wording, power left N/A); ABS enclosure; 55 lb / 25.0 kg. Described as an active line array. Sensitivity, impedance and driver count not published on this page; left N/A."},
+ {"id":"qsc-kla181","model_check":"KLA181","source":"https://www.qsc.com/index.php?id=12780","sourceType":"MANUFACTURER",
+  "fields":{"woofer":{"value":18,"unit":"in"},"power":{"value":1000,"unit":"W","role":"amplifier_output"}},
+  "scalars":{"active":true},
+  "notes":"QSC official KLA Series page (qsc.com/index.php?id=12780), KLA181 column: 18 in cone transducer; amplifier 1000 W continuous Class D; frequency range 33 Hz low limit at -10 dB (NOT stored: no -6 dB figure and no upper limit published on this page); peak SPL 135 dB @ 1 m; birch plywood; 104 lb / 47.2 kg. Sensitivity and impedance not published; left N/A."}
+]

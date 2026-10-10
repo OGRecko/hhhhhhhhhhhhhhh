@@ -1,0 +1,82 @@
+[
+  {
+    "id": "monitor-audio-bronze-50",
+    "model_check": "Bronze 50",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Bronze Series 6G (2020) archive explicitly names Bronze 50 6G, while the manufacturer's current Bronze Series page identifies the distinct Bronze 50 7G. The database row says only 'Bronze 50' and supplies no generation, year, finish, or product code to select between these revisions. Preserve this legitimate row, but keep its acoustic fields N/A and identity status UNAVAILABLE until the exact revision is established; no values from 6G or 7G are transferred. The cited sources contain no imported response or directivity payload for this unresolved row. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/ ; https://www.monitoraudio.com/en/us/bronze-series-7g/ ; https://www.monitoraudio.com/en/us/product-ranges/bronze-series-7g/bronze-50-7g/."
+  },
+  {
+    "id": "monitor-audio-bronze-100",
+    "model_check": "Bronze 100",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Bronze Series 6G (2020) archive lists Bronze 100 6G, but the database row is the unqualified name 'Bronze 100' with no generation, year, finish, or manufacturer product code. The current Bronze 7G lineup is a separate, explicitly generation-labelled range and does not identify this bare catalog row. The exact intended revision therefore cannot be established from the record. Preserve the legitimate row with acoustic fields N/A and status UNAVAILABLE; no 6G/7G family or retailer values are transferred. No exact response/directivity dataset is assigned. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/ ; https://www.monitoraudio.com/en/us/bronze-series-7g/."
+  },
+  {
+    "id": "monitor-audio-bronze-200",
+    "model_check": "Bronze 200",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Bronze Series 6G (2020) archive lists Bronze 200 6G, but the database row is the unqualified name 'Bronze 200' with no generation, year, finish, or manufacturer product code. The current Bronze 7G lineup is a separate, explicitly generation-labelled range; the record does not establish which historical/revision-specific product is intended. Preserve the legitimate row with acoustic fields N/A and status UNAVAILABLE; no 6G/7G family or retailer values are transferred. No exact response/directivity dataset is assigned. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/ ; https://www.monitoraudio.com/en/us/bronze-series-7g/."
+  },
+  {
+    "id": "monitor-audio-bronze-500",
+    "model_check": "Bronze 500",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Bronze Series 6G (2020) archive lists Bronze 500 6G. The database row is only 'Bronze 500' and has no generation, year, finish, or manufacturer product code; a source for the 6G variant does not establish that it is the intended row. Preserve the legitimate record with unsupported fields N/A and identity status UNAVAILABLE. No values from the 6G archive, retailer pages, or another generation are transferred, and no response/directivity payload is assigned. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/bronze-series-6g-2020/ ; https://www.monitoraudio.com/en/us/bronze-series-7g/."
+  },
+  {
+    "id": "monitor-audio-silver-50",
+    "model_check": "Silver 50",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio maintains separate official Silver Series 6G (2017) and 7G (2021) ranges, with models named Silver 50 6G and Silver 50 7G. The database row is only 'Silver 50' and provides no generation, year, finish, region, or product code to disambiguate them. Preserve the legitimate row with acoustic fields N/A and identity status UNAVAILABLE; no measurements or directivity from either revision are transferred. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/ ; https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/ ; https://www.monitoraudio.com/en/product-ranges/silver-series-7g/silver-50-7g/."
+  },
+  {
+    "id": "monitor-audio-silver-100",
+    "model_check": "Silver 100",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Silver 6G and 7G range archives document generation-specific Silver 100 models. This database record is labelled only 'Silver 100', without a generation, year, finish, region, or product code, so the intended revision cannot be matched safely. Preserve the legitimate row with all unsupported acoustic fields N/A and status UNAVAILABLE; no generation-specific values, response points, or directivity are transferred. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/ ; https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/."
+  },
+  {
+    "id": "monitor-audio-silver-300",
+    "model_check": "Silver 300",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Silver 6G (2017) and Silver 7G (2021) archives document different generation-labelled Silver 300 models. This database record is unqualified ('Silver 300') and has no year, generation, finish, region, or manufacturer product code. The exact revision is therefore unresolved; preserve the row, leave unsupported fields N/A, and set identity status UNAVAILABLE. No 6G/7G measurements, response points, or directivity are transferred. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/ ; https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/ ; https://www.monitoraudio.com/en/us/product-ranges/silver-series-7g/silver-300-7g/."
+  },
+  {
+    "id": "monitor-audio-silver-500",
+    "model_check": "Silver 500",
+    "source": "https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/",
+    "sourceType": "MANUFACTURER",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "Monitor Audio's official Silver 6G (2017) and Silver 7G (2021) archives document distinct generation-labelled Silver 500 models, with exact-model specifications available for Silver 500 7G. The database label is only 'Silver 500' and includes no generation, year, finish, region, or manufacturer product code. Preserve the legitimate row, leave unsupported fields N/A, and mark identity UNAVAILABLE rather than assigning either generation's values or response/directivity data. Sources: https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-6g-2017/ ; https://www.monitoraudio.com/en/product-ranges/monitor-audio-heritage/silver-series-7g-2021/ ; https://www.monitoraudio.com/en/us/product-ranges/silver-series-7g/silver-500-7g/."
+  }
+]

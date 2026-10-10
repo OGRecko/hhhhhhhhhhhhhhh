@@ -1,0 +1,124 @@
+[
+  {
+    "id": "svs-sb-2000-pro",
+    "model_check": "SB-2000 Pro",
+    "source": "https://www.svsound.com/products/sb-2000-pro",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 550, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" },
+      "frequencyResponse": { "low_hz": 19, "high_hz": 240 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact SB-2000 Pro manufacturer page describes a powered sealed subwoofer with one 12-inch high-excursion driver and a 550 W RMS built-in Sledge amplifier. The 550 W scalar is explicitly amplifier_output, not passive-speaker power handling; the page also mentions 1,500+ W peak, which is retained only as context and not stored as continuous output. SVS publishes 19–240 Hz ±3 dB, measured on a 2-meter ground plane away from reflective structures (quasi-anechoic); these are acoustic response limits, not curve points, and the published chart is not imported as a dataset. No directivity dataset is published/imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/sb-2000-pro"
+  },
+  {
+    "id": "svs-pb16-ultra",
+    "model_check": "PB16-Ultra",
+    "source": "https://www.svsound.com/products/pb16-ultra",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 1500, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 16, "unit": "in" },
+      "voiceCoil": { "value": 8, "unit": "in" },
+      "frequencyResponse": { "low_hz": 15, "high_hz": 280 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact PB16-Ultra manufacturer page specifies one 16-inch driver with an 8-inch-diameter edge-wound voice coil and a built-in Sledge STA-1500D amplifier rated 1,500 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 5,000+ W peak dynamic is context only. Structured response limits use the standard mode (all ports open): 15–280 Hz ±3 dB; the manufacturer also publishes 13–280 Hz ±3 dB in extended mode (two ports open) and 14–360 Hz ±3 dB in sealed mode (all ports sealed). SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic); mode-specific ranges are kept distinct, and no graph points are imported. No directivity dataset is published/imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/pb16-ultra"
+  },
+  {
+    "id": "svs-sb4000",
+    "model_check": "SB4000",
+    "source": "https://www.svsound.com/products/sb-4000",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 1200, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 13.5, "unit": "in" },
+      "voiceCoil": { "value": 3, "unit": "in" },
+      "frequencyResponse": { "low_hz": 19, "high_hz": 310 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact SB-4000 (dataset label SB4000) manufacturer page describes a powered sealed subwoofer with one 13.5-inch driver, a 3-inch edge-wound voice coil, and built-in Sledge STA-1200D amplification rated 1,200 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 4,000+ W peak dynamic is context only. SVS publishes 19–310 Hz ±3 dB on a 2-meter ground plane away from reflective structures (quasi-anechoic). The bounds are not imported as a response curve; the displayed response chart is not available as source-backed points. No directivity dataset is published/imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/sb-4000"
+  },
+  {
+    "id": "svs-sb16-ultra",
+    "model_check": "SB16-Ultra",
+    "source": "https://www.svsound.com/products/sb16-ultra",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 1500, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 16, "unit": "in" },
+      "voiceCoil": { "value": 8, "unit": "in" },
+      "frequencyResponse": { "low_hz": 16, "high_hz": 460 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact SB16-Ultra manufacturer page specifies one 16-inch driver with an 8-inch-diameter edge-wound voice coil and a built-in Sledge STA-1500D amplifier rated 1,500 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 5,000+ W peak dynamic is context only. SVS publishes 16–460 Hz ±3 dB on a 2-meter ground plane away from reflective structures (quasi-anechoic). The bounds are not response-curve points; no graph data or directivity dataset is imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/sb16-ultra"
+  },
+  {
+    "id": "svs-pb-3000",
+    "model_check": "PB-3000",
+    "source": "https://www.svsound.com/products/pb-3000",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 800, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 13, "unit": "in" },
+      "frequencyResponse": { "low_hz": 16, "high_hz": 260 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact PB-3000 manufacturer page specifies one 13-inch high-excursion driver and a built-in Sledge STA-800D2 amplifier rated 800 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 2,500+ W peak dynamic is context only. Structured response limits use standard port mode: 16–260 Hz ±3 dB; the manufacturer separately specifies 18–260 Hz ±3 dB in sealed mode. SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. The structured bounds are not curve points; no chart data or directivity dataset is imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/pb-3000"
+  },
+  {
+    "id": "svs-pb-1000-pro",
+    "model_check": "PB-1000 Pro",
+    "source": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 325, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" },
+      "voiceCoil": { "value": 1.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 17, "high_hz": 260 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact PB-1000 Pro manufacturer page specifies one 12-inch long-throw driver, a 1.5-inch-diameter voice coil, and a built-in Sledge STA-325D amplifier rated 325 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 820+ W peak dynamic is context only. Structured response limits use standard port mode: 17–260 Hz ±3 dB; the manufacturer separately specifies 19–260 Hz ±3 dB in sealed mode. SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic); no curve points or directivity dataset are imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance (including the separately specified line/speaker-level inputs) is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/pb-1000-pro-subwoofer"
+  },
+  {
+    "id": "svs-sb-3000",
+    "model_check": "SB-3000",
+    "source": "https://www.svsound.com/products/sb-3000",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 800, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 13, "unit": "in" },
+      "frequencyResponse": { "low_hz": 18, "high_hz": 270 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact SB-3000 manufacturer page specifies one 13-inch high-excursion driver and a built-in Sledge STA-800D2 amplifier rated 800 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 2,500+ W peak dynamic is context only. SVS publishes 18–270 Hz ±3 dB on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. The structured bounds are not response-curve points; no chart data or directivity dataset is imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/sb-3000"
+  },
+  {
+    "id": "svs-pb-4000",
+    "model_check": "PB-4000",
+    "source": "https://www.svsound.com/products/pb-4000",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 1200, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 13.5, "unit": "in" },
+      "voiceCoil": { "value": 3, "unit": "in" },
+      "frequencyResponse": { "low_hz": 16, "high_hz": 200 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact PB-4000 manufacturer page specifies one 13.5-inch driver, a 3-inch edge-wound voice coil, and a built-in Sledge STA-1200D amplifier rated 1,200 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 4,000+ W peak dynamic is context only. Structured response limits use standard mode: 16–200 Hz ±3 dB; the manufacturer separately lists 13–200 Hz ±3 dB in extended mode and 18–200 Hz ±3 dB in sealed mode. SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. Mode-specific bounds are not combined; no response-curve points or directivity dataset are imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency remains N/A. Source: https://www.svsound.com/products/pb-4000"
+  },
+  {
+    "id": "svs-pb-2000-pro",
+    "model_check": "PB-2000 Pro",
+    "source": "https://www.svsound.com/products/pb-2000-pro",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 550, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 12, "unit": "in" },
+      "frequencyResponse": { "low_hz": 16, "high_hz": 290 }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "SVS's exact PB-2000 Pro manufacturer page specifies one 12-inch high-excursion driver and a built-in Sledge STA-550D amplifier rated 550 W RMS continuous. The scalar is explicitly amplifier_output, not passive-speaker power handling; 1,500+ W peak dynamic is context only. Structured response limits use standard port mode: 16–290 Hz ±3 dB; the manufacturer separately specifies 17–290 Hz ±3 dB in sealed mode. SVS states these response measurements are on a 2-meter ground plane away from reflective structures (quasi-anechoic), with roll-off optimized for room gain. Mode-specific limits are not combined; no response-curve points or directivity dataset are imported. Sensitivity and nominal driver impedance remain N/A; amplifier input impedance is not speaker impedance. Resonant frequency and voice-coil diameter remain N/A. Source: https://www.svsound.com/products/pb-2000-pro"
+  }
+]

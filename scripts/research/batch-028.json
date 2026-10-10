@@ -1,0 +1,216 @@
+[
+  {
+    "id": "klipsch-cornwall-iv",
+    "model_check": "Cornwall IV",
+    "source": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 102, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 34, "high_hz": 20000 },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact Cornwall IV manufacturer spec sheet (v03, 2020-01-27). It gives response 34 Hz–20 kHz ±4 dB, sensitivity 102 dB at 2.83 V/1 m with the footnote 'Sensitivity in average listening room', 100 W continuous / 400 W peak handling, and 8-ohm-compatible nominal impedance. The 15-inch K-33-E is the LF driver; the sheet lists three-way HF/MF/LF transducers. The continuous rating is stored and 400 W peak retained as context. No driver-level Thiele/Small values or measured curve are claimed. Source: https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf."
+  },
+  {
+    "id": "klipsch-forte-iv",
+    "model_check": "Forte IV",
+    "source": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 99, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 38, "high_hz": 20000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact Forte IV manufacturer spec sheet (v01, 2018-11). It gives response 38 Hz–20 kHz ±3 dB, sensitivity 99 dB at 2.83 V/1 m with the footnote 'Sensitivity in average listening room', 100 W continuous / 400 W peak handling, and 8-ohm-compatible nominal impedance. The active LF driver is a 12-inch K-281; the separate 15-inch KD-15 is a passive radiator, not counted as an additional driven transducer. Three-way HF/MF/LF system. The continuous rating is stored; 400 W peak is context only. Source: https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf."
+  },
+  {
+    "id": "klipsch-heresy-iv",
+    "model_check": "Heresy IV",
+    "source": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 99, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 48, "high_hz": 20000 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact Heresy IV manufacturer spec sheet (v04, 2020-09-02). It gives 48 Hz–20 kHz ±4 dB, 99 dB at 2.83 V/1 m with sensitivity specified for an average listening room, 100 W continuous / 400 W peak handling, and 8-ohm-compatible nominal impedance. The LF transducer is the 12-inch K-28-E and the model is explicitly three-way. The continuous rating is stored; peak is context only. This is the IV revision and no earlier Heresy revision data is substituted. Source: https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf."
+  },
+  {
+    "id": "klipsch-rp500m",
+    "model_check": "RP-500M II",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 92, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 75, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 50, "high_hz": 25000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact RP-500M II manufacturer spec sheet (v02, 2022-05-16), not the original RP-500M. It specifies 50 Hz–25 kHz ±3 dB, 92 dB at 2.83 V/1 m, 75 W continuous / 300 W peak handling, 8-ohm-compatible nominal impedance, one 5.25-inch LF driver, and one HF tweeter. The spec-sheet sensitivity footnote reads 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; reference is retained as 2.83 V/1 m without claiming the in-room figure is a directivity measurement. Peak handling is context only. Source: https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf."
+  },
+  {
+    "id": "klipsch-rp600m",
+    "model_check": "RP-600M II",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 94.5, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 44, "high_hz": 25000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact RP-600M II manufacturer spec sheet (v02, 2022-05-16), not the original RP-600M. It specifies 44 Hz–25 kHz ±3 dB, 94.5 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance, one 6.5-inch LF driver and one HF tweeter. The sensitivity footnote states 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; reference is kept as 2.83 V/1 m and no graph points are inferred. Peak handling is context only. Source: https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf."
+  },
+  {
+    "id": "klipsch-rp-5000f-ii",
+    "model_check": "RP-5000F II",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 95, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 100, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 40, "high_hz": 25000 },
+      "woofer": { "value": 5.25, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact RP-5000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 40 Hz–25 kHz ±3 dB, 95 dB at 2.83 V/1 m, 100 W continuous / 400 W peak handling, 8-ohm-compatible nominal impedance and dual 5.25-inch LF drivers with one HF tweeter. The sensitivity footnote states 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; only the published voltage reference is placed in the structured field. Peak handling is context only. This is the II revision; original RP-5000F/related family values are not transferred. Source: https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf."
+  },
+  {
+    "id": "klipsch-rp6000f",
+    "model_check": "RP-6000F II",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 96, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 125, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 38, "high_hz": 25000 },
+      "woofer": { "value": 6.5, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact RP-6000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 38 Hz–25 kHz ±3 dB, 96 dB at 2.83 V/1 m, 125 W continuous / 500 W peak handling, 8-ohm-compatible nominal impedance and two 6.5-inch LF drivers plus one HF tweeter. Sensitivity footnote: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; the voltage reference is retained verbatim. Peak handling is context only. Source: https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf."
+  },
+  {
+    "id": "klipsch-rp-8000f-ii",
+    "model_check": "RP-8000F II",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 98, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 25000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false, "panel": false },
+    "notes": "Exact RP-8000F II manufacturer spec sheet (v02, 2022-05-16). It specifies 35 Hz–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 150 W continuous / 600 W peak handling, 8-ohm-compatible nominal impedance and two 8-inch LF drivers plus one HF tweeter. Sensitivity footnote: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'; the structured value preserves the 2.83 V/1 m reference, and the peak handling remains context. Source: https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf."
+  },
+  {
+    "id": "klipsch-rp8060fa",
+    "model_check": "RP-8060FA II",
+    "source": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 98, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 25000 },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 5, "active": false, "panel": false },
+    "notes": "Exact RP-8060FA II manufacturer spec sheet (v02, 2022-05-16). Main-channel specification is 35 Hz–25 kHz ±3 dB, 98 dB at 2.83 V/1 m, 8-ohm-compatible impedance, and dual 8-inch LF drivers. The product also includes a separate up-firing height channel with its own 6.5-inch woofer, tweeter, 100 W / 400 W handling specification, and separate frequency-response/sensitivity language; no single system power scalar is stored because the channels have different ratings. Five transducers are listed across the main and height channels. Sensitivity footnote for the main channel: 'SPL at 1M, half-space anechoic with 2.83V input, in-room sensitivity'. The stored woofer size refers only to the main channel's two 8-inch LF units; height-channel driver details remain in this note. Source: https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf."
+  },
+  {
+    "id": "legacy-klip-8",
+    "model_check": "R-41M",
+    "source": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 50, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "frequencyResponse": { "low_hz": 68, "high_hz": 21000 },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false, "panel": false },
+    "notes": "Exact Klipsch R-41M manufacturer spec sheet (v01; built from 2018). It lists 68 Hz–21 kHz ±3 dB, sensitivity 90 dB at 2.83 V/1 m, 50 W continuous / 200 W peak handling, 8-ohm-compatible nominal impedance, and one 4-inch LF woofer with one tweeter. The 50 W continuous value is stored; the peak rating is context. This is R-41M, not the later R-41PM powered model. Source: https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf."
+  },
+  {
+    "id": "klipsch-r-120sw",
+    "model_check": "R-120SW",
+    "source": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 200, "unit": "W", "role": "amplifier_output" },
+      "frequencyResponse": { "low_hz": 29, "high_hz": 120 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "Exact Klipsch R-120SW manufacturer spec sheet (built from 2018). It specifies 29–120 Hz ±3 dB and a 12-inch high-excursion spun-copper IMG woofer. The listed 200 W continuous / 400 W peak is the subwoofer's built-in all-digital amplifier output, not passive-speaker power handling; 200 W is stored with role amplifier_output and 400 W remains context. The source shows line/LFE inputs and an internal amplifier; sensitivity and passive input impedance are not published and remain N/A. Source: https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf."
+  },
+  {
+    "id": "klipsch-r-121sw",
+    "model_check": "R-121SW",
+    "source": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 200, "unit": "W", "role": "amplifier_output" },
+      "frequencyResponse": { "low_hz": 28, "high_hz": 120 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "Exact Klipsch R-121SW manufacturer spec sheet (v01, 2021-12-06). It publishes a 28–120 Hz frequency range (no tolerance is stated), one 12-inch high-excursion spun-copper TCP woofer, and built-in all-digital amplifier power of 200 W continuous / 400 W peak. The 200 W scalar is explicitly amplifier_output, not speaker power handling; peak output is context. Sensitivity and passive impedance are not published. The response endpoints are unqualified published limits, not a measured response curve. Source: https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf."
+  },
+  {
+    "id": "klipsch-spl-100",
+    "model_check": "SPL-100",
+    "source": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 200, "unit": "W", "role": "amplifier_output" },
+      "frequencyResponse": { "low_hz": 27, "high_hz": 125 },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "Exact Klipsch SPL-100 manufacturer spec sheet (v01, built from 2018). It lists frequency response 27–125 Hz without a stated tolerance, a 10-inch long-throw Cerametallic woofer, and built-in Class-D amplifier power 200 W RMS / 450 W peak. The scalar is explicitly amplifier_output, not speaker power handling; peak is context. Sensitivity and passive impedance are not applicable/published. Frequency endpoints are published specification limits, not a measured response curve. Source: https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf."
+  },
+  {
+    "id": "klipsch-spl-120",
+    "model_check": "SPL-120",
+    "source": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 300, "unit": "W", "role": "amplifier_output" },
+      "frequencyResponse": { "low_hz": 24, "high_hz": 125 },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "Exact Klipsch SPL-120 manufacturer spec sheet (v01, built from 2018). It lists frequency response 24–125 Hz without a stated tolerance, one 12-inch long-throw Cerametallic woofer, and built-in Class-D amplifier power 300 W RMS / 600 W peak. The scalar is explicitly amplifier_output, not speaker power handling; peak is context. Sensitivity and passive impedance are not applicable/published. Frequency endpoints are published specification limits, not a measured response curve. Source: https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf."
+  },
+  {
+    "id": "klipsch-spl-150",
+    "model_check": "SPL-150",
+    "source": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "power": { "value": 400, "unit": "W", "role": "amplifier_output" },
+      "frequencyResponse": { "low_hz": 18, "high_hz": 125 },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true, "panel": false },
+    "notes": "Exact Klipsch SPL-150 manufacturer spec sheet (v01, 2019-01-16). It lists frequency response 18–125 Hz without a stated tolerance, one 15-inch long-throw copper-spun Cerametallic front-firing woofer, and built-in all-digital amplifier power 400 W / 800 W. The scalar is explicitly amplifier_output, not speaker power handling; the source does not label the first number RMS, so no RMS claim is made; 800 W remains as the paired peak/context figure. Sensitivity and passive impedance are not applicable/published. The response endpoints are unqualified published limits, not a measured response curve. Source: https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf."
+  }
+]

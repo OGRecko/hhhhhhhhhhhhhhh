@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hedd-type-20",
+    "model_check": "Type 20",
+    "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90, "unit": "dB", "reference": "218mVrms (-11dBu) input, 0dB gain, 1m" },
+      "frequencyResponse": { "low_hz": 32, "high_hz": 50000 },
+      "power": { "value": 900, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 7, "unit": "in" },
+      "voiceCoil": { "value": 2, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact HEDD Type 20 (unsuffixed/original model, not Type 20 MK2 or Type 20 A-CORE) Operation Manual, manufacturer-authored content mirrored at the cited PDF URL. It explicitly calls Type 20 an active near-/midfield three-way studio monitor and lists one 7-inch bass woofer, one 4-inch honeycomb-composite midrange, one HEDD AMT tweeter, and 3 × 300 W ICEpower amplification. The stored 900 W is the sum of those three internal amplifier ratings and is marked amplifier_output, not passive-speaker power handling. The manual lists 2-inch voice coil for the 7-inch woofer and 1.25-inch for the midrange; the scalar records only the bass woofer coil, not the midrange value. Published overall frequency range is 32 Hz–50 kHz; the separate 40 Hz–20 kHz ±1.5 dB specification is retained as context because this schema has only one pair of bounds. The manual's sensitivity is 90 dB SPL at 1 m for a 218 mVrms (-11 dBu) input with gain at 0 dB. Its actual input reference is retained verbatim in the field; it is not a 1 W/1 m or 2.83 V/1 m sensitivity and the DSP deliberately falls back to its neutral reference rather than converting or interpreting it as such. The listed 10 kΩ balanced / 47 kΩ unbalanced values are electrical INPUT impedances, not speaker load impedance, so system impedance remains N/A. The manual gives no system resonant frequency. Its on-axis free-field table separates individual woofer/midrange/tweeter responses; those component rows are not imported as a full-system response curve, and no polar/directivity dataset is published. Source: https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "bose-l1-compact",
+    "model_check": "L1 Compact",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 65, "high_hz": 14000 },
+      "power": { "value": 130, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 7, "active": true },
+    "notes": "Exact-model Bose Professional L1 Compact Technical Data Sheet. The system is self-powered, two-way, with one 8-inch low-frequency driver and six 2-inch high-frequency drivers (seven total); its integrated power stand supplies 130 W continuous pink-noise amplifier output band-limited to the published response. The sheet specifies 65 Hz–14 kHz (-3 dB), 50 Hz–16 kHz (-10 dB), and 180° H × 40° V nominal coverage. The low-frequency driver is 8 inches; sensitivity and passive impedance are not specified for this powered system and remain N/A. The datasheet includes numeric polar plots for selected one-third-octave bands, but the current speaker-record audit rejects embedded polar/directivity fields; the curves are not imported. No response points, resonance, or voice-coil value is asserted. Source: https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf."
+  },
+  {
+    "id": "bose-sub1",
+    "model_check": "Sub1",
+    "sourceType": "MANUFACTURER",
+    "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 180 },
+      "power": { "value": 480, "unit": "W", "role": "amplifier_output" },
+      "voiceCoil": { "value": 2, "unit": "in" }
+    },
+    "scalars": { "driverCount": 1, "active": true },
+    "notes": "Exact-model Bose Sub1 Technical Data Sheet (official French-language Bose Professional PDF, fetched; its model name, tables, values, and test footnotes are explicit). Sub1 is a self-powered bass module with one 7 × 13-inch RaceTrack low-frequency driver and a 2-inch voice coil; Bose specifies 40–180 Hz (-3 dB), 32–250 Hz (-10 dB), and a 480 W integrated low-frequency amplifier channel. The 7 × 13-inch Racetrack dimension is not a circular woofer diameter, so the scalar woofer field remains N/A; the amplifier's input impedances are not speaker-load impedance, and no passive sensitivity/impedance is published. The TDS reports omnidirectional nominal horizontal coverage and 0° vertical coverage; its -10 dB rear rejection applies only to Cardioid mode with multiple-sub deployment, not to a single Sub1, and no directivity payload is imported. No response points are digitized from the graph. Source: https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf."
+  },
+  {
+    "id": "bose-301",
+    "model_check": "301 Series IV",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+    "fields": {
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact-model Bose 301 Series IV Direct/Reflecting Speakers Owner's Guide (October 30, 2001, AM181869_04_V). The guide lists one 8-inch woofer, one 3-inch high-sensitivity tweeter, and one 2-inch high-sensitivity tweeter per enclosure (three drivers total), and rated 8-ohm impedance. These are passive speakers. The guide says compatible amplifiers are 10–150 W per channel; that is an amplifier-compatibility range, not speaker power handling, so no scalar power is entered. Sensitivity and frequency-response limits are not specified and remain N/A. No resonance, voice-coil, response curve, or directivity data are asserted. Source: https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf (HTTPS request redirects to Bose's legacy owner-guide PDF)."
+  }
+]

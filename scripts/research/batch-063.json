@@ -1,0 +1,128 @@
+[
+  {
+    "id": "dali-opticon-2-mk2",
+    "model_check": "Opticon 2 MK2",
+    "source": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 86.5, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 59, "high_hz": 25000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "DALI's exact OPTICON 2 MK2 product specification lists 59 Hz–25 kHz frequency range (±3 dB), 86.5 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, one 6½-inch bass/midrange driver and one 29 mm soft-dome tweeter (2 drive units). The published 30–150 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/"
+  },
+  {
+    "id": "dali-opticon-6-mk2",
+    "model_check": "Opticon 6 MK2",
+    "source": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 49, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "DALI's exact OPTICON 6 MK2 product specification lists 49 Hz–30 kHz frequency range (±3 dB), 88 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, two 6½-inch bass drivers, one 29 mm soft-dome tweeter and one 17 × 45 mm planar tweeter (4 drive units). The published 25–200 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/"
+  },
+  {
+    "id": "dali-opticon-8-mk2",
+    "model_check": "Opticon 8 MK2",
+    "source": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88.5, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in" },
+      "frequencyResponse": { "low_hz": 38, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 5 },
+    "notes": "DALI's exact OPTICON 8 MK2 product specification lists 38 Hz–30 kHz frequency range (±3 dB), 88.5 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, two 8-inch bass drivers, one 6½-inch midrange driver, one 29 mm soft-dome tweeter and one 17 × 45 mm planar tweeter (5 drive units). The published 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/"
+  },
+  {
+    "id": "dali-rubicon-2",
+    "model_check": "Rubicon 2",
+    "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 50, "high_hz": 26000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "DALI's exact RUBICON 2 product specification lists 50 Hz–26 kHz frequency range (±3 dB), 87 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, one 6½-inch low/mid-frequency driver and one 29 mm soft-dome tweeter (2 drive units). The published 40–150 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/"
+  },
+  {
+    "id": "dali-rubicon-6",
+    "model_check": "Rubicon 6",
+    "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88.5, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 38, "high_hz": 34000 }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "DALI's exact RUBICON 6 product specification lists 38 Hz–34 kHz frequency range (±3 dB), 88.5 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, two 6½-inch bass drivers, one 29 mm soft-dome tweeter and one 17 × 45 mm planar tweeter (4 drive units). The published 40–200 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/"
+  },
+  {
+    "id": "dali-rubicon-8",
+    "model_check": "Rubicon 8",
+    "source": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 90.5, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 38, "high_hz": 34000 }
+    },
+    "scalars": { "driverCount": 5 },
+    "notes": "DALI's exact RUBICON 8 product specification lists 38 Hz–34 kHz frequency range (±3 dB), 90.5 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, three 6½-inch low/mid-frequency drivers, one 29 mm soft-dome tweeter and one 17 × 45 mm planar tweeter (5 drive units). The published 40–250 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/"
+  },
+  {
+    "id": "dali-epicon-2",
+    "model_check": "Epicon 2",
+    "source": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 47, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "DALI's exact EPICON 2 product specification lists 47 Hz–30 kHz frequency range (±3 dB), 87 dB sensitivity at 2.83 V/1 m, 4 ohm nominal impedance, one 6½-inch bass driver and one 29 mm soft-dome tweeter (2 drive units). The published 30–200 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/"
+  },
+  {
+    "id": "dali-epicon-6",
+    "model_check": "Epicon 6",
+    "source": "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 5, "unit": "ohm" },
+      "woofer": { "value": 6.5, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 4 },
+    "notes": "DALI's exact EPICON 6 product specification lists 35 Hz–30 kHz frequency range (±3 dB), 88 dB sensitivity at 2.83 V/1 m, 5 ohm nominal impedance, two 6½-inch bass drivers, one 29 mm soft-dome tweeter and one 10 × 55 mm planar tweeter (4 drive units). The published 50–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/"
+  },
+  {
+    "id": "dali-epicon-8",
+    "model_check": "Epicon 8",
+    "source": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
+    "sourceType": "MANUFACTURER",
+    "fields": {
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "impedance": { "value": 5, "unit": "ohm" },
+      "woofer": { "value": 8, "unit": "in" },
+      "frequencyResponse": { "low_hz": 35, "high_hz": 30000 }
+    },
+    "scalars": { "driverCount": 5 },
+    "notes": "DALI's exact EPICON 8 product specification lists 35 Hz–30 kHz frequency range (±3 dB), 89 dB sensitivity at 2.83 V/1 m, 5 ohm nominal impedance, two 8-inch bass drivers, one 6½-inch midrange driver, one 29 mm soft-dome tweeter and one 10 × 55 mm planar tweeter (5 drive units). The published 50–500 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. The structured woofer field records the published 8-inch bass drivers; the separate 6½-inch midrange driver is documented here but is not re-labelled as a woofer. The numeric frequency bounds are published limits, not curve points; no response curve or directivity data is inferred. Sensitivity reference is retained for impedance-aware normalization. Resonant frequency and voice-coil size remain N/A. Source: https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/"
+  }
+]

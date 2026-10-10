@@ -1,0 +1,166 @@
+[
+  {
+    "id": "legacy-dyn-1",
+    "model_check": "Contour 1.3",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/discontinued-models/contour/contour-13",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 22000 },
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 150, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 17, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact discontinued Dynaudio Contour 1.3 manufacturer page: 85 dB sensitivity at 2.83 V/1 m, 150 W IEC long-term power handling, 4-ohm rated impedance, 45 Hz–22 kHz at +/- 3 dB, and a 17 cm MSP midrange/woofer. The page identifies a two-way system with one tweeter and one midrange/woofer, so driverCount is 2. The contour-series manual currently linked from the page does not establish that it applies to this earlier 1.3 revision; active status remains N/A. No response-point or directivity dataset is published/imported."
+  },
+  {
+    "id": "legacy-dyn-2",
+    "model_check": "Special Twenty-Five",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/discontinued-models/editions/special-twenty-five",
+    "fields": {
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 200, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 20, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact discontinued Dynaudio Special Twenty-Five manufacturer page: 88 dB sensitivity at 2.83 V/1 m, 200 W IEC long-term power handling, 4-ohm rated impedance, and a 20 cm MSP midrange/woofer; the listed two-way configuration and tweeter plus midrange/woofer establish two drivers. The exact-model page does not publish lower/upper frequency cutoffs, so frequencyResponse remains N/A rather than borrowing a range from another Special model or a third-party listing. Active status and response/directivity data are not established by this page and remain N/A."
+  },
+  {
+    "id": "legacy-dyn-3",
+    "model_check": "Confidence C1",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/discontinued-models/confidence/confidence-c1",
+    "fields": {
+      "frequencyResponse": { "low_hz": 45, "high_hz": 22000 },
+      "sensitivity": { "value": 85, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 170, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 17, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Exact discontinued Dynaudio Confidence C1 (original C1, not C1 Platinum) manufacturer page: 85 dB sensitivity at 2.83 V/1 m, 170 W IEC long-term power handling, 4-ohm rated impedance, 45 Hz–22 kHz at +/- 3 dB, a 17 cm MSP midrange/woofer and 28 mm Esotar2 tweeter. The page specifies a two-way system, so driverCount is 2. The source is the original C1 page, not the separately listed C1 Platinum page. The fetched exact-model page does not explicitly establish powered/active operation, so active remains N/A. No response-point or directivity dataset is published/imported."
+  },
+  {
+    "id": "legacy-dyn-4",
+    "model_check": "Evidence Platinum",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+    "fields": {
+      "frequencyResponse": { "low_hz": 28, "high_hz": 25000 },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 550, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 8, "active": false },
+    "notes": "Exact discontinued Dynaudio Evidence Platinum manufacturer specification: 89 dB sensitivity at 2.83 V/1 m, 550 W IEC long-term power handling, 4-ohm rated impedance, 28 Hz–25 kHz at +/- 3 dB, two 28 mm Esotar2 tweeters, two 15 cm MSP midrange drivers, and four 18 cm MSP woofers (eight transducers total). The product page links the model-specific Evidence Platinum user manual, which instructs connection to an external amplifier; active is false. This is the original Evidence Platinum, not the 2026 Collector's Edition. Published frequency limits are retained only; no response points or directivity dataset are imported. Source page: https://dynaudio.com/discontinued-models/evidence/evidence-platinum; exact-model manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_evidence_evidence_platinum_en.pdf?hsLang=en."
+  },
+  {
+    "id": "legacy-dyn-7",
+    "model_check": "Contour 20",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+    "fields": {
+      "frequencyResponse": { "low_hz": 39, "high_hz": 23000 },
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 180, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact discontinued, original Dynaudio Contour 20 (2016 generation; not Contour 20i) manufacturer page: 86 dB sensitivity at 2.83 V/1 m, 180 W IEC long-term power handling, 4-ohm rated impedance, 39 Hz–23 kHz at +/- 3 dB, one 18 cm MSO midrange/woofer and one 28 mm Esotar2 tweeter. The exact product page links Dynaudio's Contour user manual, which specifies speaker-cable binding-post connections to an amplifier; active is false. DriverCount is 2. Its source and specification are kept distinct from Contour 20i. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/discontinued-models/contour-2016/contour-20; linked Contour manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_contour_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-contour-20i",
+    "model_check": "Contour 20i",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+    "fields": {
+      "frequencyResponse": { "low_hz": 39, "high_hz": 23000 },
+      "sensitivity": { "value": 86, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 180, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact current Dynaudio Contour 20i manufacturer specification: 86 dB sensitivity at 2.83 V/1 m, 180 W IEC long-term power handling, 4-ohm rated impedance, 39 Hz–23 kHz at +/- 3 dB, one 18 cm MSP midrange/woofer and one tweeter (two drivers total). The exact product page links Dynaudio's official Passive Speakers manual, which identifies passive loudspeakers and their external-amplifier connections; active is false. The unsuffixed discontinued Contour 20 is a separate earlier generation and is not substituted. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/home-audio/contour-i/contour-20i; linked manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-contour-30i",
+    "model_check": "Contour 30i",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+    "fields": {
+      "frequencyResponse": { "low_hz": 32, "high_hz": 23000 },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 300, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact current Dynaudio Contour 30i manufacturer specification: 87 dB sensitivity at 2.83 V/1 m, 300 W IEC long-term power handling, 4-ohm rated impedance, 32 Hz–23 kHz at +/- 3 dB, two 18 cm MSP mid/bass drivers and one tweeter (three drivers total). The exact product page links Dynaudio's official Passive Speakers manual, which identifies passive loudspeakers and their external-amplifier connections; active is false. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/home-audio/contour-i/contour-30i; linked manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-contour-60i",
+    "model_check": "Contour 60i",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+    "fields": {
+      "frequencyResponse": { "low_hz": 28, "high_hz": 23000 },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 390, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 23, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact current Dynaudio Contour 60i manufacturer specification: 88 dB sensitivity at 2.83 V/1 m, 390 W IEC long-term power handling, 4-ohm rated impedance, 28 Hz–23 kHz at +/- 3 dB, one 15 cm MSP midrange, two 23 cm MSP woofers and one tweeter (four drivers total). The woofer field records the published 23 cm bass-driver size; the distinct midrange size remains in this note. The exact product page links Dynaudio's official Passive Speakers manual, which identifies passive loudspeakers and their external-amplifier connections; active is false. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/home-audio/contour-i/contour-60i; linked manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-confidence-20",
+    "model_check": "Confidence 20",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/confidence/confidence-20",
+    "fields": {
+      "frequencyResponse": { "low_hz": 42, "high_hz": 22000 },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 250, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 6, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact original Dynaudio Confidence 20 (without the newer Confidence 20i revision) manufacturer specification: 87 dB sensitivity at 2.83 V/1 m, 250 W IEC long-term power handling, 6-ohm rated impedance, 42 Hz–22 kHz at +/- 3 dB, one 18 cm MSP midrange/woofer and one tweeter (two drivers total). The page additionally specifies 5-ohm minimum impedance at 155 Hz; the database has no separate minimum-impedance field, so the structured impedance retains the rated 6-ohm figure and this note retains the minimum context. The exact product page links Dynaudio's official Passive Speakers manual, which identifies passive loudspeakers and their external-amplifier connections; active is false. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/home-audio/confidence/confidence-20; linked manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-confidence-30",
+    "model_check": "Confidence 30",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/confidence/confidence-30",
+    "fields": {
+      "frequencyResponse": { "low_hz": 38, "high_hz": 22000 },
+      "sensitivity": { "value": 88, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 350, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 4, "active": false },
+    "notes": "Exact original Dynaudio Confidence 30 (without the newer Confidence 30i revision) manufacturer specification: 88 dB sensitivity at 2.83 V/1 m, 350 W IEC long-term power handling, 4-ohm rated impedance, 38 Hz–22 kHz at +/- 3 dB, one 15 cm MSP midrange, two 18 cm MSP woofers and one tweeter (four drivers total). The page additionally specifies 2.8-ohm minimum impedance at 85 Hz; the structured impedance retains the rated 4-ohm value because there is no separate minimum-impedance field. The exact product page links Dynaudio's official Passive Speakers manual, which identifies passive loudspeakers and their external-amplifier connections; active is false. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/home-audio/confidence/confidence-30; linked manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  },
+  {
+    "id": "dynaudio-confidence-50",
+    "model_check": "Confidence 50",
+    "sourceType": "MANUFACTURER",
+    "source": "https://dynaudio.com/home-audio/confidence/confidence-50",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 22000 },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" },
+      "power": { "value": 400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 18, "unit": "cm" }
+    },
+    "scalars": { "driverCount": 5, "active": false },
+    "notes": "Exact original Dynaudio Confidence 50 (without the newer Confidence 50i revision) manufacturer specification: 87 dB sensitivity at 2.83 V/1 m, 400 W IEC long-term power handling, 4-ohm rated impedance, 35 Hz–22 kHz at +/- 3 dB, two 15 cm MSP midrange drivers, two 18 cm MSP woofers and one tweeter (five drivers total). The page additionally specifies 2.7-ohm minimum impedance at 79 Hz; the structured impedance retains the rated 4-ohm value because there is no separate minimum-impedance field. The exact product page links Dynaudio's official Passive Speakers manual, which identifies passive loudspeakers and their external-amplifier connections; active is false. No response-point or directivity dataset is imported. Source page: https://dynaudio.com/home-audio/confidence/confidence-50; linked manual: https://dynaudio.com/hubfs/Manuals/dynaudio_manuals_home_audio_passive_speakers_en.pdf?hsLang=en."
+  }
+]

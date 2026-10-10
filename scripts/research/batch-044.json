@@ -1,0 +1,74 @@
+[
+  {
+    "id": "electro-voice-evf-1152d-96",
+    "model_check": "EVF-1152D/96",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.fullcompass.com/prod/221561-electro-voice-evf-1152d-96-15-2-way-loudspeaker-with-90x60-evcoat-black",
+    "fields": {
+      "frequencyResponse": { "low_hz": 70, "high_hz": 18000 },
+      "sensitivity": { "value": 100, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 600, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact EVF-1152D/96 standard indoor black (EVCoat) model, manufacturer part F.01U.272.578, identified on the fetched Full Compass listing. It publishes response 70 Hz–18 kHz (-3 dB), range 40 Hz–21 kHz (-10 dB), 100 dB sensitivity (1 W/1 m), 600 W continuous / 1200 W program / 2400 W peak power handling, 8-ohm nominal and 6-ohm minimum impedance, one 15-inch DVX3151A LF driver plus one DH7N HF driver, and 90° x 60° nominal (-6 dB) coverage. Stored power is continuous speaker handling. The listing is an exact-model secondary source, so provenance is REPUTABLE_DATABASE rather than MANUFACTURER. Coverage is retained as published context only; no directivity curve or response points are imported. Source: https://www.fullcompass.com/prod/221561-electro-voice-evf-1152d-96-15-2-way-loudspeaker-with-90x60-evcoat-black."
+  },
+  {
+    "id": "electro-voice-x12-128",
+    "model_check": "X12-128",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.electrovoice.com/binary/F01U303039.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 27, "high_hz": 200 },
+      "sensitivity": { "value": 102, "unit": "dB", "reference": "1W/1m" },
+      "power": { "value": 4000, "unit": "W", "role": "speaker_power_handling" },
+      "voiceCoil": { "value": 4, "unit": "in" },
+      "woofer": { "value": 18, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Electro-Voice X12-128 manufacturer data sheet. It specifies two 18-inch DVF4180 drivers, each with dual 4-inch copper voice coils; the passive system is rated 4000 W continuous / 16000 W peak (AES 2-1984). Published response is 27–200 Hz (-3 dB), with 23–1950 Hz (-10 dB) also stated. Sensitivity is 102 dB (1 W/1 m), measured anechoically in half-space; the published response/impedance table is explicitly half-space and parallel mode. The impedance scalar remains N/A because the product has selectable 4-ohm parallel mode or dual 8-ohm mode, not one unconditional system load. The source describes the coverage as omnidirectional; no directivity curve or response point table is imported. Source: https://products.electrovoice.com/binary/F01U303039.pdf."
+  },
+  {
+    "id": "electro-voice-elx112",
+    "model_check": "ELX112",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 82, "high_hz": 18000 },
+      "power": { "value": 250, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 12, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Electro-Voice Live X passive ELX112 owner's manual, model/part number ELX112 (F01U170823). It gives 82 Hz–18 kHz (-3 dB) and 55 Hz–20 kHz (-10 dB), footnoted as full-space measurements; 250 W continuous / 1000 W peak power handling; 8-ohm nominal / 7.0-ohm minimum impedance; one EVS-12K 12-inch LF driver plus one DH-1K HF compression driver; and 90° x 50° coverage. The scalar power field stores continuous speaker handling. Although the manual lists 94 dB axial sensitivity, it does not state the sensitivity reference in the table, so the structured sensitivity field remains N/A rather than assuming 1 W/1 m. Published coverage is descriptive only; no directivity data or response points are imported. Source: https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf."
+  },
+  {
+    "id": "electro-voice-elx115",
+    "model_check": "ELX115",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 75, "high_hz": 18000 },
+      "power": { "value": 400, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": false },
+    "notes": "Exact Electro-Voice Live X passive ELX115 owner's manual, model/part number ELX115 (F01U170824). It gives 75 Hz–18 kHz (-3 dB) and 50 Hz–20 kHz (-10 dB), footnoted as full-space measurements; 400 W continuous / 1600 W peak power handling; 8-ohm nominal / 7.4-ohm minimum impedance; one EVS-15K 15-inch LF driver plus one DH-1K HF compression driver; and 90° x 50° coverage. The scalar power field stores continuous speaker handling. Although the manual lists 95 dB axial sensitivity, it does not state the sensitivity reference in the table, so the structured sensitivity field remains N/A rather than assuming 1 W/1 m. Published coverage is descriptive only; no directivity data or response points are imported. Source: https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf."
+  },
+  {
+    "id": "electro-voice-elx215",
+    "model_check": "ELX215",
+    "sourceType": "MANUFACTURER",
+    "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 62, "high_hz": 18000 },
+      "power": { "value": 600, "unit": "W", "role": "speaker_power_handling" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "woofer": { "value": 15, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": false },
+    "notes": "Exact Electro-Voice Live X passive ELX215 owner's manual, model/part number ELX215 (F01U170826). It gives 62 Hz–18 kHz (-3 dB) and 38 Hz–20 kHz (-10 dB), footnoted as full-space measurements; 600 W continuous / 2400 W peak power handling; 4-ohm nominal / 3.7-ohm minimum impedance; two EVS-15K 15-inch LF drivers plus one DH-1K HF compression driver; and 90° x 50° coverage. The scalar power field stores continuous speaker handling. Although the manual lists 96 dB axial sensitivity, it does not state the sensitivity reference in the table, so the structured sensitivity field remains N/A rather than assuming 1 W/1 m. Published coverage is descriptive only; no directivity data or response points are imported. Source: https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf."
+  }
+]

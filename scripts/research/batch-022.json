@@ -1,0 +1,16 @@
+[
+ {
+  "id": "svs-sb-1000-pro",
+  "model_check": "SB-1000 Pro",
+  "source": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+  "sourceType": "MANUFACTURER",
+  "fields": {
+   "frequencyResponse": { "low_hz": 20, "high_hz": 270 },
+   "power": { "value": 325, "unit": "W", "role": "amplifier_output" },
+   "woofer": { "value": 12, "unit": "in" },
+   "voiceCoil": { "value": 1.5, "unit": "in" }
+  },
+  "scalars": { "driverCount": 1, "active": true },
+  "notes": "SVS official SB-1000 Pro page (https://www.svsound.com/products/sb-1000-pro-subwoofer), exact model SB-1000 Pro (sealed; the ported PB-1000 Pro and the older SB-1000 are separate models and were not used). Frequency response 20-270 Hz +/-3 dB, specified quasi-anechoic on a 2 m ground plane (not in-room). Amplifier: Sledge STA-325D, 325 W RMS continuous, 820+ W peak dynamic (stored value is the RMS rating, amplifier_output). Driver: single 12 in long-throw woofer, 1.5 in diameter voice coil, Xmax 13.3 mm, Xmech 26.9 mm. Sealed cabinet; 342 x 330 x 375 mm (H x W x D, with grille); 11.9 kg. No sensitivity or nominal impedance published (powered subwoofer; 16 kOhm RCA / 1 kOhm speaker-level figures are amplifier input impedances, not stored as speaker impedance). The page shows a frequency-response chart image only; no underlying data points or file were available, so none were imported. No directivity file published."
+ }
+]

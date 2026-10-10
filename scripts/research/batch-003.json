@@ -1,0 +1,5 @@
+[
+ {"id":"genelec-8030c","model_check":"8030C","source":"https://www.genelec.com/8030c","sourceType":"MANUFACTURER",
+  "fields":{"frequencyResponse":{"low_hz":54,"high_hz":20000},"power":{"value":100,"unit":"W","role":"amplifier_output"},"woofer":{"value":5.12,"unit":"in"}},
+  "notes":"Genelec 8030C official product page: system response 54 Hz–20 kHz (±2 dB); -6 dB cutoffs 47 Hz and 25 kHz; bass amp 50 W + treble amp 50 W Class D (summed to 100 W per the 1031A convention); bass driver diameter 130 mm (=5.12 in, unit conversion only) + 19 mm metal dome; crossover 3000 Hz; reflex enclosure; 5 kg; 285 x 189 x 178 mm. No sensitivity or passive impedance published. The page lists a CLF file (genelec_oy-8030.cf2.zip) whose name does not confirm the 8030C revision (sibling EASE files are labelled 8030a), so NO directivity data has been imported."}
+]

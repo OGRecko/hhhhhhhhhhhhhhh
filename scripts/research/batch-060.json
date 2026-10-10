@@ -1,0 +1,12 @@
+[
+  {
+    "id": "legacy-bw-10",
+    "model_check": "CCM8",
+    "source": "https://www.bowerswilkins.com/en-us/product-archive.html",
+    "sourceType": "MANUFACTURER",
+    "scalars": {},
+    "fields": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE — the bare catalog label CCM8 could not be matched to an exact Bowers & Wilkins model/revision. The manufacturer's product archive lists distinct in-ceiling products CCM80, CCM818, and CCM8.5; none is identified as CCM8, so no sibling model is selected or substituted. No acoustic or physical values are populated. Retain as UNAVAILABLE until the intended exact model is established. Source: https://www.bowerswilkins.com/en-us/product-archive.html."
+  }
+]

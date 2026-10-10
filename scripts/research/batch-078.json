@@ -1,0 +1,100 @@
+[
+  {
+    "id": "adam-a4v",
+    "model_check": "A4V",
+    "source": "https://www.adam-audio.com/en/a-series/a4v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 52, "high_hz": 45000 },
+      "power": { "value": 130, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 4, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact ADAM Audio A4V official product page: two-way active studio monitor with one 4-inch Multi-Layer Mineral woofer and one X-ART tweeter (two transducers). The page specifies 52 Hz–45 kHz frequency response at -6 dB and 130 W total peak internal amplifier power; the latter is stored only as amplifier_output, not passive-speaker power handling or RMS output. Maximum SPL of 100 dB per speaker at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/a-series/a4v/."
+  },
+  {
+    "id": "adam-a8h",
+    "model_check": "A8H",
+    "source": "https://www.adam-audio.com/en/a-series/a8h/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 31, "high_hz": 45000 },
+      "power": { "value": 340, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 8, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ADAM Audio A8H official product page: three-way active monitor with one 8-inch Multi-Layer Mineral woofer, one 3.5-inch DCH midrange driver and one X-ART tweeter (three transducers). The page specifies 31 Hz–45 kHz frequency response at -6 dB and 340 W total peak internal amplifier power; the latter is stored only as amplifier_output, not passive-speaker handling or RMS output. Maximum peak SPL of 105 dB per speaker at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/a-series/a8h/."
+  },
+  {
+    "id": "legacy-adam-4",
+    "model_check": "A7V",
+    "source": "https://www.adam-audio.com/en/a-series/a7v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 40, "high_hz": 45000 },
+      "power": { "value": 130, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact ADAM Audio A7V official product page: two-way active monitor with one 7-inch Multi-Layer Mineral woofer and one rotatable X-ART tweeter (two transducers). It specifies frequency response of 40 Hz–45 kHz at -6 dB and 130 W total peak internal amplifier power; the latter is recorded only as amplifier_output, not passive-speaker handling or RMS output. Maximum peak SPL of 105 dB per speaker at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -6 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/a-series/a7v/."
+  },
+  {
+    "id": "legacy-adam-6",
+    "model_check": "S2V",
+    "source": "https://www.adam-audio.com/en/s-series/s2v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 35, "high_hz": 50000 },
+      "power": { "value": 350, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 2, "active": true },
+    "notes": "Exact ADAM Audio S2V official product page: two-way active nearfield monitor with one 7-inch Hexacone bass driver and one S-ART tweeter (two transducers). It gives 35 Hz–50 kHz frequency response at -20 dB and internal amplifier ratings of 300 W Class D for the woofer plus 50 W Class A/B for the tweeter; the 350 W RMS sum is stored only as amplifier_output, not passive-speaker power handling. Maximum SPL of at least 120 dB per pair at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -20 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/s-series/s2v/."
+  },
+  {
+    "id": "adam-audio-s3h",
+    "model_check": "S3H",
+    "source": "https://www.adam-audio.com/en/s-series/s3h/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 30, "high_hz": 50000 },
+      "power": { "value": 1350, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 7, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact ADAM Audio S3H official product page: three-way active midfield monitor (optimally horizontal) with two 7-inch ELE woofers, one 4-inch DCH midrange driver and one S-ART tweeter (four transducers). It specifies 30 Hz–50 kHz frequency response at -20 dB; its the official specification table explicitly lists 1,350 W total RMS amplifier output, which is retained as published. The accompanying prose describes 500 W bass + 300 W midrange + 50 W treble without clarifying whether the 500 W bass figure is per driver, so those figures are not summed or used to derive the total. The stated total is stored only as amplifier_output, not passive-speaker power handling. Maximum SPL of at least 126 dB per pair at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -20 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/s-series/s3h/."
+  },
+  {
+    "id": "adam-audio-s3v",
+    "model_check": "S3V",
+    "source": "https://www.adam-audio.com/en/s-series/s3v/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 32, "high_hz": 50000 },
+      "power": { "value": 850, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 9, "unit": "in" }
+    },
+    "scalars": { "driverCount": 3, "active": true },
+    "notes": "Exact ADAM Audio S3V official product page: three-way active midfield monitor with one 9-inch ELE woofer, one 4-inch DCH midrange and one S-ART tweeter (three transducers). It specifies 32 Hz–50 kHz frequency response at -20 dB and internal bass/mid/treble amplifier ratings of 500 W + 300 W + 50 W RMS (850 W total), recorded only as amplifier_output, not passive-speaker power handling. Maximum SPL of at least 124 dB per pair at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -20 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/s-series/s3v/."
+  },
+  {
+    "id": "adam-audio-s5h",
+    "model_check": "S5H",
+    "source": "https://www.adam-audio.com/en/s-series/s5h/",
+    "sourceType": "MANUFACTURER",
+    "category": "studio-monitor",
+    "fields": {
+      "frequencyResponse": { "low_hz": 22, "high_hz": 50000 },
+      "power": { "value": 1100, "unit": "W", "role": "amplifier_output" },
+      "woofer": { "value": 10, "unit": "in" }
+    },
+    "scalars": { "driverCount": 4, "active": true },
+    "notes": "Exact ADAM Audio S5H official product page: three-way active main monitor (designed for horizontal orientation) with two 10-inch ELE woofers, one 4-inch DCH midrange driver and one S-ART tweeter (four transducers). It specifies 22 Hz–50 kHz frequency response at -20 dB and 700 W bass + 300 W midrange + 100 W tweeter amplifier ratings (1,100 W total RMS), stored only as amplifier_output, not passive-speaker power handling. Maximum SPL of at least 131 dB per pair at 1 m is not sensitivity. Sensitivity, driver impedance, free-air resonant frequency and voice-coil size are not published here. The response bounds retain their stated -20 dB context; no response points or directivity dataset is imported. Source: https://www.adam-audio.com/en/s-series/s5h/."
+  }
+]
