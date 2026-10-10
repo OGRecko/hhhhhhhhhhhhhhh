@@ -1,0 +1,60 @@
+[
+  {
+    "id": "apple-homepod",
+    "model_check": "HomePod (2nd gen)",
+    "sourceType": "MANUFACTURER",
+    "source": "https://support.apple.com/en-us/111843",
+    "fields": {
+      "woofer": { "value": 4, "unit": "in", "notes": "Apple tech specs: '4-inch high-excursion woofer'" }
+    },
+    "scalars": { "driverCount": 6 },
+    "notes": "Apple official HomePod (2nd generation) Tech Specs page (support.apple.com/en-us/111843, year introduced 2023): '4-inch high-excursion woofer' and 'Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet'. driverCount 6 = 1 woofer + 5 tweeters as listed in Apple's text. No sensitivity, impedance, power, amplifier, frequency-response or polar data is published on the page, so none is stored. Source: https://support.apple.com/en-us/111843."
+  },
+  {
+    "id": "boston-vr-m50",
+    "model_check": "VR-M50",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml",
+    "fields": {
+      "frequencyResponse": { "low_hz": 59, "high_hz": 20000, "unit": "Hz", "notes": "'Frequency Response: 59Hz to 20kHz' per hifiengine manual-library entry for the 1999 VR-M50; no tolerance (±3 dB or other) and no measurement conditions stated" },
+      "impedance": { "value": 8, "unit": "ohm" },
+      "sensitivity": { "value": 89, "unit": "dB", "reference": "unspecified by source" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Secondary (REPUTABLE_DATABASE): hifiengine.com manual-library entry 'Boston Acoustics VR-M50, 2-Way Loudspeaker System (1999)': type '2 way, 2 driver'; frequency response 59 Hz to 20 kHz; sensitivity 89 dB with no reference condition stated; impedance 8 Ω; crossover 3100 Hz; bass 1 × 135 mm copolymer cone; tweeter 1 × 25 mm dome. The 'recommended amplifier 15 to 150 W' is source text but is not stored (no recommended ranges). A retailer listing quoting 150 W peak and 15 W RMS is not used. No official Boston Acoustics page was reached; the secondary entry is the source. Source: https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml."
+  },
+  {
+    "id": "legacy-mack-6",
+    "model_check": "SRM450",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf",
+    "fields": {
+      "frequencyResponse": { "low_hz": 55, "high_hz": 18000, "unit": "Hz", "notes": "'Frequency Response (-3 dB) 55 Hz-18 kHz' per the SRM450 specification-sheet copy; the same copy also lists '(-10 dB) 45 Hz-20 kHz', which is recorded here in notes only and is not the stored range" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Secondary (REPUTABLE_DATABASE): distributor-hosted copy of the Mackie 'Active 2-Way Sound Reinforcement Speaker System SRM450' specification sheet (fullcompass.com). Stored: -3 dB 55 Hz–18 kHz; -10 dB 45 Hz–20 kHz is noted, not stored. driverCount 2 = one low-frequency driver and one high-frequency driver (two-way active). Not stored: woofer size (the manualslib brochure copy says 12-inch and another copy says 15-inch low-frequency transducer, a conflict), HF power (100 W rms on the spec-sheet copy versus 150 W on the service-manual copy, a conflict), and sensitivity (the sheet lists 98 dB for the LF section and 106 dB for the HF section, with no system figure). The Mackie HR624MK2 is a different revision and is not used. Sources: https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf; https://www.manualslib.com/manual/97211/Mackie-Srm-450.html."
+  },
+  {
+    "id": "totem-model1",
+    "model_check": "Model 1",
+    "sourceType": "REPUTABLE_DATABASE",
+    "source": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",
+    "fields": {
+      "frequencyResponse": { "low_hz": 50, "high_hz": 20000, "unit": "Hz", "notes": "'Frequency response: 50Hz-20kHz ±3dB' per the Stereophile 1995 sidebar; the ±3 dB tolerance is the source's" },
+      "impedance": { "value": 4, "unit": "ohm" },
+      "sensitivity": { "value": 87, "unit": "dB", "reference": "2.83V/1m" }
+    },
+    "scalars": { "driverCount": 2 },
+    "notes": "Secondary (REPUTABLE_DATABASE): Stereophile 'Totem Acoustic Model 1 loudspeaker Specifications' sidebar (1995). Two-way stand-mounted reflex. Sensitivity is written by the source as '87dB/W/m (2.83V)'; it is stored with the 2.83V/1m reference the source states, not relabelled as 1 W/1 m. Nominal impedance 4 Ω. driverCount 2 = 1.2-inch metal-dome tweeter plus 125 mm woofer. Woofer size not stored: a 2001 Signature review ('Model 1 Signature', 5.5-inch midrange/woofer) describes a different driver, so the revision conflicts and the woofer is not fixed. The Signature version is not merged. Amplifier requirements (15 W minimum, 120 W maximum) are source text but are not stored as a recommended range. Source: https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications."
+  },
+  {
+    "id": "cerwin-vega-earthquake",
+    "model_check": "Earthquake",
+    "sourceType": "MANUFACTURER",
+    "source": "https://cerwinvega.ca/products/cerwin-vega-earthquake-18-powered-sub",
+    "fields": {},
+    "scalars": {},
+    "overallStatus": "UNAVAILABLE",
+    "notes": "UNAVAILABLE because the exact product identity cannot be established. The 'Earthquake' name covers at least two different Cerwin-Vega 18-inch subwoofers: the EL-36DP powered (active, 2000 W, 37–673 Hz) model on cerwinvega.ca and the EL-36B passive (106 dB 1 W/1 m, 8 Ω, 30–300 Hz, 1000 W peak) model on a US retailer listing. Their specifications conflict and are not merged. The record has no model-revision or active/passive identifier, so no field is stored. Sources examined (not used as field sources): https://cerwinvega.ca/products/cerwin-vega-earthquake-18-powered-sub; https://www.musiciansfriend.com/pro-audio/cerwin-vega-el-36b-earthquake-18-subwoofer."
+  }
+]

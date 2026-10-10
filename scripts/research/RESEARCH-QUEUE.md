@@ -2,7 +2,7 @@
 
 Generated, not hand-edited. Regenerate with: node scripts/research/make-queue.mjs
 
-Records still needing research: **135** of 774 (60 UNVERIFIED, 75 UNAVAILABLE) across 47 brands.
+Records still needing research: **131** of 774 (55 UNVERIFIED, 76 UNAVAILABLE) across 45 brands.
 
 Rules for every entry: exact model + revision; manufacturer page/manual/datasheet fetched (not a search snippet); populated fields carry their URL; anything unpublished stays N/A. Some discontinued or legacy models will have NO online manufacturer data and must stay UNVERIFIED.
 
@@ -22,11 +22,10 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Peavey | 3 | SP 2 (`peavey-sp2`); 6505 412 (`peavey-6505-412`); 5150 412 (`peavey-5150-412`) |
 | Focal | 3 | Scala Utopia III (`focal-utopia-scala`); Utopia III Scala (`legacy-focal-3`); Shape 80 (`focal-shape-80`) |
 | Klipsch | 3 | Cornwall (`legacy-klip-3`); La Scala (`legacy-klip-4`); RF-8000F (`klipsch-rf-8000f`) |
-| Mackie | 3 | CR3 (`legacy-mack-4`); Thump15 (`legacy-mack-5`); SRM450 (`legacy-mack-6`) |
 | Infinity | 2 | RS-1B (`infinity-rs1`); Kappa 9 (`infinity-kappa-9`) |
 | Cerwin Vega | 2 | D-9 (`cerwin-vega-d9`); Earthquake (`cerwin-vega-earthquake`) |
-| Boston Acoustics | 2 | A150 (`boston-a150`); VR-M50 (`boston-vr-m50`) |
 | KEF | 2 | Ci200 (`legacy-kef-10`); Blade Meta (`kef-blade-meta`) |
+| Mackie | 2 | CR3 (`legacy-mack-4`); Thump15 (`legacy-mack-5`) |
 | Martin Audio | 2 | Wavefront 8 (`legacy-ma-1`); F2 (`legacy-ma-2`) |
 | QSC | 2 | CP15 (`qsc-cp15`); AD-C8T (`qsc-ad-c8t`) |
 | Sony | 2 | Sony BRAVIA Theatre Bar 9 (`sony-sony-bravia-theatre-bar-9`); Sony BRAVIA Theatre Bar 8 (`sony-sony-bravia-theatre-bar-8`) |
@@ -35,6 +34,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Mesa/Boogie | 2 | Rectifier 4x12 (`mesa-boogie-rectifier-4x12`); 2x12 Rectifier (`mesa-boogie-2x12-rectifier`) |
 | PMC | 2 | TB2 (`pmc-tb2`); BB5 (`pmc-bb5-xbd-a`) |
 | KLH | 1 | Model Six (`klh-model-6`) |
+| Boston Acoustics | 1 | A150 (`boston-a150`) |
 | RCF | 1 | ART 312-A MK5 (`rcf-art312a`) |
 | Community | 1 | CS215 (`community-cs215`) |
 | Turbosound | 1 | TCS-115 (`turbosound-tcs-115`) |
@@ -45,10 +45,8 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | Rogers | 1 | LS3/5a (`rogers-ls3-5a`) |
 | Wharfedale | 1 | W60 (`wharfedale-w60`) |
 | Tannoy | 1 | Autograph (`tannoy-autograph`) |
-| Apple | 1 | HomePod (2nd gen) (`apple-homepod`) |
 | Amazon | 1 | Echo (4th gen) (`amazon-echo`) |
 | Genelec | 1 | 7060C (`genelec-7060c`) |
-| Totem Acoustic | 1 | Model 1 (`totem-model1`) |
 | Sonance | 1 | Mariner 6 (`sonance-mariner-6`) |
 | JBL | 1 | Ranger Paragon D44000 (`legacy-jbl-2`) |
 | Yamaha | 1 | VXC series (`legacy-yam-8`) |

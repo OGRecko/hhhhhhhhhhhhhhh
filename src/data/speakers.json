@@ -368,7 +368,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Exact-model identity and two-loudspeaker configuration verified from RadioMuseum; no sensitivity/impedance/frequency-response values are populated because the exact source does not provide them. Source: https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2 Pass-128 check (2026-10-10): Pass-128 check: no exact-model manufacturer source located in this pass; existing driverCount retained as recorded; no acoustic values transferred."
+    "notes": "Exact-model identity and two-loudspeaker configuration verified from RadioMuseum; no sensitivity/impedance/frequency-response values are populated because the exact source does not provide them. Source: https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2 Pass-128 check (2026-10-10): Pass-128 check: no exact-model manufacturer source located in this pass; existing driverCount retained as recorded; no acoustic values transferred. Pass-130 check (2026-10-10): the existing driverCount 2 and identity (RadioMuseum) are retained, but secondary sources conflict. One vintagetechnologyarchive page gives three-way, 45 Hz–20 kHz and 108 dB; another gives two-way, 8 Ω, 12 W RMS (150 W max), and a resale listing gives ~88 dB and 40 W RMS. Revision/era conflicts are unresolved. The driverCount is retained only as the RadioMuseum value and must be re-checked against the 1958–1972 Model Six documentation."
   },
   {
     "id": "bose-901",
@@ -1361,7 +1361,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer listings conflict on impedance (4 vs 8 ohm), power and sensitivity; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer listings conflict on impedance (4 vs 8 ohm), power and sensitivity; none transferred. Pass-130 check (2026-10-10): only resale listings were found (reverb, classified ads) quoting 29 Hz–20 kHz, 101 dB, 8 or 4 Ω and 350 W. No Cerwin-Vega manufacturer page or archive was reached. Nothing stored."
   },
   {
     "id": "bang-olufsen-beovox-s45",
@@ -1609,7 +1609,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer, blog and forum copies conflict between the vintage A150 and the A150 Series 2 / current A150; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer, blog and forum copies conflict between the vintage A150 and the A150 Series 2 / current A150; none transferred. Pass-130 check (2026-10-10): only forum, resale and retailer listings were found, and they conflict (36–25 kHz ±3 dB vs 38 Hz–20 kHz; ~90 dB; 15–150 W vs 100 W). No Boston Acoustics manufacturer source was found. Nothing stored."
   },
   {
     "id": "quad-esl-63",
@@ -9709,23 +9709,26 @@
     "model": "VR-M50",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 89,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml",
+      "sourceType": "REPUTABLE_DATABASE",
+      "reference": "unspecified by source"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 59,
+      "high_hz": 20000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "'Frequency Response: 59Hz to 20kHz' per hifiengine manual-library entry for the 1999 VR-M50; no tolerance (±3 dB or other) and no measurement conditions stated"
     },
     "power": {
       "value": null,
@@ -9735,11 +9738,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml",
+      "sourceType": "REPUTABLE_DATABASE"
     },
     "resonantFreq": {
       "value": null,
@@ -9762,7 +9765,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Only marketplace/aggregator copies (59 Hz-20 kHz, 89 dB, 8 ohm, 150 W peak / 15 W RMS) were found; these are not field sources and none are transferred."
+    "notes": "Secondary (REPUTABLE_DATABASE): hifiengine.com manual-library entry 'Boston Acoustics VR-M50, 2-Way Loudspeaker System (1999)': type '2 way, 2 driver'; frequency response 59 Hz to 20 kHz; sensitivity 89 dB with no reference condition stated; impedance 8 Ω; crossover 3100 Hz; bass 1 × 135 mm copolymer cone; tweeter 1 × 25 mm dome. The 'recommended amplifier 15 to 150 W' is source text but is not stored (no recommended ranges). A retailer listing quoting 150 W peak and 15 W RMS is not used. No official Boston Acoustics page was reached; the secondary entry is the source. Source: https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml."
   },
   {
     "id": "infinity-kappa-9",
@@ -10193,7 +10196,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Manufacturer page not located. Secondary sources conflict across generations (1 or 4 ohm wiring, earlier vs later production, Scintilla vs Scintilla Signature); none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Manufacturer page not located. Secondary sources conflict across generations (1 or 4 ohm wiring, earlier vs later production, Scintilla vs Scintilla Signature); none transferred. Pass-130 check (2026-10-10): secondary sources conflict and are revision-dependent. hifi-advice.com gives 20 Hz (-6 dB)–25 kHz, 79 dB at 3 m and 1 or 4 Ω (1 Ω only after 1996). audio-database.com gives 30 Hz–25 kHz and 1 or 4 Ω. hifi-wiki describes a Scintilla Signature (±3 dB 25 Hz–20 kHz). No manufacturer source was reached. Nothing stored."
   },
   {
     "id": "genelec-8260a",
@@ -12454,7 +12457,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Nothing stored."
   },
   {
     "id": "eaw-kf760",
@@ -13844,7 +13847,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Autograph MINI (MINI-OW) data was located and is not transferable. The full Autograph official page was not located."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Autograph MINI (MINI-OW) data was located and is not transferable. The full Autograph official page was not located. Pass-130 check (2026-10-10): sources found cover the Tannoy Autograph MINI only (88 dB 2.83 V/1 m, 8 Ω, 68 Hz–54 kHz; 106 Hz–20 kHz ±3 dB). The full Autograph is not covered, and Mini data must not be transferred. Nothing stored."
   },
   {
     "id": "ohm-walsh-2",
@@ -14102,7 +14105,7 @@
     "model": "Earthquake",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
+    "overallStatus": "UNAVAILABLE",
     "driverCount": null,
     "active": null,
     "panel": null,
@@ -14155,7 +14158,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Earthquake 18-inch folded-horn variants (powered EL-36DP, passive EL-36D, JE-36 junior) carry different published specs and the catalog row does not identify one; none transferred."
+    "notes": "UNAVAILABLE because the exact product identity cannot be established. The 'Earthquake' name covers at least two different Cerwin-Vega 18-inch subwoofers: the EL-36DP powered (active, 2000 W, 37–673 Hz) model on cerwinvega.ca and the EL-36B passive (106 dB 1 W/1 m, 8 Ω, 30–300 Hz, 1000 W peak) model on a US retailer listing. Their specifications conflict and are not merged. The record has no model-revision or active/passive identifier, so no field is stored. Sources examined (not used as field sources): https://cerwinvega.ca/products/cerwin-vega-earthquake-18-powered-sub; https://www.musiciansfriend.com/pro-audio/cerwin-vega-el-36b-earthquake-18-subwoofer."
   },
   {
     "id": "beolab-5",
@@ -14216,7 +14219,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred. Pass-130 check (2026-10-10): secondary listings (linephaze, eBay, skyfiaudio) give 20 Hz–20 kHz, 108 dB and a 2500 W peak, with generation and variant unresolved. No B&O manufacturer page was reached. Nothing stored."
   },
   {
     "id": "sonos-arc",
@@ -14346,8 +14349,8 @@
     "model": "HomePod (2nd gen)",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 6,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -14393,13 +14396,14 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 4,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://support.apple.com/en-us/111843",
+      "sourceType": "MANUFACTURER",
+      "notes": "Apple tech specs: '4-inch high-excursion woofer'"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred."
+    "notes": "Apple official HomePod (2nd generation) Tech Specs page (support.apple.com/en-us/111843, year introduced 2023): '4-inch high-excursion woofer' and 'Array of five horn-loaded tweeters, each tweeter with its own neodymium magnet'. driverCount 6 = 1 woofer + 5 tweeters as listed in Apple's text. No sensitivity, impedance, power, amplifier, frequency-response or polar data is published on the page, so none is stored. Source: https://support.apple.com/en-us/111843."
   },
   {
     "id": "amazon-echo",
@@ -17697,23 +17701,26 @@
     "model": "Model 1",
     "category": "hifi",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
     "active": null,
     "panel": null,
     "sensitivity": {
-      "value": null,
+      "value": 87,
       "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",
+      "sourceType": "REPUTABLE_DATABASE",
+      "reference": "2.83V/1m"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 50,
+      "high_hz": 20000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "'Frequency response: 50Hz-20kHz ±3dB' per the Stereophile 1995 sidebar; the ±3 dB tolerance is the source's"
     },
     "power": {
       "value": null,
@@ -17723,11 +17730,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 4,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",
+      "sourceType": "REPUTABLE_DATABASE"
     },
     "resonantFreq": {
       "value": null,
@@ -17750,7 +17757,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Manufacturer page for the exact Model 1 not located. Totem's current page is for the Model-1 Signature Center; secondary sources describe Model 1 and Model 1 Signature with different drivers and specs; none transferred."
+    "notes": "Secondary (REPUTABLE_DATABASE): Stereophile 'Totem Acoustic Model 1 loudspeaker Specifications' sidebar (1995). Two-way stand-mounted reflex. Sensitivity is written by the source as '87dB/W/m (2.83V)'; it is stored with the 2.83V/1m reference the source states, not relabelled as 1 W/1 m. Nominal impedance 4 Ω. driverCount 2 = 1.2-inch metal-dome tweeter plus 125 mm woofer. Woofer size not stored: a 2001 Signature review ('Model 1 Signature', 5.5-inch midrange/woofer) describes a different driver, so the revision conflicts and the woofer is not fixed. The Signature version is not merged. Amplifier requirements (15 W minimum, 120 W maximum) are source text but are not stored as a recommended range. Source: https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications."
   },
   {
     "id": "psb-synchrony-t600",
@@ -18001,7 +18008,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Sonance Mariner MX62 and MX66 retailer pages were found; these are not the exact 'Mariner 6' catalog row. No values transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only Sonance Mariner MX62 and MX66 retailer pages were found; these are not the exact 'Mariner 6' catalog row. No values transferred. Pass-130 check (2026-10-10): retailer listings describe different Sonance Mariner models (Mariner MX66, 6-1/2-inch 2-way outdoor), with conflicting specs (50 Hz–20 kHz ±3 dB vs 55 Hz–20 kHz; 89 vs 90 dB; 8 vs 6 Ω). The Mariner 6 record's exact variant is not established. Nothing stored."
   },
   {
     "id": "legacy-jbl-1",
@@ -18991,7 +18998,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact variant not established. The Bowers & Wilkins CWM8 family has several variants (for example CWM8.3 D and CWM8.5 D) with different specs; retailer copies only; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact variant not established. The Bowers & Wilkins CWM8 family has several variants (for example CWM8.3 D and CWM8.5 D) with different specs; retailer copies only; none transferred. Pass-130 check (2026-10-10): the Bowers & Wilkins CWM8i information sheet (archive PDF) describes a different model (the CWM8i, 40 Hz–20 kHz ±3 dB, 90 dB 2.83 V 1 m, 4 Ω). The CWM8.3 D is also a different model. No CWM8 page was found. Nothing stored."
   },
   {
     "id": "legacy-bw-10",
@@ -20970,7 +20977,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored."
   },
   {
     "id": "legacy-mack-5",
@@ -21031,7 +21038,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Retailer copies for Thump15 and Thump15A differ; Mackie official page not located; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Retailer copies for Thump15 and Thump15A differ; Mackie official page not located; none transferred. Pass-130 check (2026-10-10): Mackie Thump15 secondary listings conflict by revision. A zzounds listing for the 'Thump15' gives -3 dB 39 Hz–20 kHz and -10 dB 32 Hz–23 kHz; a Thump15A listing gives 1000 W LF / 300 W HF, 32 Hz–23 kHz and 127 dB; a THUMP15BST listing gives 1300 W total. No Mackie revision was fixed to the record, so nothing is stored."
   },
   {
     "id": "legacy-mack-6",
@@ -21039,8 +21046,8 @@
     "model": "SRM450",
     "category": "pa",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -21051,11 +21058,13 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 55,
+      "high_hz": 18000,
+      "status": "REPUTABLE_DATABASE_VERIFIED",
+      "source": "https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf",
+      "sourceType": "REPUTABLE_DATABASE",
+      "unit": "Hz",
+      "notes": "'Frequency Response (-3 dB) 55 Hz-18 kHz' per the SRM450 specification-sheet copy; the same copy also lists '(-10 dB) 45 Hz-20 kHz', which is recorded here in notes only and is not the stored range"
     },
     "power": {
       "value": null,
@@ -21092,7 +21101,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Third-party copies conflict between SRM450 and SRM450v3 figures; Mackie official page not located; none transferred."
+    "notes": "Secondary (REPUTABLE_DATABASE): distributor-hosted copy of the Mackie 'Active 2-Way Sound Reinforcement Speaker System SRM450' specification sheet (fullcompass.com). Stored: -3 dB 55 Hz–18 kHz; -10 dB 45 Hz–20 kHz is noted, not stored. driverCount 2 = one low-frequency driver and one high-frequency driver (two-way active). Not stored: woofer size (the manualslib brochure copy says 12-inch and another copy says 15-inch low-frequency transducer, a conflict), HF power (100 W rms on the spec-sheet copy versus 150 W on the service-manual copy, a conflict), and sensitivity (the sheet lists 98 dB for the LF section and 106 dB for the HF section, with no system figure). The Mackie HR624MK2 is a different revision and is not used. Sources: https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf; https://www.manualslib.com/manual/97211/Mackie-Srm-450.html."
   },
   {
     "id": "legacy-mack-7",
@@ -22643,7 +22652,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio F2 official page not located; the search returned only the unrelated MartinLogan Foundation F2. No values transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Martin Audio F2 official page not located; the search returned only the unrelated MartinLogan Foundation F2. No values transferred. Pass-130 check (2026-10-10): the search for 'Martin Audio F2' returned MartinLogan Foundation F2 material, which is a different manufacturer's model. No Martin Audio F2 source was found. Nothing stored."
   },
   {
     "id": "legacy-ma-3",
@@ -23196,7 +23205,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open."
   },
   {
     "id": "genelec-8020d",
@@ -39525,7 +39534,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "The exact Bose Home Speaker 300 owner's guide identifies the product on its cover and labels type designation 427374 as a “Powered Speaker” in its regulatory materials; active=true records that explicit manufacturer classification. The guide does not establish a driver count or simulation-ready acoustic specification, so those remain N/A. Source: https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf."
+    "notes": "The exact Bose Home Speaker 300 owner's guide identifies the product on its cover and labels type designation 427374 as a “Powered Speaker” in its regulatory materials; active=true records that explicit manufacturer classification. The guide does not establish a driver count or simulation-ready acoustic specification, so those remain N/A. Source: https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf. Pass-130 check (2026-10-10): the Bose Home Speaker 300 manufacturer PDF (assets.bose.com) gives electrical ratings only (100–240 V, 24 V DC 0.9 A). The driver count and acoustic specs are not published there. Nothing stored."
   },
   {
     "id": "bose-bose-portable-smart-speaker",
@@ -44476,7 +44485,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only retailer copies (87 dB, 4 ohm, 40 Hz-26 kHz, 150 W continuous / 300 W peak) of the TH K2 II A CORO component set were found; no Audison official page located; not field sources; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Only retailer copies (87 dB, 4 ohm, 40 Hz-26 kHz, 150 W continuous / 300 W peak) of the TH K2 II A CORO component set were found; no Audison official page located; not field sources; none transferred. Pass-130 check (2026-10-10): retailer and magazine copies describe the TH K2 II A Coro kit, which conflicts with other variant listings ('Sax Violino' kit; woofer 165 mm vs 50 mm; 87 dB; 4 Ω; 40 Hz–26 kHz; 150 W RMS / 300 W peak). No Audison manufacturer page was reached and the variant is not established. Nothing stored."
   },
   {
     "id": "sonus-faber-lumina-i",
@@ -49783,7 +49792,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mesa official legacy page lists a Standard OS Slant Rectifier 4x12 (Celestion Vintage 30, 240 W, 8 ohm mono / 4 ohm stereo). The catalog row does not specify slant, straight or OS, so the exact variant is not established and no values are entered."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mesa official legacy page lists a Standard OS Slant Rectifier 4x12 (Celestion Vintage 30, 240 W, 8 ohm mono / 4 ohm stereo). The catalog row does not specify slant, straight or OS, so the exact variant is not established and no values are entered. Pass-130 check (2026-10-10): retailer copies (equipboard, GuitarCenter, Thomann) describe a Rectifier Standard 4x12 with four Celestion Vintage 30 speakers, 240 W, 8 Ω mono and 4 Ω stereo. These are not Mesa-official, and straight vs slant variants are not separated. Nothing stored."
   },
   {
     "id": "mesa-boogie-2x12-rectifier",
@@ -49844,7 +49853,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Not established as an exact Mesa/Boogie product in this pass; no values transferred from the 4x12 cabinet."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Not established as an exact Mesa/Boogie product in this pass; no values transferred from the 4x12 cabinet. Pass-130 check (2026-10-10): this record was not individually searched in this pass. No source stored."
   },
   {
     "id": "mesa-boogie-fillmore-2x12",
@@ -50089,7 +50098,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Nothing stored."
   },
   {
     "id": "bang-olufsen-beosound-a5",
@@ -51074,7 +51083,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred."
+    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred. Pass-130 check (2026-10-10): the only frequency data found (17 Hz–25 kHz, 136 kg, 2 x 900 W LF amplification) belongs to the BB5 XBD-A SE (Signature Edition), which is not the record's variant. The SE data is not transferred and the XBD-A vs SE conflict remains open."
   },
   {
     "id": "jbl-708p",

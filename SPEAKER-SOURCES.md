@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 614 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 618 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -1953,6 +1953,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - KEF Reference 105 — sensitivity
 - KEF Reference 105 — woofer size
 
+## https://support.apple.com/en-us/111843
+
+- Apple HomePod (2nd gen) — woofer size
+
 ## https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf
 
 - JBL L100 Century — impedance
@@ -2833,6 +2837,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - Focal Twin6 Be — frequency-response limits
 - Focal Twin6 Be — woofer size
 
+## https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf
+
+- Mackie SRM450 — frequency-response limits
+
 ## https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf
 
 - Electro-Voice ZX4 — frequency-response limits
@@ -3008,6 +3016,12 @@ The source is attached to the exact field it supports. A source URL here does no
 - Tannoy Monitor Gold 15 — power
 - Tannoy Monitor Gold 15 — sensitivity
 - Tannoy Monitor Gold 15 — woofer size
+
+## https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml
+
+- Boston Acoustics VR-M50 — frequency-response limits
+- Boston Acoustics VR-M50 — impedance
+- Boston Acoustics VR-M50 — sensitivity
 
 ## https://www.hifiengine.com/manual_library/pioneer/cs-88a.shtml
 
@@ -3999,6 +4013,12 @@ The source is attached to the exact field it supports. A source URL here does no
 - Snell Acoustics Type A/III — impedance
 - Snell Acoustics Type A/III — sensitivity
 - Snell Acoustics Type A/III — woofer size
+
+## https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications
+
+- Totem Acoustic Model 1 — frequency-response limits
+- Totem Acoustic Model 1 — impedance
+- Totem Acoustic Model 1 — sensitivity
 
 ## https://www.stereophile.com/content/vandersteen-2ce-signature-loudspeaker-specifications
 
