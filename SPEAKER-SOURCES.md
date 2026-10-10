@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 630 unique source URLs are retained for populated fields.
+Generated 2026-10-10 from the authoritative dataset. 631 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -1529,6 +1529,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice Sx100+ — impedance
 - Electro-Voice Sx100+ — power
 - Electro-Voice Sx100+ — woofer size
+
+## https://martin-audio.com/downloads/archive/datasheets/W8datasheet.pdf
+
+- Martin Audio Wavefront 8 — frequency-response limits
+- Martin Audio Wavefront 8 — woofer size
 
 ## https://martin-audio.com/products/archive/w8lm
 

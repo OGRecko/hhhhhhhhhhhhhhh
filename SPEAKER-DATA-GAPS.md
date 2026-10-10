@@ -314,7 +314,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-bose-2 | Bose | 501 | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, frequency-response limits |
 | legacy-bose-6 | Bose | FreeSpace DS 16F | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-bose-7 | Bose | 251 Environmental | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
-| legacy-ma-1 | Martin Audio | Wavefront 8 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-ma-1 | Martin Audio | Wavefront 8 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-ma-2 | Martin Audio | F2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-ma-3 | Martin Audio | W8LM | PARTIALLY_VERIFIED | sensitivity, resonantFreq |
 | legacy-ma-4 | Martin Audio | MLA | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
@@ -700,6 +700,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 655
-**Records with no source-backed acoustic field:** 38
+**Records with at least one source-backed acoustic field:** 656
+**Records with no source-backed acoustic field:** 37
 **Unavailable identities or confirmed non-loudspeaker records:** 0

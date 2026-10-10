@@ -1,0 +1,25 @@
+[
+  {
+    "id": "legacy-ma-1",
+    "model_check": "Wavefront 8",
+    "sourceType": "MANUFACTURER",
+    "source": "https://martin-audio.com/downloads/archive/datasheets/W8datasheet.pdf",
+    "scalars": {
+      "driverCount": 4
+    },
+    "fields": {
+      "frequencyResponse": {
+        "low_hz": 120,
+        "high_hz": 18000,
+        "unit": "Hz",
+        "notes": "+/-3 dB, measured 1 m on axis, per Martin Audio 'W8 Three-way full range system' datasheet ('Frequency response measured 1 metre on axis shall be 120Hz-18kHz +/-3dB'). The datasheet's separate 80 Hz @ -10 dB point is a different criterion and is not stored."
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in",
+        "notes": "Twin 12 in (305 mm) low-mid drivers per the same datasheet ('2 x 12\" (300mm) low-mid horn'). The 12 in figure is per driver."
+      }
+    },
+    "notes": "Identity: the Martin Audio W8/W8S user guide (martin-audio.com/downloads/archive/userguides/W8_EN.pdf) is titled 'WAVEFRONT W8/W8S' and describes the 3-way W8 as a 'Wavefront Touring' enclosure, which ties the datasheet's 'W8' to the record 'Wavefront 8'. W8C and other W8 variants are different products and are not merged. driverCount 4 comes from the datasheet's driver list (2 x 12 in, 6.5 in high-mid, 1 in HF). Not stored: sensitivity (per-band 106/108/107 dB, no single value), rated power (per-band AES figures), impedance (8 ohm LF, 16 ohm high-mid and HF, per band), and the switchable active/passive status (no single active/passive flag). Pass-141 (2026-10-10): manufacturer datasheet plus user-guide identity."
+  }
+]
