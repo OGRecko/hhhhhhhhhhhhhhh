@@ -27306,14 +27306,16 @@
     "panel": null,
     "notes": "Round 3 variant decision: this generic record does not identify the horn/variant suffix (the source manual covers several variants and PI versions). Sensitivity, impedance, power, woofer size and frequency response are therefore UNAVAILABLE until the exact variant is identified; the series-level values from the source are retained in the notes below and are not verified for this record. driverCount (2) and active (false, passive) remain as sourced. Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). Its specification table gives 58 Hz–15 kHz (-3 dB), 48 Hz–20 kHz (-10 dB), 97 dB axial sensitivity at 1 W/1 m, 600 W continuous / 2400 W peak passive handling, 8 Ω nominal (6.2 Ω minimum), one 12-inch DVX3121 LF transducer plus one ND2 HF compression driver, passive/biamp-selectable operation, 131 dB calculated maximum SPL, and a 50 Hz recommended high-pass. The response/sensitivity footnote says half-space measurement. This manual identifies ZX3-60, ZX3-90, PI and finish variants; these structured fields are shared in its series-level specification table. Its numeric response and directivity tables are separately identified for ZX3-60 and ZX3-90, so no variant-specific curve or directivity payload is assigned to the generic ZX3 record. Round 4 suffix check: the generic ZX3 record has no SKU and cannot be matched. Two exact variants exist with different horn coverage: ZX3-60W (SKU EV-F.01U.265.586, 60 x 60 horn; empirepro.com/electro-voice-zx3-60w/) and ZX3-90W (SKU EV-F.01U.265.584, 90 x 50 horn; empirepro.com/products/electro-voice-zx3-90w). Neither is assigned to this record; sensitivity, impedance, power, woofer and frequency response remain UNAVAILABLE.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
     }
   },
   {

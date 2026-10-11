@@ -2,11 +2,83 @@
   "date": "2026-10-11",
   "description": "Round 5 research-queue checks. Structural fields (driverCount, active) were checked against manufacturer pages and recorded with MANUFACTURER_VERIFIED provenance. overallStatus stays UNVERIFIED because no acoustic field was found, so these records remain in the queue.",
   "checked": [
-    {"id": "sonos-one", "url": "https://www.sonos.com/en-us/guides/one", "structural": "driverCount 2 and active true confirmed (specifications table).", "acoustic": "None published: the specifications table gives no sensitivity, impedance, power, or frequency response.", "queue": "Remains UNVERIFIED (no acoustic source)."},
-    {"id": "sonos-five", "url": "https://www.sonos.com/en-us/guides/five", "structural": "driverCount 6 and active true confirmed.", "acoustic": "None published in the specifications table.", "queue": "Remains UNVERIFIED (no acoustic source)."},
-    {"id": "sonos-arc", "url": "https://www.sonos.com/en-us/guides/arc", "structural": "driverCount 11 and active true confirmed.", "acoustic": "None published in the specifications table.", "queue": "Remains UNVERIFIED (no acoustic source)."},
-    {"id": "sonos-beam", "url": "https://www.sonos.com/en-us/guides/beam", "structural": "driverCount 5 and active true confirmed.", "acoustic": "None published in the specifications table.", "queue": "Remains UNVERIFIED (no acoustic source)."},
-    {"id": "sonos-sonos-era-100", "url": "https://www.sonos.com/en-us/guides/era100", "structural": "Not yet checked: the specifications section is not in the chunks fetched so far (chunks 0 and 4 read).", "acoustic": "Not checked.", "queue": "Remains UNVERIFIED."}
+    {
+      "id": "sonos-one",
+      "url": "https://www.sonos.com/en-us/guides/one",
+      "structural": "driverCount 2 and active true confirmed (specifications table).",
+      "acoustic": "None published: the specifications table gives no sensitivity, impedance, power, or frequency response.",
+      "queue": "Remains UNVERIFIED (no acoustic source)."
+    },
+    {
+      "id": "sonos-five",
+      "url": "https://www.sonos.com/en-us/guides/five",
+      "structural": "driverCount 6 and active true confirmed.",
+      "acoustic": "None published in the specifications table.",
+      "queue": "Remains UNVERIFIED (no acoustic source)."
+    },
+    {
+      "id": "sonos-arc",
+      "url": "https://www.sonos.com/en-us/guides/arc",
+      "structural": "driverCount 11 and active true confirmed.",
+      "acoustic": "None published in the specifications table.",
+      "queue": "Remains UNVERIFIED (no acoustic source)."
+    },
+    {
+      "id": "sonos-beam",
+      "url": "https://www.sonos.com/en-us/guides/beam",
+      "structural": "driverCount 5 and active true confirmed.",
+      "acoustic": "None published in the specifications table.",
+      "queue": "Remains UNVERIFIED (no acoustic source)."
+    },
+    {
+      "id": "sonos-sonos-era-100",
+      "url": "https://www.sonos.com/en-us/guides/era100",
+      "structural": "Not yet checked: the specifications section is not in the chunks fetched so far (chunks 0 and 4 read).",
+      "acoustic": "Not checked.",
+      "queue": "Remains UNVERIFIED."
+    },
+    {
+      "id": "electro-voice-zx3",
+      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "structural": "driverCount 2 and active false recorded (manual: 'Passive and biamp selectable').",
+      "acoustic": "Manual spec table (97 dB axial, 8 ohm nominal, 6.2 ohm minimum, 58 Hz-15 kHz, 600 W passive) covers BOTH Zx3-60 and Zx3-90 with variant-specific response curves. The generic ZX3 record has no variant, so no acoustic values were assigned (owner decision: exact variant match only).",
+      "queue": "Remains UNVERIFIED for acoustic fields until the record is split to exact variants (owner decision)."
+    },
+    {
+      "id": "electro-voice-zx5",
+      "url": "https://www.adorama.com/col/productManuals/EVZX560B.pdf",
+      "structural": "Not recorded.",
+      "acoustic": "The only manual found is a retailer-hosted copy with OCR artifacts and unrelated text (e.g. 'Manufacturer: Blasenheim'). Not authenticated, so not used.",
+      "queue": "Remains UNVERIFIED: no authenticated official ZX5 manual reached."
+    },
+    {
+      "id": "pmc-tb2",
+      "url": "https://pmc-speakers.com/products/archive/archive/tb2plus/",
+      "structural": "Not recorded.",
+      "acoustic": "The reachable PMC page is the TB2+ (a different revision: 90 dB, 8 ohm, 170 mm LF, 27 mm HF, 3 kHz crossover, 8.5 kg). Not transferred to the TB2 record.",
+      "queue": "Remains UNVERIFIED: no TB2 (non-plus) page reached."
+    },
+    {
+      "id": "tannoy-autograph",
+      "url": "https://www.tannoy.com/products/autograph",
+      "structural": "Not recorded.",
+      "acoustic": "Guessed URL returned 404. The record has no recorded source.",
+      "queue": "Remains UNVERIFIED: needs a working manufacturer URL."
+    },
+    {
+      "id": "morel-maximo-ultra-602",
+      "url": "https://www.morelhifi.com/maximo-ultra-602",
+      "structural": "Not recorded.",
+      "acoustic": "Guessed URL returned a 404 page.",
+      "queue": "Remains UNVERIFIED: needs the correct manufacturer product URL."
+    },
+    {
+      "id": "apogee-scintilla",
+      "url": "https://www.apogee-acoustics.com/products/scintilla",
+      "structural": "Not recorded.",
+      "acoustic": "Fetch failed.",
+      "queue": "Remains UNVERIFIED: retry needed with a verified URL."
+    }
   ],
-  "note_on_queue_count": "The queue still lists 35 records because the derivation (apply-batch.mjs) only clears UNVERIFIED with a sourced acoustic field. Structural checks do not change the count."
+  "note_on_queue_count": "Round 5: electro-voice-zx3 gained structural provenance (driverCount, active). Its acoustic values are variant-specific and were not assigned. The queue count stays at 35 because overallStatus is derived from acoustic fields only."
 }

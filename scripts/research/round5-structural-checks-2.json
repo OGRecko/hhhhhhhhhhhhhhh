@@ -1,0 +1,4 @@
+[
+ {"id":"electro-voice-zx3","field":"driverCount","value":2,"url":"https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf","evidence":"Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."},
+ {"id":"electro-voice-zx3","field":"active","value":false,"url":"https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf","evidence":"Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."}
+]
