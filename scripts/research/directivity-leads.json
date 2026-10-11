@@ -3,19 +3,25 @@
     "id": "bose-designmax-dm3se",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact-model Bose Professional DM3SE TDS provides frequency-dependent horizontal/vertical beamwidth values, measured in whole space. Beamwidth alone is not an angular polar-response dataset and cannot be converted to the solver input without inventing a radiation shape. No directivity payload is imported; the independently published on-axis response table is retained separately with context.",
-    "page": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf"
+    "page": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+    "round3Classification": "BEAMWIDTH_TABLE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "bose-designmax-dm6se",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact-model Bose Professional DM6SE TDS provides frequency-dependent horizontal/vertical beamwidth values, measured in whole space. Beamwidth alone is not an angular polar-response dataset and cannot be converted to the solver input without inventing a radiation shape. No directivity payload is imported; the independently published on-axis response table is retained separately with context.",
-    "page": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf"
+    "page": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+    "round3Classification": "BEAMWIDTH_TABLE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "bose-designmax-dm8se",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact-model Bose Professional DM8SE TDS provides frequency-dependent horizontal/vertical beamwidth values, measured in whole space. Beamwidth alone is not an angular polar-response dataset and cannot be converted to the solver input without inventing a radiation shape. No directivity payload is imported; the independently published on-axis response table is retained separately with context.",
-    "page": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf"
+    "page": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+    "round3Classification": "BEAMWIDTH_TABLE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "bose-freespace-ds100se",
@@ -23,7 +29,9 @@
     "note": "Bose Professional’s official resource page lists the exact FreeSpace DS 100SE and links CLF and EASE archives dated July 2010. The archives were not downloaded or inspected, so exact entries and measurement conventions are not yet established. No polar/directivity dataset is imported; nominal 180° × 75° coverage and TDS beamwidth/DI values are not converted into angular response.",
     "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
     "clf": "https://assets.boseprofessional.com/m/79c75b9d64f3f8e7/original/clf_bose_products_july2010.zip",
-    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip"
+    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip",
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "bose-freespace-ds16s",
@@ -31,19 +39,25 @@
     "note": "Bose Professional’s official resource page lists the exact FreeSpace DS 16S (and separate DS 16SE) and links CLF and EASE archives dated July 2010. The archives were not downloaded or inspected, so exact entries/variant applicability and measurement conventions are not yet established. No polar/directivity dataset is imported; nominal 170° × 160° coverage and TDS beamwidth/DI values are not converted into angular response.",
     "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
     "clf": "https://assets.boseprofessional.com/m/79c75b9d64f3f8e7/original/clf_bose_products_july2010.zip",
-    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip"
+    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip",
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "bose-l1-compact",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact-model Bose L1 Compact TDS contains manufacturer-published horizontal and vertical 1/3-octave polar tables for selected low-frequency (100/125/160 Hz) and high-frequency (12.5/16 kHz) bands. These are genuine speaker-specific data but sparse across frequency, and the current speaker-record audit rejects embedded polar/directivity fields. They are not imported; the source TDS remains pinned for future schema-supported use.",
-    "page": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf"
+    "page": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+    "round3Classification": "PARTIAL_POLAR_TABLE_SELECTED_BANDS",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "bose-sub1",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact-model Bose Sub1 TDS describes omnidirectional nominal horizontal coverage and a -10 dB rear-rejection Cardioid mode that requires multiple-sub deployment. It does not provide a complete angular polar table for one Sub1 in ordinary operation; the multi-sub mode is not assigned as intrinsic single-speaker directivity. No directivity payload is imported.",
-    "page": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf"
+    "page": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "dandb-t10",
@@ -52,13 +66,17 @@
     "page": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
     "sources": [
       "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "electro-voice-sx600",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact Sx600 manufacturer datasheet publishes frequency-dependent -6 dB beamwidth and DI/Q tables for the Sx600PI/Sx600PIX system, with EN 54-24 anechoic measurement context. These aggregate angular constraints are not a complete angle-resolved polar response accepted by the current speaker-record schema; no directivity payload or radiation shape is synthesized. The exact on-axis response SPL table is retained separately in the speaker record with its context.",
-    "page": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf"
+    "page": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+    "round3Classification": "AGGREGATE_DI_BEAMWIDTH_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "electro-voice-evf-1152d",
@@ -71,7 +89,9 @@
       "https://products.electrovoice.com/binary/EVF-1152D_66_EDS_en.pdf",
       "https://products.electrovoice.com/binary/EVF-1152D_94_EDS_en.pdf",
       "https://products.electrovoice.com/binary/EVF-1152D_96_EDS_en.pdf"
-    ]
+    ],
+    "round3Classification": "VARIANT_UNRESOLVED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "electro-voice-zx1i",
@@ -81,25 +101,33 @@
     "sources": [
       "https://assets.electrovoicedynacord.com/asset/d6446dc1-757d-4ff5-b7bd-89f57d61dc9b/ZX1i-90-Engineering-Data-Sheet.pdf",
       "https://assets.electrovoicedynacord.com/asset/bedc6858-ea22-4e81-837b-6583f63c68be/ZX1i-100-Engineering-Data-Sheet.pdf"
-    ]
+    ],
+    "round3Classification": "PUBLISHED_TABLES_VARIANT_UNRESOLVED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "electro-voice-zx3",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The Electro-Voice Zx3 Owner's Manual contains numeric frequency-response, beamwidth, directivity-index/factor and off-axis response tables, with response/directivity tables distinguished for ZX3-60 and ZX3-90 variants. The database row is the unsuffixed ZX3, so no horn-specific curve or directivity is assigned. Source is the manufacturer manual hosted at the URL below; the current speaker-record schema/audit does not accept an embedded polar/directivity payload.",
-    "page": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf"
+    "page": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+    "round3Classification": "PUBLISHED_TABLES_VARIANT_UNRESOLVED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "electro-voice-zx4",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The exact ZX4 manufacturer Engineering Data Sheet (Part Number 38110416 Rev D, 12/2010) publishes numeric horizontal/vertical beamwidth and directivity-index/factor tables. These are not a full angular polar response set in the format accepted by the solver, so they were not converted or imported as directivity. The same sheet's independently tabulated half-space response values are imported with their own source/context in the speaker record.",
-    "page": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf"
+    "page": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+    "round3Classification": "BEAMWIDTH_DI_TABLES_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "electro-voice-zx5",
     "status": "LEAD_NOT_IMPORTED",
     "note": "The Electro-Voice Zx5 Series Owner's Manual (Part Number 38110-355 Rev E, 01/2007) publishes numeric response, beamwidth and directivity tables separately for ZX5-60 and ZX5-90. The database row lacks a horn suffix, so no variant-specific response or directivity is assigned. The current speaker-record schema/audit does not accept an embedded polar/directivity payload.",
-    "page": "https://www.adorama.com/col/productManuals/EVZX560B.pdf"
+    "page": "https://www.adorama.com/col/productManuals/EVZX560B.pdf",
+    "round3Classification": "PUBLISHED_TABLES_VARIANT_UNRESOLVED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "genelec-8361a",
@@ -107,7 +135,9 @@
     "note": "Genelec publishes simulation files for this exact model on its official page. Not imported: the project has no CLF/GLL parser or storage format yet, and the files were not downloaded or inspected.",
     "page": "https://www.genelec.com/8361a",
     "clf": "https://assets.ctfassets.net/4zjnzn055a4v/6KHnixRmie8DrWCbGh6OlL/82346384e3cc6bc240e010163d33a440/8361A.CF2",
-    "gll": "https://assets.ctfassets.net/4zjnzn055a4v/BSyaCbIQUTKM1d8rbc6lg/7199667c6ca6a2b766fe7c90c0d002b0/Genelec_8361A.gll"
+    "gll": "https://assets.ctfassets.net/4zjnzn055a4v/BSyaCbIQUTKM1d8rbc6lg/7199667c6ca6a2b766fe7c90c0d002b0/Genelec_8361A.gll",
+    "round3Classification": "SIMULATION_FILE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-4310",
@@ -116,7 +146,9 @@
     "page": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
     "sources": [
       "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-4311",
@@ -125,7 +157,9 @@
     "page": "https://jblpro.com/en-US/site_elements/4311-information",
     "sources": [
       "https://jblpro.com/en-US/site_elements/4311-information"
-    ]
+    ],
+    "round3Classification": "OFF_AXIS_LIMITS_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-4312",
@@ -134,7 +168,9 @@
     "page": "https://audio-database.com/JBL/speaker/4312-e.html",
     "sources": [
       "https://audio-database.com/JBL/speaker/4312-e.html"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-4350",
@@ -143,7 +179,9 @@
     "page": "https://audio-database.com/JBL/speaker/4350.html",
     "sources": [
       "https://audio-database.com/JBL/speaker/4350.html"
-    ]
+    ],
+    "round3Classification": "AGGREGATE_ANGLES_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-4412",
@@ -152,7 +190,9 @@
     "page": "https://jblpro.com/en-US/site_elements/4412-information",
     "sources": [
       "https://jblpro.com/en-US/site_elements/4412-information"
-    ]
+    ],
+    "round3Classification": "PARTIAL_TABLES_AND_GRAPHS",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-4430",
@@ -161,7 +201,9 @@
     "page": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
     "sources": [
       "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
-    ]
+    ],
+    "round3Classification": "PARTIAL_TABLES_AND_GRAPHS",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-control-30",
@@ -171,7 +213,9 @@
     "sources": [
       "https://jblpro.com/en-US/products/control-30",
       "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf"
-    ]
+    ],
+    "round3Classification": "PUBLISHED_POLAR_CHARTS_AND_TABLES",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-l19",
@@ -180,7 +224,9 @@
     "page": "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf",
     "sources": [
       "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf"
-    ]
+    ],
+    "round3Classification": "SINGLE_VALUE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-lsr32",
@@ -189,7 +235,9 @@
     "page": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
     "sources": [
       "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual"
-    ]
+    ],
+    "round3Classification": "TARGET_WINDOW_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-srx815",
@@ -200,7 +248,9 @@
       "https://jblpro.com/en-US/products/srx815",
       "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
       "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw99912afa/pdfs/JBL_SRX815_SpecSheet_8%2013%2015.pdf"
-    ]
+    ],
+    "round3Classification": "SUPERSEDED_TABLES_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "jbl-vrx932",
@@ -210,13 +260,17 @@
     "sources": [
       "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
       "https://www.avc-group.com/assets/products/JBL/manuals/jbl-um-vrx900series.pdf"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "kef-reference-1",
     "status": "LEAD_NOT_IMPORTED",
     "note": "SoundStage publishes exact-model National Research Council measurement plots for the pre-Meta KEF Reference 1: on-axis and off-axis responses at 0°, 15°, 30°, 45°, 60° and 75°, plus a listening-window average, with grille off and the long port installed. The page documents measurement distance, normalization, and sensitivity context, but provides raster charts rather than numeric samples. No chart points were digitized and no directivity/response dataset was imported; retain as a measured-source lead only.",
-    "page": "https://www.soundstagenetwork.com/index.php?option=com_content&view=article&id=1298:nrc-measurements-kef-reference-1&catid=77&Itemid=153"
+    "page": "https://www.soundstagenetwork.com/index.php?option=com_content&view=article&id=1298:nrc-measurements-kef-reference-1&catid=77&Itemid=153",
+    "round3Classification": "THIRD_PARTY_CHART_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-bose-6",
@@ -224,14 +278,18 @@
     "note": "Bose Professional’s official resource page lists the exact FreeSpace DS 16F and links CLF and EASE archives dated July 2010. The archives were not downloaded or inspected, so their contents and measurement conventions remain unverified. No polar/directivity dataset is imported; nominal 140° conical coverage and TDS beamwidth/DI values are not converted into angular response.",
     "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
     "clf": "https://assets.boseprofessional.com/m/79c75b9d64f3f8e7/original/clf_bose_products_july2010.zip",
-    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip"
+    "ease": "https://assets.boseprofessional.com/m/36dca3e41f45b4d5/original/ease_bose_products_july2010.zip",
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-gen-9",
     "status": "LEAD_NOT_IMPORTED",
     "note": "Genelec publishes a CLF file for this exact model on its official page. Not downloaded or inspected; no CLF parser exists in the project yet.",
     "page": "https://www.genelec.com/1237a",
-    "clf": "https://assets.ctfassets.net/4zjnzn055a4v/ZtlepnTZComovfoo8azqQ/944ea7dd0fc0dbb15c82575a68908963/Genelec_Oy-1237A.CF2"
+    "clf": "https://assets.ctfassets.net/4zjnzn055a4v/ZtlepnTZComovfoo8azqQ/944ea7dd0fc0dbb15c82575a68908963/Genelec_Oy-1237A.CF2",
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-jbl-1",
@@ -240,7 +298,9 @@
     "page": "https://audio-database.com/JBL/unit/d130.html",
     "sources": [
       "https://audio-database.com/JBL/unit/d130.html"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-jbl-11",
@@ -250,7 +310,9 @@
     "sources": [
       "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",
       "https://jblpro.com/en-US/products/control-25"
-    ]
+    ],
+    "round3Classification": "PUBLISHED_TABLES_AND_PLOTS",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-jbl-3",
@@ -259,7 +321,9 @@
     "page": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
     "sources": [
       "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf"
-    ]
+    ],
+    "round3Classification": "DUPLICATE_RECORD",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-jbl-5",
@@ -268,7 +332,9 @@
     "page": "https://jblpro.com/en-US/site_elements/4311-information",
     "sources": [
       "https://jblpro.com/en-US/site_elements/4311-information"
-    ]
+    ],
+    "round3Classification": "DUPLICATE_RECORD",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-jbl-6",
@@ -277,7 +343,9 @@
     "page": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
     "sources": [
       "https://jblpro.com/en-US/site_elements/4430-and-4435-information"
-    ]
+    ],
+    "round3Classification": "DUPLICATE_RECORD",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-ma-3",
@@ -287,7 +355,9 @@
     "sources": [
       "https://martin-audio.com/products/archive/w8lm",
       "https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf"
-    ]
+    ],
+    "round3Classification": "PARTIAL_NUMERIC_TABLE",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "nexo-ps15",
@@ -296,7 +366,9 @@
     "page": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
     "sources": [
       "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf"
-    ]
+    ],
+    "round3Classification": "BROCHURE_CURVES_AGGREGATE",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "rcf-nx45a",
@@ -305,7 +377,9 @@
     "page": "https://www.rcf.it/en/products/product-detail/nx-45-a",
     "sources": [
       "https://www.rcf.it/en/products/product-detail/nx-45-a"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "adamson-e15",
@@ -316,7 +390,9 @@
     "sources": [
       "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
       "https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data"
-    ]
+    ],
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "void-air-8",
@@ -326,7 +402,9 @@
     "sources": [
       "https://voidacoustics.com/wp-content/uploads/TD10706-2.0-Void-Acoustics-Air-8-Spec-Sheet.pdf",
       "https://d181c7pevbxova.cloudfront.net/media/support-materials/pdfs/Void%20Technical%20Public/Specification%20Sheets/Air%20Series/Air_8_Specification_Sheet.pdf"
-    ]
+    ],
+    "round3Classification": "LINK_NOT_FOUND",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "danley-sh96",
@@ -338,7 +416,9 @@
     "sources": [
       "https://www.danleysoundlabs.com/products/sh96/",
       "https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf"
-    ]
+    ],
+    "round3Classification": "ARCHIVE_HTTP_500",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "eaw-kf760",
@@ -350,7 +430,9 @@
       "https://eaw.com/ease-data/",
       "https://eaw.com/eaw-adds-ease-gll-and-q-sys-plugins/",
       "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf"
-    ]
+    ],
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "funktion-one-res2",
@@ -361,7 +443,9 @@
       "https://funktion-one.com/product/res-2/",
       "https://funktion-one.com/downloads/",
       "https://funktion-one.com/product/res-2sh/"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "lacoustics-arcs",
@@ -376,7 +460,9 @@
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CATT%20database/documents.zip",
       "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-la-1",
@@ -388,7 +474,9 @@
       "https://www.l-acoustics.com/archives-product/",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/dV-DOSC/documents.zip",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip"
-    ]
+    ],
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-la-2",
@@ -401,7 +489,9 @@
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS%20WIFO/documents.zip",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCSII/documents.zip",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip"
-    ]
+    ],
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-la-3",
@@ -414,7 +504,9 @@
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/Karai/documents.zip",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CLF%20database/documents.zip",
       "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/CATT%20database/documents.zip"
-    ]
+    ],
+    "round3Classification": "ARCHIVE_NOT_INSPECTED",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "legacy-la-7",
@@ -425,7 +517,9 @@
       "https://www.l-acoustics.com/products/x15-hiq/",
       "https://www.l-acoustics.com/loudspeakers/x-series/",
       "https://www.l-acoustics.com/archives-product/"
-    ]
+    ],
+    "round3Classification": "NOMINAL_COVERAGE_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "ik-multimedia-iloud-mtm",
@@ -435,7 +529,9 @@
     "sources": [
       "https://www.audiosciencereview.com/forum/index.php?threads/ik-multimedia-iloud-mtm-review-active-monitor.18347/",
       "https://www.ikmultimedia.com/news/?id=iloudmtm"
-    ]
+    ],
+    "round3Classification": "MEASURED_DATASET_INACCESSIBLE",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "psb-synchrony-t600",
@@ -445,18 +541,24 @@
     "sources": [
       "https://www.stereophile.com/content/psb-synchrony-t600-loudspeaker-measurements",
       "https://www.psbspeakers.com/products/synchrony-t600-tower"
-    ]
+    ],
+    "round3Classification": "THIRD_PARTY_CHART_ONLY",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "genelec-8331a",
     "status": "LEAD_NOT_IMPORTED",
     "note": "Exact model Genelec 8331A is covered by the Aalto University / ENSEA 'Sound-source directivity dataset for four loudspeakers' (Zenodo record 10255555, published 2023-12-04): 6,480 anechoic IR measurements of the 8331A (elevation -80 to 90 deg in 10-deg steps, azimuth 0-359 deg in 1-deg steps) as SOFA AES69-2015 (LS_directivity_Calibrated_GENELEC_8331A.sofa, 410.5 MB) and as per-direction WAV files (Genelec_8331A.zip, 465.6 MB). The record is a measured directivity set for the exact model. The Zenodo page as fetched does not state a licence; a third-party GitHub issue asserts CC BY 4.0, which is not relied on, so rights review is required before import. No payload is imported: the files are too large for the repository and the solver input would require a directivity-ingest step that does not exist in the project yet. The 8331A is an active three-way monitor; the dataset records measurement distance and reference axis in the azimuth_elevation.pdf and the accompanying paper (Gallien, Prawda, Schlecht, AES ASR 2024).",
-    "page": "https://zenodo.org/records/10255555"
+    "page": "https://zenodo.org/records/10255555",
+    "round3Classification": "MEASURED_DATASET_ACCESSIBLE_NOT_DOWNLOADABLE",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   },
   {
     "id": "genelec-8331a-measurement",
     "status": "LEAD_NOT_IMPORTED",
     "note": "Independent measurement (not manufacturer): Erin's Audio Corner / spinorama.org page for the Genelec 8331A: on-axis, listening window, early reflections, sound power and estimated in-room response, data generated by a Klippel NFS (near-field scan). The page states -6 dB point 43.9 Hz relative to its reference normalisation and a 'Vendor specifications' block listing only SPL peak 104 dB, size and weight. The spinorama data files are downloadable from the project repository, but the measurement reference distance/window conditions and the normalisation used to publish the curve were not confirmed from the fetched page, so no points are imported. Vendor -6 dB range 45 Hz-37 kHz (Genelec, already stored) is not replaced by this measurement.",
-    "page": "https://www.spinorama.org/speakers/Genelec%208331A/ErinsAudioCorner/index_eac.html"
+    "page": "https://www.spinorama.org/speakers/Genelec%208331A/ErinsAudioCorner/index_eac.html",
+    "round3Classification": "MEASURED_DATASET_INACCESSIBLE",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
   }
 ]

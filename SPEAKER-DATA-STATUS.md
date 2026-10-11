@@ -22,7 +22,7 @@ The live authoritative dataset contains **693 active catalog records**; the revi
 - Of these, THIRD_PARTY_VERIFIED (retailer or third-party copy of an exact-model spec, not a manufacturer page): 17 field(s) on 10 record(s)
 
 ## Response-model policy
-- Embedded source-backed response-point datasets: 27 (measurement 5, manufacturer 22, reputable database 0)
+- Embedded source-backed response-point datasets: 27 (measurement 0, manufacturer 27, reputable database 0)
 - Models derived from published frequency limits: 530
 - Generic reference models with missing published bounds: 136
 - No synthesized curve is represented as a laboratory measurement.

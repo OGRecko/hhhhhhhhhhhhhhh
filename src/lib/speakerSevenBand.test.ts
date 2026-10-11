@@ -37,10 +37,11 @@ for (const id of IDS) {
   });
 }
 
-check("Klipsch Forte uses its sourced on-axis table as measured shape while sensitivity remains the separate level reference", () => {
+check("Klipsch Forte uses its sourced on-axis table as published shape while sensitivity remains the separate level reference", () => {
   const forte: any = getSpeakerById('legacy-klip-5');
   const model = getSpeakerResponseModel(forte);
-  assert(model.provenance === 'measurement', `expected measurement, got ${model.provenance}`);
+  // Round 3: the Klipsch brochure table is manufacturer-published, so its provenance is 'manufacturer', not 'measurement'.
+  assert(model.provenance === 'manufacturer', `expected manufacturer, got ${model.provenance}`);
   assert(model.isMeasuredOrManufacturer, 'verified manufacturer-published measurement is explicit');
   assert(model.points.length === 28, `expected all 28 published response points, got ${model.points.length}`);
   assert(model.low_hz === 20 && model.high_hz === 20000, 'measurement span remains separate from the published 32 Hz bandwidth limit');

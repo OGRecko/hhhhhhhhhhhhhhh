@@ -594,8 +594,9 @@ check("Klipsch research retains exact revision sources and does not merge siblin
   nodeAssert.equal(forte?.sensitivity.reference, "1W/1m");
   nodeAssert.equal(forte?.frequencyResponse.low_hz, 32);
   nodeAssert.equal(forte?.frequencyResponse.points?.length, 28);
-  nodeAssert.equal(forte?.frequencyResponse.pointsSourceType, "MEASUREMENT");
-  nodeAssert.equal(forte?.frequencyResponse.pointsStatus, "MEASUREMENT_VERIFIED");
+  // Round 3: the Klipsch brochure table is manufacturer-published, not an independent measurement dataset.
+  nodeAssert.equal(forte?.frequencyResponse.pointsSourceType, "MANUFACTURER");
+  nodeAssert.equal(forte?.frequencyResponse.pointsStatus, "MANUFACTURER_VERIFIED");
   nodeAssert.equal(forte?.frequencyResponse.pointsSource, "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf");
   nodeAssert.match(forte?.frequencyResponse.pointsContext ?? "", /on-axis.*1 m.*0 = 100 dB SPL/i);
   nodeAssert.match(forte?.notes ?? "", /conflicts with its tabulated low-frequency values/i);

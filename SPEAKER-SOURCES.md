@@ -250,7 +250,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice ELX200-15 — impedance
 - Electro-Voice ELX200-15 — power
 - Electro-Voice ELX200-15 — sensitivity
-- Electro-Voice ELX200-15 — source-backed response points (measurement)
+- Electro-Voice ELX200-15 — source-backed response points (manufacturer)
 - Electro-Voice ELX200-15 — woofer size
 
 ## https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf
@@ -265,7 +265,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice ELX200-12 — impedance
 - Electro-Voice ELX200-12 — power
 - Electro-Voice ELX200-12 — sensitivity
-- Electro-Voice ELX200-12 — source-backed response points (measurement)
+- Electro-Voice ELX200-12 — source-backed response points (manufacturer)
 - Electro-Voice ELX200-12 — woofer size
 
 ## https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf
@@ -304,7 +304,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice ELX200-12S — impedance
 - Electro-Voice ELX200-12S — power
 - Electro-Voice ELX200-12S — sensitivity
-- Electro-Voice ELX200-12S — source-backed response points (measurement)
+- Electro-Voice ELX200-12S — source-backed response points (manufacturer)
 - Electro-Voice ELX200-12S — woofer size
 
 ## https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf
@@ -339,7 +339,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice ELX200-10 — impedance
 - Electro-Voice ELX200-10 — power
 - Electro-Voice ELX200-10 — sensitivity
-- Electro-Voice ELX200-10 — source-backed response points (measurement)
+- Electro-Voice ELX200-10 — source-backed response points (manufacturer)
 - Electro-Voice ELX200-10 — woofer size
 
 ## https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf
@@ -444,7 +444,7 @@ The source is attached to the exact field it supports. A source URL here does no
 - Klipsch Forte — impedance
 - Klipsch Forte — power
 - Klipsch Forte — sensitivity
-- Klipsch Forte — source-backed response points (measurement)
+- Klipsch Forte — source-backed response points (manufacturer)
 - Klipsch Forte — woofer size
 
 ## https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf

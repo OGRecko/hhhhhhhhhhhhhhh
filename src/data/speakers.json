@@ -5558,7 +5558,7 @@
       "source": "https://www.focal.com/it/prodotti/sopra-n2",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source."
+    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source. Round 3 decision: the 91 dB sensitivity is provisional and source-attributed only; it is not confirmed by an accessible authoritative source with a measurement reference, and it is not used in calculations that require an unknown reference (the simulator falls back to its neutral sensitivity)."
   },
   {
     "id": "klipsch-rp8000f",
@@ -11785,7 +11785,7 @@
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Danley's exact-model 2012 SH96 sheet prints these raw values in a table titled 'SH96 outside tds (dB, Pascals)' and prints phase separately. Values are transcribed as published; the sheet does not specify the table's smoothing, microphone distance, drive level, or on-axis setup. Do not treat them as absolute SPL or infer those conditions."
+      "pointsContext": "Danley's exact-model 2012 SH96 sheet prints these raw values in a table titled 'SH96 outside tds (dB, Pascals)' and prints phase separately. Values are transcribed as published; the sheet does not specify the table's smoothing, microphone distance, drive level, or on-axis setup. Do not treat them as absolute SPL or infer those conditions. Round 3 units decision: the printed units 'dB, Pascals' are preserved as published; the reference (dB re 1 Pa or otherwise) and the conversion to SPL are not established by the source. The simulator uses these points for curve shape only (normalized at 1 kHz) and takes absolute level from the verified sensitivity field, so the values are not used as calibrated dB SPL."
     },
     "power": {
       "value": 1400,
@@ -18629,10 +18629,10 @@
           "db": -3.5
         }
       ],
-      "pointsStatus": "MEASUREMENT_VERIFIED",
+      "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf",
-      "pointsSourceType": "MEASUREMENT",
-      "pointsContext": "Klipsch-published on-axis frequency-response table; measured at 1 m; table heading states dB with 0 = 100 dB SPL. These are the source's tabulated values, retained without curve fitting."
+      "pointsSourceType": "MANUFACTURER",
+      "pointsContext": "Klipsch-published on-axis frequency-response table; measured at 1 m; table heading states dB with 0 = 100 dB SPL. These are the source's tabulated values, retained without curve fitting. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
     },
     "power": {
       "value": 100,
@@ -22567,10 +22567,10 @@
           "db": 87
         }
       ],
-      "pointsStatus": "MEASUREMENT_VERIFIED",
+      "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
-      "pointsSourceType": "MEASUREMENT",
-      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied every nonblank response row from 30 Hz through 20 kHz; the 20 Hz and 25 Hz response cells are blank and were omitted. No interpolation or curve fitting. The sheet also lists a 55 Hz high-pass setting; no correction is applied. At 1 kHz the table gives 89.5 dB, consistent with the separately stated rounded 90 dB sensitivity; the runtime normalizes at 1 kHz for response shape."
+      "pointsSourceType": "MANUFACTURER",
+      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied every nonblank response row from 30 Hz through 20 kHz; the 20 Hz and 25 Hz response cells are blank and were omitted. No interpolation or curve fitting. The sheet also lists a 55 Hz high-pass setting; no correction is applied. At 1 kHz the table gives 89.5 dB, consistent with the separately stated rounded 90 dB sensitivity; the runtime normalizes at 1 kHz for response shape. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
     },
     "driverCount": 2,
     "panel": null,
@@ -22756,10 +22756,10 @@
           "db": 82
         }
       ],
-      "pointsStatus": "MEASUREMENT_VERIFIED",
+      "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
-      "pointsSourceType": "MEASUREMENT",
-      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 30 nonblank tabulated rows from 25 Hz through 20 kHz without interpolation or curve fitting; the sheet also lists a 50 Hz high-pass setting adjacent to the table. These are source-condition SPL/sensitivity values, not normalized; runtime subtracts the interpolated 1 kHz level only to use curve shape, while the separate 93 dB at 1 W/1 m field retains absolute sensitivity. No filter correction or unfiltered-response claim is made."
+      "pointsSourceType": "MANUFACTURER",
+      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 30 nonblank tabulated rows from 25 Hz through 20 kHz without interpolation or curve fitting; the sheet also lists a 50 Hz high-pass setting adjacent to the table. These are source-condition SPL/sensitivity values, not normalized; runtime subtracts the interpolated 1 kHz level only to use curve shape, while the separate 93 dB at 1 W/1 m field retains absolute sensitivity. No filter correction or unfiltered-response claim is made. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
     },
     "driverCount": 2,
     "panel": null,
@@ -23165,10 +23165,10 @@
           "db": 78
         }
       ],
-      "pointsStatus": "MEASUREMENT_VERIFIED",
+      "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
-      "pointsSourceType": "MEASUREMENT",
-      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed."
+      "pointsSourceType": "MANUFACTURER",
+      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged. Round 3 cross-check: alternative official copies (products.electrovoice.com product page and ELX200-15_BDL_en.pdf) were found but contain summary figures only, not the row-level table, so the 84-vs-85 row count is unresolved. Against the stored points (relative to 1 kHz = 95 dB), the -3 dB points fall at about 75 Hz and 13 kHz and the -10 dB points at about 55 Hz and 17 kHz, versus the official -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The official averaging band is not stated, so this is recorded as an open discrepancy, not a transcription correction."
     },
     "driverCount": 2,
     "panel": null,
@@ -23640,10 +23640,10 @@
           "db": 82
         }
       ],
-      "pointsStatus": "MEASUREMENT_VERIFIED",
+      "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
-      "pointsSourceType": "MEASUREMENT",
-      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Half Space, 1W/1m (Sensitivity, dB). Copied the 86 nonblank response rows from 20 Hz through 20 kHz without interpolation or curve fitting. The separate -3 dB/-10 dB range specifications are full-space measurements, so the two contexts are kept distinct. The sheet also lists a 42 Hz high-pass setting. The runtime normalizes these published half-space points at 1 kHz for curve shape; the separate axial-sensitivity figure has no stated measurement reference and is not used for DSP conversion."
+      "pointsSourceType": "MANUFACTURER",
+      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Half Space, 1W/1m (Sensitivity, dB). Copied the 86 nonblank response rows from 20 Hz through 20 kHz without interpolation or curve fitting. The separate -3 dB/-10 dB range specifications are full-space measurements, so the two contexts are kept distinct. The sheet also lists a 42 Hz high-pass setting. The runtime normalizes these published half-space points at 1 kHz for curve shape; the separate axial-sensitivity figure has no stated measurement reference and is not used for DSP conversion. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
     },
     "driverCount": 1,
     "panel": null,

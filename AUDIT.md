@@ -8,7 +8,7 @@ This file records the current release-engineering evidence and does not convert 
 
 - `node scripts/final-audit.mjs` — **PASS**, 361 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
-- `node scripts/speaker-quality-audit.mjs` — **PASS**, 693 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (22 manufacturer, 5 measurement), no category-based response synthesis.
+- `node scripts/speaker-quality-audit.mjs` — **PASS**, 693 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (27 manufacturer, 0 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
 
 ## Speaker DB
@@ -25,7 +25,7 @@ This file records the current release-engineering evidence and does not convert 
 - `UNAVAILABLE`: 0
 - source-backed fields: sensitivity 309, power 418, impedance 356, resonant frequency 17, voice-coil size 63, woofer size 591, frequency-response limits 563
 - embedded JSON response-point datasets: 27
-- declared response-point provenance: manufacturer 22, measurement 5, verified database 0
+- declared response-point provenance: manufacturer 27, measurement 0, verified database 0
 - physically modeled response models: 666
 - generic reference models: 136
 - models derived from published bandwidth limits: 530
