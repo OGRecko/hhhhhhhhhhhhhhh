@@ -1,6 +1,6 @@
 # Cavity Audio — Final Release Verification
 
-**Audit date:** 2026-10-10  
+**Audit date:** 2026-10-11  
 **Product:** Cavity Audio 3.1.0  
 **Release constraints:** free/public/no login/no payment; 50,000,000 FDTD grid-cell ceiling; 1–16 sources; 1–64 receivers.
 
@@ -15,10 +15,10 @@ The source/data gates are prepared and current documentation is generated from t
 - Records: 693
 - Unique IDs: 693
 - Unique brand/model pairs: 693
-- PARTIALLY_VERIFIED: 659
-- UNVERIFIED: 34
+- PARTIALLY_VERIFIED: 660
+- UNVERIFIED: 33
 - UNAVAILABLE: 0
-- Source-backed fields: sensitivity 309; power 418; impedance 355; resonant frequency 17; voice-coil size 63; woofer size 590; frequency-response limits 563.
+- Source-backed fields: sensitivity 309; power 418; impedance 356; resonant frequency 17; voice-coil size 63; woofer size 591; frequency-response limits 563.
 - Response models: 693; 530 are modeled from published response limits, 136 use the generic reference path, and 27 use source-backed response-point datasets.
 - Source-backed response-point datasets: 27 (measurement 5, manufacturer 22, reputable database 0).
 - Embedded polar/CLF/GLL speaker directivity datasets: 0.

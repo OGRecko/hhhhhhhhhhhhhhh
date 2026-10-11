@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-10 from the authoritative 693-record database.
+Generated 2026-10-11 from the authoritative 693-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -320,7 +320,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-ma-4 | Martin Audio | MLA | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-1 | L-Acoustics | V-DOSC | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-la-2 | L-Acoustics | ARCS | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| legacy-la-3 | L-Acoustics | Kara | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-la-3 | L-Acoustics | Kara | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
 | legacy-la-4 | L-Acoustics | K1 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-5 | L-Acoustics | K2 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-6 | L-Acoustics | Syva | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, woofer |
@@ -700,6 +700,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 659
-**Records with no source-backed acoustic field:** 34
+**Records with at least one source-backed acoustic field:** 660
+**Records with no source-backed acoustic field:** 33
 **Unavailable identities or confirmed non-loudspeaker records:** 0

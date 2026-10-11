@@ -2,24 +2,24 @@
 
 Generated from `src/data/speakers.json`; counts are not hand-maintained.
 
-Updated 2026-10-10.
+Updated 2026-10-11.
 
 The authoritative dataset contains **693 catalog records**. A record is `PARTIALLY_VERIFIED` only when at least one sourced acoustic specification (sensitivity, power, impedance, resonant frequency, voice-coil size, woofer size, or a structured frequency-response limit) is retained. Source-backed structural facts such as driver count or active status alone remain `UNVERIFIED` because they do not supply an acoustic specification for simulation. `UNAVAILABLE` is reserved for unresolved catalog identities and confirmed non-loudspeaker components; those records are retained but excluded from speaker selection.
 
 ## Record status
-- PARTIALLY_VERIFIED: 659
-- UNVERIFIED: 34
+- PARTIALLY_VERIFIED: 660
+- UNVERIFIED: 33
 - UNAVAILABLE: 0
 
 ## Current source-backed fields
 - Sensitivity: 309
 - Power: 418
-- Impedance: 355
+- Impedance: 356
 - Resonant frequency: 17
 - Voice-coil size: 63
-- Woofer size: 590
+- Woofer size: 591
 - Frequency-response limits: 563
-- Of these, THIRD_PARTY_VERIFIED (retailer or third-party copy of an exact-model spec, not a manufacturer page): 15 field(s) on 9 record(s)
+- Of these, THIRD_PARTY_VERIFIED (retailer or third-party copy of an exact-model spec, not a manufacturer page): 17 field(s) on 10 record(s)
 
 ## Response-model policy
 - Embedded source-backed response-point datasets: 27 (measurement 5, manufacturer 22, reputable database 0)

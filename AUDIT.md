@@ -1,12 +1,12 @@
 # Cavity Audio — Release Audit Notes
 
-**Date:** 2026-10-10
+**Date:** 2026-10-11
 
 This file records the current release-engineering evidence and does not convert unavailable execution environments into PASS results.
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 360 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 361 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
 - `node scripts/speaker-quality-audit.mjs` — **PASS**, 693 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (22 manufacturer, 5 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
@@ -20,10 +20,10 @@ This file records the current release-engineering evidence and does not convert 
 - 0 duplicate IDs
 - 693 unique brand/model pairs
 - 0 duplicate brand/model pairs
-- `PARTIALLY_VERIFIED`: 659
-- `UNVERIFIED`: 34
+- `PARTIALLY_VERIFIED`: 660
+- `UNVERIFIED`: 33
 - `UNAVAILABLE`: 0
-- source-backed fields: sensitivity 309, power 418, impedance 355, resonant frequency 17, voice-coil size 63, woofer size 590, frequency-response limits 563
+- source-backed fields: sensitivity 309, power 418, impedance 356, resonant frequency 17, voice-coil size 63, woofer size 591, frequency-response limits 563
 - embedded JSON response-point datasets: 27
 - declared response-point provenance: manufacturer 22, measurement 5, verified database 0
 - physically modeled response models: 666

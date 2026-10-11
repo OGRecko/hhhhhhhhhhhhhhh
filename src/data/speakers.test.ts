@@ -3812,7 +3812,7 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
     { id: "lacoustics-arcs", archive: "ARCS%20WIFO", model: "ARCS Wide", status: "PARTIALLY_VERIFIED" },
     { id: "legacy-la-1", archive: "V-DOSC", model: "V-DOSC", status: "UNVERIFIED" },
     { id: "legacy-la-2", archive: "ARCS", model: "ARCS", status: "UNVERIFIED" },
-    { id: "legacy-la-3", archive: "Kara", model: "Kara", status: "UNVERIFIED" },
+    { id: "legacy-la-3", archive: "Kara", model: "Kara", status: "PARTIALLY_VERIFIED" },
     { id: "legacy-la-7", archive: null, model: "X15", status: "UNVERIFIED" },
   ];
   for (const c of laCases) {
@@ -3825,6 +3825,27 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
     nodeAssert.match(lead.note, /not imported|not be imported|not yet been inspected|have not been inspected|not inspected|No .* (imported|added)/i);
     if (c.archive) nodeAssert.match(lead.archive, new RegExp(c.archive));
   }
+  // Narrow authenticated-copy rule for L-Acoustics: a third-party-hosted copy may supply a field only when it is an
+  // identified manufacturer document (document reference, date, copyright, host identity) naming the exact model.
+  const kara = allDb.find((item) => item.id === "legacy-la-3");
+  const karaSource = "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf";
+  nodeAssert.equal(kara.model, "Kara", "KARA rule applies only to the first-generation Kara record");
+  nodeAssert.equal(kara.impedance.value, 8);
+  nodeAssert.equal(kara.impedance.sourceType, "THIRD_PARTY");
+  nodeAssert.equal(kara.impedance.source, karaSource);
+  nodeAssert.equal(kara.woofer.value, 8);
+  nodeAssert.equal(kara.woofer.sourceType, "THIRD_PARTY");
+  nodeAssert.equal(kara.woofer.source, karaSource);
+  nodeAssert.equal(kara.driverCount, 3, "2 LF + 1 HF transducers per the manual");
+  nodeAssert.equal(kara.power.value, null, "per-band RMS power is not a single figure and is not stored");
+  nodeAssert.equal(kara.sensitivity.value, null, "no sensitivity is published");
+  nodeAssert.equal(kara.frequencyResponse.low_hz, null, "the -10 dB bandwidth is preset-dependent and is not stored");
+  nodeAssert.match(kara.notes, /KARA_UM_EN_2\.1/);
+  nodeAssert.match(kara.notes, /January 7, 2014/);
+  nodeAssert.match(kara.notes, /PRO MUSIC/);
+  nodeAssert.match(kara.notes, /third-party-hosted/);
+  nodeAssert.match(kara.notes, /KARA II is not used/);
+
   const arcsWide = allDb.find((item) => item.id === "lacoustics-arcs");
   const arcsWideSource = "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf";
   nodeAssert.equal(arcsWide.driverCount, 2, "the exact passive two-way enclosure contains one LF and one HF transducer");

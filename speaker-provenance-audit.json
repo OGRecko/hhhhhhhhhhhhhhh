@@ -6,14 +6,14 @@
   "uniqueBrandModels": 693,
   "duplicateBrandModels": 0,
   "statusCounts": {
-    "PARTIALLY_VERIFIED": 659,
-    "UNVERIFIED": 34
+    "PARTIALLY_VERIFIED": 660,
+    "UNVERIFIED": 33
   },
   "sourceTypeCounts": {
     "MANUFACTURER": 1550,
-    "NONE": 2406,
+    "NONE": 2404,
     "REPUTABLE_DATABASE": 188,
-    "THIRD_PARTY": 13,
+    "THIRD_PARTY": 15,
     "MEASUREMENT": 1
   },
   "responseCurveData": {
@@ -44,8 +44,8 @@
   "nullableFlags": {
     "counts": {
       "driverCount": {
-        "known": 632,
-        "unknown": 61,
+        "known": 633,
+        "unknown": 60,
         "absent": 0,
         "invalid": 0
       },

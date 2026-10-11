@@ -1,0 +1,41 @@
+[
+  {
+    "id": "amazon-echo",
+    "model_check": "Echo (4th gen)",
+    "sourceType": "THIRD_PARTY",
+    "source": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
+    "fields": {
+      "woofer": {
+        "value": 3,
+        "unit": "in",
+        "notes": "3.0 in (76 mm) neodymium woofer, one unit, identified as the woofer. Sources and what each supports: (a) proaudiovideo.in, 'Amazon Echo (4th Gen) Review 2026' (field source): model 'Echo (4th Gen)'; spec table 'Driver Size: 3.0\" (76mm) neodymium woofer + two 0.8\" (20mm) tweeters'. Secondary review and retailer copy. (b) SoundGuys, 'Amazon Echo (4th Gen) review' (updated 12 Aug 2025): model number '4th Gen'; 'three drivers in total: two 20mm tweeters and a single 76mm neodymium woofer'. Secondary review. (c) Amazon product page for ASIN B085H3DKLT ('Echo (4th generation) International Version'): 'Echo (4th Gen) - 2020 release'; 'Audio: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters'. Retail listing; corroborates only. Two secondary reviews and a retail listing agree. The agreement is treated as corroboration, not as manufacturer confirmation; no manufacturer spec sheet was retrieved. No source read mentions a passive radiator, and SoundGuys counts three drivers in total. DXOMARK (dxomark.com review) gives 76.2 mm in its text but '70-mm woofer' in its feature list; that conflict is noted and not used."
+      }
+    },
+    "scalars": {
+      "driverCount": 3
+    },
+    "notes": "Pass-131 check (2026-10-10): retailer and review copies (Best Buy Canada blog, XDA-Developers, a retailer listing) describe 1 x 3-inch woofer and 2 x 0.8-inch tweeters; the Amazon product page was not reached. Driver count and power are not stored from secondary copies. Nothing else found. Pass-136 check (2026-10-10): Amazon's own listing for Echo (4th generation), International Version (ASIN B085H3DKLT), states \"3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters\": driverCount 3 (one woofer, two tweeters). The listing publishes no power, sensitivity, impedance or frequency response, so none is stored. The US listing is not separately checked; the driver description is the same in the retail copies. Pass-137 check (2026-10-10): the second chunk of the Amazon product page (ASIN B085H3DKLT, Echo (4th Gen) International Version) repeats the technical details: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters. The pending chunk check is closed. driverCount 3 is unchanged; no other field is published on this page. Third-party copies only (proaudiovideo.in; mahajanelectronics.com; Amazon listing). Both spec copies state Impedance and Sensitivity as N/A for this active, mains-powered speaker, so neither is stored. The 'full-range' frequency statement has no criterion and is not stored. Pass-142 (2026-10-11): third-party tier applied to the woofer diameter. Pass-143 (2026-10-11) re-check: (1) ASIN B085H3DKLT was checked on Amazon's own product page, which is titled 'Echo (4th generation) International Version' and states 'You're viewing the newest model'. The ASIN therefore identifies the exact 4th-gen Echo. Aggregator pages (btienda.es, webprice.eu) list the same ASIN under other Echo products and are not relied on. (2) mahajanelectronics.com is removed from the evidence for the woofer. Its product URL is a combo-bundle slug ('echo-dot-4th-gen-black-combo-with-wipro-9w-easy-set-up-smart-bulb-copy'), its table is a reseller copy of the same text, and it adds no independent support. It is kept here as history only. (3) The 3.0-inch woofer is kept because proaudiovideo.in and SoundGuys each explicitly identify the 4th-gen Echo's woofer (see the woofer field notes). Both are secondary, so the field stays THIRD_PARTY_VERIFIED and is not treated as manufacturer-confirmed. (4) SoundGuys' buy link points to ASIN B07XJ8C8F7, which Amazon identifies as Echo Dot (4th Gen). That link is not evidence for this record."
+  },
+  {
+    "id": "legacy-la-3",
+    "model_check": "Kara",
+    "sourceType": "THIRD_PARTY",
+    "source": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
+    "fields": {
+      "impedance": {
+        "value": 8,
+        "unit": "ohm",
+        "notes": "Nominal impedance 8 Ω, KARA entry, Appendix C of KARA_UM_EN_2.1 (promusic.cz-hosted copy of the L-ACOUSTICS manual; see record notes for authenticity basis)."
+      },
+      "woofer": {
+        "value": 8,
+        "unit": "in",
+        "notes": "LF: 2 × 8\", neodymium, weather-resistant, bass-reflex (KARA entry, Appendix C of KARA_UM_EN_2.1). Value is per LF driver; two per enclosure. Third-party-hosted copy of the manufacturer manual."
+      }
+    },
+    "scalars": {
+      "driverCount": 3
+    },
+    "notes": "Pass-128 check (2026-10-10): KARA vs KARA II retailer copies conflict on configuration and frequency response; exact model not established; none transferred. Pass-131 check (2026-10-10): the L-Acoustics KARA product URL (l-acoustics.com/products/kara/) did not resolve to a KARA product page (it redirects to the KARA-ANGARMEX accessory). The KARA vs KARA II identity conflict remains open. Pass-137 check (2026-10-10): the L-Acoustics KARA II manufacturer page and its datasheet (usable bandwidth −10 dB 55 Hz–20 kHz; max SPL 142 dB; LF 2×8 in, HF 1×3 in; 8 Ω; 26 kg) describe KARA II, a different model from this record's KARA. These values are not transferred. No exact KARA manufacturer page was located; the record remains UNVERIFIED with no fields. Pass-143 (2026-10-11) re-check: the copy at https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf is titled 'KARA® / KARAi SYSTEM user manual VERSION 2.1' and carries 'Document reference: KARA_UM_EN_2.1', 'Distribution date: January 7, 2014', '© 2013 L-ACOUSTICS' and the footer 'www.l-acoustics.com'. It is third-party-hosted: PRO MUSIC s.r.o. (promusic.cz) is listed by muzikus.cz as the exclusive distributor of the L-ACOUSTICS brand in the Czech Republic. Model identity: the manual's Appendix C 'KARA' entry is a '2-way active enclosure, bi-amplified by LA4X or LA8' with 'Transducers LF: 2 × 8\", neodymium, weather-resistant, bass-reflex; HF: 1 × 3\", neodymium, diaphragm compression driver, DOSC waveguide' and 'Nominal impedance 8 Ω'. Stored: impedance 8 Ω; woofer 8 in (each LF driver; two per enclosure); driverCount 3 (2 LF + 1 HF). Not stored: RMS power (LF 450 W, HF 80 W, per band); maximum SPL (139 dB, preset-dependent); usable bandwidth 55 Hz–20 kHz (−10 dB, [KARA] preset); sensitivity (not published). Authenticity basis: (a) the manufacturer's document reference, date, copyright and URL on the PDF; (b) the distributor host above; (c) L-Acoustics' official archive page (https://www.l-acoustics.com/archives-product/) lists a 'Kara' documentation ZIP (46.73 MB) on its own storage. That ZIP could not be retrieved (the fetch tool returned HTTP 500 and the sandbox cannot reach the storage host), so the PDF was not matched to the archive contents. Other revisions hosted by third parties (3.1 at premier-ltd.com; 5.0 at static.audiobizz.eu) give the same LF 2 × 8 in, HF 1 × 3 in and 8 Ω. KARA II is not used. The L-Acoustics KARA II datasheet (Pass-137) lists the same LF/HF/impedance values, so those values do not separate the two models. The identity rests on this manual's own KARA entry, not on the numbers. The Pass-131 URL (l-acoustics.com/products/kara/) still redirects to the KARA-ANGARMEX accessory. Status is PARTIALLY_VERIFIED on the basis of this authenticated-copy rule; a future pass with access to the official ZIP can confirm the exact PDF."
+  }
+]

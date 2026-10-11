@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-10 from the authoritative dataset. 634 unique source URLs are retained for populated fields.
+Generated 2026-10-11 from the authoritative dataset. 635 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -3722,6 +3722,11 @@ The source is attached to the exact field it supports. A source URL here does no
 - L-Acoustics ARCS Wide — impedance
 - L-Acoustics ARCS Wide — power
 - L-Acoustics ARCS Wide — woofer size
+
+## https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf
+
+- L-Acoustics Kara — impedance
+- L-Acoustics Kara — woofer size
 
 ## https://www.psbspeakers.com/products/synchrony-t600-tower
 
