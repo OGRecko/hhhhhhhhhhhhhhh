@@ -23,8 +23,10 @@
     "heldValue": 8,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "bose-802",
@@ -32,8 +34,10 @@
     "heldValue": false,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "adam-a7x",
@@ -85,8 +89,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-8",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "LYD 8 page: 'The biggest two-way speaker in the LYD series'; Crossover 2-way DSP-based, 8in MSP woofer and 1.1in soft dome tweeter.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "dynaudio-lyd8",
@@ -94,8 +100,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-8",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "LYD 8 page specifications: amplifier power woofer 80 W, tweeter 50 W, and 'advanced Class-D amps'.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "jbl-eon615",
@@ -103,8 +111,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "EON Users Guide, EON615 Specifications: 1 x 15-inch LF driver and 1 x 1-inch HF compression driver (two drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "jbl-eon615",
@@ -112,8 +122,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "EON Users Guide, EON615 Specifications: self-powered, high-efficiency Class D amplification, 1000 W peak.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "mackie-thump15a",
@@ -121,8 +133,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Thump12A/15A owner's manual, features: 15-inch LF driver for the Thump15A and 1.4-inch titanium compression driver (two drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "mackie-thump15a",
@@ -130,8 +144,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Thump12A/15A owner's manual: 1300 W of built-in power amplification with separate LF and HF amplifier channels.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "sonance-vp86",
@@ -430,8 +446,10 @@
     "heldValue": 3,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "WL3082 page: dual 8-inch LF/MF drivers plus one 3-inch HF compression driver (three transducers, Specifications table).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl3082",
@@ -439,8 +457,10 @@
     "heldValue": false,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "The WL3082 page lists nominal impedance and continuous power capacity but does not state active or passive; the held False is not confirmed.",
+    "state": "REJECTED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl2102w",
@@ -466,8 +486,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "WL212-sw page: dual 12-inch LF drivers (Specifications table).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl212-sw",
@@ -475,8 +497,10 @@
     "heldValue": false,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "The WL212-sw page lists 4 ohm nominal impedance and 1100 W continuous power capacity but does not state active or passive; the held False is not confirmed.",
+    "state": "REJECTED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl218-sw",
@@ -556,8 +580,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-5",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "LYD 5 page: bi-amped design with 2 x 50 W and Class-D amplification.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "dynaudio-lyd-7",

@@ -911,8 +911,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 8,
+    "active": false,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -966,16 +966,16 @@
     },
     "notes": "Exact Bose 802 Series II product sheet (Bose-authored document fetched from Walker Sound). It specifies eight 4.5-inch full-range drivers, nominal 8-ohm impedance, 240 W continuous pink-noise power handling (55 Hz–16 kHz), and use with a separate 802C Series II systems controller and external amplifier. Driver count and passive classification are supported. The same document gives conflicting response lower limits (55 Hz–16 kHz in its Technical Information table versus 50 Hz–16 kHz in its Engineers’ and Architects’ specification) and sensitivity values/context (91 dB full-range in the table versus 92 dB over 50 Hz–16 kHz and 99 dB over 300 Hz–3 kHz in the specification). Therefore response bounds and sensitivity remain N/A. The 4.5-inch elements are full-range drivers, not a separate woofer, so woofer size remains N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier."
     }
   },
   {
@@ -4346,8 +4346,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4401,16 +4401,16 @@
     },
     "notes": "Manufacturer: LYD 8 two-way DSP monitor, 8-inch MSP woofer; 80 W LF + 50 W HF internal amplification (130 W total); published lower/upper cutoff 55 Hz–21 kHz at 85 dB ±3 dB. Source: Dynaudio LYD 8 product specification. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. LYD 8 page: 'The biggest two-way speaker in the LYD series'; Crossover 2-way DSP-based, 8in MSP woofer and 1.1in soft dome tweeter."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. LYD 8 page specifications: amplifier power woofer 80 W, tweeter 50 W, and 'advanced Class-D amps'."
     }
   },
   {
@@ -4566,8 +4566,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4621,16 +4621,16 @@
     },
     "notes": "Exact-model manufacturer documentation: 15-inch LF driver with 2-inch voice coil; published frequency-response figures include 50 Hz–20 kHz (-3 dB) and 39 Hz–20 kHz (-10 dB). The primary frequencyResponse field retains the narrower -3 dB limit. Amplifier power is not stored because the manual distinguishes continuous and peak/internal amplifier figures and the database field is not a split/peak schema.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. EON Users Guide, EON615 Specifications: 1 x 15-inch LF driver and 1 x 1-inch HF compression driver (two drivers)."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. EON Users Guide, EON615 Specifications: self-powered, high-efficiency Class D amplification, 1000 W peak."
     }
   },
   {
@@ -4860,8 +4860,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4915,16 +4915,16 @@
     },
     "notes": "Manufacturer manual: 39 Hz–20 kHz (-3 dB), with 32 Hz–23 kHz (-10 dB); 15-inch LF driver. The product uses separate LF/HF amplification; the database power field remains unavailable rather than collapsing peak/internal amplifier figures into speaker power handling. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Thump12A/15A owner's manual, features: 15-inch LF driver for the Thump15A and 1.4-inch titanium compression driver (two drivers)."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Thump12A/15A owner's manual: 1300 W of built-in power amplification with separate LF and HF amplifier channels."
     }
   },
   {
@@ -32854,20 +32854,20 @@
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 3,
     "panel": null,
     "notes": "Exact QSC WideLine-8 WL3082 specification: dual 8-inch LF/MF drivers plus one 3-inch-diaphragm HF compression driver (three transducers); passive externally tri-amplified line-array cabinet. Published response is 68 Hz–18 kHz (±3 dB); the separate -10 dB range is 62 Hz–20 kHz. Continuous ratings and impedances are channel-specific (HF 85 W/16 Ω, MF 250 W/16 Ω, LF 250 W/16 Ω), and sensitivity is separately stated by band (HF 108 dB; MF/LF 98 dB, 1 W at 1 m); these values are preserved here as context rather than collapsed into scalar power, impedance, or sensitivity. QSC gives 140° horizontal coverage and vertical coverage dependent on array size; neither is converted to polar directivity. No points are digitized from the response graph.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. WL3082 page: dual 8-inch LF/MF drivers plus one 3-inch HF compression driver (three transducers, Specifications table)."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
       "source": null,
       "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "note": "Round 4 URL check (2026-10-11): not restored; value stays N/A. The WL3082 page lists nominal impedance and continuous power capacity but does not state active or passive; the held False is not confirmed."
     }
   },
   {
@@ -33002,20 +33002,20 @@
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": null,
+    "driverCount": 2,
     "panel": null,
     "notes": "Exact QSC WideLine-8 WL212-sw passive subwoofer specification: dual 12-inch LF drivers; 40–100 Hz response (±3 dB), with a separately published 32–107 Hz range (-10 dB); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The power field records only the continuous capacity, not the separate recommended-amplifier range. No points are digitized from the graph, and no directivity data is inferred from the subwoofer description.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. WL212-sw page: dual 12-inch LF drivers (Specifications table)."
     },
     "activeProvenance": {
       "status": "UNSOURCED",
       "source": null,
       "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "note": "Round 4 URL check (2026-10-11): not restored; value stays N/A. The WL212-sw page lists 4 ohm nominal impedance and 1100 W continuous power capacity but does not state active or passive; the held False is not confirmed."
     }
   },
   {
@@ -38797,7 +38797,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": null,
+    "active": true,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38851,10 +38851,10 @@
     "panel": null,
     "notes": "Dynaudio LYD 5 official product specification table: 60 Hz–21 kHz. Manufacturer lists 50 W LF + 50 W HF amplification; the split-band power is not collapsed into the single power-handling field. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. LYD 5 page: bi-amped design with 2 x 50 W and Class-D amplification."
     }
   },
   {
