@@ -357,9 +357,9 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-evolve-70 | Electro-Voice | EVOLVE 70 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-evolve-90 | Electro-Voice | EVOLVE 90 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-pxm-12mp | Electro-Voice | PXM-12MP | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
-| electro-voice-zx3 | Electro-Voice | ZX3 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
+| electro-voice-zx3 | Electro-Voice | ZX3 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | electro-voice-zx4 | Electro-Voice | ZX4 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| electro-voice-zx5 | Electro-Voice | ZX5 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
+| electro-voice-zx5 | Electro-Voice | ZX5 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | electro-voice-sx300pi | Electro-Voice | Sx300PI | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | electro-voice-sx300pix | Electro-Voice | Sx300PIX | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | electro-voice-sx100 | Electro-Voice | Sx100+ | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
@@ -700,6 +700,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 660
-**Records with no source-backed acoustic field:** 33
+**Records with at least one source-backed acoustic field:** 658
+**Records with no source-backed acoustic field:** 35
 **Unavailable identities or confirmed non-loudspeaker records:** 0

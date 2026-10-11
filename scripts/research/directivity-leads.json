@@ -550,8 +550,21 @@
     "status": "LEAD_NOT_IMPORTED",
     "note": "Exact model Genelec 8331A is covered by the Aalto University / ENSEA 'Sound-source directivity dataset for four loudspeakers' (Zenodo record 10255555, published 2023-12-04): 6,480 anechoic IR measurements of the 8331A (elevation -80 to 90 deg in 10-deg steps, azimuth 0-359 deg in 1-deg steps) as SOFA AES69-2015 (LS_directivity_Calibrated_GENELEC_8331A.sofa, 410.5 MB) and as per-direction WAV files (Genelec_8331A.zip, 465.6 MB). The record is a measured directivity set for the exact model. The Zenodo page as fetched does not state a licence; a third-party GitHub issue asserts CC BY 4.0, which is not relied on, so rights review is required before import. No payload is imported: the files are too large for the repository and the solver input would require a directivity-ingest step that does not exist in the project yet. The 8331A is an active three-way monitor; the dataset records measurement distance and reference axis in the azimuth_elevation.pdf and the accompanying paper (Gallien, Prawda, Schlecht, AES ASR 2024).",
     "page": "https://zenodo.org/records/10255555",
-    "round3Classification": "MEASURED_DATASET_ACCESSIBLE_NOT_DOWNLOADABLE",
-    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round."
+    "round3Classification": "MEASURED_DATASET_LICENCE_CONFIRMED_NOT_DOWNLOADABLE",
+    "round3Basis": "Classified from the existing lead note plus, for genelec-8331a, the Zenodo record metadata fetched this round; the underlying file was not opened this round.",
+    "round3Metadata": {
+      "doi": "10.5281/zenodo.10255554",
+      "zenodoRecord": "https://zenodo.org/records/10255555",
+      "licence": "CC-BY-4.0",
+      "fileName": "LS_directivity_Calibrated_GENELEC_8331A.sofa",
+      "fileSizeMB": 410.5,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "a00e40164556183420c315e9f6ecd7fd"
+      },
+      "exactModelIdentity": "Genelec 8331A studio monitor (dataset description names it)",
+      "blocker": "The 410 MB SOFA file cannot be downloaded from the sandbox (bash cannot reach zenodo.org; the page tool returns text only). Dataset is not imported; no directivity record exists."
+    }
   },
   {
     "id": "genelec-8331a-measurement",

@@ -6,9 +6,9 @@ This file records the current release-engineering evidence and does not convert 
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 361 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 364 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
-- `node scripts/speaker-quality-audit.mjs` — **PASS**, 693 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 27 embedded response-point datasets (27 manufacturer, 0 measurement), no category-based response synthesis.
+- `node scripts/speaker-quality-audit.mjs` — **PASS**, 693 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 26 embedded response-point datasets (26 manufacturer, 0 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
 
 ## Speaker DB
@@ -20,15 +20,15 @@ This file records the current release-engineering evidence and does not convert 
 - 0 duplicate IDs
 - 693 unique brand/model pairs
 - 0 duplicate brand/model pairs
-- `PARTIALLY_VERIFIED`: 660
-- `UNVERIFIED`: 33
+- `PARTIALLY_VERIFIED`: 658
+- `UNVERIFIED`: 35
 - `UNAVAILABLE`: 0
-- source-backed fields: sensitivity 309, power 418, impedance 356, resonant frequency 17, voice-coil size 63, woofer size 591, frequency-response limits 563
-- embedded JSON response-point datasets: 27
-- declared response-point provenance: manufacturer 27, measurement 0, verified database 0
-- physically modeled response models: 666
-- generic reference models: 136
-- models derived from published bandwidth limits: 530
+- source-backed fields: sensitivity 307, power 416, impedance 354, resonant frequency 17, voice-coil size 63, woofer size 589, frequency-response limits 561
+- embedded JSON response-point datasets: 26
+- declared response-point provenance: manufacturer 26, measurement 0, verified database 0
+- physically modeled response models: 667
+- generic reference models: 138
+- models derived from published bandwidth limits: 529
 - embedded speaker polar/directivity data: 0
 
 The database does not claim that every catalog record is independently web-verified. Records without source-backed fields are explicitly `UNVERIFIED` and retain `N/A` physical fields rather than guessed values.

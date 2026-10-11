@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-11 from the authoritative dataset. 635 unique source URLs are retained for populated fields.
+Generated 2026-10-11 from the authoritative dataset. 634 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -250,7 +250,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Electro-Voice ELX200-15 — impedance
 - Electro-Voice ELX200-15 — power
 - Electro-Voice ELX200-15 — sensitivity
-- Electro-Voice ELX200-15 — source-backed response points (manufacturer)
 - Electro-Voice ELX200-15 — woofer size
 
 ## https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf
@@ -611,6 +610,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - Klipsch SPL-150 — frequency-response limits
 - Klipsch SPL-150 — power
 - Klipsch SPL-150 — woofer size
+
+## https://at.focal-naim.de/en/EU/PRODUCTS/FOCAL/SOPRA/SOPRA_N_2?s1=1
+
+- Focal Sopra No.2 — sensitivity
 
 ## https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/
 
@@ -2358,14 +2361,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - ADAM Audio T8V — power
 - ADAM Audio T8V — woofer size
 
-## https://www.adorama.com/col/productManuals/EVZX560B.pdf
-
-- Electro-Voice ZX5 — frequency-response limits
-- Electro-Voice ZX5 — impedance
-- Electro-Voice ZX5 — power
-- Electro-Voice ZX5 — sensitivity
-- Electro-Voice ZX5 — woofer size
-
 ## https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers
 
 - Alpine X-S65C — frequency-response limits
@@ -2792,14 +2787,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Eve Audio SC207 — voice-coil size
 - Eve Audio SC207 — woofer size
 
-## https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf
-
-- Electro-Voice ZX3 — frequency-response limits
-- Electro-Voice ZX3 — impedance
-- Electro-Voice ZX3 — power
-- Electro-Voice ZX3 — sensitivity
-- Electro-Voice ZX3 — woofer size
-
 ## https://www.fmicassets.com/Damroot/Original/10001/2231500_gamp_manual.pdf
 
 - Fender Blues Junior IV — impedance
@@ -2850,7 +2837,6 @@ The source is attached to the exact field it supports. A source URL here does no
 
 - Focal Sopra No.2 — frequency-response limits
 - Focal Sopra No.2 — impedance
-- Focal Sopra No.2 — sensitivity
 - Focal Sopra No.2 — woofer size
 
 ## https://www.focal.com/products/alpha-50-evo

@@ -23,6 +23,16 @@ export interface SpecField<T> {
 
 export type OverallStatus = 'FULLY_VERIFIED' | 'PARTIALLY_VERIFIED' | 'UNVERIFIED' | 'MEASUREMENT_VERIFIED' | 'LEGACY' | 'UNAVAILABLE';
 
+/** Field-level provenance for scalar fields that have no status of their own (driverCount, active). */
+export interface FieldProvenance {
+  status: 'CITED_IN_NOTES_UNCHECKED' | 'UNSOURCED';
+  source: string | null;
+  sourceType: string | null;
+}
+
+import type { SpeakerDirectivityDataset } from './speakerDirectivity';
+export type { SpeakerDirectivityDataset };
+
 export interface SpeakerSpec {
   id: string;
   brand: string;
@@ -36,6 +46,20 @@ export interface SpeakerSpec {
   active: boolean | null;
   /** null = unknown whether the radiator is a planar/panel design. */
   panel: boolean | null;
+  /**
+   * Field-level provenance for driverCount. driverCount means a count of transducers (drivers) in the speaker as
+   * configured by the source. A multi-component system records its configuration in notes rather than one count.
+   * status CITED_IN_NOTES_UNCHECKED: a URL appears in the record notes but the field itself has not been checked
+   * against that URL. UNSOURCED: no URL is recorded for the field. Unknown values stay null (N/A).
+   */
+  driverCountProvenance?: FieldProvenance | null;
+  /**
+   * Field-level provenance for active. true only when the product has onboard amplification or DSP (powered);
+   * false only for passive designs. Passive speakers with selectable passive/bi-amp crossover modes are passive.
+   */
+  activeProvenance?: FieldProvenance | null;
+  /** Optional dedicated directivity dataset (see speakerDirectivity.ts). Absent until a dataset passes every check. */
+  directivity?: SpeakerDirectivityDataset | null;
   notes: string | null;
 
   frequencyResponse: {
