@@ -1,0 +1,10 @@
+[
+ {"id":"sonos-one","field":"driverCount","value":2,"url":"https://www.sonos.com/en-us/guides/one","evidence":"Specifications table: one tweeter and one mid-woofer (2 drivers)."},
+ {"id":"sonos-one","field":"active","value":true,"url":"https://www.sonos.com/en-us/guides/one","evidence":"Specifications table: 'Two Class-D digital amplifiers'."},
+ {"id":"sonos-five","field":"driverCount","value":6,"url":"https://www.sonos.com/en-us/guides/five","evidence":"Specifications table: three tweeters and three mid-woofers (6 drivers)."},
+ {"id":"sonos-five","field":"active","value":true,"url":"https://www.sonos.com/en-us/guides/five","evidence":"Specifications table: 'Six Class-D digital amplifiers' matched to six drivers."},
+ {"id":"sonos-arc","field":"driverCount","value":11,"url":"https://www.sonos.com/en-us/guides/arc","evidence":"Specifications table: eight elliptical woofers and three tweeters (11 drivers)."},
+ {"id":"sonos-arc","field":"active","value":true,"url":"https://www.sonos.com/en-us/guides/arc","evidence":"Specifications table: 'Eleven Class-D digital amplifiers'."},
+ {"id":"sonos-beam","field":"driverCount","value":5,"url":"https://www.sonos.com/en-us/guides/beam","evidence":"Specifications table: four woofers and one tweeter (5 drivers)."},
+ {"id":"sonos-beam","field":"active","value":true,"url":"https://www.sonos.com/en-us/guides/beam","evidence":"Specifications table: 'Five Class-D digital amplifiers'."}
+]

@@ -5462,14 +5462,16 @@
     },
     "notes": "Exact Sonos One manufacturer guide: two Class-D digital amplifiers drive one tweeter and one midwoofer (two transducers total), supporting driverCount=2 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/one.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/one",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: one tweeter and one mid-woofer (2 drivers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/one",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: 'Two Class-D digital amplifiers'."
     }
   },
   {
@@ -5533,14 +5535,16 @@
     },
     "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): Pass-137 driver-count check (2026-10-10): Same product as the Sonos Five shop page (manufacturer): 3 tweeters and 3 midwoofers; driverCount 6 matches. Duplicate alias (2026-10-10): `sonos-sonos-five` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/five",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: three tweeters and three mid-woofers (6 drivers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/five",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: 'Six Class-D digital amplifiers' matched to six drivers."
     }
   },
   {
@@ -14858,14 +14862,16 @@
     },
     "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Duplicate alias (2026-10-10): `sonos-sonos-arc` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/arc",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: eight elliptical woofers and three tweeters (11 drivers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/arc",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: 'Eleven Class-D digital amplifiers'."
     }
   },
   {
@@ -14929,14 +14935,16 @@
     },
     "notes": "Exact Sonos Beam (Gen 2) manufacturer guide: five Class-D amplifiers drive four elliptical midwoofers and one tweeter (five transducers total), supporting driverCount=5 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, a standardized response limit, a response curve, or directivity data; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/beam. Pass-137 driver-count check (2026-10-10): CONFLICT (not resolved by this pass): the Sonos Beam (Gen 2) shop page lists 1 center tweeter and 4 elliptical midwoofers (5 active drivers) plus 3 passive radiators. The Sonos comparison table on the same page gives 9 drivers. driverCount stays at 5 (active drivers); the total of 9 is recorded here, not merged.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/beam",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: four woofers and one tweeter (5 drivers)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.sonos.com/en-us/guides/beam",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Structural check (2026-10-11): Specifications table: 'Five Class-D digital amplifiers'."
     }
   },
   {

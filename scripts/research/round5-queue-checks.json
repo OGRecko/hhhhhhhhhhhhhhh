@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-11",
+  "description": "Round 5 research-queue checks. Structural fields (driverCount, active) were checked against manufacturer pages and recorded with MANUFACTURER_VERIFIED provenance. overallStatus stays UNVERIFIED because no acoustic field was found, so these records remain in the queue.",
+  "checked": [
+    {"id": "sonos-one", "url": "https://www.sonos.com/en-us/guides/one", "structural": "driverCount 2 and active true confirmed (specifications table).", "acoustic": "None published: the specifications table gives no sensitivity, impedance, power, or frequency response.", "queue": "Remains UNVERIFIED (no acoustic source)."},
+    {"id": "sonos-five", "url": "https://www.sonos.com/en-us/guides/five", "structural": "driverCount 6 and active true confirmed.", "acoustic": "None published in the specifications table.", "queue": "Remains UNVERIFIED (no acoustic source)."},
+    {"id": "sonos-arc", "url": "https://www.sonos.com/en-us/guides/arc", "structural": "driverCount 11 and active true confirmed.", "acoustic": "None published in the specifications table.", "queue": "Remains UNVERIFIED (no acoustic source)."},
+    {"id": "sonos-beam", "url": "https://www.sonos.com/en-us/guides/beam", "structural": "driverCount 5 and active true confirmed.", "acoustic": "None published in the specifications table.", "queue": "Remains UNVERIFIED (no acoustic source)."},
+    {"id": "sonos-sonos-era-100", "url": "https://www.sonos.com/en-us/guides/era100", "structural": "Not yet checked: the specifications section is not in the chunks fetched so far (chunks 0 and 4 read).", "acoustic": "Not checked.", "queue": "Remains UNVERIFIED."}
+  ],
+  "note_on_queue_count": "The queue still lists 35 records because the derivation (apply-batch.mjs) only clears UNVERIFIED with a sourced acoustic field. Structural checks do not change the count."
+}
