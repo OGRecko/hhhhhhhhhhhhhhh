@@ -564,6 +564,10 @@
       },
       "exactModelIdentity": "Genelec 8331A studio monitor (dataset description names it)",
       "blocker": "The 410 MB SOFA file cannot be downloaded from the sandbox (bash cannot reach zenodo.org; the page tool returns text only). Dataset is not imported; no directivity record exists."
+    },
+    "round4Attempt": {
+      "result": "NOT_OBTAINED",
+      "detail": "zenodo.org, the Zenodo API and the file URL returned no HTTP response from the sandbox; no copy of LS_directivity_Calibrated_GENELEC_8331A.sofa exists in the workspace or was provided. Identity, licence (CC-BY-4.0) and MD5 are recorded from Zenodo metadata only. Nothing was imported."
     }
   },
   {

@@ -19,7 +19,7 @@ The live authoritative dataset contains **693 active catalog records**; the revi
 - Voice-coil size: 63
 - Woofer size: 589
 - Frequency-response limits: 561
-- Of these, THIRD_PARTY_VERIFIED (retailer or third-party copy of an exact-model spec, not a manufacturer page): 17 field(s) on 10 record(s)
+- Of these, THIRD_PARTY_VERIFIED (retailer or third-party copy of an exact-model spec, not a manufacturer page): 18 field(s) on 11 record(s)
 
 ## Response-model policy
 - Embedded source-backed response-point datasets: 26 (measurement 0, manufacturer 26, reputable database 0)

@@ -31,6 +31,12 @@ for (const r of records) {
   }
 }
 
+// 1b. Unsourced driverCount / active values are withdrawn to null (Round 4).
+for (const r of records) {
+  if (r.driverCountProvenance?.status === 'UNSOURCED') assert.equal(r.driverCount, null, `${r.id}: unsourced driverCount must be null`);
+  if (r.activeProvenance?.status === 'UNSOURCED') assert.equal(r.active, null, `${r.id}: unsourced active must be null`);
+}
+
 // 2. No directivity dataset is stored unless it passes every check.
 for (const r of records) {
   if (r.directivity != null) assert.ok(isUsableDirectivity(r.directivity), `${r.id}: stored directivity fails validation`);
@@ -57,8 +63,10 @@ assert.match(evf.model, /\/96$/);
 const focal = get('focal-sopra2');
 assert.equal(focal.sensitivity.value, 91);
 assert.equal(focal.sensitivity.reference, '2.83V/1m');
-assert.equal(focal.sensitivity.sourceType, 'MANUFACTURER');
-assert.match(focal.sensitivity.source, /^https:\/\/at\.focal-naim\.de\//);
+// Round 4: the Focal-Naim portal was not accepted; the dealer copy is recorded as THIRD_PARTY, not manufacturer-verified.
+assert.equal(focal.sensitivity.sourceType, 'THIRD_PARTY');
+assert.equal(focal.sensitivity.status, 'THIRD_PARTY_VERIFIED');
+assert.match(focal.sensitivity.source, /^https:\/\/www\.audiovisionsf\.com\//);
 
 // 6. ELX200-15: row-count conflict is held in disputedPoints and the simulator field is unavailable.
 const elx = get('electro-voice-elx200-15').frequencyResponse;
@@ -66,5 +74,7 @@ assert.equal(elx.points, undefined, 'disputed table must not be used as response
 assert.equal(elx.pointsStatus, 'UNAVAILABLE');
 assert.equal(elx.disputedPoints.status, 'UNRESOLVED_ROW_COUNT');
 assert.equal(elx.disputedPoints.points.length, 85, 'all 85 stored points are preserved for reconciliation');
+assert.equal(elx.disputedPoints.simulationExcluded, true, 'the disputed table is excluded from simulation');
+assert.ok(elx.disputedPoints.exclusionReason, 'the exclusion reason is documented');
 
 console.log('speakers.round3: all checks passed');

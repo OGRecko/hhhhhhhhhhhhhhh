@@ -611,10 +611,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Klipsch SPL-150 — power
 - Klipsch SPL-150 — woofer size
 
-## https://at.focal-naim.de/en/EU/PRODUCTS/FOCAL/SOPRA/SOPRA_N_2?s1=1
-
-- Focal Sopra No.2 — sensitivity
-
 ## https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/
 
 - ATC SCM19 — frequency-response limits
@@ -2395,6 +2391,10 @@ The source is attached to the exact field it supports. A source URL here does no
 - Sonus Faber Sonetto III — impedance
 - Sonus Faber Sonetto V — frequency-response limits
 - Sonus Faber Sonetto V — impedance
+
+## https://www.audiovisionsf.com/products/focal-sopra-no-2-floorstanding-loudspeaker
+
+- Focal Sopra No.2 — sensitivity
 
 ## https://www.auratoneaudio.com/products
 
