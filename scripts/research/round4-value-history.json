@@ -1,0 +1,650 @@
+[
+  {
+    "id": "jbl-l100",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "jbl-l100",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "bose-802",
+    "field": "driverCount",
+    "heldValue": 8,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "bose-802",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "adam-a7x",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.adam-audio.com/en/ax-series/a7x/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "adam-a7x",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.adam-audio.com/en/ax-series/a7x/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "pmc-twotwo6",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://pmc-speakers.com/products/twotwo6/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "pmc-twotwo6",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://pmc-speakers.com/products/twotwo6/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "dynaudio-lyd8",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "dynaudio-lyd8",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "jbl-eon615",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "jbl-eon615",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "mackie-thump15a",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "mackie-thump15a",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "sonance-vp86",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://sonance.com/products/93007",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "sonance-vp86",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://sonance.com/products/93007",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "genelec-8331a",
+    "field": "driverCount",
+    "heldValue": 4,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.genelec.com/8331a",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "genelec-8331a",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.genelec.com/8331a",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "equator-d5",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "equator-d5",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "pioneer-ts-a",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.pioneerelectronics.com/PUSA/Car/Speakers/A-Series/TS-A1670F",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "beolab-5",
+    "field": "driverCount",
+    "heldValue": 4,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "beolab-5",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "amazon-echo",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "legacy-mack-4",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "legacy-mack-4",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "legacy-mack-5",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "legacy-mack-5",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "legacy-dyn-1",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/discontinued-models/contour/contour-13",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/discontinued-models/contour/contour-13",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "legacy-dyn-2",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/discontinued-models/editions/special-twenty-five",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/discontinued-models/editions/special-twenty-five",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "legacy-dyn-3",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/discontinued-models/confidence/confidence-c1",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/discontinued-models/confidence/confidence-c1",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "qsc-la108",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-la108",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-la112",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-la112",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ls118",
+    "field": "driverCount",
+    "heldValue": 1,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ls118",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ad-c6t",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ad-c6t",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ac-c4t",
+    "field": "driverCount",
+    "heldValue": 1,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ac-c4t",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ac-c6t",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ac-c6t",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ac-c8t",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-ac-c8t",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl3082",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl3082",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl2102w",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl2102w",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl212-sw",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl212-sw",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl218-sw",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-wl218-sw",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-gp118-sw",
+    "field": "driverCount",
+    "heldValue": 1,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-gp118-sw",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-gp212-sw",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-gp212-sw",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-gp218-sw",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "qsc-gp218-sw",
+    "field": "active",
+    "heldValue": false,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "dynaudio-lyd-5",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "dynaudio-lyd-7",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "dynaudio-core-7",
+    "field": "driverCount",
+    "heldValue": 2,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/core/core-7",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/core/core-7",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "dynaudio-core-7",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/core/core-7",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/core/core-7",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "dynaudio-core-47",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/core/core-47",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/core/core-47",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "dynaudio-core-47",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/core/core-47",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/core/core-47",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "dynaudio-core-59",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/core/core-59",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/core/core-59",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "dynaudio-core-59",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://dynaudio.com/professional-audio/core/core-59",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/core/core-59",
+    "checkDate": "2026-10-11"
+  },
+  {
+    "id": "peavey-5150-412",
+    "field": "driverCount",
+    "heldValue": 4,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "atc-scm25a-pro",
+    "field": "driverCount",
+    "heldValue": 3,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  },
+  {
+    "id": "atc-scm25a-pro",
+    "field": "active",
+    "heldValue": true,
+    "previousProvenanceStatus": "UNSOURCED",
+    "previousSource": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
+    "state": "HELD_PENDING_URL_CHECK"
+  }
+]

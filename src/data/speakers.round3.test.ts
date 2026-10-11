@@ -23,11 +23,13 @@ const get = (id: string) => {
 for (const r of records) {
   if (r.driverCount != null) {
     assert.ok(r.driverCountProvenance, `${r.id}: driverCount has no provenance`);
-    assert.ok(['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED'].includes(r.driverCountProvenance.status), `${r.id}: bad driverCount provenance status`);
+    assert.ok(['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED', 'MANUFACTURER_VERIFIED'].includes(r.driverCountProvenance.status), `${r.id}: bad driverCount provenance status`);
+    if (r.driverCountProvenance.status === 'MANUFACTURER_VERIFIED') assert.match(r.driverCountProvenance.source, /^https:\/\//, `${r.id}: verified driverCount needs an https source`);
   }
   if (r.active != null) {
     assert.ok(r.activeProvenance, `${r.id}: active has no provenance`);
-    assert.ok(['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED'].includes(r.activeProvenance.status), `${r.id}: bad active provenance status`);
+    assert.ok(['CITED_IN_NOTES_UNCHECKED', 'UNSOURCED', 'MANUFACTURER_VERIFIED'].includes(r.activeProvenance.status), `${r.id}: bad active provenance status`);
+    if (r.activeProvenance.status === 'MANUFACTURER_VERIFIED') assert.match(r.activeProvenance.source, /^https:\/\//, `${r.id}: verified active needs an https source`);
   }
 }
 
@@ -66,6 +68,8 @@ assert.equal(focal.sensitivity.reference, '2.83V/1m');
 // Round 4: the Focal-Naim portal was not accepted; the dealer copy is recorded as THIRD_PARTY, not manufacturer-verified.
 assert.equal(focal.sensitivity.sourceType, 'THIRD_PARTY');
 assert.equal(focal.sensitivity.status, 'THIRD_PARTY_VERIFIED');
+// Owner decision 3 (Round 4): third-party Focal 91 dB is excluded from verified simulation inputs.
+assert.equal(focal.sensitivity.simulationExcluded, true);
 assert.match(focal.sensitivity.source, /^https:\/\/www\.audiovisionsf\.com\//);
 
 // 6. ELX200-15: row-count conflict is held in disputedPoints and the simulator field is unavailable.

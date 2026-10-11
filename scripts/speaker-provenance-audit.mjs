@@ -41,6 +41,8 @@ for (const s of data) {
 }
 const count=(f)=>data.filter(s=>s[f]?.value!==null && s[f]?.value!==undefined).length;
 const frCount=data.filter(s=>Number.isFinite(s.frequencyResponse?.low_hz)||Number.isFinite(s.frequencyResponse?.high_hz)).length;
+const { auditWithdrawalAndExclusionRules } = await import('./lib/speakerAuditCore.mjs');
+problems.push(...auditWithdrawalAndExclusionRules(data));
 const out={records:data.length,uniqueIds:seenId.size,uniqueBrandModel:seenPair.size,populated:{sensitivity:count('sensitivity'),power:count('power'),impedance:count('impedance'),resonantFreq:count('resonantFreq'),voiceCoil:count('voiceCoil'),woofer:count('woofer'),frequencyResponse:frCount},sensitivityNormalization:{raw2_83VPer1mWithoutNominalImpedance:rawVoltageSensitivityWithoutNominalImpedance,policy:'Retain exact voltage-referenced manufacturer sensitivity as published; do not normalize without a sourced nominal impedance, and use the explicit neutral simulator fallback.'},problems};
 console.log(JSON.stringify(out,null,2));
 process.exitCode=problems.length?1:0;

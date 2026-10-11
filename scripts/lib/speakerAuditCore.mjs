@@ -70,7 +70,8 @@ export function auditResponsePoints(data) {
   const metadataKeys = ['pointsStatus', 'pointsSource', 'pointsSourceType', 'pointsContext'];
   for (const s of data) {
     const response = s?.frequencyResponse;
-    const hasMetadata = metadataKeys.some((key) => Object.prototype.hasOwnProperty.call(response ?? {}, key));
+    // An explicit UNAVAILABLE/NONE state is the documented "no point table" value, not provenance.
+    const hasMetadata = metadataKeys.some((key) => Object.prototype.hasOwnProperty.call(response ?? {}, key) && ![undefined, null, 'UNAVAILABLE', 'NONE'].includes(response[key]));
     if (!Array.isArray(response?.points) || response.points.length === 0) {
       if (hasMetadata) problems.push(`${s?.id}: response-point provenance exists without a non-empty point table`);
       if (response?.points != null && !Array.isArray(response.points)) problems.push(`${s?.id}: frequencyResponse.points must be an array`);
@@ -152,4 +153,25 @@ export function parseKnownCurves(responseSource) {
     if (/provenance:\s*'physically_modeled'/.test(m[2])) modeled.add(m[1]);
   }
   return { ids, manufacturer, modeled };
+}
+
+/**
+ * Round 4 withdrawal and exclusion rules (static, no network):
+ *  - a driverCount/active value must be null when its provenance status is UNSOURCED (withdrawn, not inferred);
+ *  - a third-party sensitivity must be marked simulationExcluded (dealer evidence is not a simulation input);
+ *  - any disputed response-point table must be marked simulationExcluded with a reason (quarantine, not deletion);
+ *  - a value's provenance must carry a URL whenever it is not UNSOURCED.
+ */
+export function auditWithdrawalAndExclusionRules(data) {
+  const problems = [];
+  for (const s of data) {
+    for (const [f, pk] of [['driverCount', 'driverCountProvenance'], ['active', 'activeProvenance']]) {
+      const status = s?.[pk]?.status;
+      if (status === 'UNSOURCED' && s?.[f] !== null) problems.push(`${s?.id}: ${f} is set but its provenance is UNSOURCED (must be null)`);
+      if (status && status !== 'UNSOURCED' && !/^https?:\/\//i.test(String(s?.[pk]?.source || ''))) problems.push(`${s?.id}: ${f} provenance ${status} has no URL`);
+    }
+    const dp = s?.frequencyResponse?.disputedPoints;
+    if (dp && (dp.simulationExcluded !== true || typeof dp.exclusionReason !== 'string' || dp.exclusionReason.trim().length < 20)) problems.push(`${s?.id}: disputedPoints must be simulationExcluded with an exclusionReason`);
+  }
+  return problems;
 }

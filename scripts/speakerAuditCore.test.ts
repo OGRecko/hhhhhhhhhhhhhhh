@@ -4,11 +4,22 @@
  */
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { auditNullableFlags, auditResponsePoints, checkResponseModelSource, countGenericReference, isPublishedHz, isValidResponsePointTable } from './lib/speakerAuditCore.mjs';
+import { auditNullableFlags, auditResponsePoints, auditWithdrawalAndExclusionRules, checkResponseModelSource, countGenericReference, isPublishedHz, isValidResponsePointTable } from './lib/speakerAuditCore.mjs';
 
 let passed = 0;
 const check = (name: string, fn: () => void) => { fn(); passed++; console.log(`  PASS  ${name}`); };
 console.log('\n=== speaker audit core ===\n');
+
+check('withdrawal rules: UNSOURCED must be null; third-party sensitivity and disputed points must be excluded from simulation', () => {
+  const clean = { id: 'ok', driverCount: null, driverCountProvenance: { status: 'UNSOURCED', source: null }, active: 1, activeProvenance: { status: 'CITED_IN_NOTES_UNCHECKED', source: 'https://example.com/x' }, sensitivity: { status: 'THIRD_PARTY_VERIFIED', simulationExcluded: true } };
+  assert.deepEqual(auditWithdrawalAndExclusionRules([clean]), []);
+  const bad = { id: 'bad', driverCount: 2, driverCountProvenance: { status: 'UNSOURCED', source: null }, active: true, activeProvenance: { status: 'CITED_IN_NOTES_UNCHECKED', source: 'notes' }, sensitivity: { status: 'THIRD_PARTY_VERIFIED' }, frequencyResponse: { disputedPoints: { points: [] } } };
+  const p = auditWithdrawalAndExclusionRules([bad]);
+  assert.equal(p.length, 3);
+  assert.ok(p.some((x) => x.includes('driverCount is set but its provenance is UNSOURCED')));
+  assert.ok(p.some((x) => x.includes('active provenance CITED_IN_NOTES_UNCHECKED has no URL')));
+  assert.ok(p.some((x) => x.includes('disputedPoints must be simulationExcluded')));
+});
 
 const real = fs.readFileSync('src/lib/speakerResponse.ts', 'utf8');
 

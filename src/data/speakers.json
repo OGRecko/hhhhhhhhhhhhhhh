@@ -79,8 +79,8 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 3,
-    "active": false,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -134,16 +134,16 @@
     },
     "notes": "Exact-model manufacturer manual: JBL L100 Century, three-way system with 12-inch low-frequency driver, 5-inch midrange and 1.4-inch high-frequency driver; 8 ohm impedance; 50 W continuous program rating; 3-inch woofer voice coil. Sensitivity and numeric response limits are not populated because this manual does not provide a directly comparable standard 1 W/1 m sensitivity or response-limit figure. Source: JBL L100 Century owner manual.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -911,8 +911,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 8,
-    "active": false,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -966,16 +966,16 @@
     },
     "notes": "Exact Bose 802 Series II product sheet (Bose-authored document fetched from Walker Sound). It specifies eight 4.5-inch full-range drivers, nominal 8-ohm impedance, 240 W continuous pink-noise power handling (55 Hz–16 kHz), and use with a separate 802C Series II systems controller and external amplifier. Driver count and passive classification are supported. The same document gives conflicting response lower limits (55 Hz–16 kHz in its Technical Information table versus 50 Hz–16 kHz in its Engineers’ and Architects’ specification) and sensitivity values/context (91 dB full-range in the table versus 92 dB over 50 Hz–16 kHz and 99 dB over 300 Hz–3 kHz in the specification). Therefore response bounds and sensitivity remain N/A. The 4.5-inch elements are full-range drivers, not a separate woofer, so woofer size remains N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -3757,8 +3757,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3812,16 +3812,16 @@
     },
     "notes": "Manufacturer specifications: 42 Hz–50 kHz (-10 dB), 7-inch woofer with 1.5-inch voice coil, X-ART tweeter, active bi-amplification. Internal amplifier ratings are 100 W RMS + 50 W RMS (150 W RMS total); the database power field is intentionally left unavailable rather than treating an amplifier output figure as acoustic speaker power handling. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.adam-audio.com/en/ax-series/a7x/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.adam-audio.com/en/ax-series/a7x/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -4198,8 +4198,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4253,16 +4253,16 @@
     },
     "notes": "Manufacturer specifications: 40 Hz–25 kHz frequency response; 170 mm (6.5-inch) LF driver and 27 mm soft-dome HF driver; active monitor with DSP and active amplification. Input impedance is 20 kOhm and is not the same as a loudspeaker nominal impedance, so the database impedance field remains N/A. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://pmc-speakers.com/products/twotwo6/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://pmc-speakers.com/products/twotwo6/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -4346,8 +4346,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4401,16 +4401,16 @@
     },
     "notes": "Manufacturer: LYD 8 two-way DSP monitor, 8-inch MSP woofer; 80 W LF + 50 W HF internal amplification (130 W total); published lower/upper cutoff 55 Hz–21 kHz at 85 dB ±3 dB. Source: Dynaudio LYD 8 product specification. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://dynaudio.com/professional-audio/lyd/lyd-8",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -4566,8 +4566,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4621,16 +4621,16 @@
     },
     "notes": "Exact-model manufacturer documentation: 15-inch LF driver with 2-inch voice coil; published frequency-response figures include 50 Hz–20 kHz (-3 dB) and 39 Hz–20 kHz (-10 dB). The primary frequencyResponse field retains the narrower -3 dB limit. Amplifier power is not stored because the manual distinguishes continuous and peak/internal amplifier figures and the database field is not a split/peak schema.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw93dba247/pdfs/JBL_EON600_Users_Guide.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -4860,8 +4860,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4915,16 +4915,16 @@
     },
     "notes": "Manufacturer manual: 39 Hz–20 kHz (-3 dB), with 32 Hz–23 kHz (-10 dB); 15-inch LF driver. The product uses separate LF/HF amplification; the database power field remains unavailable rather than collapsing peak/internal amplifier figures into speaker power handling. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -6273,7 +6273,9 @@
       "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.audiovisionsf.com/products/focal-sopra-no-2-floorstanding-loudspeaker",
       "sourceType": "THIRD_PARTY",
-      "reference": "2.83V/1m"
+      "reference": "2.83V/1m",
+      "simulationExcluded": true,
+      "simulationExclusionReason": "Third-party dealer listing only. Not manufacturer-verified; the 91 dB figure is excluded from verified simulation inputs until an exact-model Focal manufacturer source is obtained."
     },
     "frequencyResponse": {
       "low_hz": 34,
@@ -6317,7 +6319,7 @@
       "source": "https://www.focal.com/it/prodotti/sopra-n2",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source. Round 4 source decision: the Focal-Naim portal URL recorded earlier no longer resolves to the product page (it returns the Austrian home page, and the page carries a dealer login), so it is not accepted. No focal.com specification page was found. The value 91 dB at 2.83V/1m, 8 ohm nominal and 3.1 ohm minimum appears identically in several dealer and retailer listings that quote the manufacturer text (e.g. audiovisionsf.com, worldwidestereo.com). Because these are not primary fetches, the sensitivity is recorded as THIRD_PARTY_VERIFIED with the dealer URL as source, not as manufacturer-verified.",
+    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source. Round 4 source decision: the Focal-Naim portal URL recorded earlier no longer resolves to the product page (it returns the Austrian home page, and the page carries a dealer login), so it is not accepted. No focal.com specification page was found. The value 91 dB at 2.83V/1m, 8 ohm nominal and 3.1 ohm minimum appears identically in several dealer and retailer listings that quote the manufacturer text (e.g. audiovisionsf.com, worldwidestereo.com). Because these are not primary fetches, the sensitivity is recorded as THIRD_PARTY_VERIFIED with the dealer URL as source, not as manufacturer-verified. Round 4 re-check (fetched 2026-10-11): the audiovisionsf.com listing names 'Focal Sopra No.2 Floorstanding Loudspeaker (PAIR)', states 'Sensivity: (2.83V / 1m)91dB', 'Nom. impedance: 8 Ohms' and 'Minimum impedance: 3.1 Ohms'. It meets the promotion criteria (exact model, stated value, stated reference), so the status is THIRD_PARTY_VERIFIED. It is third-party evidence, not manufacturer-verified, and the value is excluded from verified simulation inputs. The listing's own text has a typo ('Sensivity'); it is recorded as the listing's value. No focal.com or Focal-Naim specification page was found.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.focal.com/it/prodotti/sopra-n2",
@@ -7471,8 +7473,8 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 3,
-    "active": false,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7526,16 +7528,16 @@
     },
     "notes": "Manufacturer legacy product data: 34 Hz–20 kHz ±3 dB; 5–150 W RMS power handling; 8 in Kevlar/Nomex woofer, 4 in Kevlar/Nomex midrange and 1 in aluminum dome tweeter. Sensitivity is published as 91 dB SPL but its exact reference is not stated on the source page, so it is not converted or used as a 1 W/1 m value.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://sonance.com/products/93007",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://sonance.com/products/93007",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -10946,8 +10948,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 4,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -11002,16 +11004,16 @@
     },
     "notes": "Manufacturer: 45 Hz–37 kHz (-6 dB); 72 W LF + 36 W MF + 36 W HF amplification. Three-way coaxial point-source architecture with four physical drivers (dual LF racetrack drivers plus MF and HF). Source: Genelec 8331A. Pass-128 check (2026-10-10): sample re-check against the live Genelec page confirmed the 45 Hz-37 kHz (-6 dB) response, 104 dB SPL and the three amplifier channel ratings; the power role was corrected from unknown to amplifier_output because the value is a sum of channel ratings. Pass-129 directivity lead (2026-10-10): the exact-model Aalto/ENSEA measured directivity set for the Genelec 8331A (Zenodo 10255555, 6,480 anechoic IRs) is recorded in scripts/research/directivity-leads.json as LEAD_NOT_IMPORTED pending a confirmed licence and a directivity-ingest step; no polar data is embedded.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.genelec.com/8331a",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.genelec.com/8331a",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -13010,8 +13012,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -13068,16 +13070,16 @@
     },
     "notes": "Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored. Pass-136 check (2026-10-10): A search surfaced an Equator page at equatoraudio.com/D5_Studio_Monitors_with_DSP_300_Pair_p/d5.htm; fetching that exact URL returned 404 (not found) on this pass, so it cannot be cited as a verified source. Retailer copies (gear4music) repeat 53 Hz–20 kHz ±3 dB, 2 × 50 W RMS and 103 dB SPL; the SPL has no reference condition and is not a sensitivity, so nothing is stored. The 5.25 in coaxial woofer and 1 in silk tweeter (two transducers) are described in these copies but not confirmed from a live manufacturer page. Pass-138 check (2026-10-10): Retailer copy (gear4music) gives 53 Hz-20 kHz (+/-3 dB) and 100 W (2 x 50 W RMS); a forum copy gives 103 dB SPL for a pair with no reference condition. Retailer and forum copies only; the manufacturer page is not reachable. Third-party copy only (gear4music.com). driverCount 2 and active true are taken from the same page: '5.25\" woofer and a 1\" silk tweeter' and 'Active Studio Monitors'. The 103 dB SPL figure is a maximum output level and is not stored as sensitivity. Pass-140 (2026-10-10): third-party tier applied.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -14184,7 +14186,7 @@
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": null,
-    "active": false,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -14238,10 +14240,10 @@
     },
     "notes": "Manufacturer: 4 Ω; 70 W power-handling figure; 37 Hz–24 kHz; TS-A1670F 6.5-inch 3-way automotive speaker. Exact physical driver count is not asserted because the published 3-way designation does not by itself prove a separate-driver count. Source: Pioneer TS-A1670F. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.pioneerelectronics.com/PUSA/Car/Speakers/A-Series/TS-A1670F",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -14724,8 +14726,8 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 4,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -14783,16 +14785,16 @@
     },
     "notes": "Source: B&O 'BeoLab 5' technical brochure (document '16055_BL5_Tekn_EU_UK'), hosted on content.abt.com. The brochure is a manufacturer document copied by a retailer, so it is labelled REPUTABLE_DATABASE. The specification table lists: treble 1.8 cm (3/4 in), mid-range 7.6 cm (3 in), upper bass 16.5 cm (6.5 in), lower bass 38 cm (15 in); 'Sealed box / 5 l.' upper bass and 'Sealed box / 29 l.' lower bass; 'Max. sound pressure level 108 dB (stereo, pair)'; 'Height 97 cm, Ø 49 cm / 61 kg'. driverCount 4 is the four drivers in that table; active=true is the brochure's '4 way active technology with 4 ICEpower amplifiers'. Not stored: sensitivity (not in the brochure; the 91 dB 're 125 mVrms' figure on a secondary site uses a non-standard reference and is not used); impedance (not published here). The brochure carries no revision marker; the 2003 launch date comes from secondary sources (beoworld.org, specs4audio) and is consistent with the brochure's features (ABC microphone, ALT). Earlier pass-128 'MK2' conflict was not re-verified in this pass and remains a caveat. Earlier pass history: No source-backed physical specification is retained for this exact model. Pass-128 check (2026-10-10): BeoLab 5 generations conflict (2003 original vs 2012 MK2 with different ranges). No single exact-model source found; none transferred. Pass-130 check (2026-10-10): secondary listings (linephaze, eBay, skyfiaudio) give 20 Hz–20 kHz, 108 dB and a 2500 W peak, with generation and variant unresolved. No B&O manufacturer page was reached.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://content.abt.com/documents/6162/1680009_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -15011,7 +15013,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 3,
+    "driverCount": null,
     "active": null,
     "panel": null,
     "sensitivity": {
@@ -15066,10 +15068,10 @@
     },
     "notes": "Pass-131 check (2026-10-10): retailer and review copies (Best Buy Canada blog, XDA-Developers, a retailer listing) describe 1 x 3-inch woofer and 2 x 0.8-inch tweeters; the Amazon product page was not reached. Driver count and power are not stored from secondary copies. Nothing else found. Pass-136 check (2026-10-10): Amazon's own listing for Echo (4th generation), International Version (ASIN B085H3DKLT), states \"3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters\": driverCount 3 (one woofer, two tweeters). The listing publishes no power, sensitivity, impedance or frequency response, so none is stored. The US listing is not separately checked; the driver description is the same in the retail copies. Pass-137 check (2026-10-10): the second chunk of the Amazon product page (ASIN B085H3DKLT, Echo (4th Gen) International Version) repeats the technical details: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters. The pending chunk check is closed. driverCount 3 is unchanged; no other field is published on this page. Third-party copies only (proaudiovideo.in; mahajanelectronics.com; Amazon listing). Both spec copies state Impedance and Sensitivity as N/A for this active, mains-powered speaker, so neither is stored. The 'full-range' frequency statement has no criterion and is not stored. Pass-142 (2026-10-11): third-party tier applied to the woofer diameter. Pass-143 (2026-10-11) re-check: (1) ASIN B085H3DKLT was checked on Amazon's own product page, which is titled 'Echo (4th generation) International Version' and states 'You're viewing the newest model'. The ASIN therefore identifies the exact 4th-gen Echo. Aggregator pages (btienda.es, webprice.eu) list the same ASIN under other Echo products and are not relied on. (2) mahajanelectronics.com is removed from the evidence for the woofer. Its product URL is a combo-bundle slug ('echo-dot-4th-gen-black-combo-with-wipro-9w-easy-set-up-smart-bulb-copy'), its table is a reseller copy of the same text, and it adds no independent support. It is kept here as history only. (3) The 3.0-inch woofer is kept because proaudiovideo.in and SoundGuys each explicitly identify the 4th-gen Echo's woofer (see the woofer field notes). Both are secondary, so the field stays THIRD_PARTY_VERIFIED and is not treated as manufacturer-confirmed. (4) SoundGuys' buy link points to ASIN B07XJ8C8F7, which Amazon identifies as Echo Dot (4th Gen). That link is not evidence for this record.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -21513,8 +21515,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -21572,16 +21574,16 @@
     },
     "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored. Pass-136 check (2026-10-10): The B&H listing for the Mackie CR3 (Class-AB active 2-way, 3 in woofer, 0.75 in tweeter, 28 W RMS / 50 W peak) is internally inconsistent: it gives \"–3 dB 80–20,000 Hz; –10 dB 70–20,000 Hz\" and also \"70 Hz to 20 kHz ± 3 dB\". The CR3-X (Class-D, 50 W peak; 80 Hz at −3 dB, 70 Hz at −10 dB) is a different revision. The revision and the response statement are unresolved, so no values are stored. Pass-138 check (2026-10-10): Mackie CR3 owner's manual (combined CR3 and CR4 manual; text copy at pdf-manuals.com; the zikinf.com copy was behind a verification challenge and was read only through its search index). For CR3 the table gives frequency response (-3 dB) 70 Hz-20 kHz and (-10 dB) 80 Hz-20 kHz; amplifier rated power 28 W RMS (Class AB), with 50 W peak; low-frequency driver 3.0 in (76 mm) and high-frequency driver 0.75 in silk dome, 3 kHz crossover (2 drivers); powered. Stored: -3 dB 70 Hz-20 kHz; 28 W RMS amplifier output; woofer 3.0 in; driverCount 2; active true. Not stored: the 97 dB figure in these copies is labelled 'Maximum SPL Peak Per Pair', not sensitivity; the -10 dB 80 Hz figure is not stored as the response; the 50 W peak is not converted or stored as rated power. The Class-D 50 W, 80 Hz at -3 dB text in earlier copies belongs to a different revision and is not merged.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -21591,8 +21593,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 2,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -21649,16 +21651,16 @@
     },
     "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Exact revision not established. Retailer copies for Thump15 and Thump15A differ; Mackie official page not located; none transferred. Pass-130 check (2026-10-10): Mackie Thump15 secondary listings conflict by revision. A zzounds listing for the 'Thump15' gives -3 dB 39 Hz–20 kHz and -10 dB 32 Hz–23 kHz; a Thump15A listing gives 1000 W LF / 300 W HF, 32 Hz–23 kHz and 127 dB; a THUMP15BST listing gives 1300 W total. No Mackie revision was fixed to the record, so nothing is stored. Pass-136 check (2026-10-10): Distributor page reproducing Mackie's Thump15 specification. Stored: –3 dB 39 Hz–20 kHz; 500 W rms system amplifier output; 15 in woofer and 1.4 in titanium compression driver (driverCount 2); powered (active). Not stored: \"Maximum SPL Peak 126 dB SPL @ 1m\" (a maximum output, not sensitivity, and the reference is not a sensitivity condition); the Thump15A (1300 W, 32 Hz–23 kHz, 127 dB) and THUMP15BST records are other products and are not transferred.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -22500,10 +22502,10 @@
     },
     "notes": "Exact discontinued Dynaudio Contour 1.3 manufacturer page: 85 dB sensitivity at 2.83 V/1 m, 150 W IEC long-term power handling, 4-ohm rated impedance, 45 Hz–22 kHz at +/- 3 dB, and a 17 cm MSP midrange/woofer. The page identifies a two-way system with one tweeter and one midrange/woofer, so driverCount is 2. The contour-series manual currently linked from the page does not establish that it applies to this earlier 1.3 revision; active status remains N/A. No response-point or directivity dataset is published/imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/discontinued-models/contour/contour-13",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact discontinued manufacturer page. Contour 1.3: the page lists Crossover 2-way, a 28 mm soft-dome tweeter and a 17 cm MSP midrange/woofer. Driver count 2 is restored from the held value. The page does not state active/passive, so active stays null."
     }
   },
   {
@@ -22569,10 +22571,10 @@
     },
     "notes": "Exact discontinued Dynaudio Special Twenty-Five manufacturer page: 88 dB sensitivity at 2.83 V/1 m, 200 W IEC long-term power handling, 4-ohm rated impedance, and a 20 cm MSP midrange/woofer; the listed two-way configuration and tweeter plus midrange/woofer establish two drivers. The exact-model page does not publish lower/upper frequency cutoffs, so frequencyResponse remains N/A rather than borrowing a range from another Special model or a third-party listing. Active status and response/directivity data are not established by this page and remain N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/discontinued-models/editions/special-twenty-five",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact discontinued manufacturer page. Special Twenty-Five: the page lists Crossover 2-way, a 28 mm Esotar2 tweeter and a 20 cm MSP midrange/woofer. Driver count 2 is restored from the held value. The page does not state active/passive, so active stays null."
     }
   },
   {
@@ -22638,10 +22640,10 @@
     },
     "notes": "Exact discontinued Dynaudio Confidence C1 (original C1, not C1 Platinum) manufacturer page: 85 dB sensitivity at 2.83 V/1 m, 170 W IEC long-term power handling, 4-ohm rated impedance, 45 Hz–22 kHz at +/- 3 dB, a 17 cm MSP midrange/woofer and 28 mm Esotar2 tweeter. The page specifies a two-way system, so driverCount is 2. The source is the original C1 page, not the separately listed C1 Platinum page. The fetched exact-model page does not explicitly establish powered/active operation, so active remains N/A. No response-point or directivity dataset is published/imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/discontinued-models/confidence/confidence-c1",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact discontinued manufacturer page. Confidence C1: the page lists Crossover 2-way, a 28 mm Esotar2 tweeter and a 17 cm MSP midrange/woofer. Driver count 2 is restored from the held value. The page does not state active/passive, so active stays null."
     }
   },
   {
@@ -31311,7 +31313,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": true,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -31361,20 +31363,20 @@
       "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC LA108 active line-array page: 8-inch LF cone plus one 1.75-inch HF compression driver (two transducers); response 62 Hz–20 kHz at -6 dB and 57 Hz–20 kHz at -10 dB; peak SPL 134 dB at 1 m. The integrated amplifier's published peak ratings are separate channels (LF 1000 W; HF 300 W), so scalar power remains N/A rather than summing or collapsing the channels. The active speaker-load impedance and acoustic sensitivity are not entered.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -31384,7 +31386,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": true,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -31434,20 +31436,20 @@
       "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 3,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC LA112 active line-array page: one 12-inch LF cone and two 1.75-inch HF compression drivers (three transducers); response 58 Hz–20 kHz at -6 dB and 53 Hz–20 kHz at -10 dB; peak SPL 136 dB at 1 m. The integrated amplifier's published peak ratings are separate channels (LF 1600 W; HF 800 W), so scalar power remains N/A rather than summing or collapsing the channels. The active speaker-load impedance and acoustic sensitivity are not entered.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -31457,7 +31459,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": true,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -31507,20 +31509,20 @@
       "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 1,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC LS118 active subwoofer page: one 18-inch driver; response 41–98 Hz at -6 dB and 35–111 Hz at -10 dB; peak SPL 138 dB at 1 m. The source gives a 4000 W peak amplifier rating; it is retained here as peak-only context, not placed in the single power field where the role would lose the peak qualification. No passive impedance or acoustic sensitivity is published.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -31963,7 +31965,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 88,
       "unit": "dB",
@@ -32133,20 +32135,20 @@
       "pointsSourceType": "MANUFACTURER",
       "pointsContext": "Exact-model QSC AD-C6T sheet, table titled Impedance / Frequency Response, column labelled FLC: Frequency Response (Raw), 1W, 1m (dB). Transcribed all 28 tabulated values verbatim, excluding the separate Intrinsic Correction and EN54-24 columns; no interpolation or smoothing. The sheet separately defines 88 dB sensitivity as a 200 Hz–10 kHz average, so the 1 kHz response point is not forced to equal that average. Runtime uses these published points as response shape normalized at 1 kHz, while the independently specified sensitivity remains the absolute-level reference."
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC AD-C6T spec sheet covering the black and white finishes of AD-C6T (not LP, ZB, or another suffix): one 6.5-inch LF woofer and one 0.75-inch aluminum dome tweeter; effective range 65 Hz–20 kHz, -10 dB from rated sensitivity; sensitivity 88 dB at 1 W/1 m (source footnotes specify the reference axis and a 200 Hz–10 kHz average); 60 W / 31 V rms rated noise power; 16 Ω bypass impedance. The 60 W rating is the source's 2-hour IEC noise rating, not a recommended amplifier value. The exact source's FLC raw 1 W/1 m response table is transcribed separately with its source/context; the separate Intrinsic Correction and EN54-24 tables are excluded. Published DMT coverage, frequency-dependent horizontal/vertical beamwidth, and directivity factor/index are not a complete angular polar dataset, so directivity remains unavailable.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -32231,7 +32233,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 89,
       "unit": "dB",
@@ -32397,20 +32399,20 @@
       "pointsSourceType": "MANUFACTURER",
       "pointsContext": "Exact-model QSC AC-C4T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column only; the separate Intrinsic Correction column is not used, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the source's explicit on-axis, free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project."
     },
-    "driverCount": 1,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC AcousticCoverage AC-C4T sheet: one 4-inch full-range polypropylene transducer; effective range 70 Hz–16 kHz, with the source defining this as half-space, -10 dB from on-axis sensitivity; 89 dB SPL sensitivity at on-axis free-field 2.83 V/1 m; 16 W / 11.3 V rms rated noise power; 8 Ω impedance. The 16 W value is the source's 2-hour IEC 60268-1 noise rating, not a recommended amplifier value. The raw response table is retained separately with its own source/context. The source also publishes frequency-dependent beamwidth, but beamwidth/nominal 140° coverage is not a complete polar response; no directivity payload is inferred.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -32420,7 +32422,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 89,
       "unit": "dB",
@@ -32590,20 +32592,20 @@
       "pointsSourceType": "MANUFACTURER",
       "pointsContext": "Exact-model QSC AC-C6T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column verbatim; the source does not state an input/reference level for this response table, and the separate Intrinsic Correction column is excluded. No interpolation or smoothing is applied. The published dB values are used only for curve shape and normalized at 1 kHz; the independent 89 dB sensitivity field keeps the source's separate on-axis free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project."
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC AcousticCoverage AC-C6T sheet: one 6.5-inch polypropylene LF cone and a coaxially mounted 0.86-inch silk-dome HF transducer; effective range 65 Hz–20 kHz, half-space and -10 dB from on-axis sensitivity; 89 dB SPL sensitivity at on-axis free-field 2.83 V/1 m; 30 W / 15.5 V rms rated noise power; 8 Ω impedance. The 30 W value is the source's 2-hour IEC 60268-1 noise rating, not a recommended amplifier value. Raw response points are transcribed separately from the Intrinsic Correction column; the source does not state an input/reference level for that response table, so points are used only as shape and normalized at 1 kHz. The exact sheet's 110° nominal coverage and beamwidth table are not a complete polar response; directivity remains unavailable.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -32613,7 +32615,7 @@
     "category": "cinema",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 89,
       "unit": "dB",
@@ -32779,20 +32781,20 @@
       "pointsSourceType": "MANUFACTURER",
       "pointsContext": "Exact-model QSC AC-C8T specification sheet, table titled Impedance/Frequency Response. Transcribed each nonblank tabulated Frequency Response (Raw) value from 20 Hz through 10 kHz; the separate Intrinsic Correction column is excluded, the 20 kHz row is blank, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the explicit on-axis, free-field 2.83 V/1 m reference from footnote 3. These are manufacturer-published tabulated response values, not measurements by this project."
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC AcousticCoverage AC-C8T sheet: one 8-inch polypropylene LF cone and one coaxially mounted 0.86-inch silk-dome HF transducer; effective range 52 Hz–20 kHz, half-space and -10 dB from on-axis sensitivity; 89 dB SPL sensitivity at on-axis free-field 2.83 V/1 m (the exact-model sheet's footnote 3); 80 W / 25.3 V rms rated noise power; 8 Ω bypass impedance. The 80 W value is the source's 2-hour IEC 60268-1 noise rating, not a recommended amplifier value. This exact datasheet supplies the sensitivity reference that was not present in the previously inspected page. Raw-response points are transcribed separately from the Intrinsic Correction table; the missing 20 kHz response-table value is not inferred. Published 100° coverage and beamwidth data are not a complete polar response, so directivity remains unavailable.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -32802,7 +32804,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -32852,20 +32854,20 @@
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 3,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC WideLine-8 WL3082 specification: dual 8-inch LF/MF drivers plus one 3-inch-diaphragm HF compression driver (three transducers); passive externally tri-amplified line-array cabinet. Published response is 68 Hz–18 kHz (±3 dB); the separate -10 dB range is 62 Hz–20 kHz. Continuous ratings and impedances are channel-specific (HF 85 W/16 Ω, MF 250 W/16 Ω, LF 250 W/16 Ω), and sensitivity is separately stated by band (HF 108 dB; MF/LF 98 dB, 1 W at 1 m); these values are preserved here as context rather than collapsed into scalar power, impedance, or sensitivity. QSC gives 140° horizontal coverage and vertical coverage dependent on array size; neither is converted to polar directivity. No points are digitized from the response graph.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -32875,7 +32877,7 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -32925,20 +32927,20 @@
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 3,
+    "driverCount": null,
     "panel": null,
     "notes": "The dataset's WL2102w label maps to the exact QSC manual model WL2102-w (birch plywood enclosure; punctuation only differs). The manual specifies two 10-inch LF transducers plus one 1.4-inch-exit HF compression driver; frequency response 55 Hz–18 kHz (±3 dB) and range 48 Hz–20 kHz (-10 dB), both with recommended DSP processing. This is an externally amplified passive bi-amp/tri-amp cabinet. HF/LF sensitivity (107.5/98 dB at 1 W/1 m), impedance, and continuous/recommended power ratings differ by band and bi-/tri-amp mode; no scalar sensitivity, impedance, or power is asserted or combined. The source's 140° horizontal and array-dependent vertical coverage is not a polar dataset. No response points are digitized from the graph. The manual's introduction describes bass response as '55 Hz (-3 dB)', but its specification table, which is the exact-model data, gives Frequency Response (±3 dB) 55 Hz–18 kHz and Frequency Range (-10 dB) 48 Hz–20 kHz; the stored values follow the table, and the -10 dB range is not stored as the response.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -32948,7 +32950,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 99,
       "unit": "dB",
@@ -33000,20 +33002,20 @@
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC WideLine-8 WL212-sw passive subwoofer specification: dual 12-inch LF drivers; 40–100 Hz response (±3 dB), with a separately published 32–107 Hz range (-10 dB); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The power field records only the continuous capacity, not the separate recommended-amplifier range. No points are digitized from the graph, and no directivity data is inferred from the subwoofer description.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -33023,7 +33025,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 101,
       "unit": "dB",
@@ -33075,20 +33077,20 @@
       "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC WL218-sw passive dual-18-inch subwoofer sheet: 37–200 Hz response (±3 dB, without processing); the separate -10 dB range is 31 Hz–1 kHz (without processing); sensitivity 101 dB at 1 W/1 m; 1700 W continuous capacity; 4 Ω nominal impedance. The sheet separately lists 3000 W recommended power and 133/139 dB continuous/peak SPL; no recommendation is stored as speaker power handling. No response points are digitized from its graph and no directivity is inferred.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -33098,7 +33100,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 98,
       "unit": "dB",
@@ -33150,20 +33152,20 @@
       "source": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 1,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC GP118-sw passive, direct-radiating subwoofer spec sheet: one 18-inch transducer; frequency response 29 Hz–800 Hz at -10 dB; 98 dB nominal sensitivity at 1 W/1 m; 850 W continuous power capacity (the source's 2-hour IEC rating; 1700 W peak is context only); 8 Ω nominal impedance. The same PDF's extracted Frequency Response (SPL, dB) table falls far below its own sensitivity/bandwidth specifications above 100 Hz (for example, it lists 80 dB at 200 Hz and 18 dB at 800 Hz), with no explained level/reference that reconciles the discrepancy. Those questionable points are deliberately not imported; the structured response stores only the explicit -10 dB endpoints. No directivity is inferred from the cabinet's coverage or intended use.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -33173,7 +33175,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 99,
       "unit": "dB",
@@ -33225,20 +33227,20 @@
       "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC GP212-sw passive dual-12-inch band-pass subwoofer sheet: 40–100 Hz response (±3 dB, without processing); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The same sheet prints its separate -10 dB range as 32 Hz–107 kHz; because that is the published unit, no corrected/inferred -10 dB upper endpoint is entered. Recommended amplifier power is given as a range and is not collapsed into scalar power. No points are digitized from the graph and no directivity is inferred.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -33248,7 +33250,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": false,
+    "active": null,
     "sensitivity": {
       "value": 102,
       "unit": "dB",
@@ -33300,20 +33302,20 @@
       "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "driverCount": 2,
+    "driverCount": null,
     "panel": null,
     "notes": "Exact QSC GP218-sw passive, direct-radiating dual-18-inch subwoofer sheet: frequency range 24 Hz–1.2 kHz (-10 dB); 102 dB nominal sensitivity at 1 W/1 m; 1700 W continuous capacity (3400 W peak is context only); 4 Ω nominal impedance. The sheet separately recommends 3000–4000 W; that range is not collapsed into scalar power. No response points are digitized and no directivity data is inferred.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -38795,7 +38797,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": true,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38849,10 +38851,10 @@
     "panel": null,
     "notes": "Dynaudio LYD 5 official product specification table: 60 Hz–21 kHz. Manufacturer lists 50 W LF + 50 W HF amplification; the split-band power is not collapsed into the single power-handling field. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://dynaudio.com/professional-audio/lyd/lyd-5",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -38862,7 +38864,7 @@
     "category": "hifi",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "active": true,
+    "active": null,
     "sensitivity": {
       "value": null,
       "unit": "dB",
@@ -38916,10 +38918,10 @@
     "panel": null,
     "notes": "Dynaudio LYD 7 official product specification table: 55 Hz–21 kHz. Manufacturer lists 50 W LF + 50 W HF amplification; the split-band power is not collapsed into the single power-handling field. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -39029,16 +39031,16 @@
     "panel": null,
     "notes": "Dynaudio's exact current Core 7 product page identifies a two-way DSP nearfield monitor with a 7-inch MSP mid/woofer and reports a 500 W LF/mid-woofer amplifier plus a 150 W HF amplifier. Its response cutoffs are 40 Hz and 27 kHz at 85 dB +/- 3 dB; the dynamic -6 dB cutoffs are 36 Hz and 29 kHz. The 2022 spec sheet separately gives 45 Hz–27 kHz +/- 3 dB and 38 Hz–31 kHz +/- 6 dB; the structured range stores only the current page's 85 dB cutoffs, and the separately sourced response points retain their own context. The split amplifier ratings are not collapsed or summed into the single power field, which remains N/A. Maximum SPL (112 dB anechoic / 118 dB half-space) is not sensitivity; passive impedance and acoustic sensitivity remain unavailable. No polar/directivity payload is imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/professional-audio/core/core-7",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact manufacturer product page states the design. Active: class-D amplification with DSP (the page gives the amplifier ratings). Driver count: the page describes this model as two-way. Restored from the held value and marked MANUFACTURER_VERIFIED for this field only."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/professional-audio/core/core-7",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact manufacturer product page states the design. Active: class-D amplification with DSP (the page gives the amplifier ratings). Driver count: the page describes this model as two-way. Restored from the held value and marked MANUFACTURER_VERIFIED for this field only."
     }
   },
   {
@@ -39148,16 +39150,16 @@
     "panel": null,
     "notes": "Dynaudio's exact current Core 47 product page identifies a three-way DSP nearfield monitor with a 7-inch MSP woofer, 4-inch MSP midrange and Esotar Pro tweeter. It reports separate 500 W LF, 500 W midrange and 150 W HF amplifier ratings; these channel values are not collapsed or summed into the single power field, which remains N/A. The current page's response cutoffs are 41 Hz and 24 kHz at 85 dB +/- 3 dB, with dynamic -6 dB cutoffs of 35 Hz and 30 kHz. The 2022 spec sheet separately gives 44 Hz–27 kHz +/- 3 dB and 37 Hz–31 kHz +/- 6 dB; the structured range stores only the current page's 85 dB cutoffs, and the separately sourced response points retain their own context. Maximum SPL (113 dB anechoic / 118 dB half-space) is not sensitivity; passive impedance and acoustic sensitivity remain unavailable. No polar/directivity payload is imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/professional-audio/core/core-47",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact manufacturer product page states the design. Active: class-D amplification with DSP (the page gives the amplifier ratings). Driver count: the page describes this model as three-way. Restored from the held value and marked MANUFACTURER_VERIFIED for this field only."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/professional-audio/core/core-47",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact manufacturer product page states the design. Active: class-D amplification with DSP (the page gives the amplifier ratings). Driver count: the page describes this model as three-way. Restored from the held value and marked MANUFACTURER_VERIFIED for this field only."
     }
   },
   {
@@ -39267,16 +39269,16 @@
     "panel": null,
     "notes": "Dynaudio's exact current Core 59 product page identifies a three-way DSP main monitor with a 9-inch MSP woofer, 5-inch MSP midrange and Esotar Pro tweeter. It reports separate 500 W LF, 500 W midrange and 150 W HF amplifier ratings; these channel values are not collapsed or summed into the single power field, which remains N/A. The current page's response cutoffs are 39 Hz and 27 kHz at 85 dB +/- 3 dB, with dynamic -6 dB cutoffs of 36 Hz and 29 kHz. The 2022 spec sheet separately gives 42 Hz–27 kHz +/- 3 dB and 36 Hz–31 kHz +/- 6 dB; the structured range stores only the current page's 85 dB cutoffs, and the separately sourced response points retain their own context. Maximum SPL (113 dB anechoic / 119 dB half-space) is not sensitivity; passive impedance and acoustic sensitivity remain unavailable. No polar/directivity payload is imported.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/professional-audio/core/core-59",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact manufacturer product page states the design. Active: class-D amplification with DSP (the page gives the amplifier ratings). Driver count: the page describes this model as three-way. Restored from the held value and marked MANUFACTURER_VERIFIED for this field only."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://dynaudio.com/professional-audio/core/core-59",
-      "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (fetched 2026-10-11): the exact manufacturer product page states the design. Active: class-D amplification with DSP (the page gives the amplifier ratings). Driver count: the page describes this model as three-way. Restored from the held value and marked MANUFACTURER_VERIFIED for this field only."
     }
   },
   {
@@ -51137,14 +51139,14 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "driverCount": 4,
+    "driverCount": null,
     "panel": null,
     "notes": "Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Pass-135 check (2026-10-10): Blue Book lists the 5150 412 at '300W, 4-12 in. Sheffield 1200 speakers, 16 Ohm'; equipboard and reverb list 240 W for the 4x12 slant cabinet, and reverb lists 300 W 'Rated at 300 watts and 16 ohms' for a Sheffield-speaker listing. The sources do not agree on the model variant or the power figure, and no Peavey manufacturer page was reached, so nothing is stored. Pass-136 check (2026-10-10): The Peavey literature located for this query is the Invective 412 cabinet, a different product, so it is not used. The 5150 412 figures (Sheffield 1200 ×4, 16 Ω, 300 W, 1992–2004) come only from a price-guide listing. No Peavey 5150 412 manufacturer page was found, so nothing is stored. Pass-138 check (2026-10-10): The Peavey 5150 II operating guide found in search is an amplifier manual (120 W RMS into 4, 8 or 16 ohm). It is not a speaker specification and is not transferred to the 5150 412 cabinet. Third-party copy only (bluebookofguitarvalues.com, mfg. 1992-2004). Power is NOT stored: the exact-model listing gives 300 W with no rating definition, and the slant-cabinet listings give 240 W for a different variant, so the copies conflict. Pass-140 (2026-10-10): third-party tier applied to the exact-model impedance and driver layout.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
@@ -51657,8 +51659,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 3,
-    "active": true,
+    "driverCount": null,
+    "active": null,
     "panel": false,
     "sensitivity": {
       "value": null,
@@ -51712,16 +51714,16 @@
     },
     "notes": "Manufacturer: 47 Hz–22 kHz; 235 W total amplification; 6.5-inch LF driver, 3-inch midrange and 1-inch tweeter. Active 3-way. Source: ATC SCM25A Pro. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+      "status": "UNSOURCED",
+      "source": null,
       "sourceType": null,
-      "note": "Round 4 correction: restored. The record cites an exact-model source (URL in its source fields and an exact-source statement in its notes), but the field itself has not been checked against that source."
+      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
     }
   },
   {
