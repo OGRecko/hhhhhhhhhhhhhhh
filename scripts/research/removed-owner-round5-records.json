@@ -1,7 +1,7 @@
 {
   "reviewDate": "2026-10-11",
-  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data. Addendum (2026-10-12, owner instruction): legacy-la-1 'V-DOSC' is also archived here. Searches found only third-party-hosted copies of older V-DOSC sheets (2003-era and undated), not an exact-revision source from L-Acoustics; the record is archived unchanged, not deleted.",
-  "recordCount": 25,
+  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data. Addendum (2026-10-12, owner instruction): legacy-la-1 'V-DOSC' is also archived here. Searches found only third-party-hosted copies of older V-DOSC sheets (2003-era and undated), not an exact-revision source from L-Acoustics; the record is archived unchanged, not deleted. Addendum (2026-10-12, owner decision): legacy-la-2 'ARCS' is also archived here, unchanged. It had no exact-model source; ARCS II and ARCS Wide are different products and were not transferred to it.",
+  "recordCount": 26,
   "records": [
     {
       "id": "boston-a150",
@@ -1712,6 +1712,67 @@
         "sourceType": "NONE"
       },
       "notes": "Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source. Pass-136 correction: a third-party yumpu copy of an L-Acoustics V-DOSC sheet (2003 revision; 50–18000 Hz ±3 dB, 3WX HI preset, eight drivers) was located in pass 135 but is held as a lead only. The Batch-116 ruling keeps this record UNVERIFIED until an L-Acoustics manufacturer source is found. Pass-138 check (2026-10-10): A V-DOSC specification sheet copy (2003-era, base.ren-ting.com) gives 50-18 kHz +/-3 dB and 40-20 kHz (-10 dB) usable bandwidth for the 3WX HI preset, band sensitivities of 100/105/108 dB, and continuous SPL of 134-146 dB for one to four enclosures. These depend on the preset and the number of enclosures, so no single-speaker value is stored and the record stays UNVERIFIED."
+    },
+    {
+      "id": "legacy-la-2",
+      "brand": "L-Acoustics",
+      "model": "ARCS",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": null,
+      "active": null,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Owner decision (2026-10-12): ARCS II is added as a separate record (lacoustics-arcs-ii). This row 'ARCS' has no exact-model source, so it remains UNVERIFIED and no values are transferred from ARCS II or ARCS Wide. Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred. Pass-131 check (2026-10-10): the L-Acoustics ARCS product URL (l-acoustics.com/products/arcs/) did not resolve to a product page. Pass-136 check (2026-10-10): A third-party Scribd copy of an L-Acoustics ARCS sheet (57 kg, 375 W rms LF / 100 W rms HF long-term, 63 Hz–18 kHz ±3 dB on the 2W HI preset, 98 dB LF / 109 dB HF at 2.83 Vrms/1 m) was found. It is a lead only: it is a third-party upload, the L-Acoustics domain was not reached, and the Batch-116 rule applied to the same brand's V-DOSC copy keeps this record UNVERIFIED until a manufacturer source is found. The ARCS II sheet (50 kg, 600 W LF) is a different revision and is not transferred."
     }
   ]
 }

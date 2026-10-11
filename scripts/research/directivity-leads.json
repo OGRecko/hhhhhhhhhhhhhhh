@@ -481,7 +481,7 @@
   {
     "id": "legacy-la-2",
     "status": "LEAD_NOT_IMPORTED",
-    "note": "L-Acoustics’ official archives page lists a dedicated ARCS archive and distinct ARCS WIFO and ARCSII archives, as well as CATT/CLF database archives. The exact database row is the unqualified ARCS model; the separate Wide/WIFO and ARCSII archives are not used to fill it. The product ZIP and database contents have not been inspected for an exact ARCS response or polar dataset, so no frequency-response points or directivity values are imported.",
+    "note": "Owner decision (2026-10-12): the catalog row 'ARCS' was archived for lack of an exact-model source. This lead is kept for reference only. L-Acoustics’ official archives page lists a dedicated ARCS archive and distinct ARCS WIFO and ARCSII archives, as well as CATT/CLF database archives. The exact database row is the unqualified ARCS model; the separate Wide/WIFO and ARCSII archives are not used to fill it. The product ZIP and database contents have not been inspected for an exact ARCS response or polar dataset, so no frequency-response points or directivity values are imported.",
     "page": "https://www.l-acoustics.com/archives-product/",
     "archive": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/ARCS/documents.zip",
     "sources": [

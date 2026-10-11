@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-11 from the authoritative 671-record database.
+Generated 2026-10-11 from the authoritative 670-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -312,7 +312,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-ma-2 | Martin Audio | F2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-ma-3 | Martin Audio | W8LM | PARTIALLY_VERIFIED | sensitivity, resonantFreq |
 | legacy-ma-4 | Martin Audio | MLA | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
-| legacy-la-2 | L-Acoustics | ARCS | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-la-3 | L-Acoustics | Kara | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
 | legacy-la-4 | L-Acoustics | K1 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-5 | L-Acoustics | K2 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
@@ -679,5 +678,5 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
 **Records with at least one source-backed acoustic field:** 662
-**Records with no source-backed acoustic field:** 9
+**Records with no source-backed acoustic field:** 8
 **Unavailable identities or confirmed non-loudspeaker records:** 0
