@@ -1,0 +1,164 @@
+[
+ {
+  "id": "qsc-la108",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+  "evidence": "Page: two-way active line array; 8-inch LF cone and 1.75-inch HF compression driver (2 drivers).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-la108",
+  "field": "active",
+  "action": "accept",
+  "value": true,
+  "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+  "evidence": "Page: Configuration \"Two-way active line array loudspeaker\"; built-in Class D amplifier (LF 1000 W / HF 300 W).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-la112",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 3,
+  "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+  "evidence": "Page: 12-inch LF cone plus \"2x 44 mm\" HF compression drivers (3 drivers).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-la112",
+  "field": "active",
+  "action": "accept",
+  "value": true,
+  "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+  "evidence": "Page: \"Two-way active line array loudspeaker\"; built-in Class D amplifier (LF 1600 W / HF 800 W).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-ls118",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 1,
+  "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+  "evidence": "Page: \"Direct radiating, active subwoofer\"; one 460 mm (18-inch) LF driver.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-ls118",
+  "field": "active",
+  "action": "accept",
+  "value": true,
+  "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+  "evidence": "Page: \"Direct radiating, active subwoofer\"; built-in Class D amplifier 4000 W.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "dynaudio-lyd-7",
+  "field": "active",
+  "action": "accept",
+  "value": true,
+  "url": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+  "evidence": "Page spec table: \"Amplifier Power Woofer (W) 50\", \"Amplifier Power Tweeter (W) 50\", 2-way DSP-based crossover.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-ad-c6t",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+  "evidence": "Spec sheet: 6.5 in LF paper cone woofer plus 19 mm HF aluminium dome tweeter (2 drivers).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-ac-c4t",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 1,
+  "url": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+  "evidence": "Spec sheet: single 4 in full-range transducer.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-ac-c6t",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+  "evidence": "Spec sheet: 6.5 in LF cone plus 22 mm silk dome tweeter (2 drivers).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-ac-c8t",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+  "evidence": "Spec sheet: 210 mm (8 in) LF cone plus 22 mm silk dome tweeter (2 drivers).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-wl2102w",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 3,
+  "url": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+  "evidence": "User manual: 3-way design; two LF transducers (A and B) plus one HF transducer.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-wl2102w",
+  "field": "active",
+  "action": "accept",
+  "value": false,
+  "url": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+  "evidence": "User manual: \"not equipped with a crossover network\"; shading by \"a passive network in BI AMP mode\"; \"connect audio power to the loudspeaker\" (externally amplified).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-wl218-sw",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+  "evidence": "Spec sheet: \"2 x 18\" vented subwoofer\", two 18-inch woofers.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-gp118-sw",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 1,
+  "url": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+  "evidence": "Spec sheet: one 457 mm (18-inch) driver.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-gp212-sw",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+  "evidence": "Spec sheet: \"2 x 12\" 4th order band-pass subwoofer\", two 12-inch woofers.",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "qsc-gp218-sw",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 2,
+  "url": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+  "evidence": "Spec sheet: \"Dual ... 18-inch transducers\" (2 drivers).",
+  "date": "2026-10-11"
+ },
+ {
+  "id": "sonance-vp86",
+  "field": "driverCount",
+  "action": "accept",
+  "value": 3,
+  "url": "https://sonance.com/products/93007",
+  "evidence": "Product page: 1-inch tweeter, 4-inch midrange, 8-inch woofer (3 drivers). Page marked as legacy product.",
+  "date": "2026-10-11"
+ }
+]

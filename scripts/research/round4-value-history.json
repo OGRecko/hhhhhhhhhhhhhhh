@@ -6,7 +6,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "URL re-fetched 2026-10-11: 404. No working source; value stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "jbl-l100",
@@ -15,7 +17,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb63c766/pdfs/L100_Century_Owners_Manual.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "URL re-fetched 2026-10-11: 404. No working source; value stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "bose-802",
@@ -155,8 +159,10 @@
     "heldValue": 3,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://sonance.com/products/93007",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Product page: 1-inch tweeter, 4-inch midrange, 8-inch woofer (3 drivers). Page marked as legacy product.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://sonance.com/products/93007",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "sonance-vp86",
@@ -165,7 +171,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://sonance.com/products/93007",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Product page fetched; no statement of active or passive (\"Power Handling (RMS) 5-150 W\" only). Not inferred; stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "genelec-8331a",
@@ -216,7 +224,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.pioneerelectronics.com/PUSA/Car/Speakers/A-Series/TS-A1670F",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Source URL redirected to usa.pioneer homepage on fetch; product page not reachable. Stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "beolab-5",
@@ -328,8 +338,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page: two-way active line array; 8-inch LF cone and 1.75-inch HF compression driver (2 drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-la108",
@@ -337,8 +349,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page: Configuration \"Two-way active line array loudspeaker\"; built-in Class D amplifier (LF 1000 W / HF 300 W).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la108/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-la112",
@@ -346,8 +360,10 @@
     "heldValue": 3,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page: 12-inch LF cone plus \"2x 44 mm\" HF compression drivers (3 drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-la112",
@@ -355,8 +371,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page: \"Two-way active line array loudspeaker\"; built-in Class D amplifier (LF 1600 W / HF 800 W).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/la112/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ls118",
@@ -364,8 +382,10 @@
     "heldValue": 1,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page: \"Direct radiating, active subwoofer\"; one 460 mm (18-inch) LF driver.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ls118",
@@ -373,8 +393,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page: \"Direct radiating, active subwoofer\"; built-in Class D amplifier 4000 W.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/powered-line-array-loudspeakers/l-class-line-array-system/ls118/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ad-c6t",
@@ -382,8 +404,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: 6.5 in LF paper cone woofer plus 19 mm HF aluminium dome tweeter (2 drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ad-c6t",
@@ -392,7 +416,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: 70/100 V transformer taps, no amplifier or active/passive statement. Not inferred as passive; stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ac-c4t",
@@ -400,8 +426,10 @@
     "heldValue": 1,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: single 4 in full-range transducer.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ac-c4t",
@@ -410,7 +438,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: 70/100 V transformer taps, no amplifier or active/passive statement. Not inferred; stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ac-c6t",
@@ -418,8 +448,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: 6.5 in LF cone plus 22 mm silk dome tweeter (2 drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ac-c6t",
@@ -428,7 +460,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: 70/100 V transformer taps, no amplifier or active/passive statement. Not inferred; stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ac-c8t",
@@ -436,8 +470,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: 210 mm (8 in) LF cone plus 22 mm silk dome tweeter (2 drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-ac-c8t",
@@ -446,7 +482,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: 70/100 V transformer taps, no amplifier or active/passive statement. Not inferred; stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl3082",
@@ -476,8 +514,10 @@
     "heldValue": 3,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "User manual: 3-way design; two LF transducers (A and B) plus one HF transducer.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl2102w",
@@ -485,8 +525,10 @@
     "heldValue": false,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "User manual: \"not equipped with a crossover network\"; shading by \"a passive network in BI AMP mode\"; \"connect audio power to the loudspeaker\" (externally amplified).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_10/q_spk_wl10_usermanual.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl212-sw",
@@ -516,8 +558,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: \"2 x 18\" vented subwoofer\", two 18-inch woofers.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-wl218-sw",
@@ -526,7 +570,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/wl218sw/q_spk_wl10_wl218sw_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: power ratings and BASIS DSP files; no explicit active or passive statement. Stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-gp118-sw",
@@ -534,8 +580,10 @@
     "heldValue": 1,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: one 457 mm (18-inch) driver.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-gp118-sw",
@@ -544,7 +592,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/ila/gp118sw/q_spk_ila_gp118sw_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: \"direct radiating, vented subwoofer\", no explicit active or passive statement. Stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-gp212-sw",
@@ -552,8 +602,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: \"2 x 12\" 4th order band-pass subwoofer\", two 12-inch woofers.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-gp212-sw",
@@ -562,7 +614,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_8/gp212sw/q_spk_wl8_gp212sw_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: \"4th order band-pass subwoofer\", no explicit active or passive statement. Stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-gp218-sw",
@@ -570,8 +624,10 @@
     "heldValue": 2,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Spec sheet: \"Dual ... 18-inch transducers\" (2 drivers).",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "qsc-gp218-sw",
@@ -580,7 +636,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.qsys.com/resource-files/productresources/spk/wideline_10/gp218sw/q_spk_wl10_gp218sw_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "round4CheckNote": "Spec sheet fetched: \"direct radiating ... subwoofer\", no explicit active or passive statement. Stays held.",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "dynaudio-lyd-5",
@@ -599,8 +657,10 @@
     "heldValue": true,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://dynaudio.com/professional-audio/lyd/lyd-7",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Page spec table: \"Amplifier Power Woofer (W) 50\", \"Amplifier Power Tweeter (W) 50\", 2-way DSP-based crossover.",
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://dynaudio.com/professional-audio/lyd/lyd-7",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "dynaudio-core-7",
