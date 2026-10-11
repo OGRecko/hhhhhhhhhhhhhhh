@@ -5514,7 +5514,7 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.focal.com/it/prodotti/sopra-n2",
       "sourceType": "MANUFACTURER",
-      "reference": "manufacturer stated"
+      "reference": "unspecified by source"
     },
     "frequencyResponse": {
       "low_hz": 34,
@@ -5558,7 +5558,7 @@
       "source": "https://www.focal.com/it/prodotti/sopra-n2",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2."
+    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source."
   },
   {
     "id": "klipsch-rp8000f",
@@ -19611,7 +19611,7 @@
       "source": "https://www.stereophile.com/content/pioneer-s-1ex-loudspeaker-specifications",
       "sourceType": "REPUTABLE_DATABASE"
     },
-    "notes": "Exact Pioneer S-1EX only; the catalog's 'Elite S-1EX' label does not change the model suffix and is not merged with S-2EX or S-7EX. Sound & Vision identifies S-1EX as a three-way, four-driver system and publishes 28 Hz–100 kHz, 88.5 dB/2.83V/m, and 6 ohms. The sensitivity reference is retained exactly as published; a 1 m distance and 2.83V-to-1W normalization are not inferred, so the simulator uses its neutral fallback. Stereophile's exact-model specifications identify two 180 mm woofers with 2.5-inch voice coils; the single voiceCoil field is scoped to those woofer coils. HiFi-Guide labels the exact model passive. The sources list 'Maximum power: 200 W' without an explicit input/continuous/peak role, so power remains N/A. No exact launch year, response curve, or directivity is imported. Sources: https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications; https://www.stereophile.com/content/pioneer-s-1ex-loudspeaker-specifications; https://www.hifi-guide.com/loudspeaker/pioneer-s-1ex/"
+    "notes": "Exact Pioneer S-1EX only; the catalog's 'Elite S-1EX' label does not change the model suffix and is not merged with S-2EX or S-7EX. Sound & Vision identifies S-1EX as a three-way, four-driver system and publishes 28 Hz–100 kHz, 88.5 dB/2.83V/m, and 6 ohms. The sensitivity reference is retained exactly as published; a 1 m distance and 2.83V-to-1W normalization are not inferred, so the simulator uses its neutral fallback. Stereophile's exact-model specifications identify two 180 mm woofers with 2.5-inch voice coils; the single voiceCoil field is scoped to those woofer coils. HiFi-Guide labels the exact model passive. The sources list 'Maximum power: 200 W' without an explicit input/continuous/peak role, so power remains N/A. No exact launch year, response curve, or directivity is imported. Sources: https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications; https://www.stereophile.com/content/pioneer-s-1ex-loudspeaker-specifications; https://www.hifi-guide.com/loudspeaker/pioneer-s-1ex/ Round 3 audit: the Sound & Vision specification table (page chunk 1) was re-read and matches the stored sensitivity 88.5 dB/2.83V/m, 6 Ω nominal, 28-100,000 Hz, and four drivers (2 x 7-inch aramid woofers, 5.5-inch midrange, 1.4-inch beryllium tweeter; Stereophile 180 mm retained for the woofer field). It lists 'Maximum power: 200W' with no role, so power stays N/A."
   },
   {
     "id": "legacy-pio-5",
@@ -23168,7 +23168,7 @@
       "pointsStatus": "MEASUREMENT_VERIFIED",
       "pointsSource": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
       "pointsSourceType": "MEASUREMENT",
-      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape."
+      "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed."
     },
     "driverCount": 2,
     "panel": null,
