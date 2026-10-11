@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-11",
+  "description": "Round 4 source checks that did not change a value. Each entry records what was inspected, what it showed, and the outcome. Search-result snippets are listed only as leads and are not counted as verification.",
+  "checks": [
+    {
+      "item": "qsc-wl3082 active/passive",
+      "inspected": [
+        "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/line-array/wideline-series/wideline-8-series/wl3082/ (fetch: 404)",
+        "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/line-array/wideline-series/wideline-8-series/?L=0 (search snippet; fetch: 404)",
+        "https://www.pdf-manuals.com/qsc-wl3082-wideline-8-line-array-loudspeaker-white-wl3082-wh-259092-manual (search snippet only; aggregator, not used)"
+      ],
+      "found": "Snippets describe 'Designed for tri-amplified operation' and list nominal impedance and continuous power capacity. No fetched QSC text states active or passive. The URL category path contains 'passive' but this is not explicit product text.",
+      "outcome": "UNRESOLVED. active stays null."
+    },
+    {
+      "item": "qsc-wl212-sw active/passive",
+      "inspected": ["Same QSC WideLine-8 pages as above (the WL212-sw is on the same page)"],
+      "found": "Snippet: 'SUB: 4 ohms' and continuous power capacity; no explicit active or passive statement in fetched text.",
+      "outcome": "UNRESOLVED. active stays null."
+    },
+    {
+      "item": "focal-sopra2 sensitivity (91 dB)",
+      "inspected": [
+        "https://www.focal.com/products/sopra-n2 (official Focal page; fetched 2 chunks; the specification table did not render in the fetched text)",
+        "https://at.focal-naim.de/en/EU/PRODUCTS/FOCAL/SOPRA/SOPRA_N_2?s1=1 (search snippet only; previously rejected because the portal URL resolved to a home page)"
+      ],
+      "found": "focal.com search snippet lists 'Sensitivity : 91 dB' with no measurement reference. The at.focal-naim.de snippet lists 'Sensitivity (2.83 V / 1 m): 91 dB'. Neither was verified from fetched text.",
+      "outcome": "NOT PROMOTED. Remains THIRD_PARTY_VERIFIED from audiovisionsf.com (exact model, 91 dB, 2.83 V/1 m, fetched earlier this round). Manufacturer verification needs a fetched focal.com or Focal-Naim specification table that states the reference."
+    },
+    {
+      "item": "Genelec 8331A SOFA (LS_directivity_Calibrated_GENELEC_8331A.sofa)",
+      "inspected": [
+        "https://zenodo.org/records/10255555 (search result; metadata only)",
+        "https://www.genelec.com/8331a (product page; downloads listed are line drawings and CLF/GLL simulation files, not a directivity SOFA)"
+      ],
+      "found": "The Zenodo record lists the dataset (DOI 10.5281/zenodo.10255555) but no fetchable SOFA file was found. Earlier attempts to download from the Zenodo host failed.",
+      "outcome": "PENDING. No file imported. Expected MD5 a00e40164556183420c315e9f6ecd7fd (not verified because no copy is available)."
+    },
+    {
+      "item": "Retailer/aggregator held values (policy: hold unless a reliable source clearly supports the exact model; third-party labels only)",
+      "inspected": [
+        "equator-d5 driverCount 2 / active true: gear4music.com listing (retailer)",
+        "beolab-5 driverCount 4 / active true: content.abt.com PDF (retailer)",
+        "legacy-mack-4 driverCount 2 / active true: pdf-manuals.com (aggregator)",
+        "legacy-mack-5 driverCount 2 / active true: proacousticsusa.com (retailer)"
+      ],
+      "found": "These are retailer or aggregator pages. None was promoted to MANUFACTURER_VERIFIED. They stay held pending a manufacturer page or a clearly identified third-party source.",
+      "outcome": "HELD (policy)."
+    }
+  ]
+}

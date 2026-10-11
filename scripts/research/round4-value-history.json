@@ -196,7 +196,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "equator-d5",
@@ -205,7 +206,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "pioneer-ts-a",
@@ -223,7 +225,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://content.abt.com/documents/6162/1680009_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "beolab-5",
@@ -232,7 +235,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://content.abt.com/documents/6162/1680009_specs.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "amazon-echo",
@@ -252,7 +256,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "legacy-mack-4",
@@ -261,7 +266,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "legacy-mack-5",
@@ -270,7 +276,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "legacy-mack-5",
@@ -279,7 +286,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.proacousticsusa.com/mackie-thump15-powered-loudspeaker.html",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "HELD_PENDING_URL_CHECK",
+    "policyNote": "Retailer or aggregator source. Held per the round-4 policy: not promoted to MANUFACTURER_VERIFIED; needs a manufacturer page or a clearly identified third-party source. See round4-source-checks.json."
   },
   {
     "id": "legacy-dyn-1",
