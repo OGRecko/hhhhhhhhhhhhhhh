@@ -42,7 +42,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.adam-audio.com/en/ax-series/a7x/",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.adam-audio.com/en/ax-series/a7x/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "adam-a7x",
@@ -51,7 +53,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.adam-audio.com/en/ax-series/a7x/",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.adam-audio.com/en/ax-series/a7x/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "pmc-twotwo6",
@@ -60,7 +64,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://pmc-speakers.com/products/twotwo6/",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://pmc-speakers.com/products/twotwo6/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "pmc-twotwo6",
@@ -69,7 +75,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://pmc-speakers.com/products/twotwo6/",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://pmc-speakers.com/products/twotwo6/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "dynaudio-lyd8",
@@ -149,8 +157,10 @@
     "heldValue": 4,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.genelec.com/8331a",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "The Genelec page describes a three-way design and does not state a driver count. The held value of 4 is not supported.",
+    "state": "REJECTED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.genelec.com/8331a",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "genelec-8331a",
@@ -159,7 +169,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://www.genelec.com/8331a",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://www.genelec.com/8331a",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "equator-d5",
@@ -212,8 +224,10 @@
     "heldValue": 3,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Source is a product review site, not the manufacturer, and does not establish the exact model driver count.",
+    "state": "REJECTED_AFTER_URL_CHECK",
+    "checkedUrl": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "legacy-mack-4",
@@ -626,8 +640,10 @@
     "heldValue": 4,
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
-    "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "reason": "Source is a guitar-valuation listing, not a manufacturer or measurement source.",
+    "state": "REJECTED_AFTER_URL_CHECK",
+    "checkedUrl": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "atc-scm25a-pro",
@@ -636,7 +652,9 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+    "checkDate": "2026-10-11"
   },
   {
     "id": "atc-scm25a-pro",
@@ -645,6 +663,8 @@
     "previousProvenanceStatus": "UNSOURCED",
     "previousSource": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
     "reason": "Round 4: restored from notes-level exact-source citation, then HELD: value is removed from the live database until the field is checked against its recorded URL.",
-    "state": "HELD_PENDING_URL_CHECK"
+    "state": "RESTORED_AFTER_URL_CHECK",
+    "checkedUrl": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+    "checkDate": "2026-10-11"
   }
 ]

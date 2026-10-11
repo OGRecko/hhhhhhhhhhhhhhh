@@ -3757,8 +3757,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -3812,16 +3812,16 @@
     },
     "notes": "Manufacturer specifications: 42 Hz–50 kHz (-10 dB), 7-inch woofer with 1.5-inch voice coil, X-ART tweeter, active bi-amplification. Internal amplifier ratings are 100 W RMS + 50 W RMS (150 W RMS total); the database power field is intentionally left unavailable rather than treating an amplifier output figure as acoustic speaker power handling. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.adam-audio.com/en/ax-series/a7x/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. Woofer Number 1 and tweeter Number 1 (Technical Data table); built-in woofer and tweeter amplifiers."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.adam-audio.com/en/ax-series/a7x/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. Built-in amplifiers for woofer and tweeter (Technical Data table)."
     }
   },
   {
@@ -4198,8 +4198,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4253,16 +4253,16 @@
     },
     "notes": "Manufacturer specifications: 40 Hz–25 kHz frequency response; 170 mm (6.5-inch) LF driver and 27 mm soft-dome HF driver; active monitor with DSP and active amplification. Input impedance is 20 kOhm and is not the same as a loudspeaker nominal impedance, so the database impedance field remains N/A. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://pmc-speakers.com/products/twotwo6/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. Two-way design: LF 170 mm and HF 27 mm soft dome."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://pmc-speakers.com/products/twotwo6/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. Active amplification, dual Class-D amplifiers with DSP."
     }
   },
   {
@@ -10949,7 +10949,7 @@
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
     "driverCount": null,
-    "active": null,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -11007,13 +11007,13 @@
       "status": "UNSOURCED",
       "source": null,
       "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "note": "Round 4 URL check (2026-10-11): value rejected, not restored. The Genelec page describes a three-way design and does not state a driver count. The held value of 4 is not supported."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8331a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. SAM active monitoring; a mains cable is supplied in the package."
     }
   },
   {
@@ -15071,7 +15071,7 @@
       "status": "UNSOURCED",
       "source": null,
       "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "note": "Round 4 URL check (2026-10-11): value rejected, not restored. Source is a product review site, not the manufacturer, and does not establish the exact model driver count."
     }
   },
   {
@@ -51146,7 +51146,7 @@
       "status": "UNSOURCED",
       "source": null,
       "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "note": "Round 4 URL check (2026-10-11): value rejected, not restored. Source is a guitar-valuation listing, not a manufacturer or measurement source."
     }
   },
   {
@@ -51659,8 +51659,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 3,
+    "active": true,
     "panel": false,
     "sensitivity": {
       "value": null,
@@ -51714,16 +51714,16 @@
     },
     "notes": "Manufacturer: 47 Hz–22 kHz; 235 W total amplification; 6.5-inch LF driver, 3-inch midrange and 1-inch tweeter. Active 3-way. Source: ATC SCM25A Pro. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. Drivers: HF 25 mm soft dome, mid 75 mm soft dome, LF 6.5 in carbon paper cone."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value held (removed) pending a URL check against the recorded source; see scripts/research/round4-value-history.json."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://atc.audio/professional/discontinued-pro-loudspeakers/scm25a-pro/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 4 URL check (2026-10-11): exact manufacturer page. On-board 235 W class A/B 3-way amplifier."
     }
   },
   {
