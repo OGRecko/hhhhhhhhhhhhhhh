@@ -362,25 +362,6 @@ function speakerDisclosure(payload: any) {
   };
 }
 
-// Only run the worker dispatch when this module is actually loaded as a
-// worker thread. Importing it from a test/tooling process leaves workerData
-// null, and the dispatch below would otherwise throw on destructuring and
-// post a spurious failure message. This guard is what makes runWave/runIR
-// directly callable from the numerical test suite without spawning workers.
-if (workerData) try {
-  const { type, payload } = workerData;
-  if (type === 'wave') {
-    const result = runWave(payload);
-    parentPort?.postMessage({ success: true, data: result });
-  } else if (type === 'impulse-response') {
-    const result = runIR(payload);
-    parentPort?.postMessage({ success: true, data: result });
-  } else {
-    throw new Error("Unknown solver type");
-  }
-} catch (err: unknown) {
-  parentPort?.postMessage({ success: false, error: errorMessageOf(err) });
-}
 
 
 
@@ -1771,4 +1752,26 @@ export function runIR(payload: any, limits: SolverLimits = PUBLIC_SOLVER_LIMITS)
     console.error("Impulse Response Solver Error:", err);
     throw new Error(errorMessageOf(err));
   }
+}
+
+// Worker dispatch. Kept at the END of the module: it runs during module evaluation, so every
+// `const` helper it calls must already be initialized (earlier placement threw a TDZ error on every job).
+// Only run it when this module is actually loaded as a
+// worker thread. Importing it from a test/tooling process leaves workerData
+// null, and the dispatch below would otherwise throw on destructuring and
+// post a spurious failure message. This guard is what makes runWave/runIR
+// directly callable from the numerical test suite without spawning workers.
+if (workerData) try {
+  const { type, payload } = workerData;
+  if (type === 'wave') {
+    const result = runWave(payload);
+    parentPort?.postMessage({ success: true, data: result });
+  } else if (type === 'impulse-response') {
+    const result = runIR(payload);
+    parentPort?.postMessage({ success: true, data: result });
+  } else {
+    throw new Error("Unknown solver type");
+  }
+} catch (err: unknown) {
+  parentPort?.postMessage({ success: false, error: errorMessageOf(err) });
 }
