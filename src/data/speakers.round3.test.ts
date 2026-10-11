@@ -45,7 +45,9 @@ for (const r of records) {
 }
 
 // 3. Generic EV records that do not identify the variant keep affected specifications unavailable.
-for (const id of ['electro-voice-zx3', 'electro-voice-zx5']) {
+// Round 5 owner decision: the generic Zx3 record is archived and replaced by exact variants (see below).
+assert.equal(records.some((x) => x.id === 'electro-voice-zx3'), false, 'generic electro-voice-zx3 must be replaced by variants');
+for (const id of ['electro-voice-zx5']) {
   const r = get(id);
   for (const k of ['sensitivity', 'impedance', 'power', 'woofer']) {
     assert.equal(r[k].status, 'UNAVAILABLE', `${id}: ${k} must be unavailable until the variant is identified`);
@@ -55,6 +57,23 @@ for (const id of ['electro-voice-zx3', 'electro-voice-zx5']) {
   assert.equal(r.driverCount, 2, `${id}: driverCount is series-level and stays`);
   assert.equal(r.active, false, `${id}: passive design stays passive`);
 }
+
+// 3b. Exact Zx3 variants (round 5): acoustic values are attached only with a manufacturer source and the variant name.
+for (const [id, model] of [['electro-voice-zx3-60', 'Zx3-60'], ['electro-voice-zx3-90', 'Zx3-90']] as const) {
+  const r = get(id);
+  assert.equal(r.model, model, `${id}: exact variant model`);
+  assert.equal(r.overallStatus, 'PARTIALLY_VERIFIED', `${id}: sourced acoustic fields present`);
+  assert.equal(r.sensitivity.value, 97, `${id}: sensitivity from the manual's series table`);
+  assert.equal(r.impedance.value, 8, `${id}: nominal impedance`);
+  assert.equal(r.power.value, 600, `${id}: continuous passive power`);
+  assert.equal(r.woofer.value, 12, `${id}: LF driver size`);
+  assert.equal(r.frequencyResponse.low_hz, 58, `${id}: -3 dB low limit`);
+  assert.equal(r.frequencyResponse.high_hz, 15000, `${id}: -3 dB high limit`);
+  assert.equal(r.driverCount, 2, `${id}: driverCount`);
+  assert.equal(r.active, false, `${id}: passive`);
+  assert.match(r.sensitivity.source, /eviaudio\.fr/, `${id}: manufacturer source`);
+}
+assert.equal(get('electro-voice-zx3-60').frequencyResponse.source, get('electro-voice-zx3-90').frequencyResponse.source);
 
 // 4. EVF-1152D/96 already names its exact variant; it stays a secondary-source record.
 const evf = get('electro-voice-evf-1152d-96');

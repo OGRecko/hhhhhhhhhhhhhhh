@@ -1,0 +1,1656 @@
+{
+  "reviewDate": "2026-10-11",
+  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data.",
+  "recordCount": 24,
+  "records": [
+    {
+      "id": "boston-a150",
+      "brand": "Boston Acoustics",
+      "model": "A150",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": null,
+      "active": null,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Pass-128 check (2026-10-10): Exact-model manufacturer page not located. Retailer, blog and forum copies conflict between the vintage A150 and the A150 Series 2 / current A150; none transferred. Pass-130 check (2026-10-10): only forum, resale and retailer listings were found, and they conflict (36–25 kHz ±3 dB vs 38 Hz–20 kHz; ~90 dB; 15–150 W vs 100 W). No Boston Acoustics manufacturer source was found. Pass-136 check (2026-10-10): Secondary sources describe the A150 as produced in Series I, II and III. Copies conflict on the low-frequency limit (36 Hz vs 38 Hz), the sensitivity (about 90 dB) and the power rating (15–150 W vs 100 W). No Boston Acoustics manufacturer source is available for any series, so the revision is unresolved and no values are stored. Pass-138 check (2026-10-10): Secondary copies differ by series. A 1970s-era A150 description (stereonomono.blogspot.com, 2020) gives 36 Hz-25 kHz +/-3 dB, 90 dB at 1 W/1 m, 8 ohm, 550 Hz and 3 kHz crossovers, three-way with a 10 in woofer; a Series 2 forum copy gives 36-25 kHz and 100 W. These are not merged with the bare A150 record, which does not state a series."
+    },
+    {
+      "id": "sonos-one",
+      "brand": "Sonos",
+      "model": "One",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": 2,
+      "active": true,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Exact Sonos One manufacturer guide: two Class-D digital amplifiers drive one tweeter and one midwoofer (two transducers total), supporting driverCount=2 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/one.",
+      "driverCountProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/one",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: one tweeter and one mid-woofer (2 drivers)."
+      },
+      "activeProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/one",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: 'Two Class-D digital amplifiers'."
+      }
+    },
+    {
+      "id": "sonos-five",
+      "brand": "Sonos",
+      "model": "Five",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": 6,
+      "active": true,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Exact Sonos Five manufacturer guide: six Class-D amplifiers drive three tweeters and three midwoofers (six transducers total), supporting driverCount=6 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, or a standardized response limit; those fields remain N/A. No response curve or directivity data is imported. Source: https://www.sonos.com/en-us/guides/five. Pass-128 duplicate-name flag (2026-10-10): Pass-137 driver-count check (2026-10-10): Same product as the Sonos Five shop page (manufacturer): 3 tweeters and 3 midwoofers; driverCount 6 matches. Duplicate alias (2026-10-10): `sonos-sonos-five` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry.",
+      "driverCountProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/five",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: three tweeters and three mid-woofers (6 drivers)."
+      },
+      "activeProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/five",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: 'Six Class-D digital amplifiers' matched to six drivers."
+      }
+    },
+    {
+      "id": "sonos-arc",
+      "brand": "Sonos",
+      "model": "Arc",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": 11,
+      "active": true,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Exact Sonos Arc manufacturer guide: eleven Class-D amplifiers drive eight elliptical full-range woofers and three silk-dome tweeters (11 transducers total), supporting driverCount=11 and active=true. No sensitivity, passive impedance, acoustic power-handling value, standardized response limit, response curve, or polar dataset is published in this guide; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/arc. Duplicate alias (2026-10-10): `sonos-sonos-arc` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry.",
+      "driverCountProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/arc",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: eight elliptical woofers and three tweeters (11 drivers)."
+      },
+      "activeProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/arc",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: 'Eleven Class-D digital amplifiers'."
+      }
+    },
+    {
+      "id": "sonos-beam",
+      "brand": "Sonos",
+      "model": "Beam Gen 2",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": 5,
+      "active": true,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Exact Sonos Beam (Gen 2) manufacturer guide: five Class-D amplifiers drive four elliptical midwoofers and one tweeter (five transducers total), supporting driverCount=5 and active=true. The guide does not publish sensitivity, passive impedance, an acoustic power-handling rating, a standardized response limit, a response curve, or directivity data; those remain N/A/unavailable. Source: https://www.sonos.com/en-us/guides/beam. Pass-137 driver-count check (2026-10-10): CONFLICT (not resolved by this pass): the Sonos Beam (Gen 2) shop page lists 1 center tweeter and 4 elliptical midwoofers (5 active drivers) plus 3 passive radiators. The Sonos comparison table on the same page gives 9 drivers. driverCount stays at 5 (active drivers); the total of 9 is recorded here, not merged.",
+      "driverCountProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/beam",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: four woofers and one tweeter (5 drivers)."
+      },
+      "activeProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sonos.com/en-us/guides/beam",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Specifications table: 'Five Class-D digital amplifiers'."
+      }
+    },
+    {
+      "id": "bose-wave-music-system",
+      "brand": "Bose",
+      "model": "Wave Music System IV",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": 2,
+      "active": null,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Bose's exact Wave Music System IV owner's guide states that the system's dual tapered waveguide speaker technology connects two speakers to two 26-inch tapered waveguides; driverCount=2 records the two explicitly documented speakers. This is not inferred from the earlier Wave Radio or Acoustic Wave models mentioned in Bose's history page. The guide's 60 W maximum is AC input consumption, not an amplifier-output rating, so it is not entered as power. It publishes no simulation-ready response bounds, driver dimensions, sensitivity, or complete directivity data. Source: https://assets.bosecreative.com/m/deb85fef843b3c2/original/AM745087_OG_WMSIV-SPEAKERWAVE_enUS.pdf. Pass-137 driver-count check (2026-10-10): Amazon listing (Bose product, Wave Music System IV): 'Number of Speakers: 2', stereo waveguide system; matches driverCount 2. Nothing else stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.bosecreative.com/m/deb85fef843b3c2/original/AM745087_OG_WMSIV-SPEAKERWAVE_enUS.pdf",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-play3",
+      "brand": "Sonos",
+      "model": "Play:3",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": 3,
+      "active": true,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Exact Sonos Play:3 manufacturer announcement identifies three speaker drivers and three Class-D digital amplifiers, supporting driverCount=3 and active=true. Source: https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/. Pass-137 driver-count check (2026-10-10): Sonos PLAY:3 specification text (copy hosted on an Amazon image domain): 2 mid-range drivers and 1 tweeter plus a rear bass radiator; this matches driverCount 3. No frequency, sensitivity or impedance is published, so no field is stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-sonos-era-100",
+      "brand": "Sonos",
+      "model": "Sonos Era 100",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 3,
+      "panel": null,
+      "notes": "Exact Sonos Era 100 manufacturer guide: three Class-D amplifiers drive two angled tweeters and one midwoofer (three transducers total), supporting driverCount=3 and active=true. Source: https://www.sonos.com/en-us/guides/era100. Pass-137 driver-count check (2026-10-10): Sonos Era 100 shop page (manufacturer) lists 2 angled tweeters and 1 midwoofer (3 Class-D amplifiers); this matches driverCount 3.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/era100",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/era100",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-sonos-era-300",
+      "brand": "Sonos",
+      "model": "Sonos Era 300",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 6,
+      "panel": null,
+      "notes": "Exact Sonos Era 300 manufacturer guide: six Class-D amplifiers drive four tweeters and two woofers (six transducers total), supporting driverCount=6 and active=true. Kept as a separate existing database record; it is not merged with legacy-sonos-6. Source: https://www.sonos.com/en-us/guides/era300. Pass-128 duplicate-name flag (2026-10-10): Pass-132 check (2026-10-10): secondary reviews (PCMag, SoundGuys, Sound & Vision) state that Sonos publishes no frequency range, power or driver size for the Era 300. Driver count 6 is from the Sonos manufacturer guide; no acoustic field stored. Pass-137 driver-count check (2026-10-10): Sonos Era 300 shop page (manufacturer) lists 4 tweeters and 2 woofers (6 Class-D amplifiers); this matches driverCount 6. Duplicate alias (2026-10-10): `legacy-sonos-6` (same brand, model and source) is retained as an UNAVAILABLE alias with no copied data; this record remains the canonical entry.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/era300",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/era300",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-sonos-move-2",
+      "brand": "Sonos",
+      "model": "Sonos Move 2",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 3,
+      "panel": null,
+      "notes": "Exact Sonos Move 2 manufacturer guide: three Class-D amplifiers drive two angled tweeters and one midwoofer (three transducers total), supporting driverCount=3 and active=true. These are Move 2 specifications only; none are transferred to the earlier Move record. Source: https://www.sonos.com/en-us/guides/move2. Pass-137 driver-count check (2026-10-10): Sonos Move 2 shop page (manufacturer) lists 2 angled tweeters and 1 midwoofer; this matches driverCount 3.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/move2",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/move2",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-sonos-roam-2",
+      "brand": "Sonos",
+      "model": "Sonos Roam 2",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 2,
+      "panel": null,
+      "notes": "Exact Sonos Roam 2 manufacturer guide: two Class-H amplifiers drive one tweeter and one elliptical midwoofer (two transducers total), supporting driverCount=2 and active=true. The guide's amplifier class is retained as stated and is not changed to Class D. Source: https://www.sonos.com/en-us/guides/roam2.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/roam2",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/roam2",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-sonos-arc-ultra",
+      "brand": "Sonos",
+      "model": "Sonos Arc Ultra",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 14,
+      "panel": null,
+      "notes": "Exact Sonos Arc Ultra manufacturer guide: the 14 transducers comprise seven tweeters, six midwoofers, and one Sound Motion woofer; the system uses 15 Class-D amplifiers, supporting driverCount=14 and active=true. Amplifier count is not substituted for transducer count. Source: https://www.sonos.com/en-us/guides/arcultra. Pass-137 driver-count check (2026-10-10): CONFLICT (not resolved by this pass): the Sonos Arc Ultra shop page lists 9 tweeters (including 2 up-firing), 6 midwoofers and 1 Sound Motion woofer, which totals 16. The Sonos product comparison table (shop/beam-black) and third-party listings give 14 drivers. driverCount stays at 14 because that is the published total; the component breakdown is recorded here, not merged.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/arcultra",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/arcultra",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sonos-sonos-ray",
+      "brand": "Sonos",
+      "model": "Sonos Ray",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 4,
+      "panel": null,
+      "notes": "Exact Sonos Ray manufacturer guide: four Class-D amplifiers drive two full-range woofers and two tweeters (four transducers total), supporting driverCount=4 and active=true. Source: https://www.sonos.com/en-us/guides/ray. Pass-137 driver-count check (2026-10-10): Sonos Ray shop page (manufacturer) lists 2 tweeters and 2 midwoofers (4 Class-D amplifiers); this matches driverCount 4. No power, sensitivity, impedance or frequency response is published on the page, so no field is stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/ray",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sonos.com/en-us/guides/ray",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-home-speaker-500",
+      "brand": "Bose",
+      "model": "Bose Home Speaker 500",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 2,
+      "panel": null,
+      "notes": "Bose's exact 2018 launch announcement identifies the Home Speaker 500 and states that two custom drivers point in opposite directions to deliver stereo separation from one enclosure. driverCount=2 counts the active transducers; the announcement does not establish driver diameter, standardized response bounds, or a complete polar/directivity dataset, so those fields remain N/A. Source: https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars. Pass-132 check (2026-10-10): no Bose manufacturer spec page was reached. Secondary sources (Trusted Reviews, SoundGuys, PCMag) describe two 2.5-inch (64 mm) full-range drivers and 50 W Class-D amplification, with no frequency range or sensitivity published. Power is not stored because its basis (RMS, peak or program) is not stated by the source. Pass-137 driver-count check (2026-10-10): Bose manufacturer copy (recorded in pass 132, source https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars.): 2×64 mm drivers; matches driverCount 2. No frequency, sensitivity or impedance published in the text used, so none stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-home-speaker-300",
+      "brand": "Bose",
+      "model": "Bose Home Speaker 300",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": true,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": null,
+      "panel": null,
+      "notes": "The exact Bose Home Speaker 300 owner's guide identifies the product on its cover and labels type designation 427374 as a “Powered Speaker” in its regulatory materials; active=true records that explicit manufacturer classification. The guide does not establish a driver count or simulation-ready acoustic specification, so those remain N/A. Source: https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf. Pass-130 check (2026-10-10): the Bose Home Speaker 300 manufacturer PDF (assets.bose.com) gives electrical ratings only (100–240 V, 24 V DC 0.9 A). The driver count and acoustic specs are not published there. Pass-144 (2026-10-11): the Bose Home Speaker 300 PDF on assets.bose.com is a regulatory/electrical document and contains no acoustic data. A third-party spec copy (bose-user-manual.com) states 'Frequency Response: Not publicly specified (proprietary tuning)' and lists no driver size, sensitivity or impedance. Nothing is stored. No change to fields.",
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-portable-smart-speaker",
+      "brand": "Bose",
+      "model": "Bose Portable Smart Speaker",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 1,
+      "panel": null,
+      "notes": "The exact Bose Portable Smart Speaker product page states that one high-excursion transducer radiates through an acoustic deflector and separately identifies three passive radiators. driverCount=1 counts the active transducer only; passive radiators are not counted as drivers. No transducer size, frequency-response bounds, or directivity payload is inferred. Source: https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html. Pass-132 check (2026-10-10): the bose.com product page describes an 'ultra-efficient, high-excursion transducer' and three passive radiators; the stored driver count of 1 is the one transducer named by Bose. No power or frequency figure is published on the Bose page. A marketplace listing quoting 5 W output is not used.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-soundlink-flex",
+      "brand": "Bose",
+      "model": "Bose SoundLink Flex",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 1,
+      "panel": null,
+      "notes": "Bose's October 2021 launch release identifies the first-generation SoundLink Flex (the release links its exact SLFLX-SPEAKERWIRELESS product page) and specifies one custom transducer plus dual-opposing passive radiators. driverCount=1 counts the active transducer only; passive radiators are excluded. No size, standardized response limits, or directivity data is inferred, and no second-generation specifications are transferred. Source: https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker. Pass-131 check (2026-10-10): the Bose SoundLink Flex (2nd Gen) support and product pages were found, but the record is the first-generation Flex (October 2021 release). The 2nd-generation pages are not used. The first-generation RMS power listed by a third-party manual site is blank. Pass-137 driver-count check (2026-10-10): CONFLICT (secondary): speakerranking lists a 60 mm full-range driver with passive radiators; TechGearLab lists a single 54 mm driver; TechRadar Gen 2 says drivers not specified. The single-driver count (1) agrees across copies, but the diameter conflicts. Count kept; nothing else stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-soundlink-max",
+      "brand": "Bose",
+      "model": "Bose SoundLink Max",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 3,
+      "panel": null,
+      "notes": "Bose's exact 2024 SoundLink Max launch release explicitly describes a Bose Articulated Array with three transducers across the front and two custom-designed passive radiators; driverCount=3 counts active transducers only. A later Bose story says “dual transducers handle mids and highs,” but does not state that two is the total; the exact launch release is the source for the explicit total. No response bounds, driver dimensions, or directivity are inferred. Source: https://www.bose.com/pressroom/bose-soundlink-max; secondary wording checked: https://www.bose.com/stories/bose-soundlink-max-ultimate-party-speaker. Pass-131 check (2026-10-10): secondary reviews (TechRadar; Sound Advice) describe 2 x 89 mm transducers, 1 x 23 mm transducer and 2 passive racetrack radiators; another listing (speakerranking.com) gives 2 x 63.5 mm midrange and 1 x 20 mm tweeter. These conflict and no Bose page was reached, so the driver count is not stored. One review states that Bose does not publish a power or frequency-response figure. Pass-137 driver-count check (2026-10-10): Bose press release (manufacturer): three transducers across the front (Bose Articulated Array) and two passive radiators; this matches driverCount 3 (active transducers). Secondary specs (TechRadar, Sound Advice) give 2×89 mm, 1×23 mm and two 104×79 mm radiators, consistent with the count. No frequency, sensitivity or impedance is published, so no field is stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/pressroom/bose-soundlink-max",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-smart-ultra-soundbar",
+      "brand": "Bose",
+      "model": "Bose Smart Ultra Soundbar",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 9,
+      "panel": null,
+      "notes": "The exact Bose Smart Ultra Soundbar product page states that the system has nine total speakers, including two upward-firing speakers. driverCount=9 records that published total; the included upward-firing units are not added a second time. The page does not provide a full angular response dataset, so no directivity is inferred. Frequency limits, dimensions of individual drivers, and other acoustic values remain N/A unless separately sourced. Source: https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html. Pass-132 check (2026-10-10): the bose.com product comparison says '9 total speakers and center tweeter'. WhatHiFi describes nine drivers (three tweeters and six racetrack full-range units). The bose.com wording is ambiguous about whether the centre tweeter is inside the total, so the count of 9 is kept as the review-consistent figure and flagged as not fully resolved. No power or response figure is published. Pass-137 driver-count check (2026-10-10): Secondary review (What Hi-Fi): nine drivers (3 tweeters and 6 racetrack full-range units, two of them up-firing). Matches driverCount 9. Not Bose manufacturer text; no frequency or sensitivity is stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-smart-soundbar",
+      "brand": "Bose",
+      "model": "Bose Smart Soundbar",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 5,
+      "panel": null,
+      "notes": "Bose's September 2024 launch release identifies the exact unnumbered Bose Smart Soundbar as replacing Smart Soundbar 600 and specifies five transducers: two side-firing racetrack units, one center tweeter, and two up-firing units. driverCount=5 counts those active transducers; no Soundbar 600 values are otherwise transferred. Published orientation descriptions do not constitute a complete polar/directivity dataset, so directivity remains N/A. Source: https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound. Pass-131 check (2026-10-10): the Bose support pages found are for the Smart Soundbar 900 and the 2024 'Smart Soundbar' is not identified on them, so the exact product identity is not established. Pass-132 check (2026-10-10): the bose.com product comparison says '5 total speakers and center tweeter', the same ambiguous wording as the Smart Ultra. The 2024 product's exact driver count is not confirmed beyond that wording. No power or response figure is published. Pass-137 driver-count check (2026-10-10): Secondary review (Trusted Reviews, 2024 Smart Soundbar): five drivers, with two up-firing for Dolby Atmos; matches driverCount 5. The 'five full-range drivers' Amazon listing belongs to the Smart Soundbar 300 and is not transferred.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "bose-bose-tv-speaker",
+      "brand": "Bose",
+      "model": "Bose TV Speaker",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 3,
+      "panel": null,
+      "notes": "Bose's exact TV Speaker product page comparison table names “Bose TV Speaker” and specifies “3 total speakers,” supporting driverCount=3. The page does not establish the individual driver sizes or publish a complete polar/directivity dataset; neither is inferred. Source: https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html. Pass-132 check (2026-10-10): the bose.com TV Speaker product comparison states '3 total speakers', consistent with the stored driver count. No power, sensitivity or response figure is published. Driver count only; no acoustic field stored. Pass-137 driver-count check (2026-10-10): Secondary copies (Circuit Zone, Tech Steve): two angled full-range drivers and one center tweeter (three drivers); matches driverCount 3. Only the count is stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sony-sony-bravia-theatre-bar-9",
+      "brand": "Sony",
+      "model": "Sony BRAVIA Theatre Bar 9",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 13,
+      "panel": null,
+      "notes": "Sony official HT-A9000 specification page (sony.com), the BRAVIA Theater Bar 9 (HT-A9000): speaker structure 7.0.2ch with 13 speaker units; dual subwoofer; amplifier channels 13 (UK page). Driver count 13 is Sony's stated unit count. Sony's published total amplifier output (585 W) is quoted on the Sony sonyofficial.com marketing page and by retailers with an unstated RMS/peak basis, so it is not stored as a speaker power value. No sensitivity, impedance, or frequency response is published on the Sony page. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications. Pass-137 driver-count check (2026-10-10): Sony manufacturer page (HT-A9000 / BRAVIA Theater Bar 9): 13 speaker units; matches driverCount 13. Sony's page gives no frequency, sensitivity or impedance in the text used, so none is stored. Pass-144 (2026-10-11): retailer spec copies (listenup.com, worldwidestereo.com) give per-unit driver sizes such as woofer 1-3/16 × 3-5/8 in (oval) and tweeter 13/32 in, plus 585 W total output. Oval and per-channel sizes are not a single woofer diameter, and the 585 W figure is an undefined total, so none is stored. The Sony official product page was not reached. No change to fields.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "sony-sony-bravia-theatre-bar-8",
+      "brand": "Sony",
+      "model": "Sony BRAVIA Theatre Bar 8",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 11,
+      "panel": null,
+      "notes": "Sony official HT-A8000 / BRAVIA Theatre Bar 8 specification page (sony.com, US): 'Speaker Structure 5.0.2 ch (11 Speaker Units)'; amplifier channels 11 ch; dual subwoofer listed as an option. Driver count 11 is Sony's stated unit count. The US Sony page does not publish a total output power figure; retailer copies quoting 495 W or 90 W RMS are not used. No sensitivity, impedance or frequency response is published. Source: https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a8000/specifications. Pass-137 driver-count check (2026-10-10): Sony manufacturer page (HT-A8000 / BRAVIA Theater Bar 8): 11 speaker units in a 5.0.2 layout; matches driverCount 11. No acoustic specification is stored.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a8000/specifications",
+        "sourceType": null
+      }
+    },
+    {
+      "id": "electro-voice-zx3",
+      "brand": "Electro-Voice",
+      "model": "ZX3",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "active": false,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "driverCount": 2,
+      "panel": null,
+      "notes": "Round 3 variant decision: this generic record does not identify the horn/variant suffix (the source manual covers several variants and PI versions). Sensitivity, impedance, power, woofer size and frequency response are therefore UNAVAILABLE until the exact variant is identified; the series-level values from the source are retained in the notes below and are not verified for this record. driverCount (2) and active (false, passive) remain as sourced. Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). Its specification table gives 58 Hz–15 kHz (-3 dB), 48 Hz–20 kHz (-10 dB), 97 dB axial sensitivity at 1 W/1 m, 600 W continuous / 2400 W peak passive handling, 8 Ω nominal (6.2 Ω minimum), one 12-inch DVX3121 LF transducer plus one ND2 HF compression driver, passive/biamp-selectable operation, 131 dB calculated maximum SPL, and a 50 Hz recommended high-pass. The response/sensitivity footnote says half-space measurement. This manual identifies ZX3-60, ZX3-90, PI and finish variants; these structured fields are shared in its series-level specification table. Its numeric response and directivity tables are separately identified for ZX3-60 and ZX3-90, so no variant-specific curve or directivity payload is assigned to the generic ZX3 record. Round 4 suffix check: the generic ZX3 record has no SKU and cannot be matched. Two exact variants exist with different horn coverage: ZX3-60W (SKU EV-F.01U.265.586, 60 x 60 horn; empirepro.com/electro-voice-zx3-60w/) and ZX3-90W (SKU EV-F.01U.265.584, 90 x 50 horn; empirepro.com/products/electro-voice-zx3-90w). Neither is assigned to this record; sensitivity, impedance, power, woofer and frequency response remain UNAVAILABLE.",
+      "driverCountProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "activeProvenance": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      }
+    }
+  ]
+}

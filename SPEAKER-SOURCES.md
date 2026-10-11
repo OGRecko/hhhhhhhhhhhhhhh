@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-11 from the authoritative dataset. 634 unique source URLs are retained for populated fields.
+Generated 2026-10-11 from the authoritative dataset. 635 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -2786,6 +2786,19 @@ The source is attached to the exact field it supports. A source URL here does no
 - Eve Audio SC207 — power
 - Eve Audio SC207 — voice-coil size
 - Eve Audio SC207 — woofer size
+
+## https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf
+
+- Electro-Voice Zx3-60 — frequency-response limits
+- Electro-Voice Zx3-60 — impedance
+- Electro-Voice Zx3-60 — power
+- Electro-Voice Zx3-60 — sensitivity
+- Electro-Voice Zx3-60 — woofer size
+- Electro-Voice Zx3-90 — frequency-response limits
+- Electro-Voice Zx3-90 — impedance
+- Electro-Voice Zx3-90 — power
+- Electro-Voice Zx3-90 — sensitivity
+- Electro-Voice Zx3-90 — woofer size
 
 ## https://www.fmicassets.com/Damroot/Original/10001/2231500_gamp_manual.pdf
 

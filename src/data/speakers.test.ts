@@ -12,6 +12,7 @@ import speakers from "./speakers.json";
 import unresolvedNotes from "../../scripts/research/unresolved-notes.json";
 import removedRecords from "../../scripts/research/removed-records.json";
 import removedUnavailable from "../../scripts/research/removed-unavailable-records.json";
+import removedOwnerRound5 from "../../scripts/research/removed-owner-round5-records.json";
 import directivityLeads from "../../scripts/research/directivity-leads.json";
 import nodeAssert from "node:assert/strict";
 import { resolveSensitivity } from "../lib/speakerResponse";
@@ -38,7 +39,8 @@ function assert(cond: unknown, msg = "assertion failed"): asserts cond {
 
 const db = speakers as any[];
 // Live dataset plus the archived UNAVAILABLE records (removed 2026-10-10 at owner request); used only for lookups of archived IDs.
-const allDb = [...db, ...((removedUnavailable as any).records as any[])];
+// Round 5 (owner decision 2026-10-11) archived consumer records and the generic Zx3 record are included for lookups.
+const allDb = [...db, ...((removedUnavailable as any).records as any[]), ...((removedOwnerRound5 as any).records as any[])];
 // Notes ledger for live and archived UNAVAILABLE records (archived ledger entries are kept in the removal archive).
 const unresolvedAll: Record<string, any> = { ...(unresolvedNotes as Record<string, any>), ...((removedUnavailable as any).unresolvedNotes as Record<string, any>) };
 const removalLog = removedRecords as { reviewDate: string; entries: Array<{ id: string; brand: string; model: string; statusBeforeRemoval: string; disposition: string; reason: string; sourceRefs: string[]; researchNote: string; restored: boolean }> };
@@ -70,9 +72,12 @@ console.log("\n=== Speaker database integrity ===\n");
 
 check("total record count matches the reviewed dataset", () => {
   assert(Array.isArray(db), "speakers.json is not an array");
-  assert(db.length === 693, `expected 693 live records after removing UNAVAILABLE records, found ${db.length}`);
+  // Owner decision (round 5, 2026-10-11): 24 records archived (23 consumer records without published acoustic specs
+  // and the generic Zx3 record); the Zx3 record is replaced by two exact variants (+2). 693 - 24 + 2 = 671.
+  assert(db.length === 671, `expected 671 live records after the round 5 owner decisions, found ${db.length}`);
   assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
-  assert(db.length + (removedUnavailable as any).records.length === 774, "live plus archived records must total the 774 reviewed records");
+  assert((removedOwnerRound5 as any).records.length === 24, "round 5 archive must hold the 24 removed records");
+  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length === 776, "live plus archived records must total the 776 reviewed records");
 });
 
 check("overall status follows sourced fields or an audited unresolved-identity disposition", () => {

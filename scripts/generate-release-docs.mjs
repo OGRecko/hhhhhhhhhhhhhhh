@@ -89,12 +89,14 @@ if (audit.uniqueBrandModels !== audit.records) throw new Error('Duplicate brand/
 
 const archivedPath = path.join(root, 'scripts/research/removed-unavailable-records.json');
 const archivedCount = JSON.parse(fs.readFileSync(archivedPath, 'utf8')).records.length;
-const reviewedTotal = audit.records + archivedCount;
+const round5ArchivePath = path.join(root, 'scripts/research/removed-owner-round5-records.json');
+const round5ArchivedCount = JSON.parse(fs.readFileSync(round5ArchivePath, 'utf8')).records.length;
+const reviewedTotal = audit.records + archivedCount + round5ArchivedCount;
 const statusDoc = [
   '# Cavity Audio — Speaker Data Status', '',
   'Generated from `src/data/speakers.json`; counts are not hand-maintained.', '',
   `Updated ${today}.`, '',
-  `The live authoritative dataset contains **${audit.records} active catalog records**; the reviewed catalog total is **${reviewedTotal}** (${audit.records} live + ${archivedCount} archived in scripts/research/removed-unavailable-records.json). The archived records were removed from the live dataset at the owner's request on 2026-10-10 (all UNAVAILABLE records, including the duplicate Sonos aliases). They are excluded from speaker selection and from every count in this document. A record is ` + '`PARTIALLY_VERIFIED`' + ` only when at least one sourced acoustic specification (sensitivity, power, impedance, resonant frequency, voice-coil size, woofer size, or a structured frequency-response limit) is retained. Source-backed structural facts such as driver count or active status alone remain ` + '`UNVERIFIED`' + ` because they do not supply an acoustic specification for simulation. ` + '`UNAVAILABLE`' + ` is reserved for unresolved catalog identities and confirmed non-loudspeaker components; those records are retained but excluded from speaker selection.`, '',
+  `The live authoritative dataset contains **${audit.records} active catalog records**; the reviewed catalog total is **${reviewedTotal}** (${audit.records} live + ${archivedCount} archived in scripts/research/removed-unavailable-records.json + ${round5ArchivedCount} archived in scripts/research/removed-owner-round5-records.json, removed at owner request 2026-10-11). The archived records were removed from the live dataset at the owner's request on 2026-10-10 (all UNAVAILABLE records, including the duplicate Sonos aliases). They are excluded from speaker selection and from every count in this document. A record is ` + '`PARTIALLY_VERIFIED`' + ` only when at least one sourced acoustic specification (sensitivity, power, impedance, resonant frequency, voice-coil size, woofer size, or a structured frequency-response limit) is retained. Source-backed structural facts such as driver count or active status alone remain ` + '`UNVERIFIED`' + ` because they do not supply an acoustic specification for simulation. ` + '`UNAVAILABLE`' + ` is reserved for unresolved catalog identities and confirmed non-loudspeaker components; those records are retained but excluded from speaker selection.`, '',
 
   '## Record status',
   `- PARTIALLY_VERIFIED: ${audit.partiallyVerified}`,
