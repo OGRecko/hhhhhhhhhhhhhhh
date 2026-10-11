@@ -1,7 +1,7 @@
 {
   "reviewDate": "2026-10-11",
-  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data.",
-  "recordCount": 24,
+  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data. Addendum (2026-10-12, owner instruction): legacy-la-1 'V-DOSC' is also archived here. Searches found only third-party-hosted copies of older V-DOSC sheets (2003-era and undated), not an exact-revision source from L-Acoustics; the record is archived unchanged, not deleted.",
+  "recordCount": 25,
   "records": [
     {
       "id": "boston-a150",
@@ -1651,6 +1651,67 @@
         "sourceType": "MANUFACTURER",
         "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
       }
+    },
+    {
+      "id": "legacy-la-1",
+      "brand": "L-Acoustics",
+      "model": "V-DOSC",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "UNVERIFIED",
+      "driverCount": null,
+      "active": null,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": null,
+        "high_hz": null,
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "notes": "Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source. Pass-136 correction: a third-party yumpu copy of an L-Acoustics V-DOSC sheet (2003 revision; 50–18000 Hz ±3 dB, 3WX HI preset, eight drivers) was located in pass 135 but is held as a lead only. The Batch-116 ruling keeps this record UNVERIFIED until an L-Acoustics manufacturer source is found. Pass-138 check (2026-10-10): A V-DOSC specification sheet copy (2003-era, base.ren-ting.com) gives 50-18 kHz +/-3 dB and 40-20 kHz (-10 dB) usable bandwidth for the 3WX HI preset, band sensitivities of 100/105/108 dB, and continuous SPL of 134-146 dB for one to four enclosures. These depend on the preset and the number of enclosures, so no single-speaker value is stored and the record stays UNVERIFIED."
     }
   ]
 }

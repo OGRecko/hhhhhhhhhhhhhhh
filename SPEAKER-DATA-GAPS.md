@@ -126,6 +126,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | meyer-mjf212 | Meyer Sound | MJF-212 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | dandb-t10 | d&b audiotechnik | T10 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | lacoustics-arcs | L-Acoustics | ARCS Wide | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
+| lacoustics-arcs-ii | L-Acoustics | ARCS II | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq |
 | nexo-ps15 | Nexo | PS15 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | funktion-one-res2 | Funktion-One | Res 2 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | rcf-nx45a | RCF | NX 45-A | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
@@ -311,13 +312,12 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-ma-2 | Martin Audio | F2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-ma-3 | Martin Audio | W8LM | PARTIALLY_VERIFIED | sensitivity, resonantFreq |
 | legacy-ma-4 | Martin Audio | MLA | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
-| legacy-la-1 | L-Acoustics | V-DOSC | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-la-2 | L-Acoustics | ARCS | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-la-3 | L-Acoustics | Kara | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
 | legacy-la-4 | L-Acoustics | K1 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-5 | L-Acoustics | K2 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-6 | L-Acoustics | Syva | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, woofer |
-| legacy-la-7 | L-Acoustics | X15 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
+| legacy-la-7 | L-Acoustics | X15 HiQ | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil |
 | genelec-8020d | Genelec | 8020D | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | genelec-8030c | Genelec | 8030C | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | jbl-305p-mkii | JBL | 305P MkII | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
@@ -678,6 +678,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 660
-**Records with no source-backed acoustic field:** 11
+**Records with at least one source-backed acoustic field:** 662
+**Records with no source-backed acoustic field:** 9
 **Unavailable identities or confirmed non-loudspeaker records:** 0

@@ -1,63 +1,63 @@
 {
   "ok": true,
-  "records": 693,
-  "uniqueIds": 693,
+  "records": 671,
+  "uniqueIds": 671,
   "duplicateIds": 0,
-  "uniqueBrandModels": 693,
+  "uniqueBrandModels": 671,
   "duplicateBrandModels": 0,
   "statusCounts": {
-    "PARTIALLY_VERIFIED": 660,
-    "UNVERIFIED": 33
+    "PARTIALLY_VERIFIED": 662,
+    "UNVERIFIED": 9
   },
   "sourceTypeCounts": {
-    "MANUFACTURER": 1550,
-    "NONE": 2404,
+    "MANUFACTURER": 1551,
+    "NONE": 2267,
     "REPUTABLE_DATABASE": 188,
-    "THIRD_PARTY": 15,
+    "THIRD_PARTY": 19,
     "MEASUREMENT": 1
   },
   "responseCurveData": {
-    "embeddedJsonCurves": 27,
+    "embeddedJsonCurves": 26,
     "embeddedCurveProvenance": {
-      "total": 27,
-      "manufacturer": 22,
-      "measurement": 5,
+      "total": 26,
+      "manufacturer": 26,
+      "measurement": 0,
       "reputable_database": 0
     },
     "embeddedCurveProblems": 0,
-    "declaredManufacturerCurves": 22,
-    "declaredMeasurementCurves": 5,
+    "declaredManufacturerCurves": 26,
+    "declaredMeasurementCurves": 0,
     "declaredVerifiedDatabaseCurves": 0,
-    "physicallyModeledCurves": 666,
+    "physicallyModeledCurves": 645,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
-      "total": 136,
-      "missingBothLimits": 130,
+      "total": 112,
+      "missingBothLimits": 106,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
-      "modeledFromPublishedLimits": 530,
-      "explicitCurves": 27,
-      "speakers": 693
+      "modeledFromPublishedLimits": 533,
+      "explicitCurves": 26,
+      "speakers": 671
     },
     "categoryBasedSynthesisAbsent": true
   },
   "nullableFlags": {
     "counts": {
       "driverCount": {
-        "known": 633,
-        "unknown": 60,
+        "known": 495,
+        "unknown": 176,
         "absent": 0,
         "invalid": 0
       },
       "active": {
-        "known": 529,
-        "unknown": 164,
+        "known": 388,
+        "unknown": 283,
         "absent": 0,
         "invalid": 0
       },
       "panel": {
         "known": 70,
-        "unknown": 623,
+        "unknown": 601,
         "absent": 0,
         "invalid": 0
       }

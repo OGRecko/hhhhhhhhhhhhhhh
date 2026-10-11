@@ -1,18 +1,17 @@
-# Round 5 review: L-Acoustics queue records (no data applied)
+# Round 5 L-Acoustics queue review (updated 2026-10-12 after owner answers)
 
-Date: 2026-10-12. Records: legacy-la-1 (V-DOSC), legacy-la-2 (ARCS), legacy-la-7 (X15).
+Script that applies these decisions: `scripts/research/apply-owner-2026-10-12-la.py`.
 
-| Record | Source found | Revision match | Result |
+| Record | Owner answer (2026-10-12) | Source used | Result |
 |---|---|---|---|
-| legacy-la-1 V-DOSC | Third-party-hosted copies of a "specs V-Dosc 0305" PDF (2005) | Not confirmed; undated hosts, no official URL | Not applied |
-| legacy-la-2 ARCS | ARCS II datasheet (manufacturer PDF, mirrored at sisme.com) and ARCS II manuals | ARCS II is a different model from the catalog row "ARCS" | Not applied |
-| legacy-la-7 X15 | l-acoustics.com/products/x15-hiq/ (official) | Covers the X15 HiQ, not the catalog row "X15" | Not applied |
+| legacy-la-7 "X15" | Rename to "X15 HiQ" and verify from the official page | https://www.l-acoustics.com/products/x15-hiq/ (official L-Acoustics page) | Renamed. Verified: 2 drivers, active, LF 15 in, impedance 8 ohm, -10 dB bandwidth 55 Hz to 20 kHz ([X15] preset). Sensitivity and RMS power not published, so N/A. Max SPL 138 dB is a peak level, so not stored. Status PARTIALLY_VERIFIED. |
+| legacy-la-2 "ARCS" | Add ARCS II as a separate record | https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf, footer "ARCS II_SP_EN_2-0/10-11" (third-party host; l-acoustics.com ARCS II page not reached) | New record `lacoustics-arcs-ii`: 2 drivers, active, LF 15 in with 4 in coil, impedance 8 ohm, -10 dB 50 Hz to 20 kHz ([ARCS II] preset). THIRD_PARTY_VERIFIED, as for Kara. Max SPL 140 dB not stored (no field; a second copy reports 142 dB). Power per transducer only, so N/A. The row "ARCS" stays UNVERIFIED with no values. |
+| legacy-la-1 "V-DOSC" | Search widely; delete if no source is found | Searches returned only third-party-hosted older sheets (yumpu, base.ren-ting.com, tosti-lane.com) for other revisions. No exact-revision L-Acoustics source. | Removed from live and archived unchanged in `removed-owner-round5-records.json` (25 records). Not deleted, per the archive rule. |
 
-Decision: none of the three records gains values. Transferring data from ARCS II or X15 HiQ to the catalog rows would breach the no-transfer rule between revisions.
+Counts after this change: live 671 (-1 V-DOSC, +1 ARCS II), archived 81 + 25 = 106, reviewed total 777.
+Records still UNVERIFIED: 9 (see RESEARCH-QUEUE.md).
 
-Owner questions:
-1. Does legacy-la-1 mean a specific V-DOSC revision? If yes, which one, so an exact source can be searched for?
-2. Does legacy-la-2 mean ARCS or ARCS II? If ARCS II, a separate record is required.
-3. Does legacy-la-7 mean X15 HiQ? If yes, the owner must approve the identity change before any X15 HiQ values are considered.
-
-All three records remain UNVERIFIED.
+Open items:
+- legacy-la-2 "ARCS": no exact-model source. Owner decision needed on whether to keep it or remove it.
+- The official l-acoustics.com ARCS II page did not load. A fresh attempt is needed to upgrade ARCS II to MANUFACTURER_VERIFIED.
+- ARCS II max SPL conflict: the datasheet says 140 dB and a second copy of the ARCS II User Manual says 142 dB. Needs a manufacturer revision check.

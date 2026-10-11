@@ -9025,6 +9025,77 @@
     }
   },
   {
+    "id": "lacoustics-arcs-ii",
+    "brand": "L-Acoustics",
+    "model": "ARCS II",
+    "category": "pa",
+    "year": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
+    "active": true,
+    "panel": null,
+    "sensitivity": {
+      "value": null,
+      "unit": "dB",
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
+    },
+    "frequencyResponse": {
+      "low_hz": 50,
+      "high_hz": 20000,
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "sourceType": "THIRD_PARTY"
+    },
+    "power": {
+      "value": null,
+      "unit": "W",
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
+    },
+    "impedance": {
+      "value": 8,
+      "unit": "ohm",
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "sourceType": "THIRD_PARTY"
+    },
+    "resonantFreq": {
+      "value": null,
+      "unit": "Hz",
+      "status": "UNAVAILABLE",
+      "source": null,
+      "sourceType": "NONE"
+    },
+    "voiceCoil": {
+      "value": 4,
+      "unit": "in",
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "sourceType": "THIRD_PARTY"
+    },
+    "woofer": {
+      "value": 15,
+      "unit": "in",
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "sourceType": "THIRD_PARTY"
+    },
+    "notes": "Owner decision (2026-10-12): ARCS II is a separate product from the catalog row 'ARCS' (legacy-la-2). Source: the L-Acoustics ARCS II product datasheet, footer 'ARCS II_SP_EN_2-0/10-11', hosted at https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf (a third-party host; the official l-acoustics.com ARCS II product page was not reached on 2026-10-12, so the copy is treated as THIRD_PARTY_VERIFIED under the authenticated-copy rule, as for Kara). The datasheet identifies the exact model and revision, and the sheet's L-Acoustics branding, WST/LA8 content and specifications are consistent. Stored: full-range active 2-way enclosure; one 15 in neodymium LF with a 4 in coil and one 3 in neodymium HF compression driver (2 transducers in total); nominal impedance 8 ohm LF and 8 ohm HF; usable bandwidth -10 dB 50 Hz to 20 kHz with the [ARCS II] preset. Not stored: the datasheet's maximum SPL is 140 dB at 1 m with the [ARCS II] preset. A second copy of the ARCS II System User Manual is reported to print 142 dB, so the two revisions conflict; no value is stored from either because the maximum SPL has no schema field. RMS power is printed per transducer (LF 600 W, HF 100 W) with no single enclosure rating, so power stays N/A. Sensitivity is not published and stays N/A. The -6 dB coverage is 22.5 deg symmetric x 60 deg asymmetric (-20/+40 deg) and is not an angle-resolved polar, so it is not imported. Weight 50 kg and dimensions are not schema fields.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "sourceType": "THIRD_PARTY"
+    },
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "sourceType": "THIRD_PARTY"
+    }
+  },
+  {
     "id": "nexo-ps15",
     "brand": "Nexo",
     "model": "PS15",
@@ -22876,67 +22947,6 @@
     }
   },
   {
-    "id": "legacy-la-1",
-    "brand": "L-Acoustics",
-    "model": "V-DOSC",
-    "category": "pa",
-    "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
-    "active": null,
-    "panel": null,
-    "sensitivity": {
-      "value": null,
-      "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "power": {
-      "value": null,
-      "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "impedance": {
-      "value": null,
-      "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "resonantFreq": {
-      "value": null,
-      "unit": "Hz",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "voiceCoil": {
-      "value": null,
-      "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "woofer": {
-      "value": null,
-      "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "notes": "Pass-128 check (2026-10-10): The V-DOSC specification sheet copy is hosted on a third-party domain (tosti-lane.com) and the L-Acoustics domain was not reachable. The sheet is multi-band (LF/MF/HF) with preset-dependent response and no single sensitivity or power value, so nothing is entered pending a manufacturer source. Pass-136 correction: a third-party yumpu copy of an L-Acoustics V-DOSC sheet (2003 revision; 50–18000 Hz ±3 dB, 3WX HI preset, eight drivers) was located in pass 135 but is held as a lead only. The Batch-116 ruling keeps this record UNVERIFIED until an L-Acoustics manufacturer source is found. Pass-138 check (2026-10-10): A V-DOSC specification sheet copy (2003-era, base.ren-ting.com) gives 50-18 kHz +/-3 dB and 40-20 kHz (-10 dB) usable bandwidth for the 3WX HI preset, band sensitivities of 100/105/108 dB, and continuous SPL of 134-146 dB for one to four enclosures. These depend on the preset and the number of enclosures, so no single-speaker value is stored and the record stays UNVERIFIED."
-  },
-  {
     "id": "legacy-la-2",
     "brand": "L-Acoustics",
     "model": "ARCS",
@@ -22995,7 +23005,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred. Pass-131 check (2026-10-10): the L-Acoustics ARCS product URL (l-acoustics.com/products/arcs/) did not resolve to a product page. Pass-136 check (2026-10-10): A third-party Scribd copy of an L-Acoustics ARCS sheet (57 kg, 375 W rms LF / 100 W rms HF long-term, 63 Hz–18 kHz ±3 dB on the 2W HI preset, 98 dB LF / 109 dB HF at 2.83 Vrms/1 m) was found. It is a lead only: it is a third-party upload, the L-Acoustics domain was not reached, and the Batch-116 rule applied to the same brand's V-DOSC copy keeps this record UNVERIFIED until a manufacturer source is found. The ARCS II sheet (50 kg, 600 W LF) is a different revision and is not transferred."
+    "notes": "Owner decision (2026-10-12): ARCS II is added as a separate record (lacoustics-arcs-ii). This row 'ARCS' has no exact-model source, so it remains UNVERIFIED and no values are transferred from ARCS II or ARCS Wide. Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred. Pass-131 check (2026-10-10): the L-Acoustics ARCS product URL (l-acoustics.com/products/arcs/) did not resolve to a product page. Pass-136 check (2026-10-10): A third-party Scribd copy of an L-Acoustics ARCS sheet (57 kg, 375 W rms LF / 100 W rms HF long-term, 63 Hz–18 kHz ±3 dB on the 2W HI preset, 98 dB LF / 109 dB HF at 2.83 Vrms/1 m) was found. It is a lead only: it is a third-party upload, the L-Acoustics domain was not reached, and the Batch-116 rule applied to the same brand's V-DOSC copy keeps this record UNVERIFIED until a manufacturer source is found. The ARCS II sheet (50 kg, 600 W LF) is a different revision and is not transferred."
   },
   {
     "id": "legacy-la-3",
@@ -23271,12 +23281,12 @@
   {
     "id": "legacy-la-7",
     "brand": "L-Acoustics",
-    "model": "X15",
+    "model": "X15 HiQ",
     "category": "pa",
     "year": null,
-    "overallStatus": "UNVERIFIED",
-    "driverCount": null,
-    "active": null,
+    "overallStatus": "PARTIALLY_VERIFIED",
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -23286,11 +23296,11 @@
       "sourceType": "NONE"
     },
     "frequencyResponse": {
-      "low_hz": null,
-      "high_hz": null,
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "low_hz": 55,
+      "high_hz": 20000,
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.l-acoustics.com/products/x15-hiq/",
+      "sourceType": "MANUFACTURER"
     },
     "power": {
       "value": null,
@@ -23300,11 +23310,11 @@
       "sourceType": "NONE"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.l-acoustics.com/products/x15-hiq/",
+      "sourceType": "MANUFACTURER"
     },
     "resonantFreq": {
       "value": null,
@@ -23321,13 +23331,23 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 15,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.l-acoustics.com/products/x15-hiq/",
+      "sourceType": "MANUFACTURER"
     },
-    "notes": "Pass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open. Pass-131 check (2026-10-10): the official L-Acoustics X15 HiQ page (l-acoustics.com/products/x15-hiq/) gives 2-way active coaxial, 1 x 15 in LF + 1 x 3 in HF, -10 dB 55 Hz–20 kHz and 138 dB max SPL, but these figures are labelled with the '[X15]' preset, and the page is for the HiQ. The original X15 product page was not found at the expected address. Nothing is transferred from the HiQ to the record 'X15'. Pass-135 check (2026-10-10): an archived 'X 15 – Technical Specifications (rev1 23/07/02)' sheet (logicsystems.co.uk archive) describes a passive full-range enclosure: 15 in cone plus 1 in exit compression driver, 58 Hz–18 kHz, 99 dB sensitivity at 1 m with 2.83 V, 8 Ω, 500 W, 29 kg. The sheet does not identify L-Acoustics as the manufacturer and does not match the active X15 HiQ, so it is not attributed to this record. The L-Acoustics original X15 page is still not reached. Pass-136 check (2026-10-10): Searches again returned only the X15 HiQ (manufacturer owner's manual copies on AVC Group and ProMusic; a 15 in LF with 3 in HF; 55 Hz–20 kHz at −10 dB; 40° × 60°). The HiQ is a different product from the catalog row \"X15\", so none of its figures are transferred. The original X15 has no manufacturer page in the results. Pass-138 check (2026-10-10): The X15 HiQ owner's manual (L-Acoustics document, promusic.cz copy) describes the HiQ revision: active 2-way coaxial, 1 x 15 in LF and 1 x 3 in HF, 8 ohm, -10 dB 55 Hz-20 kHz and 138 dB under the [X15] preset. It is not transferred because the record is 'X15' with no HiQ identity, and a bandwidth figure alone is not stored as a response."
+    "notes": "Owner decision (2026-10-12): the row 'X15' is renamed to 'X15 HiQ' and verified from the L-Acoustics official page https://www.l-acoustics.com/products/x15-hiq/. That page is for the X15 HiQ, and the owner approved treating the row as that product. Stored values: 2-way active coaxial enclosure; LF 1 x 15 in, HF 1 x 3 in; nominal impedance LF 8 ohm and HF 8 ohm; usable bandwidth -10 dB 55 Hz to 20 kHz (preset [X15] as printed on the page); the page lists these as the values for the HiQ enclosure. Maximum SPL 138 dB is a peak level at 1 m under free field, pink noise with crest factor 4, with the [X15] preset. It is not a sensitivity or a power rating, so it is not stored in those fields. The page publishes no sensitivity and no RMS power rating, so both stay N/A. Nominal -6 dB directivity (60 deg vertical x 40 deg horizontal) is recorded only in the directivity-leads file and is not imported as a polar. Weight 21 kg is not a schema field. Earlier history (verbatim, before the rename):\nPass-128 check (2026-10-10): X15 vs X15 HiQ variants; only retailer and aggregator copies were found; none transferred. Pass-130 check (2026-10-10): retailer copies describe the X15 HiQ (55 Hz–20 kHz -10 dB, 138 dB max SPL, 8 Ω, 15-inch LF plus 3-inch HF). The X15 HiQ is not the X15, so nothing is stored for the record 'X15'. Conflict kept open. Pass-131 check (2026-10-10): the official L-Acoustics X15 HiQ page (l-acoustics.com/products/x15-hiq/) gives 2-way active coaxial, 1 x 15 in LF + 1 x 3 in HF, -10 dB 55 Hz–20 kHz and 138 dB max SPL, but these figures are labelled with the '[X15]' preset, and the page is for the HiQ. The original X15 product page was not found at the expected address. Nothing is transferred from the HiQ to the record 'X15'. Pass-135 check (2026-10-10): an archived 'X 15 – Technical Specifications (rev1 23/07/02)' sheet (logicsystems.co.uk archive) describes a passive full-range enclosure: 15 in cone plus 1 in exit compression driver, 58 Hz–18 kHz, 99 dB sensitivity at 1 m with 2.83 V, 8 Ω, 500 W, 29 kg. The sheet does not identify L-Acoustics as the manufacturer and does not match the active X15 HiQ, so it is not attributed to this record. The L-Acoustics original X15 page is still not reached. Pass-136 check (2026-10-10): Searches again returned only the X15 HiQ (manufacturer owner's manual copies on AVC Group and ProMusic; a 15 in LF with 3 in HF; 55 Hz–20 kHz at −10 dB; 40° × 60°). The HiQ is a different product from the catalog row \"X15\", so none of its figures are transferred. The original X15 has no manufacturer page in the results. Pass-138 check (2026-10-10): The X15 HiQ owner's manual (L-Acoustics document, promusic.cz copy) describes the HiQ revision: active 2-way coaxial, 1 x 15 in LF and 1 x 3 in HF, 8 ohm, -10 dB 55 Hz-20 kHz and 138 dB under the [X15] preset. It is not transferred because the record is 'X15' with no HiQ identity, and a bandwidth figure alone is not stored as a response.",
+    "driverCountProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.l-acoustics.com/products/x15-hiq/",
+      "sourceType": "MANUFACTURER"
+    },
+    "activeProvenance": {
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.l-acoustics.com/products/x15-hiq/",
+      "sourceType": "MANUFACTURER"
+    }
   },
   {
     "id": "genelec-8020d",

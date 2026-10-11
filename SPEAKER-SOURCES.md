@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-11 from the authoritative dataset. 635 unique source URLs are retained for populated fields.
+Generated 2026-10-11 from the authoritative dataset. 637 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -3327,6 +3327,12 @@ The source is attached to the exact field it supports. A source URL here does no
 - L-Acoustics Syva — frequency-response limits
 - L-Acoustics Syva — impedance
 
+## https://www.l-acoustics.com/products/x15-hiq/
+
+- L-Acoustics X15 HiQ — frequency-response limits
+- L-Acoustics X15 HiQ — impedance
+- L-Acoustics X15 HiQ — woofer size
+
 ## https://www.leone.sk/file/230/ev-zlx-manual.pdf
 
 - Electro-Voice ZLX-12P — frequency-response limits
@@ -3991,6 +3997,13 @@ The source is attached to the exact field it supports. A source URL here does no
 - Revel M106 — frequency-response limits
 - Revel M106 — impedance
 - Revel M106 — woofer size
+
+## https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf
+
+- L-Acoustics ARCS II — frequency-response limits
+- L-Acoustics ARCS II — impedance
+- L-Acoustics ARCS II — voice-coil size
+- L-Acoustics ARCS II — woofer size
 
 ## https://www.sonos.com/en-us/guides/submini
 

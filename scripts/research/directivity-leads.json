@@ -467,7 +467,7 @@
   {
     "id": "legacy-la-1",
     "status": "LEAD_NOT_IMPORTED",
-    "note": "L-Acoustics’ official discontinued-product archive lists a V-DOSC documentation ZIP and a separate dV-DOSC archive; its site also describes a separate CLF database. This is an exact-model documentation lead, not evidence that the inaccessible/uninspected ZIP contains a particular response or polar object. The V-DOSC/dV-DOSC distinction is preserved. No frequency-response points or directivity data are imported until the exact file and measurement conventions are inspected.",
+    "note": "Owner decision (2026-10-12): the V-DOSC record was archived (no exact-model source found after search). This lead is retained for reference only and does not apply to any live record. L-Acoustics’ official discontinued-product archive lists a V-DOSC documentation ZIP and a separate dV-DOSC archive; its site also describes a separate CLF database. This is an exact-model documentation lead, not evidence that the inaccessible/uninspected ZIP contains a particular response or polar object. The V-DOSC/dV-DOSC distinction is preserved. No frequency-response points or directivity data are imported until the exact file and measurement conventions are inspected.",
     "page": "https://www.l-acoustics.com/archives-product/",
     "archive": "https://prdstglaxxwe001.blob.core.windows.net/webapp-lacoustics/documentation/ARCHIVES/V-DOSC/documents.zip",
     "sources": [
@@ -511,7 +511,7 @@
   {
     "id": "legacy-la-7",
     "status": "LEAD_NOT_IMPORTED",
-    "note": "L-Acoustics’ current exact X15 HiQ page publishes a nominal -6 dB directivity of 40° horizontal × 60° vertical and identifies an active coaxial enclosure driven by external amplified controllers. The database row is only X15; the manufacturer’s HiQ suffix is not silently equated with the bare catalog model. The page gives nominal beamwidth, not an angle-resolved polar response, and its documentation-center/older manual polar files were not inspected for this exact row. No directivity payload or response points are imported.",
+    "note": "L-Acoustics’ current exact X15 HiQ page publishes a nominal -6 dB directivity of 40° horizontal × 60° vertical and identifies an active coaxial enclosure driven by external amplified controllers. Owner decision (2026-10-12): the database row was renamed from X15 to X15 HiQ (approved identity change), so this lead now applies to the X15 HiQ record. The record's own values come from the official page; the nominal directivity here is still not imported as a polar. The page gives nominal beamwidth, not an angle-resolved polar response, and its documentation-center/older manual polar files were not inspected for this exact row. No directivity payload or response points are imported.",
     "page": "https://www.l-acoustics.com/products/x15-hiq/",
     "sources": [
       "https://www.l-acoustics.com/products/x15-hiq/",

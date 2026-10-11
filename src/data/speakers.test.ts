@@ -76,8 +76,9 @@ check("total record count matches the reviewed dataset", () => {
   // and the generic Zx3 record); the Zx3 record is replaced by two exact variants (+2). 693 - 24 + 2 = 671.
   assert(db.length === 671, `expected 671 live records after the round 5 owner decisions, found ${db.length}`);
   assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
-  assert((removedOwnerRound5 as any).records.length === 24, "round 5 archive must hold the 24 removed records");
-  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length === 776, "live plus archived records must total the 776 reviewed records");
+  // Owner answer (2026-10-12): legacy-la-1 V-DOSC archived (no exact source) and ARCS II added live (+1), so live stays 671.
+  assert((removedOwnerRound5 as any).records.length === 25, "round 5 archive must hold the 24 removed records plus the V-DOSC addendum");
+  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length === 777, "live plus archived records must total the 777 reviewed records");
 });
 
 check("overall status follows sourced fields or an audited unresolved-identity disposition", () => {
@@ -3816,10 +3817,9 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
 
   const laCases = [
     { id: "lacoustics-arcs", archive: "ARCS%20WIFO", model: "ARCS Wide", status: "PARTIALLY_VERIFIED" },
-    { id: "legacy-la-1", archive: "V-DOSC", model: "V-DOSC", status: "UNVERIFIED" },
     { id: "legacy-la-2", archive: "ARCS", model: "ARCS", status: "UNVERIFIED" },
     { id: "legacy-la-3", archive: "Kara", model: "Kara", status: "PARTIALLY_VERIFIED" },
-    { id: "legacy-la-7", archive: null, model: "X15", status: "UNVERIFIED" },
+    { id: "legacy-la-7", archive: null, model: "X15 HiQ", status: "PARTIALLY_VERIFIED" },
   ];
   for (const c of laCases) {
     const lead = leads.find((item) => item.id === c.id);
@@ -3876,7 +3876,12 @@ check("Batch 116 exact-model research preserves tolerance, subsystem, and revisi
 
   const x15 = leads.find((item) => item.id === "legacy-la-7");
   nodeAssert.match(x15.note, /X15 HiQ page/);
-  nodeAssert.match(x15.note, /row is only X15/);
+  nodeAssert.match(x15.note, /renamed from X15 to X15 HiQ/, "the owner-approved rename must be recorded in the lead");
+  // Owner answer (2026-10-12): V-DOSC (legacy-la-1) is no longer live; it is archived unchanged.
+  const removedRound5 = removedOwnerRound5 as any;
+  const vdosc = removedRound5.records.find((item: any) => item.id === "legacy-la-1");
+  nodeAssert.equal(vdosc?.model, "V-DOSC", "V-DOSC must be retained in the round 5 archive, not deleted");
+  nodeAssert.equal(db.find((item) => item.id === "legacy-la-1"), undefined, "V-DOSC must not be live");
 });
 
 check("Batch 117 exact KRK and Fender sources preserve generation, power-role, and tolerance distinctions", () => {
