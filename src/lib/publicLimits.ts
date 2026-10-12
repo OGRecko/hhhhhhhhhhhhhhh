@@ -509,6 +509,11 @@ export function validateSolverRequest(body: unknown, kind: 'wave' | 'impulse-res
   const fAbs = optionalAbsorption(body.floorAbsorption);
   const cAbs = optionalAbsorption(body.ceilAbsorption);
   if (wAbs === null || fAbs === null || cAbs === null) return fail('Absorption coefficients must be numbers between 0 and 1.');
+  // Every surface needs a material or an explicit absorption. Without either, the solver has no coefficient for that
+  // surface and used to fail after the job was queued (solver_failed). Reject up front; never substitute a default.
+  if (wall === undefined && wAbs === undefined) return fail('wallMaterial or wallAbsorption is required.');
+  if (floor === undefined && fAbs === undefined) return fail('floorMaterial or floorAbsorption is required.');
+  if (ceil === undefined && cAbs === undefined) return fail('ceilMaterial or ceilAbsorption is required.');
 
   const request: ValidatedSolverRequest = {
     L: room.L, W: room.W, H: room.H,

@@ -53,7 +53,7 @@ check('room polygon validates geometry, wall arrays, and openings', () => {
   assert.equal(pointInPolygon({x:0.4,y:0.5}, poly), true);
   assert.equal(pointInPolygon({x:0.9,y:0.5}, poly), false);
   assert.equal(validatePolygon([{x:0,y:0},{x:1,y:1},{x:0,y:1},{x:1,y:0}]).ok, false);
-  const v = validateSolverRequest({ L:10,W:10,H:3, poly, wallMaterial:'drywall', wallSegMats:['concrete',null,null,null], wallOpenings:[null,'full',{start:.2,end:.5},null], sources:[{x:.4,y:.5,z:1}], receivers:[{x:.5,y:.5,z:1}], steps:2 }, 'wave');
+  const v = validateSolverRequest({ L:10,W:10,H:3, poly, wallMaterial:'drywall', floorMaterial:'wood_floor', ceilMaterial:'stonewool', wallSegMats:['concrete',null,null,null], wallOpenings:[null,'full',{start:.2,end:.5},null], sources:[{x:.4,y:.5,z:1}], receivers:[{x:.5,y:.5,z:1}], steps:2 }, 'wave');
   assert.equal(v.ok, true);
   if (v.ok) {
     assert.equal(v.request.poly.length, 4);
@@ -64,6 +64,25 @@ check('room polygon validates geometry, wall arrays, and openings', () => {
 check('solver request rejects source outside a custom footprint', () => {
   const v = validateSolverRequest({ L:10,W:10,H:3, poly:[{x:.2,y:.2},{x:.8,y:.2},{x:.8,y:.8},{x:.2,y:.8}], sources:[{x:.1,y:.1,z:1}], receivers:[{x:.5,y:.5,z:1}] }, 'wave');
   assert.equal(v.ok, false);
+});
+// Regression: a request with no surface material and no explicit absorption was queued and then failed in the
+// worker as solver_failed. Each surface must now carry a material or an explicit absorption, named in the error.
+check('solver request rejects a surface with neither material nor absorption, naming the field', () => {
+  const base = { L:4,W:4,H:3, sources:[{x:.5,y:.5,z:1.5}], receivers:[{x:.25,y:.75,z:1.5}] };
+  const none = validateSolverRequest(base, 'impulse-response');
+  assert.equal(none.ok, false);
+  assert.match(none.ok ? '' : none.error, /wallMaterial or wallAbsorption is required/);
+  const noFloor = validateSolverRequest({ ...base, wallMaterial:'concrete', ceilMaterial:'concrete' }, 'impulse-response');
+  assert.equal(noFloor.ok, false);
+  assert.match(noFloor.ok ? '' : noFloor.error, /floorMaterial or floorAbsorption is required/);
+  const noCeil = validateSolverRequest({ ...base, wallMaterial:'concrete', floorMaterial:'concrete' }, 'impulse-response');
+  assert.equal(noCeil.ok, false);
+  assert.match(noCeil.ok ? '' : noCeil.error, /ceilMaterial or ceilAbsorption is required/);
+});
+check('solver request accepts explicit absorption in place of materials', () => {
+  const base = { L:4,W:4,H:3, sources:[{x:.5,y:.5,z:1.5}], receivers:[{x:.25,y:.75,z:1.5}] };
+  assert.equal(validateSolverRequest({ ...base, wallAbsorption:.2, floorAbsorption:.2, ceilAbsorption:.2 }, 'impulse-response').ok, true);
+  assert.equal(validateSolverRequest({ ...base, wallMaterial:'concrete', floorMaterial:'concrete', ceilMaterial:'concrete' }, 'impulse-response').ok, true);
 });
 
 console.log(`\n=== ${passed} passed ===`);

@@ -54,7 +54,7 @@ try {
   assert.equal(x.r.status,200); assert.match(x.r.headers.get('content-type') || '', /application\/pdf/);
   x = await request('/api/report/export', {method:'POST',headers:{'content-type':'application/json',authorization:`Bearer wrong`},body:JSON.stringify({simulationId:sim})}); assert.equal(x.r.status,403);
   x = await request('/api/report/export', {method:'POST',headers:{'content-type':'application/json',authorization:`Bearer ${token}`},body:JSON.stringify({solverResult:{forged:true}})}); assert.equal(x.r.status,400);
-  x = await request('/api/solver/wave', {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({L:4,W:4,H:3,steps:1,sources:[{x:.5,y:.5,z:1.5}],receivers:[{x:.5,y:.5,z:1.5}]})});
+  x = await request('/api/solver/wave', {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({L:4,W:4,H:3,steps:1,wallMaterial:'drywall',floorMaterial:'wood_floor',ceilMaterial:'stonewool',sources:[{x:.5,y:.5,z:1.5}],receivers:[{x:.5,y:.5,z:1.5}]})});
   assert.equal(x.r.status,202);
   x = await request('/api/internal/job-run', {method:'POST',headers:{'content-type':'application/json','x-job-dispatch-secret':'wrong'},body:JSON.stringify({simulationId:sim})}); assert.equal(x.r.status,403);
   x = await request('/api/internal/job-run', {method:'POST',headers:{'content-type':'application/json','x-job-dispatch-secret':'task-secret'},body:JSON.stringify({simulationId:sim})}); assert.equal(x.r.status,202);

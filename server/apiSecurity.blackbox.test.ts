@@ -59,7 +59,8 @@ const JSONH = { 'content-type': 'application/json' };
 const bearer = (t: string) => ({ authorization: `Bearer ${t}` });
 async function req(p: string, o: RequestInit = {}) { const r = await fetch(base + p, o); return { status: r.status, headers: r.headers, body: await r.text() }; }
 const post = (p: string, body: unknown, h: Record<string, string> = {}) => req(p, { method: 'POST', headers: { ...JSONH, ...h }, body: typeof body === 'string' ? body : JSON.stringify(body) });
-const goodWave = () => ({ L: 4, W: 4, H: 3, steps: 1, sources: [{ x: .5, y: .5, z: 1.5 }], receivers: [{ x: 1, y: 1, z: 1.5 }] });
+// Surfaces carry materials, as the UI always sends them; a surface with neither material nor absorption is rejected (400).
+const goodWave = () => ({ L: 4, W: 4, H: 3, steps: 1, wallMaterial: 'drywall', floorMaterial: 'wood_floor', ceilMaterial: 'stonewool', sources: [{ x: .5, y: .5, z: 1.5 }], receivers: [{ x: 1, y: 1, z: 1.5 }] });
 
 let passed = 0;
 async function check(name: string, fn: () => Promise<void>) {
