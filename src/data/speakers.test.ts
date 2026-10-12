@@ -2082,8 +2082,8 @@ check("Electro-Voice Force i and SB122 retain manufacturer response tables with 
   nodeAssert.deepEqual(
     sb122.frequencyResponse.points?.map((p: { hz: number; db: number }) => [p.hz, p.db]),
     [
-      [20, 80.2], [30, 80.5], [40, 85], [50, 92], [60, 96.5], [70, 98], [80, 100],
-      [90, 101.5], [100, 102.5], [200, 94], [300, 88], [400, 82], [500, 82],
+      [20, 80.3], [30, 80.5], [40, 85], [50, 92], [60, 96.5], [70, 97.5], [80, 99.5],
+      [90, 101], [100, 102], [200, 94], [300, 88], [400, 82], [500, 82],
       [600, 81.5], [700, 79], [800, 76.5],
     ],
   );
@@ -2337,7 +2337,7 @@ check("base NEXO PS15 and Turbosound iP15B keep exact revision, response provena
   nodeAssert.equal(turbo.frequencyResponse.source, turboSource);
   nodeAssert.equal(turbo.frequencyResponse.points?.length, 10);
   nodeAssert.equal(turbo.frequencyResponse.points?.[0].hz, 20);
-  nodeAssert.equal(turbo.frequencyResponse.points?.[0].db, 67);
+  nodeAssert.equal(turbo.frequencyResponse.points?.[0].db, 66.5);
   nodeAssert.equal(turbo.frequencyResponse.points?.[9].hz, 200);
   nodeAssert.equal(turbo.frequencyResponse.pointsStatus, "MANUFACTURER_VERIFIED");
   nodeAssert.equal(turbo.frequencyResponse.pointsSource, turboSource);

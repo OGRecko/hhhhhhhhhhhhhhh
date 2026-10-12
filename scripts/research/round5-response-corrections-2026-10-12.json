@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-12",
+  "corrections": [
+    {
+      "id": "electro-voice-sb122",
+      "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+      "table": "Frequency Response, Half Space (SPL, 1W/1m, dB)",
+      "changes": [
+        {
+          "hz": 20,
+          "was": 80.2,
+          "now": 80.3
+        },
+        {
+          "hz": 70,
+          "was": 98,
+          "now": 97.5
+        },
+        {
+          "hz": 80,
+          "was": 100,
+          "now": 99.5
+        },
+        {
+          "hz": 90,
+          "was": 101.5,
+          "now": 101
+        },
+        {
+          "hz": 100,
+          "was": 102.5,
+          "now": 102
+        }
+      ]
+    },
+    {
+      "id": "turbosound-ip15b",
+      "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+      "table": "Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)",
+      "changes": [
+        {
+          "hz": 20,
+          "was": 67,
+          "now": 66.5
+        },
+        {
+          "hz": 40,
+          "was": 91,
+          "now": 91.5
+        },
+        {
+          "hz": 50,
+          "was": 93.5,
+          "now": 94.5
+        },
+        {
+          "hz": 60,
+          "was": 94.5,
+          "now": 95.5
+        },
+        {
+          "hz": 70,
+          "was": 94.5,
+          "now": 95.3
+        },
+        {
+          "hz": 80,
+          "was": 94,
+          "now": 94.5
+        },
+        {
+          "hz": 90,
+          "was": 93,
+          "now": 93.5
+        },
+        {
+          "hz": 100,
+          "was": 91.5,
+          "now": 92
+        },
+        {
+          "hz": 200,
+          "was": 74,
+          "now": 76
+        }
+      ]
+    },
+    {
+      "id": "electro-voice-zx4",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "table": "Frequency Response, Half Space (SPL, 1W/1m, dB), Part 38110416 Rev D",
+      "changes": [
+        {
+          "hz": 40,
+          "was": 85,
+          "now": 86
+        },
+        {
+          "hz": 50,
+          "was": 90,
+          "now": 91
+        },
+        {
+          "hz": 60,
+          "was": 95,
+          "now": 96
+        },
+        {
+          "hz": 70,
+          "was": 98,
+          "now": 99
+        },
+        {
+          "hz": 80,
+          "was": 101,
+          "now": 102
+        },
+        {
+          "hz": 90,
+          "was": 103.5,
+          "now": 104
+        },
+        {
+          "hz": 100,
+          "was": 104,
+          "now": 104.5
+        },
+        {
+          "hz": 300,
+          "was": 103,
+          "now": 103.5
+        },
+        {
+          "hz": 600,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 2000,
+          "was": 100,
+          "now": 99.5
+        },
+        {
+          "hz": 3000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 4000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 5000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 6000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 7000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 8000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 9000,
+          "was": 99,
+          "now": 99.5
+        },
+        {
+          "hz": 20000,
+          "was": 98.5,
+          "now": 99
+        }
+      ]
+    },
+    {
+      "id": "electro-voice-sx600",
+      "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+      "table": "Frequency Response (SPL, 1W/1m, dB)",
+      "changes": [
+        {
+          "hz": 80,
+          "was": 95.5,
+          "now": 96
+        },
+        {
+          "hz": 90,
+          "was": 96.5,
+          "now": 97
+        },
+        {
+          "hz": 100,
+          "was": 98.5,
+          "now": 99
+        },
+        {
+          "hz": 6000,
+          "was": 106.5,
+          "now": 106
+        },
+        {
+          "hz": 7000,
+          "was": 104,
+          "now": 107
+        },
+        {
+          "hz": 9000,
+          "was": 102,
+          "now": 103
+        },
+        {
+          "hz": 10000,
+          "was": 100,
+          "now": 101
+        }
+      ]
+    },
+    {
+      "id": "qsc-ac-c6t",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+      "table": "Impedance/Frequency Response, Frequency Response (Raw) column",
+      "changes": [
+        {
+          "hz": 50,
+          "was": 69,
+          "now": 68
+        },
+        {
+          "hz": 60,
+          "was": 75,
+          "now": 74
+        },
+        {
+          "hz": 70,
+          "was": 81,
+          "now": 80
+        },
+        {
+          "hz": 80,
+          "was": 86,
+          "now": 85
+        },
+        {
+          "hz": 90,
+          "was": 88,
+          "now": 87
+        },
+        {
+          "hz": 6000,
+          "was": 88,
+          "now": 91
+        }
+      ]
+    }
+  ]
+}

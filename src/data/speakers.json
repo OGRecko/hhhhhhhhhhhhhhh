@@ -4892,7 +4892,7 @@
       "points": [
         {
           "hz": 20,
-          "db": 67
+          "db": 66.5
         },
         {
           "hz": 30,
@@ -4900,41 +4900,42 @@
         },
         {
           "hz": 40,
-          "db": 91
-        },
-        {
-          "hz": 50,
-          "db": 93.5
-        },
-        {
-          "hz": 60,
-          "db": 94.5
-        },
-        {
-          "hz": 70,
-          "db": 94.5
-        },
-        {
-          "hz": 80,
-          "db": 94
-        },
-        {
-          "hz": 90,
-          "db": 93
-        },
-        {
-          "hz": 100,
           "db": 91.5
         },
         {
+          "hz": 50,
+          "db": 94.5
+        },
+        {
+          "hz": 60,
+          "db": 95.5
+        },
+        {
+          "hz": 70,
+          "db": 95.3
+        },
+        {
+          "hz": 80,
+          "db": 94.5
+        },
+        {
+          "hz": 90,
+          "db": 93.5
+        },
+        {
+          "hz": 100,
+          "db": 92
+        },
+        {
           "hz": 200,
-          "db": 74
+          "db": 76
         }
       ],
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A."
+      "pointsContext": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A.",
+      "context": " Round 5 correction (2026-10-12): 9 stored points did not match the cited manufacturer table \"Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json."
     },
     "power": {
       "value": null,
@@ -27219,31 +27220,31 @@
         },
         {
           "hz": 40,
-          "db": 85
+          "db": 86
         },
         {
           "hz": 50,
-          "db": 90
+          "db": 91
         },
         {
           "hz": 60,
-          "db": 95
+          "db": 96
         },
         {
           "hz": 70,
-          "db": 98
+          "db": 99
         },
         {
           "hz": 80,
-          "db": 101
+          "db": 102
         },
         {
           "hz": 90,
-          "db": 103.5
+          "db": 104
         },
         {
           "hz": 100,
-          "db": 104
+          "db": 104.5
         },
         {
           "hz": 200,
@@ -27251,7 +27252,7 @@
         },
         {
           "hz": 300,
-          "db": 103
+          "db": 103.5
         },
         {
           "hz": 400,
@@ -27263,7 +27264,7 @@
         },
         {
           "hz": 600,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 700,
@@ -27283,35 +27284,35 @@
         },
         {
           "hz": 2000,
-          "db": 100
+          "db": 99.5
         },
         {
           "hz": 3000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 4000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 5000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 6000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 7000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 8000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 9000,
-          "db": 99
+          "db": 99.5
         },
         {
           "hz": 10000,
@@ -27319,13 +27320,13 @@
         },
         {
           "hz": 20000,
-          "db": 98.5
+          "db": 99
         }
       ],
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact-model ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (12/2010), table titled Frequency Response, Half Space (SPL, 1W/1m, dB). Copied all 28 published half-space values from 20 Hz through 20 kHz verbatim; no interpolation. The table gives 99 dB at 1 kHz while the separate axial-sensitivity specification states 100 dB (1W/1m); both published values are retained without forcing agreement."
+      "pointsContext": "Exact-model ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (12/2010), table titled Frequency Response, Half Space (SPL, 1W/1m, dB). Copied all 28 published half-space values from 20 Hz through 20 kHz verbatim; no interpolation. The table gives 99 dB at 1 kHz while the separate axial-sensitivity specification states 100 dB (1W/1m); both published values are retained without forcing agreement. Round 5 correction (2026-10-12): 18 stored points did not match the cited table \"Frequency Response, Half Space (SPL, 1W/1m, dB), Part 38110416 Rev D\" and were replaced with the source values. Change record: scripts/research/round5-response-corrections-2026-10-12.json."
     },
     "driverCount": 2,
     "panel": null,
@@ -27778,15 +27779,15 @@
         },
         {
           "hz": 80,
-          "db": 95.5
+          "db": 96
         },
         {
           "hz": 90,
-          "db": 96.5
+          "db": 97
         },
         {
           "hz": 100,
-          "db": 98.5
+          "db": 99
         },
         {
           "hz": 200,
@@ -27842,11 +27843,11 @@
         },
         {
           "hz": 6000,
-          "db": 106.5
+          "db": 106
         },
         {
           "hz": 7000,
-          "db": 104
+          "db": 107
         },
         {
           "hz": 8000,
@@ -27854,11 +27855,11 @@
         },
         {
           "hz": 9000,
-          "db": 102
+          "db": 103
         },
         {
           "hz": 10000,
-          "db": 100
+          "db": 101
         },
         {
           "hz": 20000,
@@ -27868,7 +27869,7 @@
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact Sx600 manufacturer datasheet frequency-response SPL table at 1 W/1 m. It states the response/impedance data were measured in an anechoic chamber according to EN 54-24 and defines the reference axis at the center of the grille, perpendicular to its surface. Only the published 40 Hz–20 kHz rows with numeric SPL values are transcribed; blank 20/30 Hz rows are omitted without interpolation. The same sheet separately rates sensitivity at 105 dB 1 W/1 m while its 1 kHz response-table row is 103 dB; retain that source discrepancy, and use the table for shape only (the runtime normalizes the curve separately from sensitivity)."
+      "pointsContext": "Exact Sx600 manufacturer datasheet frequency-response SPL table at 1 W/1 m. It states the response/impedance data were measured in an anechoic chamber according to EN 54-24 and defines the reference axis at the center of the grille, perpendicular to its surface. Only the published 40 Hz–20 kHz rows with numeric SPL values are transcribed; blank 20/30 Hz rows are omitted without interpolation. The same sheet separately rates sensitivity at 105 dB 1 W/1 m while its 1 kHz response-table row is 103 dB; retain that source discrepancy, and use the table for shape only (the runtime normalizes the curve separately from sensitivity). Round 5 correction (2026-10-12): 7 stored points did not match the cited table \"Frequency Response (SPL, 1W/1m, dB)\" and were replaced with the source values. Change record: scripts/research/round5-response-corrections-2026-10-12.json."
     },
     "driverCount": 3,
     "panel": null,
@@ -27945,7 +27946,7 @@
       "points": [
         {
           "hz": 20,
-          "db": 80.2
+          "db": 80.3
         },
         {
           "hz": 30,
@@ -27965,19 +27966,19 @@
         },
         {
           "hz": 70,
-          "db": 98
+          "db": 97.5
         },
         {
           "hz": 80,
-          "db": 100
+          "db": 99.5
         },
         {
           "hz": 90,
-          "db": 101.5
+          "db": 101
         },
         {
           "hz": 100,
-          "db": 102.5
+          "db": 102
         },
         {
           "hz": 200,
@@ -28011,7 +28012,8 @@
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "The manufacturer EDS labels this numeric table Frequency Response, Half Space (SPL, 1W/1m, dB), with a footnote identifying a half-space measurement. The listed 20–800 Hz samples are transcribed as printed, without interpolation. The scalar response bounds are separately published as 43–200 Hz (-10 dB); the simulator may normalize the table independently from the scalar sensitivity."
+      "pointsContext": "The manufacturer EDS labels this numeric table Frequency Response, Half Space (SPL, 1W/1m, dB), with a footnote identifying a half-space measurement. The listed 20–800 Hz samples are transcribed as printed, without interpolation. The scalar response bounds are separately published as 43–200 Hz (-10 dB); the simulator may normalize the table independently from the scalar sensitivity.",
+      "context": " Round 5 correction (2026-10-12): 5 stored points did not match the cited manufacturer table \"Frequency Response, Half Space (SPL, 1W/1m, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json."
     },
     "driverCount": 1,
     "panel": null,
@@ -32330,23 +32332,23 @@
         },
         {
           "hz": 50,
-          "db": 69
+          "db": 68
         },
         {
           "hz": 60,
-          "db": 75
+          "db": 74
         },
         {
           "hz": 70,
-          "db": 81
+          "db": 80
         },
         {
           "hz": 80,
-          "db": 86
+          "db": 85
         },
         {
           "hz": 90,
-          "db": 88
+          "db": 87
         },
         {
           "hz": 100,
@@ -32406,7 +32408,7 @@
         },
         {
           "hz": 6000,
-          "db": 88
+          "db": 91
         },
         {
           "hz": 7000,
@@ -32432,7 +32434,7 @@
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact-model QSC AC-C6T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column verbatim; the source does not state an input/reference level for this response table, and the separate Intrinsic Correction column is excluded. No interpolation or smoothing is applied. The published dB values are used only for curve shape and normalized at 1 kHz; the independent 89 dB sensitivity field keeps the source's separate on-axis free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project."
+      "pointsContext": "Exact-model QSC AC-C6T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column verbatim; the source does not state an input/reference level for this response table, and the separate Intrinsic Correction column is excluded. No interpolation or smoothing is applied. The published dB values are used only for curve shape and normalized at 1 kHz; the independent 89 dB sensitivity field keeps the source's separate on-axis free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project. Round 5 correction (2026-10-12): 6 stored points did not match the cited table \"Impedance/Frequency Response, Frequency Response (Raw) column\" and were replaced with the source values. Change record: scripts/research/round5-response-corrections-2026-10-12.json."
     },
     "driverCount": 2,
     "panel": null,
