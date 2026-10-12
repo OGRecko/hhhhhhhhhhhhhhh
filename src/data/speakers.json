@@ -4360,12 +4360,14 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     }
   },
   {
@@ -4578,14 +4580,16 @@
     },
     "notes": "Exact JBL PRX815W Wi-Fi model documentation (JBL's PRX815 page identifies the Wi-Fi product; its product images and accessories explicitly name PRX815W, while JBL shortens the page/PDF heading to PRX815). The fetched JBL specification sheet identifies the powered 15-inch two-way system, one 15-inch 275G woofer and one compression driver, and a 1500 W (2 x 750 W) integrated Class-D amplifier. The 1500 W entry is amplifier output, not passive speaker power handling. JBL publishes separate Main and Monitor frequency ranges/responses (including ±3 dB limits 58.1 Hz–17.2 kHz Main and 60.7 Hz–16.7 kHz Monitor); because the database has no preset/mode selector, the single frequencyResponse field remains N/A rather than choosing a mode. Input impedances are line-input values and are not entered as speaker-load impedance. No acoustic sensitivity or speaker-load impedance is published. No response-point table or directivity plot is imported. Source: https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf; matching JBL product page: https://jblpro.com/en-US/products/prx815.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: 1 x JBL 275G (15 in) + 1 x 2408H-2 compression driver = 2. Sheet is headed PRX815; W identity rests on the Wi-Fi control listed in the same sheet."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: \"Self Powered\" and \"Power Rating: 1500W (750W x 2)\" Class-D amplifier. Sheet headed PRX815; W identity rests on the Wi-Fi control listed in the same sheet."
     }
   },
   {
@@ -5858,9 +5862,10 @@
     },
     "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R11 (the non-Meta R11; not R11 Meta): three-way bass reflex; frequency response 46 Hz–28 kHz (±3 dB); frequency range 30 Hz–50 kHz (-6 dB); sensitivity 90 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–300 W (retained as a range in this note; scalar power.value is N/A because the schema cannot represent both endpoints); four 165 mm/6.5 in LF cones plus 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 1249 × 200 × 383.5 mm with terminal, 1295.5 × 310.6 × 383.5 mm with plinth; weight 37.7 kg. `driverCount` counts four LF drivers and two Uni-Q transducers. Passive/active classification is left N/A because the brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Column R11: HF dome + MF cone + 4 x LF 165 mm = 6 drivers."
     }
   },
   {
@@ -6848,9 +6853,10 @@
       "sourceType": null
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Manual wiring instructions connect each speaker to an external amplifier (section 4)."
     }
   },
   {
@@ -8381,14 +8387,16 @@
     },
     "notes": "Manufacturer data: 45–20,000 Hz ±3 dB; 85 dB @ 2.83 V/1 m; 8 Ω; 100–350 W power recommendation; 6.5 in aluminum woofer and 1 in titanium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (100–350 W); the database power.value is scalar, so no range endpoint is stored. Source: https://amphion.fi/products/one18/.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://amphion.fi/products/one18/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: 1 in titanium tweeter + 6.5 in aluminium woofer = 2. Passive radiator is not counted as a driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://amphion.fi/products/one18/",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Amp700 block: \"perfect partner for all Amphion models and other passive monitors\". Operating principle: two-way passive radiator."
     }
   },
   {
@@ -8963,14 +8971,16 @@
     },
     "notes": "Owner decision (2026-10-12): ARCS II is a separate product from the former catalog row 'ARCS' (legacy-la-2), which was removed on 2026-10-12 for lack of an exact-model source. Source: the L-Acoustics ARCS II product datasheet, footer 'ARCS II_SP_EN_2-0/10-11', hosted at https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf (a third-party host; the official l-acoustics.com ARCS II product page was not reached on 2026-10-12, so the copy is treated as THIRD_PARTY_VERIFIED under the authenticated-copy rule, as for Kara). The datasheet identifies the exact model and revision, and the sheet's L-Acoustics branding, WST/LA8 content and specifications are consistent. Stored: full-range active 2-way enclosure; one 15 in neodymium LF with a 4 in coil and one 3 in neodymium HF compression driver (2 transducers in total); nominal impedance 8 ohm LF and 8 ohm HF; usable bandwidth -10 dB 50 Hz to 20 kHz with the [ARCS II] preset. Not stored: the datasheet's maximum SPL is 140 dB at 1 m with the [ARCS II] preset. A second copy of the ARCS II System User Manual is reported to print 142 dB, so the two revisions conflict; no value is stored from either because the maximum SPL has no schema field. RMS power is printed per transducer (LF 600 W, HF 100 W) with no single enclosure rating, so power stays N/A. Sensitivity is not published and stays N/A. The -6 dB coverage is 22.5 deg symmetric x 60 deg asymmetric (-20/+40 deg) and is not an angle-resolved polar, so it is not imported. Weight 50 kg and dimensions are not schema fields.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "sourceType": "THIRD_PARTY"
+      "sourceType": null,
+      "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
-      "sourceType": "THIRD_PARTY"
+      "sourceType": null,
+      "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged."
     }
   },
   {
@@ -9396,14 +9406,16 @@
     },
     "notes": "Exact JBL Professional SRX815 product page, corroborated by its linked SRX815 Spec Sheet Version 11_11_19 (updated December 2019; https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf). The model is a passive 15-inch two-way system with one 15-inch LF woofer (JBL 2275H) and one HF compression driver (JBL 2432H); the manufacturer page identifies 3-inch voice coils in the SRX815 transducer technology. Store the published 56 Hz–20 kHz (-3 dB) response limits; the separate frequency range is 41 Hz–20 kHz (-10 dB). Nominal impedance is 8 ohms; system rating is 800 W continuous, 1600 W program, 3200 W peak. The page lists sensitivity as 95 dB but neither it nor the linked 2019 sheet specifies its reference, so the record explicitly marks the reference as 'unspecified by source' and does not convert or treat it as calibrated 1 W/1 m sensitivity. The older 2015 sheet contains response/directivity tables, but the current page points to the 2019 sheet and revision equivalence is not established; no response points or directivity payload are imported. Sources: https://jblpro.com/en-US/products/srx815; https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: LF driver 2275H (one 15 in) + HF driver 2432H (one) = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: \"System Type: Passive 15\\\", two-way\" and \"Operational Modes: Passive/Bi-Amp\"."
     }
   },
   {
@@ -9614,14 +9626,16 @@
     },
     "notes": "Exact JBL VTX A12 specification sheet (version E). It specifies a passive three-way enclosure with nine transducers: two 12-inch 2264H LF drivers, four 5.5-inch 2165H MF drivers and three 2423K HF drivers. The published range is 46 Hz–19 kHz at -10 dB with the VTX A12 preset; that qualifier is retained here and is not presented as a ±3 dB response. The system uses external Crown amplification and four amplifier channels, so active=false. Input power ratings are split by LF/MF/HF band (2 x 800 W, 400 W and 150 W continuous), and system impedances are likewise band-specific (LF 2 x 8 ohms, MF 8 ohms, HF 8 ohms); neither is collapsed into a single scalar power or impedance. Acoustic sensitivity is not stated as a single 1 W/1 m value. No frequency-response points are imported from the acoustic-measurements table because its response configurations lack a sufficiently explicit measurement/reference context; no beamwidth table is treated as a polar curve. Source: https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: 2 x 2264H LF + 4 x 2165H MF + 3 x 2423K HF = 9 (text: \"nine custom JBL transducers\")."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: \"System Amplification: Crown I-Tech ...\" and \"Required Amplifier Channels: (4)\" (external amplifiers)."
     }
   },
   {
@@ -15481,9 +15495,10 @@
     },
     "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R3 (the non-Meta R3; not R3 Meta): three-way bass reflex; frequency response 58 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–180 W (retained here as the full range because the database power.value is a scalar and is therefore left N/A); one 165 mm/6.5 in LF cone plus the 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 422.2 × 199.6 × 335.5 mm with terminal; weight 13.5 kg. `driverCount` counts the three stated transducers. Passive/active classification is left N/A because this brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Column R3: HF dome + MF cone + 1 x LF 165 mm = 3 drivers."
     }
   },
   {
@@ -15548,9 +15563,10 @@
     },
     "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R5 (the non-Meta R5; not R5 Meta): three-way bass reflex; frequency response 52 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–200 W (retained as a range in this note; scalar power.value is N/A because the schema cannot represent both endpoints); two 130 mm/5.25 in LF cones plus 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 1025 × 175 × 343.5 mm with terminal, 1071.4 × 271.6 × 343.5 mm with plinth; weight 27.3 kg. `driverCount` counts the two LF drivers and two Uni-Q transducers. Passive/active classification is left N/A because the brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Column R5: HF dome + MF cone + 2 x LF 130 mm = 4 drivers."
     }
   },
   {
@@ -16122,14 +16138,16 @@
     },
     "notes": "Exact JBL Control 30 product page and Version B spec sheet (March 2020; https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf). The sheet specifies 40 Hz–16 kHz (±3 dB, half-space), with a separate 38 Hz–17 kHz (-10 dB) range; 250 W continuous IEC-shaped pink-noise capacity for 100 hours (500 W continuous program); 4-ohm nominal impedance in transformer-bypass/thru mode; one 10-inch LF woofer with a 2-inch voice coil, one 5-inch MF driver, and one 1-inch HF compression driver (three transducers). The official JBL Control Series Passive Speakers declaration lists Control 30 as a passive speaker (https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf). Sensitivity remains N/A: the current product page says 93 dB at 1 W/1 m, whereas the Version B sheet says 93 dB at 2.83 V/1 m, half-space averaged 100 Hz–10 kHz. These references conflict for a nominal 4-ohm model and are not normalized or reconciled by assumption. The sheet also contains an SPL table and polar/directivity material, but its 2π/4π values do not reconcile cleanly with the published response limits in the available extraction; no response points are imported. The published polar charts/tables are retained as a directivity lead, not converted into an unsupported speaker polar payload. Sources: https://jblpro.com/en-US/products/control-30; https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf; https://adn.harmanpro.com/site_elements/resources/20624_1576607443/Harman%20Professional%20JBL%20Control%20Series%20Passive%20Speakers%20DoC_original.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: 10 in LF woofer + 5 in MR cone + 1 in HF compression driver = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Spec: \"150 Watt transformer for 70V or 100V lines, with 4 ohm thru\" (passive line-level speaker)."
     }
   },
   {
@@ -16761,12 +16779,14 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     }
   },
   {
@@ -18301,9 +18321,10 @@
     },
     "notes": "Duplicate legacy record for the exact JBL 4310 Control Room Monitor, synchronized with jbl-4310 using the same exact-model Library of Congress-hosted JBL manual. Specifications, nonstandard EIA sensitivity reference, exclusions and caveats are identical; this entry does not refer to the separate 4311 or 4311A models. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -34634,14 +34655,16 @@
     "panel": false,
     "notes": "KEF official R5 Meta product page (exact model R5 Meta; compact three-way bass-reflex passive floorstanding speaker): frequency response 52 Hz–28 kHz (±3 dB); frequency range 38 Hz–50 kHz (-6 dB); sensitivity 87 dB (2.83 V/1 m); nominal impedance 4 Ω, minimum 3.2 Ω; recommended amplifier range 15–200 W (scalar power stores only the published upper endpoint, role=recommended_amplifier); Uni-Q HF 25 mm dome + MF 125 mm cone, two LF 130 mm (5.25 in) cones; crossover 400 Hz and 2.7 kHz; dimensions 1072 × 272 × 344 mm with plinth; weight 24.5 kg. `driverCount` counts the two Uni-Q transducers and two LF transducers. Exact manufacturer source: https://ap.kef.com/products/r5-meta. Structured power withheld: the exact source publishes a recommended-amplifier range (15–200 W); the database power.value is scalar, so no range endpoint is stored. Source: https://ap.kef.com/products/r5-meta.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://ap.kef.com/products/r5-meta",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Product page: 12th-gen Uni-Q (HF + MF) + two 5.25 in bass drivers = 4."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://ap.kef.com/products/r5-meta",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Product page feature badge: \"Passive HiFi Speaker\"."
     }
   },
   {
@@ -44961,7 +44984,8 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45033,7 +45057,8 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45105,7 +45130,8 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45177,7 +45203,8 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45321,12 +45348,14 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     }
   },
   {
@@ -45393,12 +45422,14 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
     }
   },
   {
@@ -45540,9 +45571,10 @@
       "sourceType": null
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Manual wiring instructions connect each speaker to an external amplifier (section 4)."
     }
   },
   {
@@ -45612,9 +45644,10 @@
       "sourceType": null
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Manual wiring instructions connect each speaker to an external amplifier (section 4)."
     }
   },
   {
@@ -48655,9 +48688,10 @@
     "panel": null,
     "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR3-X entry and labels its frequency range as 70 Hz–20 kHz at −10 dB; it also lists 97 dB maximum peak SPL and a 50 W peak Class-D amplifier. The guide describes a stereo set with one powered monitor and one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: CR3-X spec: \"50 watts peak Class D power amplifier\" (built-in amplifier)."
     }
   },
   {
@@ -48721,9 +48755,10 @@
     "panel": null,
     "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR4-X entry in its shared technical-specification table, which labels frequency range at −10 dB: 55 Hz–20 kHz. The guide lists 100 dB maximum peak SPL and a 50 W peak Class-D amplifier. It describes the CR-X stereo set as one powered monitor with one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: CR4-X spec: \"50 watts peak Class D power amplifier\" (built-in amplifier)."
     }
   },
   {
@@ -48787,9 +48822,10 @@
     "panel": null,
     "notes": "Mackie's official CR-X Series Quick Start Guide has a distinct CR5-X entry in its shared technical-specification table, which labels frequency range at −10 dB: 51 Hz–20 kHz. The guide lists 105 dB maximum peak SPL and an 80 W peak Class-D amplifier. It describes the CR-X stereo set as one powered monitor with one passive companion, so active=true denotes the powered system and does not mean both cabinets contain amplifiers. The peak-only amplifier rating is retained as context, not entered as an unqualified continuous power value. The guide does not provide transducer diameters or a numeric driver count, so those remain N/A. Acoustic sensitivity, speaker-load impedance, resonance, and voice-coil size are not specified. No response-point or directivity dataset is imported. Source: https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: CR5-X spec: \"80 watts peak Class D power amplifier\" (built-in amplifier)."
     }
   },
   {
@@ -51488,9 +51524,10 @@
     },
     "notes": "KEF official R Series 2018 information sheet, specification column explicitly labeled R7 (the non-Meta R7; not R7 Meta): three-way bass reflex; frequency response 48 Hz–28 kHz (±3 dB); frequency range 33 Hz–50 kHz (-6 dB); sensitivity 88 dB (2.83 V/1 m); nominal impedance 8 Ω (minimum 3.2 Ω); recommended amplifier range 15–250 W (retained as a range in this note; scalar power.value is N/A because the schema cannot represent both endpoints); two 165 mm/6.5 in LF cones plus 125 mm MF and 25 mm HF Uni-Q drivers; crossover 400 Hz and 2.9 kHz; dimensions 1062 × 200 × 383.5 mm with terminal, 1108.9 × 310.6 × 383.5 mm with plinth; weight 31.4 kg. `driverCount` counts two LF drivers and two Uni-Q transducers. Passive/active classification is left N/A because the brochure does not explicitly label it. Source: https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 12: Column R7: HF dome + MF cone + 2 x LF 165 mm = 4 drivers."
     }
   },
   {

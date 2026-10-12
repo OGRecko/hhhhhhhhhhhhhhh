@@ -568,6 +568,14 @@
     "round4Attempt": {
       "result": "NOT_OBTAINED",
       "detail": "zenodo.org, the Zenodo API and the file URL returned no HTTP response from the sandbox; no copy of LS_directivity_Calibrated_GENELEC_8331A.sofa exists in the workspace or was provided. Identity, licence (CC-BY-4.0) and MD5 are recorded from Zenodo metadata only. Nothing was imported."
+    },
+    "round12Outcome": {
+      "status": "INACCESSIBLE_AND_UNSUPPORTED_FORMAT",
+      "zenodoRecord": "https://zenodo.org/records/10255555",
+      "recordFetched": "Zenodo record page opened via fetch tool, 2026-10-12. Lists LS_directivity_Calibrated_GENELEC_8331A.sofa with md5 a00e40164556183420c315e9f6ecd7fd (410.5 MB).",
+      "downloadAttempt": "curl to https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1 failed: SSL_ERROR_SYSCALL (HTTP 000). No file bytes obtained, so no local checksum verification.",
+      "formatSupport": "server/directivityParser.ts accepts JSON only. The .sofa extension falls through to \"Unsupported directivity file format\". Not importable without a new SOFA parser.",
+      "import": "NOT IMPORTED. No substitute file or synthesized polar data."
     }
   },
   {

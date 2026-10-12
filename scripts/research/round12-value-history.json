@@ -1,0 +1,939 @@
+{
+  "marker": "round12-queue-batch",
+  "entries": [
+    {
+      "id": "dali-oberon-3",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Manual wiring instructions connect each speaker to an external amplifier (section 4)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "dali-oberon-5",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Manual wiring instructions connect each speaker to an external amplifier (section 4)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "dali-oberon7",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Manual wiring instructions connect each speaker to an external amplifier (section 4)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "kef-r11",
+      "field": "driverCount",
+      "value": 6,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Column R11: HF dome + MF cone + 4 x LF 165 mm = 6 drivers."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "kef-r3",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Column R3: HF dome + MF cone + 1 x LF 165 mm = 3 drivers."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "kef-r5",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Column R5: HF dome + MF cone + 2 x LF 130 mm = 4 drivers."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "kef-r7",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Column R7: HF dome + MF cone + 2 x LF 165 mm = 4 drivers."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "eV-zlx12p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical data: LF EVS-12K + HF DH-1K = 2 transducers. Distributor-hosted copy of the EV manual."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "eV-zlx12p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Section 8.1 heading \"Powered loudspeakers\". Distributor-hosted copy of the EV manual."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "eV-zlx15p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical data: LF EVS-15L + HF DH-1K (HF cell is merged across both models) = 2 transducers. Distributor-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "eV-zlx15p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Section 8.1 heading \"Powered loudspeakers\". Distributor-hosted copy of the EV manual."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table SERAFINO 3.5-way: H28 tweeter + M15 midrange + 2 x W18 woofers = 4. Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Page header \"Homage tradition passive loudspeakers\". Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table GUARNERI 2-way: H28 tweeter + W15 midwoofer = 2. Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Page header \"Homage tradition passive loudspeakers\". Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-iii",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova III: tweeter + midrange + 2 x W18 = 4. Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-v",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova V: tweeter + midrange + 3 x W18 = 5. Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova I: tweeter + midwoofer = 2. Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-ii",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": null
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova II: tweeter + midrange + woofer = 3. Aggregator-hosted copy."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "mackie-cr3-x",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: CR3-X spec: \"50 watts peak Class D power amplifier\" (built-in amplifier)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "mackie-cr4-x",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: CR4-X spec: \"50 watts peak Class D power amplifier\" (built-in amplifier)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "mackie-cr5-x",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: CR5-X spec: \"80 watts peak Class D power amplifier\" (built-in amplifier)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "legacy-jbl-3",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-srx815",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: LF driver 2275H (one 15 in) + HF driver 2432H (one) = 2."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-srx815",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20632_1576610251/JBL_SRX815_SpecSheet_11_11_19_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: \"System Type: Passive 15\\\", two-way\" and \"Operational Modes: Passive/Bi-Amp\"."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-prx815w",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: 1 x JBL 275G (15 in) + 1 x 2408H-2 compression driver = 2. Sheet is headed PRX815; W identity rests on the Wi-Fi control listed in the same sheet."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-prx815w",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20641_1577548732/JBL_PRX815_SpecSheet_12_16_19_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: \"Self Powered\" and \"Power Rating: 1500W (750W x 2)\" Class-D amplifier. Sheet headed PRX815; W identity rests on the Wi-Fi control listed in the same sheet."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-control-30",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: 10 in LF woofer + 5 in MR cone + 1 in HF compression driver = 3."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-control-30",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/20872_1584131254/Control%2030%20Spec%20Sheet%20Review_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: \"150 Watt transformer for 70V or 100V lines, with 4 ohm thru\" (passive line-level speaker)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-vtx-a12",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: 2 x 2264H LF + 4 x 2165H MF + 3 x 2423K HF = 9 (text: \"nine custom JBL transducers\")."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "jbl-vtx-a12",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: \"System Amplification: Crown I-Tech ...\" and \"Required Amplifier Channels: (4)\" (external amplifiers)."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "amphion-one18",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://amphion.fi/products/one18/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://amphion.fi/products/one18/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Spec: 1 in titanium tweeter + 6.5 in aluminium woofer = 2. Passive radiator is not counted as a driver."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "amphion-one18",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://amphion.fi/products/one18/",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://amphion.fi/products/one18/",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Amp700 block: \"perfect partner for all Amphion models and other passive monitors\". Operating principle: two-way passive radiator."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "kef-r5-meta",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://ap.kef.com/products/r5-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://ap.kef.com/products/r5-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Product page: 12th-gen Uni-Q (HF + MF) + two 5.25 in bass drivers = 4."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "kef-r5-meta",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://ap.kef.com/products/r5-meta",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://ap.kef.com/products/r5-meta",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Product page feature badge: \"Passive HiFi Speaker\"."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch"
+    },
+    {
+      "id": "lacoustics-arcs-ii",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": "THIRD_PARTY"
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: sourceType is THIRD_PARTY (SISME distributor copy). Not manufacturer-verified; demoted to THIRD_PARTY_VERIFIED."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch",
+      "kind": "DEMOTION"
+    },
+    {
+      "id": "lacoustics-arcs-ii",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": "THIRD_PARTY"
+      },
+      "after": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: sourceType is THIRD_PARTY (SISME distributor copy). Not manufacturer-verified; demoted to THIRD_PARTY_VERIFIED."
+      },
+      "round": 12,
+      "marker": "round12-queue-batch",
+      "kind": "DEMOTION"
+    },
+    {
+      "id": "eV-zlx12p",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical data: LF EVS-12K + HF DH-1K = 2 transducers. Distributor-hosted copy of the EV manual."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "eV-zlx12p",
+      "field": "active",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Section 8.1 heading \"Powered loudspeakers\". Distributor-hosted copy of the EV manual."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "eV-zlx15p",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical data: LF EVS-15L + HF DH-1K (HF cell is merged across both models) = 2 transducers. Distributor-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "eV-zlx15p",
+      "field": "active",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Section 8.1 heading \"Powered loudspeakers\". Distributor-hosted copy of the EV manual."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table SERAFINO 3.5-way: H28 tweeter + M15 midrange + 2 x W18 woofers = 4. Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "active",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Page header \"Homage tradition passive loudspeakers\". Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table GUARNERI 2-way: H28 tweeter + W15 midwoofer = 2. Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "active",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Page header \"Homage tradition passive loudspeakers\". Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-iii",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova III: tweeter + midrange + 2 x W18 = 4. Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-v",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova V: tweeter + midrange + 3 x W18 = 5. Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-i",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova I: tweeter + midwoofer = 2. Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "sonus-faber-olympica-nova-ii",
+      "field": "driverCount",
+      "kind": "PROMOTION_NOT_ALLOWED_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: Technical table Olympica Nova II: tweeter + midrange + woofer = 3. Aggregator-hosted copy."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "lacoustics-arcs-ii",
+      "field": "driverCount",
+      "kind": "DEMOTION_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: sourceType is THIRD_PARTY (SISME distributor copy). Not manufacturer-verified; demoted to THIRD_PARTY_VERIFIED."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": null,
+        "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    },
+    {
+      "id": "lacoustics-arcs-ii",
+      "field": "active",
+      "kind": "DEMOTION_REVERTED",
+      "before": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": "THIRD_PARTY",
+        "note": "Round 12: sourceType is THIRD_PARTY (SISME distributor copy). Not manufacturer-verified; demoted to THIRD_PARTY_VERIFIED."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+        "sourceType": null,
+        "note": "Round 12b: distributor copy (SISME) with status THIRD_PARTY; not manufacturer-verified. Returned to unchecked pending a manufacturer source. Value unchanged."
+      },
+      "round": "12b",
+      "marker": "round12b-provenance-correction"
+    }
+  ]
+}
