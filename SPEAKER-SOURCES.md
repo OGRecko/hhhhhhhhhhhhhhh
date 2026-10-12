@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-12 from the authoritative dataset. 635 unique source URLs are retained for populated fields.
+Generated 2026-10-12 from the authoritative dataset. 634 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -2224,12 +2224,6 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf
 
 - LG LG S95TR — power
-
-## https://vintagetechnologyarchive.com/audio/infinity/rs-1b/
-
-- Infinity RS-1B — impedance
-- Infinity RS-1B — sensitivity
-- Infinity RS-1B — woofer size
 
 ## https://voidacoustics.com/products/air/air8/
 

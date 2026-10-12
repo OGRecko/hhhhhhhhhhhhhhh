@@ -6,14 +6,14 @@
   "uniqueBrandModels": 666,
   "duplicateBrandModels": 0,
   "statusCounts": {
-    "PARTIALLY_VERIFIED": 660,
-    "UNVERIFIED": 6
+    "PARTIALLY_VERIFIED": 659,
+    "UNVERIFIED": 7
   },
   "sourceTypeCounts": {
     "MANUFACTURER": 1544,
-    "NONE": 2245,
+    "NONE": 2248,
     "REPUTABLE_DATABASE": 188,
-    "THIRD_PARTY": 18,
+    "THIRD_PARTY": 15,
     "MEASUREMENT": 1
   },
   "responseCurveData": {

@@ -23,7 +23,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | yamaha-ns1000m | Yamaha | NS-1000M | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | jbl-4350 | JBL | 4350 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil |
 | altec-model-19 | Altec Lansing | Model 19 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| infinity-rs1 | Infinity | RS-1B | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, frequency-response limits |
+| infinity-rs1 | Infinity | RS-1B | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | cerwin-vega-d9 | Cerwin Vega | D-9 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil, woofer |
 | eV-eliminator | Electro-Voice | Eliminator | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | jbl-4430 | JBL | 4430 | PARTIALLY_VERIFIED | resonantFreq |
@@ -673,6 +673,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 660
-**Records with no source-backed acoustic field:** 6
+**Records with at least one source-backed acoustic field:** 659
+**Records with no source-backed acoustic field:** 7
 **Unavailable identities or confirmed non-loudspeaker records:** 0
