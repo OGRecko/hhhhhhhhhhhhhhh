@@ -62,9 +62,9 @@
     },
     "notes": "Exact JBL Professional Series Model 4310 Control Room Monitor manual, hosted by the Library of Congress. It specifies 45 Hz–15 kHz ±3 dB, 50 W program capacity, 8-ohm impedance, a 12-inch LF driver, and three transducers. Sensitivity is quoted as 42 dB at 30 ft with 1 mW, EIA averaged over 500–2500 Hz; that nonstandard reference is preserved verbatim and must not be normalized or treated as 1 W/1 m. The manual has only partial response-table/graph coverage and no complete exact numeric response-point series, so no curve is imported. Its dispersion/off-axis information is retained as a directivity lead, not encoded as a complete polar. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -2982,16 +2982,12 @@
         {
           "hz": 10000,
           "db": 92.5
-        },
-        {
-          "hz": 20000,
-          "db": 61
         }
       ],
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation. Round 5 check (2026-10-12): the 20 kHz point is set to 61 dB, the value in the Amplitude & Phase table cited above. The same manual's Acoustic Contribution table lists 92 dB fundamental at 20 kHz, so the manual conflicts with itself at that frequency; the conflict is recorded here and is not resolved by this change. Change record: scripts/research/round5-response-corrections-2026-10-12.json (entry jbl-lsr32)."
+      "pointsContext": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation. Round 5 check (2026-10-12): the 20 kHz point is set to 61 dB, the value in the Amplitude & Phase table cited above. The same manual's Acoustic Contribution table lists 92 dB fundamental at 20 kHz, so the manual conflicts with itself at that frequency; the conflict is recorded here and is not resolved by this change. Change record: scripts/research/round5-response-corrections-2026-10-12.json (entry jbl-lsr32). Round 6 (2026-10-13): the 20 kHz point is removed from the stored series. The Amplitude & Phase table gives 61 dB at 20 kHz and the Acoustic Contribution table of the same manual gives a 92 dB fundamental at 20 kHz; no evidence selects either value. The stored series now ends at 10 kHz, and the simulator extrapolates above the last point, so owner review of that extrapolation is required. Record: provenance-ledger-2026-10-13.json."
     },
     "power": {
       "value": 200,
@@ -29933,14 +29929,14 @@
     "panel": null,
     "notes": "Exact Electro-Voice Live X passive ELX112 owner's manual, model/part number ELX112 (F01U170823). It gives 82 Hz–18 kHz (-3 dB) and 55 Hz–20 kHz (-10 dB), footnoted as full-space measurements; 250 W continuous / 1000 W peak power handling; 8-ohm nominal / 7.0-ohm minimum impedance; one EVS-12K 12-inch LF driver plus one DH-1K HF compression driver; and 90° x 50° coverage. Although the manual lists 94 dB axial sensitivity, it does not state the sensitivity reference in the table, so the structured sensitivity field remains N/A rather than assuming 1 W/1 m. Source: https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     }
   },
   {
@@ -30005,14 +30001,14 @@
     "panel": null,
     "notes": "Exact Electro-Voice Live X passive ELX115 owner's manual, model/part number ELX115 (F01U170824). It gives 75 Hz–18 kHz (-3 dB) and 50 Hz–20 kHz (-10 dB), footnoted as full-space measurements; 400 W continuous / 1600 W peak power handling; 8-ohm nominal / 7.4-ohm minimum impedance; one EVS-15K 15-inch LF driver plus one DH-1K HF compression driver; and 90° x 50° coverage. Although the manual lists 95 dB axial sensitivity, it does not state the sensitivity reference in the table, so the structured sensitivity field remains N/A rather than assuming 1 W/1 m. Source: https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     }
   },
   {
@@ -30077,14 +30073,14 @@
     "panel": null,
     "notes": "Exact Electro-Voice Live X passive ELX215 owner's manual, model/part number ELX215 (F01U170826). It gives 62 Hz–18 kHz (-3 dB) and 38 Hz–20 kHz (-10 dB), footnoted as full-space measurements; 600 W continuous / 2400 W peak power handling; 4-ohm nominal / 3.7-ohm minimum impedance; two EVS-15K 15-inch LF drivers plus one DH-1K HF compression driver; and 90° x 50° coverage. Although the manual lists 96 dB axial sensitivity, it does not state the sensitivity reference in the table, so the structured sensitivity field remains N/A rather than assuming 1 W/1 m. Source: https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     }
   },
   {
@@ -34802,14 +34798,14 @@
     "panel": false,
     "notes": "KEF official Kube subwoofer information sheet, exact Kube8b column: powered sealed subwoofer; one 200 mm/8 in driver; frequency response 34–140 Hz (-6 dB); built-in Class-D amplifier rated 300 W RMS; maximum output 105 dB; dimensions 293 × 293 × 310 mm with rear panel and feet; weight 11.3 kg. The response bounds are manufacturer-published but the schema has no tolerance field; the -6 dB criterion is retained here. Source: https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     }
   },
   {
@@ -34874,14 +34870,14 @@
     "panel": false,
     "notes": "KEF official Kube subwoofer information sheet, exact Kube10b column: powered sealed subwoofer; one 250 mm/10 in driver; frequency response 24–140 Hz (±3 dB); built-in Class-D amplifier rated 300 W RMS; maximum output 111 dB; dimensions 370 × 353 × 370 mm with rear panel and feet; weight 17.4 kg. Source: https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     }
   },
   {
@@ -34946,14 +34942,14 @@
     "panel": false,
     "notes": "KEF official Kube subwoofer information sheet, exact Kube12b column: powered sealed subwoofer; one 300 mm/12 in driver; frequency response 22–140 Hz (±3 dB); built-in Class-D amplifier rated 300 W RMS; maximum output 114 dB; dimensions 410 × 393 × 410 mm with rear panel and feet; weight 20.6 kg. Source: https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     }
   },
   {

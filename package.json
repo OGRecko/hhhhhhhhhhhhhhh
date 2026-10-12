@@ -33,7 +33,7 @@
     "test:e2e": "npm run build && playwright test",
     "desktop:smoke": "node scripts/desktop-smoke.mjs",
     "monitoring:ensure": "node scripts/ensure-gcp-monitoring.mjs",
-    "docs:release": "node scripts/generate-release-docs.mjs",
+    "docs:release": "node scripts/generate-release-docs.mjs && python3 scripts/research/make-provenance-queue.py",
     "audit:provenance": "node scripts/speaker-provenance-audit.mjs",
     "docs:consistency": "node scripts/check-doc-consistency.mjs",
     "audit:third-party": "node scripts/check-third-party-notices.mjs",
