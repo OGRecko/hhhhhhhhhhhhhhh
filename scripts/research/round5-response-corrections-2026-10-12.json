@@ -490,6 +490,21 @@
         }
       ],
       "note": "Second pass after a readback of the cited table. The first-pass entry is kept unchanged."
+    },
+    {
+      "id": "jbl-lsr32",
+      "pass": "check",
+      "date": "2026-10-12",
+      "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "table": "Amplitude & Phase, SPL (dB) column (manual chunk 5)",
+      "changes": [
+        {
+          "hz": 20000,
+          "was": 92,
+          "now": 61
+        }
+      ],
+      "note": "Internal conflict: Acoustic Contribution table lists 92 dB at 20 kHz in the same manual."
     }
   ]
 }

@@ -3050,13 +3050,13 @@
         },
         {
           "hz": 20000,
-          "db": 92
+          "db": 61
         }
       ],
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation."
+      "pointsContext": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation. Round 5 check (2026-10-12): the 20 kHz point is set to 61 dB, the value in the Amplitude & Phase table cited above. The same manual's Acoustic Contribution table lists 92 dB fundamental at 20 kHz, so the manual conflicts with itself at that frequency; the conflict is recorded here and is not resolved by this change. Change record: scripts/research/round5-response-corrections-2026-10-12.json (entry jbl-lsr32)."
     },
     "power": {
       "value": 200,
