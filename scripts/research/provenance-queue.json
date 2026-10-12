@@ -5,30 +5,30 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 659,
-  "uncheckedItems": 722,
-  "uniqueSourceUrls": 416,
+  "uncheckedItems": 734,
+  "uniqueSourceUrls": 419,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 2,
     "CHECKED_PARTIAL": 8,
-    "OPEN": 406
+    "OPEN": 409
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 8,
-    "CHECKED_PARTIAL": 19,
-    "OPEN": 695
+    "CHECKED_PARTIAL": 21,
+    "OPEN": 705
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 316
+      "count": 321
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 69
+      "count": 64
     },
     {
       "field": "active",
@@ -46,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 406
+      "count": 413
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 86
+      "count": 79
     },
     {
       "field": "driverCount",
@@ -103,6 +103,152 @@
   ],
   "warnings": [],
   "groups": [
+    {
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "host": "tile.loc.gov",
+      "status": "CHECKED_PARTIAL",
+      "items": 4,
+      "records": [
+        "jbl-4310",
+        "legacy-jbl-3"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "jbl-4310",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "jbl-4310",
+          "field": "driverCount",
+          "value": 3,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "legacy-jbl-3",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "legacy-jbl-3",
+          "field": "driverCount",
+          "value": 3,
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        }
+      ],
+      "checkedRound": 12,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "\"three direct-radiator transducers\"; 12 in LF, 5 in MF, HF direct radiator. Passive/active not stated."
+    },
+    {
+      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "host": "www.eviaudio.fr",
+      "status": "OPEN",
+      "items": 4,
+      "records": [
+        "electro-voice-zx3-60",
+        "electro-voice-zx3-90"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "electro-voice-zx3-60",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "electro-voice-zx3-60",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "electro-voice-zx3-90",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "electro-voice-zx3-90",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        }
+      ],
+      "checkedRound": null,
+      "checkedDate": null,
+      "chunksOpened": [],
+      "evidence": ""
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "host": "www.fmicassets.com",
+      "status": "OPEN",
+      "items": 4,
+      "records": [
+        "presonus-r65",
+        "presonus-r80"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "presonus-r65",
+          "field": "active",
+          "value": true,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "presonus-r65",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "presonus-r80",
+          "field": "active",
+          "value": true,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "presonus-r80",
+          "field": "driverCount",
+          "value": 2,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        }
+      ],
+      "checkedRound": null,
+      "checkedDate": null,
+      "chunksOpened": [],
+      "evidence": ""
+    },
     {
       "url": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
       "host": "www.leone.sk",
@@ -5145,41 +5291,6 @@
       "evidence": null
     },
     {
-      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "host": "tile.loc.gov",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "jbl-4310",
-        "legacy-jbl-3"
-      ],
-      "fields": [
-        "active"
-      ],
-      "outstanding": [
-        {
-          "record": "jbl-4310",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
-        },
-        {
-          "record": "legacy-jbl-3",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": 12,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "\"three direct-radiator transducers\"; 12 in LF, 5 in MF, HF direct radiator. Passive/active not stated."
-    },
-    {
       "url": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
       "host": "trianglehifi.com",
       "status": "OPEN",
@@ -9897,6 +10008,39 @@
       "checkedDate": null,
       "chunksOpened": [],
       "evidence": null
+    },
+    {
+      "url": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "host": "www.walkersound.co.uk",
+      "status": "OPEN",
+      "items": 2,
+      "records": [
+        "bose-802"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ],
+      "outstanding": [
+        {
+          "record": "bose-802",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        },
+        {
+          "record": "bose-802",
+          "field": "driverCount",
+          "value": 8,
+          "recordedOutcome": null,
+          "recordedNote": ""
+        }
+      ],
+      "checkedRound": null,
+      "checkedDate": null,
+      "chunksOpened": [],
+      "evidence": ""
     },
     {
       "url": "https://www.warehousesound.com/r/jblEon15.pdf",

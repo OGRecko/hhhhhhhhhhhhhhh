@@ -1,0 +1,245 @@
+{
+  "schema": "source-host-allowlist/v1",
+  "reviewDate": "2026-10-12",
+  "policy": "A host may support MANUFACTURER_VERIFIED only when status is ESTABLISHED: the host is the official asset/product host of the brand's current owner, and that link is recorded here with evidence. NOT_ESTABLISHED and NOT_MANUFACTURER hosts cannot support MANUFACTURER_VERIFIED; their values are demoted to CITED_IN_NOTES_UNCHECKED with history. BRAND_DOMAIN_UNVERIFIED hosts keep their existing claims but are flagged for review; they are not counted as verified ownership.",
+  "hosts": [
+    {
+      "host": "assets.boseprofessional.com",
+      "status": "ESTABLISHED",
+      "operator": "Transom Post OpCo LLC, dba Bose Professional (brand sold by Bose Corporation, April 2023)",
+      "evidence": [
+        "Bose Professional datasheets carry '©2025 Transom Post OpCo LLC' in their footers (e.g. DesignMax DM6SE TDS).",
+        "Facebook page for Bose Professional: 'Transom Post OpCo LLC is responsible for this Page'.",
+        "Transaction record: Transom Capital Group acquired Bose Professional from Bose, 2023-04-11 (mergr.com; pehub.com)."
+      ],
+      "sources": [
+        "https://www.pehub.com/transom-capital-buys-bose-corporations-professional-unit/",
+        "https://www.facebook.com/boseprofessional/"
+      ]
+    },
+    {
+      "host": "assets.electrovoicedynacord.com",
+      "status": "ESTABLISHED",
+      "operator": "Electro-Voice brand asset host",
+      "evidence": [
+        "electrovoice.com/tools-resources serves its own page images and product-document assets from assets.electrovoicedynacord.com.",
+        "Datasheets are EV-branded and list electrovoice.com as the brand site."
+      ],
+      "ownershipNote": "Bosch announced sale of Electro-Voice and Dynacord to Triton (news dated 2024-12-13). The brand's manufacturer is therefore Triton-owned EV; this changes corporate owner, not the brand's official host.",
+      "sources": [
+        "https://www.electrovoice.com/tools-resources",
+        "https://audioxpress.com/news/bosch-group-sells-electro-voice-dynacord-rts-and-telex"
+      ]
+    },
+    {
+      "host": "products.electrovoice.com",
+      "status": "ESTABLISHED",
+      "operator": "Electro-Voice product site",
+      "evidence": [
+        "electrovoice.com/tools-resources links to products.electrovoice.com/na/en/preview."
+      ],
+      "sources": [
+        "https://www.electrovoice.com/tools-resources"
+      ]
+    },
+    {
+      "host": "assets.ctfassets.net",
+      "status": "ESTABLISHED_FOR_LINKED_DOCUMENTS",
+      "operator": "Genelec content (Contentful space 4zjnzn055a4v)",
+      "evidence": [
+        "genelec.com/previous-models/s30-s30nf links the S30 datasheet and system specifications from assets.ctfassets.net/4zjnzn055a4v/...",
+        "Applies only to documents linked from genelec.com; not to the host in general."
+      ],
+      "sources": [
+        "https://www.genelec.com/previous-models/s30-s30nf"
+      ]
+    },
+    {
+      "host": "tile.loc.gov",
+      "status": "NOT_MANUFACTURER",
+      "operator": "Library of Congress preservation copy",
+      "evidence": [
+        "Library of Congress storage path (recording_preservation/manuals). Not a JBL-controlled host."
+      ],
+      "sources": []
+    },
+    {
+      "host": "www.walkersound.co.uk",
+      "status": "NOT_MANUFACTURER",
+      "operator": "UK retailer/distributor (dealer PDF)",
+      "evidence": [
+        "Bose 802 MkII PDF hosted on a UK sound-equipment dealer's site, not on a Bose domain."
+      ],
+      "sources": []
+    },
+    {
+      "host": "www.eviaudio.fr",
+      "status": "NOT_ESTABLISHED",
+      "operator": "Not established. WordPress-hosted site under a French domain; not linked from electrovoice.com.",
+      "evidence": [
+        "Searched: no link from electrovoice.com to eviaudio.fr. Operator and relationship to Electro-Voice not verified in this round."
+      ],
+      "sources": []
+    },
+    {
+      "host": "www.fmicassets.com",
+      "status": "NOT_ESTABLISHED",
+      "operator": "Fender Musical Instruments Corporation asset host (Fender product documents carry 'A product of: FENDER MUSICAL INSTRUMENTS CO.')",
+      "evidence": [
+        "PreSonus owner's manuals are hosted here. The Fender/PreSonus relationship was seen only in manual text ('Fender and PreSonus hardware'), not confirmed from a corporate source. Not established for PreSonus products in this round."
+      ],
+      "sources": []
+    },
+    {
+      "host": "www.qsys.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected QSC (Q-SYS platform). Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.qscaudio.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected QSC. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "dynaudio.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Dynaudio. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "mackie.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Mackie/LOUD Technologies. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "assets.kef.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected KEF. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "ap.kef.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected KEF APAC. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "adn.harmanpro.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Harman Professional. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "jblpro.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected JBL Professional. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.jbl.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected JBL. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "sonance.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Sonance. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.bang-olufsen.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Bang & Olufsen. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.genelec.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Genelec. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.martinlogan.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected MartinLogan. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.l-acoustics.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected L-Acoustics. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "amphion.fi",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Amphion. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "media.focal-naim.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected Focal-Naim. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "atc.audio",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected ATC. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "pmc-speakers.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected PMC. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.adam-audio.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected ADAM Audio. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.dali-speakers.com",
+      "status": "BRAND_DOMAIN_UNVERIFIED",
+      "operator": "Expected DALI. Not confirmed in this round.",
+      "evidence": [],
+      "sources": []
+    },
+    {
+      "host": "www.electrovoice.com",
+      "status": "ESTABLISHED",
+      "operator": "Electro-Voice brand site",
+      "evidence": [
+        "Brand's own site (tools-resources page)."
+      ],
+      "sources": [
+        "https://www.electrovoice.com/tools-resources"
+      ]
+    }
+  ]
+}

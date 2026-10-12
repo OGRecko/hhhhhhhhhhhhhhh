@@ -627,8 +627,8 @@
           "record": "legacy-jbl-3",
           "field": "driverCount",
           "value": 3,
-          "outcome": "PROMOTED",
-          "note": ""
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
         },
         {
           "record": "jbl-4310",
@@ -643,6 +643,13 @@
           "value": false,
           "outcome": "NOT_STATED",
           "note": ""
+        },
+        {
+          "record": "jbl-4310",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
         }
       ],
       "history": [
@@ -3574,7 +3581,36 @@
       "checkedDate": null,
       "chunksOpened": [],
       "evidence": null,
-      "fieldResults": []
+      "fieldResults": [
+        {
+          "record": "presonus-r65",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "presonus-r65",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        }
+      ]
     },
     {
       "url": "https://www.focal.com/products/alpha-65-evo",
@@ -4861,7 +4897,36 @@
       "checkedDate": null,
       "chunksOpened": [],
       "evidence": null,
-      "fieldResults": []
+      "fieldResults": [
+        {
+          "record": "presonus-r65",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "presonus-r65",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Round 14: host not established; demoted to CITED_IN_NOTES_UNCHECKED."
+        }
+      ]
     },
     {
       "url": "https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf",

@@ -1,0 +1,248 @@
+{
+  "entries": [
+    {
+      "id": "jbl-4310",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: "
+      },
+      "host": "tile.loc.gov",
+      "hostStatus": "NOT_MANUFACTURER",
+      "round": 14
+    },
+    {
+      "id": "bose-802",
+      "field": "driverCount",
+      "value": 8,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_MANUFACTURER): www.walkersound.co.uk is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 4 URL check (2026-10-11): exact manufacturer source. Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet."
+      },
+      "host": "www.walkersound.co.uk",
+      "hostStatus": "NOT_MANUFACTURER",
+      "round": 14
+    },
+    {
+      "id": "bose-802",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_MANUFACTURER): www.walkersound.co.uk is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 4 URL check (2026-10-11): exact manufacturer source. Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier."
+      },
+      "host": "www.walkersound.co.uk",
+      "hostStatus": "NOT_MANUFACTURER",
+      "round": 14
+    },
+    {
+      "id": "legacy-jbl-3",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
+      },
+      "host": "tile.loc.gov",
+      "hostStatus": "NOT_MANUFACTURER",
+      "round": 14
+    },
+    {
+      "id": "electro-voice-zx3-60",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "host": "www.eviaudio.fr",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "electro-voice-zx3-60",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "host": "www.eviaudio.fr",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "electro-voice-zx3-90",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "host": "www.eviaudio.fr",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "electro-voice-zx3-90",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "host": "www.eviaudio.fr",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "presonus-r65",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "checkedDate": "2026-10-12",
+        "note": "round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "host": "www.fmicassets.com",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "presonus-r65",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "checkedDate": "2026-10-12",
+        "note": "round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "host": "www.fmicassets.com",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "presonus-r80",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "checkedDate": "2026-10-12",
+        "note": "round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "host": "www.fmicassets.com",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    },
+    {
+      "id": "presonus-r80",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "checkedDate": "2026-10-12",
+        "note": "round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "after": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "host": "www.fmicassets.com",
+      "hostStatus": "NOT_ESTABLISHED",
+      "round": 14
+    }
+  ],
+  "marker": "round14-host-policy"
+}

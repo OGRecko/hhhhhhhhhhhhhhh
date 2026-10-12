@@ -1281,6 +1281,10 @@
     {
       "id": "prx815-identity",
       "question": "jbl-prx815w was promoted from a sheet headed PRX815. The W identity rests on the Wi-Fi control listed in the sheet. Accept, or require a PRX815W-headed document?"
+    },
+    {
+      "id": "host-policy-acceptance",
+      "question": "Accept the host decisions in source-host-allowlist.json (Bose Professional, Electro-Voice and Genelec asset hosts ESTABLISHED; tile.loc.gov, walkersound, eviaudio.fr and fmicassets.com NOT established) and the demotion of the 12 fields. Brand-domain hosts stay flagged for review, not verified. Reversible if ownership is later shown."
     }
   ],
   "rounds": [
@@ -1430,6 +1434,48 @@
         "lacoustics-arcs-ii.driverCount -> DEMOTION_REVERTED",
         "lacoustics-arcs-ii.active -> DEMOTION_REVERTED"
       ]
+    },
+    {
+      "round": 14,
+      "marker": "round14-host-policy",
+      "date": "2026-10-12",
+      "reason": "Host policy: MANUFACTURER_VERIFIED requires an ESTABLISHED host (source-host-allowlist.json). Non-established hosts demoted with history.",
+      "fieldsDemoted": 12,
+      "hostsEstablished": [
+        "assets.boseprofessional.com",
+        "assets.electrovoicedynacord.com",
+        "products.electrovoice.com",
+        "www.electrovoice.com"
+      ],
+      "hostsDemotedFrom": [
+        "tile.loc.gov",
+        "www.eviaudio.fr",
+        "www.fmicassets.com",
+        "www.walkersound.co.uk"
+      ],
+      "brandDomainUnverified": [
+        "adn.harmanpro.com",
+        "amphion.fi",
+        "ap.kef.com",
+        "assets.kef.com",
+        "atc.audio",
+        "dynaudio.com",
+        "jblpro.com",
+        "mackie.com",
+        "media.focal-naim.com",
+        "pmc-speakers.com",
+        "sonance.com",
+        "www.adam-audio.com",
+        "www.bang-olufsen.com",
+        "www.dali-speakers.com",
+        "www.genelec.com",
+        "www.jbl.com",
+        "www.l-acoustics.com",
+        "www.martinlogan.com",
+        "www.qscaudio.com",
+        "www.qsys.com"
+      ],
+      "allowlist": "scripts/research/source-host-allowlist.json"
     }
   ]
 }

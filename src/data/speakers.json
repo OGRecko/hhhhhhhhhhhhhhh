@@ -62,9 +62,10 @@
     },
     "notes": "Exact JBL Professional Series Model 4310 Control Room Monitor manual, hosted by the Library of Congress. It specifies 45 Hz–15 kHz ±3 dB, 50 W program capacity, 8-ohm impedance, a 12-inch LF driver, and three transducers. Sensitivity is quoted as 42 dB at 30 ft with 1 mW, EIA averaged over 500–2500 Hz; that nonstandard reference is preserved verbatim and must not be normalized or treated as 1 W/1 m. The manual has only partial response-table/graph coverage and no complete exact numeric response-point series, so no curve is imported. Its dispersion/off-axis information is retained as a directivity lead, not encoded as a complete polar. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER"
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: "
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -966,16 +967,16 @@
     },
     "notes": "Exact Bose 802 Series II product sheet (Bose-authored document fetched from Walker Sound). It specifies eight 4.5-inch full-range drivers, nominal 8-ohm impedance, 240 W continuous pink-noise power handling (55 Hz–16 kHz), and use with a separate 802C Series II systems controller and external amplifier. Driver count and passive classification are supported. The same document gives conflicting response lower limits (55 Hz–16 kHz in its Technical Information table versus 50 Hz–16 kHz in its Engineers’ and Architects’ specification) and sensitivity values/context (91 dB full-range in the table versus 92 dB over 50 Hz–16 kHz and 99 dB over 300 Hz–3 kHz in the specification). Therefore response bounds and sensitivity remain N/A. The 4.5-inch elements are full-range drivers, not a separate woofer, so woofer size remains N/A.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_MANUFACTURER): www.walkersound.co.uk is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 4 URL check (2026-10-11): exact manufacturer source. Bose 802 Series II sheet (Bose-authored, fetched from Walker Sound): eight 4.5-inch full-range drivers. Record revision is Series II, matching the sheet."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_MANUFACTURER): www.walkersound.co.uk is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 4 URL check (2026-10-11): exact manufacturer source. Sheet lists a recommended amplifier power (240 W min, 480 W max) and an external 802C systems controller for active EQ; the loudspeaker has no built-in amplifier."
     }
   },
   {
@@ -18337,10 +18338,10 @@
     },
     "notes": "Duplicate legacy record for the exact JBL 4310 Control Room Monitor, synchronized with jbl-4310 using the same exact-model Library of Congress-hosted JBL manual. Specifications, nonstandard EIA sensitivity reference, exclusions and caveats are identical; this entry does not refer to the separate 4311 or 4311A models. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -27094,16 +27095,16 @@
     "panel": null,
     "notes": "Round 5 variant split (owner decision, 2026-10-11). Exact variant: Electro-Voice Zx3-60, coverage 60 x 60 degrees. Source: Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). The manual prints one specification table for the Zx3 series, which is applied to this variant: frequency response -3 dB 58 Hz to 15 kHz (-10 dB 48 Hz to 20 kHz), axial sensitivity 97 dB (1 W/1 m, half space), nominal impedance 8 ohm (minimum 6.2 ohm), power 600 W continuous passive / 2400 W peak, LF 12 in DVX3121, HF 1 in ND2 exit neodymium compression driver, crossover 2 kHz, Speakon NL4, 613 x 397 x 362 mm, net 19.8 kg. Voice-coil size is not stated for the LF driver and stays N/A. driverCount 2 and active false are variant-independent (see provenance). Its response graphs are per-variant manufacturer tables, not measurements, and are not stored.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
     }
   },
   {
@@ -27169,16 +27170,16 @@
     "panel": null,
     "notes": "Round 5 variant split (owner decision, 2026-10-11). Exact variant: Electro-Voice Zx3-90, coverage 90 x 50 degrees. Source: Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). The manual prints one specification table for the Zx3 series, which is applied to this variant: frequency response -3 dB 58 Hz to 15 kHz (-10 dB 48 Hz to 20 kHz), axial sensitivity 97 dB (1 W/1 m, half space), nominal impedance 8 ohm (minimum 6.2 ohm), power 600 W continuous passive / 2400 W peak, LF 12 in DVX3121, HF 1 in ND2 exit neodymium compression driver, crossover 2 kHz, Speakon NL4, 613 x 397 x 362 mm, net 19.8 kg. Voice-coil size is not stated for the LF driver and stays N/A. driverCount 2 and active false are variant-independent (see provenance). Its response graphs are per-variant manufacturer tables, not measurements, and are not stored.",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": "MANUFACTURER",
-      "note": "Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
     }
   },
   {
@@ -48082,18 +48083,16 @@
     "panel": null,
     "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R65 and R80 models without a V2 suffix and supplies separate model rows. For R65 it specifies 45 Hz–22 kHz frequency response at −3 dB and a 6.5-inch LF driver; the shared feature section identifies both as 2-way active AMT monitors. Its official R65 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 104 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_Tech-Sheet_Multi.pdf",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": "MANUFACTURER",
-      "checkedDate": "2026-10-12",
-      "note": "round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": "MANUFACTURER",
-      "checkedDate": "2026-10-12",
-      "note": "round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
     }
   },
   {
@@ -48158,18 +48157,16 @@
     "panel": null,
     "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R80 model without a V2 suffix and supplies a distinct R80 row: 40 Hz–22 kHz frequency response at −3 dB and an 8-inch LF driver. The shared feature section identifies it as a 2-way active AMT monitor. Its official R80 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The sheet's detailed LF-driver row conflicts with its own 8-inch feature and the model-specific manual, so that row is not used. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 107 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf",
     "driverCountProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": "MANUFACTURER",
-      "checkedDate": "2026-10-12",
-      "note": "round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
     },
     "activeProvenance": {
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": "MANUFACTURER",
-      "checkedDate": "2026-10-12",
-      "note": "round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      "sourceType": null,
+      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
     }
   },
   {
