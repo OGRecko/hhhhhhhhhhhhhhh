@@ -452,17 +452,51 @@
       "url": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
       "host": "products.electrovoice.com",
       "document": "ELX200-15 Datasheet, English (EN) and FR revisions",
-      "status": "CONFLICT",
+      "status": "CHECKED_CONFIRMED",
       "openedDate": "2026-10-13",
-      "chunksOpened": [],
-      "chunksTotal": null,
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
       "coverage": "# ELX200-15 Datasheet, English edition (manufacturer host products.electrovoice.com), transcribed 2026-10-13 from\n# https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf  (document id ...Datasheet_51_en_69382259467)\n# Footnote 1: \"Full-space measurement.\" Columns: Frequency (Hz) | Frequency Response, Full Space, 1W/1m (Sensitivity, dB) | Impedance (Ohms, rhs)",
       "decisions": [
         "EN (87 rows) vs stored 85 points: 52 value differences on shared frequencies; 2 EN-only rows (2400, 2600 Hz).",
         "EN vs FR-1 (86 rows): 55 differences. EN vs FR-2 (85 rows): 53 differences. FR-1 vs FR-2: 7 differences.",
         "Stored 85 points match no primary edition: they stay excluded from simulation.",
         "No edition is adopted silently. Owner must choose an edition or supply the original revision.",
-        "Range difference (-3/-10 dB) is superseded by the row-level conflicts above."
+        "Range difference (-3/-10 dB) is superseded by the row-level conflicts above.",
+        "round8b-elx200-en-adoption: owner adopted EN edition. 87/87 rows match this datasheet (verify script). Stored 85 points superseded, kept as history."
+      ],
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://zenodo.org/records/10255555",
+      "host": "zenodo.org",
+      "document": "Genelec 8331A directivity SOFA (LS_directivity_Calibrated_GENELEC_8331A.sofa, 410.5 MB, MD5 a00e40164556183420c315e9f6ecd7fd)",
+      "status": "WITHDRAWN_BY_OWNER",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [],
+      "chunksTotal": null,
+      "coverage": "Zenodo host unreachable from sandbox (HTTP 000). The owner said to search elsewhere and remove the lead if not found. Searched: genelec.com/8331a (spec page; directivity is a graphic only, no data file); Erin's Audio Corner (third-party CTA-2034 measurement set, different format, not a substitute); spinorama.org (third-party). No trusted substitute file. No file downloaded. No polar data synthesized.",
+      "decisions": [
+        "genelec-8331a directivity lead removed (no import, no substitute, no synthesized polar data)"
+      ],
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+      "host": "monthany.com (dealer-hosted copy)",
+      "document": "Turbosound iNSPIRE iP15B Product Information Document (dealer copy; contains Music Tribe trademark notice)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "coverage": "Chunk 0 opened. Gives 1 x 15 in LF driver, Crossover type: Active, Maximum SPL 120 dB, Half space dispersion. Hosted by a dealer, so manufacturer origin is not proven. sourceType stays unset.",
+      "decisions": [
+        "turbosound-ip15b sourceType stays unset (origin not proven). Record kept, not deleted. Flagged for owner.",
+        "turbosound-ip15b driverCount 1 and active True: supported by this copy; not promoted to MANUFACTURER_VERIFIED"
       ],
       "queueItemsResolved": 0
     }
@@ -477,20 +511,16 @@
       "question": "The primary datasheet URL gives two different tables on two fetches. Please supply the original ELX200-15 datasheet PDF file so the table can be transcribed from the file."
     },
     {
-      "id": "genelec-8331a-sofa",
-      "question": "The Zenodo file cannot be downloaded from this sandbox. Please supply the file, or allow a host that serves it."
-    },
-    {
       "id": "lsr32-20khz",
       "question": "Which 20 kHz value (61 dB or 92 dB) is correct for the JBL LSR32 under the stated reference, or should the point stay removed?"
     },
     {
-      "id": "turbosound-ip15b-sourceType",
-      "question": "Turbosound iP15B sourceType: change only if the document proves manufacturer origin. Pending owner confirmation."
-    },
-    {
       "id": "sx300pi-active",
       "question": "Electro-Voice Sx300PI/PIX active (stored False): the data sheet does not state passive in words. Confirm from an EV manual or accept the stored value as cited-unchecked."
+    },
+    {
+      "id": "turbosound-ip15b-origin",
+      "question": "The only iP15B document found is a dealer-hosted copy (monthany.com). Keep the record with sourceType unset, or delete it under your earlier instruction?"
     }
   ],
   "rounds": [
@@ -507,6 +537,26 @@
         "kef-r11/r3/r5 driverCount (partial)",
         "sx300pi/pix active (not stated)",
         "legacy-mack-4 (distributor only)"
+      ]
+    },
+    {
+      "round": "8b",
+      "marker": "round8b-elx200-en-adoption",
+      "date": "2026-10-12",
+      "applied": [
+        "electro-voice-elx200-15 published points = EN 87-row table (MANUFACTURER_VERIFIED)",
+        "stored 85 points kept as disputedPoints SUPERSEDED_BY_OWNER_EN_ADOPTION"
+      ],
+      "openIssue": "stated -3/-10 dB range vs table not restated; FR editions still disagree with EN (55/53 diffs, see round 8 ledger)"
+    },
+    {
+      "round": "8c",
+      "marker": "round8c-owner-answers",
+      "date": "2026-10-12",
+      "applied": [
+        "genelec 8331A directivity lead withdrawn by owner rule (no import)",
+        "turbosound iP15B: dealer copy recorded, sourceType unset, record kept (flagged)",
+        "lsr32 20 kHz: owner kept both disputed (no data change)"
       ]
     }
   ]

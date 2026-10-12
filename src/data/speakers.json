@@ -24780,10 +24780,10 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
       "sourceType": "MANUFACTURER",
-      "pointsStatus": "UNAVAILABLE",
-      "pointsSourceType": "NONE",
+      "pointsStatus": "MANUFACTURER_VERIFIED",
+      "pointsSourceType": "MANUFACTURER",
       "disputedPoints": {
-        "status": "UNRESOLVED_ROW_COUNT",
+        "status": "SUPERSEDED_BY_OWNER_EN_ADOPTION",
         "points": [
           {
             "hz": 20,
@@ -25578,12 +25578,369 @@
             "result": "Second fetch of the same URL printed 85 rows (2500 Hz present; 2400 and 2600 Hz absent). Against the stored table: row set matches; values differ at 2000 Hz (92 vs 93), 2200 Hz (93 vs 94), 2500 Hz (94 vs 95). Against the first re-fetch (86 rows): 2400 and 2600 Hz absent in this reading, 2500 Hz present, and values differ at 140, 280, 300, 330, 400, 1200 and 1400 Hz. Two fetches of the same PDF do not agree, so the text extraction is not reproducible.",
             "decision": "Stored points stay excluded from simulation. No value changed. Owner needs the original PDF file for a controlled transcription."
           }
-        ]
-      }
+        ],
+        "supersededBy": {
+          "date": "2026-10-12",
+          "marker": "round8b-elx200-en-adoption",
+          "decision": "Owner chose the EN manufacturer edition. The 85 stored points are kept here as history, not used, and not deleted."
+        }
+      },
+      "points": [
+        {
+          "hz": 20,
+          "db": 62.0
+        },
+        {
+          "hz": 25,
+          "db": 68.0
+        },
+        {
+          "hz": 30,
+          "db": 73.0
+        },
+        {
+          "hz": 35,
+          "db": 76.0
+        },
+        {
+          "hz": 40,
+          "db": 79.0
+        },
+        {
+          "hz": 45,
+          "db": 82.0
+        },
+        {
+          "hz": 50,
+          "db": 84.0
+        },
+        {
+          "hz": 55,
+          "db": 86.0
+        },
+        {
+          "hz": 60,
+          "db": 88.0
+        },
+        {
+          "hz": 65,
+          "db": 90.0
+        },
+        {
+          "hz": 70,
+          "db": 91.0
+        },
+        {
+          "hz": 75,
+          "db": 92.0
+        },
+        {
+          "hz": 80,
+          "db": 93.0
+        },
+        {
+          "hz": 85,
+          "db": 94.0
+        },
+        {
+          "hz": 90,
+          "db": 95.0
+        },
+        {
+          "hz": 95,
+          "db": 95.0
+        },
+        {
+          "hz": 100,
+          "db": 95.0
+        },
+        {
+          "hz": 110,
+          "db": 95.5
+        },
+        {
+          "hz": 120,
+          "db": 96.0
+        },
+        {
+          "hz": 130,
+          "db": 96.0
+        },
+        {
+          "hz": 140,
+          "db": 95.0
+        },
+        {
+          "hz": 150,
+          "db": 95.0
+        },
+        {
+          "hz": 160,
+          "db": 95.5
+        },
+        {
+          "hz": 170,
+          "db": 96.0
+        },
+        {
+          "hz": 180,
+          "db": 96.0
+        },
+        {
+          "hz": 190,
+          "db": 96.0
+        },
+        {
+          "hz": 200,
+          "db": 95.5
+        },
+        {
+          "hz": 220,
+          "db": 95.0
+        },
+        {
+          "hz": 250,
+          "db": 95.0
+        },
+        {
+          "hz": 280,
+          "db": 95.5
+        },
+        {
+          "hz": 300,
+          "db": 96.0
+        },
+        {
+          "hz": 330,
+          "db": 96.0
+        },
+        {
+          "hz": 360,
+          "db": 95.5
+        },
+        {
+          "hz": 400,
+          "db": 95.0
+        },
+        {
+          "hz": 450,
+          "db": 96.0
+        },
+        {
+          "hz": 500,
+          "db": 96.0
+        },
+        {
+          "hz": 550,
+          "db": 96.0
+        },
+        {
+          "hz": 600,
+          "db": 96.0
+        },
+        {
+          "hz": 650,
+          "db": 96.0
+        },
+        {
+          "hz": 700,
+          "db": 96.0
+        },
+        {
+          "hz": 750,
+          "db": 96.0
+        },
+        {
+          "hz": 800,
+          "db": 96.0
+        },
+        {
+          "hz": 850,
+          "db": 96.0
+        },
+        {
+          "hz": 900,
+          "db": 96.0
+        },
+        {
+          "hz": 950,
+          "db": 96.0
+        },
+        {
+          "hz": 1000,
+          "db": 96.0
+        },
+        {
+          "hz": 1100,
+          "db": 95.0
+        },
+        {
+          "hz": 1200,
+          "db": 94.0
+        },
+        {
+          "hz": 1300,
+          "db": 94.0
+        },
+        {
+          "hz": 1400,
+          "db": 94.0
+        },
+        {
+          "hz": 1500,
+          "db": 95.0
+        },
+        {
+          "hz": 1600,
+          "db": 95.0
+        },
+        {
+          "hz": 1700,
+          "db": 95.0
+        },
+        {
+          "hz": 1800,
+          "db": 95.0
+        },
+        {
+          "hz": 1900,
+          "db": 95.0
+        },
+        {
+          "hz": 2000,
+          "db": 95.0
+        },
+        {
+          "hz": 2200,
+          "db": 95.0
+        },
+        {
+          "hz": 2400,
+          "db": 95.0
+        },
+        {
+          "hz": 2500,
+          "db": 95.0
+        },
+        {
+          "hz": 2600,
+          "db": 95.0
+        },
+        {
+          "hz": 2800,
+          "db": 94.0
+        },
+        {
+          "hz": 3000,
+          "db": 93.0
+        },
+        {
+          "hz": 3300,
+          "db": 93.0
+        },
+        {
+          "hz": 3600,
+          "db": 93.0
+        },
+        {
+          "hz": 4000,
+          "db": 94.0
+        },
+        {
+          "hz": 4500,
+          "db": 95.0
+        },
+        {
+          "hz": 5000,
+          "db": 95.0
+        },
+        {
+          "hz": 5500,
+          "db": 95.0
+        },
+        {
+          "hz": 6000,
+          "db": 95.0
+        },
+        {
+          "hz": 6500,
+          "db": 95.0
+        },
+        {
+          "hz": 7000,
+          "db": 95.0
+        },
+        {
+          "hz": 7500,
+          "db": 95.0
+        },
+        {
+          "hz": 8000,
+          "db": 95.0
+        },
+        {
+          "hz": 8500,
+          "db": 95.0
+        },
+        {
+          "hz": 9000,
+          "db": 95.0
+        },
+        {
+          "hz": 9500,
+          "db": 96.0
+        },
+        {
+          "hz": 10000,
+          "db": 96.0
+        },
+        {
+          "hz": 11000,
+          "db": 95.0
+        },
+        {
+          "hz": 12000,
+          "db": 95.0
+        },
+        {
+          "hz": 13000,
+          "db": 95.0
+        },
+        {
+          "hz": 14000,
+          "db": 94.0
+        },
+        {
+          "hz": 15000,
+          "db": 94.0
+        },
+        {
+          "hz": 16000,
+          "db": 93.0
+        },
+        {
+          "hz": 17000,
+          "db": 92.0
+        },
+        {
+          "hz": 18000,
+          "db": 91.0
+        },
+        {
+          "hz": 19000,
+          "db": 89.0
+        },
+        {
+          "hz": 20000,
+          "db": 82.0
+        }
+      ],
+      "pointsSource": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
+      "pointsContext": "EN manufacturer datasheet (products.electrovoice.com ELX200-15_BDL_en.pdf, one fetch, 2026-10-12). Table: Frequency (Hz) | Frequency Response, Full Space, 1W/1m (Sensitivity, dB) | Impedance. All 87 rows, 20 Hz to 20 kHz, copied without interpolation; the 2400, 2500 and 2600 Hz rows are included. Checked row-for-row with scripts/research/verify-elx200-15-en-transcription.py (0 mismatches). Open: the stated -3 dB (77 Hz-16 kHz) and -10 dB (52 Hz-19 kHz) range is not restated from the table. Reference: the sheet footnote says full-space 1 W/1 m. Impedance column is in the transcription file, not in points. round8b-elx200-en-adoption: stored 85 points kept under disputedPoints as superseded history."
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact-model Electro-Voice ELX200-15 passive 2-way engineering data sheet. It specifies 77 Hz–16 kHz (-3 dB), 52 Hz–19 kHz (-10 dB), 95 dB axial sensitivity, 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.0 Ω minimum), one 15-inch EVS-15M woofer and one DH-1L compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as all 85 tabulated rows without interpolation; the sheet also lists a 42 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Source: https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf.",
+    "notes": "Exact-model Electro-Voice ELX200-15 passive 2-way engineering data sheet. It specifies 77 Hz–16 kHz (-3 dB), 52 Hz–19 kHz (-10 dB), 95 dB axial sensitivity, 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.0 Ω minimum), one 15-inch EVS-15M woofer and one DH-1L compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as all 85 tabulated rows without interpolation; the sheet also lists a 42 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Source: https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf. round8b-elx200-en-adoption (2026-10-12): owner chose the EN manufacturer edition. The published response is now the 87-row EN table (scripts/research/data/elx200-15-primary-en-2026-10-13-bdl.txt, row-checked against the datasheet). The stored 85 points are kept as superseded history under disputedPoints.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
