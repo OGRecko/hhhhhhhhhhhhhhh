@@ -1,20 +1,20 @@
 {
   "generated_from": "src/data/speakers.json",
   "liveRecords": 659,
-  "uncheckedItems": 804,
-  "uniqueSourceUrls": 448,
+  "uncheckedItems": 798,
+  "uniqueSourceUrls": 447,
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 355
+      "count": 353
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 30
+      "count": 32
     },
     {
       "field": "active",
@@ -32,13 +32,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 449
+      "count": 445
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 43
+      "count": 47
     },
     {
       "field": "driverCount",
@@ -96,38 +96,12 @@
       ]
     },
     {
-      "url": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
-      "host": "products.electrovoice.com",
-      "items": 4,
-      "records": [
-        "electro-voice-sx300pi",
-        "electro-voice-sx300pix"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ]
-    },
-    {
       "url": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
       "host": "www.bang-olufsen.com",
       "items": 4,
       "records": [
         "bang-olufsen-beosound-a5",
         "bang-olufsen-beosound-level"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ]
-    },
-    {
-      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "host": "www.fmicassets.com",
-      "items": 4,
-      "records": [
-        "presonus-r65",
-        "presonus-r80"
       ],
       "fields": [
         "active",
@@ -2214,6 +2188,18 @@
       "fields": [
         "active",
         "driverCount"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+      "host": "products.electrovoice.com",
+      "items": 2,
+      "records": [
+        "electro-voice-sx300pi",
+        "electro-voice-sx300pix"
+      ],
+      "fields": [
+        "active"
       ]
     },
     {

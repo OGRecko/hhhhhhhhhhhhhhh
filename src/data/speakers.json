@@ -26997,11 +26997,13 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact Sx300PI non-transformer record, sourced to the Electro-Voice Sx300PI/Sx300PIX engineering data sheet. The PI system is a passive two-way weather-resistant loudspeaker with a 12-inch DL12Sx woofer and DH2010A high-frequency driver. The manufacturer's A&E specification states 80–25,000 Hz at -3 dB; sensitivity is 99 dB SPL at 1 W/1 m using band-limited pink noise averaged from 300–2,000 Hz; long-term handling is 300 W (1,200 W short-term) for the non-transformer PI; nominal impedance is 8 ohms (6 ohms minimum). Only the explicit response limits are stored: the EDS's plotted responses are not digitized, and its directivity data are not added because the current SpeakerSpec has no directivity field. PIX transformer taps and specifications remain separate and are not transferred to this PI record. Source: https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf.",
+    "notes": "Exact Sx300PI non-transformer record, sourced to the Electro-Voice Sx300PI/Sx300PIX engineering data sheet. The PI system is a passive two-way weather-resistant loudspeaker with a 12-inch DL12Sx woofer and DH2010A high-frequency driver. The manufacturer's A&E specification states 80–25,000 Hz at -3 dB; sensitivity is 99 dB SPL at 1 W/1 m using band-limited pink noise averaged from 300–2,000 Hz; long-term handling is 300 W (1,200 W short-term) for the non-transformer PI; nominal impedance is 8 ohms (6 ohms minimum). Only the explicit response limits are stored: the EDS's plotted responses are not digitized, and its directivity data are not added because the current SpeakerSpec has no directivity field. PIX transformer taps and specifications remain separate and are not transferred to this PI record. Source: https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf. round8-source-checks: active not stated in the data sheet; stored False is unchanged and remains cited-unchecked.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round8-source-checks: two-way; DL12Sx 12-inch woofer and DH2010A HF driver named in the data sheet."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -27068,11 +27070,13 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact Sx300PIX record, separately identified by the Electro-Voice Sx300PI/Sx300PIX engineering data sheet as the Sx300PI system fitted with an AT100 transformer. The exact-model documentation supports the shared two-way transducer layout and 12-inch low-frequency driver, so only driverCount=2, passive status, and woofer diameter are populated. The PIX is a constant-voltage transformer model with selectable 70.7 V and 100 V taps (50/70/100 W and 100/140/200 W respectively); its impedance is tap-dependent (50 ohms nominal at the highest tap, 111 ohms at 1 kHz), so no single impedance or scalar power-handling value is asserted. PI sensitivity and response limits/plots are not transferred to PIX. No response points or directivity data are imported. Source: https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf.",
+    "notes": "Exact Sx300PIX record, separately identified by the Electro-Voice Sx300PI/Sx300PIX engineering data sheet as the Sx300PI system fitted with an AT100 transformer. The exact-model documentation supports the shared two-way transducer layout and 12-inch low-frequency driver, so only driverCount=2, passive status, and woofer diameter are populated. The PIX is a constant-voltage transformer model with selectable 70.7 V and 100 V taps (50/70/100 W and 100/140/200 W respectively); its impedance is tap-dependent (50 ohms nominal at the highest tap, 111 ohms at 1 kHz), so no single impedance or scalar power-handling value is asserted. PI sensitivity and response limits/plots are not transferred to PIX. No response points or directivity data are imported. Source: https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf. round8-source-checks: active not stated in the data sheet; stored False is unchanged and remains cited-unchecked.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round8-source-checks: two-way; DL12Sx 12-inch woofer and DH2010A HF driver named in the data sheet."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -32371,7 +32375,7 @@
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact QSC WideLine-8 WL212-sw passive subwoofer specification: dual 12-inch LF drivers; 40–100 Hz response (±3 dB), with a separately published 32–107 Hz range (-10 dB); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The power field records only the continuous capacity, not the separate recommended-amplifier range. No points are digitized from the graph, and no directivity data is inferred from the subwoofer description.",
+    "notes": "Exact QSC WideLine-8 WL212-sw passive subwoofer specification: dual 12-inch LF drivers; 40–100 Hz response (±3 dB), with a separately published 32–107 Hz range (-10 dB); 99 dB sensitivity at 1 W/1 m; 1100 W continuous power capacity; 4 Ω nominal impedance. The power field records only the continuous capacity, not the separate recommended-amplifier range. No points are digitized from the graph, and no directivity data is inferred from the subwoofer description. round8-source-checks: cited sheet q_spk_wl8_specs.pdf contains the WL212-sw column (SUB nominal impedance 4 ohm; LF sensitivity 99 dB SPL at 1 W/1 m). Values confirmed. Active/passive not stated on the sheet; active stays null.",
     "driverCountProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_specs.pdf",
@@ -47614,14 +47618,18 @@
     "panel": null,
     "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R65 and R80 models without a V2 suffix and supplies separate model rows. For R65 it specifies 45 Hz–22 kHz frequency response at −3 dB and a 6.5-inch LF driver; the shared feature section identifies both as 2-way active AMT monitors. Its official R65 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 104 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_Tech-Sheet_Multi.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
     }
   },
   {
@@ -47686,14 +47694,18 @@
     "panel": null,
     "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R80 model without a V2 suffix and supplies a distinct R80 row: 40 Hz–22 kHz frequency response at −3 dB and an 8-inch LF driver. The shared feature section identifies it as a 2-way active AMT monitor. Its official R80 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The sheet's detailed LF-driver row conflicts with its own 8-inch feature and the model-specific manual, so that row is not used. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 107 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
     }
   },
   {
