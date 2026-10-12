@@ -4831,53 +4831,58 @@
       "status": "THIRD_PARTY_VERIFIED",
       "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
       "sourceType": "THIRD_PARTY",
-      "points": [
-        {
-          "hz": 20,
-          "db": 67
-        },
-        {
-          "hz": 30,
-          "db": 84
-        },
-        {
-          "hz": 40,
-          "db": 91
-        },
-        {
-          "hz": 50,
-          "db": 93.5
-        },
-        {
-          "hz": 60,
-          "db": 94.5
-        },
-        {
-          "hz": 70,
-          "db": 94.5
-        },
-        {
-          "hz": 80,
-          "db": 94
-        },
-        {
-          "hz": 90,
-          "db": 93
-        },
-        {
-          "hz": 100,
-          "db": 91.5
-        },
-        {
-          "hz": 200,
-          "db": 74
-        }
-      ],
-      "pointsStatus": "THIRD_PARTY_VERIFIED",
-      "pointsSource": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-      "pointsSourceType": "THIRD_PARTY",
-      "pointsContext": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A. Round 5 correction (2026-10-12): the first pass changed 9 points to values that are not in the cited table; a second pass set all 10 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries turbosound-ip15b and turbosound-ip15b second pass). round9-provenance-corrections: the source is a dealer-hosted copy (monthany.com) of the Turbosound iNSPIRE iP15B product information document. The manufacturer-hosted original (media63.musictribe.com) could not be opened. Origin is not proven, so the points are classified THIRD_PARTY_VERIFIED, not MANUFACTURER_VERIFIED. Values are unchanged.",
-      "context": " Round 5 correction (2026-10-12): 9 stored points did not match the cited manufacturer table \"Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json."
+      "pointsStatus": "UNAVAILABLE",
+      "pointsSource": null,
+      "pointsSourceType": "NONE",
+      "context": " Round 5 correction (2026-10-12): 9 stored points did not match the cited manufacturer table \"Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json.",
+      "thirdPartyPoints": {
+        "status": "THIRD_PARTY_VERIFIED",
+        "sourceType": "THIRD_PARTY",
+        "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+        "points": [
+          {
+            "hz": 20,
+            "db": 67
+          },
+          {
+            "hz": 30,
+            "db": 84
+          },
+          {
+            "hz": 40,
+            "db": 91
+          },
+          {
+            "hz": 50,
+            "db": 93.5
+          },
+          {
+            "hz": 60,
+            "db": 94.5
+          },
+          {
+            "hz": 70,
+            "db": 94.5
+          },
+          {
+            "hz": 80,
+            "db": 94
+          },
+          {
+            "hz": 90,
+            "db": 93
+          },
+          {
+            "hz": 100,
+            "db": 91.5
+          },
+          {
+            "hz": 200,
+            "db": 74
+          }
+        ],
+        "context": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A. Round 5 correction (2026-10-12): the first pass changed 9 points to values that are not in the cited table; a second pass set all 10 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries turbosound-ip15b and turbosound-ip15b second pass). round9-provenance-corrections: the source is a dealer-hosted copy (monthany.com) of the Turbosound iNSPIRE iP15B product information document. The manufacturer-hosted original (media63.musictribe.com) could not be opened. Origin is not proven, so the points are classified THIRD_PARTY_VERIFIED, not MANUFACTURER_VERIFIED. Values are unchanged. round9b-response-point-placement: not used by the simulator (dealer copy; origin not proven)."
+      }
     },
     "power": {
       "value": null,
@@ -6346,11 +6351,13 @@
       "source": "https://www.martinlogan.com/en/product/motion-60xt",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Manufacturer data: 35 Hz–25 kHz ±3 dB; 94 dB at 2.83 V/m; 4 Ω; 20–400 W recommended amplification; dual 8 in woofers, 6.5 in midrange and 1.25 x 2.4 in Folded Motion XT tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (20–400 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.martinlogan.com/en/product/motion-60xt.",
+    "notes": "Manufacturer data: 35 Hz–25 kHz ±3 dB; 94 dB at 2.83 V/m; 4 Ω; 20–400 W recommended amplification; dual 8 in woofers, 6.5 in midrange and 1.25 x 2.4 in Folded Motion XT tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (20–400 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.martinlogan.com/en/product/motion-60xt. round10-source-checks: driverCount 4 verified from the manufacturer spec table. active false is not stated as passive on the page; left cited-unchecked.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.martinlogan.com/en/product/motion-60xt",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round10-source-checks: spec table lists 1 Folded Motion XT tweeter, 1 6.5in midrange, 2 8in woofers (4 transducers)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -13915,7 +13922,7 @@
       "source": null,
       "sourceType": "NONE"
     },
-    "notes": "Manufacturer: 4 Ω; 70 W power-handling figure; 37 Hz–24 kHz; TS-A1670F 6.5-inch 3-way automotive speaker. Exact physical driver count is not asserted because the published 3-way designation does not by itself prove a separate-driver count. Source: Pioneer TS-A1670F. Source-backed fields are retained per exact field; unsupported fields remain N/A.",
+    "notes": "Manufacturer: 4 Ω; 70 W power-handling figure; 37 Hz–24 kHz; TS-A1670F 6.5-inch 3-way automotive speaker. Exact physical driver count is not asserted because the published 3-way designation does not by itself prove a separate-driver count. Source: Pioneer TS-A1670F. Source-backed fields are retained per exact field; unsupported fields remain N/A. Round 10: the cited URL resolves to the Pioneer homepage, not a product page. The held active value is not supported and stays null.",
     "activeProvenance": {
       "status": "UNSOURCED",
       "source": null,
@@ -14540,7 +14547,7 @@
       "sourceType": "THIRD_PARTY",
       "notes": "3.0 in (76 mm) neodymium woofer, one unit, identified as the woofer. Sources and what each supports: (a) proaudiovideo.in, 'Amazon Echo (4th Gen) Review 2026' (field source): model 'Echo (4th Gen)'; spec table 'Driver Size: 3.0\" (76mm) neodymium woofer + two 0.8\" (20mm) tweeters'. Secondary review and retailer copy. (b) SoundGuys, 'Amazon Echo (4th Gen) review' (updated 12 Aug 2025): model number '4th Gen'; 'three drivers in total: two 20mm tweeters and a single 76mm neodymium woofer'. Secondary review. (c) Amazon product page for ASIN B085H3DKLT ('Echo (4th generation) International Version'): 'Echo (4th Gen) - 2020 release'; 'Audio: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters'. Retail listing; corroborates only. Two secondary reviews and a retail listing agree. The agreement is treated as corroboration, not as manufacturer confirmation; no manufacturer spec sheet was retrieved. No source read mentions a passive radiator, and SoundGuys counts three drivers in total. DXOMARK (dxomark.com review) gives 76.2 mm in its text but '70-mm woofer' in its feature list; that conflict is noted and not used."
     },
-    "notes": "Pass-131 check (2026-10-10): retailer and review copies (Best Buy Canada blog, XDA-Developers, a retailer listing) describe 1 x 3-inch woofer and 2 x 0.8-inch tweeters; the Amazon product page was not reached. Driver count and power are not stored from secondary copies. Nothing else found. Pass-136 check (2026-10-10): Amazon's own listing for Echo (4th generation), International Version (ASIN B085H3DKLT), states \"3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters\": driverCount 3 (one woofer, two tweeters). The listing publishes no power, sensitivity, impedance or frequency response, so none is stored. The US listing is not separately checked; the driver description is the same in the retail copies. Pass-137 check (2026-10-10): the second chunk of the Amazon product page (ASIN B085H3DKLT, Echo (4th Gen) International Version) repeats the technical details: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters. The pending chunk check is closed. driverCount 3 is unchanged; no other field is published on this page. Third-party copies only (proaudiovideo.in; mahajanelectronics.com; Amazon listing). Both spec copies state Impedance and Sensitivity as N/A for this active, mains-powered speaker, so neither is stored. The 'full-range' frequency statement has no criterion and is not stored. Pass-142 (2026-10-11): third-party tier applied to the woofer diameter. Pass-143 (2026-10-11) re-check: (1) ASIN B085H3DKLT was checked on Amazon's own product page, which is titled 'Echo (4th generation) International Version' and states 'You're viewing the newest model'. The ASIN therefore identifies the exact 4th-gen Echo. Aggregator pages (btienda.es, webprice.eu) list the same ASIN under other Echo products and are not relied on. (2) mahajanelectronics.com is removed from the evidence for the woofer. Its product URL is a combo-bundle slug ('echo-dot-4th-gen-black-combo-with-wipro-9w-easy-set-up-smart-bulb-copy'), its table is a reseller copy of the same text, and it adds no independent support. It is kept here as history only. (3) The 3.0-inch woofer is kept because proaudiovideo.in and SoundGuys each explicitly identify the 4th-gen Echo's woofer (see the woofer field notes). Both are secondary, so the field stays THIRD_PARTY_VERIFIED and is not treated as manufacturer-confirmed. (4) SoundGuys' buy link points to ASIN B07XJ8C8F7, which Amazon identifies as Echo Dot (4th Gen). That link is not evidence for this record.",
+    "notes": "Pass-131 check (2026-10-10): retailer and review copies (Best Buy Canada blog, XDA-Developers, a retailer listing) describe 1 x 3-inch woofer and 2 x 0.8-inch tweeters; the Amazon product page was not reached. Driver count and power are not stored from secondary copies. Nothing else found. Pass-136 check (2026-10-10): Amazon's own listing for Echo (4th generation), International Version (ASIN B085H3DKLT), states \"3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters\": driverCount 3 (one woofer, two tweeters). The listing publishes no power, sensitivity, impedance or frequency response, so none is stored. The US listing is not separately checked; the driver description is the same in the retail copies. Pass-137 check (2026-10-10): the second chunk of the Amazon product page (ASIN B085H3DKLT, Echo (4th Gen) International Version) repeats the technical details: 3.0\" (76.2 mm) neodymium woofer and two 0.8\" (20 mm) tweeters. The pending chunk check is closed. driverCount 3 is unchanged; no other field is published on this page. Third-party copies only (proaudiovideo.in; mahajanelectronics.com; Amazon listing). Both spec copies state Impedance and Sensitivity as N/A for this active, mains-powered speaker, so neither is stored. The 'full-range' frequency statement has no criterion and is not stored. Pass-142 (2026-10-11): third-party tier applied to the woofer diameter. Pass-143 (2026-10-11) re-check: (1) ASIN B085H3DKLT was checked on Amazon's own product page, which is titled 'Echo (4th generation) International Version' and states 'You're viewing the newest model'. The ASIN therefore identifies the exact 4th-gen Echo. Aggregator pages (btienda.es, webprice.eu) list the same ASIN under other Echo products and are not relied on. (2) mahajanelectronics.com is removed from the evidence for the woofer. Its product URL is a combo-bundle slug ('echo-dot-4th-gen-black-combo-with-wipro-9w-easy-set-up-smart-bulb-copy'), its table is a reseller copy of the same text, and it adds no independent support. It is kept here as history only. (3) The 3.0-inch woofer is kept because proaudiovideo.in and SoundGuys each explicitly identify the 4th-gen Echo's woofer (see the woofer field notes). Both are secondary, so the field stays THIRD_PARTY_VERIFIED and is not treated as manufacturer-confirmed. (4) SoundGuys' buy link points to ASIN B07XJ8C8F7, which Amazon identifies as Echo Dot (4th Gen). That link is not evidence for this record. Round 10: the cited source is a retailer blog (\"Buy Now\" link), not a manufacturer source. The held driverCount 3 is not supported and stays null.",
     "driverCountProvenance": {
       "status": "UNSOURCED",
       "source": null,
@@ -25586,7 +25593,6 @@
         }
       },
       "pointsSource": null,
-      "pointsContext": "Response points are unavailable for simulation. The stored 85 points are retained under disputedPoints with status UNRESOLVED_ROW_COUNT. The EN 87-row table is kept as alternatePublishedPoints. No edition is adopted while the conflict is open.",
       "alternatePublishedPoints": {
         "status": "UNVERIFIED_ALTERNATE_NOT_SIMULATED",
         "source": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
@@ -25950,7 +25956,8 @@
             "marker": "round9-provenance-corrections",
             "change": "Moved from points (round 8b adoption) to alternatePublishedPoints. Reversed under current brief."
           }
-        ]
+        ],
+        "pointsContextNote": "Response points are unavailable for simulation. The stored 85 points are retained under disputedPoints with status UNRESOLVED_ROW_COUNT. The EN 87-row table is kept as alternatePublishedPoints. No edition is adopted while the conflict is open. round9b-response-point-placement: moved here so the unavailable-points record has no context field."
       }
     },
     "driverCount": 2,
@@ -49749,7 +49756,7 @@
     },
     "driverCount": null,
     "panel": null,
-    "notes": "Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Pass-135 check (2026-10-10): Blue Book lists the 5150 412 at '300W, 4-12 in. Sheffield 1200 speakers, 16 Ohm'; equipboard and reverb list 240 W for the 4x12 slant cabinet, and reverb lists 300 W 'Rated at 300 watts and 16 ohms' for a Sheffield-speaker listing. The sources do not agree on the model variant or the power figure, and no Peavey manufacturer page was reached, so nothing is stored. Pass-136 check (2026-10-10): The Peavey literature located for this query is the Invective 412 cabinet, a different product, so it is not used. The 5150 412 figures (Sheffield 1200 ×4, 16 Ω, 300 W, 1992–2004) come only from a price-guide listing. No Peavey 5150 412 manufacturer page was found, so nothing is stored. Pass-138 check (2026-10-10): The Peavey 5150 II operating guide found in search is an amplifier manual (120 W RMS into 4, 8 or 16 ohm). It is not a speaker specification and is not transferred to the 5150 412 cabinet. Third-party copy only (bluebookofguitarvalues.com, mfg. 1992-2004). Power is NOT stored: the exact-model listing gives 300 W with no rating definition, and the slant-cabinet listings give 240 W for a different variant, so the copies conflict. Pass-140 (2026-10-10): third-party tier applied to the exact-model impedance and driver layout.",
+    "notes": "Pass-128 check (2026-10-10): Peavey official page not located. Retailer listings give 240 W and 300 W for a 16 ohm 4x12 cabinet with Sheffield 1200 speakers; the sources conflict; none transferred. Pass-130 check (2026-10-10): secondary sources conflict on power (300 W in a Blue Book entry, 240 W in equipboard) and describe 4 x 12-inch Sheffield 1200 or Celestion speakers, 16 Ω, 1992–2004 production. No Peavey manufacturer page was reached. Pass-135 check (2026-10-10): Blue Book lists the 5150 412 at '300W, 4-12 in. Sheffield 1200 speakers, 16 Ohm'; equipboard and reverb list 240 W for the 4x12 slant cabinet, and reverb lists 300 W 'Rated at 300 watts and 16 ohms' for a Sheffield-speaker listing. The sources do not agree on the model variant or the power figure, and no Peavey manufacturer page was reached, so nothing is stored. Pass-136 check (2026-10-10): The Peavey literature located for this query is the Invective 412 cabinet, a different product, so it is not used. The 5150 412 figures (Sheffield 1200 ×4, 16 Ω, 300 W, 1992–2004) come only from a price-guide listing. No Peavey 5150 412 manufacturer page was found, so nothing is stored. Pass-138 check (2026-10-10): The Peavey 5150 II operating guide found in search is an amplifier manual (120 W RMS into 4, 8 or 16 ohm). It is not a speaker specification and is not transferred to the 5150 412 cabinet. Third-party copy only (bluebookofguitarvalues.com, mfg. 1992-2004). Power is NOT stored: the exact-model listing gives 300 W with no rating definition, and the slant-cabinet listings give 240 W for a different variant, so the copies conflict. Pass-140 (2026-10-10): third-party tier applied to the exact-model impedance and driver layout. Round 10: the cited page is a price guide with no driver specification. The held driverCount 4 is not supported and stays null.",
     "driverCountProvenance": {
       "status": "UNSOURCED",
       "source": null,

@@ -501,6 +501,89 @@
         "round9-provenance-corrections: points classified THIRD_PARTY_VERIFIED (dealer-hosted copy)."
       ],
       "queueItemsResolved": 0
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/motion-60xt",
+      "host": "martinlogan.com",
+      "document": "MartinLogan Motion 60XT product page (specs table)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 3,
+      "coverage": "Specs table: 35-25,000 Hz +/-3 dB; 94 dB/2.83 volts/meter; 4 ohm; 1 HF, 1 MF, 2 LF transducers. Active or passive is not stated.",
+      "decisions": [
+        "martinlogan-motion-60xt driverCount 4 MANUFACTURER_VERIFIED",
+        "active false stays CITED_IN_NOTES_UNCHECKED"
+      ],
+      "queueItemsResolved": 1
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+      "host": "usa.yamaha.com",
+      "document": "Yamaha NS-6490 specs (US)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "coverage": "Sensitivity 90 dB/2.83 V/m (literal wording); Nominal Impedance 8 ohms (US page). Market/variant of the record is not resolved, so impedance stays unavailable.",
+      "decisions": [
+        "yamaha-ns-6490 sensitivity 90 kept (reference wording 2.83V/m kept; not converted)",
+        "impedance stays N/A (region unresolved)"
+      ],
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://proaudiovideo.in/amazon-echo-4th-gen-review-2026/",
+      "host": "proaudiovideo.in",
+      "document": "Amazon Echo (4th Gen) retailer review",
+      "status": "CHECKED_REJECTED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "coverage": "Retailer blog with Buy Now link. Not a manufacturer source.",
+      "decisions": [
+        "amazon-echo driverCount held value cleared (stays null)"
+      ],
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://bluebookofguitarvalues.com/products/peavey-5150-412-speaker-cabinet",
+      "host": "bluebookofguitarvalues.com",
+      "document": "Peavey 5150 412 price guide",
+      "status": "CHECKED_REJECTED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "coverage": "Price and value guide. No driver specification.",
+      "decisions": [
+        "peavey-5150-412 driverCount held value cleared (stays null)"
+      ],
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://www.pioneerelectronics.com/PUSA/Car/Speakers/A-Series/TS-A1670F",
+      "host": "pioneerelectronics.com",
+      "document": "Pioneer TS-A1670F (cited URL)",
+      "status": "CHECKED_REJECTED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 9,
+      "coverage": "Cited URL resolves to the Pioneer homepage (usa.pioneer), not a product page.",
+      "decisions": [
+        "pioneer-ts-a active held value cleared (stays null)"
+      ],
+      "queueItemsResolved": 0
     }
   ],
   "openQuestionsForOwner": [
@@ -568,6 +651,15 @@
       "applied": [
         "electro-voice-elx200-15: EN 87-row table moved to alternatePublishedPoints (not simulated); 85 stored points retained as disputed (UNRESOLVED_ROW_COUNT). Reverses round 8b.",
         "turbosound-ip15b: response points and frequency range reclassified THIRD_PARTY_VERIFIED (dealer copy, origin not proven)."
+      ]
+    },
+    {
+      "round": 10,
+      "marker": "round10-source-checks",
+      "date": "2026-10-12",
+      "applied": [
+        "martinlogan-motion-60xt driverCount 4 MANUFACTURER_VERIFIED (spec table)",
+        "amazon-echo, peavey-5150-412, pioneer-ts-a: held values remain null; notes record rejected sources"
       ]
     }
   ]

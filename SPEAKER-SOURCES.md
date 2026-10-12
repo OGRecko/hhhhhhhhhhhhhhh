@@ -1675,7 +1675,6 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf
 
 - Turbosound iP15B — frequency-response limits
-- Turbosound iP15B — source-backed response points (manufacturer)
 - Turbosound iP15B — woofer size
 
 ## https://ohmspeaker.com/legacy-products/2/

@@ -2121,7 +2121,7 @@ check("round-5 response tables match their cited manufacturer tables point for p
     [300, 88], [400, 88], [500, 85], [600, 83], [700, 81], [800, 77],
   ]);
   // Frequency Response Sensitivity 1 W / 1 m, Full Range column, Turbosound iP15B datasheet.
-  nodeAssert.deepEqual(pairs(byId("turbosound-ip15b")), [
+  nodeAssert.deepEqual(byId("turbosound-ip15b").frequencyResponse.thirdPartyPoints.points.map((p: { hz: number; db: number }) => [p.hz, p.db]), [
     [20, 67], [30, 84], [40, 91], [50, 93.5], [60, 94.5], [70, 94.5], [80, 94], [90, 93], [100, 91.5], [200, 74],
   ]);
 });
@@ -2371,15 +2371,17 @@ check("base NEXO PS15 and Turbosound iP15B keep exact revision, response provena
   nodeAssert.equal(turbo.frequencyResponse.low_hz, 45);
   nodeAssert.equal(turbo.frequencyResponse.high_hz, 150);
   nodeAssert.equal(turbo.frequencyResponse.source, turboSource);
-  nodeAssert.equal(turbo.frequencyResponse.points?.length, 10);
-  nodeAssert.equal(turbo.frequencyResponse.points?.[0].hz, 20);
-  nodeAssert.equal(turbo.frequencyResponse.points?.[0].db, 67);
-  nodeAssert.equal(turbo.frequencyResponse.points?.[9].hz, 200);
+  // Round 9b: dealer-copy points are not authoritative; they sit in thirdPartyPoints, not in points.
+  nodeAssert.equal(turbo.frequencyResponse.points, undefined);
+  nodeAssert.equal(turbo.frequencyResponse.thirdPartyPoints.points.length, 10);
+  nodeAssert.equal(turbo.frequencyResponse.thirdPartyPoints.points[0].hz, 20);
+  nodeAssert.equal(turbo.frequencyResponse.thirdPartyPoints.points[0].db, 67);
+  nodeAssert.equal(turbo.frequencyResponse.thirdPartyPoints.points[9].hz, 200);
   // Round 9: the source is a dealer-hosted copy of the manufacturer PID; origin is not proven, so the classification is THIRD_PARTY_VERIFIED.
-  nodeAssert.equal(turbo.frequencyResponse.pointsStatus, "THIRD_PARTY_VERIFIED");
-  nodeAssert.equal(turbo.frequencyResponse.pointsSource, turboSource);
-  nodeAssert.equal(turbo.frequencyResponse.pointsSourceType, "THIRD_PARTY");
-  nodeAssert.match(turbo.frequencyResponse.pointsContext, /Full Range \(Sound Pressure Level, dB\)/);
+  nodeAssert.equal(turbo.frequencyResponse.pointsStatus, "UNAVAILABLE");
+  nodeAssert.equal(turbo.frequencyResponse.thirdPartyPoints.status, "THIRD_PARTY_VERIFIED");
+  nodeAssert.equal(turbo.frequencyResponse.thirdPartyPoints.source, turboSource);
+  nodeAssert.match(turbo.frequencyResponse.thirdPartyPoints.context, /Full Range \(Sound Pressure Level, dB\)/);
   nodeAssert.equal(turbo.sensitivity.value, null, "the powered sub's electrical 4 dBu input sensitivity is not acoustic sensitivity");
   nodeAssert.equal(turbo.power.value, null, "conflicting internal amplifier ratings are not collapsed");
   nodeAssert.equal(turbo.impedance.value, null);

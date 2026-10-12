@@ -16,26 +16,26 @@
     "MEASUREMENT": 1
   },
   "responseCurveData": {
-    "embeddedJsonCurves": 24,
+    "embeddedJsonCurves": 23,
     "embeddedCurveProvenance": {
-      "total": 24,
-      "manufacturer": 24,
+      "total": 23,
+      "manufacturer": 23,
       "measurement": 0,
       "reputable_database": 0
     },
     "embeddedCurveProblems": 0,
-    "declaredManufacturerCurves": 24,
+    "declaredManufacturerCurves": 23,
     "declaredMeasurementCurves": 0,
     "declaredVerifiedDatabaseCurves": 0,
-    "physicallyModeledCurves": 635,
+    "physicallyModeledCurves": 636,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
       "total": 102,
       "missingBothLimits": 96,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
-      "modeledFromPublishedLimits": 533,
-      "explicitCurves": 24,
+      "modeledFromPublishedLimits": 534,
+      "explicitCurves": 23,
       "speakers": 659
     },
     "categoryBasedSynthesisAbsent": true

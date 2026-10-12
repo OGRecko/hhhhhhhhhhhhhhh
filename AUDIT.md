@@ -6,9 +6,9 @@ This file records the current release-engineering evidence and does not convert 
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 416 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 424 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
-- `node scripts/speaker-quality-audit.mjs` — **PASS**, 659 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 24 embedded response-point datasets (24 manufacturer, 0 measurement), no category-based response synthesis.
+- `node scripts/speaker-quality-audit.mjs` — **PASS**, 659 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 23 embedded response-point datasets (23 manufacturer, 0 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
 
 ## Speaker DB
@@ -24,11 +24,11 @@ This file records the current release-engineering evidence and does not convert 
 - `UNVERIFIED`: 0
 - `UNAVAILABLE`: 0
 - source-backed fields: sensitivity 306, power 417, impedance 355, resonant frequency 17, voice-coil size 63, woofer size 591, frequency-response limits 563
-- embedded JSON response-point datasets: 24
-- declared response-point provenance: manufacturer 24, measurement 0, verified database 0
-- physically modeled response models: 635
+- embedded JSON response-point datasets: 23
+- declared response-point provenance: manufacturer 23, measurement 0, verified database 0
+- physically modeled response models: 636
 - generic reference models: 102
-- models derived from published bandwidth limits: 533
+- models derived from published bandwidth limits: 534
 - embedded speaker polar/directivity data: 0
 
 The database does not claim that every catalog record is independently web-verified. Records without source-backed fields are explicitly `UNVERIFIED` and retain `N/A` physical fields rather than guessed values.
