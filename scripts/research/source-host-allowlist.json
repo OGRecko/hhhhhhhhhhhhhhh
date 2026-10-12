@@ -106,10 +106,18 @@
     },
     {
       "host": "dynaudio.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected Dynaudio. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
+      "status": "OWNER_IDENTIFIED",
+      "operator": "Dynaudio, owned by GoerTek since 2014 (PitchBook 2026 profile lists GoerTek as parent)",
+      "evidence": [
+        "What Hi-Fi 2014-10-27: GoerTek acquired the majority of Dynaudio shares.",
+        "PitchBook 2026 profile: Dynaudio parent company GoerTek."
+      ],
+      "sources": [
+        "https://www.whathifi.com/news/dynaudio-acquired-chinese-company-goertek",
+        "https://pitchbook.com/profiles/company/107765-47"
+      ],
+      "note": "Not ESTABLISHED until a fetched document from this host is checked for the operator name.",
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED"
     },
     {
       "host": "mackie.com",
@@ -218,10 +226,18 @@
     },
     {
       "host": "www.adam-audio.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected ADAM Audio. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
+      "status": "OWNER_IDENTIFIED",
+      "operator": "ADAM Audio GmbH, part of Focusrite Group since 2019-07-16",
+      "evidence": [
+        "adam-audio.com company page (brand's own site): 'Since July 2019, ADAM Audio is part of the Focusrite Group'.",
+        "Focusrite Group press release 2019-07-16 (adam-audio.com news)."
+      ],
+      "sources": [
+        "https://www.adam-audio.com/en/company/",
+        "https://www.adam-audio.com/en/news/industry/adam-audio-focusrite/"
+      ],
+      "note": "Not ESTABLISHED until a fetched product document from this host is checked for the operator name.",
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED"
     },
     {
       "host": "www.dali-speakers.com",
@@ -240,6 +256,34 @@
       "sources": [
         "https://www.electrovoice.com/tools-resources"
       ]
+    },
+    {
+      "host": "assets.klipsch.com",
+      "status": "OWNER_IDENTIFIED",
+      "operator": "Klipsch Group (Premium Audio Company), owned by Gentex Corporation since 2025-04-01 (VOXX acquisition)",
+      "evidence": [
+        "SlashGear: Klipsch owned by Gentex after the VOXX acquisition; Klipsch is an audio brand within Premium Audio Company (2025).",
+        "Strata-gee: Gentex parent of Klipsch, Onkyo, Integra; first results including PAC in fiscal 2025 Q2."
+      ],
+      "sources": [
+        "https://www.slashgear.com/2234269/who-owns-klipsch-speakers-where-made/",
+        "https://www.strata-gee.com/gentex-parent-of-klipsch-onkyo-reports-fiscal-2025-2nd-quarter-results/"
+      ],
+      "note": "Not ESTABLISHED: the asset host must also be shown to serve the operator's own documents (operator name on a fetched document). No promotions until then."
+    },
+    {
+      "host": "www.bowerswilkins.com",
+      "status": "OWNER_IDENTIFIED",
+      "operator": "Bowers & Wilkins, owned by Harman (Samsung Electronics) after the 2025 Masimo consumer-audio sale",
+      "evidence": [
+        "Wikipedia: B&W website bowerswilkins.com; parent Harman International.",
+        "Music Ally 2025-05-08: Harman acquired Bowers & Wilkins and Denon parent company from Masimo."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bowers_&_Wilkins",
+        "https://musically.com/2025/05/08/samsungs-harman-acquires-bowers-wilkins-and-denon-parent-company/"
+      ],
+      "note": "Not ESTABLISHED until a fetched document from this host carries the operator name."
     }
   ]
 }

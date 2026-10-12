@@ -1,0 +1,651 @@
+{
+  "schema": "elx200-15-reading-reconciliation/v1",
+  "record": "electro-voice-elx200-15",
+  "storedPoints": 85,
+  "storedSource": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+  "pointsChanged": false,
+  "readings": [
+    {
+      "label": "FR edition, fetch 2026-10-12",
+      "file": "data/elx200-15-primary-fr-2026-10-12.txt",
+      "sha256": "125586e62a95fb88f57c332d26051ebc695d9fefd9884b6937d41fbe6eaaae3b",
+      "rows": 85,
+      "orderedAscending": true,
+      "duplicateFrequencies": 0,
+      "rowsOnlyInReading": [],
+      "rowsOnlyInStored": [],
+      "valueDifferencesVsStored": [],
+      "matchesStoredExactly": true
+    },
+    {
+      "label": "FR edition, re-fetch 1 2026-10-13",
+      "file": "data/elx200-15-primary-fr-2026-10-13-refetch.txt",
+      "sha256": "9408f38195966cf1f92518f03476253d9fc2649bc6d14fb4fa07cace06fd91bc",
+      "rows": 86,
+      "orderedAscending": true,
+      "duplicateFrequencies": 0,
+      "rowsOnlyInReading": [
+        2400,
+        2600
+      ],
+      "rowsOnlyInStored": [
+        2500
+      ],
+      "valueDifferencesVsStored": [
+        {
+          "hz": 140,
+          "stored": 94.0,
+          "reading": 94.5
+        },
+        {
+          "hz": 280,
+          "stored": 94.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 300,
+          "stored": 95.0,
+          "reading": 94.5
+        },
+        {
+          "hz": 330,
+          "stored": 95.5,
+          "reading": 95.0
+        },
+        {
+          "hz": 400,
+          "stored": 95.0,
+          "reading": 95.5
+        },
+        {
+          "hz": 1200,
+          "stored": 93.0,
+          "reading": 93.5
+        },
+        {
+          "hz": 1400,
+          "stored": 95.0,
+          "reading": 94.5
+        },
+        {
+          "hz": 2000,
+          "stored": 93.0,
+          "reading": 92.0
+        },
+        {
+          "hz": 2200,
+          "stored": 94.0,
+          "reading": 93.0
+        }
+      ],
+      "matchesStoredExactly": false
+    },
+    {
+      "label": "FR edition, re-fetch 2 2026-10-13",
+      "file": "data/elx200-15-primary-fr-2026-10-13-refetch2.txt",
+      "sha256": "4e22a242351a4e91867426ec2cc338c2b6f5566af32e20963f3417ce10b5f17f",
+      "rows": 85,
+      "orderedAscending": true,
+      "duplicateFrequencies": 0,
+      "rowsOnlyInReading": [],
+      "rowsOnlyInStored": [],
+      "valueDifferencesVsStored": [
+        {
+          "hz": 2000,
+          "stored": 93.0,
+          "reading": 92.0
+        },
+        {
+          "hz": 2200,
+          "stored": 94.0,
+          "reading": 93.0
+        },
+        {
+          "hz": 2500,
+          "stored": 95.0,
+          "reading": 94.0
+        }
+      ],
+      "matchesStoredExactly": false
+    },
+    {
+      "label": "EN edition (products.electrovoice.com ELX200-15_BDL_en.pdf), 2026-10-13",
+      "file": "data/elx200-15-primary-en-2026-10-13-bdl.txt",
+      "sha256": "6eb7e56db0590e11f75fa704a0228e81b063fdfd34cb1d59d9d8f9702e86a2a4",
+      "rows": 87,
+      "orderedAscending": true,
+      "duplicateFrequencies": 0,
+      "rowsOnlyInReading": [
+        2400,
+        2600
+      ],
+      "rowsOnlyInStored": [],
+      "valueDifferencesVsStored": [
+        {
+          "hz": 45,
+          "stored": 81.0,
+          "reading": 82.0
+        },
+        {
+          "hz": 50,
+          "stored": 83.0,
+          "reading": 84.0
+        },
+        {
+          "hz": 55,
+          "stored": 85.0,
+          "reading": 86.0
+        },
+        {
+          "hz": 60,
+          "stored": 87.0,
+          "reading": 88.0
+        },
+        {
+          "hz": 65,
+          "stored": 89.0,
+          "reading": 90.0
+        },
+        {
+          "hz": 120,
+          "stored": 95.5,
+          "reading": 96.0
+        },
+        {
+          "hz": 130,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 140,
+          "stored": 94.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 170,
+          "stored": 95.5,
+          "reading": 96.0
+        },
+        {
+          "hz": 180,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 190,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 200,
+          "stored": 95.0,
+          "reading": 95.5
+        },
+        {
+          "hz": 280,
+          "stored": 94.0,
+          "reading": 95.5
+        },
+        {
+          "hz": 300,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 330,
+          "stored": 95.5,
+          "reading": 96.0
+        },
+        {
+          "hz": 450,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 500,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 550,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 600,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 650,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 700,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 750,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 800,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 850,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 900,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 950,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 1000,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 1100,
+          "stored": 94.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 1200,
+          "stored": 93.0,
+          "reading": 94.0
+        },
+        {
+          "hz": 1400,
+          "stored": 95.0,
+          "reading": 94.0
+        },
+        {
+          "hz": 1700,
+          "stored": 94.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 1800,
+          "stored": 92.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 1900,
+          "stored": 92.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 2000,
+          "stored": 93.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 2200,
+          "stored": 94.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 2800,
+          "stored": 95.0,
+          "reading": 94.0
+        },
+        {
+          "hz": 3000,
+          "stored": 95.0,
+          "reading": 93.0
+        },
+        {
+          "hz": 3300,
+          "stored": 95.0,
+          "reading": 93.0
+        },
+        {
+          "hz": 3600,
+          "stored": 95.0,
+          "reading": 93.0
+        },
+        {
+          "hz": 4000,
+          "stored": 95.0,
+          "reading": 94.0
+        },
+        {
+          "hz": 9500,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 10000,
+          "stored": 95.0,
+          "reading": 96.0
+        },
+        {
+          "hz": 11000,
+          "stored": 94.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 12000,
+          "stored": 93.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 13000,
+          "stored": 92.0,
+          "reading": 95.0
+        },
+        {
+          "hz": 14000,
+          "stored": 91.0,
+          "reading": 94.0
+        },
+        {
+          "hz": 15000,
+          "stored": 90.0,
+          "reading": 94.0
+        },
+        {
+          "hz": 16000,
+          "stored": 88.0,
+          "reading": 93.0
+        },
+        {
+          "hz": 17000,
+          "stored": 85.0,
+          "reading": 92.0
+        },
+        {
+          "hz": 18000,
+          "stored": 82.0,
+          "reading": 91.0
+        },
+        {
+          "hz": 19000,
+          "stored": 80.0,
+          "reading": 89.0
+        },
+        {
+          "hz": 20000,
+          "stored": 78.0,
+          "reading": 82.0
+        }
+      ],
+      "matchesStoredExactly": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "FR edition, fetch 2026-10-12",
+      "b": "FR edition, re-fetch 1 2026-10-13",
+      "sharedFrequencies": 84,
+      "onlyInA": [
+        2500
+      ],
+      "onlyInB": [
+        2400,
+        2600
+      ],
+      "valueDifferentFrequencies": [
+        140,
+        280,
+        300,
+        330,
+        400,
+        1200,
+        1400,
+        2000,
+        2200
+      ]
+    },
+    {
+      "a": "FR edition, fetch 2026-10-12",
+      "b": "FR edition, re-fetch 2 2026-10-13",
+      "sharedFrequencies": 85,
+      "onlyInA": [],
+      "onlyInB": [],
+      "valueDifferentFrequencies": [
+        2000,
+        2200,
+        2500
+      ]
+    },
+    {
+      "a": "FR edition, fetch 2026-10-12",
+      "b": "EN edition (products.electrovoice.com ELX200-15_BDL_en.pdf), 2026-10-13",
+      "sharedFrequencies": 85,
+      "onlyInA": [],
+      "onlyInB": [
+        2400,
+        2600
+      ],
+      "valueDifferentFrequencies": [
+        45,
+        50,
+        55,
+        60,
+        65,
+        120,
+        130,
+        140,
+        170,
+        180,
+        190,
+        200,
+        280,
+        300,
+        330,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900,
+        950,
+        1000,
+        1100,
+        1200,
+        1400,
+        1700,
+        1800,
+        1900,
+        2000,
+        2200,
+        2800,
+        3000,
+        3300,
+        3600,
+        4000,
+        9500,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000,
+        16000,
+        17000,
+        18000,
+        19000,
+        20000
+      ]
+    },
+    {
+      "a": "FR edition, re-fetch 1 2026-10-13",
+      "b": "FR edition, re-fetch 2 2026-10-13",
+      "sharedFrequencies": 84,
+      "onlyInA": [
+        2400,
+        2600
+      ],
+      "onlyInB": [
+        2500
+      ],
+      "valueDifferentFrequencies": [
+        140,
+        280,
+        300,
+        330,
+        400,
+        1200,
+        1400
+      ]
+    },
+    {
+      "a": "FR edition, re-fetch 1 2026-10-13",
+      "b": "EN edition (products.electrovoice.com ELX200-15_BDL_en.pdf), 2026-10-13",
+      "sharedFrequencies": 86,
+      "onlyInA": [],
+      "onlyInB": [
+        2500
+      ],
+      "valueDifferentFrequencies": [
+        45,
+        50,
+        55,
+        60,
+        65,
+        120,
+        130,
+        140,
+        170,
+        180,
+        190,
+        200,
+        280,
+        300,
+        330,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900,
+        950,
+        1000,
+        1100,
+        1200,
+        1400,
+        1700,
+        1800,
+        1900,
+        2000,
+        2200,
+        2400,
+        2600,
+        2800,
+        3000,
+        3300,
+        3600,
+        4000,
+        9500,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000,
+        16000,
+        17000,
+        18000,
+        19000,
+        20000
+      ]
+    },
+    {
+      "a": "FR edition, re-fetch 2 2026-10-13",
+      "b": "EN edition (products.electrovoice.com ELX200-15_BDL_en.pdf), 2026-10-13",
+      "sharedFrequencies": 85,
+      "onlyInA": [],
+      "onlyInB": [
+        2400,
+        2600
+      ],
+      "valueDifferentFrequencies": [
+        45,
+        50,
+        55,
+        60,
+        65,
+        120,
+        130,
+        140,
+        170,
+        180,
+        190,
+        200,
+        280,
+        300,
+        330,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900,
+        950,
+        1000,
+        1100,
+        1200,
+        1400,
+        1700,
+        1800,
+        1900,
+        2000,
+        2200,
+        2500,
+        2800,
+        3000,
+        3300,
+        3600,
+        4000,
+        9500,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000,
+        16000,
+        17000,
+        18000,
+        19000,
+        20000
+      ]
+    }
+  ],
+  "conclusion": {
+    "status": "UNRESOLVED_NON_REPRODUCIBLE_READINGS",
+    "reason": "The three FR readings of the same PDF URL disagree with each other (row count 85/86/85 and different value sets). No reading can be treated as the authoritative transcription from text extraction alone.",
+    "storedMatchesReadingsExactly": [
+      "FR edition, fetch 2026-10-12"
+    ],
+    "simulationExcluded": true,
+    "nextStep": "Controlled transcription from the original ELX200-15 PDF file (not available from this sandbox: asset host egress is not allowed). Until then, stored points stay excluded and no reading is adopted.",
+    "rangeConflict": "Sheet states -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. Stored table gives about 75 Hz-13 kHz (-3 dB) relative to 1 kHz. The averaging band behind the stated range is not printed, so this stays open."
+  }
+}
