@@ -3,84 +3,193 @@
   "method": "Each entry records a source URL that was opened with fetch_page in this pass, the exact model and field checked, the quoted evidence from that page, and the decision. CONFIRMED entries change a provenance status from CITED_IN_NOTES_UNCHECKED to MANUFACTURER_VERIFIED with the same source URL. A field is left unchanged when the opened page does not state it explicitly. Fetch failures are recorded as INACCESSIBLE and change nothing.",
   "entries": [
     {
-      "id": "kef-kube-12b", "field": "driverCount", "value": 1, "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "kef-kube-12b",
+      "field": "driverCount",
+      "value": 1,
+      "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Specifications table, model Kube12b: 'Drive units | 1 × 300mm (12in.)'."
     },
     {
-      "id": "kef-kube-12b", "field": "active", "value": true, "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "kef-kube-12b",
+      "field": "active",
+      "value": true,
+      "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Model Kube12b: 'Design | Powered Subwoofer (sealed)'; 'Amplifier type | Built-in Class-D'; 'Imposing 300Watt Class D amplifier with DSP preamplifier/EQ'."
     },
     {
-      "id": "kef-kube-10b", "field": "driverCount", "value": 1, "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "kef-kube-10b",
+      "field": "driverCount",
+      "value": 1,
+      "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Model Kube10b: 'Drive units | 1 × 250mm (10in.)'."
     },
     {
-      "id": "kef-kube-10b", "field": "active", "value": true, "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "kef-kube-10b",
+      "field": "active",
+      "value": true,
+      "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Model Kube10b: 'Design | Powered Subwoofer (sealed)'; 'Amplifier type | Built-in Class-D'."
     },
     {
-      "id": "kef-kube-8b", "field": "driverCount", "value": 1, "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "kef-kube-8b",
+      "field": "driverCount",
+      "value": 1,
+      "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Model Kube8b: 'Drive units | 1 × 200mm (8in.)'."
     },
     {
-      "id": "kef-kube-8b", "field": "active", "value": true, "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "kef-kube-8b",
+      "field": "active",
+      "value": true,
+      "url": "https://assets.kef.com/uploads/cm/Kube_Info_sheet_EN_preview.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Model Kube8b: 'Design | Powered Subwoofer (sealed)'; 'Amplifier type | Built-in Class-D'."
     },
     {
-      "id": "electro-voice-elx112", "field": "driverCount", "value": 2, "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "electro-voice-elx112",
+      "field": "driverCount",
+      "value": 2,
+      "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "ELX112 – 12” Two-Way Passive Loudspeaker: one 'DH-1K 39mm (1.5”) Titanium Diaphragm Compression Driver' and one 'EVS-12K 305mm (12”) Woofer' (two transducers)."
     },
     {
-      "id": "electro-voice-elx112", "field": "active", "value": false, "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "electro-voice-elx112",
+      "field": "active",
+      "value": false,
+      "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Manual title: 'Passive Loudspeaker Owner’s Manual'; 'ELX112 – 12” Two-Way Passive Loudspeaker'."
     },
     {
-      "id": "electro-voice-elx115", "field": "driverCount", "value": 2, "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "electro-voice-elx115",
+      "field": "driverCount",
+      "value": 2,
+      "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "ELX115 – 15” Two-Way Passive Loudspeaker: 'DH-1K 39mm (1.5”) Titanium Diaphragm Compression Driver' and 'EVS-15K 381mm (15”) Woofer' (two transducers)."
     },
     {
-      "id": "electro-voice-elx115", "field": "active", "value": false, "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "electro-voice-elx115",
+      "field": "active",
+      "value": false,
+      "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Manual title: 'Passive Loudspeaker Owner’s Manual'; 'ELX115 – 15” Two-Way Passive Loudspeaker'."
     },
     {
-      "id": "electro-voice-elx215", "field": "driverCount", "value": 3, "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "electro-voice-elx215",
+      "field": "driverCount",
+      "value": 3,
+      "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Section 'ELX2 15 – Dual 15” Two-Way Loudspeaker' (heading as printed; model table lists ELX215): one 'DH-1K' compression driver and 'Dual EVS-15K 381mm (15”) Woofers' (three transducers)."
     },
     {
-      "id": "electro-voice-elx215", "field": "active", "value": false, "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "electro-voice-elx215",
+      "field": "active",
+      "value": false,
+      "url": "https://products.electrovoice.com/binary/Live_X_Passive_Loudspeaker_Owners_Manual.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Manual title: 'Passive Loudspeaker Owner’s Manual'; model table lists ELX215 in the passive manual."
     },
     {
-      "id": "jbl-4310", "field": "driverCount", "value": 3, "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "result": "CONFIRMED", "decision": "MANUFACTURER_VERIFIED",
+      "id": "jbl-4310",
+      "field": "driverCount",
+      "value": 3,
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
       "evidence": "Architectural specifications: 'three direct-radiator transducers'; components are a 12\" low-frequency driver, a 5\" midrange and a third high-frequency direct radiator. The document is the JBL manual, hosted by the Library of Congress; the existing sensitivity and impedance fields already cite this URL as manufacturer-issued."
     },
     {
-      "id": "jbl-4310", "field": "active", "value": false, "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "result": "NOT_EXPLICIT", "decision": "UNCHANGED",
+      "id": "jbl-4310",
+      "field": "active",
+      "value": false,
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "result": "NOT_EXPLICIT",
+      "decision": "UNCHANGED",
       "evidence": "The manual describes 'a frequency dividing network' and a tube-ported enclosure, but never states the word passive or describes onboard amplification. Passive is implied, not stated; left CITED_IN_NOTES_UNCHECKED."
     },
     {
-      "id": "turbosound-ip15b", "field": "sourceType", "value": null, "url": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
-      "result": "INACCESSIBLE", "decision": "UNCHANGED",
+      "id": "turbosound-ip15b",
+      "field": "sourceType",
+      "value": null,
+      "url": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+      "result": "INACCESSIBLE",
+      "decision": "UNCHANGED",
       "evidence": "fetch_page returned 'Failed to fetch page' on two attempts. Whether the document is manufacturer-issued is not established; sourceType stays as it is and the item remains an owner-input item."
     },
     {
-      "id": "jbl-lsr32", "field": "frequencyResponse.points[20000 Hz]", "value": 61, "url": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
-      "result": "CONFLICT_SELF_INCONSISTENT", "decision": "POINT_REMOVED_FROM_SERIES",
+      "id": "jbl-lsr32",
+      "field": "frequencyResponse.points[20000 Hz]",
+      "value": 61,
+      "url": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "result": "CONFLICT_SELF_INCONSISTENT",
+      "decision": "POINT_REMOVED_FROM_SERIES",
       "evidence": "The same manual gives 61 dB at 20 kHz in the Amplitude & Phase table and 92 dB fundamental at 20 kHz in the Acoustic Contribution table. No evidence selects one value, so the 20 kHz point is removed from the stored series and both values are kept in pointsContext. The simulator extrapolates above the last stored point; owner review is required."
+    },
+    {
+      "id": "focal-sopra-n-2",
+      "field": "sensitivity",
+      "value": 91,
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "result": "CONFIRMED",
+      "decision": "UNCHANGED_ALREADY_MANUFACTURER_VERIFIED",
+      "evidence": "Product sheet, Sopra N°2 table: 'Sensitivity (2.83V / 1m) | 91dB'. The record reference 2.83V/1m matches. The record keeps MANUFACTURER_VERIFIED, since the manufacturer sheet states the value. The THIRD_PARTY assumption in the request does not apply to this revision."
+    },
+    {
+      "id": "focal-sopra-n-2",
+      "field": "impedance",
+      "value": 8,
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "result": "CONFIRMED",
+      "decision": "UNCHANGED_ALREADY_MANUFACTURER_VERIFIED",
+      "evidence": "'Nom. impedance | 8Ω' (minimum 3.1 Ω stated separately; the record stores nominal 8 Ω)."
+    },
+    {
+      "id": "focal-sopra-n-2",
+      "field": "frequencyResponse",
+      "value": "34-40000 Hz",
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "result": "CONFIRMED",
+      "decision": "UNCHANGED_ALREADY_MANUFACTURER_VERIFIED",
+      "evidence": "'Frequency response (+/- 3dB) | 34Hz - 40kHz'; '-6dB | 28Hz' (the -6 dB point is not stored as a limit)."
+    },
+    {
+      "id": "focal-sopra-n-2",
+      "field": "driverCount",
+      "value": 4,
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "result": "CONFIRMED",
+      "decision": "MANUFACTURER_VERIFIED",
+      "evidence": "'Drivers | 2 x 7\" (18cm) \"W\" woofer, 6 1/2\" (16.5cm) \"W\" midrange with TMD suspension, NIC motor, 1\" (27mm) IHL Beryllium inverted dome tweeter' = four transducers."
+    },
+    {
+      "id": "focal-sopra-n-2",
+      "field": "active",
+      "value": false,
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "result": "NOT_EXPLICIT",
+      "decision": "UNCHANGED",
+      "evidence": "The sheet lists 'Recommended amplifier power 40 - 300W' and no onboard amplification, which implies passive. The word passive is not printed on the sheet (the record note calls it passive, but the sheet does not). Left CITED_IN_NOTES_UNCHECKED, consistent with the JBL 4310 decision."
     }
   ]
 }

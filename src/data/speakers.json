@@ -36749,9 +36749,9 @@
     "panel": null,
     "notes": "Exact Focal Sopra N°2 Product Sheet. It specifies a passive three-way bass-reflex floorstander with two 7-inch (18 cm) W-cone woofers, one 6.5-inch W-cone midrange driver and one 27 mm IHL Beryllium tweeter (four drivers total). Response is 34 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 28 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.1 ohms. The 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf. Duplicate record 'focal-sopra2' (Focal Sopra No.2, dealer-sourced) was archived on 2026-10-12 by owner decision; this record is the surviving manufacturer-verified entry for the product.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER"
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

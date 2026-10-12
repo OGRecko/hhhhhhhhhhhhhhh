@@ -1,7 +1,7 @@
 {
   "generated_from": "src/data/speakers.json",
   "liveRecords": 659,
-  "uncheckedItems": 811,
+  "uncheckedItems": 810,
   "uniqueSourceUrls": 447,
   "statusCounts": [
     {
@@ -32,13 +32,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 453
+      "count": 452
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 39
+      "count": 40
     },
     {
       "field": "driverCount",
@@ -2010,18 +2010,6 @@
       "items": 2,
       "records": [
         "focal-sopra-n-1"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ]
-    },
-    {
-      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
-      "host": "media.focal-naim.com",
-      "items": 2,
-      "records": [
-        "focal-sopra-n-2"
       ],
       "fields": [
         "active",
@@ -4216,6 +4204,17 @@
       "items": 1,
       "records": [
         "magnepan-mg20"
+      ],
+      "fields": [
+        "active"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "host": "media.focal-naim.com",
+      "items": 1,
+      "records": [
+        "focal-sopra-n-2"
       ],
       "fields": [
         "active"
