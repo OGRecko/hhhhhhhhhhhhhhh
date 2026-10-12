@@ -4,31 +4,29 @@
     "scripts/research/queue-url-status.json"
   ],
   "schema": "provenance-queue/v2",
-  "liveRecords": 659,
-  "uncheckedItems": 701,
-  "uniqueSourceUrls": 402,
+  "liveRecords": 658,
+  "uncheckedItems": 685,
+  "uniqueSourceUrls": 398,
   "urlsByStatus": {
-    "CHECKED_CONFIRMED": 2,
-    "CHECKED_PARTIAL": 8,
-    "OPEN": 392
+    "CHECKED_PARTIAL": 7,
+    "OPEN": 391
   },
   "uncheckedItemsByUrlStatus": {
-    "CHECKED_CONFIRMED": 8,
-    "CHECKED_PARTIAL": 21,
-    "OPEN": 672
+    "CHECKED_PARTIAL": 15,
+    "OPEN": 670
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 305
+      "count": 299
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 80
+      "count": 85
     },
     {
       "field": "active",
@@ -46,13 +44,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 396
+      "count": 386
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 96
+      "count": 105
     },
     {
       "field": "driverCount",
@@ -74,6 +72,7 @@
     "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
     "https://amphion.fi/products/one18/",
     "https://ap.kef.com/products/r5-meta",
+    "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
     "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
     "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
     "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
@@ -116,7 +115,10 @@
     "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
     "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
     "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
-    "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20"
+    "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+    "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
+    "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+    "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual"
   ],
   "warnings": [],
   "groups": [
@@ -267,210 +269,6 @@
       "evidence": ""
     },
     {
-      "url": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "host": "www.leone.sk",
-      "status": "CHECKED_CONFIRMED",
-      "items": 4,
-      "records": [
-        "eV-zlx12p",
-        "eV-zlx15p"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "eV-zlx12p",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "eV-zlx12p",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "eV-zlx15p",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "eV-zlx15p",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": 12,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0,
-        4
-      ],
-      "evidence": "ZLX-12P/15P technical data (LF + HF DH-1K) and \"Powered loudspeakers\" section 8.1. Distributor-hosted: THIRD_PARTY."
-    },
-    {
-      "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "host": "www.manualslib.com",
-      "status": "CHECKED_CONFIRMED",
-      "items": 4,
-      "records": [
-        "sonus-faber-homage-tradition-guarneri",
-        "sonus-faber-homage-tradition-serafino"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "sonus-faber-homage-tradition-guarneri",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-homage-tradition-guarneri",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-homage-tradition-serafino",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-homage-tradition-serafino",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": 12,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0,
-        1
-      ],
-      "evidence": "Technical table Guarneri / Serafino / VOX; header \"Homage tradition passive loudspeakers\". Aggregator-hosted: THIRD_PARTY."
-    },
-    {
-      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "host": "www.manualslib.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 4,
-      "records": [
-        "sonus-faber-olympica-nova-iii",
-        "sonus-faber-olympica-nova-v"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "sonus-faber-olympica-nova-iii",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-olympica-nova-iii",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-olympica-nova-v",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-olympica-nova-v",
-          "field": "driverCount",
-          "value": 5,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": 12,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0,
-        1
-      ],
-      "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
-    },
-    {
-      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "host": "www.manualslib.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 4,
-      "records": [
-        "sonus-faber-olympica-nova-i",
-        "sonus-faber-olympica-nova-ii"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "sonus-faber-olympica-nova-i",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-olympica-nova-i",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-olympica-nova-ii",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": "NOT_STATED",
-          "recordedNote": ""
-        },
-        {
-          "record": "sonus-faber-olympica-nova-ii",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": 12,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0,
-        1
-      ],
-      "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
-    },
-    {
       "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
       "host": "www.dali-speakers.com",
       "status": "CHECKED_PARTIAL",
@@ -517,41 +315,6 @@
         5
       ],
       "evidence": "Wiring to external amplifier (section 4). Driver configuration (Table 2) absent from extracted text."
-    },
-    {
-      "url": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
-      "host": "arispro.ru",
-      "status": "CHECKED_PARTIAL",
-      "items": 2,
-      "records": [
-        "hedd-type-20"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "hedd-type-20",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Active monitor with built-in ICEpower amplification. Non-manufacturer host."
-        },
-        {
-          "record": "hedd-type-20",
-          "field": "driverCount",
-          "value": 3,
-          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
-          "recordedNote": "Woofer + midrange woofer + AMT tweeter = 3. Non-manufacturer host."
-        }
-      ],
-      "checkedRound": 13,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Introduction: 'active near- to midfield studio monitor'; 'One 7 inch bass woofer, a dedicated 4 inch midrange woofer ... Air Motion Transformer tweeter ... 3x300W ICEpower amplification'. Host is not the manufacturer domain, so no promotion under the current policy (owner decision 1 still open)."
     },
     {
       "url": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
@@ -4110,39 +3873,6 @@
           "record": "focal-trio6",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
-      "host": "media63.musictribe.com",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "turbosound-ip15b"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "turbosound-ip15b",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "turbosound-ip15b",
-          "field": "driverCount",
-          "value": 1,
           "recordedOutcome": null,
           "recordedNote": ""
         }
@@ -7880,6 +7610,78 @@
       "checkedDate": null,
       "chunksOpened": [],
       "evidence": null
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 2,
+      "records": [
+        "sonus-faber-olympica-nova-iii",
+        "sonus-faber-olympica-nova-v"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "sonus-faber-olympica-nova-iii",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-v",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        }
+      ],
+      "checkedRound": 15,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "host": "www.manualslib.com",
+      "status": "CHECKED_PARTIAL",
+      "items": 2,
+      "records": [
+        "sonus-faber-olympica-nova-i",
+        "sonus-faber-olympica-nova-ii"
+      ],
+      "fields": [
+        "active"
+      ],
+      "outstanding": [
+        {
+          "record": "sonus-faber-olympica-nova-i",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-ii",
+          "field": "active",
+          "value": false,
+          "recordedOutcome": "NOT_STATED",
+          "recordedNote": ""
+        }
+      ],
+      "checkedRound": 15,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY."
     },
     {
       "url": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",

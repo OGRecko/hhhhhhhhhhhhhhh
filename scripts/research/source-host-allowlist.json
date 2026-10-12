@@ -99,10 +99,14 @@
     },
     {
       "host": "www.qscaudio.com",
-      "status": "BRAND_DOMAIN_UNVERIFIED",
-      "operator": "Expected QSC. Not confirmed in this round.",
-      "evidence": [],
-      "sources": []
+      "status": "ESTABLISHED",
+      "operator": "QSC, LLC (QSC Audio Products)",
+      "evidence": [
+        "QSC WideLine-8 Series Loudspeaker System User Manual, TD-000237-00 rev D, https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf: \"Copyright 2017, QSC, LLC\" and \"QSC(R) is a registered trademark of QSC, LLC\" (fetched 2026-10-12)."
+      ],
+      "sources": [],
+      "previousStatus": "BRAND_DOMAIN_UNVERIFIED",
+      "note": "Established by owner decision 8 (document check). No values were promoted from this host in round 15."
     },
     {
       "host": "dynaudio.com",

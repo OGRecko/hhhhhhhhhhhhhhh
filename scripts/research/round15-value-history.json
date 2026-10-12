@@ -67,6 +67,256 @@
         "note": "Round 15: Datasheet: 'biamplified active monitor system'; bass and treble amplifiers in the enclosure."
       },
       "round": 15
+    },
+    {
+      "id": "eV-zlx12p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "eV-zlx12p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "eV-zlx15p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "eV-zlx15p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-homage-tradition-serafino",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-homage-tradition-guarneri",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-olympica-nova-iii",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-olympica-nova-v",
+      "field": "driverCount",
+      "value": 5,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-olympica-nova-i",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "sonus-faber-olympica-nova-ii",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": null,
+        "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+      },
+      "round": 15
+    },
+    {
+      "id": "hedd-type-20",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 13; not re-opened in round 15. Reason: Active monitor with built-in ICEpower amplification. Non-manufacturer host."
+      },
+      "round": 15
+    },
+    {
+      "id": "hedd-type-20",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 13; not re-opened in round 15. Reason: Woofer + midrange woofer + AMT tweeter = 3. Non-manufacturer host."
+      },
+      "round": 15
     }
   ],
   "marker": "round15-queue-batch"

@@ -25,6 +25,8 @@ LEDGER = os.path.join(HERE, 'provenance-source-ledger.json')
 CITED = 'CITED_IN_NOTES_UNCHECKED'
 MANU_STATUS = 'MANUFACTURER_VERIFIED'
 ALLOWED_OUTCOMES = {'PROMOTED', 'SUPPORTED_NOT_PROMOTED', 'NOT_STATED', 'NOT_EXTRACTED'}
+DISTRIBUTOR_CLASS = 'DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL'
+DISTRIBUTOR_DECISION_ID = 'owner-decision-1-2026-10-12-distributor-copies-yes'
 
 
 def dump(path, obj):
@@ -40,7 +42,12 @@ def main():
     seen = {(h['id'], h['field'], h['after'].get('source')) for h in hist['entries']}
     promoted = skipped = recorded_only = 0
     for e in results['entries']:
-        assert e['sourceClass'] in ('MANUFACTURER', 'NON_MANUFACTURER_HOST'), e['url']
+        assert e['sourceClass'] in ('MANUFACTURER', 'NON_MANUFACTURER_HOST', DISTRIBUTOR_CLASS), e['url']
+        if e['sourceClass'] == DISTRIBUTOR_CLASS:
+            # Owner decision 1 (2026-10-12): a distributor/aggregator copy of an exact-model
+            # manufacturer manual counts as manufacturer-verified. Only entries that carry the
+            # decision ID may use this class.
+            assert e.get('ownerDecision') == DISTRIBUTOR_DECISION_ID, e['url']
         for fr in e['fieldResults']:
             assert fr['outcome'] in ALLOWED_OUTCOMES, fr
             r = by_id.get(fr['record'])
@@ -52,7 +59,7 @@ def main():
                 recorded_only += 1
                 assert prov.get('status') == CITED, f"{fr['record']}.{field} not {CITED}: {prov.get('status')}"
                 continue
-            assert e['sourceClass'] == 'MANUFACTURER', f"PROMOTED from non-manufacturer host: {fr['record']}.{field}"
+            assert e['sourceClass'] in ('MANUFACTURER', DISTRIBUTOR_CLASS), f"PROMOTED from non-manufacturer host: {fr['record']}.{field}"
             if prov.get('status') == MANU_STATUS and prov.get('source') == e['url']:
                 skipped += 1
                 continue

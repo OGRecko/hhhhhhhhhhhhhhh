@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-12 from the authoritative dataset. 634 unique source URLs are retained for populated fields.
+Generated 2026-10-12 from the authoritative dataset. 633 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -1672,11 +1672,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Focal Trio6 — power
 - Focal Trio6 — woofer size
 
-## https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf
-
-- Turbosound iP15B — frequency-response limits
-- Turbosound iP15B — woofer size
-
 ## https://ohmspeaker.com/legacy-products/2/
 
 - Ohm Acoustics Walsh 2 — frequency-response limits
@@ -2174,6 +2169,7 @@ The source is attached to the exact field it supports. A source URL here does no
 ## https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html
 
 - Yamaha NS-6490 — frequency-response limits
+- Yamaha NS-6490 — impedance
 - Yamaha NS-6490 — power
 - Yamaha NS-6490 — sensitivity
 - Yamaha NS-6490 — woofer size

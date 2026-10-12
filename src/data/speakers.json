@@ -4361,16 +4361,16 @@
     },
     "notes": "Exact-model Electro-Voice ZLX-15P powered loudspeaker; source is the 2015.12 / 02 / F.01U.319.253 ZLX Series user manual (not the later ZLX-15P-G2). It specifies a full-space 55 Hz–18 kHz (-3 dB) response using the Music DSP preset, 42 Hz–20 kHz (-10 dB), 127 dB maximum SPL, 90° × 60° coverage, a 1,000 W power rating, an EVS-15L 15-inch woofer, and DH-1K HF driver. The manual's response table lists separate Live, Music, Speech, and Club modes; no mode-specific response points are selected as a generic curve. Sensitivity and passive impedance are not specified for this powered model and remain N/A. Coverage is nominal only, not a polar/directivity dataset. Source: https://www.leone.sk/file/230/ev-zlx-manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     }
   },
   {
@@ -4815,129 +4815,6 @@
       "source": "https://mackie.com/img/file_resources/Thump12A_Thump15A_OM.pdf",
       "sourceType": "MANUFACTURER",
       "note": "Round 4 URL check (2026-10-11): exact manufacturer source. Thump12A/15A owner's manual: 1300 W of built-in power amplification with separate LF and HF amplifier channels."
-    }
-  },
-  {
-    "id": "turbosound-ip15b",
-    "brand": "Turbosound",
-    "model": "iP15B",
-    "category": "pa",
-    "year": null,
-    "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 1,
-    "active": true,
-    "panel": null,
-    "sensitivity": {
-      "value": null,
-      "unit": "dB",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "frequencyResponse": {
-      "low_hz": 45,
-      "high_hz": 150,
-      "status": "THIRD_PARTY_VERIFIED",
-      "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-      "sourceType": "THIRD_PARTY",
-      "pointsStatus": "UNAVAILABLE",
-      "pointsSource": null,
-      "pointsSourceType": "NONE",
-      "context": " Round 5 correction (2026-10-12): 9 stored points did not match the cited manufacturer table \"Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json.",
-      "thirdPartyPoints": {
-        "status": "THIRD_PARTY_VERIFIED",
-        "sourceType": "THIRD_PARTY",
-        "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-        "points": [
-          {
-            "hz": 20,
-            "db": 67
-          },
-          {
-            "hz": 30,
-            "db": 84
-          },
-          {
-            "hz": 40,
-            "db": 91
-          },
-          {
-            "hz": 50,
-            "db": 93.5
-          },
-          {
-            "hz": 60,
-            "db": 94.5
-          },
-          {
-            "hz": 70,
-            "db": 94.5
-          },
-          {
-            "hz": 80,
-            "db": 94
-          },
-          {
-            "hz": 90,
-            "db": 93
-          },
-          {
-            "hz": 100,
-            "db": 91.5
-          },
-          {
-            "hz": 200,
-            "db": 74
-          }
-        ],
-        "context": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A. Round 5 correction (2026-10-12): the first pass changed 9 points to values that are not in the cited table; a second pass set all 10 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries turbosound-ip15b and turbosound-ip15b second pass). round9-provenance-corrections: the source is a dealer-hosted copy (monthany.com) of the Turbosound iNSPIRE iP15B product information document. The manufacturer-hosted original (media63.musictribe.com) could not be opened. Origin is not proven, so the points are classified THIRD_PARTY_VERIFIED, not MANUFACTURER_VERIFIED. Values are unchanged. round9b-response-point-placement: not used by the simulator (dealer copy; origin not proven)."
-      }
-    },
-    "power": {
-      "value": null,
-      "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "impedance": {
-      "value": null,
-      "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "resonantFreq": {
-      "value": null,
-      "unit": "Hz",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "voiceCoil": {
-      "value": null,
-      "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "woofer": {
-      "value": 15,
-      "unit": "in",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-      "sourceType": "MANUFACTURER"
-    },
-    "notes": "Exact Turbosound iNSPIRE iP15B manufacturer Product Information Document, fetched as a third-party mirror; the same manufacturer PDF is identified at https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. It specifies a powered 15-inch subwoofer, one LF transducer, 45–150 Hz ±3 dB and 38–200 Hz at -10 dB. The source separately lists 600 W for the subwoofer amplifier and 2 × 200 W for satellite amplifiers, but a rear-panel output diagram gives differing power labels (500 W/sub and 2 × 125 W/8 ohms or 2 × 250 W/4 ohms); no power scalar is assigned due to this internal rating discrepancy. Its electrical 4 dBu input sensitivity is not acoustic sensitivity; no scalar sensitivity or passive speaker impedance is populated. The exact manufacturer's 1 W/1 m response/SPL table is retained as 10 raw points with source wording and context; because this is an active sub and the document does not state a measurement space or an overall acoustic sensitivity, its curve is used only for normalized shape and no scalar sensitivity is inferred. The stated half-space dispersion is not an angular polar dataset. Sources: https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf and https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. round9-provenance-corrections: iP15B response points and frequency range are THIRD_PARTY_VERIFIED (dealer-hosted copy). sourceType stays unset.",
-    "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
-      "sourceType": null
-    },
-    "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
-      "sourceType": null
     }
   },
   {
@@ -16206,11 +16083,12 @@
       "role": "allowable_input"
     },
     "impedance": {
-      "value": null,
+      "value": 8,
       "unit": "ohm",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+      "sourceType": "MANUFACTURER",
+      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value."
     },
     "resonantFreq": {
       "value": null,
@@ -16233,7 +16111,7 @@
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact Yamaha NS-6490 manufacturer specifications identify an 8-inch cone woofer, 4-inch cone midrange, and 7/8-inch balanced-dome tweeter (three transducers), with response 45 Hz–23 kHz and sensitivity 90 dB at 2.83 V/m. The US Yamaha spec page lists 8-ohm nominal impedance, but Yamaha's Malaysia NS-6490 page lists 6 ohms for the same model; because official manufacturer sources conflict, the impedance field remains N/A rather than selecting one. Nominal input power is 70 W and maximum input is 140 W; only 70 W is stored as allowable_input, not speaker power handling. The response page gives no tolerance or measurement conditions; no response curve or directivity data is imported. Sources: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html; https://my.yamaha.com/en/audio/home-audio/products/speakers/ns-6490/.",
+    "notes": "Exact Yamaha NS-6490 manufacturer specifications identify an 8-inch cone woofer, 4-inch cone midrange, and 7/8-inch balanced-dome tweeter (three transducers), with response 45 Hz–23 kHz and sensitivity 90 dB at 2.83 V/m. Impedance is set to the US variant (8 ohm, owner decision 7, 2026-10-12). The Malaysia NS-6490 page (my.yamaha.com) lists 6 ohm for the Malaysia variant; the two regional values are not combined. Nominal input power is 70 W and maximum input is 140 W; only 70 W is stored as allowable_input, not speaker power handling. The response page gives no tolerance or measurement conditions; no response curve or directivity data is imported. Sources: https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html; https://my.yamaha.com/en/audio/home-audio/products/speakers/ns-6490/.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
@@ -16799,16 +16677,16 @@
     },
     "notes": "Exact-model Electro-Voice ZLX-12P powered loudspeaker; source is the 2015.12 / 02 / F.01U.319.253 ZLX Series user manual (not the later ZLX-12P-G2). It specifies a full-space 65 Hz–18 kHz (-3 dB) response using the Music DSP preset, 50 Hz–20 kHz (-10 dB), 126 dB maximum SPL, 90° × 60° coverage, a 1,000 W power rating, an EVS-12K 12-inch woofer, and DH-1K HF driver. The manual's response table lists separate Live, Music, Speech, and Club modes; no mode-specific response points are selected as a generic curve. Sensitivity and passive impedance are not specified for this powered model and remain N/A. Coverage is nominal only, not a polar/directivity dataset. Source: https://www.leone.sk/file/230/ev-zlx-manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.leone.sk); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     }
   },
   {
@@ -45111,10 +44989,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova I specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova I in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 43 identifies a passive 2-way stand-mount system: one H28 XTR3 tweeter and one 150 mm MW15 XTR2-04 midwoofer (150 mm converted to 5.91 in for the database's inch field). It publishes 45–35,000 Hz frequency response, 87 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 35–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 20 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/2e9356d7ba/owners_olympica_nova_low-3.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45184,10 +45062,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova II specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova II in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 43 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and one 180 mm W18XTR2-04 woofer (180 mm converted to 7.09 in for the database's inch field). It publishes 40–35,000 Hz frequency response, 88 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 50–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/0c43f45653/owners_olympica_nova_low-2.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45257,10 +45135,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova III specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova III in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 42 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and two 180 mm W18XTR2-08 woofers (180 mm converted to 7.09 in for the database's inch field; four total drivers). It publishes 35–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 50–300 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/905b48db22/owners_olympica_nova_low-1.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45330,10 +45208,10 @@
     "panel": null,
     "notes": "Exact first-generation Olympica Nova V specifications from the Sonus faber-authored Olympica Nova owner's manual linked for Olympica Nova V in the manufacturer's Product Guides. The manual's English Technical Specifications row on printed page 42 identifies a passive 3-way floorstanding system with one H28 XTR3 tweeter, one M15 XTR2-04 midrange, and three 180 mm W18XTR2-12 woofers (180 mm converted to 7.09 in for the database's inch field; five total drivers). It publishes 32–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. Its 60–400 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. No response points or directivity data are imported, and no tolerance is specified for the published response range. The official PDF preview truncates before its technical-specification pages; the exact page was cross-checked in the Manualslib mirror of this manufacturer manual (https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual). Sources: https://www.sonusfaber.com/en/support/product-guides and https://a.storyblok.com/f/259299/x/3ed2428d5f/owners_olympica_nova_low.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -45475,16 +45353,16 @@
     "panel": null,
     "notes": "Exact Homage Tradition Guarneri row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 30 Technical Specifications row describes a passive 2-way stand-mount system with one H28 XTR-04 tweeter and one 150 mm W15 XTR-04 midwoofer (150 mm converted to 5.91 in for the database's inch field; two total drivers). It publishes 40–35,000 Hz frequency response, 87 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 30–250 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 22 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     }
   },
   {
@@ -45549,16 +45427,16 @@
     "panel": null,
     "notes": "Exact Homage Tradition Serafino row from the Sonus faber-authored Homage Tradition owner's manual (the Manualslib-hosted copy identifies this as a passive-loudspeaker manual and its technical table lists Amati, Guarneri, and Serafino). The printed page 30 Technical Specifications row describes a passive 3.5-way floorstander with one H28 XTR-04 tweeter, one M15 XTR-04 midrange, and two 180 mm W18XTR-08 woofers (180 mm converted to 7.09 in for the database's inch field; four total drivers). It publishes 30–35,000 Hz frequency response, 90 dB SPL at 2.83 V/1 m, and 4 ohms nominal impedance. The 80–350 W figure is suggested amplifier output without clipping, not speaker power handling; the separate long-term maximum input voltage is 20 Vrms. The published response range has no stated tolerance; no response points or directivity data are imported. Source: https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
-      "sourceType": null,
-      "note": "Round 12b: supported by a distributor/aggregator-hosted copy (www.manualslib.com); not promoted, because driverCount/active allow only MANUFACTURER_VERIFIED. Value unchanged. Promote when the manufacturer host copy is checked."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
     }
   },
   {
@@ -51083,14 +50961,16 @@
     },
     "notes": "Exact HEDD Type 20 (unsuffixed/original model, not Type 20 MK2 or Type 20 A-CORE) Operation Manual, manufacturer-authored content mirrored at the cited PDF URL. It explicitly calls Type 20 an active near-/midfield three-way studio monitor and lists one 7-inch bass woofer, one 4-inch honeycomb-composite midrange, one HEDD AMT tweeter, and 3 × 300 W ICEpower amplification. The stored 900 W is the sum of those three internal amplifier ratings and is marked amplifier_output, not passive-speaker power handling. The manual lists 2-inch voice coil for the 7-inch woofer and 1.25-inch for the midrange; the scalar records only the bass woofer coil, not the midrange value. Published overall frequency range is 32 Hz–50 kHz; the separate 40 Hz–20 kHz ±1.5 dB specification is retained as context because this schema has only one pair of bounds. The manual's sensitivity is 90 dB SPL at 1 m for a 218 mVrms (-11 dBu) input with gain at 0 dB. Its actual input reference is retained verbatim in the field; it is not a 1 W/1 m or 2.83 V/1 m sensitivity and the DSP deliberately falls back to its neutral reference rather than converting or interpreting it as such. The listed 10 kΩ balanced / 47 kΩ unbalanced values are electrical INPUT impedances, not speaker load impedance, so system impedance remains N/A. The manual gives no system resonant frequency. Its on-axis free-field table separates individual woofer/midrange/tweeter responses; those component rows are not imported as a full-system response curve, and no polar/directivity dataset is published. Source: https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 13; not re-opened in round 15. Reason: Woofer + midrange woofer + AMT tweeter = 3. Non-manufacturer host."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 13; not re-opened in round 15. Reason: Active monitor with built-in ICEpower amplification. Non-manufacturer host."
     }
   },
   {

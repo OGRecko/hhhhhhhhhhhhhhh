@@ -1,7 +1,7 @@
 {
   "schema": "queue-results/v1",
   "round": 15,
-  "description": "Round 15 source checks: Genelec 1031A and 8020C (CTF linked documents, promoted); Yamaha NS-6490 US page (supported, not promoted, host not allowlisted). Other queued URLs were not opened this round and have no entry.",
+  "description": "Round 15 source checks: Genelec 1031A and 8020C (CTF linked documents, promoted); Yamaha NS-6490 US page (supported, not promoted, host not allowlisted). Other queued URLs were not opened this round and have no entry. Round 15 also applies owner decision 1 to five distributor/aggregator-hosted manual URLs (leone.sk EV ZLX; manualslib Sonus Faber x3; arispro.ru HEDD Type 20) using their earlier recorded evidence.",
   "checkedDate": "2026-10-12",
   "entries": [
     {
@@ -78,6 +78,211 @@
           "value": 3,
           "outcome": "SUPPORTED_NOT_PROMOTED",
           "note": "US manufacturer page lists three named drivers. Host usa.yamaha.com is not in source-host-allowlist.json, so no promotion until the host decision (owner decision 8) is made. Not a regional impedance answer."
+        }
+      ]
+    },
+    {
+      "url": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+      "host": "www.leone.sk",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes",
+      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+      "chunksOpened": [
+        0,
+        4
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "ZLX-12P/15P technical data (LF + HF DH-1K) and \"Powered loudspeakers\" section 8.1. Distributor-hosted: THIRD_PARTY.",
+      "fieldResults": [
+        {
+          "record": "eV-zlx12p",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "eV-zlx12p",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "eV-zlx15p",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "eV-zlx15p",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        }
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual",
+      "host": "www.manualslib.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes",
+      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Technical table Guarneri / Serafino / VOX; header \"Homage tradition passive loudspeakers\". Aggregator-hosted: THIRD_PARTY.",
+      "fieldResults": [
+        {
+          "record": "sonus-faber-homage-tradition-serafino",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-homage-tradition-serafino",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-homage-tradition-guarneri",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-homage-tradition-guarneri",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        }
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "host": "www.manualslib.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes",
+      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Olympica Nova V and III technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY.",
+      "fieldResults": [
+        {
+          "record": "sonus-faber-olympica-nova-iii",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-olympica-nova-v",
+          "field": "driverCount",
+          "value": 5,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-olympica-nova-iii",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-v",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "host": "www.manualslib.com",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes",
+      "document": "Distributor/aggregator-hosted copy of an exact-model manufacturer manual (see earlier round evidence)",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": null,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Olympica Nova II and I technical table. No passive/active statement on this page. Aggregator-hosted: THIRD_PARTY.",
+      "fieldResults": [
+        {
+          "record": "sonus-faber-olympica-nova-i",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-olympica-nova-ii",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 12; not re-opened in round 15. Reason: "
+        },
+        {
+          "record": "sonus-faber-olympica-nova-i",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": ""
+        },
+        {
+          "record": "sonus-faber-olympica-nova-ii",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+      "host": "arispro.ru",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "ownerDecision": "owner-decision-1-2026-10-12-distributor-copies-yes",
+      "document": "HEDD Type 20 operation manual (EN), hosted by arispro.ru. Text is HEDD-authored.",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Introduction: 'active near- to midfield studio monitor'; 'One 7 inch bass woofer, a dedicated 4 inch midrange woofer ... Air Motion Transformer tweeter ... 3x300W ICEpower amplification'. Host is not the manufacturer domain, so no promotion under the current policy (owner decision 1 still open).",
+      "fieldResults": [
+        {
+          "record": "hedd-type-20",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 13; not re-opened in round 15. Reason: Active monitor with built-in ICEpower amplification. Non-manufacturer host."
+        },
+        {
+          "record": "hedd-type-20",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Owner decision 1 (2026-10-12): distributor/aggregator copy of an exact-model manufacturer manual counts. Evidence from the earlier inspection recorded in round 13; not re-opened in round 15. Reason: Woofer + midrange woofer + AMT tweeter = 3. Non-manufacturer host."
         }
       ]
     }

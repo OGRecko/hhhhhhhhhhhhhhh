@@ -1,7 +1,7 @@
 {
   "reviewDate": "2026-10-12",
   "reason": "User request 2026-10-12 (remove all unavailable speakers). Records had no acoustic data (all acoustic fields UNAVAILABLE) and overallStatus UNVERIFIED. Archived unchanged.",
-  "recordCount": 7,
+  "recordCount": 8,
   "records": [
     {
       "id": "infinity-rs1",
@@ -429,6 +429,129 @@
         "sourceType": "NONE"
       },
       "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Retailer and aggregator copies describe the BB5 XBD-A SE (a different SE-range revision). The base BB5 XBD-A official page was not located; none transferred. Pass-130 check (2026-10-10): the only frequency data found (17 Hz–25 kHz, 136 kg, 2 x 900 W LF amplification) belongs to the BB5 XBD-A SE (Signature Edition), which is not the record's variant. The SE data is not transferred and the XBD-A vs SE conflict remains open. Pass-135 check (2026-10-10): the PMC archive page for the BB5 XBD-A (pmc-speakers.com/products/archive/archive/bb5-xbd/, c.2011) states 'down to 17Hz' (no tolerance, no upper limit) and amplifier power LF 900 W, LF 900 W, MF 300 W, HF 300 W. The current BB5 XBD-A SE page gives 17 Hz–25 kHz (no tolerance) with the same amplifier layout. A Vintage King listing for 'BB5 XBD-A-C' gives 800/800/250/250 W (a different revision). The revision is still not resolved for this record, so no value is stored. A lower limit alone is not a field. Pass-137 check (2026-10-10): the PMC archive page for BB5 XBD (manufacturer, undated, c.2011) lists drive units LF 2×380 mm, MF 75 mm, HF 34 mm, crossover 380 Hz / 3.8 kHz, amplifier LF 900 W, MF 300 W, HF 300 W, and 'down to 17Hz' with no upper limit. It does not state the XBD-A or SE designation. The SE retailer copy (17 Hz–25 kHz) is a different revision. Revision is unresolved; driverCount stays unset and no field is stored."
+    },
+    {
+      "id": "turbosound-ip15b",
+      "brand": "Turbosound",
+      "model": "iP15B",
+      "category": "pa",
+      "year": null,
+      "overallStatus": "PARTIALLY_VERIFIED",
+      "driverCount": 1,
+      "active": true,
+      "panel": null,
+      "sensitivity": {
+        "value": null,
+        "unit": "dB",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 150,
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+        "sourceType": "THIRD_PARTY",
+        "pointsStatus": "UNAVAILABLE",
+        "pointsSource": null,
+        "pointsSourceType": "NONE",
+        "context": " Round 5 correction (2026-10-12): 9 stored points did not match the cited manufacturer table \"Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json.",
+        "thirdPartyPoints": {
+          "status": "THIRD_PARTY_VERIFIED",
+          "sourceType": "THIRD_PARTY",
+          "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+          "points": [
+            {
+              "hz": 20,
+              "db": 67
+            },
+            {
+              "hz": 30,
+              "db": 84
+            },
+            {
+              "hz": 40,
+              "db": 91
+            },
+            {
+              "hz": 50,
+              "db": 93.5
+            },
+            {
+              "hz": 60,
+              "db": 94.5
+            },
+            {
+              "hz": 70,
+              "db": 94.5
+            },
+            {
+              "hz": 80,
+              "db": 94
+            },
+            {
+              "hz": 90,
+              "db": 93
+            },
+            {
+              "hz": 100,
+              "db": 91.5
+            },
+            {
+              "hz": 200,
+              "db": 74
+            }
+          ],
+          "context": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A. Round 5 correction (2026-10-12): the first pass changed 9 points to values that are not in the cited table; a second pass set all 10 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries turbosound-ip15b and turbosound-ip15b second pass). round9-provenance-corrections: the source is a dealer-hosted copy (monthany.com) of the Turbosound iNSPIRE iP15B product information document. The manufacturer-hosted original (media63.musictribe.com) could not be opened. Origin is not proven, so the points are classified THIRD_PARTY_VERIFIED, not MANUFACTURER_VERIFIED. Values are unchanged. round9b-response-point-placement: not used by the simulator (dealer copy; origin not proven)."
+        }
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": null,
+        "unit": "ohm",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": 15,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "notes": "Exact Turbosound iNSPIRE iP15B manufacturer Product Information Document, fetched as a third-party mirror; the same manufacturer PDF is identified at https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. It specifies a powered 15-inch subwoofer, one LF transducer, 45–150 Hz ±3 dB and 38–200 Hz at -10 dB. The source separately lists 600 W for the subwoofer amplifier and 2 × 200 W for satellite amplifiers, but a rear-panel output diagram gives differing power labels (500 W/sub and 2 × 125 W/8 ohms or 2 × 250 W/4 ohms); no power scalar is assigned due to this internal rating discrepancy. Its electrical 4 dBu input sensitivity is not acoustic sensitivity; no scalar sensitivity or passive speaker impedance is populated. The exact manufacturer's 1 W/1 m response/SPL table is retained as 10 raw points with source wording and context; because this is an active sub and the document does not state a measurement space or an overall acoustic sensitivity, its curve is used only for normalized shape and no scalar sensitivity is inferred. The stated half-space dispersion is not an angular polar dataset. Sources: https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf and https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. round9-provenance-corrections: iP15B response points and frequency range are THIRD_PARTY_VERIFIED (dealer-hosted copy). sourceType stays unset.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+        "sourceType": null
+      }
     }
   ],
   "archiveMeta": [
@@ -471,6 +594,12 @@
     {
       "id": "pmc-bb5-xbd-a",
       "reason": "No acoustic field is sourced (all UNAVAILABLE); removed at user request 2026-10-12; archived unchanged.",
+      "redirectTo": null,
+      "archivedDate": "2026-10-12"
+    },
+    {
+      "id": "turbosound-ip15b",
+      "reason": "Owner decision 6 (2026-10-12): archive per the standing rule. Manufacturer origin of the iP15B Product Information Document is not established: the musictribe PDF was not retrievable and the only copy found is dealer-hosted (monthany.com). Record archived unchanged; recoverable. sourceType was not changed.",
       "redirectTo": null,
       "archivedDate": "2026-10-12"
     }

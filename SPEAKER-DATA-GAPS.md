@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-12 from the authoritative 659-record database.
+Generated 2026-10-12 from the authoritative 658-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -68,7 +68,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-k12.2 | QSC | K12.2 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | qsc-k10.2 | QSC | K10.2 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | mackie-thump15a | Mackie | Thump15A | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
-| turbosound-ip15b | Turbosound | iP15B | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | bose-l1-compact | Bose | L1 Compact | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | bose-s1-pro | Bose | S1 Pro | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | jbl-charge5 | JBL | Charge 5 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer |
@@ -218,7 +217,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | jbl-srx835p | JBL | SRX835P | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer |
 | jbl-control-52 | JBL | Control 52 | PARTIALLY_VERIFIED | resonantFreq, woofer |
 | jbl-control-30 | JBL | Control 30 | PARTIALLY_VERIFIED | sensitivity, resonantFreq |
-| yamaha-ns-6490 | Yamaha | NS-6490 | PARTIALLY_VERIFIED | impedance, resonantFreq, voiceCoil |
+| yamaha-ns-6490 | Yamaha | NS-6490 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | yamaha-ns-777 | Yamaha | NS-777 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | yamaha-ns-5000 | Yamaha | NS-5000 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | bw-803-d4 | Bowers & Wilkins | 803 D4 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
@@ -666,6 +665,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 659
+**Records with at least one source-backed acoustic field:** 658
 **Records with no source-backed acoustic field:** 0
 **Unavailable identities or confirmed non-loudspeaker records:** 0

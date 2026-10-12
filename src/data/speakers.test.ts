@@ -78,7 +78,8 @@ check("total record count matches the reviewed dataset", () => {
   // and the generic Zx3 record); the Zx3 record is replaced by two exact variants (+2). 693 - 24 + 2 = 671.
   // Owner decisions (2026-10-12 follow-up): legacy-jbl-5 (duplicate of jbl-4311), electro-voice-zx5 and legacy-ma-2 archived: 669 - 3 = 666.
   // User request (2026-10-12): 7 records with no acoustic data archived (removed-unavailable-2026-10-12.json): 666 - 7 = 659.
-  assert(db.length === 659, `expected 659 live records after the 2026-10-12 unavailable-record removal, found ${db.length}`);
+  // Owner decision 6 (2026-10-12): turbosound-ip15b archived (removed-unavailable-2026-10-12.json, 7 -> 8): 659 - 1 = 658.
+  assert(db.length === 658, `expected 658 live records after the owner decision 6 archive of turbosound-ip15b, found ${db.length}`);
   assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
   // Owner answers (2026-10-12): legacy-la-1 V-DOSC and legacy-la-2 ARCS archived (no exact source); ARCS II added live.
   // Live: 671 - 2 + 1 - 1 = 669 (focal-sopra2 duplicate archived 2026-10-12). Archive: 24 + 3 = 27. Total: 669 + 81 + 27 = 777.
@@ -2828,7 +2829,8 @@ check("Yamaha NS-series and Pioneer TS-D65C ratings retain exact references and 
   const expected = [
     { id: "yamaha-ns-5000", model: "NS-5000", source: "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html", sensitivity: 88, reference: "2.83V/1m", power: 200, impedance: 6, low: 26, high: 40000, woofer: 12, wooferUnit: "in", drivers: 3 },
     { id: "yamaha-ns-777", model: "NS-777", source: "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html", sensitivity: 89, reference: "2.83V/1m", power: 100, impedance: 6, low: 30, high: 35000, woofer: 8, wooferUnit: "in", drivers: 4 },
-    { id: "yamaha-ns-6490", model: "NS-6490", source: "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html", sensitivity: 90, reference: "2.83V/m", power: 70, impedance: null, low: 45, high: 23000, woofer: 8, wooferUnit: "in", drivers: 3 },
+    // Owner decision 7 (2026-10-12): US variant, 8 ohm (Malaysia 6 ohm is recorded in notes only).
+    { id: "yamaha-ns-6490", model: "NS-6490", source: "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html", sensitivity: 90, reference: "2.83V/m", power: 70, impedance: 8, low: 45, high: 23000, woofer: 8, wooferUnit: "in", drivers: 3 },
     { id: "pioneer-ts-d65c", model: "TS-D65C", source: "https://pioneer-car.eu/ts-d65c/ts-d65c", sensitivity: null, reference: undefined, power: 90, impedance: 4, low: 32, high: 49000, woofer: 17, wooferUnit: "cm", drivers: 2 },
   ];
   for (const item of expected) {
@@ -2859,8 +2861,9 @@ check("Yamaha NS-series and Pioneer TS-D65C ratings retain exact references and 
   nodeAssert.match(ns5000.notes, /26 Hz–40 kHz at -10 dB/);
   nodeAssert.match(ns5000.notes, /100 kHz at -30 dB is not combined/);
   nodeAssert.match(ns5000.notes, /600 W; only the nominal input figure is stored as allowable_input/);
-  nodeAssert.match(ns6490.notes, /official manufacturer sources conflict/);
-  nodeAssert.match(ns6490.notes, /impedance field remains N\/A/);
+  nodeAssert.match(ns6490.notes, /Impedance is set to the US variant \(8 ohm, owner decision 7/);
+  nodeAssert.match(ns6490.notes, /my\.yamaha\.com\) lists 6 ohm/);
+  nodeAssert.match(ns6490.notes, /Malaysia NS-6490 page/);
   nodeAssert.equal(tsd65c.sensitivity.value, null, "Pioneer's 84 dB sensitivity has no stated measurement reference");
   nodeAssert.match(tsd65c.notes, /90 W nominal input power and 270 W maximum input power/);
   nodeAssert.match(tsd65c.notes, /84 dB but states no measurement reference/);
