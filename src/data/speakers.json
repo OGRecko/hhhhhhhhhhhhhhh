@@ -25694,10 +25694,422 @@
           }
         ],
         "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
-        "context": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged. Round 3 cross-check: alternative official copies (products.electrovoice.com product page and ELX200-15_BDL_en.pdf) were found but contain summary figures only, not the row-level table, so the 84-vs-85 row count is unresolved. Against the stored points (relative to 1 kHz = 95 dB), the -3 dB points fall at about 75 Hz and 13 kHz and the -10 dB points at about 55 Hz and 17 kHz, versus the official -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The official averaging band is not stated, so this is recorded as an open discrepancy, not a transcription correction. Round 3 decision: the primary datasheet could not be obtained, so the row count (84 stated vs 85 stored) is an unresolved conflict. The response table is held in disputedPoints and is not used by the simulator; the field is UNAVAILABLE until the primary document settles it.",
+        "context": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged. Round 3 cross-check: alternative official copies (products.electrovoice.com product page and ELX200-15_BDL_en.pdf) were found but contain summary figures only, not the row-level table, so the 84-vs-85 row count is unresolved. Against the stored points (relative to 1 kHz = 95 dB), the -3 dB points fall at about 75 Hz and 13 kHz and the -10 dB points at about 55 Hz and 17 kHz, versus the official -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The official averaging band is not stated, so this is recorded as an open discrepancy, not a transcription correction. Round 3 decision: the primary datasheet could not be obtained, so the row count (84 stated vs 85 stored) is an unresolved conflict. The response table is held in disputedPoints and is not used by the simulator; the field is UNAVAILABLE until the primary document settles it. Reconciliation (2026-10-12): the primary datasheet was reopened. It prints 86 rows, not 84 or 85; see primarySourceReconciliation for the row-by-row comparison. The stored points are not replaced without owner approval.",
         "pointsSourceType": "MANUFACTURER",
         "simulationExcluded": true,
-        "exclusionReason": "Round 4: the 84-row (stated) vs 85-point (stored) conflict is unresolved and the primary datasheet has not been obtained. The table is excluded from simulation until exact-model evidence is validated; the record and the table are preserved."
+        "exclusionReason": "Round 4: the 84-row (stated) vs 85-point (stored) conflict is unresolved and the primary datasheet has not been obtained. The table is excluded from simulation until exact-model evidence is validated; the record and the table are preserved.",
+        "primarySourceReconciliation": {
+          "status": "PRIMARY_SHEET_TRANSCRIBED_NOT_ADOPTED",
+          "reviewedDate": "2026-10-12",
+          "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+          "sourceType": "MANUFACTURER",
+          "table": "Frequency Response, Full Space, 1W/1m (Sensitivity, dB), Frequency (Hz) column; 86 rows, 20 Hz to 20 kHz",
+          "points": [
+            {
+              "hz": 20,
+              "db": 62
+            },
+            {
+              "hz": 25,
+              "db": 68
+            },
+            {
+              "hz": 30,
+              "db": 73
+            },
+            {
+              "hz": 35,
+              "db": 76
+            },
+            {
+              "hz": 40,
+              "db": 79
+            },
+            {
+              "hz": 45,
+              "db": 81
+            },
+            {
+              "hz": 50,
+              "db": 83
+            },
+            {
+              "hz": 55,
+              "db": 85
+            },
+            {
+              "hz": 60,
+              "db": 87
+            },
+            {
+              "hz": 65,
+              "db": 89
+            },
+            {
+              "hz": 70,
+              "db": 91
+            },
+            {
+              "hz": 75,
+              "db": 92
+            },
+            {
+              "hz": 80,
+              "db": 93
+            },
+            {
+              "hz": 85,
+              "db": 94
+            },
+            {
+              "hz": 90,
+              "db": 95
+            },
+            {
+              "hz": 95,
+              "db": 95
+            },
+            {
+              "hz": 100,
+              "db": 95
+            },
+            {
+              "hz": 110,
+              "db": 95.5
+            },
+            {
+              "hz": 120,
+              "db": 95.5
+            },
+            {
+              "hz": 130,
+              "db": 95
+            },
+            {
+              "hz": 140,
+              "db": 94.5
+            },
+            {
+              "hz": 150,
+              "db": 95
+            },
+            {
+              "hz": 160,
+              "db": 95.5
+            },
+            {
+              "hz": 170,
+              "db": 95.5
+            },
+            {
+              "hz": 180,
+              "db": 95
+            },
+            {
+              "hz": 190,
+              "db": 95
+            },
+            {
+              "hz": 200,
+              "db": 95
+            },
+            {
+              "hz": 220,
+              "db": 95
+            },
+            {
+              "hz": 250,
+              "db": 95
+            },
+            {
+              "hz": 280,
+              "db": 95
+            },
+            {
+              "hz": 300,
+              "db": 94.5
+            },
+            {
+              "hz": 330,
+              "db": 95
+            },
+            {
+              "hz": 360,
+              "db": 95.5
+            },
+            {
+              "hz": 400,
+              "db": 95.5
+            },
+            {
+              "hz": 450,
+              "db": 95
+            },
+            {
+              "hz": 500,
+              "db": 95
+            },
+            {
+              "hz": 550,
+              "db": 95
+            },
+            {
+              "hz": 600,
+              "db": 95
+            },
+            {
+              "hz": 650,
+              "db": 95
+            },
+            {
+              "hz": 700,
+              "db": 95
+            },
+            {
+              "hz": 750,
+              "db": 95
+            },
+            {
+              "hz": 800,
+              "db": 95
+            },
+            {
+              "hz": 850,
+              "db": 95
+            },
+            {
+              "hz": 900,
+              "db": 95
+            },
+            {
+              "hz": 950,
+              "db": 95
+            },
+            {
+              "hz": 1000,
+              "db": 95
+            },
+            {
+              "hz": 1100,
+              "db": 94
+            },
+            {
+              "hz": 1200,
+              "db": 93.5
+            },
+            {
+              "hz": 1300,
+              "db": 94
+            },
+            {
+              "hz": 1400,
+              "db": 94.5
+            },
+            {
+              "hz": 1500,
+              "db": 95
+            },
+            {
+              "hz": 1600,
+              "db": 95
+            },
+            {
+              "hz": 1700,
+              "db": 94
+            },
+            {
+              "hz": 1800,
+              "db": 92
+            },
+            {
+              "hz": 1900,
+              "db": 92
+            },
+            {
+              "hz": 2000,
+              "db": 92
+            },
+            {
+              "hz": 2200,
+              "db": 93
+            },
+            {
+              "hz": 2400,
+              "db": 93.5
+            },
+            {
+              "hz": 2600,
+              "db": 94
+            },
+            {
+              "hz": 2800,
+              "db": 95
+            },
+            {
+              "hz": 3000,
+              "db": 95
+            },
+            {
+              "hz": 3300,
+              "db": 95
+            },
+            {
+              "hz": 3600,
+              "db": 95
+            },
+            {
+              "hz": 4000,
+              "db": 95
+            },
+            {
+              "hz": 4500,
+              "db": 95
+            },
+            {
+              "hz": 5000,
+              "db": 95
+            },
+            {
+              "hz": 5500,
+              "db": 95
+            },
+            {
+              "hz": 6000,
+              "db": 95
+            },
+            {
+              "hz": 6500,
+              "db": 95
+            },
+            {
+              "hz": 7000,
+              "db": 95
+            },
+            {
+              "hz": 7500,
+              "db": 95
+            },
+            {
+              "hz": 8000,
+              "db": 95
+            },
+            {
+              "hz": 8500,
+              "db": 95
+            },
+            {
+              "hz": 9000,
+              "db": 95
+            },
+            {
+              "hz": 9500,
+              "db": 95
+            },
+            {
+              "hz": 10000,
+              "db": 95
+            },
+            {
+              "hz": 11000,
+              "db": 94
+            },
+            {
+              "hz": 12000,
+              "db": 93
+            },
+            {
+              "hz": 13000,
+              "db": 92
+            },
+            {
+              "hz": 14000,
+              "db": 91
+            },
+            {
+              "hz": 15000,
+              "db": 90
+            },
+            {
+              "hz": 16000,
+              "db": 88
+            },
+            {
+              "hz": 17000,
+              "db": 85
+            },
+            {
+              "hz": 18000,
+              "db": 82
+            },
+            {
+              "hz": 19000,
+              "db": 80
+            },
+            {
+              "hz": 20000,
+              "db": 78
+            }
+          ],
+          "comparisonWithStoredPoints": {
+            "storedRows": 85,
+            "primaryRows": 86,
+            "rowsOnlyInPrimary": [
+              2400,
+              2600
+            ],
+            "rowsOnlyInStored": [
+              2500
+            ],
+            "valueDifferences": [
+              {
+                "hz": 140,
+                "stored_db": 94,
+                "primary_db": 94.5
+              },
+              {
+                "hz": 280,
+                "stored_db": 94,
+                "primary_db": 95
+              },
+              {
+                "hz": 300,
+                "stored_db": 95,
+                "primary_db": 94.5
+              },
+              {
+                "hz": 330,
+                "stored_db": 95.5,
+                "primary_db": 95
+              },
+              {
+                "hz": 400,
+                "stored_db": 95,
+                "primary_db": 95.5
+              },
+              {
+                "hz": 1200,
+                "stored_db": 93,
+                "primary_db": 93.5
+              },
+              {
+                "hz": 1400,
+                "stored_db": 95,
+                "primary_db": 94.5
+              },
+              {
+                "hz": 2000,
+                "stored_db": 93,
+                "primary_db": 92
+              },
+              {
+                "hz": 2200,
+                "stored_db": 94,
+                "primary_db": 93
+              }
+            ]
+          },
+          "note": "The primary sheet is the exact-model EV datasheet, so the earlier 'primary could not be obtained' basis for the conflict no longer holds. Compared with the stored 85 points, the primary table has 86 rows: it adds [2400, 2600] Hz, drops the stored [2500] Hz row (not printed on the sheet), and differs in 9 stored values. The stored 85 points are preserved unchanged in 'points' and the disputed status stays until the owner decides. The simulator exclusion stays in place."
+        }
       }
     },
     "driverCount": 2,
