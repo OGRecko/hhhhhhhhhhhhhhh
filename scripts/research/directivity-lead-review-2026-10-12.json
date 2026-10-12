@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-12",
+  "leadCount": 51,
+  "importedCount": 0,
+  "summaryByCategory": {
+    "NOMINAL_ONLY": 14,
+    "ARCHIVE_NOT_INSPECTED": 11,
+    "PARTIAL_OFFAXIS_TABLES": 10,
+    "RECORD_ARCHIVED": 7,
+    "BEAMWIDTH_OR_DI_ONLY": 5,
+    "THIRD_PARTY_CHART_ONLY": 4
+  },
+  "leads": [
+    {
+      "id": "bose-designmax-dm3se",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "BEAMWIDTH_OR_DI_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "frequency-dependent beamwidth/DI tables without a full off-axis response set"
+    },
+    {
+      "id": "bose-designmax-dm6se",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "BEAMWIDTH_OR_DI_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "frequency-dependent beamwidth/DI tables without a full off-axis response set"
+    },
+    {
+      "id": "bose-designmax-dm8se",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "BEAMWIDTH_OR_DI_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "frequency-dependent beamwidth/DI tables without a full off-axis response set"
+    },
+    {
+      "id": "bose-freespace-ds100se",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "bose-freespace-ds16s",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "bose-l1-compact",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "bose-sub1",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "dandb-t10",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "electro-voice-sx600",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "BEAMWIDTH_OR_DI_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "frequency-dependent beamwidth/DI tables without a full off-axis response set"
+    },
+    {
+      "id": "electro-voice-evf-1152d",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "electro-voice-zx1i",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "electro-voice-zx3",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "electro-voice-zx4",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "BEAMWIDTH_OR_DI_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "frequency-dependent beamwidth/DI tables without a full off-axis response set"
+    },
+    {
+      "id": "electro-voice-zx5",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "genelec-8361a",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "jbl-4310",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "jbl-4311",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "jbl-4312",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "jbl-4350",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "jbl-4412",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "jbl-4430",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "jbl-control-30",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "jbl-l19",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "jbl-lsr32",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "jbl-srx815",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "jbl-vrx932",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "kef-reference-1",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "THIRD_PARTY_CHART_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "independent or third-party measurement, chart-only or not manufacturer data"
+    },
+    {
+      "id": "legacy-bose-6",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "legacy-gen-9",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "legacy-jbl-1",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "legacy-jbl-11",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "legacy-jbl-3",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "legacy-jbl-5",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "legacy-jbl-6",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "legacy-ma-3",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "nexo-ps15",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "PARTIAL_OFFAXIS_TABLES",
+      "decision": "NOT_IMPORTED",
+      "reason": "some off-axis or spatial-average tables, incomplete for a polar field"
+    },
+    {
+      "id": "rcf-nx45a",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "adamson-e15",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "void-air-8",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "danley-sh96",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "eaw-kf760",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "funktion-one-res2",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "lacoustics-arcs",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "legacy-la-1",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "legacy-la-2",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "RECORD_ARCHIVED",
+      "decision": "NOT_IMPORTED",
+      "reason": "lead refers to a record archived in round 5 (history only; does not apply to a live record)"
+    },
+    {
+      "id": "legacy-la-3",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "legacy-la-7",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "NOMINAL_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "single nominal coverage, aggregate angle, or threshold value; not an angle-resolved polar set"
+    },
+    {
+      "id": "ik-multimedia-iloud-mtm",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "THIRD_PARTY_CHART_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "independent or third-party measurement, chart-only or not manufacturer data"
+    },
+    {
+      "id": "psb-synchrony-t600",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "THIRD_PARTY_CHART_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "independent or third-party measurement, chart-only or not manufacturer data"
+    },
+    {
+      "id": "genelec-8331a",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "LIVE",
+      "category": "ARCHIVE_NOT_INSPECTED",
+      "decision": "NOT_IMPORTED",
+      "reason": "manufacturer archive or simulation file exists but was not downloaded, or retrieval failed; no polar parser"
+    },
+    {
+      "id": "genelec-8331a-measurement",
+      "leadStatus": "LEAD_NOT_IMPORTED",
+      "recordState": "ARCHIVED_OR_NO_RECORD",
+      "category": "THIRD_PARTY_CHART_ONLY",
+      "decision": "NOT_IMPORTED",
+      "reason": "independent or third-party measurement, chart-only or not manufacturer data"
+    }
+  ],
+  "note": "No directivity data was imported in this review. The directivity schema requires a complete angle-resolved response; none of the 51 leads supplies one from a fetched source."
+}
