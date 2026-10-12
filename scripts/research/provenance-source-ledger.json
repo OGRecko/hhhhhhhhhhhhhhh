@@ -584,6 +584,72 @@
         "pioneer-ts-a active held value cleared (stays null)"
       ],
       "queueItemsResolved": 0
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "host": "jblpro.com",
+      "document": "JBL 4430/4435 specification page",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "coverage": "driverCount 2 confirmed for 4430 (legacy-jbl-6 duplicate too). Active not stated.",
+      "decisions": [
+        "jbl-4430 driverCount 2 MANUFACTURER_VERIFIED",
+        "legacy-jbl-6 driverCount 2 MANUFACTURER_VERIFIED"
+      ],
+      "queueItemsResolved": 2
+    },
+    {
+      "url": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
+      "host": "bang-olufsen.com",
+      "document": "B&O Beosound A5 vs Level comparison",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "coverage": "Driver layouts and per-driver class-D amplifiers for both models. Page had an analytics block that was blocked; the spec table loaded.",
+      "decisions": [
+        "beosound-a5 driverCount 4, active True verified",
+        "beosound-level driverCount 5, active True verified"
+      ],
+      "queueItemsResolved": 4
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
+      "host": "mackie.com",
+      "document": "CR3-X / CR4-X / CR5-X quick start guide",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 6,
+      "coverage": "Chunk 0 only (safety text).",
+      "decisions": [
+        "mackie-cr3-x unchanged; spec chunk still to open"
+      ],
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
+      "host": "leone.sk (reseller host of EV manual)",
+      "document": "Electro-Voice ZLX user manual (powered and passive)",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 5,
+      "coverage": "Chunk 0 only (contents, safety). Technical data chunk still to open.",
+      "decisions": [
+        "eV-zlx12p / eV-zlx15p unchanged"
+      ],
+      "queueItemsResolved": 0
     }
   ],
   "openQuestionsForOwner": [
@@ -660,6 +726,17 @@
       "applied": [
         "martinlogan-motion-60xt driverCount 4 MANUFACTURER_VERIFIED (spec table)",
         "amazon-echo, peavey-5150-412, pioneer-ts-a: held values remain null; notes record rejected sources"
+      ]
+    },
+    {
+      "round": 11,
+      "marker": "round11-queue-batch",
+      "date": "2026-10-12",
+      "fieldsPromoted": 6,
+      "applied": [
+        "jbl-4430 and legacy-jbl-6 driverCount 2",
+        "bang-olufsen-beosound-a5 driverCount 4 / active True",
+        "bang-olufsen-beosound-level driverCount 5 / active True"
       ]
     }
   ]

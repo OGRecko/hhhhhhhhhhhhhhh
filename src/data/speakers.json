@@ -1525,11 +1525,13 @@
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact JBL 4430 column of the combined 4430/4435 manufacturer information page; no 4435 data is transferred. The 4430 specifications are 35 Hz–16 kHz ±3 dB, 93 dB at 1 W/1 m, 8-ohm nominal impedance, 300 W continuous-program rating, and a two-way/two-driver system using one 15-inch LF transducer with a 4-inch voice coil and one 2425H compression driver. The source also gives frequency-dependent beamwidth, DI/Q and off-axis response data for 4430; those are documented in a directivity lead but not imported as a complete polar payload. No response points are extracted from the plotted curves. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information.",
+    "notes": "Exact JBL 4430 column of the combined 4430/4435 manufacturer information page; no 4435 data is transferred. The 4430 specifications are 35 Hz–16 kHz ±3 dB, 93 dB at 1 W/1 m, 8-ohm nominal impedance, 300 W continuous-program rating, and a two-way/two-driver system using one 15-inch LF transducer with a 4-inch voice coil and one 2425H compression driver. The source also gives frequency-dependent beamwidth, DI/Q and off-axis response data for 4430; those are documented in a directivity lead but not imported as a complete polar payload. No response points are extracted from the plotted curves. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information. round11-queue-batch: field-level check recorded in provenance.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round11-queue-batch: one 380 mm LF driver + one compression driver = 2 drivers (spec page)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -18370,11 +18372,13 @@
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Duplicate legacy record for the exact JBL 4430, synchronized with jbl-4430 from the 4430-specific column of JBL's combined 4430/4435 page. Values and exclusions are identical; none are borrowed from the 4435. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information.",
+    "notes": "Duplicate legacy record for the exact JBL 4430, synchronized with jbl-4430 from the 4430-specific column of JBL's combined 4430/4435 page. Values and exclusions are identical; none are borrowed from the 4435. Source: https://jblpro.com/en-US/site_elements/4430-and-4435-information. round11-queue-batch: field-level check recorded in provenance.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round11-queue-batch: duplicate record of the same JBL 4430 page; one LF + one compression driver = 2."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -49824,16 +49828,20 @@
     },
     "driverCount": 4,
     "panel": null,
-    "notes": "Bang & Olufsen’s official comparison page identifies the Beosound A5 configuration as one 0.8-inch tweeter, two 2-inch full-range drivers, and one 5¼-inch woofer (four drivers), with 32–23,000 Hz frequency range and 280 W total amplification. The comparison table does not label the 280 W as RMS or peak, so no such condition is implied. Its separate 101 dB SPL maximum at 1 m is not sensitivity. No measured response-point/directivity dataset is supplied or imported. Source: https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20.",
+    "notes": "Bang & Olufsen’s official comparison page identifies the Beosound A5 configuration as one 0.8-inch tweeter, two 2-inch full-range drivers, and one 5¼-inch woofer (four drivers), with 32–23,000 Hz frequency range and 280 W total amplification. The comparison table does not label the 280 W as RMS or peak, so no such condition is implied. Its separate 101 dB SPL maximum at 1 m is not sensitivity. No measured response-point/directivity dataset is supplied or imported. Source: https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20. round11-queue-batch: field-level check recorded in provenance.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round11-queue-batch: 1x0.8in tweeter + 2x2in full-range + 1x5.25in woofer = 4."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round11-queue-batch: class-D amplifiers listed per driver (built-in amplification)."
     }
   },
   {
@@ -49967,16 +49975,20 @@
     },
     "driverCount": 5,
     "panel": null,
-    "notes": "Bang & Olufsen’s official comparison page identifies two 0.8-inch tweeters, one 2-inch full-range driver, and two 4-inch woofers (five drivers), 39–23,000 Hz, and 105 W total amplification for Beosound Level. The total is explicitly manufacturer-listed; the page does not label it RMS or peak, so neither condition is implied. Maximum 96 dB SPL at 1 m is not sensitivity. No response-point/polar data are supplied or imported. Source: https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20.",
+    "notes": "Bang & Olufsen’s official comparison page identifies two 0.8-inch tweeters, one 2-inch full-range driver, and two 4-inch woofers (five drivers), 39–23,000 Hz, and 105 W total amplification for Beosound Level. The total is explicitly manufacturer-listed; the page does not label it RMS or peak, so neither condition is implied. Maximum 96 dB SPL at 1 m is not sensitivity. No response-point/polar data are supplied or imported. Source: https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20. round11-queue-batch: field-level check recorded in provenance.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round11-queue-batch: 2x0.8in tweeter + 1x2in full-range + 2x4in woofer = 5."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "checkedDate": "2026-10-12",
+      "note": "round11-queue-batch: class-D amplifiers listed per driver (built-in amplification)."
     }
   },
   {

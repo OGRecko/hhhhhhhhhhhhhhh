@@ -1,20 +1,20 @@
 {
   "generated_from": "src/data/speakers.json",
   "liveRecords": 659,
-  "uncheckedItems": 797,
-  "uniqueSourceUrls": 447,
+  "uncheckedItems": 791,
+  "uniqueSourceUrls": 446,
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 353
+      "count": 351
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 32
+      "count": 34
     },
     {
       "field": "active",
@@ -32,13 +32,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 444
+      "count": 440
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 48
+      "count": 52
     },
     {
       "field": "driverCount",
@@ -79,32 +79,6 @@
         "kef-r7"
       ],
       "fields": [
-        "driverCount"
-      ]
-    },
-    {
-      "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
-      "host": "jblpro.com",
-      "items": 4,
-      "records": [
-        "jbl-4430",
-        "legacy-jbl-6"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ]
-    },
-    {
-      "url": "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
-      "host": "www.bang-olufsen.com",
-      "items": 4,
-      "records": [
-        "bang-olufsen-beosound-a5",
-        "bang-olufsen-beosound-level"
-      ],
-      "fields": [
-        "active",
         "driverCount"
       ]
     },
@@ -1648,6 +1622,18 @@
       "fields": [
         "active",
         "driverCount"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "host": "jblpro.com",
+      "items": 2,
+      "records": [
+        "jbl-4430",
+        "legacy-jbl-6"
+      ],
+      "fields": [
+        "active"
       ]
     },
     {
