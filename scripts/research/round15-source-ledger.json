@@ -1,0 +1,49 @@
+{
+  "schema": "source-ledger/round15/v1",
+  "checkedDate": "2026-10-12",
+  "description": "Durable record of source attempts from round 15 that are not queue applies. Nothing here changes speakers.json. Outcomes are per field and per source; a source is not verified as a whole.",
+  "entries": [
+    {
+      "id": "genelec-8331a-sofa",
+      "record": "genelec-8331a",
+      "field": "directivity (SOFA import)",
+      "url": "https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1",
+      "zenodoRecord": "https://zenodo.org/records/10255555",
+      "doi": "10.5281/zenodo.10255554",
+      "expectedMd5": "a00e40164556183420c315e9f6ecd7fd",
+      "attempt": "fetch_page on file URL, 2026-10-12",
+      "result": "HTTP 500 from fetch_page; file not downloaded; MD5 not computed",
+      "outcome": "INACCESSIBLE_EGRESS_BLOCKED",
+      "notes": "Record metadata only (CC-BY-4.0 licence stated on record; checksum matches the stored value). No SOFA parser exists. No import. Do not substitute another Genelec file or synthesize polar data. Earlier record ID 15365289 was wrong (taxonomy record) and is not a source."
+    },
+    {
+      "id": "qsc-wl8-manual-rev-d",
+      "records": ["qsc-wl3082", "qsc-wl212-sw"],
+      "field": "active",
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
+      "document": "QSC WideLine-8 Series Loudspeaker System User Manual, TD-000237-00 rev D, copyright 2017, QSC LLC",
+      "hostNote": "QSC brand-owned domain. Host is not in source-host-allowlist.json; treat as a brand-domain source pending owner decision 8.",
+      "chunksOpened": [0, 1, 2, 3],
+      "chunksTotal": 4,
+      "result": "NO_EXPLICIT_CONFIGURATION_STATEMENT",
+      "evidence": [
+        "WL3082: 'The WL3082 loudspeaker is not equipped with a crossover network. All signal processing must be done before connecting audio power to the loudspeaker.'",
+        "WL3082: input is two Neutrik NL8 connectors wired in parallel; LF and HF transducers listed at 16 ohms.",
+        "WL212-sw: 'Input Connections' via NL8 and NL4 speakon, transducers listed at 4 ohms; 1100 W continuous; recommended crossover 30-85 Hz; input sensitivity 99 dB.",
+        "No passage uses the words 'passive' or 'active' for either model, and no amplifier is described as part of either enclosure."
+      ],
+      "outcome": "SUPPORTS_PASSIVE_NOT_EXPLICIT",
+      "decision": "active stays null for both records. The brief requires primary documentation that confirms passive/active. This manual supports passive operation but does not state it, so it does not meet that bar. Owner may decide whether passive-by-description is sufficient."
+    },
+    {
+      "id": "turbosound-ip15b-musictribe-pid",
+      "record": "turbosound-ip15b",
+      "field": "sourceType",
+      "url": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+      "attempt": "fetch_page in round 14 (not retried in round 15)",
+      "result": "Failed to fetch page",
+      "outcome": "NOT_OPENED",
+      "notes": "Manufacturer origin is unproven. sourceType unchanged. A dealer copy was found but is not manufacturer origin. Archive decision still awaits owner confirmation (owner decision 6)."
+    }
+  ]
+}
