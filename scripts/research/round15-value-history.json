@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "genelec-1031a",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: System spec sheet: Bass 8in + Treble 1in metal dome = 2 drivers."
+      },
+      "round": 15
+    },
+    {
+      "id": "genelec-1031a",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: System spec sheet lists per-channel amplifier power (bass 120 W, treble 120 W); Genelec exact-model page describes a two-way active monitor system."
+      },
+      "round": 15
+    },
+    {
+      "id": "genelec-8020c",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Datasheet: one 105 mm bass driver and one 19 mm treble driver."
+      },
+      "round": 15
+    },
+    {
+      "id": "genelec-8020c",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 15: Datasheet: 'biamplified active monitor system'; bass and treble amplifiers in the enclosure."
+      },
+      "round": 15
+    }
+  ],
+  "marker": "round15-queue-batch"
+}

@@ -5,30 +5,30 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 659,
-  "uncheckedItems": 705,
-  "uniqueSourceUrls": 404,
+  "uncheckedItems": 701,
+  "uniqueSourceUrls": 402,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 2,
-    "CHECKED_PARTIAL": 7,
-    "OPEN": 395
+    "CHECKED_PARTIAL": 8,
+    "OPEN": 392
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 8,
-    "CHECKED_PARTIAL": 20,
-    "OPEN": 677
+    "CHECKED_PARTIAL": 21,
+    "OPEN": 672
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 307
+      "count": 305
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 78
+      "count": 80
     },
     {
       "field": "active",
@@ -46,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 398
+      "count": 396
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 94
+      "count": 96
     },
     {
       "field": "driverCount",
@@ -84,6 +84,8 @@
     "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
     "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
     "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+    "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+    "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
     "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
     "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
     "https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf",
@@ -550,72 +552,6 @@
         0
       ],
       "evidence": "Introduction: 'active near- to midfield studio monitor'; 'One 7 inch bass woofer, a dedicated 4 inch midrange woofer ... Air Motion Transformer tweeter ... 3x300W ICEpower amplification'. Host is not the manufacturer domain, so no promotion under the current policy (owner decision 1 still open)."
-    },
-    {
-      "url": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
-      "host": "assets.ctfassets.net",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "genelec-1031a"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "genelec-1031a",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "genelec-1031a",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
-    },
-    {
-      "url": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
-      "host": "assets.ctfassets.net",
-      "status": "OPEN",
-      "items": 2,
-      "records": [
-        "genelec-8020c"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "genelec-8020c",
-          "field": "active",
-          "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "genelec-8020c",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
     },
     {
       "url": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
@@ -10599,7 +10535,7 @@
     {
       "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "host": "usa.yamaha.com",
-      "status": "OPEN",
+      "status": "CHECKED_PARTIAL",
       "items": 1,
       "records": [
         "yamaha-ns-6490"
@@ -10612,14 +10548,16 @@
           "record": "yamaha-ns-6490",
           "field": "driverCount",
           "value": 3,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "US manufacturer page lists three named drivers. Host usa.yamaha.com is not in source-host-allowlist.json, so no promotion until the host decision (owner decision 8) is made. Not a regional impedance answer."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null
+      "checkedRound": 15,
+      "checkedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "evidence": "Driver: 8\" cone woofer, 4\" cone mid-range, 7/8\" balanced dome tweeter (three drivers). Nominal impedance 8 ohms; sensitivity 90 dB/2.83 V/m; nominal input 70 W, maximum 140 W; 45 Hz - 23 kHz. US product only."
     },
     {
       "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",

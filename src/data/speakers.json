@@ -1944,14 +1944,16 @@
     },
     "notes": "Manufacturer system specification: 2-way active monitor; 8 in bass driver; 1 in metal-dome treble driver; 48–22,000 Hz ±2.5 dB; 120 W bass + 120 W treble amplification. No passive speaker impedance is applicable to this powered monitor. Source: https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: System spec sheet: Bass 8in + Treble 1in metal dome = 2 drivers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: System spec sheet lists per-channel amplifier power (bass 120 W, treble 120 W); Genelec exact-model page describes a two-way active monitor system."
     }
   },
   {
@@ -11785,14 +11787,16 @@
     },
     "notes": "Exact Genelec 8020C source: official datasheet (https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf), with the exact-model archive page identifying 8020C and its 2013–2017 production period (https://www.genelec.com/previous-models/8020c) and the official operating manual describing it as a bi-amplified two-way active monitor (https://assets.ctfassets.net/4zjnzn055a4v/NdWcFNlq0eSKwq6yCiUkw/af60eb3d66a29ec131ee3fee1586d217/8020C_opman.pdf). The datasheet specifies free-field response 66 Hz–20 kHz (±2.5 dB); its separate -3 dB cutoff bounds are ≤65 Hz and ≥21 kHz, so those bounds are not substituted for the stated response range. It specifies one 105 mm (4 in) bass driver and one 19 mm treble driver (two drivers total). Bass and treble amplifiers each have short-term output of 20 W at an 8 Ω load; 40 W is their sum, recorded only as internal amplifier output, not loudspeaker power handling, and the source does not state RMS for these outputs. The 8 Ω amplifier test load is not the speaker's impedance. Sensitivity remains unavailable: the listed -6 dBu input level for 100 dB SPL at 1 m is an active monitor's signal-input level, not a passive sensitivity rating. The 10 kΩ balanced XLR input is not loudspeaker impedance. Resonant frequency and voice-coil size are not stated. No response-point table or directivity data was imported: although the datasheet includes a directivity figure, its associated tabulation is headed “Genelec Oy 8020” and dated 6 Apr 2005, which does not unambiguously establish the 8020C revision for point-level data; retain only the exact-model response limits.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Datasheet: one 105 mm bass driver and one 19 mm treble driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 15: Datasheet: 'biamplified active monitor system'; bass and treble amplifiers in the enclosure."
     }
   },
   {

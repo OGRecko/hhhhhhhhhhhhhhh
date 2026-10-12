@@ -11,19 +11,36 @@
       "zenodoRecord": "https://zenodo.org/records/10255555",
       "doi": "10.5281/zenodo.10255554",
       "expectedMd5": "a00e40164556183420c315e9f6ecd7fd",
-      "attempt": "fetch_page on file URL, 2026-10-12",
+      "attempt": "fetch_page on file URL (HTTP 500); fetch_page on zenodo.org/api/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa/content (HTTP 500)",
       "result": "HTTP 500 from fetch_page; file not downloaded; MD5 not computed",
       "outcome": "INACCESSIBLE_EGRESS_BLOCKED",
-      "notes": "Record metadata only (CC-BY-4.0 licence stated on record; checksum matches the stored value). No SOFA parser exists. No import. Do not substitute another Genelec file or synthesize polar data. Earlier record ID 15365289 was wrong (taxonomy record) and is not a source."
+      "notes": "Checksum and metadata confirmed from the Zenodo record API. The file bytes were NOT obtained (HTTP 500 on both file routes). Nothing imported. No substitute Genelec file or synthetic polar data.",
+      "metadataConfirmed": {
+        "source": "https://zenodo.org/api/records/10255555 (opened, record JSON)",
+        "file": "LS_directivity_Calibrated_GENELEC_8331A.sofa",
+        "sizeBytes": 410523274,
+        "md5": "a00e40164556183420c315e9f6ecd7fd",
+        "matchesExpectedMd5": true,
+        "licence": "cc-by-4.0 (record field)",
+        "record": "Sound-source directivity dataset for four loudspeakers, Gallien/Prawda/Schlecht, published 2023-12-04; measured with Aalto University anechoic chamber; elevation -80..90 deg (10 deg steps), azimuth 0..359 deg (1 deg steps)"
+      }
     },
     {
       "id": "qsc-wl8-manual-rev-d",
-      "records": ["qsc-wl3082", "qsc-wl212-sw"],
+      "records": [
+        "qsc-wl3082",
+        "qsc-wl212-sw"
+      ],
       "field": "active",
       "url": "https://www.qscaudio.com/resource-files/productresources/spk/wideline_8/q_spk_wl8_usermanual.pdf",
       "document": "QSC WideLine-8 Series Loudspeaker System User Manual, TD-000237-00 rev D, copyright 2017, QSC LLC",
       "hostNote": "QSC brand-owned domain. Host is not in source-host-allowlist.json; treat as a brand-domain source pending owner decision 8.",
-      "chunksOpened": [0, 1, 2, 3],
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
       "chunksTotal": 4,
       "result": "NO_EXPLICIT_CONFIGURATION_STATEMENT",
       "evidence": [
@@ -44,6 +61,36 @@
       "result": "Failed to fetch page",
       "outcome": "NOT_OPENED",
       "notes": "Manufacturer origin is unproven. sourceType unchanged. A dealer copy was found but is not manufacturer origin. Archive decision still awaits owner confirmation (owner decision 6)."
+    },
+    {
+      "id": "yamaha-ns-6490-my-page",
+      "records": [
+        "yamaha-ns-6490"
+      ],
+      "field": "driverCount, impedance (regional comparison)",
+      "url": "https://my.yamaha.com/en/audio/home-audio/products/speakers/ns-6490/",
+      "host": "my.yamaha.com",
+      "attempt": "fetch_page chunks 0-1 of 2, 2026-10-12",
+      "result": "OPENED",
+      "document": "Yamaha Malaysia NS-6490 product overview (manufacturer regional site; Malaysia variant)",
+      "hostNote": "my.yamaha.com not in source-host-allowlist.json; no promotion from it.",
+      "evidence": [
+        "Driver: 20cm (8in) woofer, 10cm (4in) midrange, 2.2cm (7/8in) balanced-dome tweeter (three drivers).",
+        "Impedance: 6 ohms.",
+        "Sensitivity 90 dB/2.83 V/m; frequency response 45-23,000 Hz; input power 140 W max / 70 W nominal; crossover 2.5 kHz and 8 kHz."
+      ],
+      "outcome": "REGIONAL_CONFLICT_IMPEDANCE",
+      "decision": "Malaysia publishes 6 ohms; US publishes 8 ohms (usa.yamaha.com). The two are separate regional variants and are not combined. Impedance stays UNAVAILABLE pending owner decision 7. driverCount 3 is independently supported by both regional pages."
+    },
+    {
+      "id": "yamaha-ns-6490-flag",
+      "records": [
+        "yamaha-ns-6490"
+      ],
+      "field": "sensitivity (flag, not changed)",
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+      "outcome": "FLAG_HOST_POLICY",
+      "notes": "The stored sensitivity (90, 2.83V/m) is MANUFACTURER_VERIFIED with source usa.yamaha.com, which is not in source-host-allowlist.json. This is inconsistent with the host policy. Not changed in round 15. Owner decision 8 (brand-owned domains) decides whether usa.yamaha.com/my.yamaha.com are established."
     }
   ]
 }

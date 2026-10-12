@@ -1448,6 +1448,34 @@
       "sourceClass": "MANUFACTURER",
       "round": 14,
       "coverage": "Language: FR. 'Huit haut-parleurs néodyme 3,5 pouces dans la colonne et le caisson sub-grave 12 pouces'; 'amplificateur de classe D 1000 W'; 'système à trois composants'."
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+      "host": "assets.ctfassets.net",
+      "document": "Genelec 1031A Technical Specifications (system specifications, Genelec Contentful asset). Linked from https://www.genelec.com/previous-models/1031a as 'System Specifications 1031A'.",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 15,
+      "coverage": "Drivers: Bass 8\" and Treble 1\" metal dome + DCW (two drivers). Amplifier power per channel: Bass 120 W, Treble 120 W (integrated per-channel amplifiers, i.e. powered). Linked from genelec.com exact-model page (two-way active monitor system)."
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "document": "Genelec 8020C datasheet (Contentful asset). Linked from https://www.genelec.com/previous-models/8020c as 'Datasheet 8020C'.",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 15,
+      "coverage": "Text: 'very compact biamplified active monitor system'; 105 mm (4 in) bass cone driver and 19 mm (3/4 in) metal dome tweeter; bass and treble amplifiers 20 W each (amplifier unit with active crossover). Chunk 1 of 2 not opened; no field depends on it."
     }
   ],
   "openQuestionsForOwner": [

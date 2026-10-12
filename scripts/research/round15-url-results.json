@@ -1,0 +1,85 @@
+{
+  "schema": "queue-results/v1",
+  "round": 15,
+  "description": "Round 15 source checks: Genelec 1031A and 8020C (CTF linked documents, promoted); Yamaha NS-6490 US page (supported, not promoted, host not allowlisted). Other queued URLs were not opened this round and have no entry.",
+  "checkedDate": "2026-10-12",
+  "entries": [
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/79fcscYYtUsCk4EMUiAqGM/50970fe434f18b949f772e2170b9a042/1031A_sysspecs.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "document": "Genelec 1031A Technical Specifications (system specifications, Genelec Contentful asset). Linked from https://www.genelec.com/previous-models/1031a as 'System Specifications 1031A'.",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Drivers: Bass 8\" and Treble 1\" metal dome + DCW (two drivers). Amplifier power per channel: Bass 120 W, Treble 120 W (integrated per-channel amplifiers, i.e. powered). Linked from genelec.com exact-model page (two-way active monitor system).",
+      "fieldResults": [
+        {
+          "record": "genelec-1031a",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "System spec sheet: Bass 8in + Treble 1in metal dome = 2 drivers."
+        },
+        {
+          "record": "genelec-1031a",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "System spec sheet lists per-channel amplifier power (bass 120 W, treble 120 W); Genelec exact-model page describes a two-way active monitor system."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/8E5jwhoZgs828IQGqCq22/db2095584f86c40fb8112ba117055286/8020C_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "document": "Genelec 8020C datasheet (Contentful asset). Linked from https://www.genelec.com/previous-models/8020c as 'Datasheet 8020C'.",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Text: 'very compact biamplified active monitor system'; 105 mm (4 in) bass cone driver and 19 mm (3/4 in) metal dome tweeter; bass and treble amplifiers 20 W each (amplifier unit with active crossover). Chunk 1 of 2 not opened; no field depends on it.",
+      "fieldResults": [
+        {
+          "record": "genelec-8020c",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Datasheet: one 105 mm bass driver and one 19 mm treble driver."
+        },
+        {
+          "record": "genelec-8020c",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Datasheet: 'biamplified active monitor system'; bass and treble amplifiers in the enclosure."
+        }
+      ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+      "host": "usa.yamaha.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Yamaha NS-6490 Specs page, United States site (manufacturer). US variant only; no Malaysia page was found.",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Driver: 8\" cone woofer, 4\" cone mid-range, 7/8\" balanced dome tweeter (three drivers). Nominal impedance 8 ohms; sensitivity 90 dB/2.83 V/m; nominal input 70 W, maximum 140 W; 45 Hz - 23 kHz. US product only.",
+      "fieldResults": [
+        {
+          "record": "yamaha-ns-6490",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "US manufacturer page lists three named drivers. Host usa.yamaha.com is not in source-host-allowlist.json, so no promotion until the host decision (owner decision 8) is made. Not a regional impedance answer."
+        }
+      ]
+    }
+  ]
+}
