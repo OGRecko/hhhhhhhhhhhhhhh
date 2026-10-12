@@ -2841,13 +2841,15 @@
     "notes": "KRK's official legacy close-field monitor information sheet identifies Model 7000B/BS and specifies the 7000B as a passive two-way monitor with a 7-inch Kevlar woofer and 1-inch Kevlar dome tweeter (2 drivers total), 8 Ω nominal impedance, 91 dB sensitivity at exactly 1 W/1 m, and up to 150 W continuous power handling. The structurally shielded 7000BS is a separate variant and is not substituted. The published 50 Hz–20 kHz ±3 dB range is not stored because the database response-limit field cannot preserve tolerance. The sheet also prints a frequency/dB table but does not specify its acoustic reference level or measurement conditions, so its values are not imported as response points. Maximum SPL 110 dB is not treated as sensitivity. No polar/directivity data are published in this sheet. Source: exact KRK 7000B/BS manufacturer information sheet, linked from KRK's official downloads page: https://www.krkmusic.com/pages/downloads-and-manuals.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "sourceType": null
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK 7000B legacy close-field information sheet: passive two-way, 2 drivers total (batch-117). Not re-opened in round 7b; remains cited-unchecked until inspected."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "sourceType": null
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK 7000B information sheet: passive two-way monitor (batch-117). Not re-opened in round 7b; remains cited-unchecked until inspected."
     }
   },
   {
@@ -3251,13 +3253,15 @@
     "notes": "KRK's official ROKIT Powered Generation 1 manual table identifies the RP5 as a two-way powered studio monitor with a 5-inch aramid-glass-fiber LF driver and 1-inch soft-dome HF driver (2 transducers total). It gives 53 Hz–20 kHz ±2 dB and separate HF/LF amplifier ratings of 15 W/30 W. The tolerance cannot be represented in the database's response-limit field, and the band-specific amplifier ratings are not collapsed into a scalar power value. The manual's 10 kΩ balanced/unbalanced figures are line-input impedances, not passive loudspeaker impedance. It provides no acoustic sensitivity, speaker power-handling rating, calibrated response-point table, or polar/directivity dataset; those remain N/A/unavailable. This entry is the Generation 1 RP5, not a later ROKIT generation. Source: exact Generation 1 manufacturer manual linked from KRK's official downloads page: https://www.krkmusic.com/pages/downloads-and-manuals.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "sourceType": null
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Powered Generation 1 manual, Rokit 5 G1: two transducers (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "sourceType": null
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Powered Generation 1 manual, Rokit 5 G1: powered two-way monitor (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
     }
   },
   {
@@ -3323,13 +3327,15 @@
     "notes": "KRK's official Generation 3 ROKIT information sheet specifies a two-way active ROKIT 8 with one 8-inch aramid-glass-composite woofer and one 1-inch soft-dome tweeter. It lists 100 W total internal amplifier output (75 W LF + 25 W HF), stored as amplifier_output, not passive speaker handling. The sheet's 35 Hz–35 kHz frequency range is explicitly -10 dB and is not placed in the tolerance-free response field. Its 109 dB peak SPL is not acoustic sensitivity; the 7 kΩ RCA and 10 kΩ balanced line-input figures are not speaker impedance. No calibrated response-point or angle-resolved polar/directivity dataset is included in the exact G3 sheet. This is the Generation 3 8-inch model, not the distinct G4/G5 versions. Source: exact Generation 3 ROKIT manufacturer information sheet linked from KRK's official downloads page: https://www.krkmusic.com/pages/downloads-and-manuals.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "sourceType": null
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Generation 3 information sheet, Rokit 8 G3: one woofer and one tweeter (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "sourceType": null
+      "source": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7b (2026-10-13, round7b-krk-restore-and-elx-supersede-2026-10-13): restored after correcting the round 7 nulling, which was an error. Exact-model manufacturer source recorded in batch files: KRK ROKIT Generation 3 information sheet, Rokit 8 G3: powered two-way monitor (batch-019). Not re-opened in round 7b; remains cited-unchecked until inspected."
     }
   },
   {
@@ -20573,14 +20579,16 @@
     },
     "notes": "Mackie's MR Studio Monitors Owner's Manual (©2017) gives an MR624-specific table: frequency response 45 Hz–20 kHz at −3 dB (38 Hz–20 kHz at −10 dB), a 6.5-inch polypropylene LF woofer, and a 1-inch silk-dome HF tweeter. The product is a powered two-way studio monitor. The manual lists separate LF/HF amplifier outputs (40 W at 4 Ω / 80 W peak, and 25 W at 6 Ω / 50 W peak); because no single aggregate output or passive-speaker power-handling rating is stated, the structured power field remains N/A rather than summing channels. Its +4 dBu at 300 Hz full-output figure is input sensitivity, not acoustic sensitivity; 20 kΩ balanced / 10 kΩ unbalanced are input impedances, not speaker-load impedance. Resonant frequency and voice-coil diameter are not specified. No response curve or directivity dataset is imported. Source: https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7 (2026-10-13, round7-source-checks-2026-10-13): Mackie MR Series owner's manual SW1198 Rev. A 06/17 lists MR624 as a powered monitor ('Bi-amplified Class A/B amplification') with one polypropylene woofer and one 1-inch silk dome tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7 (2026-10-13, round7-source-checks-2026-10-13): Mackie MR Series owner's manual SW1198 Rev. A 06/17 lists MR624 as a powered monitor ('Bi-amplified Class A/B amplification') with one polypropylene woofer and one 1-inch silk dome tweeter."
     }
   },
   {
@@ -24775,7 +24783,7 @@
       "pointsStatus": "UNAVAILABLE",
       "pointsSourceType": "NONE",
       "disputedPoints": {
-        "status": "ROW_COUNT_RESOLVED_STORED_MATCHES_PRIMARY",
+        "status": "UNRESOLVED_ROW_COUNT",
         "points": [
           {
             "hz": 20,
@@ -25481,7 +25489,18 @@
             "valueDifferences": []
           },
           "supersedes": "scripts/research/reconcile-elx200-15.py (86-row transcription, in error)",
-          "note": "The primary sheet prints 85 rows. Stored points match it row-for-row (85/85, no value differences). The earlier \"84 rows\" statement and \"86 rows\" transcription were both errors. The stored points are retained unchanged."
+          "note": "The primary sheet prints 85 rows. Stored points match it row-for-row (85/85, no value differences). The earlier \"84 rows\" statement and \"86 rows\" transcription were both errors. The stored points are retained unchanged.",
+          "supersededBy2026_10_13": {
+            "date": "2026-10-13",
+            "marker": "round7b-krk-restore-and-elx-supersede-2026-10-13",
+            "statement": "This reconciliation (valueDifferences empty, 85/85 match) is SUPERSEDED. Two fetches of the same primary PDF on 2026-10-13 gave different tables: the first printed 86 rows (2400 and 2600 Hz, no 2500 Hz), the second printed 85 rows (2500 Hz, no 2400 or 2600 Hz). Against the stored table the second reading differs at 2000 Hz (92 vs 93), 2200 Hz (93 vs 94) and 2500 Hz (94 vs 95). The original fields are kept as history.",
+            "readings": [
+              "scripts/research/data/elx200-15-primary-fr-2026-10-12.txt",
+              "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch.txt",
+              "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch2.txt"
+            ],
+            "status": "UNRESOLVED_ROW_COUNT"
+          }
         },
         "ownerDecision": {
           "date": "2026-10-12",
@@ -25549,7 +25568,17 @@
             }
           ],
           "decision": "Stored points unchanged. Simulation exclusion kept. The 2026-10-12 owner status is not overwritten, but this fetch conflicts with the v2 reconciliation it relied on, so owner review is required before the status is relied on."
-        }
+        },
+        "reconciliationLog": [
+          {
+            "date": "2026-10-13",
+            "marker": "round7-source-checks-2026-10-13",
+            "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+            "reading": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch2.txt",
+            "result": "Second fetch of the same URL printed 85 rows (2500 Hz present; 2400 and 2600 Hz absent). Against the stored table: row set matches; values differ at 2000 Hz (92 vs 93), 2200 Hz (93 vs 94), 2500 Hz (94 vs 95). Against the first re-fetch (86 rows): 2400 and 2600 Hz absent in this reading, 2500 Hz present, and values differ at 140, 280, 300, 330, 400, 1200 and 1400 Hz. Two fetches of the same PDF do not agree, so the text extraction is not reproducible.",
+            "decision": "Stored points stay excluded from simulation. No value changed. Owner needs the original PDF file for a controlled transcription."
+          }
+        ]
       }
     },
     "driverCount": 2,
@@ -48429,14 +48458,16 @@
     "panel": null,
     "notes": "Mackie's MR Studio Monitors Owner's Manual (©2017) gives an MR524-specific table: frequency response 57 Hz–20 kHz at −3 dB (45 Hz–20 kHz at −10 dB), a 5.25-inch polypropylene LF woofer, and a 1-inch silk-dome HF tweeter. The product is a powered two-way studio monitor. The manual lists separate LF/HF amplifier outputs (30 W at 4 Ω / 60 W peak, and 20 W at 6 Ω / 40 W peak); because no single aggregate output or passive-speaker power-handling rating is stated, the structured power field remains N/A rather than summing channels. Its +4 dBu at 300 Hz full-output figure is input sensitivity, not acoustic sensitivity; 20 kΩ balanced / 10 kΩ unbalanced are input impedances, not speaker-load impedance. Resonant frequency and voice-coil diameter are not specified. No response curve or directivity dataset is imported. Source: https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7 (2026-10-13, round7-source-checks-2026-10-13): Mackie MR Series owner's manual SW1198 Rev. A 06/17 lists MR524 as a powered monitor ('Bi-amplified Class A/B amplification') with one polypropylene woofer and one 1-inch silk dome tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7 (2026-10-13, round7-source-checks-2026-10-13): Mackie MR Series owner's manual SW1198 Rev. A 06/17 lists MR524 as a powered monitor ('Bi-amplified Class A/B amplification') with one polypropylene woofer and one 1-inch silk dome tweeter."
     }
   },
   {
@@ -48500,14 +48531,16 @@
     "panel": null,
     "notes": "Mackie's MR Studio Monitors Owner's Manual (©2017) gives an MR824-specific table: frequency response 38 Hz–20 kHz at −3 dB (35 Hz–20 kHz at −10 dB), an 8-inch polypropylene LF woofer, and a 1-inch silk-dome HF tweeter. The product is a powered two-way studio monitor. The manual lists separate LF/HF amplifier outputs (55 W at 4 Ω / 110 W peak, and 30 W at 6 Ω / 60 W peak); because no single aggregate output or passive-speaker power-handling rating is stated, the structured power field remains N/A rather than summing channels. Its +4 dBu at 300 Hz full-output figure is input sensitivity, not acoustic sensitivity; 20 kΩ balanced / 10 kΩ unbalanced are input impedances, not speaker-load impedance. Resonant frequency and voice-coil diameter are not specified. No response curve or directivity dataset is imported. Source: https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7 (2026-10-13, round7-source-checks-2026-10-13): Mackie MR Series owner's manual SW1198 Rev. A 06/17 lists MR824 as a powered monitor ('Bi-amplified Class A/B amplification') with one polypropylene woofer and one 1-inch silk dome tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 7 (2026-10-13, round7-source-checks-2026-10-13): Mackie MR Series owner's manual SW1198 Rev. A 06/17 lists MR824 as a powered monitor ('Bi-amplified Class A/B amplification') with one polypropylene woofer and one 1-inch silk dome tweeter."
     }
   },
   {

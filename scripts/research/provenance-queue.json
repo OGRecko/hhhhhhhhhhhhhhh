@@ -1,20 +1,20 @@
 {
   "generated_from": "src/data/speakers.json",
   "liveRecords": 659,
-  "uncheckedItems": 810,
-  "uniqueSourceUrls": 447,
+  "uncheckedItems": 804,
+  "uniqueSourceUrls": 448,
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 358
+      "count": 355
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 27
+      "count": 30
     },
     {
       "field": "active",
@@ -32,13 +32,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 452
+      "count": 449
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 40
+      "count": 43
     },
     {
       "field": "driverCount",
@@ -55,20 +55,6 @@
   ],
   "groups": [
     {
-      "url": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
-      "host": "mackie.com",
-      "items": 6,
-      "records": [
-        "legacy-mack-3",
-        "mackie-mr524",
-        "mackie-mr824"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ]
-    },
-    {
       "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
       "host": "www.dali-speakers.com",
       "items": 6,
@@ -76,20 +62,6 @@
         "dali-oberon-3",
         "dali-oberon-5",
         "dali-oberon7"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ]
-    },
-    {
-      "url": "https://www.krkmusic.com/pages/downloads-and-manuals",
-      "host": "www.krkmusic.com",
-      "items": 6,
-      "records": [
-        "krk-7000",
-        "krk-rokit-5",
-        "krk-rokit-8"
       ],
       "fields": [
         "active",
@@ -1254,6 +1226,42 @@
       "items": 2,
       "records": [
         "elac-uni-fi-ub5"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+      "host": "cdn.shopify.com",
+      "items": 2,
+      "records": [
+        "krk-7000"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+      "host": "cdn.shopify.com",
+      "items": 2,
+      "records": [
+        "krk-rokit-8"
+      ],
+      "fields": [
+        "active",
+        "driverCount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+      "host": "cdn.shopify.com",
+      "items": 2,
+      "records": [
+        "krk-rokit-5"
       ],
       "fields": [
         "active",

@@ -97,12 +97,13 @@ const archivedFocal = archivedRound5.records.find((r: any) => r.id === 'focal-so
 assert.ok(archivedFocal, 'focal-sopra2 must be archived unchanged, not deleted');
 assert.equal(archivedFocal.sensitivity.simulationExcluded, true);
 
-// 6. ELX200-15: stored 85 points match the primary sheet (row count resolved); the table stays excluded from simulation.
+// 6. ELX200-15: the row count is UNRESOLVED (two 2026-10-13 readings disagree); the stored 85 points stay excluded from simulation.
 const elx = get('electro-voice-elx200-15').frequencyResponse;
 assert.equal(elx.points, undefined, 'disputed table must not be used as response points');
 assert.equal(elx.pointsStatus, 'UNAVAILABLE');
-assert.equal(elx.disputedPoints.status, 'ROW_COUNT_RESOLVED_STORED_MATCHES_PRIMARY');
-assert.equal(elx.disputedPoints.primarySourceReconciliation.comparisonWithStoredPoints.valueDifferences.length, 0, 'stored points match the primary sheet');
+assert.equal(elx.disputedPoints.status, 'UNRESOLVED_ROW_COUNT');
+assert.ok(elx.disputedPoints.primarySourceReconciliation.supersededBy2026_10_13, 'the round-6 "stored points match" reconciliation must be marked superseded');
+assert.equal(elx.disputedPoints.primarySourceReconciliation.supersededBy2026_10_13.status, 'UNRESOLVED_ROW_COUNT');
 assert.equal(elx.disputedPoints.points.length, 85, 'all 85 stored points are preserved for reconciliation');
 assert.equal(elx.disputedPoints.simulationExcluded, true, 'the disputed table is excluded from simulation');
 assert.ok(elx.disputedPoints.exclusionReason, 'the exclusion reason is documented');

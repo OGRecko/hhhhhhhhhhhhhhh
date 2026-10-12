@@ -1,0 +1,326 @@
+{
+  "ledgerVersion": 1,
+  "createdDate": "2026-10-13",
+  "purpose": "Durable per-source ledger of completed, rejected, inaccessible and unresolved provenance sources. Resume from here. A URL is marked checked only when it was opened in a session. A source is never marked verified as a whole; each field gets its own decision.",
+  "statusVocabulary": {
+    "CHECKED_CONFIRMED": "Opened. Supports the listed field values for the exact model.",
+    "CHECKED_PARTIAL": "Opened. Supports some fields or models only. Remaining items stay open.",
+    "CHECKED_REJECTED": "Opened. Does not support the held values. Values cleared to null.",
+    "CONFLICT": "Opened, but sources or readings disagree. Values stay unchanged and the conflict is recorded.",
+    "INACCESSIBLE": "Could not be opened from the sandbox. Nothing is inferred from it.",
+    "OPEN": "Not yet opened or not yet complete."
+  },
+  "sourcesSeededFromRound6": {
+    "file": "scripts/research/provenance-ledger-round6-2026-10-13.json",
+    "note": "Round-6 decisions are kept in their original file and are not repeated here."
+  },
+  "sources": [
+    {
+      "url": "https://mackie.com/img/file_resources/MR_Studio_Monitors_OM.pdf",
+      "host": "mackie.com",
+      "document": "MR Series Powered Studio Monitors owner's manual, Part No. SW1198 Rev. A 06/17",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        1
+      ],
+      "chunksTotal": 6,
+      "coverage": "driverCount and active for legacy-mack-3 (MR624), mackie-mr524 and mackie-mr824. The rest of the manual was not inspected for other fields.",
+      "decisions": [
+        {
+          "id": "legacy-mack-3",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Two transducers listed: polypropylene woofer and 1-inch silk dome tweeter. MR624 is in the model list."
+        },
+        {
+          "id": "legacy-mack-3",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Title 'Powered Studio Monitors'; 'Bi-amplified Class A/B amplification'; MR624 model list entry."
+        },
+        {
+          "id": "mackie-mr524",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Two transducers listed (woofer and tweeter)."
+        },
+        {
+          "id": "mackie-mr524",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Powered; bi-amplified."
+        },
+        {
+          "id": "mackie-mr824",
+          "field": "driverCount",
+          "value": 2,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Two transducers listed (woofer and tweeter)."
+        },
+        {
+          "id": "mackie-mr824",
+          "field": "active",
+          "value": true,
+          "result": "CONFIRMED",
+          "decision": "MANUFACTURER_VERIFIED",
+          "evidence": "Powered; bi-amplified."
+        }
+      ],
+      "queueItemsResolved": 6
+    },
+    {
+      "url": "https://www.krkmusic.com/pages/downloads-and-manuals",
+      "host": "krkmusic.com",
+      "document": "KRK Documentation & Downloads index page",
+      "status": "CHECKED_REJECTED",
+      "openedDate": "2026-10-13",
+      "coverage": "Index of download links only. It does not state driver count or active/passive status for any model. It is NOT a valid citation for the held KRK values; the citation was replaced (round 7b).",
+      "decisions": [
+        {
+          "id": "krk-7000",
+          "field": "driverCount",
+          "value": 2,
+          "result": "REJECTED_AS_CITATION",
+          "decision": "Index citation replaced by the exact KRK 7000B sheet cited in batch-117 (cited-unchecked, round 7b)",
+          "evidence": "Index lists no 7000B sheet."
+        },
+        {
+          "id": "krk-7000",
+          "field": "active",
+          "value": false,
+          "result": "REJECTED_AS_CITATION",
+          "decision": "Index citation replaced by the exact KRK 7000B sheet cited in batch-117 (cited-unchecked, round 7b)",
+          "evidence": "Index lists no 7000B sheet."
+        },
+        {
+          "id": "krk-rokit-5",
+          "field": "driverCount",
+          "value": 2,
+          "result": "REJECTED_AS_CITATION",
+          "decision": "Index citation replaced by the exact Rokit 5 G1 manual cited in batch-019 (cited-unchecked, round 7b)",
+          "evidence": "Index shows only Generation Five sheets for Rokit 5."
+        },
+        {
+          "id": "krk-rokit-5",
+          "field": "active",
+          "value": true,
+          "result": "REJECTED_AS_CITATION",
+          "decision": "Index citation replaced by the exact Rokit 5 G1 manual cited in batch-019 (cited-unchecked, round 7b)",
+          "evidence": "Index shows only Generation Five sheets for Rokit 5."
+        },
+        {
+          "id": "krk-rokit-8",
+          "field": "driverCount",
+          "value": 2,
+          "result": "REJECTED_AS_CITATION",
+          "decision": "Index citation replaced by the exact Rokit 8 G3 information sheet cited in batch-019 (cited-unchecked, round 7b)",
+          "evidence": "Index lists Generation Five and Generation 4 sheets; not Generation 3."
+        },
+        {
+          "id": "krk-rokit-8",
+          "field": "active",
+          "value": true,
+          "result": "REJECTED_AS_CITATION",
+          "decision": "Index citation replaced by the exact Rokit 8 G3 information sheet cited in batch-019 (cited-unchecked, round 7b)",
+          "evidence": "Index lists Generation Five and Generation 4 sheets; not Generation 3."
+        }
+      ],
+      "queueItemsResolved": 0,
+      "correction": "Round 7 (apply-round7-source-checks-2026-10-13.py) nulled these six values because the index did not state them. That was an error: batch-117 and batch-019 recorded exact-model manufacturer sources, and the Batch 117 regression test depends on them. Round 7b (apply-round7b-krk-restore-and-elx-supersede-2026-10-13.py) restored the values and set the exact URLs as cited-unchecked."
+    },
+    {
+      "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "host": "dali-speakers.com",
+      "document": "DALI OBERON manual (multi-language, covers OBERON 1, 3, 5, 7, VOKAL, ON-WALL)",
+      "status": "OPEN",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        0,
+        5
+      ],
+      "chunksTotal": 6,
+      "coverage": "Chunk 0 is the English start of the manual and includes Table 1 (speakers per carton). Chunk 5 is the Japanese/French tail. The English technical specification table (section 10.0, Table 2) was not found in either chunk.",
+      "decisions": [
+        {
+          "id": "dali-oberon-3",
+          "field": "driverCount",
+          "value": 2,
+          "result": "OPEN",
+          "decision": "UNCHANGED (cited, unchecked)",
+          "evidence": "Not yet found in the opened chunks."
+        },
+        {
+          "id": "dali-oberon-3",
+          "field": "active",
+          "value": false,
+          "result": "OPEN",
+          "decision": "UNCHANGED (cited, unchecked)",
+          "evidence": "Not yet found in the opened chunks."
+        },
+        {
+          "id": "dali-oberon-5",
+          "field": "driverCount",
+          "value": 3,
+          "result": "OPEN",
+          "decision": "UNCHANGED (cited, unchecked)",
+          "evidence": "Not yet found in the opened chunks."
+        },
+        {
+          "id": "dali-oberon-5",
+          "field": "active",
+          "value": false,
+          "result": "OPEN",
+          "decision": "UNCHANGED (cited, unchecked)",
+          "evidence": "Not yet found in the opened chunks."
+        },
+        {
+          "id": "dali-oberon7",
+          "field": "driverCount",
+          "value": 3,
+          "result": "OPEN",
+          "decision": "UNCHANGED (cited, unchecked)",
+          "evidence": "Not yet found in the opened chunks."
+        },
+        {
+          "id": "dali-oberon7",
+          "field": "active",
+          "value": false,
+          "result": "OPEN",
+          "decision": "UNCHANGED (cited, unchecked)",
+          "evidence": "Not yet found in the opened chunks."
+        }
+      ],
+      "nextStep": "Open chunks 1 to 4 and find the English Table 2 and any driver description."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+      "host": "electrovoicedynacord.com",
+      "document": "ELX200-15 Engineering Data Sheet (French), passive 2-way 15-inch",
+      "status": "CONFLICT",
+      "openedDate": "2026-10-13",
+      "coverage": "Response table (frequency, sensitivity, impedance). Two fetches of the same URL gave different tables.",
+      "readings": [
+        {
+          "file": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch.txt",
+          "rows": 86,
+          "note": "Contains 2400 and 2600 Hz; no 2500 Hz."
+        },
+        {
+          "file": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch2.txt",
+          "rows": 85,
+          "note": "Contains 2500 Hz; no 2400 or 2600 Hz."
+        }
+      ],
+      "comparison": {
+        "readAVsStored": "Row set matches stored 85 points. Values differ at 2000 Hz (92 vs 93), 2200 Hz (93 vs 94), 2500 Hz (94 vs 95).",
+        "readAVsReadB": "Only in A: 2400 and 2600 Hz. Only in B: 2500 Hz. Value differences at 140, 280, 300, 330, 400, 1200 and 1400 Hz."
+      },
+      "decision": "Stored points stay excluded from simulation. Status UNRESOLVED_ROW_COUNT. No value changed. Owner needs the original PDF file for a controlled transcription.",
+      "queueItemsResolved": 0
+    },
+    {
+      "url": "https://zenodo.org/records/10255555",
+      "host": "zenodo.org",
+      "document": "Genelec 8331A directivity, Aalto (LS_directivity_Calibrated_GENELEC_8331A.sofa, 410.5 MB, MD5 a00e40164556183420c315e9f6ecd7fd)",
+      "status": "INACCESSIBLE",
+      "openedDate": "2026-10-13",
+      "attempts": [
+        {
+          "date": "2026-10-13",
+          "method": "curl https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1",
+          "result": "TLS handshake failed (SSL_ERROR_SYSCALL, exit 35). No file was received."
+        }
+      ],
+      "decision": "Not imported. Nothing substituted and no polar data synthesized. Retry from a host the egress allowlist permits, or with a file supplied by the owner. Verify MD5 a00e40164556183420c315e9f6ecd7fd before import."
+    },
+    {
+      "url": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
+      "host": "pdf-manuals.com",
+      "document": "Mackie CR3 user manual (non-manufacturer copy)",
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0,
+        3,
+        4
+      ],
+      "chunksTotal": "unknown",
+      "coverage": "Chunk 3 Appendix B: 70 Hz to 20 kHz at -3 dB, 28 W rms amplifier, 3.0 in woofer. Chunks 1 and 2 are not opened.",
+      "decision": "THIRD_PARTY_VERIFIED (per round 6). Not manufacturer-verified. Chunks 1 and 2 are still open, and legacy-mack-4 notes that contradict the stored values still need correcting.",
+      "nextStep": "Open chunks 1 and 2 and correct the contradicting notes."
+    },
+    {
+      "url": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "host": "gear4music.com",
+      "document": "Equator D5 product page (retailer)",
+      "status": "CHECKED_PARTIAL",
+      "decision": "THIRD_PARTY_VERIFIED for woofer 5.25 in (round 6). Not manufacturer-verified. Kept at the lower provenance class."
+    },
+    {
+      "url": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "host": "jblpro.com",
+      "document": "JBL LSR Series owner's manual (Amplitude & Phase and Acoustic Contribution tables)",
+      "status": "CONFLICT",
+      "coverage": "20 kHz conflict: Amplitude & Phase table 61 dB; Acoustic Contribution table 92 dB fundamental.",
+      "decision": "Round 6: the 20 kHz point removed from the stored series. Other disputed points held in disputedPoints and excluded from simulation. Owner review of extrapolation pending."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+      "host": "cdn.shopify.com (KRK)",
+      "document": "KRK 7000B spec sheet (cited in batch-117)",
+      "status": "OPEN",
+      "openedDate": null,
+      "coverage": "driverCount 2 and active false for krk-7000 are cited here; not re-opened in round 7b.",
+      "nextStep": "Open and confirm the exact model 7000B (not 7000BS) states two drivers and passive."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+      "host": "cdn.shopify.com (KRK)",
+      "document": "KRK ROKIT Powered Generation 1 manual (cited in batch-019)",
+      "status": "OPEN",
+      "openedDate": null,
+      "coverage": "driverCount 2 and active true for krk-rokit-5 (Rokit 5 G1); not re-opened in round 7b.",
+      "nextStep": "Open and confirm Rokit 5 G1 is covered and states two transducers and powered."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+      "host": "cdn.shopify.com (KRK)",
+      "document": "KRK ROKIT Generation 3 information sheet (cited in batch-019)",
+      "status": "OPEN",
+      "openedDate": null,
+      "coverage": "driverCount 2 and active true for krk-rokit-8 (Rokit 8 G3); not re-opened in round 7b.",
+      "nextStep": "Open and confirm Rokit 8 G3 is covered and states one woofer, one tweeter and powered."
+    }
+  ],
+  "openQuestionsForOwner": [
+    {
+      "id": "withdrawn-227-and-baseline-774",
+      "question": "The brief refers to 227 withdrawn driverCount/active values and to a 774 catalog baseline. Neither figure is documented in this repository. The 70 restored values are documented in round4-value-history.json (70 entries). Please point to the source of the 227 and 774 figures so they can be reconciled. No count was invented."
+    },
+    {
+      "id": "elx200-15-original-pdf",
+      "question": "The primary datasheet URL gives two different tables on two fetches. Please supply the original ELX200-15 datasheet PDF file so the table can be transcribed from the file."
+    },
+    {
+      "id": "genelec-8331a-sofa",
+      "question": "The Zenodo file cannot be downloaded from this sandbox. Please supply the file, or allow a host that serves it."
+    },
+    {
+      "id": "lsr32-20khz",
+      "question": "Which 20 kHz value (61 dB or 92 dB) is correct for the JBL LSR32 under the stated reference, or should the point stay removed?"
+    },
+    {
+      "id": "turbosound-ip15b-sourceType",
+      "question": "Turbosound iP15B sourceType: change only if the document proves manufacturer origin. Pending owner confirmation."
+    }
+  ]
+}
