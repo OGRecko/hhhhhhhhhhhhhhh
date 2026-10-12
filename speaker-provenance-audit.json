@@ -1,17 +1,16 @@
 {
   "ok": true,
-  "records": 666,
-  "uniqueIds": 666,
+  "records": 659,
+  "uniqueIds": 659,
   "duplicateIds": 0,
-  "uniqueBrandModels": 666,
+  "uniqueBrandModels": 659,
   "duplicateBrandModels": 0,
   "statusCounts": {
-    "PARTIALLY_VERIFIED": 659,
-    "UNVERIFIED": 7
+    "PARTIALLY_VERIFIED": 659
   },
   "sourceTypeCounts": {
     "MANUFACTURER": 1544,
-    "NONE": 2248,
+    "NONE": 2206,
     "REPUTABLE_DATABASE": 188,
     "THIRD_PARTY": 15,
     "MEASUREMENT": 1
@@ -28,16 +27,16 @@
     "declaredManufacturerCurves": 25,
     "declaredMeasurementCurves": 0,
     "declaredVerifiedDatabaseCurves": 0,
-    "physicallyModeledCurves": 641,
+    "physicallyModeledCurves": 634,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
-      "total": 109,
-      "missingBothLimits": 103,
+      "total": 102,
+      "missingBothLimits": 96,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
       "modeledFromPublishedLimits": 532,
       "explicitCurves": 25,
-      "speakers": 666
+      "speakers": 659
     },
     "categoryBasedSynthesisAbsent": true
   },
@@ -45,19 +44,19 @@
     "counts": {
       "driverCount": {
         "known": 492,
-        "unknown": 174,
+        "unknown": 167,
         "absent": 0,
         "invalid": 0
       },
       "active": {
         "known": 385,
-        "unknown": 281,
+        "unknown": 274,
         "absent": 0,
         "invalid": 0
       },
       "panel": {
         "known": 70,
-        "unknown": 596,
+        "unknown": 589,
         "absent": 0,
         "invalid": 0
       }

@@ -4,11 +4,11 @@ Generated from `src/data/speakers.json`; counts are not hand-maintained.
 
 Updated 2026-10-12.
 
-The live authoritative dataset contains **666 active catalog records**; the reviewed catalog total is **777** (666 live + 81 archived in scripts/research/removed-unavailable-records.json + 27 archived in scripts/research/removed-owner-round5-records.json, removed at owner request 2026-10-11 + 3 archived in scripts/research/removed-owner-2026-10-12-decisions.json, archived at owner request 2026-10-12). The archived records were removed from the live dataset at the owner's request on 2026-10-10 (all UNAVAILABLE records, including the duplicate Sonos aliases). They are excluded from speaker selection and from every count in this document. A record is `PARTIALLY_VERIFIED` only when at least one sourced acoustic specification (sensitivity, power, impedance, resonant frequency, voice-coil size, woofer size, or a structured frequency-response limit) is retained. Source-backed structural facts such as driver count or active status alone remain `UNVERIFIED` because they do not supply an acoustic specification for simulation. `UNAVAILABLE` is reserved for unresolved catalog identities and confirmed non-loudspeaker components; those records are retained but excluded from speaker selection.
+The live authoritative dataset contains **659 active catalog records**; the reviewed catalog total is **777** (659 live + 81 archived in scripts/research/removed-unavailable-records.json + 27 archived in scripts/research/removed-owner-round5-records.json, removed at owner request 2026-10-11 + 3 archived in scripts/research/removed-owner-2026-10-12-decisions.json, archived at owner request 2026-10-12 + 7 archived in scripts/research/removed-unavailable-2026-10-12.json, removed at user request 2026-10-12). The archived records were removed from the live dataset at the owner's request on 2026-10-10 (all UNAVAILABLE records, including the duplicate Sonos aliases). They are excluded from speaker selection and from every count in this document. A record is `PARTIALLY_VERIFIED` only when at least one sourced acoustic specification (sensitivity, power, impedance, resonant frequency, voice-coil size, woofer size, or a structured frequency-response limit) is retained. Source-backed structural facts such as driver count or active status alone remain `UNVERIFIED` because they do not supply an acoustic specification for simulation. `UNAVAILABLE` is reserved for unresolved catalog identities and confirmed non-loudspeaker components; those records are retained but excluded from speaker selection.
 
 ## Record status
 - PARTIALLY_VERIFIED: 659
-- UNVERIFIED: 7
+- UNVERIFIED: 0
 - UNAVAILABLE: 0
 
 ## Current source-backed fields
@@ -24,7 +24,7 @@ The live authoritative dataset contains **666 active catalog records**; the revi
 ## Response-model policy
 - Embedded source-backed response-point datasets: 25 (measurement 0, manufacturer 25, reputable database 0)
 - Models derived from published frequency limits: 532
-- Generic reference models with missing published bounds: 109
+- Generic reference models with missing published bounds: 102
 - No synthesized curve is represented as a laboratory measurement.
 
 ## Directivity / scatter

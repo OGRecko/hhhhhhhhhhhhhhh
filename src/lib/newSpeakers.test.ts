@@ -22,8 +22,6 @@ const NEW_IDS = [
   "atc-scm100asl-pro",
   "dynaudio-lyd-48",
   "adam-audio-a77x",
-  "pmc-tb2",
-  "pmc-bb5-xbd-a",
   "jbl-708p",
   "barefoot-footprint03",
   "hedd-type-20",

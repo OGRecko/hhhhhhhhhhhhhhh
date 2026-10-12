@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-12 from the authoritative 666-record database.
+Generated 2026-10-12 from the authoritative 659-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -23,7 +23,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | yamaha-ns1000m | Yamaha | NS-1000M | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | jbl-4350 | JBL | 4350 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil |
 | altec-model-19 | Altec Lansing | Model 19 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| infinity-rs1 | Infinity | RS-1B | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | cerwin-vega-d9 | Cerwin Vega | D-9 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil, woofer |
 | eV-eliminator | Electro-Voice | Eliminator | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | jbl-4430 | JBL | 4430 | PARTIALLY_VERIFIED | resonantFreq |
@@ -146,7 +145,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | vandersteen-2ce | Vandersteen | 2Ce Signature | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | magnepan-mg1.7 | Magnepan | MG 1.7 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, woofer |
 | magnepan-mg20 | Magnepan | MG 20.1 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, woofer |
-| apogee-scintilla | Apogee Acoustics | Scintilla | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | genelec-8260a | Genelec | 8260A | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
 | ath-focal-shape65 | Focal | Shape 65 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | ath-focal-shape40 | Focal | Shape 40 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
@@ -192,7 +190,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | kef-ls3-5a | KEF | LS3/5a | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, woofer |
 | jbl-4312 | JBL | 4312 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | eV-sentry-500 | Electro-Voice | Sentry 500 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, frequency-response limits |
-| tannoy-autograph | Tannoy | Autograph | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | ohm-walsh-2 | Ohm Acoustics | Walsh 2 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, woofer |
 | infinity-irs-v | Infinity | IRS V | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil |
 | jbl-paragon | JBL | Paragon D44000 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, woofer, frequency-response limits |
@@ -250,7 +247,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | psb-synchrony-t600 | PSB | Synchrony T600 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | bryston-model-t | Bryston | Model T | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | klipsch-awr650sm | Klipsch | AWR-650-SM | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| sonance-mariner-6 | Sonance | Mariner 6 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-jbl-1 | JBL | D130 | PARTIALLY_VERIFIED | impedance, resonantFreq, frequency-response limits |
 | legacy-jbl-3 | JBL | 4310 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-jbl-6 | JBL | 4430 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq |
@@ -558,7 +554,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | kicker-47ksc6504 | Kicker | 47KSC6504 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | kicker-46css674 | Kicker | 46CSS674 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
 | kicker-46csc654 | Kicker | 46CSC654 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| morel-maximo-ultra-602 | Morel | Maximo Ultra 602 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | morel-virtus-602 | Morel | Virtus 602 | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | morel-elate-carbon-62a | Morel | Elate Carbon 62A | PARTIALLY_VERIFIED | impedance, resonantFreq |
 | audison-prima-apk-165 | Audison | Prima APK 165 | PARTIALLY_VERIFIED | sensitivity |
@@ -654,8 +649,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | atc-scm100asl-pro | ATC | SCM100ASL Pro | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | dynaudio-lyd-48 | Dynaudio | LYD 48 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | adam-audio-a77x | Adam Audio | A77X | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
-| pmc-tb2 | PMC | TB2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
-| pmc-bb5-xbd-a | PMC | BB5 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | jbl-708p | JBL | 708P | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer |
 | barefoot-footprint03 | Barefoot Sound | Footprint03 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | hedd-type-20 | HEDD | Type 20 | PARTIALLY_VERIFIED | impedance, resonantFreq |
@@ -674,5 +667,5 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
 **Records with at least one source-backed acoustic field:** 659
-**Records with no source-backed acoustic field:** 7
+**Records with no source-backed acoustic field:** 0
 **Unavailable identities or confirmed non-loudspeaker records:** 0
