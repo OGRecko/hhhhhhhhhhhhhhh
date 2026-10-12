@@ -12,15 +12,15 @@ The source/data gates are prepared and current documentation is generated from t
 
 ## Speaker database
 
-- Records: 669
-- Unique IDs: 669
-- Unique brand/model pairs: 669
-- PARTIALLY_VERIFIED: 661
-- UNVERIFIED: 8
+- Records: 666
+- Unique IDs: 666
+- Unique brand/model pairs: 666
+- PARTIALLY_VERIFIED: 660
+- UNVERIFIED: 6
 - UNAVAILABLE: 0
-- Source-backed fields: sensitivity 308; power 418; impedance 357; resonant frequency 17; voice-coil size 64; woofer size 592; frequency-response limits 564.
-- Response models: 669; 532 are modeled from published response limits, 111 use the generic reference path, and 26 use source-backed response-point datasets.
-- Source-backed response-point datasets: 26 (measurement 0, manufacturer 26, reputable database 0).
+- Source-backed fields: sensitivity 307; power 417; impedance 356; resonant frequency 17; voice-coil size 63; woofer size 591; frequency-response limits 563.
+- Response models: 666; 532 are modeled from published response limits, 109 use the generic reference path, and 25 use source-backed response-point datasets.
+- Source-backed response-point datasets: 25 (measurement 0, manufacturer 25, reputable database 0).
 - Embedded polar/CLF/GLL speaker directivity datasets: 0.
 - Unsupported information remains unavailable rather than guessed.
 

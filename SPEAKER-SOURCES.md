@@ -1323,13 +1323,6 @@ The source is attached to the exact field it supports. A source URL here does no
 
 ## https://jblpro.com/en-US/site_elements/4311-information
 
-- JBL 4311 Studio Monitor — frequency-response limits
-- JBL 4311 Studio Monitor — impedance
-- JBL 4311 Studio Monitor — power
-- JBL 4311 Studio Monitor — sensitivity
-- JBL 4311 Studio Monitor — source-backed response points (manufacturer)
-- JBL 4311 Studio Monitor — voice-coil size
-- JBL 4311 Studio Monitor — woofer size
 - JBL 4311 — frequency-response limits
 - JBL 4311 — impedance
 - JBL 4311 — power

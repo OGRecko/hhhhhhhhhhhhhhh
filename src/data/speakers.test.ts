@@ -13,6 +13,7 @@ import unresolvedNotes from "../../scripts/research/unresolved-notes.json";
 import removedRecords from "../../scripts/research/removed-records.json";
 import removedUnavailable from "../../scripts/research/removed-unavailable-records.json";
 import removedOwnerRound5 from "../../scripts/research/removed-owner-round5-records.json";
+import removedOwnerDecisions from "../../scripts/research/removed-owner-2026-10-12-decisions.json";
 import directivityLeads from "../../scripts/research/directivity-leads.json";
 import nodeAssert from "node:assert/strict";
 import { resolveSensitivity } from "../lib/speakerResponse";
@@ -40,7 +41,7 @@ function assert(cond: unknown, msg = "assertion failed"): asserts cond {
 const db = speakers as any[];
 // Live dataset plus the archived UNAVAILABLE records (removed 2026-10-10 at owner request); used only for lookups of archived IDs.
 // Round 5 (owner decision 2026-10-11) archived consumer records and the generic Zx3 record are included for lookups.
-const allDb = [...db, ...((removedUnavailable as any).records as any[]), ...((removedOwnerRound5 as any).records as any[])];
+const allDb = [...db, ...((removedUnavailable as any).records as any[]), ...((removedOwnerRound5 as any).records as any[]), ...((removedOwnerDecisions as any).records as any[])];
 // Notes ledger for live and archived UNAVAILABLE records (archived ledger entries are kept in the removal archive).
 const unresolvedAll: Record<string, any> = { ...(unresolvedNotes as Record<string, any>), ...((removedUnavailable as any).unresolvedNotes as Record<string, any>) };
 const removalLog = removedRecords as { reviewDate: string; entries: Array<{ id: string; brand: string; model: string; statusBeforeRemoval: string; disposition: string; reason: string; sourceRefs: string[]; researchNote: string; restored: boolean }> };
@@ -74,12 +75,13 @@ check("total record count matches the reviewed dataset", () => {
   assert(Array.isArray(db), "speakers.json is not an array");
   // Owner decision (round 5, 2026-10-11): 24 records archived (23 consumer records without published acoustic specs
   // and the generic Zx3 record); the Zx3 record is replaced by two exact variants (+2). 693 - 24 + 2 = 671.
-  assert(db.length === 669, `expected 669 live records after the 2026-10-12 owner decisions, found ${db.length}`);
+  // Owner decisions (2026-10-12 follow-up): legacy-jbl-5 (duplicate of jbl-4311), electro-voice-zx5 and legacy-ma-2 archived: 669 - 3 = 666.
+  assert(db.length === 666, `expected 666 live records after the 2026-10-12 follow-up decisions, found ${db.length}`);
   assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
   // Owner answers (2026-10-12): legacy-la-1 V-DOSC and legacy-la-2 ARCS archived (no exact source); ARCS II added live.
   // Live: 671 - 2 + 1 - 1 = 669 (focal-sopra2 duplicate archived 2026-10-12). Archive: 24 + 3 = 27. Total: 669 + 81 + 27 = 777.
   nodeAssert.equal((removedOwnerRound5 as any).records.length, 27, "round 5 archive must hold the 24 removed records plus the V-DOSC, ARCS and focal-sopra2 addenda");
-  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length === 777, "live plus archived records must total the 777 reviewed records");
+  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length + (removedOwnerDecisions as any).records.length === 777, "live plus archived records must total the 777 reviewed records");
 });
 
 check("overall status follows sourced fields or an audited unresolved-identity disposition", () => {
@@ -2082,12 +2084,44 @@ check("Electro-Voice Force i and SB122 retain manufacturer response tables with 
   nodeAssert.deepEqual(
     sb122.frequencyResponse.points?.map((p: { hz: number; db: number }) => [p.hz, p.db]),
     [
-      [20, 80.3], [30, 80.5], [40, 85], [50, 92], [60, 96.5], [70, 97.5], [80, 99.5],
-      [90, 101], [100, 102], [200, 94], [300, 88], [400, 82], [500, 82],
-      [600, 81.5], [700, 79], [800, 76.5],
+      [20, 80.5], [30, 80.5], [40, 85], [50, 92], [60, 97], [70, 98], [80, 100],
+      [90, 101], [100, 102], [200, 94], [300, 88], [400, 88], [500, 85],
+      [600, 83], [700, 81], [800, 77],
     ],
   );
   assert(sb122.notes.includes("https://products.electrovoice.com/binary/SB122%20EDS.pdf"));
+});
+
+check("round-5 response tables match their cited manufacturer tables point for point", () => {
+  const pairs = (rec: any) => rec.frequencyResponse.points?.map((p: { hz: number; db: number }) => [p.hz, p.db]);
+  const byId = (id: string) => allDb.find((item) => item.id === id);
+  // Half Space (SPL, 1W/1m, dB), Electro-Voice Zx4 Engineering Data Sheet, Part 38110416 Rev D.
+  nodeAssert.deepEqual(pairs(byId("electro-voice-zx4")), [
+    [20, 79.5], [30, 83], [40, 86], [50, 91], [60, 96], [70, 99], [80, 102], [90, 104], [100, 104.5], [200, 103.5],
+    [300, 103.5], [400, 102], [500, 100], [600, 99.5], [700, 99], [800, 99], [900, 98.5], [1000, 98.5], [2000, 99.5],
+    [3000, 99], [4000, 99], [5000, 99], [6000, 99], [7000, 99], [8000, 98.5], [9000, 98], [10000, 99], [20000, 98.5],
+  ]);
+  // Frequency Response (SPL, 1W/1m, dB), Electro-Voice Sx600 datasheet (EN 54-24).
+  nodeAssert.deepEqual(pairs(byId("electro-voice-sx600")), [
+    [40, 72], [50, 82], [60, 90], [70, 95], [80, 96], [90, 97], [100, 99], [200, 100], [300, 101], [400, 102],
+    [500, 103], [600, 103.5], [700, 103.5], [800, 103], [900, 103], [1000, 103], [2000, 105], [3000, 104], [4000, 103],
+    [5000, 105], [6000, 106], [7000, 107], [8000, 104], [9000, 103], [10000, 101], [20000, 82],
+  ]);
+  // Frequency Response (Raw) column, QSC AC-C6T specification sheet (not the Intrinsic Correction column).
+  nodeAssert.deepEqual(pairs(byId("qsc-ac-c6t")), [
+    [20, 63], [30, 65], [40, 63], [50, 69], [60, 75], [70, 81], [80, 86], [90, 88], [100, 88], [200, 87], [300, 87],
+    [400, 90], [500, 91], [600, 90], [700, 91], [800, 93], [900, 91], [1000, 91], [2000, 90], [3000, 91], [4000, 94],
+    [5000, 94], [6000, 88], [7000, 85], [8000, 88], [9000, 85], [10000, 88], [20000, 78],
+  ]);
+  // Half Space (SPL, 1W/1m, dB), Electro-Voice SB122 EDS.
+  nodeAssert.deepEqual(pairs(byId("electro-voice-sb122")), [
+    [20, 80.5], [30, 80.5], [40, 85], [50, 92], [60, 97], [70, 98], [80, 100], [90, 101], [100, 102], [200, 94],
+    [300, 88], [400, 88], [500, 85], [600, 83], [700, 81], [800, 77],
+  ]);
+  // Frequency Response Sensitivity 1 W / 1 m, Full Range column, Turbosound iP15B datasheet.
+  nodeAssert.deepEqual(pairs(byId("turbosound-ip15b")), [
+    [20, 67], [30, 84], [40, 91], [50, 93.5], [60, 94.5], [70, 94.5], [80, 94], [90, 93], [100, 91.5], [200, 74],
+  ]);
 });
 
 check("Electro-Voice Sentry 500, Sx100+, and Sx300E keep exact-model fields and unavailable caveats", () => {
@@ -2337,7 +2371,7 @@ check("base NEXO PS15 and Turbosound iP15B keep exact revision, response provena
   nodeAssert.equal(turbo.frequencyResponse.source, turboSource);
   nodeAssert.equal(turbo.frequencyResponse.points?.length, 10);
   nodeAssert.equal(turbo.frequencyResponse.points?.[0].hz, 20);
-  nodeAssert.equal(turbo.frequencyResponse.points?.[0].db, 66.5);
+  nodeAssert.equal(turbo.frequencyResponse.points?.[0].db, 67);
   nodeAssert.equal(turbo.frequencyResponse.points?.[9].hz, 200);
   nodeAssert.equal(turbo.frequencyResponse.pointsStatus, "MANUFACTURER_VERIFIED");
   nodeAssert.equal(turbo.frequencyResponse.pointsSource, turboSource);

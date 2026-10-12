@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-12 from the authoritative 669-record database.
+Generated 2026-10-12 from the authoritative 666-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -253,7 +253,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | sonance-mariner-6 | Sonance | Mariner 6 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-jbl-1 | JBL | D130 | PARTIALLY_VERIFIED | impedance, resonantFreq, frequency-response limits |
 | legacy-jbl-3 | JBL | 4310 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| legacy-jbl-5 | JBL | 4311 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq |
 | legacy-jbl-6 | JBL | 4430 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq |
 | legacy-jbl-11 | JBL | Control 25 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-bw-1 | Bowers & Wilkins | DM6 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, woofer |
@@ -308,7 +307,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | legacy-bose-6 | Bose | FreeSpace DS 16F | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-bose-7 | Bose | 251 Environmental | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil, frequency-response limits |
 | legacy-ma-1 | Martin Audio | Wavefront 8 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
-| legacy-ma-2 | Martin Audio | F2 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | legacy-ma-3 | Martin Audio | W8LM | PARTIALLY_VERIFIED | sensitivity, resonantFreq |
 | legacy-ma-4 | Martin Audio | MLA | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | legacy-la-3 | L-Acoustics | Kara | PARTIALLY_VERIFIED | sensitivity, power, resonantFreq, voiceCoil, frequency-response limits |
@@ -351,7 +349,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | electro-voice-zx3-60 | Electro-Voice | Zx3-60 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | electro-voice-zx3-90 | Electro-Voice | Zx3-90 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | electro-voice-zx4 | Electro-Voice | ZX4 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
-| electro-voice-zx5 | Electro-Voice | ZX5 | UNVERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, woofer, frequency-response limits |
 | electro-voice-sx300pi | Electro-Voice | Sx300PI | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | electro-voice-sx300pix | Electro-Voice | Sx300PIX | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil, frequency-response limits |
 | electro-voice-sx100 | Electro-Voice | Sx100+ | PARTIALLY_VERIFIED | sensitivity, resonantFreq, voiceCoil |
@@ -676,6 +673,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 661
-**Records with no source-backed acoustic field:** 8
+**Records with at least one source-backed acoustic field:** 660
+**Records with no source-backed acoustic field:** 6
 **Unavailable identities or confirmed non-loudspeaker records:** 0

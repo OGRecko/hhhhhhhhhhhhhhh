@@ -6,28 +6,28 @@ This file records the current release-engineering evidence and does not convert 
 
 ## Dependency-free source/data gates
 
-- `node scripts/final-audit.mjs` — **PASS**, 387 files scanned, 0 problems.
+- `node scripts/final-audit.mjs` — **PASS**, 392 files scanned, 0 problems.
 - `node scripts/release-audit.mjs` — **PASS**, source-only workspace; binary release verification is enforced when a Windows release artifact is present.
-- `node scripts/speaker-quality-audit.mjs` — **PASS**, 669 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 26 embedded response-point datasets (26 manufacturer, 0 measurement), no category-based response synthesis.
+- `node scripts/speaker-quality-audit.mjs` — **PASS**, 666 records, 0 duplicate IDs, 0 duplicate brand/model pairs, 25 embedded response-point datasets (25 manufacturer, 0 measurement), no category-based response synthesis.
 - `node scripts/speaker-provenance-audit.mjs` — **PASS**, all populated physical fields have auditable URLs, valid provenance status, and sensitivity reference metadata.
 
 ## Speaker DB
 
 **PASS — static database audit.** Counts below are generated from the authoritative `src/data/speakers.json` dataset:
 
-- 669 records
-- 669 unique IDs
+- 666 records
+- 666 unique IDs
 - 0 duplicate IDs
-- 669 unique brand/model pairs
+- 666 unique brand/model pairs
 - 0 duplicate brand/model pairs
-- `PARTIALLY_VERIFIED`: 661
-- `UNVERIFIED`: 8
+- `PARTIALLY_VERIFIED`: 660
+- `UNVERIFIED`: 6
 - `UNAVAILABLE`: 0
-- source-backed fields: sensitivity 308, power 418, impedance 357, resonant frequency 17, voice-coil size 64, woofer size 592, frequency-response limits 564
-- embedded JSON response-point datasets: 26
-- declared response-point provenance: manufacturer 26, measurement 0, verified database 0
-- physically modeled response models: 643
-- generic reference models: 111
+- source-backed fields: sensitivity 307, power 417, impedance 356, resonant frequency 17, voice-coil size 63, woofer size 591, frequency-response limits 563
+- embedded JSON response-point datasets: 25
+- declared response-point provenance: manufacturer 25, measurement 0, verified database 0
+- physically modeled response models: 641
+- generic reference models: 109
 - models derived from published bandwidth limits: 532
 - embedded speaker polar/directivity data: 0
 

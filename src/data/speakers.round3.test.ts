@@ -47,15 +47,18 @@ for (const r of records) {
 // 3. Generic EV records that do not identify the variant keep affected specifications unavailable.
 // Round 5 owner decision: the generic Zx3 record is archived and replaced by exact variants (see below).
 assert.equal(records.some((x) => x.id === 'electro-voice-zx3'), false, 'generic electro-voice-zx3 must be replaced by variants');
-for (const id of ['electro-voice-zx5']) {
-  const r = get(id);
+// Owner decision (2026-10-12 follow-up): the generic Zx5 record is archived (variant not established).
+// Its unavailable values are preserved in the archive, not live.
+{
+  const zx5Decisions: any = JSON.parse(fs.readFileSync(path.join(here, '..', '..', 'scripts', 'research', 'removed-owner-2026-10-12-decisions.json'), 'utf8'));
+  assert.equal(records.some((x) => x.id === 'electro-voice-zx5'), false, 'generic electro-voice-zx5 must be archived');
+  const r: any = zx5Decisions.records.find((x: any) => x.id === 'electro-voice-zx5');
+  assert.ok(r, 'electro-voice-zx5 must be retained in the archive');
   for (const k of ['sensitivity', 'impedance', 'power', 'woofer']) {
-    assert.equal(r[k].status, 'UNAVAILABLE', `${id}: ${k} must be unavailable until the variant is identified`);
-    assert.equal(r[k].value, null, `${id}: ${k} value must be null`);
+    assert.equal(r[k].status, 'UNAVAILABLE', `electro-voice-zx5: ${k} must stay unavailable`);
+    assert.equal(r[k].value, null, `electro-voice-zx5: ${k} value must be null`);
   }
-  assert.equal(r.frequencyResponse.status, 'UNAVAILABLE', `${id}: frequency response must be unavailable`);
-  assert.equal(r.driverCount, 2, `${id}: driverCount is series-level and stays`);
-  assert.equal(r.active, false, `${id}: passive design stays passive`);
+  assert.equal(r.frequencyResponse.status, 'UNAVAILABLE', 'electro-voice-zx5: frequency response must stay unavailable');
 }
 
 // 3b. Exact Zx3 variants (round 5): acoustic values are attached only with a manufacturer source and the variant name.

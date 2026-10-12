@@ -260,6 +260,236 @@
           "now": 91
         }
       ]
+    },
+    {
+      "id": "electro-voice-zx4",
+      "pass": "second",
+      "date": "2026-10-12",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "table": "Frequency Response, Half Space (SPL, 1W/1m, dB), Part 38110416 Rev D",
+      "changes": [
+        {
+          "hz": 30,
+          "was": 82,
+          "now": 83
+        },
+        {
+          "hz": 200,
+          "was": 103,
+          "now": 103.5
+        },
+        {
+          "hz": 900,
+          "was": 99,
+          "now": 98.5
+        },
+        {
+          "hz": 1000,
+          "was": 99,
+          "now": 98.5
+        },
+        {
+          "hz": 3000,
+          "was": 99.5,
+          "now": 99
+        },
+        {
+          "hz": 4000,
+          "was": 99.5,
+          "now": 99
+        },
+        {
+          "hz": 5000,
+          "was": 99.5,
+          "now": 99
+        },
+        {
+          "hz": 6000,
+          "was": 99.5,
+          "now": 99
+        },
+        {
+          "hz": 7000,
+          "was": 99.5,
+          "now": 99
+        },
+        {
+          "hz": 8000,
+          "was": 99.5,
+          "now": 98.5
+        },
+        {
+          "hz": 9000,
+          "was": 99.5,
+          "now": 98
+        },
+        {
+          "hz": 10000,
+          "was": 100,
+          "now": 99
+        },
+        {
+          "hz": 20000,
+          "was": 99,
+          "now": 98.5
+        }
+      ],
+      "note": "Second pass after a readback of the cited table. The first-pass entry above is kept unchanged."
+    },
+    {
+      "id": "qsc-ac-c6t",
+      "pass": "second",
+      "date": "2026-10-12",
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+      "table": "Impedance/Frequency Response, Frequency Response (Raw) column",
+      "changes": [
+        {
+          "hz": 50,
+          "was": 68,
+          "now": 69
+        },
+        {
+          "hz": 60,
+          "was": 74,
+          "now": 75
+        },
+        {
+          "hz": 70,
+          "was": 80,
+          "now": 81
+        },
+        {
+          "hz": 80,
+          "was": 85,
+          "now": 86
+        },
+        {
+          "hz": 90,
+          "was": 87,
+          "now": 88
+        },
+        {
+          "hz": 2000,
+          "was": 89,
+          "now": 90
+        },
+        {
+          "hz": 6000,
+          "was": 91,
+          "now": 88
+        }
+      ],
+      "note": "Second pass after a readback of the cited table. The first-pass entry above is kept unchanged."
+    },
+    {
+      "id": "electro-voice-sb122",
+      "pass": "second",
+      "date": "2026-10-12",
+      "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+      "table": "Frequency Response, Half Space (SPL, 1W/1m, dB)",
+      "changes": [
+        {
+          "hz": 20,
+          "was": 80.3,
+          "now": 80.5
+        },
+        {
+          "hz": 60,
+          "was": 96.5,
+          "now": 97
+        },
+        {
+          "hz": 70,
+          "was": 97.5,
+          "now": 98
+        },
+        {
+          "hz": 80,
+          "was": 99.5,
+          "now": 100
+        },
+        {
+          "hz": 400,
+          "was": 82,
+          "now": 88
+        },
+        {
+          "hz": 500,
+          "was": 82,
+          "now": 85
+        },
+        {
+          "hz": 600,
+          "was": 81.5,
+          "now": 83
+        },
+        {
+          "hz": 700,
+          "was": 79,
+          "now": 81
+        },
+        {
+          "hz": 800,
+          "was": 76.5,
+          "now": 77
+        }
+      ],
+      "note": "Second pass after a readback of the cited table. The first-pass entry is kept unchanged."
+    },
+    {
+      "id": "turbosound-ip15b",
+      "pass": "second",
+      "date": "2026-10-12",
+      "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+      "table": "Frequency Response Sensitivity 1 W / 1 m, column 'Full Range (Sound Pressure Level, dB)'",
+      "changes": [
+        {
+          "hz": 20,
+          "was": 66.5,
+          "now": 67
+        },
+        {
+          "hz": 40,
+          "was": 91.5,
+          "now": 91
+        },
+        {
+          "hz": 50,
+          "was": 94.5,
+          "now": 93.5
+        },
+        {
+          "hz": 60,
+          "was": 95.5,
+          "now": 94.5
+        },
+        {
+          "hz": 70,
+          "was": 95.3,
+          "now": 94.5
+        },
+        {
+          "hz": 80,
+          "was": 94.5,
+          "now": 94
+        },
+        {
+          "hz": 90,
+          "was": 93.5,
+          "now": 93
+        },
+        {
+          "hz": 100,
+          "was": 92,
+          "now": 91.5
+        },
+        {
+          "hz": 200,
+          "was": 76,
+          "now": 74
+        }
+      ],
+      "note": "Second pass after a readback of the cited table. The first-pass entry is kept unchanged."
     }
   ]
 }

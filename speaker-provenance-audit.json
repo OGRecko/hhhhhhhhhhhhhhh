@@ -1,63 +1,63 @@
 {
   "ok": true,
-  "records": 669,
-  "uniqueIds": 669,
+  "records": 666,
+  "uniqueIds": 666,
   "duplicateIds": 0,
-  "uniqueBrandModels": 669,
+  "uniqueBrandModels": 666,
   "duplicateBrandModels": 0,
   "statusCounts": {
-    "PARTIALLY_VERIFIED": 661,
-    "UNVERIFIED": 8
+    "PARTIALLY_VERIFIED": 660,
+    "UNVERIFIED": 6
   },
   "sourceTypeCounts": {
-    "MANUFACTURER": 1549,
-    "NONE": 2258,
+    "MANUFACTURER": 1544,
+    "NONE": 2245,
     "REPUTABLE_DATABASE": 188,
     "THIRD_PARTY": 18,
     "MEASUREMENT": 1
   },
   "responseCurveData": {
-    "embeddedJsonCurves": 26,
+    "embeddedJsonCurves": 25,
     "embeddedCurveProvenance": {
-      "total": 26,
-      "manufacturer": 26,
+      "total": 25,
+      "manufacturer": 25,
       "measurement": 0,
       "reputable_database": 0
     },
     "embeddedCurveProblems": 0,
-    "declaredManufacturerCurves": 26,
+    "declaredManufacturerCurves": 25,
     "declaredMeasurementCurves": 0,
     "declaredVerifiedDatabaseCurves": 0,
-    "physicallyModeledCurves": 643,
+    "physicallyModeledCurves": 641,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
-      "total": 111,
-      "missingBothLimits": 105,
+      "total": 109,
+      "missingBothLimits": 103,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
       "modeledFromPublishedLimits": 532,
-      "explicitCurves": 26,
-      "speakers": 669
+      "explicitCurves": 25,
+      "speakers": 666
     },
     "categoryBasedSynthesisAbsent": true
   },
   "nullableFlags": {
     "counts": {
       "driverCount": {
-        "known": 494,
-        "unknown": 175,
+        "known": 492,
+        "unknown": 174,
         "absent": 0,
         "invalid": 0
       },
       "active": {
-        "known": 387,
-        "unknown": 282,
+        "known": 385,
+        "unknown": 281,
         "absent": 0,
         "invalid": 0
       },
       "panel": {
         "known": 70,
-        "unknown": 599,
+        "unknown": 596,
         "absent": 0,
         "invalid": 0
       }
