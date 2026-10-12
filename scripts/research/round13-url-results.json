@@ -562,6 +562,174 @@
           "note": "Battery-powered speaker with integrated 400 W amplifier and mixer."
         }
       ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV ETX-10P 2-way powered speaker datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'ETX-10P 2-Way Powered Speaker'; '2000 W amplifier'; 'LF transducer: SMX2100 254 mm (10 in)'; 'HF transducer: DH3-B 1.25-in titanium compression driver'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-etx-10p",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "SMX2100 LF + DH3-B HF = 2."
+        },
+        {
+          "record": "electro-voice-etx-10p",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'2-Way Powered Speaker'; integrated 2000 W amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EKX-18S passive 18 in subwoofer datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'EKX-18S Passive 18\" Subwoofer'; 'LF transducer: EVS-18C 457 mm (18 in)'; 'Nominal impedance: 8 Ω'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-ekx-18s",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "One EVS-18C 18 in driver."
+        },
+        {
+          "record": "electro-voice-ekx-18s",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Passive 18-inch subwoofer'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV ETX-18SP powered subwoofer datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'ETX-18SP Powered Subwoofer'; '1800 W amplifier'; 'LF transducer: DVX3180A 457 mm (18 in)'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-etx-18sp",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "One DVX3180A 18 in driver."
+        },
+        {
+          "record": "electro-voice-etx-18sp",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'Powered Subwoofer'; integrated 1800 W amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EKX-15 passive 15 in 2-way speaker datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'EKX-15 Passive 15\" 2-Way Speaker'; 'EVS-15M woofer coupled with a DH-1M 1-inch titanium compression driver'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-ekx-15",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "EVS-15M + DH-1M = 2."
+        },
+        {
+          "record": "electro-voice-ekx-15",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Passive 15\" 2-Way Speaker'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EKX-15S passive 15 in subwoofer datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'EKX-15S Passive 15\" Subwoofer'; 'LF transducer: EVS-15C 381 mm (15 in)'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-ekx-15s",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "One EVS-15C 15 in driver."
+        },
+        {
+          "record": "electro-voice-ekx-15s",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Passive 15-inch subwoofer'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EKX-12 passive 12 in 2-way speaker datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'EKX-12 Passive 12\" 2-Way Speaker'; 'EVS-12M woofer coupled with a DH-1M 1-inch titanium compression driver'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-ekx-12",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "EVS-12M + DH-1M = 2."
+        },
+        {
+          "record": "electro-voice-ekx-12",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Passive 12\" 2-way speaker'."
+        }
+      ]
     }
   ]
 }

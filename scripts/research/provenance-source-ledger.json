@@ -1163,6 +1163,90 @@
       "sourceClass": "MANUFACTURER",
       "round": 13,
       "coverage": "'Altavoz alimentado por batería de 2 vías EVERSE12 de 12\"'; 'El EVERSE 12 utiliza una configuración de 2 vías con un woofer de 12 pulgadas y un motor de compresión ... de titanio'; 400 W amplifier rating."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "EV ETX-10P 2-way powered speaker datasheet (EV asset host)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 13,
+      "coverage": "'ETX-10P 2-Way Powered Speaker'; '2000 W amplifier'; 'LF transducer: SMX2100 254 mm (10 in)'; 'HF transducer: DH3-B 1.25-in titanium compression driver'."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "EV EKX-18S passive 18 in subwoofer datasheet (EV asset host)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 13,
+      "coverage": "'EKX-18S Passive 18\" Subwoofer'; 'LF transducer: EVS-18C 457 mm (18 in)'; 'Nominal impedance: 8 Ω'."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "EV ETX-18SP powered subwoofer datasheet (EV asset host)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 13,
+      "coverage": "'ETX-18SP Powered Subwoofer'; '1800 W amplifier'; 'LF transducer: DVX3180A 457 mm (18 in)'."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "EV EKX-15 passive 15 in 2-way speaker datasheet (EV asset host)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 13,
+      "coverage": "'EKX-15 Passive 15\" 2-Way Speaker'; 'EVS-15M woofer coupled with a DH-1M 1-inch titanium compression driver'."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "EV EKX-15S passive 15 in subwoofer datasheet (EV asset host)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 13,
+      "coverage": "'EKX-15S Passive 15\" Subwoofer'; 'LF transducer: EVS-15C 381 mm (15 in)'."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "EV EKX-12 passive 12 in 2-way speaker datasheet (EV asset host)",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-12",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 13,
+      "coverage": "'EKX-12 Passive 12\" 2-Way Speaker'; 'EVS-12M woofer coupled with a DH-1M 1-inch titanium compression driver'."
     }
   ],
   "openQuestionsForOwner": [

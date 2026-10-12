@@ -29008,14 +29008,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EKX-12 passive 12-inch 2-way engineering data sheet. It specifies 82 Hz–18 kHz (-3 dB), 55 Hz–20 kHz (-10 dB), 95 dB axial sensitivity, 350 W continuous / 1,400 W peak handling, 8 Ω nominal (7.5 Ω minimum), a 12-inch EVS-12M woofer and a DH-1M 1-inch titanium compression driver. The 72-row full-space sensitivity table is imported exactly as published with its input-level reference unstated; runtime uses the points only as a 1 kHz-normalized response shape. The separate sensitivity scalar remains explicitly unqualified, preventing an assumed DSP sensitivity conversion. The recommended 55 Hz high-pass is not applied to the response. Nominal coverage is 90° × 60°; no full polar/directivity data are imported. Source: https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: EVS-12M + DH-1M = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Passive 12\" 2-way speaker'."
     }
   },
   {
@@ -29451,14 +29453,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EKX-15 passive 15-inch 2-way engineering data sheet. It specifies 75 Hz–18 kHz (-3 dB), 50 Hz–20 kHz (-10 dB), 96 dB axial sensitivity, 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.2 Ω minimum), a 15-inch EVS-15M woofer and a DH-1M 1-inch titanium compression driver. The 91-row full-space sensitivity table is imported exactly as published with its input-level reference unstated; runtime uses the points only as a 1 kHz-normalized response shape. The separate sensitivity scalar remains explicitly unqualified, preventing an assumed DSP sensitivity conversion. The recommended 50 Hz high-pass is not applied to the response. Nominal coverage is 90° × 60°; no full polar/directivity data are imported. Source: https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: EVS-15M + DH-1M = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Passive 15\" 2-Way Speaker'."
     }
   },
   {
@@ -29670,14 +29674,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EKX-15S passive subwoofer engineering data sheet. It specifies 60 Hz–100 Hz (-3 dB), 40 Hz–300 Hz (-10 dB), 95 dB axial sensitivity, 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.5 Ω minimum), and one 15-inch EVS-15C woofer. Sensitivity has no stated 1 W or voltage reference and is explicitly stored unqualified; DSP gain uses the neutral fallback. The published half-space response table has numeric values only through 2 kHz, so it is not imported: the current runtime would extrapolate beyond that incomplete table. Use the exact published bandwidth limits for the response model. Source: https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: One EVS-15C 15 in driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/6a42f9aa-fad1-4dd8-92ba-46c118df512e/EKX-15S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Passive 15-inch subwoofer'."
     }
   },
   {
@@ -30109,14 +30115,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EKX-18S passive subwoofer engineering data sheet. It specifies 50 Hz–100 Hz (-3 dB), 35 Hz–300 Hz (-10 dB), 96 dB axial sensitivity, 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.0 Ω minimum), and one 18-inch EVS-18C woofer. The full 20 Hz–20 kHz half-space sensitivity table is imported verbatim as a manufacturer-published response curve; its 1 kHz row is 87 dB versus 96 dB in the separate axial-sensitivity specification. No drive/reference level is stated, so the runtime uses these points only as a 1 kHz-normalized response shape and keeps the sensitivity scalar unqualified, preventing an assumed DSP conversion. Source: https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: One EVS-18C 18 in driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Passive 18-inch subwoofer'."
     }
   },
   {
@@ -30181,14 +30189,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ETX-10P powered 2-way engineering data sheet. It specifies 85 Hz–20 kHz (-3 dB), 65 Hz–20 kHz (-10 dB), 134 dB peak SPL, 90° × 60° coverage, a 2,000 W powered system, one 10-inch SMX2100 LF transducer and one DH3-B 1.25-inch titanium HF compression driver. The stored response is the full-space Music-preset -3 dB band; the -10 dB range and SPL/coverage remain context. The response table contains mode-specific DSP columns and is incomplete; no preset curve is imported. No passive sensitivity, impedance, or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: SMX2100 LF + DH3-B HF = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/0a8797b5-75ef-492b-bd82-9419fab34933/ETX10P-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: '2-Way Powered Speaker'; integrated 2000 W amplifier."
     }
   },
   {
@@ -30399,14 +30409,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ETX-18SP powered subwoofer engineering data sheet. It specifies 33 Hz–150 Hz (-3 dB), 28 Hz–180 Hz (-10 dB), 135 dB peak SPL, 1,800 W amplification, one 18-inch DVX3180A LF transducer, and adjustable 80/100/120/150 Hz low-pass settings. The -3 dB test condition is half space with the Music DSP preset and a 150 Hz low-pass; the separate Live/Music table is mode-specific and not imported. The sheet also provides a true-cardioid DSP preset, not an unconditional directivity dataset; none is imported. Source: https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: One DVX3180A 18 in driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/1f678d3b-cbfd-44e0-a1ce-3bc97c595ffa/ETX18SP-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Powered Subwoofer'; integrated 1800 W amplifier."
     }
   },
   {
