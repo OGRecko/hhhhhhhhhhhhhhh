@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SUPERSEDED (2026-10-12): this script's PRIMARY list is a transcription error (86 rows). Use reconcile-elx200-15-v2.py.
 """ELX200-15 row-count conflict (2026-10-12): primary datasheet now reachable.
 
 The owner's round-3 decision preserved the 85 stored points and recorded the conflict. This script does NOT

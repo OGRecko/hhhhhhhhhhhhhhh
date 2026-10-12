@@ -94,11 +94,12 @@ const archivedFocal = archivedRound5.records.find((r: any) => r.id === 'focal-so
 assert.ok(archivedFocal, 'focal-sopra2 must be archived unchanged, not deleted');
 assert.equal(archivedFocal.sensitivity.simulationExcluded, true);
 
-// 6. ELX200-15: row-count conflict is held in disputedPoints and the simulator field is unavailable.
+// 6. ELX200-15: stored 85 points match the primary sheet (row count resolved); the table stays excluded from simulation.
 const elx = get('electro-voice-elx200-15').frequencyResponse;
 assert.equal(elx.points, undefined, 'disputed table must not be used as response points');
 assert.equal(elx.pointsStatus, 'UNAVAILABLE');
-assert.equal(elx.disputedPoints.status, 'UNRESOLVED_ROW_COUNT');
+assert.equal(elx.disputedPoints.status, 'ROW_COUNT_RESOLVED_STORED_MATCHES_PRIMARY');
+assert.equal(elx.disputedPoints.primarySourceReconciliation.comparisonWithStoredPoints.valueDifferences.length, 0, 'stored points match the primary sheet');
 assert.equal(elx.disputedPoints.points.length, 85, 'all 85 stored points are preserved for reconciliation');
 assert.equal(elx.disputedPoints.simulationExcluded, true, 'the disputed table is excluded from simulation');
 assert.ok(elx.disputedPoints.exclusionReason, 'the exclusion reason is documented');
