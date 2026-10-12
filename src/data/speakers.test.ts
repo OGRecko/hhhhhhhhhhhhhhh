@@ -2375,9 +2375,10 @@ check("base NEXO PS15 and Turbosound iP15B keep exact revision, response provena
   nodeAssert.equal(turbo.frequencyResponse.points?.[0].hz, 20);
   nodeAssert.equal(turbo.frequencyResponse.points?.[0].db, 67);
   nodeAssert.equal(turbo.frequencyResponse.points?.[9].hz, 200);
-  nodeAssert.equal(turbo.frequencyResponse.pointsStatus, "MANUFACTURER_VERIFIED");
+  // Round 9: the source is a dealer-hosted copy of the manufacturer PID; origin is not proven, so the classification is THIRD_PARTY_VERIFIED.
+  nodeAssert.equal(turbo.frequencyResponse.pointsStatus, "THIRD_PARTY_VERIFIED");
   nodeAssert.equal(turbo.frequencyResponse.pointsSource, turboSource);
-  nodeAssert.equal(turbo.frequencyResponse.pointsSourceType, "MANUFACTURER");
+  nodeAssert.equal(turbo.frequencyResponse.pointsSourceType, "THIRD_PARTY");
   nodeAssert.match(turbo.frequencyResponse.pointsContext, /Full Range \(Sound Pressure Level, dB\)/);
   nodeAssert.equal(turbo.sensitivity.value, null, "the powered sub's electrical 4 dBu input sensitivity is not acoustic sensitivity");
   nodeAssert.equal(turbo.power.value, null, "conflicting internal amplifier ratings are not collapsed");

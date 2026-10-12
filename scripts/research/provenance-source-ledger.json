@@ -465,7 +465,8 @@
         "Stored 85 points match no primary edition: they stay excluded from simulation.",
         "No edition is adopted silently. Owner must choose an edition or supply the original revision.",
         "Range difference (-3/-10 dB) is superseded by the row-level conflicts above.",
-        "round8b-elx200-en-adoption: owner adopted EN edition. 87/87 rows match this datasheet (verify script). Stored 85 points superseded, kept as history."
+        "round8b-elx200-en-adoption: owner adopted EN edition. 87/87 rows match this datasheet (verify script). Stored 85 points superseded, kept as history.",
+        "round9-provenance-corrections: EN table moved to unverified alternate, not simulated. Current brief keeps stored 85 points."
       ],
       "queueItemsResolved": 0
     },
@@ -496,7 +497,8 @@
       "coverage": "Chunk 0 opened. Gives 1 x 15 in LF driver, Crossover type: Active, Maximum SPL 120 dB, Half space dispersion. Hosted by a dealer, so manufacturer origin is not proven. sourceType stays unset.",
       "decisions": [
         "turbosound-ip15b sourceType stays unset (origin not proven). Record kept, not deleted. Flagged for owner.",
-        "turbosound-ip15b driverCount 1 and active True: supported by this copy; not promoted to MANUFACTURER_VERIFIED"
+        "turbosound-ip15b driverCount 1 and active True: supported by this copy; not promoted to MANUFACTURER_VERIFIED",
+        "round9-provenance-corrections: points classified THIRD_PARTY_VERIFIED (dealer-hosted copy)."
       ],
       "queueItemsResolved": 0
     }
@@ -557,6 +559,15 @@
         "genelec 8331A directivity lead withdrawn by owner rule (no import)",
         "turbosound iP15B: dealer copy recorded, sourceType unset, record kept (flagged)",
         "lsr32 20 kHz: owner kept both disputed (no data change)"
+      ]
+    },
+    {
+      "round": 9,
+      "marker": "round9-provenance-corrections",
+      "date": "2026-10-12",
+      "applied": [
+        "electro-voice-elx200-15: EN 87-row table moved to alternatePublishedPoints (not simulated); 85 stored points retained as disputed (UNRESOLVED_ROW_COUNT). Reverses round 8b.",
+        "turbosound-ip15b: response points and frequency range reclassified THIRD_PARTY_VERIFIED (dealer copy, origin not proven)."
       ]
     }
   ]

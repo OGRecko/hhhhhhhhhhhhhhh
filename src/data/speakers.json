@@ -4828,9 +4828,9 @@
     "frequencyResponse": {
       "low_hz": 45,
       "high_hz": 150,
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": "THIRD_PARTY",
       "points": [
         {
           "hz": 20,
@@ -4873,10 +4873,10 @@
           "db": 74
         }
       ],
-      "pointsStatus": "MANUFACTURER_VERIFIED",
+      "pointsStatus": "THIRD_PARTY_VERIFIED",
       "pointsSource": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-      "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A. Round 5 correction (2026-10-12): the first pass changed 9 points to values that are not in the cited table; a second pass set all 10 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries turbosound-ip15b and turbosound-ip15b second pass).",
+      "pointsSourceType": "THIRD_PARTY",
+      "pointsContext": "Exact iP15B Product Information Document table headed 'Frequency Response Sensitivity 1 W / 1 m', column 'Full Range (Sound Pressure Level, dB)'. Transcribed the 10 published values from 20 to 200 Hz verbatim without interpolation or curve fitting; the source's label and context are retained even though no measurement space is stated. Runtime uses the points for normalized response shape only; the active system's sensitivity remains N/A. Round 5 correction (2026-10-12): the first pass changed 9 points to values that are not in the cited table; a second pass set all 10 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries turbosound-ip15b and turbosound-ip15b second pass). round9-provenance-corrections: the source is a dealer-hosted copy (monthany.com) of the Turbosound iNSPIRE iP15B product information document. The manufacturer-hosted original (media63.musictribe.com) could not be opened. Origin is not proven, so the points are classified THIRD_PARTY_VERIFIED, not MANUFACTURER_VERIFIED. Values are unchanged.",
       "context": " Round 5 correction (2026-10-12): 9 stored points did not match the cited manufacturer table \"Frequency Response Sensitivity 1 W / 1 m, Full Range (SPL, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json."
     },
     "power": {
@@ -4914,7 +4914,7 @@
       "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
       "sourceType": "MANUFACTURER"
     },
-    "notes": "Exact Turbosound iNSPIRE iP15B manufacturer Product Information Document, fetched as a third-party mirror; the same manufacturer PDF is identified at https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. It specifies a powered 15-inch subwoofer, one LF transducer, 45–150 Hz ±3 dB and 38–200 Hz at -10 dB. The source separately lists 600 W for the subwoofer amplifier and 2 × 200 W for satellite amplifiers, but a rear-panel output diagram gives differing power labels (500 W/sub and 2 × 125 W/8 ohms or 2 × 250 W/4 ohms); no power scalar is assigned due to this internal rating discrepancy. Its electrical 4 dBu input sensitivity is not acoustic sensitivity; no scalar sensitivity or passive speaker impedance is populated. The exact manufacturer's 1 W/1 m response/SPL table is retained as 10 raw points with source wording and context; because this is an active sub and the document does not state a measurement space or an overall acoustic sensitivity, its curve is used only for normalized shape and no scalar sensitivity is inferred. The stated half-space dispersion is not an angular polar dataset. Sources: https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf and https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf.",
+    "notes": "Exact Turbosound iNSPIRE iP15B manufacturer Product Information Document, fetched as a third-party mirror; the same manufacturer PDF is identified at https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. It specifies a powered 15-inch subwoofer, one LF transducer, 45–150 Hz ±3 dB and 38–200 Hz at -10 dB. The source separately lists 600 W for the subwoofer amplifier and 2 × 200 W for satellite amplifiers, but a rear-panel output diagram gives differing power labels (500 W/sub and 2 × 125 W/8 ohms or 2 × 250 W/4 ohms); no power scalar is assigned due to this internal rating discrepancy. Its electrical 4 dBu input sensitivity is not acoustic sensitivity; no scalar sensitivity or passive speaker impedance is populated. The exact manufacturer's 1 W/1 m response/SPL table is retained as 10 raw points with source wording and context; because this is an active sub and the document does not state a measurement space or an overall acoustic sensitivity, its curve is used only for normalized shape and no scalar sensitivity is inferred. The stated half-space dispersion is not an angular polar dataset. Sources: https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf and https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. round9-provenance-corrections: iP15B response points and frequency range are THIRD_PARTY_VERIFIED (dealer-hosted copy). sourceType stays unset.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
@@ -24780,10 +24780,10 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
       "sourceType": "MANUFACTURER",
-      "pointsStatus": "MANUFACTURER_VERIFIED",
-      "pointsSourceType": "MANUFACTURER",
+      "pointsStatus": "UNAVAILABLE",
+      "pointsSourceType": "NONE",
       "disputedPoints": {
-        "status": "SUPERSEDED_BY_OWNER_EN_ADOPTION",
+        "status": "UNRESOLVED_ROW_COUNT",
         "points": [
           {
             "hz": 20,
@@ -25579,368 +25579,383 @@
             "decision": "Stored points stay excluded from simulation. No value changed. Owner needs the original PDF file for a controlled transcription."
           }
         ],
-        "supersededBy": {
+        "round9Reversal": {
           "date": "2026-10-12",
-          "marker": "round8b-elx200-en-adoption",
-          "decision": "Owner chose the EN manufacturer edition. The 85 stored points are kept here as history, not used, and not deleted."
+          "marker": "round9-provenance-corrections",
+          "statement": "Round 8b set the EN table as published points. Reversed: the current brief keeps the stored 85 points and keeps disputed data out of simulation."
         }
       },
-      "points": [
-        {
-          "hz": 20,
-          "db": 62.0
-        },
-        {
-          "hz": 25,
-          "db": 68.0
-        },
-        {
-          "hz": 30,
-          "db": 73.0
-        },
-        {
-          "hz": 35,
-          "db": 76.0
-        },
-        {
-          "hz": 40,
-          "db": 79.0
-        },
-        {
-          "hz": 45,
-          "db": 82.0
-        },
-        {
-          "hz": 50,
-          "db": 84.0
-        },
-        {
-          "hz": 55,
-          "db": 86.0
-        },
-        {
-          "hz": 60,
-          "db": 88.0
-        },
-        {
-          "hz": 65,
-          "db": 90.0
-        },
-        {
-          "hz": 70,
-          "db": 91.0
-        },
-        {
-          "hz": 75,
-          "db": 92.0
-        },
-        {
-          "hz": 80,
-          "db": 93.0
-        },
-        {
-          "hz": 85,
-          "db": 94.0
-        },
-        {
-          "hz": 90,
-          "db": 95.0
-        },
-        {
-          "hz": 95,
-          "db": 95.0
-        },
-        {
-          "hz": 100,
-          "db": 95.0
-        },
-        {
-          "hz": 110,
-          "db": 95.5
-        },
-        {
-          "hz": 120,
-          "db": 96.0
-        },
-        {
-          "hz": 130,
-          "db": 96.0
-        },
-        {
-          "hz": 140,
-          "db": 95.0
-        },
-        {
-          "hz": 150,
-          "db": 95.0
-        },
-        {
-          "hz": 160,
-          "db": 95.5
-        },
-        {
-          "hz": 170,
-          "db": 96.0
-        },
-        {
-          "hz": 180,
-          "db": 96.0
-        },
-        {
-          "hz": 190,
-          "db": 96.0
-        },
-        {
-          "hz": 200,
-          "db": 95.5
-        },
-        {
-          "hz": 220,
-          "db": 95.0
-        },
-        {
-          "hz": 250,
-          "db": 95.0
-        },
-        {
-          "hz": 280,
-          "db": 95.5
-        },
-        {
-          "hz": 300,
-          "db": 96.0
-        },
-        {
-          "hz": 330,
-          "db": 96.0
-        },
-        {
-          "hz": 360,
-          "db": 95.5
-        },
-        {
-          "hz": 400,
-          "db": 95.0
-        },
-        {
-          "hz": 450,
-          "db": 96.0
-        },
-        {
-          "hz": 500,
-          "db": 96.0
-        },
-        {
-          "hz": 550,
-          "db": 96.0
-        },
-        {
-          "hz": 600,
-          "db": 96.0
-        },
-        {
-          "hz": 650,
-          "db": 96.0
-        },
-        {
-          "hz": 700,
-          "db": 96.0
-        },
-        {
-          "hz": 750,
-          "db": 96.0
-        },
-        {
-          "hz": 800,
-          "db": 96.0
-        },
-        {
-          "hz": 850,
-          "db": 96.0
-        },
-        {
-          "hz": 900,
-          "db": 96.0
-        },
-        {
-          "hz": 950,
-          "db": 96.0
-        },
-        {
-          "hz": 1000,
-          "db": 96.0
-        },
-        {
-          "hz": 1100,
-          "db": 95.0
-        },
-        {
-          "hz": 1200,
-          "db": 94.0
-        },
-        {
-          "hz": 1300,
-          "db": 94.0
-        },
-        {
-          "hz": 1400,
-          "db": 94.0
-        },
-        {
-          "hz": 1500,
-          "db": 95.0
-        },
-        {
-          "hz": 1600,
-          "db": 95.0
-        },
-        {
-          "hz": 1700,
-          "db": 95.0
-        },
-        {
-          "hz": 1800,
-          "db": 95.0
-        },
-        {
-          "hz": 1900,
-          "db": 95.0
-        },
-        {
-          "hz": 2000,
-          "db": 95.0
-        },
-        {
-          "hz": 2200,
-          "db": 95.0
-        },
-        {
-          "hz": 2400,
-          "db": 95.0
-        },
-        {
-          "hz": 2500,
-          "db": 95.0
-        },
-        {
-          "hz": 2600,
-          "db": 95.0
-        },
-        {
-          "hz": 2800,
-          "db": 94.0
-        },
-        {
-          "hz": 3000,
-          "db": 93.0
-        },
-        {
-          "hz": 3300,
-          "db": 93.0
-        },
-        {
-          "hz": 3600,
-          "db": 93.0
-        },
-        {
-          "hz": 4000,
-          "db": 94.0
-        },
-        {
-          "hz": 4500,
-          "db": 95.0
-        },
-        {
-          "hz": 5000,
-          "db": 95.0
-        },
-        {
-          "hz": 5500,
-          "db": 95.0
-        },
-        {
-          "hz": 6000,
-          "db": 95.0
-        },
-        {
-          "hz": 6500,
-          "db": 95.0
-        },
-        {
-          "hz": 7000,
-          "db": 95.0
-        },
-        {
-          "hz": 7500,
-          "db": 95.0
-        },
-        {
-          "hz": 8000,
-          "db": 95.0
-        },
-        {
-          "hz": 8500,
-          "db": 95.0
-        },
-        {
-          "hz": 9000,
-          "db": 95.0
-        },
-        {
-          "hz": 9500,
-          "db": 96.0
-        },
-        {
-          "hz": 10000,
-          "db": 96.0
-        },
-        {
-          "hz": 11000,
-          "db": 95.0
-        },
-        {
-          "hz": 12000,
-          "db": 95.0
-        },
-        {
-          "hz": 13000,
-          "db": 95.0
-        },
-        {
-          "hz": 14000,
-          "db": 94.0
-        },
-        {
-          "hz": 15000,
-          "db": 94.0
-        },
-        {
-          "hz": 16000,
-          "db": 93.0
-        },
-        {
-          "hz": 17000,
-          "db": 92.0
-        },
-        {
-          "hz": 18000,
-          "db": 91.0
-        },
-        {
-          "hz": 19000,
-          "db": 89.0
-        },
-        {
-          "hz": 20000,
-          "db": 82.0
-        }
-      ],
-      "pointsSource": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
-      "pointsContext": "EN manufacturer datasheet (products.electrovoice.com ELX200-15_BDL_en.pdf, one fetch, 2026-10-12). Table: Frequency (Hz) | Frequency Response, Full Space, 1W/1m (Sensitivity, dB) | Impedance. All 87 rows, 20 Hz to 20 kHz, copied without interpolation; the 2400, 2500 and 2600 Hz rows are included. Checked row-for-row with scripts/research/verify-elx200-15-en-transcription.py (0 mismatches). Open: the stated -3 dB (77 Hz-16 kHz) and -10 dB (52 Hz-19 kHz) range is not restated from the table. Reference: the sheet footnote says full-space 1 W/1 m. Impedance column is in the transcription file, not in points. round8b-elx200-en-adoption: stored 85 points kept under disputedPoints as superseded history."
+      "pointsSource": null,
+      "pointsContext": "Response points are unavailable for simulation. The stored 85 points are retained under disputedPoints with status UNRESOLVED_ROW_COUNT. The EN 87-row table is kept as alternatePublishedPoints. No edition is adopted while the conflict is open.",
+      "alternatePublishedPoints": {
+        "status": "UNVERIFIED_ALTERNATE_NOT_SIMULATED",
+        "source": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "points": [
+          {
+            "hz": 20,
+            "db": 62.0
+          },
+          {
+            "hz": 25,
+            "db": 68.0
+          },
+          {
+            "hz": 30,
+            "db": 73.0
+          },
+          {
+            "hz": 35,
+            "db": 76.0
+          },
+          {
+            "hz": 40,
+            "db": 79.0
+          },
+          {
+            "hz": 45,
+            "db": 82.0
+          },
+          {
+            "hz": 50,
+            "db": 84.0
+          },
+          {
+            "hz": 55,
+            "db": 86.0
+          },
+          {
+            "hz": 60,
+            "db": 88.0
+          },
+          {
+            "hz": 65,
+            "db": 90.0
+          },
+          {
+            "hz": 70,
+            "db": 91.0
+          },
+          {
+            "hz": 75,
+            "db": 92.0
+          },
+          {
+            "hz": 80,
+            "db": 93.0
+          },
+          {
+            "hz": 85,
+            "db": 94.0
+          },
+          {
+            "hz": 90,
+            "db": 95.0
+          },
+          {
+            "hz": 95,
+            "db": 95.0
+          },
+          {
+            "hz": 100,
+            "db": 95.0
+          },
+          {
+            "hz": 110,
+            "db": 95.5
+          },
+          {
+            "hz": 120,
+            "db": 96.0
+          },
+          {
+            "hz": 130,
+            "db": 96.0
+          },
+          {
+            "hz": 140,
+            "db": 95.0
+          },
+          {
+            "hz": 150,
+            "db": 95.0
+          },
+          {
+            "hz": 160,
+            "db": 95.5
+          },
+          {
+            "hz": 170,
+            "db": 96.0
+          },
+          {
+            "hz": 180,
+            "db": 96.0
+          },
+          {
+            "hz": 190,
+            "db": 96.0
+          },
+          {
+            "hz": 200,
+            "db": 95.5
+          },
+          {
+            "hz": 220,
+            "db": 95.0
+          },
+          {
+            "hz": 250,
+            "db": 95.0
+          },
+          {
+            "hz": 280,
+            "db": 95.5
+          },
+          {
+            "hz": 300,
+            "db": 96.0
+          },
+          {
+            "hz": 330,
+            "db": 96.0
+          },
+          {
+            "hz": 360,
+            "db": 95.5
+          },
+          {
+            "hz": 400,
+            "db": 95.0
+          },
+          {
+            "hz": 450,
+            "db": 96.0
+          },
+          {
+            "hz": 500,
+            "db": 96.0
+          },
+          {
+            "hz": 550,
+            "db": 96.0
+          },
+          {
+            "hz": 600,
+            "db": 96.0
+          },
+          {
+            "hz": 650,
+            "db": 96.0
+          },
+          {
+            "hz": 700,
+            "db": 96.0
+          },
+          {
+            "hz": 750,
+            "db": 96.0
+          },
+          {
+            "hz": 800,
+            "db": 96.0
+          },
+          {
+            "hz": 850,
+            "db": 96.0
+          },
+          {
+            "hz": 900,
+            "db": 96.0
+          },
+          {
+            "hz": 950,
+            "db": 96.0
+          },
+          {
+            "hz": 1000,
+            "db": 96.0
+          },
+          {
+            "hz": 1100,
+            "db": 95.0
+          },
+          {
+            "hz": 1200,
+            "db": 94.0
+          },
+          {
+            "hz": 1300,
+            "db": 94.0
+          },
+          {
+            "hz": 1400,
+            "db": 94.0
+          },
+          {
+            "hz": 1500,
+            "db": 95.0
+          },
+          {
+            "hz": 1600,
+            "db": 95.0
+          },
+          {
+            "hz": 1700,
+            "db": 95.0
+          },
+          {
+            "hz": 1800,
+            "db": 95.0
+          },
+          {
+            "hz": 1900,
+            "db": 95.0
+          },
+          {
+            "hz": 2000,
+            "db": 95.0
+          },
+          {
+            "hz": 2200,
+            "db": 95.0
+          },
+          {
+            "hz": 2400,
+            "db": 95.0
+          },
+          {
+            "hz": 2500,
+            "db": 95.0
+          },
+          {
+            "hz": 2600,
+            "db": 95.0
+          },
+          {
+            "hz": 2800,
+            "db": 94.0
+          },
+          {
+            "hz": 3000,
+            "db": 93.0
+          },
+          {
+            "hz": 3300,
+            "db": 93.0
+          },
+          {
+            "hz": 3600,
+            "db": 93.0
+          },
+          {
+            "hz": 4000,
+            "db": 94.0
+          },
+          {
+            "hz": 4500,
+            "db": 95.0
+          },
+          {
+            "hz": 5000,
+            "db": 95.0
+          },
+          {
+            "hz": 5500,
+            "db": 95.0
+          },
+          {
+            "hz": 6000,
+            "db": 95.0
+          },
+          {
+            "hz": 6500,
+            "db": 95.0
+          },
+          {
+            "hz": 7000,
+            "db": 95.0
+          },
+          {
+            "hz": 7500,
+            "db": 95.0
+          },
+          {
+            "hz": 8000,
+            "db": 95.0
+          },
+          {
+            "hz": 8500,
+            "db": 95.0
+          },
+          {
+            "hz": 9000,
+            "db": 95.0
+          },
+          {
+            "hz": 9500,
+            "db": 96.0
+          },
+          {
+            "hz": 10000,
+            "db": 96.0
+          },
+          {
+            "hz": 11000,
+            "db": 95.0
+          },
+          {
+            "hz": 12000,
+            "db": 95.0
+          },
+          {
+            "hz": 13000,
+            "db": 95.0
+          },
+          {
+            "hz": 14000,
+            "db": 94.0
+          },
+          {
+            "hz": 15000,
+            "db": 94.0
+          },
+          {
+            "hz": 16000,
+            "db": 93.0
+          },
+          {
+            "hz": 17000,
+            "db": 92.0
+          },
+          {
+            "hz": 18000,
+            "db": 91.0
+          },
+          {
+            "hz": 19000,
+            "db": 89.0
+          },
+          {
+            "hz": 20000,
+            "db": 82.0
+          }
+        ],
+        "comparisonWithStoredPoints": "Value differences on shared frequencies: 52. EN-only rows: 2400 Hz and 2600 Hz.",
+        "reason": "Not used by the simulator. The EN table conflicts with the 85 stored points at 52 frequencies, and the FR editions disagree with each other and with EN. Round 9: kept as an unverified alternate under the current brief.",
+        "verificationScript": "scripts/research/verify-elx200-15-en-transcription.py (transcription matches one fetch of the EN PDF, 87/87 rows)",
+        "changeLog": [
+          {
+            "date": "2026-10-12",
+            "marker": "round9-provenance-corrections",
+            "change": "Moved from points (round 8b adoption) to alternatePublishedPoints. Reversed under current brief."
+          }
+        ]
+      }
     },
     "driverCount": 2,
     "panel": null,
-    "notes": "Exact-model Electro-Voice ELX200-15 passive 2-way engineering data sheet. It specifies 77 Hz–16 kHz (-3 dB), 52 Hz–19 kHz (-10 dB), 95 dB axial sensitivity, 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.0 Ω minimum), one 15-inch EVS-15M woofer and one DH-1L compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as all 85 tabulated rows without interpolation; the sheet also lists a 42 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Source: https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf. round8b-elx200-en-adoption (2026-10-12): owner chose the EN manufacturer edition. The published response is now the 87-row EN table (scripts/research/data/elx200-15-primary-en-2026-10-13-bdl.txt, row-checked against the datasheet). The stored 85 points are kept as superseded history under disputedPoints.",
+    "notes": "Exact-model Electro-Voice ELX200-15 passive 2-way engineering data sheet. It specifies 77 Hz–16 kHz (-3 dB), 52 Hz–19 kHz (-10 dB), 95 dB axial sensitivity, 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.0 Ω minimum), one 15-inch EVS-15M woofer and one DH-1L compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as all 85 tabulated rows without interpolation; the sheet also lists a 42 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Source: https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf. round8b-elx200-en-adoption (2026-10-12): owner chose the EN manufacturer edition. The published response is now the 87-row EN table (scripts/research/data/elx200-15-primary-en-2026-10-13-bdl.txt, row-checked against the datasheet). The stored 85 points are kept as superseded history under disputedPoints. round9-provenance-corrections (2026-10-12): response points unavailable for simulation. The stored 85 points are retained as disputed; the EN 87-row table is an unverified alternate.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",

@@ -97,13 +97,14 @@ const archivedFocal = archivedRound5.records.find((r: any) => r.id === 'focal-so
 assert.ok(archivedFocal, 'focal-sopra2 must be archived unchanged, not deleted');
 assert.equal(archivedFocal.sensitivity.simulationExcluded, true);
 
-// 6. ELX200-15: owner adopted the EN manufacturer edition (round 8b). The EN 87-row table is the published response;
-// the earlier 85 stored points are superseded history and stay excluded from simulation.
+// 6. ELX200-15: the row count is UNRESOLVED (two 2026-10-13 readings disagree); the stored 85 points stay excluded from simulation.
+// Round 9 (current brief) reversed the round-8b EN adoption: the EN 87-row table is an unverified alternate and is not simulated.
 const elx = get('electro-voice-elx200-15').frequencyResponse;
-assert.equal(elx.points.length, 87, 'the EN 87-row table is the published response');
-assert.equal(elx.pointsStatus, 'MANUFACTURER_VERIFIED');
-assert.equal(elx.pointsSourceType, 'MANUFACTURER');
-assert.equal(elx.disputedPoints.status, 'SUPERSEDED_BY_OWNER_EN_ADOPTION');
+assert.equal(elx.points, undefined, 'disputed table must not be used as response points');
+assert.equal(elx.pointsStatus, 'UNAVAILABLE');
+assert.equal(elx.disputedPoints.status, 'UNRESOLVED_ROW_COUNT');
+assert.equal(elx.alternatePublishedPoints.status, 'UNVERIFIED_ALTERNATE_NOT_SIMULATED', 'EN table is an alternate, not simulated');
+assert.equal(elx.alternatePublishedPoints.points.length, 87);
 assert.ok(elx.disputedPoints.primarySourceReconciliation.supersededBy2026_10_13, 'the round-6 "stored points match" reconciliation must be marked superseded');
 assert.equal(elx.disputedPoints.primarySourceReconciliation.supersededBy2026_10_13.status, 'UNRESOLVED_ROW_COUNT');
 assert.equal(elx.disputedPoints.points.length, 85, 'all 85 stored points are preserved for reconciliation');
