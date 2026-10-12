@@ -74,11 +74,11 @@ check("total record count matches the reviewed dataset", () => {
   assert(Array.isArray(db), "speakers.json is not an array");
   // Owner decision (round 5, 2026-10-11): 24 records archived (23 consumer records without published acoustic specs
   // and the generic Zx3 record); the Zx3 record is replaced by two exact variants (+2). 693 - 24 + 2 = 671.
-  assert(db.length === 670, `expected 670 live records after the 2026-10-12 owner decisions, found ${db.length}`);
+  assert(db.length === 669, `expected 669 live records after the 2026-10-12 owner decisions, found ${db.length}`);
   assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
   // Owner answers (2026-10-12): legacy-la-1 V-DOSC and legacy-la-2 ARCS archived (no exact source); ARCS II added live.
-  // Live: 671 - 2 + 1 = 670. Archive: 24 + 2 = 26. Total: 670 + 81 + 26 = 777 (total approved by the owner).
-  nodeAssert.equal((removedOwnerRound5 as any).records.length, 26, "round 5 archive must hold the 24 removed records plus the V-DOSC and ARCS addenda");
+  // Live: 671 - 2 + 1 - 1 = 669 (focal-sopra2 duplicate archived 2026-10-12). Archive: 24 + 3 = 27. Total: 669 + 81 + 27 = 777.
+  nodeAssert.equal((removedOwnerRound5 as any).records.length, 27, "round 5 archive must hold the 24 removed records plus the V-DOSC, ARCS and focal-sopra2 addenda");
   assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length === 777, "live plus archived records must total the 777 reviewed records");
 });
 

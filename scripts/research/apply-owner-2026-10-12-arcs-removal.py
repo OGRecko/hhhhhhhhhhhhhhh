@@ -5,7 +5,7 @@
   products). It is removed from the live dataset and archived UNCHANGED in removed-owner-round5-records.json.
   Nothing is deleted.
 - The ARCS II record (lacoustics-arcs-ii) is unchanged except for its note, which no longer refers to a live 'ARCS' row.
-- Counts after this change: live 670, archived 81 + 26, reviewed total 777 (approved by the owner).
+- Counts after this change: live 670, archived 81 + 26, reviewed total 777 (approved by the owner). Later superseded by apply-owner-2026-10-12-focal-dedup.py (live 669, archived 81 + 27).
 """
 import copy
 import json

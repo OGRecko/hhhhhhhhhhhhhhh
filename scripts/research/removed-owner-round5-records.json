@@ -1,7 +1,7 @@
 {
   "reviewDate": "2026-10-11",
-  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data. Addendum (2026-10-12, owner instruction): legacy-la-1 'V-DOSC' is also archived here. Searches found only third-party-hosted copies of older V-DOSC sheets (2003-era and undated), not an exact-revision source from L-Acoustics; the record is archived unchanged, not deleted. Addendum (2026-10-12, owner decision): legacy-la-2 'ARCS' is also archived here, unchanged. It had no exact-model source; ARCS II and ARCS Wide are different products and were not transferred to it.",
-  "recordCount": 26,
+  "reason": "Removed from the live dataset at owner request (round 5, decision 2, 2026-10-11): consumer records (Sonos, Bose, Sony, Boston Acoustics) whose manufacturer publishes no acoustic specification (structural facts only, overallStatus UNVERIFIED), and the generic Electro-Voice Zx3 record, replaced by exact variants Zx3-60 and Zx3-90 (decision 1). Full records are archived unchanged; they are not speaker data. Addendum (2026-10-12, owner instruction): legacy-la-1 'V-DOSC' is also archived here. Searches found only third-party-hosted copies of older V-DOSC sheets (2003-era and undated), not an exact-revision source from L-Acoustics; the record is archived unchanged, not deleted. Addendum (2026-10-12, owner decision): legacy-la-2 'ARCS' is also archived here, unchanged. It had no exact-model source; ARCS II and ARCS Wide are different products and were not transferred to it. Addendum (2026-10-12, owner decision): focal-sopra2 'Focal Sopra No.2' is archived here, unchanged. It duplicates focal-sopra-n-2 (Focal Sopra N°2), which is manufacturer-verified; the dealer-sourced copy is not kept live.",
+  "recordCount": 27,
   "records": [
     {
       "id": "boston-a150",
@@ -1773,6 +1773,80 @@
         "sourceType": "NONE"
       },
       "notes": "Owner decision (2026-10-12): ARCS II is added as a separate record (lacoustics-arcs-ii). This row 'ARCS' has no exact-model source, so it remains UNVERIFIED and no values are transferred from ARCS II or ARCS Wide. Pass-128 check (2026-10-10): Only third-party copies of the L-Acoustics ARCS sheet were found (document-sharing site; hire listing). ARCS, ARCS II and ARCS Wide/Focus carry different specs; the catalog row does not identify one; none transferred. Pass-131 check (2026-10-10): the L-Acoustics ARCS product URL (l-acoustics.com/products/arcs/) did not resolve to a product page. Pass-136 check (2026-10-10): A third-party Scribd copy of an L-Acoustics ARCS sheet (57 kg, 375 W rms LF / 100 W rms HF long-term, 63 Hz–18 kHz ±3 dB on the 2W HI preset, 98 dB LF / 109 dB HF at 2.83 Vrms/1 m) was found. It is a lead only: it is a third-party upload, the L-Acoustics domain was not reached, and the Batch-116 rule applied to the same brand's V-DOSC copy keeps this record UNVERIFIED until a manufacturer source is found. The ARCS II sheet (50 kg, 600 W LF) is a different revision and is not transferred."
+    },
+    {
+      "id": "focal-sopra2",
+      "brand": "Focal",
+      "model": "Sopra No.2",
+      "category": "hifi",
+      "year": null,
+      "overallStatus": "PARTIALLY_VERIFIED",
+      "driverCount": 4,
+      "active": false,
+      "panel": null,
+      "sensitivity": {
+        "value": 91,
+        "unit": "dB",
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://www.audiovisionsf.com/products/focal-sopra-no-2-floorstanding-loudspeaker",
+        "sourceType": "THIRD_PARTY",
+        "reference": "2.83V/1m",
+        "simulationExcluded": true,
+        "simulationExclusionReason": "Third-party dealer listing only. Not manufacturer-verified; the 91 dB figure is excluded from verified simulation inputs until an exact-model Focal manufacturer source is obtained."
+      },
+      "frequencyResponse": {
+        "low_hz": 34,
+        "high_hz": 40000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.focal.com/it/prodotti/sopra-n2",
+        "sourceType": "MANUFACTURER"
+      },
+      "power": {
+        "value": null,
+        "unit": "W",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.focal.com/it/prodotti/sopra-n2",
+        "sourceType": "MANUFACTURER"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": 7,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.focal.com/it/prodotti/sopra-n2",
+        "sourceType": "MANUFACTURER"
+      },
+      "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source. Round 4 source decision: the Focal-Naim portal URL recorded earlier no longer resolves to the product page (it returns the Austrian home page, and the page carries a dealer login), so it is not accepted. No focal.com specification page was found. The value 91 dB at 2.83V/1m, 8 ohm nominal and 3.1 ohm minimum appears identically in several dealer and retailer listings that quote the manufacturer text (e.g. audiovisionsf.com, worldwidestereo.com). Because these are not primary fetches, the sensitivity is recorded as THIRD_PARTY_VERIFIED with the dealer URL as source, not as manufacturer-verified. Round 4 re-check (fetched 2026-10-11): the audiovisionsf.com listing names 'Focal Sopra No.2 Floorstanding Loudspeaker (PAIR)', states 'Sensivity: (2.83V / 1m)91dB', 'Nom. impedance: 8 Ohms' and 'Minimum impedance: 3.1 Ohms'. It meets the promotion criteria (exact model, stated value, stated reference), so the status is THIRD_PARTY_VERIFIED. It is third-party evidence, not manufacturer-verified, and the value is excluded from verified simulation inputs. The listing's own text has a typo ('Sensivity'); it is recorded as the listing's value. No focal.com or Focal-Naim specification page was found.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.focal.com/it/prodotti/sopra-n2",
+        "sourceType": null
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.focal.com/it/prodotti/sopra-n2",
+        "sourceType": null
+      }
     }
   ]
 }

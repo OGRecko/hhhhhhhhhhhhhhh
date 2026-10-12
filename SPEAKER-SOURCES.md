@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-12 from the authoritative dataset. 637 unique source URLs are retained for populated fields.
+Generated 2026-10-12 from the authoritative dataset. 635 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 
@@ -2392,10 +2392,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Sonus Faber Sonetto V — frequency-response limits
 - Sonus Faber Sonetto V — impedance
 
-## https://www.audiovisionsf.com/products/focal-sopra-no-2-floorstanding-loudspeaker
-
-- Focal Sopra No.2 — sensitivity
-
 ## https://www.auratoneaudio.com/products
 
 - Auratone 5C Sound Cube — frequency-response limits
@@ -2845,12 +2841,6 @@ The source is attached to the exact field it supports. A source URL here does no
 - Focal Solo6 Be — frequency-response limits
 - Focal Solo6 Be — power
 - Focal Solo6 Be — woofer size
-
-## https://www.focal.com/it/prodotti/sopra-n2
-
-- Focal Sopra No.2 — frequency-response limits
-- Focal Sopra No.2 — impedance
-- Focal Sopra No.2 — woofer size
 
 ## https://www.focal.com/products/alpha-50-evo
 

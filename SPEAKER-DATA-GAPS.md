@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-12 from the authoritative 670-record database.
+Generated 2026-10-12 from the authoritative 669-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -85,7 +85,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | kef-r11 | KEF | R11 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | bw-805d3 | Bowers & Wilkins | 805 D3 | PARTIALLY_VERIFIED | power, impedance, resonantFreq, voiceCoil |
 | bw-802d3 | Bowers & Wilkins | 802 D3 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
-| focal-sopra2 | Focal | Sopra No.2 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | klipsch-rp8000f | Klipsch | RP-8000F | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | klipsch-r51m | Klipsch | R-51M | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | polk-rti-a7 | Polk Audio | RTi A7 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
@@ -677,6 +676,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 662
+**Records with at least one source-backed acoustic field:** 661
 **Records with no source-backed acoustic field:** 8
 **Unavailable identities or confirmed non-loudspeaker records:** 0

@@ -15,3 +15,5 @@ Open items:
 - legacy-la-2 "ARCS": RESOLVED 2026-10-12. Owner chose removal; archived unchanged.
 - The official l-acoustics.com ARCS II page did not load. A fresh attempt is needed to upgrade ARCS II to MANUFACTURER_VERIFIED.
 - ARCS II max SPL conflict: the datasheet says 140 dB and a second copy of the ARCS II User Manual says 142 dB. Needs a manufacturer revision check.
+
+Addendum (2026-10-12, owner decision): focal-sopra2 (Focal Sopra No.2, dealer-sourced duplicate of focal-sopra-n-2) archived unchanged. Counts now: live 669, archived 81 + 27 = 108, reviewed total 777.

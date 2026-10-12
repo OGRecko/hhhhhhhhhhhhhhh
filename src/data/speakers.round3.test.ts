@@ -80,16 +80,19 @@ const evf = get('electro-voice-evf-1152d-96');
 assert.equal(evf.sensitivity.sourceType, 'REPUTABLE_DATABASE');
 assert.match(evf.model, /\/96$/);
 
-// 5. Focal Sopra No.2: 91 dB is stated at 2.83 V/1 m by the manufacturer-group product presentation.
-const focal = get('focal-sopra2');
+// 5. Focal Sopra N°2: the duplicate dealer record 'focal-sopra2' was archived by owner decision (2026-10-12).
+//    The surviving record focal-sopra-n-2 is MANUFACTURER_VERIFIED from the Focal product sheet (91 dB at 2.83 V/1 m).
+const focal = get('focal-sopra-n-2');
 assert.equal(focal.sensitivity.value, 91);
 assert.equal(focal.sensitivity.reference, '2.83V/1m');
-// Round 4: the Focal-Naim portal was not accepted; the dealer copy is recorded as THIRD_PARTY, not manufacturer-verified.
-assert.equal(focal.sensitivity.sourceType, 'THIRD_PARTY');
-assert.equal(focal.sensitivity.status, 'THIRD_PARTY_VERIFIED');
-// Owner decision 3 (Round 4): third-party Focal 91 dB is excluded from verified simulation inputs.
-assert.equal(focal.sensitivity.simulationExcluded, true);
-assert.match(focal.sensitivity.source, /^https:\/\/www\.audiovisionsf\.com\//);
+assert.equal(focal.sensitivity.sourceType, 'MANUFACTURER');
+assert.equal(focal.sensitivity.status, 'MANUFACTURER_VERIFIED');
+assert.match(focal.sensitivity.source, /^https:\/\/media\.focal-naim\.com\/dam\/sopra-n-2\//);
+assert.equal(records.some((r) => r.id === 'focal-sopra2'), false, 'duplicate focal-sopra2 must not be live');
+const archivedRound5: any = JSON.parse(fs.readFileSync(path.join(here, '..', '..', 'scripts', 'research', 'removed-owner-round5-records.json'), 'utf8'));
+const archivedFocal = archivedRound5.records.find((r: any) => r.id === 'focal-sopra2');
+assert.ok(archivedFocal, 'focal-sopra2 must be archived unchanged, not deleted');
+assert.equal(archivedFocal.sensitivity.simulationExcluded, true);
 
 // 6. ELX200-15: row-count conflict is held in disputedPoints and the simulator field is unavailable.
 const elx = get('electro-voice-elx200-15').frequencyResponse;

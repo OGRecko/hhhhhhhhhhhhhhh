@@ -6055,80 +6055,6 @@
     }
   },
   {
-    "id": "focal-sopra2",
-    "brand": "Focal",
-    "model": "Sopra No.2",
-    "category": "hifi",
-    "year": null,
-    "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 4,
-    "active": false,
-    "panel": null,
-    "sensitivity": {
-      "value": 91,
-      "unit": "dB",
-      "status": "THIRD_PARTY_VERIFIED",
-      "source": "https://www.audiovisionsf.com/products/focal-sopra-no-2-floorstanding-loudspeaker",
-      "sourceType": "THIRD_PARTY",
-      "reference": "2.83V/1m",
-      "simulationExcluded": true,
-      "simulationExclusionReason": "Third-party dealer listing only. Not manufacturer-verified; the 91 dB figure is excluded from verified simulation inputs until an exact-model Focal manufacturer source is obtained."
-    },
-    "frequencyResponse": {
-      "low_hz": 34,
-      "high_hz": 40000,
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://www.focal.com/it/prodotti/sopra-n2",
-      "sourceType": "MANUFACTURER"
-    },
-    "power": {
-      "value": null,
-      "unit": "W",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "impedance": {
-      "value": 8,
-      "unit": "ohm",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://www.focal.com/it/prodotti/sopra-n2",
-      "sourceType": "MANUFACTURER"
-    },
-    "resonantFreq": {
-      "value": null,
-      "unit": "Hz",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "voiceCoil": {
-      "value": null,
-      "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "woofer": {
-      "value": 7,
-      "unit": "in",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://www.focal.com/it/prodotti/sopra-n2",
-      "sourceType": "MANUFACTURER"
-    },
-    "notes": "Manufacturer data: 3-way bass-reflex; 34 Hz–40 kHz ±3 dB; 28 Hz low point at -6 dB; 8 Ω nominal, 3.1 Ω minimum; 40–300 W recommended amplifier; 91 dB sensitivity; two 7 in W-cone woofers, 6.5 in midrange and 1 in beryllium tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (40–300 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.focal.com/it/prodotti/sopra-n2. Round 3 audit: the sensitivity reference was recorded as 'manufacturer stated', which names no measurement condition; it is now 'unspecified by source', so the simulator treats it as unconverted (behaviour unchanged). The cited Focal product page (Italian) as fetched in this round contained no specification table, so the 91 dB figure could not be re-confirmed from that URL and is retained pending a re-check of the spec source. Round 4 source decision: the Focal-Naim portal URL recorded earlier no longer resolves to the product page (it returns the Austrian home page, and the page carries a dealer login), so it is not accepted. No focal.com specification page was found. The value 91 dB at 2.83V/1m, 8 ohm nominal and 3.1 ohm minimum appears identically in several dealer and retailer listings that quote the manufacturer text (e.g. audiovisionsf.com, worldwidestereo.com). Because these are not primary fetches, the sensitivity is recorded as THIRD_PARTY_VERIFIED with the dealer URL as source, not as manufacturer-verified. Round 4 re-check (fetched 2026-10-11): the audiovisionsf.com listing names 'Focal Sopra No.2 Floorstanding Loudspeaker (PAIR)', states 'Sensivity: (2.83V / 1m)91dB', 'Nom. impedance: 8 Ohms' and 'Minimum impedance: 3.1 Ohms'. It meets the promotion criteria (exact model, stated value, stated reference), so the status is THIRD_PARTY_VERIFIED. It is third-party evidence, not manufacturer-verified, and the value is excluded from verified simulation inputs. The listing's own text has a typo ('Sensivity'); it is recorded as the listing's value. No focal.com or Focal-Naim specification page was found.",
-    "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.focal.com/it/prodotti/sopra-n2",
-      "sourceType": null
-    },
-    "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://www.focal.com/it/prodotti/sopra-n2",
-      "sourceType": null
-    }
-  },
-  {
     "id": "klipsch-rp8000f",
     "brand": "Klipsch",
     "model": "RP-8000F",
@@ -37446,7 +37372,7 @@
     },
     "driverCount": 4,
     "panel": null,
-    "notes": "Exact Focal Sopra N°2 Product Sheet. It specifies a passive three-way bass-reflex floorstander with two 7-inch (18 cm) W-cone woofers, one 6.5-inch W-cone midrange driver and one 27 mm IHL Beryllium tweeter (four drivers total). Response is 34 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 28 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.1 ohms. The 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf.",
+    "notes": "Exact Focal Sopra N°2 Product Sheet. It specifies a passive three-way bass-reflex floorstander with two 7-inch (18 cm) W-cone woofers, one 6.5-inch W-cone midrange driver and one 27 mm IHL Beryllium tweeter (four drivers total). Response is 34 Hz–40 kHz (±3 dB), the -6 dB low-frequency point is 28 Hz, sensitivity is 91 dB (2.83 V/1 m), nominal impedance is 8 ohms and minimum impedance is 3.1 ohms. The 40–300 W figure is recommended amplifier power, not speaker power handling, so power remains N/A. No response points are digitized. Source: https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf. Duplicate record 'focal-sopra2' (Focal Sopra No.2, dealer-sourced) was archived on 2026-10-12 by owner decision; this record is the surviving manufacturer-verified entry for the product.",
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
