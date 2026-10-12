@@ -133,7 +133,8 @@ export function validateProjectData(input: unknown): ValidationResult {
   for (const rawSource of d.sources as any[]) {
     const speakerId = rawSource?.speakerId;
     if (speakerId !== undefined && speakerId !== null && speakerId !== '' && (typeof speakerId !== 'string' || !KNOWN_SPEAKER_IDS.has(speakerId))) {
-      return { ok: false, error: 'Project contains an unknown speaker reference.' };
+      const shown = typeof speakerId === 'string' ? speakerId : String(speakerId);
+      return { ok: false, error: `Project references speaker ID "${shown}", which is not in the current catalog. It may have been archived or removed; the project was not opened. Choose a replacement speaker for the affected source, then save the project again. See SAVED-PROJECT-SPEAKER-REFERENCES.md.` };
     }
   }
   const sourceIds = new Set(sources.points.map(x => x.id).filter(Boolean));

@@ -172,7 +172,7 @@ This inventory lists fields that are not currently populated with retained sourc
 | atc-scm19 | ATC | SCM19 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | adam-t5v | Adam Audio | T5V | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq |
 | behringer-truth-b2031 | Behringer | Truth B2031A | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, frequency-response limits |
-| equator-d5 | Equator Audio | D5 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil, woofer |
+| equator-d5 | Equator Audio | D5 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | eaw-kf760 | EAW | KF760 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq, voiceCoil |
 | adamson-e15 | Adamson | E15 | PARTIALLY_VERIFIED | sensitivity, power, impedance, resonantFreq |
 | void-air-8 | Void Acoustics | Air 8 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil, frequency-response limits |

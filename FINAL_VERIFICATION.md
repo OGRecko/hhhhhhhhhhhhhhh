@@ -18,9 +18,9 @@ The source/data gates are prepared and current documentation is generated from t
 - PARTIALLY_VERIFIED: 659
 - UNVERIFIED: 0
 - UNAVAILABLE: 0
-- Source-backed fields: sensitivity 306; power 417; impedance 355; resonant frequency 17; voice-coil size 63; woofer size 590; frequency-response limits 563.
-- Response models: 659; 532 are modeled from published response limits, 102 use the generic reference path, and 25 use source-backed response-point datasets.
-- Source-backed response-point datasets: 25 (measurement 0, manufacturer 25, reputable database 0).
+- Source-backed fields: sensitivity 306; power 417; impedance 355; resonant frequency 17; voice-coil size 63; woofer size 591; frequency-response limits 563.
+- Response models: 659; 533 are modeled from published response limits, 102 use the generic reference path, and 24 use source-backed response-point datasets.
+- Source-backed response-point datasets: 24 (measurement 0, manufacturer 24, reputable database 0).
 - Embedded polar/CLF/GLL speaker directivity datasets: 0.
 - Unsupported information remains unavailable rather than guessed.
 

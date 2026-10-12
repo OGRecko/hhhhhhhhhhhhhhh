@@ -9,33 +9,33 @@
     "PARTIALLY_VERIFIED": 659
   },
   "sourceTypeCounts": {
-    "MANUFACTURER": 1544,
-    "NONE": 2206,
+    "MANUFACTURER": 1542,
+    "NONE": 2205,
     "REPUTABLE_DATABASE": 188,
-    "THIRD_PARTY": 15,
+    "THIRD_PARTY": 18,
     "MEASUREMENT": 1
   },
   "responseCurveData": {
-    "embeddedJsonCurves": 25,
+    "embeddedJsonCurves": 24,
     "embeddedCurveProvenance": {
-      "total": 25,
-      "manufacturer": 25,
+      "total": 24,
+      "manufacturer": 24,
       "measurement": 0,
       "reputable_database": 0
     },
     "embeddedCurveProblems": 0,
-    "declaredManufacturerCurves": 25,
+    "declaredManufacturerCurves": 24,
     "declaredMeasurementCurves": 0,
     "declaredVerifiedDatabaseCurves": 0,
-    "physicallyModeledCurves": 634,
+    "physicallyModeledCurves": 635,
     "knownCurveLibraryEntries": 0,
     "genericReference": {
       "total": 102,
       "missingBothLimits": 96,
       "missingLowOnly": 0,
       "missingHighOnly": 6,
-      "modeledFromPublishedLimits": 532,
-      "explicitCurves": 25,
+      "modeledFromPublishedLimits": 533,
+      "explicitCurves": 24,
       "speakers": 659
     },
     "categoryBasedSynthesisAbsent": true

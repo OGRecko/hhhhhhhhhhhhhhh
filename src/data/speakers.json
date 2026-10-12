@@ -2874,120 +2874,125 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
       "sourceType": "MANUFACTURER",
-      "points": [
-        {
-          "hz": 20,
-          "db": 70
-        },
-        {
-          "hz": 30,
-          "db": 82
-        },
-        {
-          "hz": 40,
-          "db": 88
-        },
-        {
-          "hz": 50,
-          "db": 91
-        },
-        {
-          "hz": 60,
-          "db": 92
-        },
-        {
-          "hz": 70,
-          "db": 92.5
-        },
-        {
-          "hz": 80,
-          "db": 93
-        },
-        {
-          "hz": 90,
-          "db": 93.5
-        },
-        {
-          "hz": 100,
-          "db": 93.5
-        },
-        {
-          "hz": 200,
-          "db": 93
-        },
-        {
-          "hz": 300,
-          "db": 92.5
-        },
-        {
-          "hz": 400,
-          "db": 92.5
-        },
-        {
-          "hz": 500,
-          "db": 92.5
-        },
-        {
-          "hz": 600,
-          "db": 92.5
-        },
-        {
-          "hz": 700,
-          "db": 92
-        },
-        {
-          "hz": 800,
-          "db": 92
-        },
-        {
-          "hz": 900,
-          "db": 92.5
-        },
-        {
-          "hz": 1000,
-          "db": 93
-        },
-        {
-          "hz": 2000,
-          "db": 92.5
-        },
-        {
-          "hz": 3000,
-          "db": 92.5
-        },
-        {
-          "hz": 4000,
-          "db": 92.5
-        },
-        {
-          "hz": 5000,
-          "db": 92.5
-        },
-        {
-          "hz": 6000,
-          "db": 92.5
-        },
-        {
-          "hz": 7000,
-          "db": 92.5
-        },
-        {
-          "hz": 8000,
-          "db": 92.5
-        },
-        {
-          "hz": 9000,
-          "db": 92.5
-        },
-        {
-          "hz": 10000,
-          "db": 92.5
-        }
-      ],
-      "pointsStatus": "MANUFACTURER_VERIFIED",
-      "pointsSource": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
-      "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation. Round 5 check (2026-10-12): the 20 kHz point is set to 61 dB, the value in the Amplitude & Phase table cited above. The same manual's Acoustic Contribution table lists 92 dB fundamental at 20 kHz, so the manual conflicts with itself at that frequency; the conflict is recorded here and is not resolved by this change. Change record: scripts/research/round5-response-corrections-2026-10-12.json (entry jbl-lsr32). Round 6 (2026-10-13): the 20 kHz point is removed from the stored series. The Amplitude & Phase table gives 61 dB at 20 kHz and the Acoustic Contribution table of the same manual gives a 92 dB fundamental at 20 kHz; no evidence selects either value. The stored series now ends at 10 kHz, and the simulator extrapolates above the last point, so owner review of that extrapolation is required. Record: provenance-ledger-2026-10-13.json."
+      "pointsStatus": "UNAVAILABLE",
+      "pointsSourceType": "NONE",
+      "disputedPoints": {
+        "status": "UNRESOLVED_SELF_CONFLICT_20KHZ",
+        "points": [
+          {
+            "hz": 20,
+            "db": 70
+          },
+          {
+            "hz": 30,
+            "db": 82
+          },
+          {
+            "hz": 40,
+            "db": 88
+          },
+          {
+            "hz": 50,
+            "db": 91
+          },
+          {
+            "hz": 60,
+            "db": 92
+          },
+          {
+            "hz": 70,
+            "db": 92.5
+          },
+          {
+            "hz": 80,
+            "db": 93
+          },
+          {
+            "hz": 90,
+            "db": 93.5
+          },
+          {
+            "hz": 100,
+            "db": 93.5
+          },
+          {
+            "hz": 200,
+            "db": 93
+          },
+          {
+            "hz": 300,
+            "db": 92.5
+          },
+          {
+            "hz": 400,
+            "db": 92.5
+          },
+          {
+            "hz": 500,
+            "db": 92.5
+          },
+          {
+            "hz": 600,
+            "db": 92.5
+          },
+          {
+            "hz": 700,
+            "db": 92
+          },
+          {
+            "hz": 800,
+            "db": 92
+          },
+          {
+            "hz": 900,
+            "db": 92.5
+          },
+          {
+            "hz": 1000,
+            "db": 93
+          },
+          {
+            "hz": 2000,
+            "db": 92.5
+          },
+          {
+            "hz": 3000,
+            "db": 92.5
+          },
+          {
+            "hz": 4000,
+            "db": 92.5
+          },
+          {
+            "hz": 5000,
+            "db": 92.5
+          },
+          {
+            "hz": 6000,
+            "db": 92.5
+          },
+          {
+            "hz": 7000,
+            "db": 92.5
+          },
+          {
+            "hz": 8000,
+            "db": 92.5
+          },
+          {
+            "hz": 9000,
+            "db": 92.5
+          },
+          {
+            "hz": 10000,
+            "db": 92.5
+          }
+        ],
+        "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "context": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation. Round 5 check (2026-10-12): the 20 kHz point is set to 61 dB, the value in the Amplitude & Phase table cited above. The same manual's Acoustic Contribution table lists 92 dB fundamental at 20 kHz, so the manual conflicts with itself at that frequency; the conflict is recorded here and is not resolved by this change. Change record: scripts/research/round5-response-corrections-2026-10-12.json (entry jbl-lsr32). Round 6 (2026-10-13): the 20 kHz point is removed from the stored series. The Amplitude & Phase table gives 61 dB at 20 kHz and the Acoustic Contribution table of the same manual gives a 92 dB fundamental at 20 kHz; no evidence selects either value. The stored series now ends at 10 kHz, and the simulator extrapolates above the last point, so owner review of that extrapolation is required. Record: provenance-ledger-2026-10-13.json. Round 6 source check (2026-10-13): the 27 points are kept here, not simulated. Because the points stop at 10 kHz, the simulator would extrapolate above 10 kHz, so the series is excluded until the owner decides. The 20 kHz candidates (61 dB in the Amplitude & Phase table, 92 dB in the Acoustic Contribution table of the same manual) are both unresolved.",
+        "simulationExcluded": true,
+        "exclusionReason": "Unresolved self-conflict at 20 kHz in the same manual (61 vs 92 dB) and a 10 kHz coverage limit would be extrapolated above 10 kHz by the simulator. Points are kept in disputedPoints; owner decision required. Round 6 source check (2026-10-13)."
+      }
     },
     "power": {
       "value": 200,
@@ -12727,11 +12732,12 @@
       "sourceType": "NONE"
     },
     "woofer": {
-      "value": null,
+      "value": 5.25,
       "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
+      "status": "THIRD_PARTY_VERIFIED",
+      "source": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+      "sourceType": "THIRD_PARTY",
+      "notes": "2026-10-13: the gear4music product page for the Equator D5 (Product Ref 27579) states 'Coaxial Designed 5.25\" Diameter Polypropylene Woofer'. Retailer claim only; no Equator manufacturer page has been reached."
     },
     "notes": "Pass-128 check (2026-10-10): Review and retailer copies only (53 Hz-20 kHz; 5.25 in woofer; 2x50 W Class-D). No official Equator source located; not entered. Pass-130 check (2026-10-10): the equatoraudio.com D5 page cited in search results returned 404, so no manufacturer page could be read. Retailer and forum copies (gear4music, thegearpage) quote 53 Hz–20 kHz ±3 dB and '103 dB SPL' with no reference, and disagree on power ('100 W' vs '2 x 50 W RMS'). Pass-135 check (2026-10-10): the equatoraudio.com D5 product page returned 404 (the search index still lists the old store URL). The equatoraudio.com homepage is an unrelated blog, so it is not a manufacturer source. Retailer and forum copies repeat '53 Hz–20 kHz', '103 dB SPL' with no reference, and '2 x 50 W RMS'. No official source is reachable, so nothing is stored. Pass-136 check (2026-10-10): A search surfaced an Equator page at equatoraudio.com/D5_Studio_Monitors_with_DSP_300_Pair_p/d5.htm; fetching that exact URL returned 404 (not found) on this pass, so it cannot be cited as a verified source. Retailer copies (gear4music) repeat 53 Hz–20 kHz ±3 dB, 2 × 50 W RMS and 103 dB SPL; the SPL has no reference condition and is not a sensitivity, so nothing is stored. The 5.25 in coaxial woofer and 1 in silk tweeter (two transducers) are described in these copies but not confirmed from a live manufacturer page. Pass-138 check (2026-10-10): Retailer copy (gear4music) gives 53 Hz-20 kHz (+/-3 dB) and 100 W (2 x 50 W RMS); a forum copy gives 103 dB SPL for a pair with no reference condition. Retailer and forum copies only; the manufacturer page is not reachable. Third-party copy only (gear4music.com). driverCount 2 and active true are taken from the same page: '5.25\" woofer and a 1\" silk tweeter' and 'Active Studio Monitors'. The 103 dB SPL figure is a maximum output level and is not stored as sensitivity. Pass-140 (2026-10-10): third-party tier applied.",
     "driverCountProvenance": {
@@ -20597,20 +20603,20 @@
     "frequencyResponse": {
       "low_hz": 70,
       "high_hz": 20000,
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": "THIRD_PARTY",
       "unit": "Hz",
-      "notes": "Mackie CR3 owner's manual (pdf-manuals.com copy): '(-3 dB) 70 Hz - 20 kHz' for the CR3 column. The (-10 dB) 80 Hz figure is a different measure and is not stored as the response."
+      "notes": "Mackie CR3 owner's manual (pdf-manuals.com copy): '(-3 dB) 70 Hz - 20 kHz' for the CR3 column. The (-10 dB) 80 Hz figure is a different measure and is not stored as the response. 2026-10-13: the copy is hosted by pdf-manuals.com, not by Mackie; no Mackie host was reached, so the status is THIRD_PARTY_VERIFIED. The values were re-read from the copy's Appendix B table (CR3 column: 70 Hz-20 kHz at -3 dB; 28 W rms; 3.0 in woofer)."
     },
     "power": {
       "value": 28,
       "unit": "W",
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": "THIRD_PARTY",
       "role": "amplifier_output",
-      "notes": "Mackie CR3 owner's manual: 'Rated Power 28 watts rms' (Class AB amplifier, CR3 column). The 50 W peak figure is not stored as rated power."
+      "notes": "Mackie CR3 owner's manual: 'Rated Power 28 watts rms' (Class AB amplifier, CR3 column). The 50 W peak figure is not stored as rated power. 2026-10-13: the copy is hosted by pdf-manuals.com, not by Mackie; no Mackie host was reached, so the status is THIRD_PARTY_VERIFIED. The values were re-read from the copy's Appendix B table (CR3 column: 70 Hz-20 kHz at -3 dB; 28 W rms; 3.0 in woofer)."
     },
     "impedance": {
       "value": null,
@@ -20636,12 +20642,12 @@
     "woofer": {
       "value": 3,
       "unit": "in",
-      "status": "MANUFACTURER_VERIFIED",
+      "status": "THIRD_PARTY_VERIFIED",
       "source": "https://www.pdf-manuals.com/pdf/mackie-cr3-3-woofer-creative-reference-cr3-pair-b-h-330662-user-manual.pdf",
-      "sourceType": "MANUFACTURER",
-      "notes": "Mackie CR3 owner's manual: 'Low Frequency 3.0 in / 76 mm polypropylene-coated woofer [CR3]'."
+      "sourceType": "THIRD_PARTY",
+      "notes": "Mackie CR3 owner's manual: 'Low Frequency 3.0 in / 76 mm polypropylene-coated woofer [CR3]'. 2026-10-13: the copy is hosted by pdf-manuals.com, not by Mackie; no Mackie host was reached, so the status is THIRD_PARTY_VERIFIED. The values were re-read from the copy's Appendix B table (CR3 column: 70 Hz-20 kHz at -3 dB; 28 W rms; 3.0 in woofer)."
     },
-    "notes": "No source-backed physical specification is retained for this exact model. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored. Pass-136 check (2026-10-10): The B&H listing for the Mackie CR3 (Class-AB active 2-way, 3 in woofer, 0.75 in tweeter, 28 W RMS / 50 W peak) is internally inconsistent: it gives \"–3 dB 80–20,000 Hz; –10 dB 70–20,000 Hz\" and also \"70 Hz to 20 kHz ± 3 dB\". The CR3-X (Class-D, 50 W peak; 80 Hz at −3 dB, 70 Hz at −10 dB) is a different revision. The revision and the response statement are unresolved, so no values are stored. Pass-138 check (2026-10-10): Mackie CR3 owner's manual (combined CR3 and CR4 manual; text copy at pdf-manuals.com; the zikinf.com copy was behind a verification challenge and was read only through its search index). For CR3 the table gives frequency response (-3 dB) 70 Hz-20 kHz and (-10 dB) 80 Hz-20 kHz; amplifier rated power 28 W RMS (Class AB), with 50 W peak; low-frequency driver 3.0 in (76 mm) and high-frequency driver 0.75 in silk dome, 3 kHz crossover (2 drivers); powered. Stored: -3 dB 70 Hz-20 kHz; 28 W RMS amplifier output; woofer 3.0 in; driverCount 2; active true. Not stored: the 97 dB figure in these copies is labelled 'Maximum SPL Peak Per Pair', not sensitivity; the -10 dB 80 Hz figure is not stored as the response; the 50 W peak is not converted or stored as rated power. The Class-D 50 W, 80 Hz at -3 dB text in earlier copies belongs to a different revision and is not merged.",
+    "notes": "The earlier statement that no source-backed physical specification is retained is superseded: see the 2026-10-13 notes on frequencyResponse, power and woofer. Unknown values remain N/A rather than inferred. Pass-128 check (2026-10-10): Mackie official page not located for the exact CR3. Retailer and review copies (80 Hz-20 kHz, 97 dB max SPL, 50 W) are not field sources and CR3 variants exist; none transferred. Pass-130 check (2026-10-10): retailer listings only (80 Hz–20 kHz, 97 dB max SPL, 50 W). No mackie.com CR3 page or archive was reached. Nothing stored. Pass-135 check (2026-10-10): a distributor-hosted Mackie CR3 spec sheet (dubaimachines.com, 'Mackie CR3 Specs') gives: active 2-way, LF 1 x 3 in, HF 1 x 0.75 in, 'Frequency Response 70 Hz to 20 kHz ±3 dB', 'Frequency Range 80 Hz to 20 Hz ±10 dB', 'Power Rating 28 W RMS / 50 W Peak', max SPL 97 dB. Review copies give 80 Hz–20 kHz. The mackie.com CR3 URL returned an error page. The CR3 vs CR3-X naming is not resolved, and the sheet is a distributor copy with its own internal inconsistency, so nothing is stored. Pass-136 check (2026-10-10): The B&H listing for the Mackie CR3 (Class-AB active 2-way, 3 in woofer, 0.75 in tweeter, 28 W RMS / 50 W peak) is internally inconsistent: it gives \"–3 dB 80–20,000 Hz; –10 dB 70–20,000 Hz\" and also \"70 Hz to 20 kHz ± 3 dB\". The CR3-X (Class-D, 50 W peak; 80 Hz at −3 dB, 70 Hz at −10 dB) is a different revision. The revision and the response statement are unresolved, so no values are stored. Pass-138 check (2026-10-10): Mackie CR3 owner's manual (combined CR3 and CR4 manual; text copy at pdf-manuals.com; the zikinf.com copy was behind a verification challenge and was read only through its search index). For CR3 the table gives frequency response (-3 dB) 70 Hz-20 kHz and (-10 dB) 80 Hz-20 kHz; amplifier rated power 28 W RMS (Class AB), with 50 W peak; low-frequency driver 3.0 in (76 mm) and high-frequency driver 0.75 in silk dome, 3 kHz crossover (2 drivers); powered. Stored: -3 dB 70 Hz-20 kHz; 28 W RMS amplifier output; woofer 3.0 in; driverCount 2; active true. Not stored: the 97 dB figure in these copies is labelled 'Maximum SPL Peak Per Pair', not sensitivity; the -10 dB 80 Hz figure is not stored as the response; the 50 W peak is not converted or stored as rated power. The Class-D 50 W, 80 Hz at -3 dB text in earlier copies belongs to a different revision and is not merged.",
     "driverCountProvenance": {
       "status": "UNSOURCED",
       "source": null,
@@ -25116,7 +25122,7 @@
         "context": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged. Round 3 cross-check: alternative official copies (products.electrovoice.com product page and ELX200-15_BDL_en.pdf) were found but contain summary figures only, not the row-level table, so the 84-vs-85 row count is unresolved. Against the stored points (relative to 1 kHz = 95 dB), the -3 dB points fall at about 75 Hz and 13 kHz and the -10 dB points at about 55 Hz and 17 kHz, versus the official -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The official averaging band is not stated, so this is recorded as an open discrepancy, not a transcription correction. Round 3 decision: the primary datasheet could not be obtained, so the row count (84 stated vs 85 stored) is an unresolved conflict. The response table is held in disputedPoints and is not used by the simulator; the field is UNAVAILABLE until the primary document settles it. Reconciliation (2026-10-12): the primary datasheet was reopened. It prints 86 rows, not 84 or 85; see primarySourceReconciliation for the row-by-row comparison. The stored points are not replaced without owner approval. Reconciliation v2 (2026-10-12): the primary datasheet was re-fetched twice. It prints 85 rows, and the stored 85 points match it row-for-row. The earlier 84-row and 86-row statements were errors. The stored points are not changed.",
         "pointsSourceType": "MANUFACTURER",
         "simulationExcluded": true,
-        "exclusionReason": "Round 4/6: the row-level table now matches the primary sheet (85/85), but the table-derived -3 dB and -10 dB crossovers (about 75 Hz-13 kHz and 55 Hz-17 kHz) do not match the sheet's stated -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The table stays excluded from simulation until the owner decides whether to adopt it. The record and the table are preserved.",
+        "exclusionReason": "Round 4/6: the row-level table now matches the primary sheet (85/85), but the table-derived -3 dB and -10 dB crossovers (about 75 Hz-13 kHz and 55 Hz-17 kHz) do not match the sheet's stated -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The table stays excluded from simulation until the owner decides whether to adopt it. The record and the table are preserved. Round 6 source check (2026-10-13): a re-fetch of the primary datasheet prints 86 rows (2400 and 2600 Hz present, 2500 Hz absent) and nine values differ from the stored table; see disputedPoints.reopened2026_10_13. Owner review required.",
         "primarySourceReconciliation": {
           "status": "PRIMARY_SHEET_RECHECKED_MATCHES_STORED_85",
           "reviewedDate": "2026-10-12",
@@ -25480,6 +25486,69 @@
         "ownerDecision": {
           "date": "2026-10-12",
           "decision": "Keep the 85 stored points excluded from simulation; status ROW_COUNT_RESOLVED_STORED_MATCHES_PRIMARY confirmed by owner. The open issue is the -3/-10 dB range difference only."
+        },
+        "reopened2026_10_13": {
+          "status": "ROW_COUNT_AND_VALUE_CONFLICT_REOPENED",
+          "date": "2026-10-13",
+          "evidence": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+          "evidenceFile": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch.txt",
+          "storedRows": 85,
+          "refetchRows": 86,
+          "onlyInRefetch": [
+            2400,
+            2600
+          ],
+          "onlyInStored": [
+            2500
+          ],
+          "valueDifferences": [
+            {
+              "hz": 140,
+              "stored": 94,
+              "refetch": 94.5
+            },
+            {
+              "hz": 280,
+              "stored": 94,
+              "refetch": 95.0
+            },
+            {
+              "hz": 300,
+              "stored": 95,
+              "refetch": 94.5
+            },
+            {
+              "hz": 330,
+              "stored": 95.5,
+              "refetch": 95.0
+            },
+            {
+              "hz": 400,
+              "stored": 95,
+              "refetch": 95.5
+            },
+            {
+              "hz": 1200,
+              "stored": 93,
+              "refetch": 93.5
+            },
+            {
+              "hz": 1400,
+              "stored": 95,
+              "refetch": 94.5
+            },
+            {
+              "hz": 2000,
+              "stored": 93,
+              "refetch": 92.0
+            },
+            {
+              "hz": 2200,
+              "stored": 94,
+              "refetch": 93.0
+            }
+          ],
+          "decision": "Stored points unchanged. Simulation exclusion kept. The 2026-10-12 owner status is not overwritten, but this fetch conflicts with the v2 reconciliation it relied on, so owner review is required before the status is relied on."
         }
       }
     },
