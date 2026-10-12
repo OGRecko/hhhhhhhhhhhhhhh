@@ -16869,14 +16869,16 @@
     },
     "notes": "Exact-model Electro-Voice ETX-12P engineering data sheet (August 2026). It specifies 55 Hz–20 kHz (-3 dB), 43 Hz–20 kHz (-10 dB), 135 dB peak SPL, 90° × 60° coverage, a 2,000 W powered system, one 12-inch SMX2120 LF transducer and one DH3-B HF compression driver. The stored bandwidth is the stated -3 dB response; the -10 dB range and SPL/coverage are context only. The sheet discusses several DSP configurations and its response table is mode-specific/incomplete; no single response curve is selected or imported. No passive impedance, sensitivity, or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: LF SMX2120 + HF DH3-B = 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: powered 2-way, 2000 W amplifier."
     }
   },
   {
@@ -23699,14 +23701,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVERSE 8 engineering data sheet (August 2026). It specifies 60 Hz–20 kHz (-3 dB, full space with Music DSP), 50 Hz–20 kHz (-10 dB, half space), 121 dB maximum SPL, 100° × 100° coverage, a 400 W powered battery system, one 8-inch woofer and one 1-inch HF driver. The stored range is the stated -3 dB measurement; the differently conditioned -10 dB range remains context. Four DSP preset response tables are published; none is selected or imported. Source: https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: German datasheet: 8-in woofer + 1-in titanium dome tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: German datasheet: battery-powered with built-in amplifier (400 W)."
     }
   },
   {
@@ -24136,14 +24140,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-12P engineering data sheet. It specifies 57 Hz–16 kHz (-3 dB), 51 Hz–20 kHz (-10 dB), 130 dB maximum SPL, 90° × 60° coverage, a 1,200 W powered system, one 12-inch EVS-12M LF transducer and one DH-1L HF compression driver. The stored bandwidth is the stated -3 dB response; the -10 dB range, SPL and coverage are context only. The response table contains four DSP preset curves; no preset is selected or imported as the generic response. Source: https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Spanish datasheet: EVS-12M woofer + DH-1L compression driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Spanish datasheet: powered, 1200 W Class-D amplifier."
     }
   },
   {
@@ -24208,14 +24214,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-15P engineering data sheet. It specifies 55 Hz–16 kHz (-3 dB), 48 Hz–19 kHz (-10 dB), 132 dB peak SPL, 90° × 60° coverage, a 1,200 W powered system, one 15-inch EVS-15M woofer and one DH-1L 1-inch compression driver. The stored response is the stated -3 dB band; other bandwidth, SPL and nominal coverage remain context only. Four onboard DSP response modes (Music, Live, Speech, Club) are tabulated; none is selected or imported as the generic response. No passive impedance or sensitivity is asserted. Source: https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: EVS-15M woofer + DH-1L driver = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: powered, 1200 W Class-D amplifier."
     }
   },
   {
@@ -24571,14 +24579,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-10 passive 2-way engineering data sheet. It specifies 65 Hz–20 kHz (-3 dB), 49 Hz–22 kHz (-10 dB), 90 dB axial sensitivity (rounded; the 1 W/1 m table is 89.5 dB at 1 kHz), 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.2 Ω minimum), one 10-inch EVS-10M woofer and one DH-1L 1-inch compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as its 71 nonblank source rows without interpolation; the sheet also lists a 55 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Source: https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: French datasheet: EVS-10M woofer + DH-1L compression driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: French datasheet: passive 2-way speaker."
     }
   },
   {
@@ -25643,6 +25653,53 @@
           "date": "2026-10-12",
           "marker": "round9-provenance-corrections",
           "statement": "Round 8b set the EN table as published points. Reversed: the current brief keeps the stored 85 points and keeps disputed data out of simulation."
+        },
+        "readingReconciliation": {
+          "file": "scripts/research/elx200-15-reading-reconciliation.json",
+          "status": "UNRESOLVED_NON_REPRODUCIBLE_READINGS",
+          "readings": [
+            {
+              "label": "FR edition, fetch 2026-10-12",
+              "rows": 85,
+              "matchesStoredExactly": true,
+              "valueDifferences": 0,
+              "rowsOnlyInReading": [],
+              "rowsOnlyInStored": []
+            },
+            {
+              "label": "FR edition, re-fetch 1 2026-10-13",
+              "rows": 86,
+              "matchesStoredExactly": false,
+              "valueDifferences": 9,
+              "rowsOnlyInReading": [
+                2400,
+                2600
+              ],
+              "rowsOnlyInStored": [
+                2500
+              ]
+            },
+            {
+              "label": "FR edition, re-fetch 2 2026-10-13",
+              "rows": 85,
+              "matchesStoredExactly": false,
+              "valueDifferences": 3,
+              "rowsOnlyInReading": [],
+              "rowsOnlyInStored": []
+            },
+            {
+              "label": "EN edition (products.electrovoice.com ELX200-15_BDL_en.pdf), 2026-10-13",
+              "rows": 87,
+              "matchesStoredExactly": false,
+              "valueDifferences": 52,
+              "rowsOnlyInReading": [
+                2400,
+                2600
+              ],
+              "rowsOnlyInStored": []
+            }
+          ],
+          "simulationExcluded": true
         }
       },
       "pointsSource": null,
@@ -26091,14 +26148,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-12SP engineering data sheet. It specifies 49 Hz–135 Hz (-3 dB), 41 Hz–165 Hz (-10 dB), 129 dB maximum SPL, 1,200 W powered amplification and one 12-inch EVS-12L woofer. The low-pass setting is adjustable to 80, 100, 120 or 150 Hz. Three DSP response modes (Music, Live, Club) are published; none is selected or imported as the generic response. Source: https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Japanese datasheet: single LF transducer EVS-12L."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Japanese datasheet: powered, 1200 W Class-D amplifier."
     }
   },
   {
@@ -26514,14 +26573,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-12S passive subwoofer engineering data sheet. It specifies 42 Hz–220 Hz (-3 dB), 33 Hz–300 Hz (-10 dB), 93 dB axial sensitivity (measurement reference not stated), 400 W continuous / 1,600 W peak handling, 8 Ω nominal (6.9 Ω minimum), and one 12-inch EVS-12L woofer. The full-space bandwidth and half-space 1 W/1 m response table have different stated contexts; the 86 nonblank tabulated response values are retained verbatim without fitting or correction. The 42 Hz high-pass setting is noted in the source. Source: https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Korean datasheet: single LF transducer EVS-12L."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Korean datasheet: passive subwoofer, no built-in amplifier."
     }
   },
   {
@@ -26587,14 +26648,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-18S passive subwoofer engineering data sheet. It specifies 45 Hz–200 Hz (-3 dB), 28 Hz–300 Hz (-10 dB), 94 dB axial sensitivity (measurement reference not stated), 400 W continuous / 1,600 W peak handling, 8 Ω nominal (7.2 Ω minimum), and one 18-inch EVS-18L woofer. The published 1 W/1 m half-space table has response values only through 2 kHz and leaves higher-frequency response cells blank; it is not imported because the runtime has no way to preserve that incomplete bandwidth without extrapolation. Use the verified bandwidth-based modeled response instead. Source: https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: single LF transducer EVS-18L."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: passive subwoofer."
     }
   },
   {
@@ -26733,14 +26796,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVOLVE 50 engineering data sheet (not EVOLVE 50M). It specifies 43 Hz–20 kHz (-3 dB), 37 Hz–20 kHz (-10 dB), 127 dB maximum SPL, 120° × 40° coverage, a 1,000 W powered system, eight 3.5-inch column drivers and one 12-inch subwoofer. The stored range is the stated -3 dB response; other bandwidth, SPL and coverage figures are retained here only as context. The published response table has four DSP preset curves; none is chosen as the generic response. Source: https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: French datasheet: 8 x 3.5 in column drivers + 1 x 12 in subwoofer = 9."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: French datasheet: three-component system powered by a 1000 W Class-D amplifier."
     }
   },
   {
@@ -26805,14 +26870,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVOLVE 50M engineering data sheet (August 2026; not EVOLVE 50). It specifies 43 Hz–20 kHz (-3 dB), 37 Hz–20 kHz (-10 dB), 127 dB maximum SPL, 120° × 40° coverage, a 1,000 W powered system, eight 3.5-inch column drivers and one 12-inch subwoofer. The stored range is the stated -3 dB response; other bandwidth, SPL and coverage figures are context only. Four distinct DSP preset response curves are published; none is chosen or imported as the generic response. Source: https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: German datasheet: 8 x 3.5 in column drivers + 1 x 12 in subwoofer = 9."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: German datasheet: active column system, integrated Class-D amplifier 1000 W."
     }
   },
   {
@@ -26877,14 +26944,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVOLVE 70 engineering data sheet. It specifies 40 Hz–18 kHz (-3 dB), 35 Hz–20 kHz (-10 dB), 133 dB maximum SPL, 120° × 25° coverage, a 2,000 W powered system, eight 4.7-inch column drivers and one 15-inch subwoofer. The stored range is the stated -3 dB response; the -10 dB range, SPL and nominal coverage are context only. The response table lists four DSP preset curves (Music, Live, Speech, Club); no single mode is selected or imported. Source: https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Chinese datasheet: 8 x 4.7 in column drivers + 1 x 15 in subwoofer = 9."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Chinese datasheet: amplifier rating 2000 W, powered system."
     }
   },
   {
@@ -26949,14 +27018,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVOLVE 90 engineering data sheet. It specifies 35 Hz–18 kHz (-3 dB), 28 Hz–20 kHz (-10 dB), 134 dB maximum SPL, 120° × 25° coverage, a 2,000 W powered system, eight 4.7-inch column drivers and one 18-inch subwoofer. The stored range is the stated -3 dB response; the -10 dB range, SPL and nominal coverage are context only. Four distinct DSP preset response curves are published; none is selected or imported as the generic response. Source: https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Japanese datasheet: 8 x 4.7 in column drivers + 1 x 18 in subwoofer = 9 transducers (same counting basis as the stored value)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Japanese datasheet: amplifier rating 2000 W, powered system."
     }
   },
   {
@@ -29529,14 +29600,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EKX-15SP powered subwoofer engineering data sheet. It specifies 45 Hz–150 Hz (-3 dB), 40 Hz–180 Hz (-10 dB), 133 dB peak SPL, 1,300 W amplification, one 15-inch EVS-15C woofer, and an adjustable low-pass setting of 80/100/120/150 Hz. Its response table is DSP-preset-specific (Music, Live, Club), so no preset is selected or imported as a generic curve. The sheet describes Cardioid Control for multiple-sub deployment but provides no single-speaker directivity dataset; none is imported. Source: https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: single LF transducer EVS-15C 15 in."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: powered subwoofer, 1300 W Class-D amplifier."
     }
   },
   {
@@ -30339,14 +30412,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ETX-15SP powered subwoofer engineering data sheet. It specifies 37 Hz–150 Hz (-3 dB), 32 Hz–180 Hz (-10 dB), 134 dB peak SPL, 1,800 W amplification, one 15-inch DVX3159A LF transducer, and adjustable 80/100/120/150 Hz low-pass settings. The -3 dB test condition is half space with the Music DSP preset and a 150 Hz low-pass; the separate Live/Music table is mode-specific and not imported. The sheet also provides a true-cardioid DSP preset, not an unconditional directivity dataset; none is imported. Source: https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: single LF transducer DVX3159A 15 in."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Datasheet: powered subwoofer, 1800 W amplifier."
     }
   },
   {

@@ -1,0 +1,481 @@
+{
+  "entries": [
+    {
+      "id": "electro-voice-etx-15sp",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: single LF transducer DVX3159A 15 in."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-etx-15sp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/7e9cd88b-2e4e-44af-a5d1-adddd19a8905/ETX15SP-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: powered subwoofer, 1800 W amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-ekx-15sp",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: single LF transducer EVS-15C 15 in."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-ekx-15sp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a7d6bb01-6278-4fc6-81b9-db9a9f223864/EKX-15SP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: powered subwoofer, 1300 W Class-D amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "eV-etx12p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: LF SMX2120 + HF DH3-B = 2 transducers."
+      },
+      "round": 14
+    },
+    {
+      "id": "eV-etx12p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/a9fe9760-9719-405a-99e8-3df65cb2dd8d/ETX12P-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: powered 2-way, 2000 W amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-12p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Spanish datasheet: EVS-12M woofer + DH-1L compression driver."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-12p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ab918693-c6aa-4863-9a20-ec3c6d2706da/ELX200-12P-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Spanish datasheet: powered, 1200 W Class-D amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-everse-8",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: German datasheet: 8-in woofer + 1-in titanium dome tweeter."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-everse-8",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/ee1bcdd1-af6b-4511-bfc6-70031c358162/EVERSE-8-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: German datasheet: battery-powered with built-in amplifier (400 W)."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-12s",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Korean datasheet: single LF transducer EVS-12L."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-12s",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Korean datasheet: passive subwoofer, no built-in amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-12sp",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Japanese datasheet: single LF transducer EVS-12L."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-12sp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f13948f2-f0d7-4f1a-aa2f-be4f86b72084/ELX200-12SP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Japanese datasheet: powered, 1200 W Class-D amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-90",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Japanese datasheet: 8 x 4.7 in column drivers + 1 x 18 in subwoofer = 9 transducers (same counting basis as the stored value)."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-90",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f5a7a6c9-e70b-4d4f-b03d-32143fe6466f/EVOLVE-90-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Japanese datasheet: amplifier rating 2000 W, powered system."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-18s",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: single LF transducer EVS-18L."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-18s",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/f9b77f9c-c1aa-4937-8b1e-345b1f656694/ELX200-18S-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: passive subwoofer."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-50m",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: German datasheet: 8 x 3.5 in column drivers + 1 x 12 in subwoofer = 9."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-50m",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fab79b7d-a360-46ed-9121-08c6a8ec97e6/EVOLVE-50M-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: German datasheet: active column system, integrated Class-D amplifier 1000 W."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-10",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: French datasheet: EVS-10M woofer + DH-1L compression driver."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-10",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: French datasheet: passive 2-way speaker."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-15p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: EVS-15M woofer + DH-1L driver = 2."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-elx200-15p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd73f6c-9338-458c-94c8-a9a800d83c03/ELX200-15P-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Datasheet: powered, 1200 W Class-D amplifier."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-70",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Chinese datasheet: 8 x 4.7 in column drivers + 1 x 15 in subwoofer = 9."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-70",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd80810-77a5-4e2b-a64d-ef5e0b5278a5/EVOLVE-70-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Chinese datasheet: amplifier rating 2000 W, powered system."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-50",
+      "field": "driverCount",
+      "value": 9,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: French datasheet: 8 x 3.5 in column drivers + 1 x 12 in subwoofer = 9."
+      },
+      "round": 14
+    },
+    {
+      "id": "electro-voice-evolve-50",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fe6ed56e-96ac-421d-a02e-c3dc984b7205/EVOLVE-50-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: French datasheet: three-component system powered by a 1000 W Class-D amplifier."
+      },
+      "round": 14
+    }
+  ],
+  "marker": "round14-queue-batch"
+}
