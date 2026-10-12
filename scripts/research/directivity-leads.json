@@ -576,6 +576,15 @@
       "downloadAttempt": "curl to https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1 failed: SSL_ERROR_SYSCALL (HTTP 000). No file bytes obtained, so no local checksum verification.",
       "formatSupport": "server/directivityParser.ts accepts JSON only. The .sofa extension falls through to \"Unsupported directivity file format\". Not importable without a new SOFA parser.",
       "import": "NOT IMPORTED. No substitute file or synthesized polar data."
+    },
+    "round13Outcome": {
+      "status": "INACCESSIBLE_EGRESS_BLOCKED",
+      "date": "2026-10-12",
+      "attempt": "curl to zenodo.org (record API, record file and /content routes) fails at TLS (SSL_ERROR_SYSCALL, HTTP 000) from the sandbox.",
+      "cause": "zenodo.org is not on the sandbox outbound allow-list (github.com, codeload.github.com, api.github.com, registry.npmjs.org, pypi.org, files.pythonhosted.org). The block is at network level, not at the file.",
+      "md5Check": "NOT PERFORMED. No file bytes obtained. Expected MD5 a00e40164556183420c315e9f6ecd7fd remains unverified.",
+      "import": "NOT IMPORTED. Parser is JSON-only; .sofa is unsupported. Remains LEAD_NOT_IMPORTED / pending.",
+      "substitution": "None. No other Genelec file or synthesized polar data used."
     }
   },
   {

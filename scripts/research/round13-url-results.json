@@ -1,0 +1,567 @@
+{
+  "schema": "round13-url-results/v1",
+  "description": "Per-URL results for the round-13 queue pass. Every entry records a source that was actually opened with the fetch tool in this round. Only PROMOTED outcomes write provenance, and only when sourceClass is MANUFACTURER (the manufacturer's own domain or asset host). Other outcomes are recorded without a data write.",
+  "checkedDate": "2026-10-12",
+  "entries": [
+    {
+      "url": "https://arispro.ru/pdf/HEDD/HEDD_Type20_Manual.pdf",
+      "host": "arispro.ru",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "document": "HEDD Type 20 operation manual (EN), hosted by arispro.ru. Text is HEDD-authored.",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 3,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Introduction: 'active near- to midfield studio monitor'; 'One 7 inch bass woofer, a dedicated 4 inch midrange woofer ... Air Motion Transformer tweeter ... 3x300W ICEpower amplification'. Host is not the manufacturer domain, so no promotion under the current policy (owner decision 1 still open).",
+      "fieldResults": [
+        {
+          "record": "hedd-type-20",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Active monitor with built-in ICEpower amplification. Non-manufacturer host."
+        },
+        {
+          "record": "hedd-type-20",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Woofer + midrange woofer + AMT tweeter = 3. Non-manufacturer host."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose S1 Pro service manual, reference 787930-SM REV 07 (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 6,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "Product description: 'micro, powered, portable PA system'. Driver list is not in chunk 0 (parts lists are later chunks).",
+      "fieldResults": [
+        {
+          "record": "bose-s1-pro",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Product description: 'micro, powered, portable PA system'; built-in battery and amplifier."
+        },
+        {
+          "record": "bose-s1-pro",
+          "field": "driverCount",
+          "value": 4,
+          "outcome": "NOT_EXTRACTED",
+          "note": "Driver count not in chunk 0. Parts-list chunks (2 to 5 of 6) still to open."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose DesignMax DM3SE technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Transducers: '1 x 83 mm woofer' and '1 x 20 mm (0.75 in) neodymium dome tweeter, coaxially mounted'. Crossover: '1.7 kHz (passive 2-way crossover)'.",
+      "fieldResults": [
+        {
+          "record": "bose-designmax-dm3se",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Woofer + tweeter, 'TRANSDUCERS' table."
+        },
+        {
+          "record": "bose-designmax-dm3se",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Crossover 1.7 kHz (passive 2-way crossover)'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose FreeSpace DS 40SE / DS 40F service manual, rev 03 (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 6,
+      "status": "CHECKED_PARTIAL",
+      "evidence": "DS 40SE specification: 'Driver complement: One 4.5 inch (113.4 mm) full-range driver'. The text about 'speaker components that are not self-powered' is for the DS 40F warranty only. No passive/active statement for the DS 40SE in chunk 0.",
+      "fieldResults": [
+        {
+          "record": "bose-freespace-ds40se",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "'Driver complement: One 4.5 inch full-range driver'."
+        },
+        {
+          "record": "bose-freespace-ds40se",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Chunk 0 has no explicit passive/active statement for the 40SE (the 'not self-powered' wording is for the 40F only)."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose FreeSpace DS 16S / 16SE technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'Driver Compliment: 2.25 inch (57 mm) full-range driver'. Architects' spec: 'The loudspeaker input connections will allow for direct connection to 70 volt, 100 volt or low-impedance amplifiers' with a multi-tap transformer and a three-terminal barrier strip.",
+      "fieldResults": [
+        {
+          "record": "bose-freespace-ds16s",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Single 2.25 inch full-range driver."
+        },
+        {
+          "record": "bose-freespace-ds16s",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Input designed for direct connection to 70 V, 100 V or low-impedance external amplifiers; multi-tap transformer; no built-in amplifier stated."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose DesignMax DM8SE technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Transducers: '1 x 8-in (203 mm) woofer' and '1 x 1-in (25 mm) compression driver, coaxial center-firing'. Crossover: '1.5 kHz (passive 2-way crossover)'.",
+      "fieldResults": [
+        {
+          "record": "bose-designmax-dm8se",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Woofer + compression driver."
+        },
+        {
+          "record": "bose-designmax-dm8se",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Crossover 1.5 kHz (passive 2-way crossover)'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose FreeSpace DS 16F technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'Driver Compliment: 2.25 inch (57 mm) full-range driver'. Architects' spec: 'input connections will allow for direct connection to 70 volt, 100 volt or low-impedance amplifiers'; three-terminal barrier strip.",
+      "fieldResults": [
+        {
+          "record": "legacy-bose-6",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "Single 2.25 inch full-range driver."
+        },
+        {
+          "record": "legacy-bose-6",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Designed for direct connection to external 70 V, 100 V or low-impedance amplifiers."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose L1 Compact technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'System Type: Self-powered, two-way'. Transducers: '(6) 2.00 inch HF drivers' and '(1) 8 inch LF driver'.",
+      "fieldResults": [
+        {
+          "record": "bose-l1-compact",
+          "field": "driverCount",
+          "value": 7,
+          "outcome": "PROMOTED",
+          "note": "6 HF drivers + 1 LF driver = 7."
+        },
+        {
+          "record": "bose-l1-compact",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'System Type: Self-powered, two-way'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose Sub1 technical data sheet, French edition (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'Type du système: Module de basses autoalimenté' (self-powered subwoofer). Transducers: '1 transducteur basses fréquences RaceTrack 7 x 13 in'. Amplifier: Class D, 480 W.",
+      "fieldResults": [
+        {
+          "record": "bose-sub1",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "One RaceTrack LF transducer."
+        },
+        {
+          "record": "bose-sub1",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'Module de basses autoalimenté' (self-powered); integrated Class D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose DesignMax DM6SE technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Transducers: '1 x 6.5-inch woofer (165 mm)' and '1 x 1.25-inch (32 mm) neodymium dome tweeter, coaxially-mounted'. Crossover: '1.7 kHz (passive 2-way crossover)'.",
+      "fieldResults": [
+        {
+          "record": "bose-designmax-dm6se",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Woofer + tweeter."
+        },
+        {
+          "record": "bose-designmax-dm6se",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Crossover 1.7 kHz (passive 2-way crossover)'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+      "host": "assets.boseprofessional.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "Bose FreeSpace DS 100SE technical data sheet (Bose asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'Driver Compliment: Two (2) 2.25 inch Twiddler drivers in an Articulated Array configuration; 5.25 inch (133 mm) woofer'. Architects' spec: 'input connections will allow for direct connection to 70 volt, 100 volt or low-impedance amplifiers'.",
+      "fieldResults": [
+        {
+          "record": "bose-freespace-ds100se",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "2 Twiddler drivers + 1 woofer = 3."
+        },
+        {
+          "record": "bose-freespace-ds100se",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "Designed for direct connection to external 70 V, 100 V or low-impedance amplifiers; transformer taps."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+      "host": "assets.ctfassets.net",
+      "sourceClass": "MANUFACTURER",
+      "document": "Genelec S30 monitoring system data sheet 1001-0107-6 (Genelec content host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'The GENELEC S30 is a three-way monitor that includes drivers, amplifiers and active crossovers.' Drivers: 8 in bass, 3 1/2 in midrange cone, ribbon treble.",
+      "fieldResults": [
+        {
+          "record": "legacy-gen-1",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Bass + midrange + treble (ribbon) = 3."
+        },
+        {
+          "record": "legacy-gen-1",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'includes drivers, amplifiers and active crossovers'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV ETX-35P 3-way powered speaker datasheet (EV asset host, doc 51)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'ETX-35P 3-Way Powered Speaker'; 'features three (3) high-sensitivity transducers': SMX2151 15 in LF, EVS-6C 6.5 in MB, DH3-B 1.25 in HF. '2000 W' amplifier.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-etx-35p",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "LF SMX2151 + MB EVS-6C + HF DH3-B = 3."
+        },
+        {
+          "record": "electro-voice-etx-35p",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'3-Way Powered Speaker'; 2000 W integrated amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV ELX200-15 engineering datasheet, French edition (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'ELX200-15 Enceinte passive 2 voies 15\"'; 'Transducteur basse fréquence: EVS-15M 381 mm'; 'Transducteur haute fréquence: DH-1L'. Frequency response table is the FR primary already transcribed in scripts/research/data (not re-reconciled in this entry).",
+      "fieldResults": [
+        {
+          "record": "electro-voice-elx200-15",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "EVS-15M LF + DH-1L HF = 2."
+        },
+        {
+          "record": "electro-voice-elx200-15",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Enceinte passive 2 voies'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EKX-18SP powered subwoofer datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'EKX-18SP Powered 18\" Subwoofer'; '1300 W Class-D power amplifier'; 'LF transducer: EVS-18C 457 mm (18 in)'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-ekx-18sp",
+          "field": "driverCount",
+          "value": 1,
+          "outcome": "PROMOTED",
+          "note": "One EVS-18C 18 in driver."
+        },
+        {
+          "record": "electro-voice-ekx-18sp",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Powered subwoofer with integrated 1300 W Class-D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV ELX200-12 engineering datasheet, French edition (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'ELX200-12 Enceinte passive 2 voies 12\"'; 'Transducteur basse fréquence: EVS-12M 300 (12\")'; 'Transducteur haute fréquence: DH-1L'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-elx200-12",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "EVS-12M + DH-1L = 2."
+        },
+        {
+          "record": "electro-voice-elx200-12",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "'Enceinte passive 2 voies 12\"'."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV PXM-12MP powered monitor datasheet, document Vs1 2019 (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'PXM-12MP Powered Monitor'; '700 W Class-D power amplifier'; 'Transducer: CXCA2128-1NA 12\" / 1.75\" 2-way coaxial'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-pxm-12mp",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "One 2-way coaxial transducer: 12 in LF + 1.75 in HF = 2 drivers (same counting rule as the Bose DM3SE coaxial)."
+        },
+        {
+          "record": "electro-voice-pxm-12mp",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'700 W Class-D power amplifier' integrated (powered monitor)."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EVOLVE-30M portable powered column speaker datasheet, Chinese edition, Vs2 2020 (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "Chinese-language text: 'EVOLVE-30M 便携式有源音柱扬声器系统' (portable active column speaker system); 'six 2.8-inch neodymium drivers' in the array; '10 英寸低频扬声器' (10 in LF); D-class amplifier 1000 W.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-evolve-30m",
+          "field": "driverCount",
+          "value": 7,
+          "outcome": "PROMOTED",
+          "note": "Six 2.8 in array drivers + one 10 in LF = 7."
+        },
+        {
+          "record": "electro-voice-evolve-30m",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'有源' (active) system; integrated D-class 1000 W amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV ELX200-10P 2-way powered speaker datasheet (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'ELX200-10P 10\" 2-Way Powered Speaker'; '1200 W Class-D power amplifier'; 'EVS-10M 254 mm (10 in) woofer' coupled with 'DH-1L 1-inch titanium compression driver'.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-elx200-10p",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "EVS-10M + DH-1L = 2."
+        },
+        {
+          "record": "electro-voice-elx200-10p",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "'2-Way Powered Speaker'; integrated Class-D amplifier."
+        }
+      ]
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "sourceClass": "MANUFACTURER",
+      "document": "EV EVERSE 12 battery-powered 2-way speaker datasheet, Spanish edition, Dec 2024 (EV asset host)",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "'Altavoz alimentado por batería de 2 vías EVERSE12 de 12\"'; 'El EVERSE 12 utiliza una configuración de 2 vías con un woofer de 12 pulgadas y un motor de compresión ... de titanio'; 400 W amplifier rating.",
+      "fieldResults": [
+        {
+          "record": "electro-voice-everse-12",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "12 in woofer + 1 in compression driver = 2."
+        },
+        {
+          "record": "electro-voice-everse-12",
+          "field": "active",
+          "value": true,
+          "outcome": "PROMOTED",
+          "note": "Battery-powered speaker with integrated 400 W amplifier and mixer."
+        }
+      ]
+    }
+  ]
+}

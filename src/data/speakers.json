@@ -4999,14 +4999,16 @@
     },
     "notes": "Exact-model Bose Professional L1 Compact Technical Data Sheet. The system is self-powered, two-way, with one 8-inch low-frequency driver and six 2-inch high-frequency drivers (seven total); its integrated power stand supplies 130 W continuous pink-noise amplifier output band-limited to the published response. The sheet specifies 65 Hz–14 kHz (-3 dB), 50 Hz–16 kHz (-10 dB), and 180° H × 40° V nominal coverage. The low-frequency driver is 8 inches; sensitivity and passive impedance are not specified for this powered system and remain N/A. The datasheet includes numeric polar plots for selected one-third-octave bands, but the current speaker-record audit rejects embedded polar/directivity fields; the curves are not imported. No response points, resonance, or voice-coil value is asserted. Source: https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 6 HF drivers + 1 LF driver = 7."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'System Type: Self-powered, two-way'."
     }
   },
   {
@@ -5075,9 +5077,10 @@
       "sourceType": null
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Product description: 'micro, powered, portable PA system'; built-in battery and amplifier."
     }
   },
   {
@@ -5427,14 +5430,16 @@
     },
     "notes": "Exact-model Bose Sub1 Technical Data Sheet (official French-language Bose Professional PDF, fetched; its model name, tables, values, and test footnotes are explicit). Sub1 is a self-powered bass module with one 7 × 13-inch RaceTrack low-frequency driver and a 2-inch voice coil; Bose specifies 40–180 Hz (-3 dB), 32–250 Hz (-10 dB), and a 480 W integrated low-frequency amplifier channel. The 7 × 13-inch Racetrack dimension is not a circular woofer diameter, so the scalar woofer field remains N/A; the amplifier's input impedances are not speaker-load impedance, and no passive sensitivity/impedance is published. The TDS reports omnidirectional nominal horizontal coverage and 0° vertical coverage; its -10 dB rear rejection applies only to Cardioid mode with multiple-sub deployment, not to a single Sub1, and no directivity payload is imported. No response points are digitized from the graph. Source: https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: One RaceTrack LF transducer."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Module de basses autoalimenté' (self-powered); integrated Class D amplifier."
     }
   },
   {
@@ -10850,14 +10855,16 @@
     },
     "notes": "Exact-model Bose Professional FreeSpace DS 16S / DS 16SE Technical Data Sheet (official Bose Professional discontinued-product page links this exact-model TDS). The model-specific shared electrical data are 84 dB SPL sensitivity (free field, 1 W/1 m, with recommended active EQ), 16 W long-term power handling (64 W peak), and 8 Ω nominal impedance with the transformer bypassed; one 2.25-inch full-range driver is documented, so driverCount is 1 but the separate woofer field remains N/A. This record is the indoor DS 16S, not the DS 16SE weather-rated sibling. Frequency response is left N/A: this undated TDS states 95 Hz–17 kHz (±3 dB), while Bose's exact DS 16S/16SE Design Guide v1.0 states 90 Hz–16 kHz (±3 dB); the record carries no product revision that resolves the difference. The TDS's fetched on-axis table is sparse and includes a 2 kHz value of 71 dB despite the stated response bandwidth, so its response points are not imported. The TDS and Bose's official product page also link July 2010 CLF/EASE archives, but those archives were not downloaded/inspected and the speaker database does not accept an embedded polar dataset; none is imported. Sources: TDS https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf; Design Guide https://assets.boseprofessional.com/m/411655f7f5c6ba17/original/dg_freespace_ds16-ds16se_en.pdf; official resource listing https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Single 2.25 inch full-range driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Input designed for direct connection to 70 V, 100 V or low-impedance external amplifiers; multi-tap transformer; no built-in amplifier stated."
     }
   },
   {
@@ -10923,9 +10930,10 @@
     },
     "notes": "Exact-model Bose Professional FreeSpace DS 40SE service manual, 321278-SM Rev. 03 (©2016), corroborated by Bose's exact DS 40SE Design Guide v1.1. The service manual specifies 80 Hz–16 kHz (-3 dB), 87 dB SPL sensitivity at 1 W/1 m, 40 W power handling, 8 Ω nominal with transformer bypass, and one 4.5-inch full-range driver. Accordingly driverCount is 1; the separate woofer field remains N/A because Bose describes the sole transducer as full-range. The guide gives the same response, power, sensitivity and impedance values and 125° × 125° nominal dispersion (coverage context only, not a polar-response dataset). Do not substitute the distinct DS 40SE VA datasheet or its voice-alarm-specific values. No response points, directivity payload, resonance, or voice-coil value is asserted. Sources: service manual https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf; Design Guide https://assets.boseprofessional.com/m/43b9492920d8bb3f/original/dg_freespace_ds40se_en.pdf; distinct DS 40SE VA TDS (not used) https://assets.boseprofessional.com/m/42f5d1936260733f/original/tds_freespace-ds-40se_en.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Driver complement: One 4.5 inch full-range driver'."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -10996,14 +11004,16 @@
     },
     "notes": "Exact-model Bose Professional FreeSpace DS 100SE Technical Data Sheet, linked by Bose's official discontinued-product page; the shared electrical/driver facts agree with Bose service manual 294955-SM Rev. 03 (©2020). The TDS reports 85 dB SPL sensitivity (free field, 1 W/1 m, with recommended active EQ), 100 W long-term power handling (400 W peak), 8 Ω nominal impedance with the transformer bypassed, two 2.25-inch Twiddler drivers plus one separate 5.25-inch woofer (driverCount 3), and nominal 180° H × 75° V dispersion. Only the actual 5.25-inch woofer is stored in the woofer field. Frequency response remains N/A: the TDS gives 75 Hz–18 kHz (±3 dB), whereas the exact-model 2020 Rev. 03 service manual lists 55 Hz–16 kHz without a tolerance; the catalog record does not identify a product revision to reconcile them. The TDS's fetched on-axis response table also departs from its own stated ±3 dB band (e.g. 3 kHz is 8 dB below its 1 kHz row), so no response points are imported. Bose links CLF/EASE archives from the exact DS 100SE resource listing, but those archives were not downloaded/inspected and no embedded polar/directivity payload is accepted by the speaker-record audit; none is imported. Sources: TDS https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf; service manual https://assets.boseprofessional.com/m/66edcd103b49acf3/original/294955-SM_rev3.pdf; official resource listing https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 2 Twiddler drivers + 1 woofer = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Designed for direct connection to external 70 V, 100 V or low-impedance amplifiers; transformer taps."
     }
   },
   {
@@ -11175,14 +11185,16 @@
     },
     "notes": "Exact-model Bose Professional DesignMax DM3SE Technical Data Sheet (©2024). It specifies 85 Hz–20 kHz (-3 dB), 75 Hz–20 kHz (-10 dB), 86 dB sensitivity (1 W/1 m; on-axis half-space, 100 Hz–10 kHz average with recommended 80 Hz high-pass protection), 30 W long-term continuous / 120 W peak under the AES transducer test (the separate extended-lifecycle test rates 25 W / 100 W), 8 Ω nominal with transformer bypass, passive 2-way crossover, 140° conical nominal coverage, 101 dB calculated maximum SPL, and a two-driver coaxial system. The technical transducer table gives the LF unit as 83 mm (3.25 in), while the same sheet's overview calls it a 3.5-inch woofer; the structured woofer-size field is therefore left N/A rather than choosing between inconsistent manufacturer figures. Source: https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Woofer + tweeter, 'TRANSDUCERS' table."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Crossover 1.7 kHz (passive 2-way crossover)'."
     }
   },
   {
@@ -11435,14 +11447,16 @@
     },
     "notes": "Exact-model Bose Professional DesignMax DM6SE Technical Data Sheet (©2025). It specifies 70 Hz–20 kHz (-3 dB), 59 Hz–20 kHz (-10 dB), 90 dB sensitivity (1 W/1 m; on-axis half-space, 100 Hz–10 kHz average with recommended high-pass protection), 125 W long-term continuous / 500 W peak under the AES transducer test (the separate extended-lifecycle test rates 100 W / 400 W), 8 Ω nominal with transformer bypass, one 6.5-inch LF woofer plus one 1.25-inch coaxial HF tweeter, passive 2-way crossover, 125° conical nominal coverage at 1–4 kHz, and 111 dB calculated maximum SPL. Source: https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Woofer + tweeter."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Crossover 1.7 kHz (passive 2-way crossover)'."
     }
   },
   {
@@ -11622,14 +11636,16 @@
     },
     "notes": "Exact-model Bose Professional DesignMax DM8SE Technical Data Sheet, 11/2024. It specifies 60 Hz–20 kHz (-3 dB), 52 Hz–20 kHz (-10 dB), 93 dB sensitivity (1 W/1 m; on-axis half-space, 100 Hz–10 kHz average with recommended high-pass protection), 150 W long-term continuous / 600 W peak under the AES transducer test (the separate extended-lifecycle test rates 125 W / 500 W), 8 Ω nominal with transformer bypass, one weather-treated 8-inch LF woofer plus one 1-inch coaxial compression driver, passive 2-way crossover, 130° conical nominal coverage at 1–4 kHz, and 115 dB calculated maximum SPL. Source: https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Woofer + compression driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Crossover 1.5 kHz (passive 2-way crossover)'."
     }
   },
   {
@@ -19922,14 +19938,16 @@
     },
     "notes": "Exact Genelec S30 source: the S30 datasheet (https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf) identifies an S30 three-way monitor with one 8-inch bass driver, one 3.5-inch (80 mm) midrange driver, and one 9 x 65 mm ribbon tweeter. Its system specification gives free-field -3 dB cutoff bounds of ≤42 Hz and ≥25 kHz and a ±3 dB response tolerance; the official archive page's narrower ±2 dB band (43 Hz–20 kHz) is separately retained in this note, not substituted for the stored limits (https://www.genelec.com/previous-models/s30-s30nf). The exact S30 page describes three integrated amplifiers and an active crossover; the operating manual independently describes the S30 as an active three-way system (https://assets.ctfassets.net/4zjnzn055a4v/2efTH8FlgMSuwccswIqccY/5fcdec0f68300de11cf1d1757472a99b/S30_opman.pdf). Amplifier power remains N/A: the datasheet text gives 65/65/50 W peak and 50/23/3 W continuous, while Genelec's separate system-specification table gives 66/66/50 W transient and different continuous channel figures (https://assets.ctfassets.net/4zjnzn055a4v/29zPte3gXK2qyYYqgScQCm/f177f58c7f607e9474e4f09a0bc337a4/S30_sysspecs.pdf); the scalar power field cannot preserve those conflicting rating bases without conflation. The manual's -20 dBu input-to-87 dB SPL statement is not passive sensitivity, and the 10 kΩ balanced XLR value is input impedance, not speaker impedance. Resonant frequency and voice-coil size are not published. No response-point curve or polar/directivity table is imported; retain the exact published response limits only.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Bass + midrange + treble (ribbon) = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'includes drivers, amplifiers and active crossovers'."
     }
   },
   {
@@ -22113,14 +22131,16 @@
     },
     "notes": "Exact-model Bose Professional FreeSpace DS 16F Technical Data Sheet (official Bose Professional discontinued-product page links this exact model). It documents 84 dB SPL sensitivity (free field, 1 W/1 m, with recommended active EQ), 16 W long-term power handling (64 W peak), 8 Ω nominal impedance with the transformer bypassed, and one 2.25-inch full-range driver; driverCount is 1 and the separate woofer field remains N/A. Frequency response is left N/A: this undated TDS states 95 Hz–17 kHz (±3 dB), while Bose's exact DS 16F Design Guide v1.0 states 90 Hz–16 kHz (±3 dB); the record carries no product revision that resolves the difference. The fetched TDS on-axis table is sparse and includes a 2 kHz value of 71.5 dB despite the stated response bandwidth, so its response points are not imported. The TDS and Bose's official product page link July 2010 CLF/EASE archives, but those archives were not downloaded/inspected and the speaker database does not accept an embedded polar dataset; none is imported. Sources: TDS https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf; Design Guide https://assets.boseprofessional.com/m/66b12f01c1630e1d/original/dg_freespace_ds16f_en.pdf; official resource listing https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Single 2.25 inch full-range driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Designed for direct connection to external 70 V, 100 V or low-impedance amplifiers."
     }
   },
   {
@@ -23749,14 +23769,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVERSE 12 engineering data sheet (December 2024). It specifies 55 Hz–20 kHz (-3 dB, full space with Music DSP), 45 Hz–20 kHz (-10 dB, half space), 126 dB maximum SPL, 100° × 60° coverage, a 400 W powered battery system, one 12-inch woofer and one 1-inch HF compression driver. The stored range is the stated -3 dB measurement; the differently conditioned -10 dB range remains context. Four DSP preset response tables are published; none is selected or imported. Source: https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 12 in woofer + 1 in compression driver = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Battery-powered speaker with integrated 400 W amplifier and mixer."
     }
   },
   {
@@ -24038,14 +24060,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-10P engineering data sheet. It specifies 59 Hz–18 kHz (-3 dB), 53 Hz–20 kHz (-10 dB), 130 dB peak SPL, 90° × 60° coverage, a 1,200 W powered system, one 10-inch EVS-10M woofer and one DH-1L 1-inch compression driver. The stored response is the stated -3 dB band; other bandwidth, SPL and nominal coverage remain context only. Four onboard DSP response modes (Music, Live, Speech, Club) are tabulated; none is selected or imported as the generic response. No passive impedance or sensitivity is asserted. Source: https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: EVS-10M + DH-1L = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: '2-Way Powered Speaker'; integrated Class-D amplifier."
     }
   },
   {
@@ -24744,14 +24768,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-12 passive 2-way engineering data sheet. It specifies 77 Hz–17 kHz (-3 dB), 51 Hz–20 kHz (-10 dB), 93 dB axial sensitivity (the response table is explicitly 1 W/1 m), 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.5 Ω minimum), one 12-inch EVS-12M woofer and one DH-1L compression driver. The 30 nonblank full-space response/sensitivity points are retained exactly as tabulated; the sheet also lists a 50 Hz high-pass setting; it is preserved in the curve context without correction. The source's single nominal 90° × 60° coverage statement is not a polar/directivity dataset. Peak power is context only. Source: https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: EVS-12M + DH-1L = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Enceinte passive 2 voies 12\"'."
     }
   },
   {
@@ -25989,14 +26015,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ELX200-15 passive 2-way engineering data sheet. It specifies 77 Hz–16 kHz (-3 dB), 52 Hz–19 kHz (-10 dB), 95 dB axial sensitivity, 300 W continuous / 1,200 W peak handling, 8 Ω nominal (7.0 Ω minimum), one 15-inch EVS-15M woofer and one DH-1L compression driver. The manufacturer-published full-space 1 W/1 m response/sensitivity table is retained as all 85 tabulated rows without interpolation; the sheet also lists a 42 Hz high-pass setting, preserved in point context without correction. The stated 90° × 60° coverage is not a polar/directivity dataset. Source: https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf. round8b-elx200-en-adoption (2026-10-12): owner chose the EN manufacturer edition. The published response is now the 87-row EN table (scripts/research/data/elx200-15-primary-en-2026-10-13-bdl.txt, row-checked against the datasheet). The stored 85 points are kept as superseded history under disputedPoints. round9-provenance-corrections (2026-10-12): response points unavailable for simulation. The stored 85 points are retained as disputed; the EN 87-row table is an unverified alternate.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: EVS-15M LF + DH-1L HF = 2."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: 'Enceinte passive 2 voies'."
     }
   },
   {
@@ -26629,14 +26657,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EVOLVE 30M engineering data sheet. It specifies 51 Hz–20 kHz (-3 dB), 45 Hz–20 kHz (-10 dB), 123 dB maximum SPL, 120° × 40° coverage, a 1,000 W powered system, six 2.8-inch column drivers and one 10-inch subwoofer. The stored range is the stated -3 dB response; the -10 dB range and SPL/coverage are context only. The sheet's response table has four DSP preset curves (Music, Live, Speech, Club); no single preset is selected or imported. Source: https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Six 2.8 in array drivers + one 10 in LF = 7."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: '有源' (active) system; integrated D-class 1000 W amplifier."
     }
   },
   {
@@ -26989,14 +27019,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice PXM-12MP engineering data sheet (2019). It specifies 64 Hz–20 kHz (-3 dB), 53 Hz–20 kHz (-10 dB), 129 dB peak SPL, 90° × 90° coverage, a 700 W powered system (500 W LF + 200 W HF), and one 12-inch/1.75-inch two-way coaxial transducer. Four distinct response presets/spaces are tabulated; none is selected or imported. The sheet includes polar-response plots, but no numeric exact-model polar table is extracted here, so no directivity dataset is stored. Source: https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: One 2-way coaxial transducer: 12 in LF + 1.75 in HF = 2 drivers (same counting rule as the Bose DM3SE coaxial)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: '700 W Class-D power amplifier' integrated (powered monitor)."
     }
   },
   {
@@ -29563,14 +29595,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice EKX-18SP powered subwoofer engineering data sheet. It specifies 40 Hz–150 Hz (-3 dB), 35 Hz–180 Hz (-10 dB), 134 dB peak SPL, 1,300 W amplification, one 18-inch EVS-18C woofer, and an adjustable low-pass setting of 80/100/120/150 Hz. Its response table is DSP-preset-specific (Music, Live, Club), so no preset is selected or imported as a generic curve. The sheet describes Cardioid Control for multiple-sub deployment but provides no single-speaker directivity dataset; none is imported. Source: https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: One EVS-18C 18 in driver."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: Powered subwoofer with integrated 1300 W Class-D amplifier."
     }
   },
   {
@@ -30219,14 +30253,16 @@
     "panel": null,
     "notes": "Exact-model Electro-Voice ETX-35P powered 3-way engineering data sheet. It specifies 48 Hz–20 kHz (-3 dB), 38 Hz–20 kHz (-10 dB), 136 dB peak SPL, 60° × 40° coverage, a 2,000 W powered system, one 15-inch SMX2151 LF woofer, one 6.5-inch EVS-6C mid-bass driver, and one DH3-B 1.25-inch titanium HF compression driver. The stored response is the full-space Music-preset -3 dB band; the -10 dB range and SPL/coverage remain context. The response table does not provide a single unambiguous Music-mode curve; no mode-specific points are imported. No passive sensitivity, impedance, or polar/directivity dataset is asserted. Source: https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: LF SMX2151 + MB EVS-6C + HF DH3-B = 3."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 13: '3-Way Powered Speaker'; 2000 W integrated amplifier."
     }
   },
   {

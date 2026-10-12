@@ -1,0 +1,617 @@
+{
+  "entries": [
+    {
+      "id": "bose-s1-pro",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Product description: 'micro, powered, portable PA system'; built-in battery and amplifier."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-designmax-dm3se",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Woofer + tweeter, 'TRANSDUCERS' table."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-designmax-dm3se",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Crossover 1.7 kHz (passive 2-way crossover)'."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-freespace-ds40se",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Driver complement: One 4.5 inch full-range driver'."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-freespace-ds16s",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Single 2.25 inch full-range driver."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-freespace-ds16s",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Input designed for direct connection to 70 V, 100 V or low-impedance external amplifiers; multi-tap transformer; no built-in amplifier stated."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-designmax-dm8se",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Woofer + compression driver."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-designmax-dm8se",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Crossover 1.5 kHz (passive 2-way crossover)'."
+      },
+      "round": 13
+    },
+    {
+      "id": "legacy-bose-6",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Single 2.25 inch full-range driver."
+      },
+      "round": 13
+    },
+    {
+      "id": "legacy-bose-6",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/71c6e0e1bfde37f6/original/tds_fs_ds_16f_loudspeaker_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Designed for direct connection to external 70 V, 100 V or low-impedance amplifiers."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-l1-compact",
+      "field": "driverCount",
+      "value": 7,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 6 HF drivers + 1 LF driver = 7."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-l1-compact",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'System Type: Self-powered, two-way'."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-sub1",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: One RaceTrack LF transducer."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-sub1",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Module de basses autoalimenté' (self-powered); integrated Class D amplifier."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-designmax-dm6se",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Woofer + tweeter."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-designmax-dm6se",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Crossover 1.7 kHz (passive 2-way crossover)'."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-freespace-ds100se",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 2 Twiddler drivers + 1 woofer = 3."
+      },
+      "round": 13
+    },
+    {
+      "id": "bose-freespace-ds100se",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/f50748642d7b351/original/tds_fs_ds_100se_loudspeaker_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Designed for direct connection to external 70 V, 100 V or low-impedance amplifiers; transformer taps."
+      },
+      "round": 13
+    },
+    {
+      "id": "legacy-gen-1",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Bass + midrange + treble (ribbon) = 3."
+      },
+      "round": 13
+    },
+    {
+      "id": "legacy-gen-1",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.ctfassets.net/4zjnzn055a4v/4iSHIIWFKggGUcqwQe2aK0/6628244febab9ed9b04c22e238776cb1/S30_datasheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'includes drivers, amplifiers and active crossovers'."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-etx-35p",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: LF SMX2151 + MB EVS-6C + HF DH3-B = 3."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-etx-35p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c07f1128-15b1-44e6-aba7-5f920266608c/ETX35P-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: '3-Way Powered Speaker'; 2000 W integrated amplifier."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-elx200-15",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: EVS-15M LF + DH-1L HF = 2."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-elx200-15",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Enceinte passive 2 voies'."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-ekx-18sp",
+      "field": "driverCount",
+      "value": 1,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: One EVS-18C 18 in driver."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-ekx-18sp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/c86d9c22-ebcc-4170-a045-ab7bd49f1ce1/EKX-18SP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Powered subwoofer with integrated 1300 W Class-D amplifier."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-elx200-12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: EVS-12M + DH-1L = 2."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-elx200-12",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 'Enceinte passive 2 voies 12\"'."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-pxm-12mp",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: One 2-way coaxial transducer: 12 in LF + 1.75 in HF = 2 drivers (same counting rule as the Bose DM3SE coaxial)."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-pxm-12mp",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/dff7c4ae-6e95-47ec-b790-c545d93161b9/PXM-12MP-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: '700 W Class-D power amplifier' integrated (powered monitor)."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-evolve-30m",
+      "field": "driverCount",
+      "value": 7,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Six 2.8 in array drivers + one 10 in LF = 7."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-evolve-30m",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e5cc9420-4e9f-4804-bef0-079b1ba36e4a/EVOLVE-30M-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: '有源' (active) system; integrated D-class 1000 W amplifier."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-elx200-10p",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: EVS-10M + DH-1L = 2."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-elx200-10p",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/e6a47de5-54a4-4755-8548-86ad408973a5/ELX200-10P-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: '2-Way Powered Speaker'; integrated Class-D amplifier."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-everse-12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: 12 in woofer + 1 in compression driver = 2."
+      },
+      "round": 13
+    },
+    {
+      "id": "electro-voice-everse-12",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eae49ef8-7ea1-4859-b672-b1cead28804c/EVERSE-12-Engineering-Data-Sheet-2024-Dec.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 13: Battery-powered speaker with integrated 400 W amplifier and mixer."
+      },
+      "round": 13
+    }
+  ],
+  "marker": "round13-queue-batch"
+}
