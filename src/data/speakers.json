@@ -5073,9 +5073,10 @@
     },
     "notes": "Exact-model Bose S1 Pro Multi Position PA System Service Manual, reference 787930-SM Rev. 07 (not the later S1 Pro+). Bose describes the S1 Pro as a powered portable PA system; its main-assembly parts list specifies one 6-inch woofer and three 2.5-inch Twiddlers (four drivers total), so active=true, driverCount=4, and woofer=6 inches. The manual does not publish acoustic frequency response, sensitivity, nominal speaker impedance, or rated amplifier output; those remain N/A. Electrical input, battery, and service-part values are not treated as amplifier output or speaker impedance. No response points or directivity data are imported. Source: https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 14: Parts list (chunks 1-5): WOOFER, 6IN qty 1 + TWIDDLER, 2.5IN, NEO qty 3 = 4 transducers. Count is derived from parts-list quantities, not a stated count. Prototype caption noted in evidence."
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",

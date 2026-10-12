@@ -5,16 +5,16 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 659,
-  "uncheckedItems": 734,
-  "uniqueSourceUrls": 419,
+  "uncheckedItems": 733,
+  "uniqueSourceUrls": 418,
   "urlsByStatus": {
     "CHECKED_CONFIRMED": 2,
-    "CHECKED_PARTIAL": 8,
+    "CHECKED_PARTIAL": 7,
     "OPEN": 409
   },
   "uncheckedItemsByUrlStatus": {
     "CHECKED_CONFIRMED": 8,
-    "CHECKED_PARTIAL": 21,
+    "CHECKED_PARTIAL": 20,
     "OPEN": 705
   },
   "statusCounts": [
@@ -46,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 413
+      "count": 412
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 79
+      "count": 80
     },
     {
       "field": "driverCount",
@@ -74,6 +74,7 @@
     "https://adn.harmanpro.com/site_elements/resources/21498_1607531053/VTX%20A12%20Specsheet%20-%205082886-00E_original.pdf",
     "https://amphion.fi/products/one18/",
     "https://ap.kef.com/products/r5-meta",
+    "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
     "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
     "https://assets.boseprofessional.com/m/5b816e00122593ec/original/tds_fs_ds_16s_16se_loudspeakers_en.pdf",
     "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
@@ -10140,33 +10141,6 @@
       "checkedDate": null,
       "chunksOpened": [],
       "evidence": null
-    },
-    {
-      "url": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
-      "host": "assets.boseprofessional.com",
-      "status": "CHECKED_PARTIAL",
-      "items": 1,
-      "records": [
-        "bose-s1-pro"
-      ],
-      "fields": [
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "bose-s1-pro",
-          "field": "driverCount",
-          "value": 4,
-          "recordedOutcome": "NOT_EXTRACTED",
-          "recordedNote": "Driver count not in chunk 0. Parts-list chunks (2 to 5 of 6) still to open."
-        }
-      ],
-      "checkedRound": 13,
-      "checkedDate": "2026-10-12",
-      "chunksOpened": [
-        0
-      ],
-      "evidence": "Product description: 'micro, powered, portable PA system'. Driver list is not in chunk 0 (parts lists are later chunks)."
     },
     {
       "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",

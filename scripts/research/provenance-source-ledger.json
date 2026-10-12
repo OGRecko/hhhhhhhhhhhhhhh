@@ -916,15 +916,20 @@
       "url": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
       "host": "assets.boseprofessional.com",
       "document": "Bose S1 Pro service manual, reference 787930-SM REV 07 (Bose asset host)",
-      "status": "CHECKED_PARTIAL",
+      "status": "CHECKED_CONFIRMED",
       "openedDate": "2026-10-12",
       "chunksOpened": [
-        0
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "chunksTotal": 6,
       "sourceClass": "MANUFACTURER",
-      "round": 13,
-      "coverage": "Product description: 'micro, powered, portable PA system'. Driver list is not in chunk 0 (parts lists are later chunks)."
+      "round": 14,
+      "coverage": "'micro, powered, portable PA system' (chunk 0); Main Assembly Parts List WOOFER 6IN x1 and TWIDDLER 2.5IN NEO x3 (chunks 1-5). Supports driverCount 4 and active True for bose-s1-pro. Other data in the manual is service detail only."
     },
     {
       "url": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",

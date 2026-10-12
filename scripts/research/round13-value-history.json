@@ -815,6 +815,23 @@
         "note": "Round 13: 'Passive 12\" 2-way speaker'."
       },
       "round": 13
+    },
+    {
+      "id": "bose-s1-pro",
+      "field": "driverCount",
+      "value": 4,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 14: Parts list (chunks 1-5): WOOFER, 6IN qty 1 + TWIDDLER, 2.5IN, NEO qty 3 = 4 transducers. Count is derived from parts-list quantities, not a stated count. Prototype caption noted in evidence."
+      },
+      "round": 14
     }
   ],
   "marker": "round13-queue-batch"

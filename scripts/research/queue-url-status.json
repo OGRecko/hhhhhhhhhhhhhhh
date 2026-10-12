@@ -1000,15 +1000,20 @@
     {
       "url": "https://assets.boseprofessional.com/m/17a7ade7c106317c/original/787930-sm.pdf",
       "round": 13,
-      "status": "CHECKED_PARTIAL",
+      "status": "CHECKED_CONFIRMED",
       "chunksOpened": [
-        0
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "chunksTotal": 6,
       "checkedDate": "2026-10-12",
       "sourceClass": "MANUFACTURER",
       "document": "Bose S1 Pro service manual, reference 787930-SM REV 07 (Bose asset host)",
-      "evidence": "Product description: 'micro, powered, portable PA system'. Driver list is not in chunk 0 (parts lists are later chunks).",
+      "evidence": "Chunk 0: 'micro, powered, portable PA system'. Chunks 1-5: Main Assembly Parts List lists 'WOOFER, 6IN, SVCE' (qty 1) and 'TWIDDLER, 2.5IN, NEO, TXX' (qty 3), i.e. 1 woofer + 3 Twiddler transducers = 4. The manual does not state a driver count in words. Caveat: a photo caption in the disassembly section reads 'Prototype, not for resale'; the parts list is taken as the production design. Document is REV 07 per the source label.",
       "fieldResults": [
         {
           "record": "bose-s1-pro",
@@ -1021,8 +1026,8 @@
           "record": "bose-s1-pro",
           "field": "driverCount",
           "value": 4,
-          "outcome": "NOT_EXTRACTED",
-          "note": "Driver count not in chunk 0. Parts-list chunks (2 to 5 of 6) still to open."
+          "outcome": "PROMOTED",
+          "note": "Parts list (chunks 1-5): WOOFER, 6IN qty 1 + TWIDDLER, 2.5IN, NEO qty 3 = 4 transducers. Count is derived from parts-list quantities, not a stated count. Prototype caption noted in evidence."
         }
       ],
       "history": []

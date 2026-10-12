@@ -56,10 +56,10 @@ def main():
                 continue
             assert prov.get('status') == CITED, f"{fr['record']}.{field} status {prov.get('status')}"
             new = {'status': MANU_STATUS, 'source': e['url'], 'sourceType': 'MANUFACTURER',
-                   'note': 'Round 13: ' + fr.get('note', '')}
+                   'note': 'Round ' + str(e.get('round', 13)) + ': ' + fr.get('note', '')}
             if (r['id'], field, e['url']) not in seen:
                 hist['entries'].append({'id': r['id'], 'field': field, 'value': r[field], 'before': prov,
-                                        'after': new, 'round': 13})
+                                        'after': new, 'round': e.get('round', 13)})
                 seen.add((r['id'], field, e['url']))
             r[field + 'Provenance'] = new
             promoted += 1
