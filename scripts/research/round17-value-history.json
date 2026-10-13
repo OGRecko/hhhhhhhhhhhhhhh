@@ -1,0 +1,18 @@
+{
+  "round": 17,
+  "entries": [
+    {
+      "id": "jbl-lsr32",
+      "field": "frequencyResponse.disputedPoints",
+      "changes": [
+        {
+          "before": "20 kHz conflict recorded 61 dB vs 92 dB (round 5/6)",
+          "after": "20 kHz: both tables read 92 dB in this copy; 61 dB not found; 12/27 stored points differ from table"
+        }
+      ],
+      "valuesChanged": false,
+      "simulationExcluded": true,
+      "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual"
+    }
+  ]
+}

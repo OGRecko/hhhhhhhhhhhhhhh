@@ -1,0 +1,84 @@
+{
+  "schema": "lsr32-20khz-recheck-round17/v1",
+  "record": "jbl-lsr32",
+  "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+  "sourceFetchedDate": "2026-10-13",
+  "tablesIdentified": "LSR32 section identified by 250 Hz / 2.2 kHz crossover and 252G / C500G / 053ti drivers (chunk 5). Other JBL sections (LSR28P, LSR12P) have different drivers and were not used.",
+  "at20kHz": {
+    "amplitudePhaseTable_SPL_dB": 92,
+    "phase_deg": -780,
+    "acousticContribution_fundamental_dB": 92,
+    "storedDisputedValue_dB": null,
+    "stored20kHzPresentInDisputedSeries": false,
+    "note": "Both tables read 92 dB at 20 kHz in this copy. The 61 dB value recorded in round 5 is not found at 20 kHz in either table. 61 appears only at 2000 Hz and 3000 Hz in the first-harmonic distortion table, which is not the on-axis response."
+  },
+  "storedVsTable": {
+    "rowsCompared": 27,
+    "rowsMatchingAmplitudePhase": 15,
+    "rowsDifferingAmplitudePhase": [
+      {
+        "hz": 30,
+        "stored": 82,
+        "table": 80
+      },
+      {
+        "hz": 40,
+        "stored": 88,
+        "table": 86
+      },
+      {
+        "hz": 50,
+        "stored": 91,
+        "table": 90
+      },
+      {
+        "hz": 70,
+        "stored": 92.5,
+        "table": 93
+      },
+      {
+        "hz": 80,
+        "stored": 93,
+        "table": 93.5
+      },
+      {
+        "hz": 300,
+        "stored": 92.5,
+        "table": 93
+      },
+      {
+        "hz": 400,
+        "stored": 92.5,
+        "table": 93
+      },
+      {
+        "hz": 500,
+        "stored": 92.5,
+        "table": 93
+      },
+      {
+        "hz": 600,
+        "stored": 92.5,
+        "table": 93
+      },
+      {
+        "hz": 700,
+        "stored": 92,
+        "table": 92.5
+      },
+      {
+        "hz": 900,
+        "stored": 92.5,
+        "table": 92
+      },
+      {
+        "hz": 1000,
+        "stored": 93,
+        "table": 92.5
+      }
+    ]
+  },
+  "status": "NOT_REPRODUCED_20KHZ_CONFLICT; STORED_SERIES_DOES_NOT_MATCH_TABLE",
+  "simulationExcluded": true,
+  "decision": "Keep the 27 disputed points excluded from simulation. The 20 kHz conflict cannot be reproduced from this copy (both tables give 92 dB). The stored series differs from the Amplitude & Phase table at the rows listed, so it is not a defensible transcription. Owner decision needed on whether to replace the disputed series with a full re-transcription from this table (not done in this round)."
+}

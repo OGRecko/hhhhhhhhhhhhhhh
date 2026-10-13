@@ -1,0 +1,420 @@
+{
+  "schema": "elx200-15-reconciliation-round17/v1",
+  "status": "UNRESOLVED",
+  "storedPoints": 85,
+  "simulationExcluded": true,
+  "readings": [
+    {
+      "label": "FR-2026-10-12 (stored)",
+      "file": "scripts/research/data/elx200-15-primary-fr-2026-10-12.txt",
+      "rows": 85,
+      "has2400": false,
+      "has2500": true,
+      "has2600": false
+    },
+    {
+      "label": "FR-2026-10-13 re-fetch 1",
+      "file": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch.txt",
+      "rows": 86,
+      "has2400": true,
+      "has2500": false,
+      "has2600": true
+    },
+    {
+      "label": "FR-2026-10-13 re-fetch 2",
+      "file": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch2.txt",
+      "rows": 85,
+      "has2400": false,
+      "has2500": true,
+      "has2600": false
+    },
+    {
+      "label": "FR-2026-10-13 re-fetch 3",
+      "file": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch3.txt",
+      "rows": 85,
+      "has2400": false,
+      "has2500": true,
+      "has2600": false
+    },
+    {
+      "label": "EN-BDL-2026-10-13",
+      "file": "scripts/research/data/elx200-15-primary-en-2026-10-13-bdl.txt",
+      "rows": 87,
+      "has2400": true,
+      "has2500": true,
+      "has2600": true
+    }
+  ],
+  "pairwise_vs_stored": {
+    "FR-2026-10-13 re-fetch 1": {
+      "sharedRows": 84,
+      "onlyInThis": [
+        2400,
+        2600
+      ],
+      "onlyInStored": [
+        2500
+      ],
+      "dbDifferences": [
+        {
+          "hz": 140,
+          "stored": 94.0,
+          "this": 94.5
+        },
+        {
+          "hz": 280,
+          "stored": 94.0,
+          "this": 95.0
+        },
+        {
+          "hz": 300,
+          "stored": 95.0,
+          "this": 94.5
+        },
+        {
+          "hz": 330,
+          "stored": 95.5,
+          "this": 95.0
+        },
+        {
+          "hz": 400,
+          "stored": 95.0,
+          "this": 95.5
+        },
+        {
+          "hz": 1200,
+          "stored": 93.0,
+          "this": 93.5
+        },
+        {
+          "hz": 1400,
+          "stored": 95.0,
+          "this": 94.5
+        },
+        {
+          "hz": 2000,
+          "stored": 93.0,
+          "this": 92.0
+        },
+        {
+          "hz": 2200,
+          "stored": 94.0,
+          "this": 93.0
+        }
+      ],
+      "impedanceDifferences": 71,
+      "dbMaxAbsDiff": 1.0
+    },
+    "FR-2026-10-13 re-fetch 2": {
+      "sharedRows": 85,
+      "onlyInThis": [],
+      "onlyInStored": [],
+      "dbDifferences": [
+        {
+          "hz": 2000,
+          "stored": 93.0,
+          "this": 92.0
+        },
+        {
+          "hz": 2200,
+          "stored": 94.0,
+          "this": 93.0
+        },
+        {
+          "hz": 2500,
+          "stored": 95.0,
+          "this": 94.0
+        }
+      ],
+      "impedanceDifferences": 34,
+      "dbMaxAbsDiff": 1.0
+    },
+    "FR-2026-10-13 re-fetch 3": {
+      "sharedRows": 85,
+      "onlyInThis": [],
+      "onlyInStored": [],
+      "dbDifferences": [],
+      "impedanceDifferences": 71,
+      "dbMaxAbsDiff": 0
+    },
+    "EN-BDL-2026-10-13": {
+      "sharedRows": 85,
+      "onlyInThis": [
+        2400,
+        2600
+      ],
+      "onlyInStored": [],
+      "dbDifferences": [
+        {
+          "hz": 45,
+          "stored": 81.0,
+          "this": 82.0
+        },
+        {
+          "hz": 50,
+          "stored": 83.0,
+          "this": 84.0
+        },
+        {
+          "hz": 55,
+          "stored": 85.0,
+          "this": 86.0
+        },
+        {
+          "hz": 60,
+          "stored": 87.0,
+          "this": 88.0
+        },
+        {
+          "hz": 65,
+          "stored": 89.0,
+          "this": 90.0
+        },
+        {
+          "hz": 120,
+          "stored": 95.5,
+          "this": 96.0
+        },
+        {
+          "hz": 130,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 140,
+          "stored": 94.0,
+          "this": 95.0
+        },
+        {
+          "hz": 170,
+          "stored": 95.5,
+          "this": 96.0
+        },
+        {
+          "hz": 180,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 190,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 200,
+          "stored": 95.0,
+          "this": 95.5
+        },
+        {
+          "hz": 280,
+          "stored": 94.0,
+          "this": 95.5
+        },
+        {
+          "hz": 300,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 330,
+          "stored": 95.5,
+          "this": 96.0
+        },
+        {
+          "hz": 450,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 500,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 550,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 600,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 650,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 700,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 750,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 800,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 850,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 900,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 950,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 1000,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 1100,
+          "stored": 94.0,
+          "this": 95.0
+        },
+        {
+          "hz": 1200,
+          "stored": 93.0,
+          "this": 94.0
+        },
+        {
+          "hz": 1400,
+          "stored": 95.0,
+          "this": 94.0
+        },
+        {
+          "hz": 1700,
+          "stored": 94.0,
+          "this": 95.0
+        },
+        {
+          "hz": 1800,
+          "stored": 92.0,
+          "this": 95.0
+        },
+        {
+          "hz": 1900,
+          "stored": 92.0,
+          "this": 95.0
+        },
+        {
+          "hz": 2000,
+          "stored": 93.0,
+          "this": 95.0
+        },
+        {
+          "hz": 2200,
+          "stored": 94.0,
+          "this": 95.0
+        },
+        {
+          "hz": 2800,
+          "stored": 95.0,
+          "this": 94.0
+        },
+        {
+          "hz": 3000,
+          "stored": 95.0,
+          "this": 93.0
+        },
+        {
+          "hz": 3300,
+          "stored": 95.0,
+          "this": 93.0
+        },
+        {
+          "hz": 3600,
+          "stored": 95.0,
+          "this": 93.0
+        },
+        {
+          "hz": 4000,
+          "stored": 95.0,
+          "this": 94.0
+        },
+        {
+          "hz": 9500,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 10000,
+          "stored": 95.0,
+          "this": 96.0
+        },
+        {
+          "hz": 11000,
+          "stored": 94.0,
+          "this": 95.0
+        },
+        {
+          "hz": 12000,
+          "stored": 93.0,
+          "this": 95.0
+        },
+        {
+          "hz": 13000,
+          "stored": 92.0,
+          "this": 95.0
+        },
+        {
+          "hz": 14000,
+          "stored": 91.0,
+          "this": 94.0
+        },
+        {
+          "hz": 15000,
+          "stored": 90.0,
+          "this": 94.0
+        },
+        {
+          "hz": 16000,
+          "stored": 88.0,
+          "this": 93.0
+        },
+        {
+          "hz": 17000,
+          "stored": 85.0,
+          "this": 92.0
+        },
+        {
+          "hz": 18000,
+          "stored": 82.0,
+          "this": 91.0
+        },
+        {
+          "hz": 19000,
+          "stored": 80.0,
+          "this": 89.0
+        },
+        {
+          "hz": 20000,
+          "stored": 78.0,
+          "this": 82.0
+        }
+      ],
+      "impedanceDifferences": 82,
+      "dbMaxAbsDiff": 9.0
+    }
+  },
+  "notes": [
+    "Units: dB sensitivity values are the sheet column \"Frequency Response, Full Space, 1W/1m (Sensitivity, dB)\"; the stored points are dB. Impedance column is in ohms (rhs) and is not part of the stored points.",
+    "Tolerance: the sheet prints integer or half-dB values; no tolerance is printed. Readings are text extraction, not image reads; no reading is tolerance-certified.",
+    "The 2400 Hz and 2600 Hz rows appear in the EN edition and in FR re-fetch 1 (86 rows), but not in the stored FR reading, FR re-fetch 2 or FR re-fetch 3. The 2500 Hz row is absent only in FR re-fetch 1.",
+    "The stored FR reading and FR re-fetch 3 agree on all 85 dB values. FR re-fetch 3 impedance differs from the stored reading impedance on 71 rows (not stored in points).",
+    "The sheet states -3 dB 77 Hz-16 kHz, -10 dB 52 Hz-19 kHz (Mesure intégrale). Stored table does not cover that range as a measured point set; the averaging band is not printed."
+  ]
+}

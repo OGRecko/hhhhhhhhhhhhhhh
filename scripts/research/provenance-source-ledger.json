@@ -1528,6 +1528,48 @@
       "sourceClass": null,
       "round": 16,
       "coverage": "HTTP 404. Do not retry. No PRX815W-headed primary sheet located; see openQuestionsForOwner prx815-identity."
+    },
+    {
+      "url": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+      "host": "assets.electrovoicedynacord.com",
+      "document": "ELX200-15 Engineering Data Sheet, French edition (stored source URL).",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 17,
+      "coverage": "Response table transcribed (scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch3.txt, 85 rows). dB column matches stored 85 points exactly. Impedance column differs from the 2026-10-12 reading on 71 rows (not stored in points). Text extraction only; original PDF file not accessible from this sandbox. Dataset stays UNRESOLVED and excluded (scripts/research/elx200-15-reconciliation-round17.json)."
+    },
+    {
+      "url": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "host": "jblpro.com",
+      "document": "JBL LSR Series Owner's Manual (exact LSR32 section identified by crossover and drivers).",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        5,
+        6,
+        7
+      ],
+      "chunksTotal": 9,
+      "sourceClass": "MANUFACTURER",
+      "round": 17,
+      "coverage": "LSR32 Amplitude & Phase: 20 kHz = 92 dB. Acoustic Contribution: 20 kHz = 92 dB. 61 dB not found at 20 kHz. 12 of 27 stored disputed points differ from table. Chunks 0-4 and 8 not read; LSR32 specification and Response Curves tables read in chunk 6. Record: scripts/research/lsr32-20khz-round17.json."
+    },
+    {
+      "url": "https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1",
+      "host": "zenodo.org",
+      "document": "Genelec 8331A SOFA (Zenodo record 10255555).",
+      "status": "UNAVAILABLE_ACCESS",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [],
+      "chunksTotal": 0,
+      "sourceClass": null,
+      "round": 17,
+      "coverage": "fetch_page: 'Failed to fetch page'. Zenodo API content route: HTTP 500. Shell curl to zenodo.org: SSL_ERROR_SYSCALL (host not on sandbox egress allowlist). No file downloaded; no MD5 check possible this round. Expected MD5 a00e40164556183420c315e9f6ecd7fd (from Zenodo API record, round 15)."
     }
   ],
   "openQuestionsForOwner": [
@@ -1775,6 +1817,12 @@
       "marker": "round16-qsc-ac-response-points",
       "date": "2026-10-13",
       "reason": "QSC AC-C4T and AC-C8T response points re-read against the exact-model sheets (Raw column). 7 + 13 stored points corrected; history in round16-value-history.json. ARCS II and PRX815W source checks recorded as NOT_FOUND. Host qscaudio ESTABLISHED (owner decision 8)."
+    },
+    {
+      "round": 17,
+      "marker": "round17-catalog-elx-lsr-sofa",
+      "date": "2026-10-13",
+      "reason": "774 to 777 reconciliation (scripts/research/catalog-reconciliation-774-777.json): +3 = two EV Zx3 exact variants and ARCS II. ELX200-15 FR re-read (3rd reading) and reconciliation (unresolved). LSR32 20 kHz not reproduced (both tables 92 dB); 12/27 stored disputed points differ from table. Genelec 8331A SOFA still inaccessible."
     }
   ]
 }
