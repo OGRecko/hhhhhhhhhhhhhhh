@@ -1,0 +1,231 @@
+{
+  "schema": "round18-field-check-ledger/v1",
+  "round": 18,
+  "checkedDate": "2026-10-13",
+  "fieldChecks": [
+    {
+      "speakerId": "electro-voice-zx3-60",
+      "field": "driverCount",
+      "value": 2,
+      "sourceUrl": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "host": "www.eviaudio.fr",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
+      },
+      "reason": "manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
+    },
+    {
+      "speakerId": "electro-voice-zx3-60",
+      "field": "active",
+      "value": false,
+      "sourceUrl": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "host": "www.eviaudio.fr",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
+      },
+      "reason": "manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
+    },
+    {
+      "speakerId": "electro-voice-zx3-90",
+      "field": "driverCount",
+      "value": 2,
+      "sourceUrl": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "host": "www.eviaudio.fr",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
+      },
+      "reason": "shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
+    },
+    {
+      "speakerId": "electro-voice-zx3-90",
+      "field": "active",
+      "value": false,
+      "sourceUrl": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "host": "www.eviaudio.fr",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: shared Zx3 passive mode statement."
+      },
+      "reason": "shared Zx3 passive mode statement."
+    },
+    {
+      "speakerId": "presonus-r65",
+      "field": "driverCount",
+      "value": 2,
+      "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "host": "www.fmicassets.com",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "SUPPORTED_NOT_PROMOTED",
+      "before": null,
+      "after": null,
+      "reason": "content supports 2 drivers (LF + AMT HF). Host operator not identified; stays CITED until host is established or owner decides."
+    },
+    {
+      "speakerId": "presonus-r65",
+      "field": "active",
+      "value": true,
+      "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "host": "www.fmicassets.com",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "SUPPORTED_NOT_PROMOTED",
+      "before": null,
+      "after": null,
+      "reason": "manual: \"active AMT studio monitor\", \"self-powered\". Host pending."
+    },
+    {
+      "speakerId": "presonus-r80",
+      "field": "driverCount",
+      "value": 2,
+      "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "host": "www.fmicassets.com",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "SUPPORTED_NOT_PROMOTED",
+      "before": null,
+      "after": null,
+      "reason": "same manual, R80 8 in LF + AMT HF. Host pending."
+    },
+    {
+      "speakerId": "presonus-r80",
+      "field": "active",
+      "value": true,
+      "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "host": "www.fmicassets.com",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "checkedDate": "2026-10-13",
+      "outcome": "SUPPORTED_NOT_PROMOTED",
+      "before": null,
+      "after": null,
+      "reason": "same manual, R80 active/self-powered. Host pending."
+    }
+  ],
+  "urlRechecks": [
+    {
+      "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "checkedDate": "2026-10-13",
+      "result": "NO_CHANGE. Round 12 outcome confirmed on re-read: active false supported by the wiring-to-external-amplifier section; driverCount (dali-oberon-3 2, dali-oberon-5 3, dali-oberon7 3) NOT_EXTRACTED because the Table 2 specification table is absent from the extracted text. Table 1 \"Speaker(s) per carton\" is not a driver count and was not used.",
+      "fields": [
+        "dali-oberon-3.driverCount",
+        "dali-oberon-5.driverCount",
+        "dali-oberon7.driverCount"
+      ],
+      "outcomes": [
+        "NOT_EXTRACTED",
+        "NOT_EXTRACTED",
+        "NOT_EXTRACTED"
+      ]
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "checkedDate": "2026-10-13",
+      "result": "NO_CHANGE. Chunk 0 of 2 re-read: \"three direct-radiator transducers\", 12 in LF, 5 in midrange, separate ultra-high transducer; passive network, no amplifier stated in the text (active not stated, as round 12). Document is an undated Recording Consultants, Inc. (Kensington MD) archival copy of a JBL manual; revision not confirmable against the current 4310 specification. Host tile.loc.gov is not a manufacturer or distributor. jbl-4310 and legacy-jbl-3 are duplicate records with the same URL and values; duplicate archive is NOT done (needs owner authorization).",
+      "fields": [
+        "jbl-4310.driverCount",
+        "legacy-jbl-3.driverCount",
+        "jbl-4310.active",
+        "legacy-jbl-3.active"
+      ],
+      "outcomes": [
+        "SUPPORTED_NOT_PROMOTED",
+        "SUPPORTED_NOT_PROMOTED",
+        "NOT_STATED",
+        "NOT_STATED"
+      ]
+    }
+  ],
+  "counts": {
+    "fieldChecksThisRound": 8,
+    "promoted": 4,
+    "supportedNotPromoted": 4,
+    "urlsChecked": 4
+  }
+}

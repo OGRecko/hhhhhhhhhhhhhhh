@@ -5,28 +5,30 @@
   ],
   "schema": "provenance-queue/v2",
   "liveRecords": 658,
-  "uncheckedItems": 685,
-  "uniqueSourceUrls": 398,
+  "uncheckedItems": 681,
+  "uniqueSourceUrls": 397,
   "urlsByStatus": {
+    "CHECKED_CONFIRMED_CONTENT_HOST_PENDING": 1,
     "CHECKED_PARTIAL": 7,
-    "OPEN": 391
+    "OPEN": 389
   },
   "uncheckedItemsByUrlStatus": {
+    "CHECKED_CONFIRMED_CONTENT_HOST_PENDING": 4,
     "CHECKED_PARTIAL": 15,
-    "OPEN": 670
+    "OPEN": 662
   },
   "statusCounts": [
     {
       "field": "active",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 299
+      "count": 297
     },
     {
       "field": "active",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 85
+      "count": 87
     },
     {
       "field": "active",
@@ -44,13 +46,13 @@
       "field": "driverCount",
       "status": "CITED_IN_NOTES_UNCHECKED",
       "value": "value",
-      "count": 386
+      "count": 384
     },
     {
       "field": "driverCount",
       "status": "MANUFACTURER_VERIFIED",
       "value": "value",
-      "count": 105
+      "count": 107
     },
     {
       "field": "driverCount",
@@ -117,10 +119,13 @@
     "https://mackie.com/img/file_resources/CR-X_Series_QSG.pdf",
     "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
     "https://www.bang-olufsen.com/en/us/comparison/products?slug=speakers&p1=beosound-a5&p2=beosound-level&p3=beolit-20",
+    "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
     "https://www.leone.sk/file/230/ev-zlx-manual.pdf",
     "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=30#manual"
   ],
-  "warnings": [],
+  "warnings": [
+    "unknown status 'CHECKED_CONFIRMED_CONTENT_HOST_PENDING' for https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf"
+  ],
   "groups": [
     {
       "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
@@ -173,57 +178,9 @@
       "evidence": "\"three direct-radiator transducers\"; 12 in LF, 5 in MF, HF direct radiator. Passive/active not stated."
     },
     {
-      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "host": "www.eviaudio.fr",
-      "status": "OPEN",
-      "items": 4,
-      "records": [
-        "electro-voice-zx3-60",
-        "electro-voice-zx3-90"
-      ],
-      "fields": [
-        "active",
-        "driverCount"
-      ],
-      "outstanding": [
-        {
-          "record": "electro-voice-zx3-60",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "electro-voice-zx3-60",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "electro-voice-zx3-90",
-          "field": "active",
-          "value": false,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        },
-        {
-          "record": "electro-voice-zx3-90",
-          "field": "driverCount",
-          "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
-        }
-      ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": ""
-    },
-    {
       "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
       "host": "www.fmicassets.com",
-      "status": "OPEN",
+      "status": "CHECKED_CONFIRMED_CONTENT_HOST_PENDING",
       "items": 4,
       "records": [
         "presonus-r65",
@@ -238,35 +195,40 @@
           "record": "presonus-r65",
           "field": "active",
           "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "manual: \"active AMT studio monitor\", \"self-powered\". Host pending."
         },
         {
           "record": "presonus-r65",
           "field": "driverCount",
           "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "content supports 2 drivers (LF + AMT HF). Host operator not identified; stays CITED until host is established or owner decides."
         },
         {
           "record": "presonus-r80",
           "field": "active",
           "value": true,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "same manual, R80 active/self-powered. Host pending."
         },
         {
           "record": "presonus-r80",
           "field": "driverCount",
           "value": 2,
-          "recordedOutcome": null,
-          "recordedNote": ""
+          "recordedOutcome": "SUPPORTED_NOT_PROMOTED",
+          "recordedNote": "same manual, R80 8 in LF + AMT HF. Host pending."
         }
       ],
-      "checkedRound": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": ""
+      "checkedRound": 18,
+      "checkedDate": "2026-10-13",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "evidence": "\"2-way active AMT studio monitor with DSP\"; \"self-powered\"; \"Class D biamped power configuration: 100W LF, 50W HF\". LF driver: R65 6.5 in woven composite, R80 8 in woven composite; HF driver: AMT 6.8 in2 (equivalent 3 in). Both models named in the same manual with R65 and R80 specification rows."
     },
     {
       "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",

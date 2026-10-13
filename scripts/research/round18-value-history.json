@@ -1,0 +1,77 @@
+{
+  "entries": [
+    {
+      "id": "electro-voice-zx3-60",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
+      },
+      "round": 18
+    },
+    {
+      "id": "electro-voice-zx3-60",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
+      },
+      "round": 18
+    },
+    {
+      "id": "electro-voice-zx3-90",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
+      },
+      "round": 18
+    },
+    {
+      "id": "electro-voice-zx3-90",
+      "field": "active",
+      "value": false,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: shared Zx3 passive mode statement."
+      },
+      "round": 18
+    }
+  ],
+  "marker": "round18-queue-batch"
+}

@@ -1,0 +1,3227 @@
+{
+  "schema": "field-provenance-url-queue/v1",
+  "urls": [
+    {
+      "url": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "outstandingFields": 4,
+      "fields": [
+        "jbl-4310.driverCount",
+        "jbl-4310.active",
+        "legacy-jbl-3.driverCount",
+        "legacy-jbl-3.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4311-information",
+      "outstandingFields": 4,
+      "fields": [
+        "jbl-4311.driverCount",
+        "jbl-4311.active",
+        "legacy-jbl-5.driverCount",
+        "legacy-jbl-5.active"
+      ]
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "outstandingFields": 4,
+      "fields": [
+        "presonus-r65.active",
+        "presonus-r65.driverCount",
+        "presonus-r80.active",
+        "presonus-r80.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/media/5320/oberon-manual.pdf",
+      "outstandingFields": 3,
+      "fields": [
+        "dali-oberon7.driverCount",
+        "dali-oberon-3.driverCount",
+        "dali-oberon-5.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.walkersound.co.uk/PDF/Bose_802_MkII.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bose-802.driverCount",
+        "bose-802.active"
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/4350.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-4350.driverCount",
+        "jbl-4350.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-4430.active",
+        "legacy-jbl-6.active"
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+105.2+(1979-87",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-105.driverCount",
+        "kef-105.active"
+      ]
+    },
+    {
+      "url": "https://www.soundonsound.com/reviews/mackie-hr824",
+      "outstandingFields": 2,
+      "fields": [
+        "mackie-hr824.driverCount",
+        "mackie-hr824.active"
+      ]
+    },
+    {
+      "url": "https://www.warehousesound.com/r/jblEon15.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-eon15.driverCount",
+        "jbl-eon15.active"
+      ]
+    },
+    {
+      "url": "https://www.manualzz.com/doc/2104058/tannoy-system-600-near-field-reference-monitor-user-manual?lang=da",
+      "outstandingFields": 2,
+      "fields": [
+        "tannoy-system-600.driverCount",
+        "tannoy-system-600.active"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "eV-force-i.driverCount",
+        "eV-force-i.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4412-information",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-4412.driverCount",
+        "jbl-4412.active"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-7000.driverCount",
+        "krk-7000.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-lsr32.driverCount",
+        "jbl-lsr32.active"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK_ROKIT_Powered_G1_Series_Manual.pdf?v=1708098973",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-rokit-5.driverCount",
+        "krk-rokit-5.active"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-ROKIT-Powered-Generation-3-Series-Info-Sheet.pdf?v=1708098409",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-rokit-8.driverCount",
+        "krk-rokit-8.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/content/uploads/2016/12/adam-audio-user-manual-A7-fr.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-a7.driverCount",
+        "adam-a7.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/sx-series/s3x-v/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-s3x.driverCount",
+        "adam-s3x.active"
+      ]
+    },
+    {
+      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9c36c40d/pdfs/JBL_Charge5_SpecSheet_English.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-charge5.driverCount",
+        "jbl-charge5.active"
+      ]
+    },
+    {
+      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0a39b813/pdfs/JBL_Flip_6_SpecSheet_English.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-flip6.driverCount",
+        "jbl-flip6.active"
+      ]
+    },
+    {
+      "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8af75da3/pdfs/JBL_PartyBox_1000_QSG_Multilingual.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-partybox-1000.driverCount",
+        "jbl-partybox-1000.active"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/submini",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sub-mini.driverCount",
+        "sonos-sub-mini.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/srx828sp-spec-sheet",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-srx828sp.driverCount",
+        "jbl-srx828sp.active"
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/kef-ls50-anniversary-model-loudspeaker-specifications",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-ls50.driverCount",
+        "kef-ls50.active"
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/documents/ls50/20-KEF-LS50-Wireless-II-Product-Info-Sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-ls50-wireless.driverCount",
+        "kef-ls50-wireless.active"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/home-speakers/signature/s60/106513.html",
+      "outstandingFields": 2,
+      "fields": [
+        "polk-signature-s60.driverCount",
+        "polk-signature-s60.active"
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/electromotion-esl-x",
+      "outstandingFields": 2,
+      "fields": [
+        "martinlogan-esl-x.driverCount",
+        "martinlogan-esl-x.active"
+      ]
+    },
+    {
+      "url": "https://www.paradigm.com/en/floorstanding/monitor-se-6000f",
+      "outstandingFields": 2,
+      "fields": [
+        "paradigm-monitor-11.driverCount",
+        "paradigm-monitor-11.active"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
+      "outstandingFields": 2,
+      "fields": [
+        "wharfedale-diamond-12.driverCount",
+        "wharfedale-diamond-12.active"
+      ]
+    },
+    {
+      "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "elac-uni-fi-ub5.driverCount",
+        "elac-uni-fi-ub5.active"
+      ]
+    },
+    {
+      "url": "https://www.klipsch.com/products/cdt-5650-c-ii",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-cdt5650c.driverCount",
+        "klipsch-cdt5650c.active"
+      ]
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/og_791.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bose-virtually-invisible-791.driverCount",
+        "bose-virtually-invisible-791.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/759581/Db-Technologies-Opera-Live.html?page=6",
+      "outstandingFields": 2,
+      "fields": [
+        "dbtechnologies-opera-405.driverCount",
+        "dbtechnologies-opera-405.active"
+      ]
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500107_Eris-E5_Tech-Sheet_EN.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "presonus-eris-e5.driverCount",
+        "presonus-eris-e5.active"
+      ]
+    },
+    {
+      "url": "https://avantonepro.com/en/products/mixcube-passive",
+      "outstandingFields": 2,
+      "fields": [
+        "ath-avantone-mixcube.driverCount",
+        "ath-avantone-mixcube.active"
+      ]
+    },
+    {
+      "url": "https://www.svconline.com/products/meyer-sound-announces-mjf-212-high-power-stage-monitor-366663",
+      "outstandingFields": 2,
+      "fields": [
+        "meyer-mjf212.driverCount",
+        "meyer-mjf212.active"
+      ]
+    },
+    {
+      "url": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "dandb-t10.driverCount",
+        "dandb-t10.active"
+      ]
+    },
+    {
+      "url": "https://www.promusic.cz/sites/default/files/product/field_files/arcswide_sp_en_5.0.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "lacoustics-arcs.driverCount",
+        "lacoustics-arcs.active"
+      ]
+    },
+    {
+      "url": "https://www.sisme.com/media/3071/lacoustics-arcsii_ds.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "lacoustics-arcs-ii.driverCount",
+        "lacoustics-arcs-ii.active"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "nexo-ps15.driverCount",
+        "nexo-ps15.active"
+      ]
+    },
+    {
+      "url": "https://funktion-one.com/product/res-2/",
+      "outstandingFields": 2,
+      "fields": [
+        "funktion-one-res2.driverCount",
+        "funktion-one-res2.active"
+      ]
+    },
+    {
+      "url": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+      "outstandingFields": 2,
+      "fields": [
+        "rcf-nx45a.driverCount",
+        "rcf-nx45a.active"
+      ]
+    },
+    {
+      "url": "https://www.behringer.com/en/products/0313-ACS",
+      "outstandingFields": 2,
+      "fields": [
+        "behringer-b215xl.driverCount",
+        "behringer-b215xl.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/jrx225-spec-sheet",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-jrx225.driverCount",
+        "jbl-jrx225.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-vrx932.driverCount",
+        "jbl-vrx932.active"
+      ]
+    },
+    {
+      "url": "https://www.dasaudio.com/wp-content/uploads/2011/11/TECNOLOGIAS_AERO_12A_V1.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "das-audio-aero-12a.driverCount",
+        "das-audio-aero-12a.active"
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/harbeth-super-hl5plus-loudspeaker-specifications",
+      "outstandingFields": 2,
+      "fields": [
+        "harbeth-shl5.driverCount",
+        "harbeth-shl5.active"
+      ]
+    },
+    {
+      "url": "https://manualmachine.com/spendor/sp100/2351828-owners-manual/",
+      "outstandingFields": 2,
+      "fields": [
+        "spendor-sp100.driverCount",
+        "spendor-sp100.active"
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/l16decade-e.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-l16.driverCount",
+        "jbl-l16.active"
+      ]
+    },
+    {
+      "url": "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-l19.driverCount",
+        "jbl-l19.active"
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/snell-type-loudspeaker-specifications",
+      "outstandingFields": 2,
+      "fields": [
+        "snell-typeAIII.driverCount",
+        "snell-typeAIII.active"
+      ]
+    },
+    {
+      "url": "https://magnepan.com/pages/manual-controller",
+      "outstandingFields": 2,
+      "fields": [
+        "magnepan-mg1.7.driverCount",
+        "magnepan-mg1.7.active"
+      ]
+    },
+    {
+      "url": "https://static1.squarespace.com/static/5a6a2d73bff200e7e9dde1f9/t/5b5b68456d2a73ca7faa5fbd/1532717141711/LP-6+User%27s+Manual.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "kali-lp6.driverCount",
+        "kali-lp6.active"
+      ]
+    },
+    {
+      "url": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+      "outstandingFields": 2,
+      "fields": [
+        "bose-designmax-dm5se.driverCount",
+        "bose-designmax-dm5se.active"
+      ]
+    },
+    {
+      "url": "https://www.auratoneaudio.com/products",
+      "outstandingFields": 2,
+      "fields": [
+        "auratone-5c.driverCount",
+        "auratone-5c.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/products/lsr305.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-lsr305.driverCount",
+        "jbl-lsr305.active"
+      ]
+    },
+    {
+      "url": "https://tcfurlong.com/wp-content/uploads/Fostex-6301B-Rental-Manual.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "fostex-6301b.driverCount",
+        "fostex-6301b.active"
+      ]
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/301iv_guide.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bose-301.driverCount",
+        "bose-301.active"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/linton",
+      "outstandingFields": 2,
+      "fields": [
+        "wharfedale-linton.driverCount",
+        "wharfedale-linton.active"
+      ]
+    },
+    {
+      "url": "https://global.jbl.com/DD67000RW-.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-everest-dd67000.driverCount",
+        "jbl-everest-dd67000.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/t-series/t5v/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-t5v.driverCount",
+        "adam-t5v.active"
+      ]
+    },
+    {
+      "url": "https://www.behringer.com/en/products/0316-AAI",
+      "outstandingFields": 2,
+      "fields": [
+        "behringer-truth-b2031.driverCount",
+        "behringer-truth-b2031.active"
+      ]
+    },
+    {
+      "url": "https://eaw.com/wp-content/uploads/2013/12/KF760_SPECS_rev1.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "eaw-kf760.driverCount",
+        "eaw-kf760.active"
+      ]
+    },
+    {
+      "url": "https://legacy.adamson.ai/support/downloads-directory/e-series/e15/1-e15-technicaldata/file",
+      "outstandingFields": 2,
+      "fields": [
+        "adamson-e15.driverCount",
+        "adamson-e15.active"
+      ]
+    },
+    {
+      "url": "https://voidacoustics.com/products/air/air8/",
+      "outstandingFields": 2,
+      "fields": [
+        "void-air-8.driverCount",
+        "void-air-8.active"
+      ]
+    },
+    {
+      "url": "https://www.danleysoundlabs.com/products/sh96/",
+      "outstandingFields": 2,
+      "fields": [
+        "danley-sh96.driverCount",
+        "danley-sh96.active"
+      ]
+    },
+    {
+      "url": "https://www.customsounds.com/uploads/docs/bfc1f121b179e56fca7601472aec1319b5338fcd.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-12w7.driverCount",
+        "jl-audio-12w7.active"
+      ]
+    },
+    {
+      "url": "https://manualsnet.com/kef/reference-series-model-ls3-5a",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-ls3-5a.driverCount",
+        "kef-ls3-5a.active"
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/speaker/4312-e.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-4312.driverCount",
+        "jbl-4312.active"
+      ]
+    },
+    {
+      "url": "https://manualzz.com/doc/22701574/electro-voice-sentry500-data-sheet",
+      "outstandingFields": 2,
+      "fields": [
+        "eV-sentry-500.driverCount",
+        "eV-sentry-500.active"
+      ]
+    },
+    {
+      "url": "https://global.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw168a89f9/pdfs/JBL%20Project%20K2%209900%20Data%20Sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-k2-s9900.driverCount",
+        "jbl-k2-s9900.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Cornwall-2019-Spec-Sheet-v03.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-cornwall-iv.driverCount",
+        "klipsch-cornwall-iv.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Forte-IV-Spec-Sheet-v01-1.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-forte-iv.driverCount",
+        "klipsch-forte-iv.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Heresy-IV-Spec-Sheet-v04.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-heresy-iv.driverCount",
+        "klipsch-heresy-iv.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-8060FA-II_Spec-Sheet_v02.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp8060fa.driverCount",
+        "klipsch-rp8060fa.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-6000F-II_Spec-Sheet_v02.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp6000f.driverCount",
+        "klipsch-rp6000f.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-600M-II_Spec-Sheet_v02.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp600m.driverCount",
+        "klipsch-rp600m.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-500M-II_Spec-Sheet_v02_2022-05-18-131859_rlqj.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp500m.driverCount",
+        "klipsch-rp500m.active"
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/q350-bookshelf-speaker",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-q350.driverCount",
+        "kef-q350.active"
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/q750-floorstanding-speaker",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-q750.driverCount",
+        "kef-q750.active"
+      ]
+    },
+    {
+      "url": "https://www.soundstagehifi.com/index.php/equipment-reviews/807-kef-reference-1-loudspeakers?tmpl=component%2F1000",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-reference-1.driverCount",
+        "kef-reference-1.active"
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/kef-reference-5-loudspeaker-specifications",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-reference-5.driverCount",
+        "kef-reference-5.active"
+      ]
+    },
+    {
+      "url": "https://global.jbl.com/JBLL82CLASSICORGAM.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-l82-classic.driverCount",
+        "jbl-l82-classic.active"
+      ]
+    },
+    {
+      "url": "https://global.jbl.com/JBLL100CLASSICUAM.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-l100-classic.driverCount",
+        "jbl-l100-classic.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/control-50-spec-sheet",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-control-52.driverCount",
+        "jbl-control-52.active"
+      ]
+    },
+    {
+      "url": "https://www.genelec.com/8361a",
+      "outstandingFields": 2,
+      "fields": [
+        "genelec-8361a.driverCount",
+        "genelec-8361a.active"
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/SRM550_650_750_SS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "mackie-srm550.driverCount",
+        "mackie-srm550.active"
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/SRM%20V-Class_SS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "mackie-srm212.driverCount",
+        "mackie-srm212.active"
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/motion-20",
+      "outstandingFields": 2,
+      "fields": [
+        "martinlogan-motion-20.driverCount",
+        "martinlogan-motion-20.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a4v/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-a4v.driverCount",
+        "adam-a4v.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/ax-series/a5x/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-a5x.driverCount",
+        "adam-a5x.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a8h/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-a8h.driverCount",
+        "adam-a8h.active"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/pb16-ultra",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-pb16-ultra.driverCount",
+        "svs-pb16-ultra.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/AWR-650-SM.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-awr650sm.driverCount",
+        "klipsch-awr650sm.active"
+      ]
+    },
+    {
+      "url": "https://audio-database.com/JBL/unit/d130.html",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-jbl-1.driverCount",
+        "legacy-jbl-1.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-jbl-11.driverCount",
+        "legacy-jbl-11.active"
+      ]
+    },
+    {
+      "url": "https://www.soundandvision.com/content/bowers-wilkins-cm10-loudspeaker-test-bench",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-bw-6.driverCount",
+        "legacy-bw-6.active"
+      ]
+    },
+    {
+      "url": "https://www.radiomuseum.org/r/kef_concord_a6243.html",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-kef-1.driverCount",
+        "legacy-kef-1.active"
+      ]
+    },
+    {
+      "url": "https://audio-database.com/KEF/speaker/model104.html",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-kef-2.driverCount",
+        "legacy-kef-2.active"
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/product-archive/1970s/REFERENCE+SERIES+MODEL+103+(1976-77",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-kef-3.driverCount",
+        "legacy-kef-3.active"
+      ]
+    },
+    {
+      "url": "https://stereonomono.blogspot.com/2010/08/kef-model-105.html",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-kef-4.driverCount",
+        "legacy-kef-4.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/286175/Kef-Q100.html?page=12",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-kef-5.driverCount",
+        "legacy-kef-5.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1412330/Kef-Blade.html?page=10",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-kef-7.driverCount",
+        "legacy-kef-7.active"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/electra-sw1000-be/notice_electra1000_be-s.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-focal-2.driverCount",
+        "legacy-focal-2.active"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/115920.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-focal-5.driverCount",
+        "legacy-focal-5.active"
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/733c5c6acac9341c/original/FP_Aria_906_GB-pdf.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-focal-8.driverCount",
+        "legacy-focal-8.active"
+      ]
+    },
+    {
+      "url": "https://www.genelec.com/-/new-genelec-4430-loudspeaker-gives-the-av-world-exceptional-sound-quality-over-ip-1",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-gen-8.driverCount",
+        "legacy-gen-8.active"
+      ]
+    },
+    {
+      "url": "https://www.genelec.com/1237a",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-gen-9.driverCount",
+        "legacy-gen-9.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RF-7-III_Spec-Sheet-v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-klip-6.driverCount",
+        "legacy-klip-6.active"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/R-41M_Spec-Sheet_GM_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-klip-8.driverCount",
+        "legacy-klip-8.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/293781/Mackie-Hr624.html",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-mack-2.driverCount",
+        "legacy-mack-2.active"
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/DLM8_12_SS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-mack-7.driverCount",
+        "legacy-mack-7.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/archived-products/s3a/",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-adam-1.driverCount",
+        "legacy-adam-1.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a7v/",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-adam-4.driverCount",
+        "legacy-adam-4.active"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s2v/",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-adam-6.driverCount",
+        "legacy-adam-6.active"
+      ]
+    },
+    {
+      "url": "https://www.soundandvision.com/content/pioneer-ex-series-surround-speaker-system-specifications",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-pio-4.driverCount",
+        "legacy-pio-4.active"
+      ]
+    },
+    {
+      "url": "https://www.parts-express.com/pedocs/brochures/pioneer-andrew-jones-designed-speakers-brochure.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-pio-5.driverCount",
+        "legacy-pio-5.active"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/258913.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-pio-6.driverCount",
+        "legacy-pio-6.active"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/discontinued-models/evidence/evidence-platinum",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-dyn-4.driverCount",
+        "legacy-dyn-4.active"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/discontinued-models/contour-2016/contour-20",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-dyn-7.driverCount",
+        "legacy-dyn-7.active"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/move",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-sonos-5.driverCount",
+        "legacy-sonos-5.active"
+      ]
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/501_guide.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-bose-2.driverCount",
+        "legacy-bose-2.active"
+      ]
+    },
+    {
+      "url": "https://products.bose.com/pdf/customer_service/owners/251_guide.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-bose-7.driverCount",
+        "legacy-bose-7.active"
+      ]
+    },
+    {
+      "url": "https://martin-audio.com/products/archive/w8lm",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-ma-3.driverCount",
+        "legacy-ma-3.active"
+      ]
+    },
+    {
+      "url": "https://martin-audio.com/products/loudspeakers/mla",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-ma-4.driverCount",
+        "legacy-ma-4.active"
+      ]
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/syva/",
+      "outstandingFields": 2,
+      "fields": [
+        "legacy-la-6.driverCount",
+        "legacy-la-6.active"
+      ]
+    },
+    {
+      "url": "https://data.yamaha.com/files/download/other_assets/3/325553/dxr-dxs_en_om_c0.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "yamaha-dxs12.active",
+        "yamaha-dxs12.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.electrovoice.com/product/zlx-8-g2",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-zlx-8-g2.active",
+        "electro-voice-zlx-8-g2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.electrovoice.com/product/zlx-12-g2",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-zlx-12-g2.active",
+        "electro-voice-zlx-12-g2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.electrovoice.com/product/zlx-15-g2",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-zlx-15-g2.active",
+        "electro-voice-zlx-15-g2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-zx4.active",
+        "electro-voice-zx4.driverCount"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-sx300pi.active",
+        "electro-voice-sx300pix.active"
+      ]
+    },
+    {
+      "url": "https://manualzz.com/doc/3125205/electro-voice-sx100--user-s-manual",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-sx100.active",
+        "electro-voice-sx100.driverCount"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx300_Engineering_Data_Sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-sx300e.active",
+        "electro-voice-sx300e.driverCount"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-sx600.active",
+        "electro-voice-sx600.driverCount"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-sb122.active",
+        "electro-voice-sb122.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133348-electro-voice-tx1122-tour-x-12-2-way-90-x-50-500w-passive-loudspeaker-black",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx1122.active",
+        "electro-voice-tx1122.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133356-electro-voice-tx1122fm-12-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx1122fm.active",
+        "electro-voice-tx1122fm.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133350-electro-voice-tx1152-tour-x-15-2-way-60-x-40-500w-passive-loudspeaker-black",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx1152.active",
+        "electro-voice-tx1152.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133358-electro-voice-tx1152fm-15-2-way-passive-vertical-floor-monitor-with-90-x-50-horn",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx1152fm.active",
+        "electro-voice-tx1152fm.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133354-electro-voice-tour-x-tx1181-18-500w-passive-subwoofer-black",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx1181.active",
+        "electro-voice-tx1181.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133352-electro-voice-tour-x-tx2152-dual-15-2-way-passive-speaker-with-a-60x40-horn",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx2152.active",
+        "electro-voice-tx2152.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/133355-electro-voice-tour-x-tx2181-18-subwoofer-with-evs-18s-woofers",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-tx2181.active",
+        "electro-voice-tx2181.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/prod/221561-electro-voice-evf-1152d-96-15-2-way-loudspeaker-with-90x60-evcoat-black",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-evf-1152d-96.active",
+        "electro-voice-evf-1152d-96.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.qscaudio.com/news/news/detail/qsc-expands-e-series-lineup-with-two-new-models/",
+      "outstandingFields": 2,
+      "fields": [
+        "qsc-e218sw.active",
+        "qsc-e218sw.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/product/system-products/607-s3/300661-01-00-005.html",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-607-s3.active",
+        "bowers-wilkins-607-s3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/product/loudspeakers/606-s3/300660.html",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-606-s3.active",
+        "bowers-wilkins-606-s3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/product/loudspeakers/603-s3/300659.html",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-603-s3.active",
+        "bowers-wilkins-603-s3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en/product/archive-speakers/formation-flex/FP41343P.html",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-formation-flex.active",
+        "bowers-wilkins-formation-flex.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en/product/archive/formation-wedge/FP40664P.html",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-formation-wedge.active",
+        "bowers-wilkins-formation-wedge.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw0a89b49d/downloads/db1d-information-sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-db1d.active",
+        "bowers-wilkins-db1d.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd8ffb860/downloads/db2d-information-sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-db2d.active",
+        "bowers-wilkins-db2d.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwb626b11c/downloads/db3d-information-sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-db3d.active",
+        "bowers-wilkins-db3d.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw45a50a72/downloads/db4s-info-sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-db4s.active",
+        "bowers-wilkins-db4s.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/product/subwoofers/asw-series/asw610/150059.html",
+      "outstandingFields": 2,
+      "fields": [
+        "bowers-wilkins-asw610.active",
+        "bowers-wilkins-asw610.driverCount"
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/q150-bookshelf-speaker",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-q150.active",
+        "kef-q150.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/r3-meta",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-r3-meta.active",
+        "kef-r3-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/reference-1-bookshelf-speaker",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-reference-1-meta.active",
+        "kef-reference-1-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/r7-meta",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-r7-meta.active",
+        "kef-r7-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://international.kef.com/products/r11-meta",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-r11-meta.active",
+        "kef-r11-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/reference-3-floorstanding-speaker",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-reference-3-meta.active",
+        "kef-reference-3-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/reference-5-floorstanding-speaker",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-reference-5-meta.active",
+        "kef-reference-5-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/blade-two",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-blade-two-meta.active",
+        "kef-blade-two-meta.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/lsx-2",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-lsx-ii.active",
+        "kef-lsx-ii.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.kef.com/pdf_doc/KF92/KF92_infosheet_EN.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "kef-kf92.active",
+        "kef-kf92.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-500M_Spec-Sheet_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp-500m.active",
+        "klipsch-rp-500m.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-600M_Spec-Sheet_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp-600m.active",
+        "klipsch-rp-600m.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-5000F-II_Spec-Sheet_v02.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp-5000f-ii.active",
+        "klipsch-rp-5000f-ii.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/RP-8000F-II_Spec-Sheet_v02.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-rp-8000f-ii.active",
+        "klipsch-rp-8000f-ii.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/R-120SW_GM_Spec-Sheet_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-r-120sw.active",
+        "klipsch-r-120sw.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/Reference-R-121SW-Spec-Sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-r-121sw.active",
+        "klipsch-r-121sw.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/SPL-100_Spec-Sheet_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-spl-100.active",
+        "klipsch-spl-100.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/SPL-120_Spec-Sheet_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-spl-120.active",
+        "klipsch-spl-120.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/SPL-150_Spec-Sheet_v01.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-spl-150.active",
+        "klipsch-spl-150.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.klipsch.com/products/cdt-5800-c-ii",
+      "outstandingFields": 2,
+      "fields": [
+        "klipsch-cdt-5800-c-ii.active",
+        "klipsch-cdt-5800-c-ii.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.focal.com/products/alpha-65-evo",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-alpha-65-evo.active",
+        "focal-alpha-65-evo.driverCount"
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/75f492b929881650/original/FP_Alpha_80_Evo_EN-pdf.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-alpha-80-evo.active",
+        "focal-alpha-80-evo.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/trio6/fp_trio_6_black_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-trio6.active",
+        "focal-trio6.driverCount"
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/3432373bae914d13/original/FP_Chora806_GB-pdf.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-chora-806.active",
+        "focal-chora-806.driverCount"
+      ]
+    },
+    {
+      "url": "https://dam.focal-naim.com/m/5b74d69b5e450e5b/original/FP_Chora826_GB-pdf.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-chora-826.active",
+        "focal-chora-826.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/aria-926/fp_aria_926_gb.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-aria-926.active",
+        "focal-aria-926.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/aria-936/fp_aria_936_gb.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-aria-936.active",
+        "focal-aria-936.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/aria-948/fp_aria_948_gb.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-aria-948.active",
+        "focal-aria-948.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/kanta-n-1/fp_kantan-1_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-kanta-n-1.active",
+        "focal-kanta-n-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/kanta-n-2/fp_kanta_n-2_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-kanta-n-2.active",
+        "focal-kanta-n-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/kanta-n-3/fp_kanta_n-3_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-kanta-n-3.active",
+        "focal-kanta-n-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-1/fp_sopra_n1_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-sopra-n-1.active",
+        "focal-sopra-n-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-3/fp_sopra_n3_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-sopra-n-3.active",
+        "focal-sopra-n-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/scala-utopia-evo/fp_scala_utopia_evo_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-scala-utopia-evo.active",
+        "focal-scala-utopia-evo.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/maestro-utopia-evo/notice_maestroutopiaevo_codo1510_bc_web.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-maestro-utopia-evo.active",
+        "focal-maestro-utopia-evo.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/grande-utopia-em-evo/notice_grandeutopiaemevo_web.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-grande-utopia-em-evo.active",
+        "focal-grande-utopia-em-evo.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sub-one/fp_sub_one_en.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-sub-one.active",
+        "focal-sub-one.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sub6/fp_sub6_gb.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-sub6.active",
+        "focal-sub6.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/t-series/t7v/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-t7v.active",
+        "adam-audio-t7v.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/t-series/t8v/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-t8v.active",
+        "adam-audio-t8v.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a44h/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-a44h.active",
+        "adam-audio-a44h.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/a-series/a77h/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-a77h.active",
+        "adam-audio-a77h.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s3h/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-s3h.active",
+        "adam-audio-s3h.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s3v/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-s3v.active",
+        "adam-audio-s3v.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.adam-audio.com/en/s-series/s5h/",
+      "outstandingFields": 2,
+      "fields": [
+        "adam-audio-s5h.active",
+        "adam-audio-s5h.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/emit/emit-10",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-emit-10.active",
+        "dynaudio-emit-10.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/emit/emit-20",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-emit-20.active",
+        "dynaudio-emit-20.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/emit/emit-30",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-emit-30.active",
+        "dynaudio-emit-30.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-10",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-evoke-10.active",
+        "dynaudio-evoke-10.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-20",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-evoke-20.active",
+        "dynaudio-evoke-20.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-30",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-evoke-30.active",
+        "dynaudio-evoke-30.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/evoke/evoke-50",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-evoke-50.active",
+        "dynaudio-evoke-50.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/contour-i/contour-20i",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-contour-20i.active",
+        "dynaudio-contour-20i.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/contour-i/contour-30i",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-contour-30i.active",
+        "dynaudio-contour-30i.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/contour-i/contour-60i",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-contour-60i.active",
+        "dynaudio-contour-60i.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/confidence/confidence-20",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-confidence-20.active",
+        "dynaudio-confidence-20.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/confidence/confidence-30",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-confidence-30.active",
+        "dynaudio-confidence-30.driverCount"
+      ]
+    },
+    {
+      "url": "https://dynaudio.com/home-audio/confidence/confidence-50",
+      "outstandingFields": 2,
+      "fields": [
+        "dynaudio-confidence-50.active",
+        "dynaudio-confidence-50.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-1000-pro-subwoofer",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-sb-1000-pro.active",
+        "svs-sb-1000-pro.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-2000-pro",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-sb-2000-pro.active",
+        "svs-sb-2000-pro.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-3000",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-sb-3000.active",
+        "svs-sb-3000.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/sb-4000",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-sb4000.active",
+        "svs-sb4000.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/sb16-ultra",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-sb16-ultra.active",
+        "svs-sb16-ultra.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/pb-1000-pro-subwoofer",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-pb-1000-pro.active",
+        "svs-pb-1000-pro.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/pb-2000-pro",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-pb-2000-pro.active",
+        "svs-pb-2000-pro.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/pb-3000",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-pb-3000.active",
+        "svs-pb-3000.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.svsound.com/products/pb-4000",
+      "outstandingFields": 2,
+      "fields": [
+        "svs-pb-4000.active",
+        "svs-pb-4000.driverCount"
+      ]
+    },
+    {
+      "url": "https://valueelectronics.com/wp-content/uploads/2024/04/LG-2024-S95TR_9.1.5_SoundBar_spec_sheet.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "lg-lg-s95tr.active",
+        "lg-lg-s95tr.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.lg.com/ca_en/speakers/soundbars/s90tr/",
+      "outstandingFields": 2,
+      "fields": [
+        "lg-lg-s90tr.active",
+        "lg-lg-s90tr.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.lg.com/pt/audio/soundbars/s80tr/",
+      "outstandingFields": 2,
+      "fields": [
+        "lg-lg-s80tr.active",
+        "lg-lg-s80tr.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.lg.com/africa/audio/lg-sc9s",
+      "outstandingFields": 2,
+      "fields": [
+        "lg-lg-sc9s.active",
+        "lg-lg-sc9s.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet?pid=1007269",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-1960a.active",
+        "marshall-marshall-1960a.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960b-4x12-base-cabinet",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-1960b.active",
+        "marshall-marshall-1960b.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960av-4x12-angled-cabinet",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-1960av.active",
+        "marshall-marshall-1960av.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/support/amps/support-for-1960bv-4x12-base-cabinet",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-1960bv.active",
+        "marshall-marshall-1960bv.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/1936-2x12-cabinet?pid=1007263",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-1936.active",
+        "marshall-marshall-1936.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/1936v-2x12-cabinet?pid=1007266",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-1936v.active",
+        "marshall-marshall-1936v.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/mx112-1x12-cabinet?pid=1007173",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-mx112.active",
+        "marshall-marshall-mx112.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/mx212-2x12-cabinet?pid=1007176",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-mx212.active",
+        "marshall-marshall-mx212.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/middleton?pid=1006034",
+      "outstandingFields": 2,
+      "fields": [
+        "marshall-marshall-middleton.active",
+        "marshall-marshall-middleton.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fender.com/products/blues-junior-iv",
+      "outstandingFields": 2,
+      "fields": [
+        "fender-blues-junior-iv.active",
+        "fender-blues-junior-iv.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bobscb.com/PDGManuals/C1-650_MAN.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-c1-650.active",
+        "jl-audio-c1-650.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.customsounds.com/uploads/docs/c9cdf2869634c6380c417594003675792e7c0f6a.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-c2-650.active",
+        "jl-audio-c2-650.driverCount"
+      ]
+    },
+    {
+      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C3-650-Component-Speakers-Manual.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-c3-650.active",
+        "jl-audio-c3-650.driverCount"
+      ]
+    },
+    {
+      "url": "https://tacotunes.com/wp-content/uploads/2013/02/JL-Audio-C5-650-Component-Speakers-Manual.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-c5-650.active",
+        "jl-audio-c5-650.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.customsounds.com/uploads/docs/377c821058ecf356e1c0be4aa8bd69a2260bcc04.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-10w3v3.active",
+        "jl-audio-10w3v3.driverCount"
+      ]
+    },
+    {
+      "url": "https://onlinecarstereo.blob.core.windows.net/www/cms/2024/JL%20Audio/13612W3V32.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "jl-audio-12w3v3.active",
+        "jl-audio-12w3v3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.alpine-usa.com/company/press/2018/new-s-series-speakers-subwoofers-and-tough-power-pack-amplifiers-from-alpine-electronics",
+      "outstandingFields": 2,
+      "fields": [
+        "alpine-s-s65.driverCount",
+        "alpine-r-s65c.driverCount"
+      ]
+    },
+    {
+      "url": "https://audison.com/product/apk-165/",
+      "outstandingFields": 2,
+      "fields": [
+        "audison-prima-apk-165.active",
+        "audison-prima-apk-165.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonusfaber.com/it/prodotti/lumina-i/specifiche-tecniche",
+      "outstandingFields": 2,
+      "fields": [
+        "sonus-faber-lumina-i.active",
+        "sonus-faber-lumina-i.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/products/lumina-ii/tech-specs",
+      "outstandingFields": 2,
+      "fields": [
+        "sonus-faber-lumina-ii.active",
+        "sonus-faber-lumina-ii.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonusfaber.com/en/products/lumina-iii/tech-specs",
+      "outstandingFields": 2,
+      "fields": [
+        "sonus-faber-lumina-iii.active",
+        "sonus-faber-lumina-iii.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=43#manual",
+      "outstandingFields": 2,
+      "fields": [
+        "sonus-faber-olympica-nova-i.active",
+        "sonus-faber-olympica-nova-ii.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1744876/Sonus-Faber-Olympica-Nova.html?page=42#manual",
+      "outstandingFields": 2,
+      "fields": [
+        "sonus-faber-olympica-nova-iii.active",
+        "sonus-faber-olympica-nova-v.active"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/1290952/Sonus-Faber-Serafino-Tradition.html?page=29#manual",
+      "outstandingFields": 2,
+      "fields": [
+        "sonus-faber-homage-tradition-amati.active",
+        "sonus-faber-homage-tradition-amati.driverCount"
+      ]
+    },
+    {
+      "url": "https://dali-speakers.com/en-us/products/oberon/oberon-1/",
+      "outstandingFields": 2,
+      "fields": [
+        "dali-oberon-1.active",
+        "dali-oberon-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://linqcdn.avbportal.com/documents/fa9572a7-b80e-42a9-8faf-ac9426d1f177.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "dali-oberon-9.active",
+        "dali-oberon-9.driverCount"
+      ]
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br02",
+      "outstandingFields": 2,
+      "fields": [
+        "triangle-borea-br02.active",
+        "triangle-borea-br02.driverCount"
+      ]
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-hi-fi-borea-br03-paire",
+      "outstandingFields": 2,
+      "fields": [
+        "triangle-borea-br03.active",
+        "triangle-borea-br03.driverCount"
+      ]
+    },
+    {
+      "url": "https://trianglehifi.com/products/enceinte-bibliotheque-esprit-ez-comete",
+      "outstandingFields": 2,
+      "fields": [
+        "triangle-comete-ez.active",
+        "triangle-comete-ez.driverCount"
+      ]
+    },
+    {
+      "url": "https://pmc-speakers.com/studio/active/result6",
+      "outstandingFields": 2,
+      "fields": [
+        "pmc-result6.active",
+        "pmc-result6.driverCount"
+      ]
+    },
+    {
+      "url": "https://pmc-speakers.com/studio/pmc-6-2/",
+      "outstandingFields": 2,
+      "fields": [
+        "pmc-pmc6-2.active",
+        "pmc-pmc6-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://pmc-speakers.com/studio/pmc-8-2/",
+      "outstandingFields": 2,
+      "fields": [
+        "pmc-pmc8-2.active",
+        "pmc-pmc8-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.presonus.com/products/eris-e45-studio-monitor",
+      "outstandingFields": 2,
+      "fields": [
+        "presonus-eris-4-5.active",
+        "presonus-eris-4-5.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/rokit-5-generation-4-powered-studio-monitor-black",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-rokit-5-g4.active",
+        "krk-rokit-5-g4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/rokit-7-generation-4-powered-studio-monitor-black",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-rokit-7-g4.active",
+        "krk-rokit-7-g4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/rokit-8-generation-4-powered-studio-monitor-black",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-rokit-8-g4.active",
+        "krk-rokit-8-g4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/rokit-10-3-generation-4-powered-studio-monitor",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-rokit-10-3-g4.active",
+        "krk-rokit-10-3-g4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/v4-series-4-powered-studio-monitor",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-v4-s4.active",
+        "krk-v4-s4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/v6-series-4-powered-studio-monitor",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-v6-s4.active",
+        "krk-v6-s4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.krkmusic.com/products/v8-series-4-powered-studio-monitor",
+      "outstandingFields": 2,
+      "fields": [
+        "krk-v8-s4.active",
+        "krk-v8-s4.driverCount"
+      ]
+    },
+    {
+      "url": "https://mackie.com/img/file_resources/THUMPXT_2022_SS.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "mackie-thump215xt.active",
+        "mackie-thump215xt.driverCount"
+      ]
+    },
+    {
+      "url": "https://bangolufsenrmaskillgohel.blob.core.windows.net/zendesk-guide/User%20Guide%20Files/Wireless%20Speaker%20Systems/Beosound%20Balance/Beosound%20Balance%20Product%20Sheet%20EN%20Sep2024.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "bang-olufsen-beosound-balance.active",
+        "bang-olufsen-beosound-balance.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.devialet.com/en-us/soundbar/dione/",
+      "outstandingFields": 2,
+      "fields": [
+        "devialet-dione.active",
+        "devialet-dione.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar",
+      "outstandingFields": 2,
+      "fields": [
+        "sennheiser-ambeo-soundbar-max.active",
+        "sennheiser-ambeo-soundbar-max.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-plus",
+      "outstandingFields": 2,
+      "fields": [
+        "sennheiser-ambeo-soundbar-plus.active",
+        "sennheiser-ambeo-soundbar-plus.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.sennheiser-hearing.com/products/ambeo-soundbar-mini",
+      "outstandingFields": 2,
+      "fields": [
+        "sennheiser-ambeo-mini.active",
+        "sennheiser-ambeo-mini.driverCount"
+      ]
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm45a-pro/",
+      "outstandingFields": 2,
+      "fields": [
+        "atc-scm45a-pro.driverCount",
+        "atc-scm45a-pro.active"
+      ]
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm50a-pro/",
+      "outstandingFields": 2,
+      "fields": [
+        "atc-scm50asl-pro.driverCount",
+        "atc-scm50asl-pro.active"
+      ]
+    },
+    {
+      "url": "https://atc.audio/professional/loudspeakers/scm100asl-pro/",
+      "outstandingFields": 2,
+      "fields": [
+        "atc-scm100asl-pro.driverCount",
+        "atc-scm100asl-pro.active"
+      ]
+    },
+    {
+      "url": "https://barefootsound.com/footprint03/",
+      "outstandingFields": 2,
+      "fields": [
+        "barefoot-footprint03.driverCount",
+        "barefoot-footprint03.active"
+      ]
+    },
+    {
+      "url": "https://www.jbl.com/HDI-3800.html",
+      "outstandingFields": 2,
+      "fields": [
+        "jbl-hdi-3800.driverCount",
+        "jbl-hdi-3800.active"
+      ]
+    },
+    {
+      "url": "https://products.electrovoice.com/binary/F01U303039.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-x12-128.driverCount",
+        "electro-voice-x12-128.active"
+      ]
+    },
+    {
+      "url": "https://www.adorama.com/col/productManuals/EVZX560B.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "electro-voice-zx5.active",
+        "electro-voice-zx5.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.focal.com/it/prodotti/sopra-n2",
+      "outstandingFields": 2,
+      "fields": [
+        "focal-sopra2.driverCount",
+        "focal-sopra2.active"
+      ]
+    },
+    {
+      "url": "https://newsroom.sonos.com/254858-forget-everything-you-ve-heard-before-introducing-the-sonos-play-3/",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-play3.driverCount",
+        "sonos-play3.active"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/arcultra",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sonos-arc-ultra.active",
+        "sonos-sonos-arc-ultra.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/era100",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sonos-era-100.active",
+        "sonos-sonos-era-100.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/era300",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sonos-era-300.active",
+        "sonos-sonos-era-300.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/move2",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sonos-move-2.active",
+        "sonos-sonos-move-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/ray",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sonos-ray.active",
+        "sonos-sonos-ray.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sonos.com/en-us/guides/roam2",
+      "outstandingFields": 2,
+      "fields": [
+        "sonos-sonos-roam-2.active",
+        "sonos-sonos-roam-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf",
+      "outstandingFields": 2,
+      "fields": [
+        "turbosound-ip15b.driverCount",
+        "turbosound-ip15b.active"
+      ]
+    },
+    {
+      "url": "https://www.radiomuseum.org/r/klh_compact_bookshelf_speaker_system_model_six_6.html?language_id=2",
+      "outstandingFields": 1,
+      "fields": [
+        "klh-model-6.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifi-guide.com/loudspeaker/klipsch-kg-4-5/",
+      "outstandingFields": 1,
+      "fields": [
+        "klipsch-kg4.active"
+      ]
+    },
+    {
+      "url": "https://www.hifi-guide.com/loudspeaker/bowers-wilkins-801-matrix/",
+      "outstandingFields": 1,
+      "fields": [
+        "b&w-801.active"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7f94b222/archive-manuals/802-d3-info-sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bw-802d3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/archive/archive-built-in-speakers/rti-a7/112671.html",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-rti-a7.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/en/product/motion-60xt",
+      "outstandingFields": 1,
+      "fields": [
+        "martinlogan-motion-60xt.active"
+      ]
+    },
+    {
+      "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/F206-.html",
+      "outstandingFields": 1,
+      "fields": [
+        "revel-f206.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.revelspeakers.com/products/in-room-loudspeakers/M106-.html",
+      "outstandingFields": 1,
+      "fields": [
+        "revel-m106.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.manualslib.com/manual/886578/Sonus-Faber-Olympica-I.html?page=13#manual",
+      "outstandingFields": 1,
+      "fields": [
+        "sonus-faber-olympica3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw5c6c39bf/downloads/rc60i-rc80i-rc85i-owners-manual-en.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-rc85i.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/proac/response-d2.shtml",
+      "outstandingFields": 1,
+      "fields": [
+        "proac-response-d2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/boston-acoustics/vr-m50.shtml",
+      "outstandingFields": 1,
+      "fields": [
+        "boston-vr-m50.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/vandersteen-2ce-signature-loudspeaker-specifications",
+      "outstandingFields": 1,
+      "fields": [
+        "vandersteen-2ce.active"
+      ]
+    },
+    {
+      "url": "https://manualzz.com/doc/1623732/magneplanar-mg20.1-instruction-manual",
+      "outstandingFields": 1,
+      "fields": [
+        "magnepan-mg20.active"
+      ]
+    },
+    {
+      "url": "https://assets.boseprofessional.com/m/579842d561bdf641/original/321278-SM_rev03_DS40_Larry.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-freespace-ds40se.active"
+      ]
+    },
+    {
+      "url": "https://www.mono.no/media/multicase/documents/sonus%20faber/produktark/sonus_faber_guarneri_evolution_produktblad.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "sonus-faber-guarneri.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.wilsonaudio.com/products/watt-puppy/watt-puppy-series-8",
+      "outstandingFields": 1,
+      "fields": [
+        "wilson-watt-puppy.driverCount"
+      ]
+    },
+    {
+      "url": "https://atc.audio/hi-fi/loudspeakers/entry-series/scm19/",
+      "outstandingFields": 1,
+      "fields": [
+        "atc-scm19.driverCount"
+      ]
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/p3d4-12/",
+      "outstandingFields": 1,
+      "fields": [
+        "rockford-fosgate-p3.driverCount"
+      ]
+    },
+    {
+      "url": "https://jp.jbl.com/jamaica.html",
+      "outstandingFields": 1,
+      "fields": [
+        "jbl-paragon.driverCount"
+      ]
+    },
+    {
+      "url": "https://support.apple.com/en-us/111843",
+      "outstandingFields": 1,
+      "fields": [
+        "apple-homepod.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/yamaha/ns-500.shtml",
+      "outstandingFields": 1,
+      "fields": [
+        "yamaha-ns500.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.klipsch.com/product-specsheets/La-Scala-II-Spec-Sheet-v03.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "klipsch-la-scala-ii.driverCount"
+      ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
+      "outstandingFields": 1,
+      "fields": [
+        "yamaha-ns-6490.driverCount"
+      ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-777/specs.html",
+      "outstandingFields": 1,
+      "fields": [
+        "yamaha-ns-777.driverCount"
+      ]
+    },
+    {
+      "url": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-5000/specs.html",
+      "outstandingFields": 1,
+      "fields": [
+        "yamaha-ns-5000.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwdf0b2886/downloads/803D4-Information-Sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bw-803-d4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/archive/archive-floor-standing-speakers/signature-s50/112700.html",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-signature-s50.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/on/demandware.static/-/Library-Sites-polk_northamerica_shared/default/dw245d4011/downloads/P_Signature%20Series_Product%20Info%20Sheet_Black%20Walnut.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-signature-s15.driverCount"
+      ]
+    },
+    {
+      "url": "https://newsroom.sonos.com/254814-introducing-sonos-play-1/",
+      "outstandingFields": 1,
+      "fields": [
+        "sonos-play1.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.martinlogan.com/uploads/documents/brochures/brochure_motion40.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "martinlogan-motion-40.driverCount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0702/9293/0776/files/S812-brochure.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "rel-s812.active"
+      ]
+    },
+    {
+      "url": "https://www.stereophile.com/content/totem-acoustic-model-1-loudspeaker-specifications",
+      "outstandingFields": 1,
+      "fields": [
+        "totem-model1.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.psbspeakers.com/products/synchrony-t600-tower",
+      "outstandingFields": 1,
+      "fields": [
+        "psb-synchrony-t600.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw7433324b/archive-manuals/eng_ft00061_dm6_info_sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-bw-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/blog/products/history-of-800-series.html",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-bw-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/en-us/blog/products/history-of-nautilus.html",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-bw-4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_apac_shared/default/dw49334432/archive-manuals/800-d3-info-sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-bw-7.driverCount"
+      ]
+    },
+    {
+      "url": "https://us.kef.com/products/ls50-meta",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-kef-9.driverCount"
+      ]
+    },
+    {
+      "url": "https://audio-database.com/FOCAL-JMLAB/speaker/chorus707.html",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-focal-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://hub.yamaha.com/proaudio/recording/a-history-of-yamaha-studio-reference-monitors/",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-yam-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://ca.yamaha.com/en/audio/home-audio/explore/ns-5000/history.html",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-yam-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fullcompass.com/common/files/1648-SRM450TechSpecs.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-mack-6.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/pioneer/cs-99a.shtml",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-pio-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/pioneer/hpm-100.shtml",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-pio-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.hifiengine.com/manual_library/pioneer/cs-88a.shtml",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-pio-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.promusic.cz/sites/default/files/product/field_files/kara_um_en_2.1.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-la-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/k1/",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-la-4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/k2/",
+      "outstandingFields": 1,
+      "fields": [
+        "legacy-la-5.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dwd7be5f6c/downloads/804d4-information-sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bowers-wilkins-804-d4.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw5e6a829f/downloads/english--bw--702-s3-information-sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bowers-wilkins-702-s3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bowerswilkins.com/on/demandware.static/-/Library-Sites-bowers_northamerica_shared/default/dw63583732/downloads/english--bw--704-s3-information-sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bowers-wilkins-704-s3.driverCount"
+      ]
+    },
+    {
+      "url": "https://media.focal-naim.com/dam/sopra-n-2/fp_sopra_n2_en.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "focal-sopra-n-2.active"
+      ]
+    },
+    {
+      "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000/specifications",
+      "outstandingFields": 1,
+      "fields": [
+        "sony-sony-ht-a7000.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/acton-iii?pid=1006008",
+      "outstandingFields": 1,
+      "fields": [
+        "marshall-marshall-acton-iii.active"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/stanmore-iii?pid=1009642",
+      "outstandingFields": 1,
+      "fields": [
+        "marshall-marshall-stanmore-iii.active"
+      ]
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/woburn-iii?pid=1006020",
+      "outstandingFields": 1,
+      "fields": [
+        "marshall-marshall-woburn-iii.active"
+      ]
+    },
+    {
+      "url": "https://orangeamps.com/en-us/products/ppc108",
+      "outstandingFields": 1,
+      "fields": [
+        "orange-orange-ppc108.driverCount"
+      ]
+    },
+    {
+      "url": "https://orangeamps.com/en-us/products/ppc112",
+      "outstandingFields": 1,
+      "fields": [
+        "orange-orange-ppc112.driverCount"
+      ]
+    },
+    {
+      "url": "https://orangeamps.com/en-us/products/ppc212",
+      "outstandingFields": 1,
+      "fields": [
+        "orange-ppc212.driverCount"
+      ]
+    },
+    {
+      "url": "https://orangeamps.com/en-us/products/ppc212v",
+      "outstandingFields": 1,
+      "fields": [
+        "orange-ppc212v.driverCount"
+      ]
+    },
+    {
+      "url": "https://orangeamps.com/en-us/products/ppc412",
+      "outstandingFields": 1,
+      "fields": [
+        "orange-ppc412.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_bassamp_Bassman_115__410_2005.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "fender-bassman-410.active"
+      ]
+    },
+    {
+      "url": "https://static.hertz-audio.com/media/2021/04/DIECI3_TechSheet_DSK-165_3.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "hertz-dieci-dsk-165-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://static.hertz-audio.com/media/2021/04/Hertz_CK165_Tech_Sheet_rev18A.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "hertz-cento-ck-165.driverCount"
+      ]
+    },
+    {
+      "url": "https://static.hertz-audio.com/media/2021/04/HERTZ_Mille-PRO_MPK165_Tech_Sheet.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "hertz-mille-pro-mpk-165-3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.alpine-usa.com/company/press/2017/alpine-electronics-now-shipping-x-series-speakers",
+      "outstandingFields": 1,
+      "fields": [
+        "alpine-x-s65c.driverCount"
+      ]
+    },
+    {
+      "url": "https://pioneer-car.eu/ts-z65f/ts-z65f",
+      "outstandingFields": 1,
+      "fields": [
+        "pioneer-ts-z65f.driverCount"
+      ]
+    },
+    {
+      "url": "https://pioneer-car.eu/ts-d65c/ts-d65c",
+      "outstandingFields": 1,
+      "fields": [
+        "pioneer-ts-d65c.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.kenwood.com/usa/car/caraudio/speakers/kfc-1666s/spec.html",
+      "outstandingFields": 1,
+      "fields": [
+        "kenwood-kfc-1666s.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.kenwood.com/usa/car/excelon/kfc-xp6903c/",
+      "outstandingFields": 1,
+      "fields": [
+        "kenwood-excelon-kfc-xp6903c.driverCount"
+      ]
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/r165x3/",
+      "outstandingFields": 1,
+      "fields": [
+        "rockford-fosgate-r165x3.driverCount"
+      ]
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/r1675x2/",
+      "outstandingFields": 1,
+      "fields": [
+        "rockford-fosgate-r1675x2.driverCount"
+      ]
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/t1650/",
+      "outstandingFields": 1,
+      "fields": [
+        "rockford-fosgate-t1650.driverCount"
+      ]
+    },
+    {
+      "url": "https://rockfordfosgate.com/products/details/t1650-s/",
+      "outstandingFields": 1,
+      "fields": [
+        "rockford-fosgate-t1650-s.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.kicker.com/ds-coaxial-speakers-65",
+      "outstandingFields": 1,
+      "fields": [
+        "kicker-43dsc6504.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.kicker.com/47KSC650",
+      "outstandingFields": 1,
+      "fields": [
+        "kicker-47ksc6504.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.kicker.com/CSS67-Component-System-4-Ohm",
+      "outstandingFields": 1,
+      "fields": [
+        "kicker-46css674.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.kicker.com/CSC65-Coaxial-Speakers-4-Ohm",
+      "outstandingFields": 1,
+      "fields": [
+        "kicker-46csc654.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.morelhifi.com/en/products/car-audio/reference-9/elate-carbon-16/elate-carbon-62-6-2-way-158",
+      "outstandingFields": 1,
+      "fields": [
+        "morel-elate-carbon-62a.driverCount"
+      ]
+    },
+    {
+      "url": "https://audison.com/product/av-k6/",
+      "outstandingFields": 1,
+      "fields": [
+        "audison-voce-av-k6.driverCount"
+      ]
+    },
+    {
+      "url": "https://audison.com/product/th-k2-ii-a-coro-2/",
+      "outstandingFields": 1,
+      "fields": [
+        "audison-thesis-th-k2-ii-a.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-2-mk2/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-opticon-2-mk2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/opticon-mk2/opticon-6-mk2/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-opticon-6-mk2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en-us/products/opticon-mk2/opticon-8-mk2/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-opticon-8-mk2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-2/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-rubicon-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-6/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-rubicon-6.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/rubicon/rubicon-8/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-rubicon-8.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-2/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-epicon-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en-us/products/discontinued/epicon/epicon-6/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-epicon-6.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.dali-speakers.com/en/products/discontinued/epicon/epicon-8/",
+      "outstandingFields": 1,
+      "fields": [
+        "dali-epicon-8.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/diamond-12-0",
+      "outstandingFields": 1,
+      "fields": [
+        "wharfedale-diamond-12-0.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/diamond-12-2",
+      "outstandingFields": 1,
+      "fields": [
+        "wharfedale-diamond-12-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/evo4-1",
+      "outstandingFields": 1,
+      "fields": [
+        "wharfedale-evo4-1.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/products/evo4-2",
+      "outstandingFields": 1,
+      "fields": [
+        "wharfedale-evo4-2.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c1m/",
+      "outstandingFields": 1,
+      "fields": [
+        "monitor-audio-creator-c1m.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c2m/",
+      "outstandingFields": 1,
+      "fields": [
+        "monitor-audio-creator-c2m.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.monitoraudio.com/en/us/product-ranges/creator-series/c3m/",
+      "outstandingFields": 1,
+      "fields": [
+        "monitor-audio-creator-c3m.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-100-3g/",
+      "outstandingFields": 1,
+      "fields": [
+        "monitor-audio-platinum-100-3g.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.monitoraudio.com/en/deu/product-ranges/platinum-series-3g/platinum-200-3g/",
+      "outstandingFields": 1,
+      "fields": [
+        "monitor-audio-platinum-200-3g.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r100/300028.html",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-audio-reserve-r100.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/reserve-r200/300029.html",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-audio-reserve-r200.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es15/300363.html",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-audio-signature-elite-es15.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.polkaudio.com/en-us/product/home-speakers/bookshelf/signature-elite-es20/300364.html",
+      "outstandingFields": 1,
+      "fields": [
+        "polk-audio-signature-elite-es20.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.qacoustics.com/products/3010i-compact-bookshelf-speaker-pair",
+      "outstandingFields": 1,
+      "fields": [
+        "q-acoustics-3010i.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.qacoustics.com/products/3020i-bookshelf-speaker-pair",
+      "outstandingFields": 1,
+      "fields": [
+        "q-acoustics-3020i.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.qacoustics.com/products/3030i-bookshelf-speaker-pair",
+      "outstandingFields": 1,
+      "fields": [
+        "q-acoustics-3030i.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.qacoustics.com/products/5020-bookshelf-speaker",
+      "outstandingFields": 1,
+      "fields": [
+        "q-acoustics-5020.driverCount"
+      ]
+    },
+    {
+      "url": "https://voxamps.com/product/v212c-extension-cabinet/",
+      "outstandingFields": 1,
+      "fields": [
+        "vox-v212c.driverCount"
+      ]
+    },
+    {
+      "url": "https://voxamps.com/wp-content/uploads/support/AC15_30HW_V212HWX_OM_EFGS2.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "vox-v212hwx.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.zzounds.com/item--VOXV212",
+      "outstandingFields": 1,
+      "fields": [
+        "vox-v212bn.driverCount"
+      ]
+    },
+    {
+      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/4x12-recto-standard-oversized-slant.html",
+      "outstandingFields": 1,
+      "fields": [
+        "mesa-boogie-rectifier-4x12.driverCount"
+      ]
+    },
+    {
+      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/rectifier-series/2x12-recto-horizontal.html",
+      "outstandingFields": 1,
+      "fields": [
+        "mesa-boogie-2x12-rectifier.driverCount"
+      ]
+    },
+    {
+      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/fillmore-series/2x12-fillmore.html",
+      "outstandingFields": 1,
+      "fields": [
+        "mesa-boogie-fillmore-2x12.driverCount"
+      ]
+    },
+    {
+      "url": "https://legacy.mesaboogie.com/cabinets--simulators/guitar-cabinets--simulators/lone-star-series/2x12-lone-star.html",
+      "outstandingFields": 1,
+      "fields": [
+        "mesa-boogie-lone-star-2x12.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.ikmultimedia.com/news/?id=iloudmtm",
+      "outstandingFields": 1,
+      "fields": [
+        "ik-multimedia-iloud-mtm.driverCount"
+      ]
+    },
+    {
+      "url": "https://dutchdutch.com/pages/8c",
+      "outstandingFields": 1,
+      "fields": [
+        "dutch-and-dutch-8c.active"
+      ]
+    },
+    {
+      "url": "https://www.revelspeakers.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0e982deb/pdfs/Revel_OM_Salon2_Studio2.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "revel-ultima-salon2.active"
+      ]
+    },
+    {
+      "url": "https://assets.bosecreative.com/m/29dd39b1091ed23f/original/830857_OG_HS300-SPEAKERWIRELESS_enUS.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-home-speaker-300.active"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/pressroom/bose-introduces-new-smart-speaker-and-soundbars",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-home-speaker-500.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/p/speakers/bose-portable-smart-speaker/PORTSS-SPEAKERWIRELESS.html",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-portable-smart-speaker.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/pressroom/bose-smart-soundbar-and-personal-surround-sound",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-smart-soundbar.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-smart-ultra-soundbar.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/pressroom/soundlink-flex-bluetooth-speaker",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-soundlink-flex.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/pressroom/bose-soundlink-max",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-soundlink-max.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-bose-tv-speaker.driverCount"
+      ]
+    },
+    {
+      "url": "https://assets.bosecreative.com/m/deb85fef843b3c2/original/AM745087_OG_WMSIV-SPEAKERWAVE_enUS.pdf",
+      "outstandingFields": 1,
+      "fields": [
+        "bose-wave-music-system.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a8000/specifications",
+      "outstandingFields": 1,
+      "fields": [
+        "sony-sony-bravia-theatre-bar-8.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications",
+      "outstandingFields": 1,
+      "fields": [
+        "sony-sony-bravia-theatre-bar-9.driverCount"
+      ]
+    }
+  ]
+}

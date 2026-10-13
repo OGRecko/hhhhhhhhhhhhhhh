@@ -27056,16 +27056,16 @@
     "panel": null,
     "notes": "Round 5 variant split (owner decision, 2026-10-11). Exact variant: Electro-Voice Zx3-60, coverage 60 x 60 degrees. Source: Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). The manual prints one specification table for the Zx3 series, which is applied to this variant: frequency response -3 dB 58 Hz to 15 kHz (-10 dB 48 Hz to 20 kHz), axial sensitivity 97 dB (1 W/1 m, half space), nominal impedance 8 ohm (minimum 6.2 ohm), power 600 W continuous passive / 2400 W peak, LF 12 in DVX3121, HF 1 in ND2 exit neodymium compression driver, crossover 2 kHz, Speakon NL4, 613 x 397 x 362 mm, net 19.8 kg. Voice-coil size is not stated for the LF driver and stays N/A. driverCount 2 and active false are variant-independent (see provenance). Its response graphs are per-variant manufacturer tables, not measurements, and are not stored.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
     }
   },
   {
@@ -27131,16 +27131,16 @@
     "panel": null,
     "notes": "Round 5 variant split (owner decision, 2026-10-11). Exact variant: Electro-Voice Zx3-90, coverage 90 x 50 degrees. Source: Electro-Voice Zx3 Owner's Manual, manufacturer document (hosted copy: https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf). The manual prints one specification table for the Zx3 series, which is applied to this variant: frequency response -3 dB 58 Hz to 15 kHz (-10 dB 48 Hz to 20 kHz), axial sensitivity 97 dB (1 W/1 m, half space), nominal impedance 8 ohm (minimum 6.2 ohm), power 600 W continuous passive / 2400 W peak, LF 12 in DVX3121, HF 1 in ND2 exit neodymium compression driver, crossover 2 kHz, Speakon NL4, 613 x 397 x 362 mm, net 19.8 kg. Voice-coil size is not stated for the LF driver and stays N/A. driverCount 2 and active false are variant-independent (see provenance). Its response graphs are per-variant manufacturer tables, not measurements, and are not stored.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual (Zx3-60/Zx3-90, PI versions): 12 in DVX3121 LF driver and 1 in ND2 compression driver (2 drivers). Variant-independent."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.eviaudio.fr is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Structural check (2026-10-11): Owner's manual: 'Passive and biamp selectable'; spec table lists 'Power Handling (Passive)' and a 'Block Diagram - Passive Mode'. No amplifier listed. Variant-independent."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: shared Zx3 passive mode statement."
     }
   },
   {

@@ -6025,6 +6025,98 @@
       "chunksOpened": [],
       "evidence": null,
       "fieldResults": []
+    },
+    {
+      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "round": 18,
+      "status": "CHECKED_CONFIRMED",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 6,
+      "checkedDate": "2026-10-13",
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "document": "Electro-Voice Zx3 Series Owner’s Manual (covers Zx3-60, Zx3-90, Zx3-60PI, Zx3-90PI). Author: Electro-Voice (manufacturer). Host eviaudio.fr homepage names EVI AUDIO FRANCE, a professional audio distributor of Electro-Voice.",
+      "evidence": "Features: \"DVX3121 12” woofer\"; \"ND2 2” voice coil, 1” exit neodymium compression driver\" (two drivers). Specifications: LF transducer DVX3121 12 in, HF transducer ND2 1 in; \"Power Handling (Passive)\" and \"Passive Mode\" block diagram; \"Passive and biamp selectable\". Axial Sensitivity 97 dB (1W/1m), half-space measurement. Applies to both Zx3-60 and Zx3-90 (shared specification table).",
+      "fieldResults": [
+        {
+          "record": "electro-voice-zx3-60",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
+        },
+        {
+          "record": "electro-voice-zx3-60",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
+        },
+        {
+          "record": "electro-voice-zx3-90",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
+        },
+        {
+          "record": "electro-voice-zx3-90",
+          "field": "active",
+          "value": false,
+          "outcome": "PROMOTED",
+          "note": "shared Zx3 passive mode statement."
+        }
+      ],
+      "history": []
+    },
+    {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+      "round": 18,
+      "status": "CHECKED_CONFIRMED_CONTENT_HOST_PENDING",
+      "chunksOpened": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "chunksTotal": 4,
+      "checkedDate": "2026-10-13",
+      "sourceClass": "NON_MANUFACTURER_HOST",
+      "document": "PreSonus R65 and R80 Active AMT Studio Monitors Owner’s Manual. Author: PreSonus (copyright line names PreSonus Audio Electronics, Inc.). Host fmicassets.com: operator not identified (homepage fetch returned HTTP 500).",
+      "evidence": "\"2-way active AMT studio monitor with DSP\"; \"self-powered\"; \"Class D biamped power configuration: 100W LF, 50W HF\". LF driver: R65 6.5 in woven composite, R80 8 in woven composite; HF driver: AMT 6.8 in2 (equivalent 3 in). Both models named in the same manual with R65 and R80 specification rows.",
+      "fieldResults": [
+        {
+          "record": "presonus-r65",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "content supports 2 drivers (LF + AMT HF). Host operator not identified; stays CITED until host is established or owner decides."
+        },
+        {
+          "record": "presonus-r65",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "manual: \"active AMT studio monitor\", \"self-powered\". Host pending."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "same manual, R80 8 in LF + AMT HF. Host pending."
+        },
+        {
+          "record": "presonus-r80",
+          "field": "active",
+          "value": true,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "same manual, R80 active/self-powered. Host pending."
+        }
+      ],
+      "history": []
     }
   ]
 }

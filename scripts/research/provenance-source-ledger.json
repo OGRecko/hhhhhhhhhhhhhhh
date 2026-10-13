@@ -1570,6 +1570,21 @@
       "sourceClass": null,
       "round": 17,
       "coverage": "fetch_page: 'Failed to fetch page'. Zenodo API content route: HTTP 500. Shell curl to zenodo.org: SSL_ERROR_SYSCALL (host not on sandbox egress allowlist). No file downloaded; no MD5 check possible this round. Expected MD5 a00e40164556183420c315e9f6ecd7fd (from Zenodo API record, round 15)."
+    },
+    {
+      "url": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "host": "www.eviaudio.fr",
+      "document": "Electro-Voice Zx3 Series Owner’s Manual (covers Zx3-60, Zx3-90, Zx3-60PI, Zx3-90PI). Author: Electro-Voice (manufacturer). Host eviaudio.fr homepage names EVI AUDIO FRANCE, a professional audio distributor of Electro-Voice.",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        0,
+        2
+      ],
+      "chunksTotal": 6,
+      "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
+      "round": 18,
+      "coverage": "Features: \"DVX3121 12” woofer\"; \"ND2 2” voice coil, 1” exit neodymium compression driver\" (two drivers). Specifications: LF transducer DVX3121 12 in, HF transducer ND2 1 in; \"Power Handling (Passive)\" and \"Passive Mode\" block diagram; \"Passive and biamp selectable\". Axial Sensitivity 97 dB (1W/1m), half-space measurement. Applies to both Zx3-60 and Zx3-90 (shared specification table)."
     }
   ],
   "openQuestionsForOwner": [
