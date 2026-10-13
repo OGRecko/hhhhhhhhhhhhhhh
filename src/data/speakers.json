@@ -16088,7 +16088,7 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "sourceType": "MANUFACTURER",
-      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value."
+      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value. Owner answer (round 16, 2026-10-13): keep MANUFACTURER_VERIFIED as an explicit owner exception to the host rule; usa.yamaha.com is still not on source-host-allowlist.json and no operator footer was confirmed."
     },
     "resonantFreq": {
       "value": null,

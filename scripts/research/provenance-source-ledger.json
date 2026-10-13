@@ -1557,15 +1557,27 @@
     },
     {
       "id": "lacoustics-arcs-ii-third-party",
-      "question": "lacoustics-arcs-ii driverCount and active were MANUFACTURER_VERIFIED on a THIRD_PARTY sourceType (SISME distributor copy). Round 12b returned both to unchecked. Is there a manufacturer (L-Acoustics) source to check instead? Round 16 (2026-10-13): official product URL returns homepage (not found); still no L-Acoustics primary source for ARCS II. Values not promoted."
+      "question": "lacoustics-arcs-ii driverCount and active were MANUFACTURER_VERIFIED on a THIRD_PARTY sourceType (SISME distributor copy). Round 12b returned both to unchecked. Is there a manufacturer (L-Acoustics) source to check instead? Round 16 (2026-10-13): official product URL returns homepage (not found); still no L-Acoustics primary source for ARCS II. Values not promoted.",
+      "ownerAnswer": {
+        "date": "2026-10-13",
+        "answer": "Keep ARCS II as third-party, not promoted. No change to values."
+      }
     },
     {
       "id": "prx815-identity",
-      "question": "jbl-prx815w was promoted from a sheet headed PRX815. The W identity rests on the Wi-Fi control listed in the sheet. Accept, or require a PRX815W-headed document? Round 16 (2026-10-13): jblpro.com/www/products/prx815w returns 404; still no PRX815W-headed primary sheet. Owner to choose: accept the PRX815-headed JBL sheet plus JBL product-page identity as sufficient for the PRX815W record, or keep the record unverified for identity."
+      "question": "jbl-prx815w was promoted from a sheet headed PRX815. The W identity rests on the Wi-Fi control listed in the sheet. Accept, or require a PRX815W-headed document? Round 16 (2026-10-13): jblpro.com/www/products/prx815w returns 404; still no PRX815W-headed primary sheet. Owner to choose: accept the PRX815-headed JBL sheet plus JBL product-page identity as sufficient for the PRX815W record, or keep the record unverified for identity.",
+      "ownerAnswer": {
+        "date": "2026-10-13",
+        "answer": "Accept the PRX815-headed JBL sheet plus JBL product-page identity. Values stay MANUFACTURER_VERIFIED with the identity note. No value change."
+      }
     },
     {
       "id": "host-policy-acceptance",
-      "question": "Accept the host decisions in source-host-allowlist.json (Bose Professional, Electro-Voice and Genelec asset hosts ESTABLISHED; tile.loc.gov, walkersound, eviaudio.fr and fmicassets.com NOT established) and the demotion of the 12 fields. Brand-domain hosts stay flagged for review, not verified. Reversible if ownership is later shown."
+      "question": "Accept the host decisions in source-host-allowlist.json (Bose Professional, Electro-Voice and Genelec asset hosts ESTABLISHED; tile.loc.gov, walkersound, eviaudio.fr and fmicassets.com NOT established) and the demotion of the 12 fields. Brand-domain hosts stay flagged for review, not verified. Reversible if ownership is later shown.",
+      "ownerAnswer": {
+        "date": "2026-10-13",
+        "answer": "Owner exception recorded for Yamaha NS-6490 impedance (usa.yamaha.com): keep MANUFACTURER_VERIFIED. Host remains NOT_ESTABLISHED."
+      }
     }
   ],
   "rounds": [

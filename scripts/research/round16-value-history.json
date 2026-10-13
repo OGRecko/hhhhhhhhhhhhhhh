@@ -118,6 +118,20 @@
       "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
       "round": 16,
       "reason": "Stored points differed from the cited exact-model sheet Raw column; re-transcribed."
+    },
+    {
+      "id": "yamaha-ns-6490",
+      "field": "impedance",
+      "changes": [
+        {
+          "before": "8 ohm MANUFACTURER_VERIFIED",
+          "after": "8 ohm MANUFACTURER_VERIFIED (unchanged; owner exception to host rule recorded in note)"
+        }
+      ],
+      "round": 16,
+      "date": "2026-10-13",
+      "ownerDecision": "Owner answer round 16: keep MANUFACTURER_VERIFIED (explicit exception to host rule).",
+      "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html"
     }
   ]
 }
