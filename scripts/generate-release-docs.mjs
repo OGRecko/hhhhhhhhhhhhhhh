@@ -95,7 +95,9 @@ const decisionsArchivePath = path.join(root, 'scripts/research/removed-owner-202
 const decisionsArchivedCount = JSON.parse(fs.readFileSync(decisionsArchivePath, 'utf8')).records.length;
 const removed20261012Path = path.join(root, 'scripts/research/removed-unavailable-2026-10-12.json');
 const removed20261012Count = JSON.parse(fs.readFileSync(removed20261012Path, 'utf8')).records.length;
-const reviewedTotal = audit.records + archivedCount + round5ArchivedCount + decisionsArchivedCount + removed20261012Count;
+const decisions20261013Path = path.join(root, 'scripts/research/removed-owner-2026-10-13-decisions.json');
+const decisions20261013Count = JSON.parse(fs.readFileSync(decisions20261013Path, 'utf8')).records.length;
+const reviewedTotal = audit.records + archivedCount + round5ArchivedCount + decisionsArchivedCount + removed20261012Count + decisions20261013Count;
 const statusDoc = [
   '# Cavity Audio — Speaker Data Status', '',
   'Generated from `src/data/speakers.json`; counts are not hand-maintained.', '',

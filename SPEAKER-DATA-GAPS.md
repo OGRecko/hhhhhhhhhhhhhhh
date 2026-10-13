@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Data Gaps
 
-Generated 2026-10-13 from the authoritative 658-record database.
+Generated 2026-10-13 from the authoritative 657-record database.
 
 This inventory lists fields that are not currently populated with retained source evidence. It is intentionally exhaustive and is not a claim that the missing information does not exist on the internet.
 
@@ -247,7 +247,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | bryston-model-t | Bryston | Model T | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil |
 | klipsch-awr650sm | Klipsch | AWR-650-SM | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-jbl-1 | JBL | D130 | PARTIALLY_VERIFIED | impedance, resonantFreq, frequency-response limits |
-| legacy-jbl-3 | JBL | 4310 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-jbl-6 | JBL | 4430 Studio Monitor | PARTIALLY_VERIFIED | resonantFreq |
 | legacy-jbl-11 | JBL | Control 25 | PARTIALLY_VERIFIED | resonantFreq, voiceCoil |
 | legacy-bw-1 | Bowers & Wilkins | DM6 | PARTIALLY_VERIFIED | power, resonantFreq, voiceCoil, woofer |
@@ -665,6 +664,6 @@ This inventory lists fields that are not currently populated with retained sourc
 | qsc-kw122 | QSC | KW122 | PARTIALLY_VERIFIED | sensitivity, impedance, resonantFreq, voiceCoil |
 | electro-voice-x12-128 | Electro-Voice | X12-128 | PARTIALLY_VERIFIED | impedance, resonantFreq |
 
-**Records with at least one source-backed acoustic field:** 658
+**Records with at least one source-backed acoustic field:** 657
 **Records with no source-backed acoustic field:** 0
 **Unavailable identities or confirmed non-loudspeaker records:** 0

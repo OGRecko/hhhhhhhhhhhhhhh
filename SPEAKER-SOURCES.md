@@ -2028,11 +2028,6 @@ The source is attached to the exact field it supports. A source URL here does no
 
 ## https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf
 
-- JBL 4310 Studio Monitor — frequency-response limits
-- JBL 4310 Studio Monitor — impedance
-- JBL 4310 Studio Monitor — power
-- JBL 4310 Studio Monitor — sensitivity
-- JBL 4310 Studio Monitor — woofer size
 - JBL 4310 — frequency-response limits
 - JBL 4310 — impedance
 - JBL 4310 — power

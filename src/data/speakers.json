@@ -18168,80 +18168,6 @@
     }
   },
   {
-    "id": "legacy-jbl-3",
-    "brand": "JBL",
-    "model": "4310 Studio Monitor",
-    "category": "studio-monitor",
-    "year": null,
-    "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": 3,
-    "active": false,
-    "panel": null,
-    "sensitivity": {
-      "value": 42,
-      "unit": "dB",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER",
-      "reference": "EIA: 1mW/30ft, averaged 500–2500Hz"
-    },
-    "frequencyResponse": {
-      "low_hz": 45,
-      "high_hz": 15000,
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER"
-    },
-    "power": {
-      "value": 50,
-      "unit": "W",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER",
-      "role": "speaker_power_handling"
-    },
-    "impedance": {
-      "value": 8,
-      "unit": "ohm",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER"
-    },
-    "resonantFreq": {
-      "value": null,
-      "unit": "Hz",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "voiceCoil": {
-      "value": null,
-      "unit": "in",
-      "status": "UNAVAILABLE",
-      "source": null,
-      "sourceType": "NONE"
-    },
-    "woofer": {
-      "value": 12,
-      "unit": "in",
-      "status": "MANUFACTURER_VERIFIED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": "MANUFACTURER"
-    },
-    "notes": "Duplicate legacy record for the exact JBL 4310 Control Room Monitor, synchronized with jbl-4310 using the same exact-model Library of Congress-hosted JBL manual. Specifications, nonstandard EIA sensitivity reference, exclusions and caveats are identical; this entry does not refer to the separate 4311 or 4311A models. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
-    "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
-    },
-    "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
-      "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
-      "sourceType": null
-    }
-  },
-  {
     "id": "legacy-jbl-6",
     "brand": "JBL",
     "model": "4430 Studio Monitor",
@@ -48048,16 +47974,16 @@
     "panel": null,
     "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R65 and R80 models without a V2 suffix and supplies separate model rows. For R65 it specifies 45 Hz–22 kHz frequency response at −3 dB and a 6.5-inch LF driver; the shared feature section identifies both as 2-way active AMT monitors. Its official R65 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 104 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_Tech-Sheet_Multi.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: content supports 2 drivers (LF + AMT HF). Promoted on owner-confirmed PreSonus host (2026-10-13)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: manual: \"active AMT studio monitor\", \"self-powered\". Promoted on owner-confirmed PreSonus host (2026-10-13)."
     }
   },
   {
@@ -48122,16 +48048,16 @@
     "panel": null,
     "notes": "PreSonus's official 2015 R65/R80 Owner's Manual identifies the exact R80 model without a V2 suffix and supplies a distinct R80 row: 40 Hz–22 kHz frequency response at −3 dB and an 8-inch LF driver. The shared feature section identifies it as a 2-way active AMT monitor. Its official R80 technical sheet explicitly lists 150 W Class D biamplification (the manual separately itemizes 100 W LF and 50 W HF); 150 W is stored as amplifier output exactly as published, without adding an RMS qualifier. The sheet's detailed LF-driver row conflicts with its own 8-inch feature and the model-specific manual, so that row is not used. The manual lists 20 kΩ balanced / 10 kΩ unbalanced line-input impedance, not speaker-load impedance, and 107 dB peak SPL, not acoustic sensitivity. No resonance or woofer voice-coil diameter is published. No response-point curve or directivity dataset is imported; the technical sheet's sampled SPL table has no stated measurement conditions. Sources: https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf ; https://www.fmicassets.com/Damroot/Original/10001/OM_2777500203_R80_Tech-Sheet_EN.pdf",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: same manual, R80 8 in LF + AMT HF. Promoted on owner-confirmed PreSonus host (2026-10-13)."
     },
     "activeProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceType": null,
-      "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      "sourceType": "MANUFACTURER",
+      "note": "Round 18: same manual, R80 active/self-powered. Promoted on owner-confirmed PreSonus host (2026-10-13)."
     }
   },
   {

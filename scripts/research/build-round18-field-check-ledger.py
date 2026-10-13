@@ -28,7 +28,13 @@ rechecks = [
   'fields': ['jbl-4310.driverCount', 'legacy-jbl-3.driverCount', 'jbl-4310.active', 'legacy-jbl-3.active'],
   'outcomes': ['SUPPORTED_NOT_PROMOTED', 'SUPPORTED_NOT_PROMOTED', 'NOT_STATED', 'NOT_STATED']},
 ]
+ownerDecisions = [
+ {'date': '2026-10-13', 'question': 'Yamaha NS-6490 impedance (brief item 9 said N/A)', 'answer': 'KEEP 8 ohm MANUFACTURER_VERIFIED (f441603 and 2026-10-13 owner answer stand).'},
+ {'date': '2026-10-13', 'question': 'legacy-jbl-3 duplicate of jbl-4310', 'answer': 'ARCHIVE legacy-jbl-3 (recoverable) in removed-owner-2026-10-13-decisions.json, redirect to jbl-4310. Live 658 -> 657, archived 119 -> 120, total 777.'},
+ {'date': '2026-10-13', 'question': 'www.fmicassets.com host operator (PreSonus R65/R80 manual)', 'answer': 'OWNER CONFIRMED PreSonus as the document host. Host status ESTABLISHED_OWNER_CONFIRMED_2026-10-13. R65/R80 driverCount and active promoted to MANUFACTURER_VERIFIED.'},
+]
 out = {'schema': 'round18-field-check-ledger/v1', 'round': 18, 'checkedDate': '2026-10-13',
+       'ownerDecisions': ownerDecisions,
        'fieldChecks': checks, 'urlRechecks': rechecks,
        'counts': {'fieldChecksThisRound': len(checks), 'promoted': sum(1 for c in checks if c['outcome'] == 'PROMOTED'),
                   'supportedNotPromoted': sum(1 for c in checks if c['outcome'] == 'SUPPORTED_NOT_PROMOTED'),

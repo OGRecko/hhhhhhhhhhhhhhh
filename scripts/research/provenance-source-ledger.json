@@ -310,14 +310,16 @@
         0
       ],
       "chunksTotal": 4,
-      "coverage": "Overview and features (chunk 0). Covers both R65 and R80.",
+      "coverage": "Overview and features (chunk 0). Covers both R65 and R80. Round 18: owner confirmed PreSonus host (2026-10-13); R65/R80 driverCount and active promoted.",
       "decisions": [
         "presonus-r65 driverCount 2 MANUFACTURER_VERIFIED",
         "presonus-r65 active True MANUFACTURER_VERIFIED",
         "presonus-r80 driverCount 2 MANUFACTURER_VERIFIED",
         "presonus-r80 active True MANUFACTURER_VERIFIED"
       ],
-      "queueItemsResolved": 4
+      "queueItemsResolved": 4,
+      "sourceClass": "MANUFACTURER",
+      "hostStatus": "ESTABLISHED_OWNER_CONFIRMED_2026-10-13"
     },
     {
       "url": "https://products.electrovoice.com/binary/Sx300PI_PIX_EDS.pdf",

@@ -14,6 +14,7 @@ import removedRecords from "../../scripts/research/removed-records.json";
 import removedUnavailable from "../../scripts/research/removed-unavailable-records.json";
 import removedOwnerRound5 from "../../scripts/research/removed-owner-round5-records.json";
 import removedOwnerDecisions from "../../scripts/research/removed-owner-2026-10-12-decisions.json";
+import removedOwnerDecisions20261013 from "../../scripts/research/removed-owner-2026-10-13-decisions.json";
 import removedUnavailable20261012 from "../../scripts/research/removed-unavailable-2026-10-12.json";
 import directivityLeads from "../../scripts/research/directivity-leads.json";
 import nodeAssert from "node:assert/strict";
@@ -42,7 +43,7 @@ function assert(cond: unknown, msg = "assertion failed"): asserts cond {
 const db = speakers as any[];
 // Live dataset plus the archived UNAVAILABLE records (removed 2026-10-10 at owner request); used only for lookups of archived IDs.
 // Round 5 (owner decision 2026-10-11) archived consumer records and the generic Zx3 record are included for lookups.
-const allDb = [...db, ...((removedUnavailable as any).records as any[]), ...((removedOwnerRound5 as any).records as any[]), ...((removedOwnerDecisions as any).records as any[]), ...((removedUnavailable20261012 as any).records as any[])];
+const allDb = [...db, ...((removedUnavailable as any).records as any[]), ...((removedOwnerRound5 as any).records as any[]), ...((removedOwnerDecisions as any).records as any[]), ...((removedOwnerDecisions20261013 as any).records as any[]), ...((removedUnavailable20261012 as any).records as any[])];
 // Notes ledger for live and archived UNAVAILABLE records (archived ledger entries are kept in the removal archive).
 const unresolvedAll: Record<string, any> = { ...(unresolvedNotes as Record<string, any>), ...((removedUnavailable as any).unresolvedNotes as Record<string, any>) };
 const removalLog = removedRecords as { reviewDate: string; entries: Array<{ id: string; brand: string; model: string; statusBeforeRemoval: string; disposition: string; reason: string; sourceRefs: string[]; researchNote: string; restored: boolean }> };
@@ -79,12 +80,13 @@ check("total record count matches the reviewed dataset", () => {
   // Owner decisions (2026-10-12 follow-up): legacy-jbl-5 (duplicate of jbl-4311), electro-voice-zx5 and legacy-ma-2 archived: 669 - 3 = 666.
   // User request (2026-10-12): 7 records with no acoustic data archived (removed-unavailable-2026-10-12.json): 666 - 7 = 659.
   // Owner decision 6 (2026-10-12): turbosound-ip15b archived (removed-unavailable-2026-10-12.json, 7 -> 8): 659 - 1 = 658.
-  assert(db.length === 658, `expected 658 live records after the owner decision 6 archive of turbosound-ip15b, found ${db.length}`);
+  // Owner decision (2026-10-13): legacy-jbl-3 duplicate of jbl-4310 archived (removed-owner-2026-10-13-decisions.json): 658 - 1 = 657.
+  assert(db.length === 657, `expected 657 live records after the 2026-10-13 archive of legacy-jbl-3, found ${db.length}`);
   assert((removedUnavailable as any).records.length === 81, "archive must hold the 81 removed UNAVAILABLE records");
   // Owner answers (2026-10-12): legacy-la-1 V-DOSC and legacy-la-2 ARCS archived (no exact source); ARCS II added live.
   // Live: 671 - 2 + 1 - 1 = 669 (focal-sopra2 duplicate archived 2026-10-12). Archive: 24 + 3 = 27. Total: 669 + 81 + 27 = 777.
   nodeAssert.equal((removedOwnerRound5 as any).records.length, 27, "round 5 archive must hold the 24 removed records plus the V-DOSC, ARCS and focal-sopra2 addenda");
-  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length + (removedOwnerDecisions as any).records.length + (removedUnavailable20261012 as any).records.length === 777, "live plus archived records must total the 777 reviewed records");
+  assert(db.length + (removedUnavailable as any).records.length + (removedOwnerRound5 as any).records.length + (removedOwnerDecisions as any).records.length + (removedUnavailable20261012 as any).records.length + (removedOwnerDecisions20261013 as any).records.length === 777, "live plus archived records must total the 777 reviewed records");
 });
 
 check("overall status follows sourced fields or an audited unresolved-identity disposition", () => {

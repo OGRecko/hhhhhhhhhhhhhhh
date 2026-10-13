@@ -1,0 +1,89 @@
+{
+  "reviewDate": "2026-10-13",
+  "reason": "Archived by owner decision (2026-10-13): legacy-jbl-3 is a duplicate of jbl-4310 (same JBL 4310 manual URL, same values). Record archived unchanged; references redirect to jbl-4310. Recoverable.",
+  "recordCount": 1,
+  "records": [
+    {
+      "id": "legacy-jbl-3",
+      "brand": "JBL",
+      "model": "4310 Studio Monitor",
+      "category": "studio-monitor",
+      "year": null,
+      "overallStatus": "PARTIALLY_VERIFIED",
+      "driverCount": 3,
+      "active": false,
+      "panel": null,
+      "sensitivity": {
+        "value": 42,
+        "unit": "dB",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER",
+        "reference": "EIA: 1mW/30ft, averaged 500–2500Hz"
+      },
+      "frequencyResponse": {
+        "low_hz": 45,
+        "high_hz": 15000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "power": {
+        "value": 50,
+        "unit": "W",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER",
+        "role": "speaker_power_handling"
+      },
+      "impedance": {
+        "value": 8,
+        "unit": "ohm",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "resonantFreq": {
+        "value": null,
+        "unit": "Hz",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "voiceCoil": {
+        "value": null,
+        "unit": "in",
+        "status": "UNAVAILABLE",
+        "source": null,
+        "sourceType": "NONE"
+      },
+      "woofer": {
+        "value": 12,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "notes": "Duplicate legacy record for the exact JBL 4310 Control Room Monitor, synchronized with jbl-4310 using the same exact-model Library of Congress-hosted JBL manual. Specifications, nonstandard EIA sensitivity reference, exclusions and caveats are identical; this entry does not refer to the separate 4311 or 4311A models. Source: https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf.",
+      "driverCountProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_MANUFACTURER): tile.loc.gov is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: Round 12: Manual text: \"three direct-radiator transducers\" (12 in LF, 5 in MF, HF direct radiator). Same document as jbl-4310."
+      },
+      "activeProvenance": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+        "sourceType": null
+      }
+    }
+  ],
+  "archiveMeta": [
+    {
+      "id": "legacy-jbl-3",
+      "reason": "Duplicate of jbl-4310 (JBL Professional Series Model 4310, same document https://tile.loc.gov/... Library of Congress copy). Owner decision 2026-10-13: archive duplicate.",
+      "redirectTo": "jbl-4310",
+      "archivedDate": "2026-10-13"
+    }
+  ]
+}

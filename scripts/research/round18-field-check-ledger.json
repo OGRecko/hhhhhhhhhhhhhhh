@@ -2,6 +2,23 @@
   "schema": "round18-field-check-ledger/v1",
   "round": 18,
   "checkedDate": "2026-10-13",
+  "ownerDecisions": [
+    {
+      "date": "2026-10-13",
+      "question": "Yamaha NS-6490 impedance (brief item 9 said N/A)",
+      "answer": "KEEP 8 ohm MANUFACTURER_VERIFIED (f441603 and 2026-10-13 owner answer stand)."
+    },
+    {
+      "date": "2026-10-13",
+      "question": "legacy-jbl-3 duplicate of jbl-4310",
+      "answer": "ARCHIVE legacy-jbl-3 (recoverable) in removed-owner-2026-10-13-decisions.json, redirect to jbl-4310. Live 658 -> 657, archived 119 -> 120, total 777."
+    },
+    {
+      "date": "2026-10-13",
+      "question": "www.fmicassets.com host operator (PreSonus R65/R80 manual)",
+      "answer": "OWNER CONFIRMED PreSonus as the document host. Host status ESTABLISHED_OWNER_CONFIRMED_2026-10-13. R65/R80 driverCount and active promoted to MANUFACTURER_VERIFIED."
+    }
+  ],
   "fieldChecks": [
     {
       "speakerId": "electro-voice-zx3-60",
@@ -116,7 +133,7 @@
       "field": "driverCount",
       "value": 2,
       "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceClass": "NON_MANUFACTURER_HOST",
+      "sourceClass": "MANUFACTURER",
       "host": "www.fmicassets.com",
       "chunksOpened": [
         0,
@@ -125,17 +142,27 @@
         3
       ],
       "checkedDate": "2026-10-13",
-      "outcome": "SUPPORTED_NOT_PROMOTED",
-      "before": null,
-      "after": null,
-      "reason": "content supports 2 drivers (LF + AMT HF). Host operator not identified; stays CITED until host is established or owner decides."
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: content supports 2 drivers (LF + AMT HF). Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "reason": "content supports 2 drivers (LF + AMT HF). Promoted on owner-confirmed PreSonus host (2026-10-13)."
     },
     {
       "speakerId": "presonus-r65",
       "field": "active",
       "value": true,
       "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceClass": "NON_MANUFACTURER_HOST",
+      "sourceClass": "MANUFACTURER",
       "host": "www.fmicassets.com",
       "chunksOpened": [
         0,
@@ -144,17 +171,27 @@
         3
       ],
       "checkedDate": "2026-10-13",
-      "outcome": "SUPPORTED_NOT_PROMOTED",
-      "before": null,
-      "after": null,
-      "reason": "manual: \"active AMT studio monitor\", \"self-powered\". Host pending."
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: manual: \"active AMT studio monitor\", \"self-powered\". Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "reason": "manual: \"active AMT studio monitor\", \"self-powered\". Promoted on owner-confirmed PreSonus host (2026-10-13)."
     },
     {
       "speakerId": "presonus-r80",
       "field": "driverCount",
       "value": 2,
       "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceClass": "NON_MANUFACTURER_HOST",
+      "sourceClass": "MANUFACTURER",
       "host": "www.fmicassets.com",
       "chunksOpened": [
         0,
@@ -163,17 +200,27 @@
         3
       ],
       "checkedDate": "2026-10-13",
-      "outcome": "SUPPORTED_NOT_PROMOTED",
-      "before": null,
-      "after": null,
-      "reason": "same manual, R80 8 in LF + AMT HF. Host pending."
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: same manual, R80 8 in LF + AMT HF. Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "reason": "same manual, R80 8 in LF + AMT HF. Promoted on owner-confirmed PreSonus host (2026-10-13)."
     },
     {
       "speakerId": "presonus-r80",
       "field": "active",
       "value": true,
       "sourceUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
-      "sourceClass": "NON_MANUFACTURER_HOST",
+      "sourceClass": "MANUFACTURER",
       "host": "www.fmicassets.com",
       "chunksOpened": [
         0,
@@ -182,10 +229,20 @@
         3
       ],
       "checkedDate": "2026-10-13",
-      "outcome": "SUPPORTED_NOT_PROMOTED",
-      "before": null,
-      "after": null,
-      "reason": "same manual, R80 active/self-powered. Host pending."
+      "outcome": "PROMOTED",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: same manual, R80 active/self-powered. Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "reason": "same manual, R80 active/self-powered. Promoted on owner-confirmed PreSonus host (2026-10-13)."
     }
   ],
   "urlRechecks": [
@@ -224,8 +281,8 @@
   ],
   "counts": {
     "fieldChecksThisRound": 8,
-    "promoted": 4,
-    "supportedNotPromoted": 4,
+    "promoted": 8,
+    "supportedNotPromoted": 0,
     "urlsChecked": 4
   }
 }

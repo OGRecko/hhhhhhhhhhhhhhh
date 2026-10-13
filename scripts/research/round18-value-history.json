@@ -71,6 +71,78 @@
         "note": "Round 18: shared Zx3 passive mode statement."
       },
       "round": 18
+    },
+    {
+      "id": "presonus-r65",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: content supports 2 drivers (LF + AMT HF). Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "round": 18
+    },
+    {
+      "id": "presonus-r65",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: manual: \"active AMT studio monitor\", \"self-powered\". Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "round": 18
+    },
+    {
+      "id": "presonus-r80",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: 2-way system with one AMT tweeter and one low-frequency driver (manual chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: same manual, R80 8 in LF + AMT HF. Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "round": 18
+    },
+    {
+      "id": "presonus-r80",
+      "field": "active",
+      "value": true,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": null,
+        "note": "Round 14 host policy (NOT_ESTABLISHED): www.fmicassets.com is not an established manufacturer host. Demoted from MANUFACTURER_VERIFIED pending an established source. Prior object kept in round14-host-policy-history.json. Previous note: round8-source-checks: manual describes the model as a 2-way active AMT studio monitor, self-powered (chunk 0)."
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 18: same manual, R80 active/self-powered. Promoted on owner-confirmed PreSonus host (2026-10-13)."
+      },
+      "round": 18
     }
   ],
   "marker": "round18-queue-batch"

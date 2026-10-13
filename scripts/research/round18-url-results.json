@@ -50,9 +50,9 @@
     {
       "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2777500201_R65_EN.pdf",
       "host": "www.fmicassets.com",
-      "sourceClass": "NON_MANUFACTURER_HOST",
+      "sourceClass": "MANUFACTURER",
       "round": 18,
-      "document": "PreSonus R65 and R80 Active AMT Studio Monitors Owner’s Manual. Author: PreSonus (copyright line names PreSonus Audio Electronics, Inc.). Host fmicassets.com: operator not identified (homepage fetch returned HTTP 500).",
+      "document": "PreSonus R65 and R80 Active AMT Studio Monitors Owner’s Manual. Author: PreSonus (copyright line names PreSonus Audio Electronics, Inc.). Host fmicassets.com: owner-confirmed PreSonus document host (2026-10-13).",
       "chunksOpened": [
         0,
         1,
@@ -60,39 +60,40 @@
         3
       ],
       "chunksTotal": 4,
-      "status": "CHECKED_CONFIRMED_CONTENT_HOST_PENDING",
-      "evidence": "\"2-way active AMT studio monitor with DSP\"; \"self-powered\"; \"Class D biamped power configuration: 100W LF, 50W HF\". LF driver: R65 6.5 in woven composite, R80 8 in woven composite; HF driver: AMT 6.8 in2 (equivalent 3 in). Both models named in the same manual with R65 and R80 specification rows.",
+      "status": "CHECKED_CONFIRMED",
+      "evidence": "\"2-way active AMT studio monitor with DSP\"; \"self-powered\"; \"Class D biamped power configuration: 100W LF, 50W HF\". LF driver: R65 6.5 in woven composite, R80 8 in woven composite; HF driver: AMT 6.8 in2 (equivalent 3 in). Both models named in the same manual with R65 and R80 specification rows. Host www.fmicassets.com: owner confirmed on 2026-10-13 that it is PreSonus's document host (homepage fetch returned HTTP 500, so the operator was not read from the host itself).",
       "fieldResults": [
         {
           "record": "presonus-r65",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "content supports 2 drivers (LF + AMT HF). Host operator not identified; stays CITED until host is established or owner decides."
+          "outcome": "PROMOTED",
+          "note": "content supports 2 drivers (LF + AMT HF). Promoted on owner-confirmed PreSonus host (2026-10-13)."
         },
         {
           "record": "presonus-r65",
           "field": "active",
           "value": true,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "manual: \"active AMT studio monitor\", \"self-powered\". Host pending."
+          "outcome": "PROMOTED",
+          "note": "manual: \"active AMT studio monitor\", \"self-powered\". Promoted on owner-confirmed PreSonus host (2026-10-13)."
         },
         {
           "record": "presonus-r80",
           "field": "driverCount",
           "value": 2,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "same manual, R80 8 in LF + AMT HF. Host pending."
+          "outcome": "PROMOTED",
+          "note": "same manual, R80 8 in LF + AMT HF. Promoted on owner-confirmed PreSonus host (2026-10-13)."
         },
         {
           "record": "presonus-r80",
           "field": "active",
           "value": true,
-          "outcome": "SUPPORTED_NOT_PROMOTED",
-          "note": "same manual, R80 active/self-powered. Host pending."
+          "outcome": "PROMOTED",
+          "note": "same manual, R80 active/self-powered. Promoted on owner-confirmed PreSonus host (2026-10-13)."
         }
       ],
-      "checkedDate": "2026-10-13"
+      "checkedDate": "2026-10-13",
+      "hostStatus": "ESTABLISHED_OWNER_CONFIRMED_2026-10-13"
     }
   ],
   "checkedDate": "2026-10-13"
