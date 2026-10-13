@@ -1476,6 +1476,58 @@
       "sourceClass": "MANUFACTURER",
       "round": 15,
       "coverage": "Text: 'very compact biamplified active monitor system'; 105 mm (4 in) bass cone driver and 19 mm (3/4 in) metal dome tweeter; bass and treble amplifiers 20 W each (amplifier unit with active crossover). Chunk 1 of 2 not opened; no field depends on it."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC AcousticCoverage AC-C4T specification sheet (single page, no revision label).",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 16,
+      "coverage": "Exact model AC-C4T. Frequency Response (Raw) column read in full, 20 Hz to 10 kHz; 20 kHz row blank. Effective range 70 Hz - 16 kHz; sensitivity 89 dB, 2.83 V/1 m on-axis free-field. Seven stored points differed from this column and were corrected in round 16 (history in round16-value-history.json). Impedance and Intrinsic Correction columns not used for response points."
+    },
+    {
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+      "host": "www.qscaudio.com",
+      "document": "QSC AcousticCoverage AC-C8T specification sheet (single page, no revision label).",
+      "status": "CHECKED_CONFIRMED",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 16,
+      "coverage": "Exact model AC-C8T. Frequency Response (Raw) column read in full, 20 Hz to 10 kHz; 20 kHz row blank. Effective range 52 Hz - 20 kHz (stated spec, not response coverage); sensitivity 89 dB, 2.83 V/1 m. Thirteen stored points differed from this column and were corrected in round 16."
+    },
+    {
+      "url": "https://www.l-acoustics.com/products/arcs-ii/",
+      "host": "www.l-acoustics.com",
+      "document": "Official L-Acoustics ARCS II product page (queued).",
+      "status": "NOT_FOUND",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [],
+      "chunksTotal": 0,
+      "sourceClass": null,
+      "round": 16,
+      "coverage": "fetch_page returned the l-acoustics.com homepage; no ARCS II content. Do not retry this path. Official archive ZIP (documents link) not reachable from this sandbox. ARCS II values remain THIRD_PARTY (SISME datasheet copy, manualslib/manuals.plus user manual copy); avgear.com 'passive 2-way' not used."
+    },
+    {
+      "url": "https://jblpro.com/www/products/prx815w",
+      "host": "jblpro.com",
+      "document": "JBL PRX815W product path (queued).",
+      "status": "NOT_FOUND",
+      "openedDate": "2026-10-13",
+      "chunksOpened": [],
+      "chunksTotal": 0,
+      "sourceClass": null,
+      "round": 16,
+      "coverage": "HTTP 404. Do not retry. No PRX815W-headed primary sheet located; see openQuestionsForOwner prx815-identity."
     }
   ],
   "openQuestionsForOwner": [
@@ -1505,11 +1557,11 @@
     },
     {
       "id": "lacoustics-arcs-ii-third-party",
-      "question": "lacoustics-arcs-ii driverCount and active were MANUFACTURER_VERIFIED on a THIRD_PARTY sourceType (SISME distributor copy). Round 12b returned both to unchecked. Is there a manufacturer (L-Acoustics) source to check instead?"
+      "question": "lacoustics-arcs-ii driverCount and active were MANUFACTURER_VERIFIED on a THIRD_PARTY sourceType (SISME distributor copy). Round 12b returned both to unchecked. Is there a manufacturer (L-Acoustics) source to check instead? Round 16 (2026-10-13): official product URL returns homepage (not found); still no L-Acoustics primary source for ARCS II. Values not promoted."
     },
     {
       "id": "prx815-identity",
-      "question": "jbl-prx815w was promoted from a sheet headed PRX815. The W identity rests on the Wi-Fi control listed in the sheet. Accept, or require a PRX815W-headed document?"
+      "question": "jbl-prx815w was promoted from a sheet headed PRX815. The W identity rests on the Wi-Fi control listed in the sheet. Accept, or require a PRX815W-headed document? Round 16 (2026-10-13): jblpro.com/www/products/prx815w returns 404; still no PRX815W-headed primary sheet. Owner to choose: accept the PRX815-headed JBL sheet plus JBL product-page identity as sufficient for the PRX815W record, or keep the record unverified for identity."
     },
     {
       "id": "host-policy-acceptance",
@@ -1705,6 +1757,12 @@
         "www.qsys.com"
       ],
       "allowlist": "scripts/research/source-host-allowlist.json"
+    },
+    {
+      "round": 16,
+      "marker": "round16-qsc-ac-response-points",
+      "date": "2026-10-13",
+      "reason": "QSC AC-C4T and AC-C8T response points re-read against the exact-model sheets (Raw column). 7 + 13 stored points corrected; history in round16-value-history.json. ARCS II and PRX815W source checks recorded as NOT_FOUND. Host qscaudio ESTABLISHED (owner decision 8)."
     }
   ]
 }

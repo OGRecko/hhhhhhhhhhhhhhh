@@ -1,0 +1,123 @@
+{
+  "round": 16,
+  "entries": [
+    {
+      "id": "qsc-ac-c4t",
+      "field": "frequencyResponse.points",
+      "changes": [
+        {
+          "hz": 50,
+          "before": 66,
+          "after": 65
+        },
+        {
+          "hz": 60,
+          "before": 72,
+          "after": 71
+        },
+        {
+          "hz": 70,
+          "before": 78,
+          "after": 76
+        },
+        {
+          "hz": 80,
+          "before": 82,
+          "after": 80
+        },
+        {
+          "hz": 90,
+          "before": 84,
+          "after": 83
+        },
+        {
+          "hz": 2000,
+          "before": 88,
+          "after": 88.5
+        },
+        {
+          "hz": 10000,
+          "before": 85,
+          "after": 84
+        }
+      ],
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+      "round": 16,
+      "reason": "Stored points differed from the cited exact-model sheet Raw column; re-transcribed."
+    },
+    {
+      "id": "qsc-ac-c8t",
+      "field": "frequencyResponse.points",
+      "changes": [
+        {
+          "hz": 50,
+          "before": 75,
+          "after": 76
+        },
+        {
+          "hz": 60,
+          "before": 80,
+          "after": 82
+        },
+        {
+          "hz": 70,
+          "before": 85,
+          "after": 87
+        },
+        {
+          "hz": 80,
+          "before": 89,
+          "after": 90.5
+        },
+        {
+          "hz": 90,
+          "before": 92,
+          "after": 92.5
+        },
+        {
+          "hz": 700,
+          "before": 92,
+          "after": 93
+        },
+        {
+          "hz": 800,
+          "before": 94,
+          "after": 94.5
+        },
+        {
+          "hz": 2000,
+          "before": 91,
+          "after": 92
+        },
+        {
+          "hz": 3000,
+          "before": 97,
+          "after": 98
+        },
+        {
+          "hz": 4000,
+          "before": 95,
+          "after": 99.5
+        },
+        {
+          "hz": 8000,
+          "before": 92,
+          "after": 91
+        },
+        {
+          "hz": 9000,
+          "before": 91,
+          "after": 92
+        },
+        {
+          "hz": 10000,
+          "before": 91,
+          "after": 90
+        }
+      ],
+      "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+      "round": 16,
+      "reason": "Stored points differed from the cited exact-model sheet Raw column; re-transcribed."
+    }
+  ]
+}

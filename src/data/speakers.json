@@ -32081,23 +32081,23 @@
         },
         {
           "hz": 50,
-          "db": 66
+          "db": 65
         },
         {
           "hz": 60,
-          "db": 72
+          "db": 71
         },
         {
           "hz": 70,
-          "db": 78
+          "db": 76
         },
         {
           "hz": 80,
-          "db": 82
+          "db": 80
         },
         {
           "hz": 90,
-          "db": 84
+          "db": 83
         },
         {
           "hz": 100,
@@ -32141,7 +32141,7 @@
         },
         {
           "hz": 2000,
-          "db": 88
+          "db": 88.5
         },
         {
           "hz": 3000,
@@ -32173,13 +32173,13 @@
         },
         {
           "hz": 10000,
-          "db": 85
+          "db": 84
         }
       ],
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact-model QSC AC-C4T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column only; the separate Intrinsic Correction column is not used, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the source's explicit on-axis, free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project."
+      "pointsContext": "Exact-model QSC AC-C4T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column only; the separate Intrinsic Correction column is not used, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the source's explicit on-axis, free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project. Round 16 (2026-10-13): every point was re-read against the cited sheet's Raw column; values that differed from the sheet were corrected. Table ends at 10 kHz; the 20 kHz row is blank. The 16 kHz (C4T) / 20 kHz (C8T) figures are the stated effective range, not response coverage. Sheet has no revision label."
     },
     "driverCount": 1,
     "panel": null,
@@ -32463,23 +32463,23 @@
         },
         {
           "hz": 50,
-          "db": 75
+          "db": 76
         },
         {
           "hz": 60,
-          "db": 80
+          "db": 82
         },
         {
           "hz": 70,
-          "db": 85
+          "db": 87
         },
         {
           "hz": 80,
-          "db": 89
+          "db": 90.5
         },
         {
           "hz": 90,
-          "db": 92
+          "db": 92.5
         },
         {
           "hz": 100,
@@ -32507,11 +32507,11 @@
         },
         {
           "hz": 700,
-          "db": 92
+          "db": 93
         },
         {
           "hz": 800,
-          "db": 94
+          "db": 94.5
         },
         {
           "hz": 900,
@@ -32523,15 +32523,15 @@
         },
         {
           "hz": 2000,
-          "db": 91
+          "db": 92
         },
         {
           "hz": 3000,
-          "db": 97
+          "db": 98
         },
         {
           "hz": 4000,
-          "db": 95
+          "db": 99.5
         },
         {
           "hz": 5000,
@@ -32547,21 +32547,21 @@
         },
         {
           "hz": 8000,
-          "db": 92
+          "db": 91
         },
         {
           "hz": 9000,
-          "db": 91
+          "db": 92
         },
         {
           "hz": 10000,
-          "db": 91
+          "db": 90
         }
       ],
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact-model QSC AC-C8T specification sheet, table titled Impedance/Frequency Response. Transcribed each nonblank tabulated Frequency Response (Raw) value from 20 Hz through 10 kHz; the separate Intrinsic Correction column is excluded, the 20 kHz row is blank, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the explicit on-axis, free-field 2.83 V/1 m reference from footnote 3. These are manufacturer-published tabulated response values, not measurements by this project."
+      "pointsContext": "Exact-model QSC AC-C8T specification sheet, table titled Impedance/Frequency Response. Transcribed each nonblank tabulated Frequency Response (Raw) value from 20 Hz through 10 kHz; the separate Intrinsic Correction column is excluded, the 20 kHz row is blank, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the explicit on-axis, free-field 2.83 V/1 m reference from footnote 3. These are manufacturer-published tabulated response values, not measurements by this project. Round 16 (2026-10-13): every point was re-read against the cited sheet's Raw column; values that differed from the sheet were corrected. Table ends at 10 kHz; the 20 kHz row is blank. The 16 kHz (C4T) / 20 kHz (C8T) figures are the stated effective range, not response coverage. Sheet has no revision label."
     },
     "driverCount": 2,
     "panel": null,
