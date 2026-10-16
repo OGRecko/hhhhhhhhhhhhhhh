@@ -9,7 +9,7 @@ This summary counts only record-level status. Field-level provenance backlog is 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **672** fields across **396** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **246** fields (no source recorded).
+- UNSOURCED: **239** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -158,7 +158,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | eve-audio-sc207 | Eve Audio | SC207 | 0 | 2 | 0 |
 | fender-bassman-410 | Fender | Bassman 410 | 1 | 0 | 1 |
 | fender-blues-junior-iv | Fender | Blues Junior IV | 2 | 0 | 0 |
-| focal-alpha-50-evo | Focal | Alpha 50 Evo | 0 | 2 | 0 |
 | focal-alpha-65-evo | Focal | Alpha 65 Evo | 2 | 0 | 0 |
 | focal-alpha-80-evo | Focal | Alpha 80 Evo | 2 | 0 | 0 |
 | focal-aria-926 | Focal | Aria 926 | 2 | 0 | 0 |
@@ -204,9 +203,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | ik-multimedia-iloud-mtm | IK Multimedia | iLoud MTM | 1 | 0 | 1 |
 | iloud-micro-monitor | IK Multimedia | iLoud Micro Monitor | 0 | 2 | 0 |
 | infinity-irs-v | Infinity | IRS V | 0 | 0 | 2 |
-| jbl-305p-mkii | JBL | 305P MkII | 0 | 2 | 0 |
-| jbl-306p-mkii | JBL | 306P MkII | 0 | 2 | 0 |
-| jbl-308p-mkii | JBL | 308P MkII | 0 | 2 | 0 |
 | jbl-4310 | JBL | 4310 | 2 | 0 | 0 |
 | jbl-4312 | JBL | 4312 | 2 | 0 | 0 |
 | jbl-4350 | JBL | 4350 | 2 | 0 | 0 |
@@ -558,6 +554,7 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | dynaudio-lyd-7 | Dynaudio | LYD 7 | 0 | 0 | 1 |
 | electro-voice-sx300pi | Electro-Voice | Sx300PI | 1 | 0 | 0 |
 | electro-voice-sx300pix | Electro-Voice | Sx300PIX | 1 | 0 | 0 |
+| focal-alpha-50-evo | Focal | Alpha 50 Evo | 0 | 1 | 0 |
 | focal-sopra-n-2 | Focal | Sopra N°2 | 1 | 0 | 0 |
 | genelec-8331a | Genelec | 8331A | 0 | 1 | 0 |
 | jbl-4311 | JBL | 4311 | 1 | 0 | 0 |

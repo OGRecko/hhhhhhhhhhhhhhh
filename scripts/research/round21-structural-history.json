@@ -144,6 +144,174 @@
       },
       "round": 21,
       "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "jbl-305p-mkii",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/305p-mkii",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: JBL 305P MkII page heading \"Powered 5\" Two-Way Studio Monitor\"; body: \"Dual integrated, custom Class-D amplifiers\"; names a long-throw 5\" woofer and 1\" neodymium tweeter."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "jbl-305p-mkii",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/305p-mkii",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: JBL 305P MkII page heading \"Powered 5\" Two-Way Studio Monitor\"; body: \"Dual integrated, custom Class-D amplifiers\"; names a long-throw 5\" woofer and 1\" neodymium tweeter."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "jbl-306p-mkii",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/306p-mkii",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: JBL 306P MkII page heading \"Powered 6\" Two-Way Studio Monitor\"; spec table LF Driver 165mm (6.5\"), HF Driver Size 25mm (1\"), Class-D amplifiers. Body copy repeats the 305P text (5\" woofer) and is not used for the driver count."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "jbl-306p-mkii",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/306p-mkii",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: JBL 306P MkII page heading \"Powered 6\" Two-Way Studio Monitor\"; spec table LF Driver 165mm (6.5\"), HF Driver Size 25mm (1\"), Class-D amplifiers. Body copy repeats the 305P text (5\" woofer) and is not used for the driver count."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "jbl-308p-mkii",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/308p-mkii",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: JBL 308P MkII page heading \"Powered 8\" Two-Way Studio Monitor\"; spec table LF Driver 203mm (8\"), HF Driver Size 25mm (1\"), Class-D amplifiers. Body copy repeats the 305P text (5\" woofer) and is not used for the driver count."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "jbl-308p-mkii",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://jblpro.com/en-US/products/308p-mkii",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: JBL 308P MkII page heading \"Powered 8\" Two-Way Studio Monitor\"; spec table LF Driver 203mm (8\"), HF Driver Size 25mm (1\"), Class-D amplifiers. Body copy repeats the 305P text (5\" woofer) and is not used for the driver count."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "focal-alpha-50-evo",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.focal.com/products/alpha-50-evo",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: Focal Alpha 50 Evo page title \"Active 2-way studio monitor\"; \"Its two amplifiers offer high current capacity\" (built-in amplification). Driver count not stated in the fetched text; not promoted."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
     }
   ]
 }
