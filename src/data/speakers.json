@@ -27119,7 +27119,10 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
       "sourceType": "MANUFACTURER",
-      "reference": "1W/1m"
+      "reference": "Axial, half-space measurement, 1 W/1 m (datasheet footnote 1)",
+      "documentOrigin": "Electro-Voice ZX4 datasheet (part 38110416 Rev D, Electro-Voice contact block); manufacturer-authored",
+      "hostingLocation": "fullcompass.com (retailer-hosted copy; host NOT ESTABLISHED as distributor or operator; owner decision needed under decision 1)",
+      "note": "Round 21 (2026-10-16): Reference corrected from \"1W/1m\" to the half-space wording printed in the datasheet (footnote 1 on Axial Sensitivity). Value 100 dB unchanged. Origin and host recorded; status unchanged pending owner decision."
     },
     "power": {
       "value": 400,
@@ -27155,7 +27158,10 @@
       "unit": "in",
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "sourceType": "MANUFACTURER"
+      "sourceType": "MANUFACTURER",
+      "documentOrigin": "Electro-Voice ZX4 datasheet (part 38110416 Rev D, Electro-Voice contact block); manufacturer-authored",
+      "hostingLocation": "fullcompass.com (retailer-hosted copy; host NOT ESTABLISHED as distributor or operator; owner decision needed under decision 1)",
+      "note": "Round 21 (2026-10-16): Datasheet lists LF transducer EVS15-SF, 15 in. Value and status unchanged pending owner decision on retailer-hosted copies."
     },
     "frequencyResponse": {
       "low_hz": 60,
@@ -27288,12 +27294,16 @@
     "driverCountProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 21 (2026-10-16): Datasheet lists two transducers: EVS15-SF 15 in LF and DH3 1 in exit compression driver. Supports 2; not promoted because the only host is a retailer (owner decision needed).",
+      "checkedSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf"
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
       "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
-      "sourceType": null
+      "sourceType": null,
+      "note": "Round 21 (2026-10-16): Datasheet has no explicit passive or active statement; the block diagram shows a passive limiter and LPF/HPF but that is not an explicit statement. Stays cited.",
+      "checkedSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf"
     }
   },
   {

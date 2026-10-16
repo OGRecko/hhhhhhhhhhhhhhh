@@ -1,0 +1,59 @@
+{
+  "round": 21,
+  "checkedDate": "2026-10-16",
+  "entries": [
+    {
+      "id": "electro-voice-zx4",
+      "field": "sensitivity",
+      "before": {
+        "value": 100,
+        "unit": "dB",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "reference": "1W/1m"
+      },
+      "after": "annotation only (origin, host, reference or note); value and status unchanged",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Datasheet opened; origin and host recorded; reference corrected to half-space wording. No value changed."
+    },
+    {
+      "id": "electro-voice-zx4",
+      "field": "woofer",
+      "before": {
+        "value": 15,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "after": "annotation only (origin, host, reference or note); value and status unchanged",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Datasheet opened; origin and host recorded; reference corrected to half-space wording. No value changed."
+    },
+    {
+      "id": "electro-voice-zx4",
+      "field": "driverCount",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "sourceType": null
+      },
+      "after": "annotation only (origin, host, reference or note); value and status unchanged",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Datasheet opened; origin and host recorded; reference corrected to half-space wording. No value changed."
+    },
+    {
+      "id": "electro-voice-zx4",
+      "field": "active",
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "sourceType": null
+      },
+      "after": "annotation only (origin, host, reference or note); value and status unchanged",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Datasheet opened; origin and host recorded; reference corrected to half-space wording. No value changed."
+    }
+  ]
+}
