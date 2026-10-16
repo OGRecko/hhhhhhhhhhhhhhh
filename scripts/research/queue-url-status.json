@@ -2779,12 +2779,33 @@
     },
     {
       "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
-      "status": "OPEN",
-      "round": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null,
-      "fieldResults": []
+      "round": 20,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "checkedDate": "2026-10-16",
+      "sourceClass": "MANUFACTURER",
+      "document": "ELAC Uni-Fi series sell sheet (manufacturer PDF). Exact model Uni-Fi UB5 bookshelf.",
+      "evidence": "UB5 spec table: \"3-way bass reflex\"; tweeter 1 in soft dome; mid-range 4 in aluminum; woofer 5.25 in aluminum; text says the 1 in tweeter and 4 in midrange form one concentric driver; maximum power input 140 W; nominal impedance 4 ohm. No explicit passive or active statement.",
+      "fieldResults": [
+        {
+          "record": "elac-uni-fi-ub5",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Sell sheet lists three transducer rows, but the tweeter and midrange are one concentric driver, so the physical count is 2 and the transducer count is 3. The schema does not define which convention applies. Not promoted; owner decision needed."
+        },
+        {
+          "record": "elac-uni-fi-ub5",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Sell sheet has no passive or active statement; a maximum power rating alone does not establish passive status."
+        }
+      ],
+      "history": []
     },
     {
       "url": "https://cdn.shopify.com/s/files/1/0566/0809/6342/files/KRK-7000b_spec_sheet.pdf?v=1708102022",
@@ -4957,12 +4978,33 @@
     },
     {
       "url": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
-      "status": "OPEN",
-      "round": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null,
-      "fieldResults": []
+      "round": 20,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        2
+      ],
+      "chunksTotal": 4,
+      "checkedDate": "2026-10-16",
+      "sourceClass": "MANUFACTURER",
+      "document": "Wharfedale DIAMOND 12.1 product page (manufacturer web store). Exact model Diamond 12.1.",
+      "evidence": "Spec table: \"Transducer complement | 2-way\"; bass driver 5 in (130 mm) PP cone; treble driver 1 in (25 mm) textile dome; bass reflex; recommended amplifier power 20-100 W; nominal impedance 8 ohm. No explicit passive or active statement (amplifier recommendation is not used as evidence).",
+      "fieldResults": [
+        {
+          "record": "wharfedale-diamond-12",
+          "field": "driverCount",
+          "value": 2,
+          "outcome": "PROMOTED",
+          "note": "Manufacturer spec table: 2-way, one 5 in bass driver and one 1 in treble driver (exact 12.1)."
+        },
+        {
+          "record": "wharfedale-diamond-12",
+          "field": "active",
+          "value": false,
+          "outcome": "NOT_STATED",
+          "note": "Page gives only a recommended amplifier power range; not used to infer passive status."
+        }
+      ],
+      "history": []
     },
     {
       "url": "https://www.wharfedale.co.uk/products/linton",

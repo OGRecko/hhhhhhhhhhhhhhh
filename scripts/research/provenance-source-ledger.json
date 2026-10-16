@@ -1616,6 +1616,34 @@
       "sourceClass": "MANUFACTURER",
       "round": 19,
       "coverage": "\"The 4412 is a three-way monitor system\"; transducer complement 300 mm (12 in) LF, 125 mm (5 in) midrange, 25 mm (1 in) HF dome; \"Dividing Network\" section with crossovers 800 Hz and 4.5 kHz; power rating 150 W; nominal impedance 8 ohm. No explicit \"passive\" or \"active\" wording."
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
+      "host": "www.wharfedale.co.uk",
+      "document": "Wharfedale DIAMOND 12.1 product page (manufacturer web store). Exact model Diamond 12.1.",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-16",
+      "chunksOpened": [
+        2
+      ],
+      "chunksTotal": 4,
+      "sourceClass": "MANUFACTURER",
+      "round": 20,
+      "coverage": "Spec table: \"Transducer complement | 2-way\"; bass driver 5 in (130 mm) PP cone; treble driver 1 in (25 mm) textile dome; bass reflex; recommended amplifier power 20-100 W; nominal impedance 8 ohm. No explicit passive or active statement (amplifier recommendation is not used as evidence)."
+    },
+    {
+      "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
+      "host": "cdn.elac.com",
+      "document": "ELAC Uni-Fi series sell sheet (manufacturer PDF). Exact model Uni-Fi UB5 bookshelf.",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-16",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 1,
+      "sourceClass": "MANUFACTURER",
+      "round": 20,
+      "coverage": "UB5 spec table: \"3-way bass reflex\"; tweeter 1 in soft dome; mid-range 4 in aluminum; woofer 5.25 in aluminum; text says the 1 in tweeter and 4 in midrange form one concentric driver; maximum power input 140 W; nominal impedance 4 ohm. No explicit passive or active statement."
     }
   ],
   "openQuestionsForOwner": [

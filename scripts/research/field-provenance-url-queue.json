@@ -222,14 +222,6 @@
       ]
     },
     {
-      "url": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
-      "outstandingFields": 2,
-      "fields": [
-        "wharfedale-diamond-12.driverCount",
-        "wharfedale-diamond-12.active"
-      ]
-    },
-    {
       "url": "https://cdn.elac.com/uploads/2016/08/29132944/Uni-Fi-Sell-Sheet.pdf",
       "outstandingFields": 2,
       "fields": [
@@ -2369,6 +2361,13 @@
       "outstandingFields": 1,
       "fields": [
         "sonus-faber-olympica3.driverCount"
+      ]
+    },
+    {
+      "url": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
+      "outstandingFields": 1,
+      "fields": [
+        "wharfedale-diamond-12.active"
       ]
     },
     {

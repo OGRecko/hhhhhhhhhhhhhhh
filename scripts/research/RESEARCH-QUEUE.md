@@ -8,7 +8,7 @@ This summary counts only record-level status. Field-level provenance backlog is 
 
 ## Field-level provenance backlog (live records)
 
-- CITED_IN_NOTES_UNCHECKED: **673** fields across **396** source URLs (not yet opened and checked for these fields).
+- CITED_IN_NOTES_UNCHECKED: **672** fields across **396** source URLs (not yet opened and checked for these fields).
 - UNSOURCED: **252** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
@@ -526,7 +526,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | vox-v212bn | Vox | V212BN | 1 | 0 | 1 |
 | vox-v212c | Vox | V212C | 1 | 0 | 1 |
 | vox-v212hwx | Vox | V212HWX | 1 | 0 | 1 |
-| wharfedale-diamond-12 | Wharfedale | Diamond 12.1 | 2 | 0 | 0 |
 | wharfedale-diamond-12-0 | Wharfedale | Diamond 12.0 | 1 | 0 | 1 |
 | wharfedale-diamond-12-2 | Wharfedale | Diamond 12.2 | 1 | 0 | 1 |
 | wharfedale-evo4-1 | Wharfedale | EVO4.1 | 1 | 0 | 1 |
@@ -594,3 +593,4 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | sonus-faber-olympica-nova-ii | Sonus Faber | Olympica Nova II | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-iii | Sonus Faber | Olympica Nova III | 1 | 0 | 0 |
 | sonus-faber-olympica-nova-v | Sonus Faber | Olympica Nova V | 1 | 0 | 0 |
+| wharfedale-diamond-12 | Wharfedale | Diamond 12.1 | 1 | 0 | 0 |

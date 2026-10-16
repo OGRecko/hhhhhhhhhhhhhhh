@@ -6678,9 +6678,10 @@
     },
     "notes": "Manufacturer data: 65 Hz–20 kHz ±3 dB; 60 Hz bass extension at -6 dB; 88 dB @ 2.83 V/1 m; 20–100 W recommended amplifier; 8 Ω compatible / 4 Ω minimum; 5 in woofer and 1 in textile-dome tweeter. Structured power withheld: the exact source publishes a recommended-amplifier range (20–100 W); the database power.value is scalar, so no range endpoint is stored. Source: https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 20: Manufacturer spec table: 2-way, one 5 in bass driver and one 1 in treble driver (exact 12.1)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",

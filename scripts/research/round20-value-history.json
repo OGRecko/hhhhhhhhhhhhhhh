@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "id": "wharfedale-diamond-12",
+      "field": "driverCount",
+      "value": 2,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.wharfedale.co.uk/collections/diamond-12-series/products/diamond-12-1",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 20: Manufacturer spec table: 2-way, one 5 in bass driver and one 1 in treble driver (exact 12.1)."
+      },
+      "round": 20
+    }
+  ],
+  "marker": "round20-queue-batch"
+}
