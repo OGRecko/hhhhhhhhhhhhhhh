@@ -537,9 +537,11 @@
       "woofer": {
         "value": 15,
         "unit": "in",
-        "status": "MANUFACTURER_VERIFIED",
+        "status": "THIRD_PARTY_VERIFIED",
         "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-        "sourceType": "MANUFACTURER"
+        "sourceType": "THIRD_PARTY",
+        "documentOrigin": "Manufacturer-authored text (Turbosound / MUSIC Tribe iNSPIRE iP15B product information, \"Designed and engineered in the U.K.\", 15-inch LF driver).",
+        "hostingLocation": "monthany.com (third-party site; operator not established; no distributor statement read). Not a manufacturer-hosted source."
       },
       "notes": "Exact Turbosound iNSPIRE iP15B manufacturer Product Information Document, fetched as a third-party mirror; the same manufacturer PDF is identified at https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. It specifies a powered 15-inch subwoofer, one LF transducer, 45–150 Hz ±3 dB and 38–200 Hz at -10 dB. The source separately lists 600 W for the subwoofer amplifier and 2 × 200 W for satellite amplifiers, but a rear-panel output diagram gives differing power labels (500 W/sub and 2 × 125 W/8 ohms or 2 × 250 W/4 ohms); no power scalar is assigned due to this internal rating discrepancy. Its electrical 4 dBu input sensitivity is not acoustic sensitivity; no scalar sensitivity or passive speaker impedance is populated. The exact manufacturer's 1 W/1 m response/SPL table is retained as 10 raw points with source wording and context; because this is an active sub and the document does not state a measurement space or an overall acoustic sensitivity, its curve is used only for normalized shape and no scalar sensitivity is inferred. The stated half-space dispersion is not an angular polar dataset. Sources: https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf and https://media63.musictribe.com/media/PLM/data/docs/P0BKV/TURBOSOUND_iP15B%20P0BKV_Product%20Information%20Document.pdf. round9-provenance-corrections: iP15B response points and frequency range are THIRD_PARTY_VERIFIED (dealer-hosted copy). sourceType stays unset.",
       "driverCountProvenance": {
@@ -602,6 +604,29 @@
       "reason": "Owner decision 6 (2026-10-12): archive per the standing rule. Manufacturer origin of the iP15B Product Information Document is not established: the musictribe PDF was not retrievable and the only copy found is dealer-hosted (monthany.com). Record archived unchanged; recoverable. sourceType was not changed.",
       "redirectTo": null,
       "archivedDate": "2026-10-12"
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-10-16",
+      "round": 18,
+      "record": "turbosound-ip15b",
+      "field": "woofer",
+      "before": {
+        "value": 15,
+        "unit": "in",
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+        "sourceType": "MANUFACTURER"
+      },
+      "after": {
+        "value": 15,
+        "unit": "in",
+        "status": "THIRD_PARTY_VERIFIED",
+        "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
+        "sourceType": "THIRD_PARTY"
+      },
+      "reason": "sourceType reconciled with origin. Content of the monthany.com PDF is manufacturer-authored, but the host is not established as manufacturer or authorized distributor. The musictribe.com original (media63.musictribe.com) failed to load in this round. Under the decision-1 rule the distributor-copy class needs an established host, so the field is downgraded to THIRD_PARTY_VERIFIED. Value 15 is unchanged."
     }
   ]
 }

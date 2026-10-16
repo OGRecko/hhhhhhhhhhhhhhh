@@ -1587,6 +1587,35 @@
       "sourceClass": "DISTRIBUTOR_HOSTED_MANUFACTURER_MANUAL",
       "round": 18,
       "coverage": "Features: \"DVX3121 12” woofer\"; \"ND2 2” voice coil, 1” exit neodymium compression driver\" (two drivers). Specifications: LF transducer DVX3121 12 in, HF transducer ND2 1 in; \"Power Handling (Passive)\" and \"Passive Mode\" block diagram; \"Passive and biamp selectable\". Axial Sensitivity 97 dB (1W/1m), half-space measurement. Applies to both Zx3-60 and Zx3-90 (shared specification table)."
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4311-information",
+      "host": "jblpro.com",
+      "document": "JBL Professional Series Model 4311 Control Monitor information page (manufacturer, jblpro.com). Exact model 4311.",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-16",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 19,
+      "coverage": "Components: 300 mm (12 in) LF; 130 mm (5 in) midrange; 36 mm (1.4 in) HF direct radiator; \"matched frequency dividing network\". Specs: power capacity 75 W continuous program; nominal impedance 8 ohm. No explicit \"passive\" or \"active\" wording on either chunk."
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4412-information",
+      "host": "jblpro.com",
+      "document": "JBL 4412 Studio Monitor information page (manufacturer, jblpro.com). Exact model 4412.",
+      "status": "CHECKED_PARTIAL",
+      "openedDate": "2026-10-16",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "sourceClass": "MANUFACTURER",
+      "round": 19,
+      "coverage": "\"The 4412 is a three-way monitor system\"; transducer complement 300 mm (12 in) LF, 125 mm (5 in) midrange, 25 mm (1 in) HF dome; \"Dividing Network\" section with crossovers 800 Hz and 4.5 kHz; power rating 150 W; nominal impedance 8 ohm. No explicit \"passive\" or \"active\" wording."
     }
   ],
   "openQuestionsForOwner": [

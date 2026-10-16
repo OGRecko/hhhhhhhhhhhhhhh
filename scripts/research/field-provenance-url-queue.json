@@ -13,9 +13,8 @@
     },
     {
       "url": "https://jblpro.com/en-US/site_elements/4311-information",
-      "outstandingFields": 4,
+      "outstandingFields": 3,
       "fields": [
-        "jbl-4311.driverCount",
         "jbl-4311.active",
         "legacy-jbl-5.driverCount",
         "legacy-jbl-5.active"
@@ -92,14 +91,6 @@
       "fields": [
         "eV-force-i.driverCount",
         "eV-force-i.active"
-      ]
-    },
-    {
-      "url": "https://jblpro.com/en-US/site_elements/4412-information",
-      "outstandingFields": 2,
-      "fields": [
-        "jbl-4412.driverCount",
-        "jbl-4412.active"
       ]
     },
     {
@@ -2329,6 +2320,13 @@
       "outstandingFields": 1,
       "fields": [
         "b&w-801.active"
+      ]
+    },
+    {
+      "url": "https://jblpro.com/en-US/site_elements/4412-information",
+      "outstandingFields": 1,
+      "fields": [
+        "jbl-4412.active"
       ]
     },
     {

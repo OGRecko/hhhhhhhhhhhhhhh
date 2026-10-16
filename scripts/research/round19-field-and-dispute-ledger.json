@@ -1,0 +1,69 @@
+{
+  "schema": "round19-field-and-dispute-ledger/v1",
+  "date": "2026-10-16",
+  "round": 19,
+  "structuralFields": {
+    "jbl-4311": {
+      "driverCount": "PROMOTED 3 (manufacturer page)",
+      "active": "cited; passive architecture, no explicit wording"
+    },
+    "jbl-4412": {
+      "driverCount": "PROMOTED 3 (manufacturer page)",
+      "active": "cited; passive architecture, no explicit wording"
+    },
+    "dali-oberon-3": {
+      "driverCount": "cited; secondary support 2 (hifispecs.com, musicdirect.com: 1 x 29 mm tweeter + 1 x 7 in woofer). Not manufacturer; not promoted."
+    },
+    "dali-oberon-5": {
+      "driverCount": "cited; secondary support 3 (amazon listing, richersounds.com: 2 x 5.25 in woofers + 1 tweeter). Not manufacturer; not promoted."
+    },
+    "dali-oberon7": {
+      "driverCount": "cited; secondary support 3 (richersounds.com: 1 x 1 in tweeter + 2 x 7 in woofers). Not manufacturer; not promoted."
+    },
+    "legacy-jbl-3": {
+      "status": "archived 2026-10-13 as duplicate of jbl-4310 (no change this round)"
+    },
+    "jbl-4310": {
+      "driverCount": "cited; manual states three transducers but undated library copy (round 18). Unchanged."
+    }
+  },
+  "disputes": {
+    "electro-voice-elx200-15": {
+      "status": "UNRESOLVED_ROW_COUNT (unchanged)",
+      "ledger": "scripts/research/elx200-15-reconciliation-round18.json",
+      "result": "Fourth French primary fetch (2026-10-16): 86 rows with 2400 and 2600 Hz, identical to the 2026-10-13 refetch. Five readings disagree on row set and values; extraction not deterministic. Table-derived -3/-10 dB (about 75 Hz to 13 kHz; 55 Hz to 17 kHz) differs from stated 77 Hz to 16 kHz and 52 Hz to 19 kHz. Stored 85 points stay excluded."
+    },
+    "jbl-lsr32": {
+      "status": "UNRESOLVED_SELF_CONFLICT_20KHZ (unchanged)",
+      "ledger": "scripts/research/lsr32-20khz-reconciliation-round18.json",
+      "result": "A&P reads 61 dB at 20 kHz and AC fundamental 92 dB (conflict reproduced this round, not reproduced in round 17). Against this read 9 of 27 stored rows match and 18 differ (200 Hz to 10 kHz). Stored series excluded; no value replaced."
+    },
+    "yamaha-ns-6490": {
+      "status": "RESOLVED_BY_EXACT_VARIANT_EVIDENCE (8 ohm kept)",
+      "result": "usa.yamaha.com NS-6490 specs page prints \"Nominal Impedance 8 ohms\" (US variant). Brief item 9 (N/A) is superseded by owner decision 7 and this evidence."
+    }
+  },
+  "heldRecords": {
+    "file": "scripts/research/held-records-round18.json",
+    "legacy-mack-4": "HOLD (retailer values only; manufacturer page has no spec text)",
+    "equator-d5": "HOLD (woofer supported by 2011 company press release, not promoted: pre-production, no revision; power basis conflicts)"
+  },
+  "genelec8331aSofa": {
+    "status": "PENDING (file inaccessible)",
+    "attempts": [
+      "fetch_page https://zenodo.org/records/10255555 : OK. Record lists LS_directivity_Calibrated_GENELEC_8331A.sofa, 410.5 MB, md5 a00e40164556183420c315e9f6ecd7fd (matches expected).",
+      "fetch_page https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1 : HTTP 500.",
+      "fetch_page https://zenodo.org/api/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa/content : HTTP 500."
+    ]
+  },
+  "turbosoundIp15b": {
+    "status": "ARCHIVED (unchanged); woofer origin correction recorded in removed-unavailable-2026-10-12.json corrections[]",
+    "result": "monthany.com PDF is manufacturer-authored (Turbosound/MUSIC Tribe text) but hosted by an unestablished third-party site; woofer downgraded to THIRD_PARTY_VERIFIED. musictribe.com original failed to load."
+  },
+  "electroVoiceZx3": {
+    "status": "Consistent: woofer, sensitivity, driverCount, active all MANUFACTURER_VERIFIED from the same manual, with documentOrigin (Electro-Voice) and hostingLocation (eviaudio.fr, distributor) recorded separately."
+  },
+  "queue": {
+    "generator": "scripts/research/make-research-queue.mjs (replaces hand-edited RESEARCH-QUEUE.md; summary line matches check-doc-consistency)"
+  }
+}

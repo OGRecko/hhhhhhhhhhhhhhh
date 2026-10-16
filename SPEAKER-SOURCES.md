@@ -1,6 +1,6 @@
 # Cavity Audio — Speaker Sources
 
-Generated 2026-10-13 from the authoritative dataset. 633 unique source URLs are retained for populated fields.
+Generated 2026-10-16 from the authoritative dataset. 633 unique source URLs are retained for populated fields.
 
 The source is attached to the exact field it supports. A source URL here does not imply that every specification for that speaker came from the same source.
 

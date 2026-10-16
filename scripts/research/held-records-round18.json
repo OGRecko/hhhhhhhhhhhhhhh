@@ -1,0 +1,58 @@
+{
+  "schema": "held-records-round18/v1",
+  "date": "2026-10-16",
+  "records": [
+    {
+      "id": "legacy-mack-4",
+      "model": "Mackie CR3 (3-inch woofer Creative Reference)",
+      "hold": "UNAVAILABLE sensitivity/impedance; power, woofer and frequency response THIRD_PARTY_VERIFIED from pdf-manuals.com aggregator",
+      "checked": [
+        {
+          "url": "https://www.bhphotovideo.com/c/product/1324600-REG/mackie_cr3_3_woofer_creative.html",
+          "class": "RETAILER",
+          "inspected": true,
+          "found": "Total Power Output 28 W RMS / 50 W peak; 3 in polypropylene woofer; Active 2-way; crossover 3,000 Hz; frequency response 70 Hz to 20 kHz +/-3 dB; max SPL 97 dB."
+        },
+        {
+          "url": "https://www.mackie.com/en/products/cr3",
+          "class": "MANUFACTURER",
+          "inspected": true,
+          "found": "Page returned only a cart overlay; no specification text extracted."
+        },
+        {
+          "url": "https://www.guitarcenter.com/Mackie/CR3-3-Creative-Reference-Multimedia-Monitors-Pair.gc",
+          "class": "RETAILER",
+          "inspected": false,
+          "found": "Search snippet only (50 W, 80 Hz to 20 kHz). Not opened."
+        }
+      ],
+      "decision": "HOLD. No manufacturer specification text for CR3 was extracted. Retailer values agree with the stored power 28 W (RMS) but do not change the hold policy: retailer values are not promoted. Sensitivity and impedance stay UNAVAILABLE."
+    },
+    {
+      "id": "equator-d5",
+      "model": "Equator Audio D5 (2-way active, 5.25 in woofer)",
+      "hold": "UNAVAILABLE sensitivity/impedance; power 50 and woofer 5.25 THIRD_PARTY_VERIFIED from gear4music retailer",
+      "checked": [
+        {
+          "url": "https://www.pressreleasepoint.com/equator-audio-begins-production-d5-studio-monitor",
+          "class": "MANUFACTURER_PRESS_RELEASE (2011, company-issued, wire distribution)",
+          "inspected": true,
+          "found": "\"coaxially designed 5.25 in woofer and center mounted 1 in silk tweeter\"; \"digital amplifier ... delivers 2 x 50 W of peak power\"; SPL 103 dB combined at 1 m; 9.75 x 7 x 8.5 in; pre-production announcement (July 2011)."
+        },
+        {
+          "url": "https://reverb.com/item/7227369-equator-audio-d5-studio-monitor-single",
+          "class": "RETAILER (used listing)",
+          "inspected": true,
+          "found": "\"2 x 50w RMS\"; frequency response 53 Hz to 20 kHz; SPL 103 dB combined at 1 m; model EQD5SINGLE."
+        },
+        {
+          "url": "https://www.gear4music.com/Recording-and-Computers/Equator-D5-Active-Studio-Monitors-with-Internal-DSP-Pair/LA3",
+          "class": "RETAILER",
+          "inspected": false,
+          "found": "Stored source only; not reopened this round."
+        }
+      ],
+      "decision": "HOLD. Woofer 5.25 in is supported by a company-issued 2011 press release, but that is a pre-production announcement with no revision confirmation, so it is not promoted without owner acceptance. Power basis conflicts: \"2 x 50 W peak\" (press release) against \"2 x 50 W RMS\" (retailer). Stored power 50 W is not assigned an RMS or peak basis and stays THIRD_PARTY_VERIFIED."
+    }
+  ]
+}

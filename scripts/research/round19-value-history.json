@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "jbl-4311",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/4311-information",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/4311-information",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 19: Manufacturer page lists three transducers (LF, midrange, HF direct radiator)."
+      },
+      "round": 19
+    },
+    {
+      "id": "jbl-4412",
+      "field": "driverCount",
+      "value": 3,
+      "before": {
+        "status": "CITED_IN_NOTES_UNCHECKED",
+        "source": "https://jblpro.com/en-US/site_elements/4412-information",
+        "sourceType": null
+      },
+      "after": {
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/4412-information",
+        "sourceType": "MANUFACTURER",
+        "note": "Round 19: Manufacturer page: three-way system with three transducers."
+      },
+      "round": 19
+    }
+  ],
+  "marker": "round19-queue-batch"
+}

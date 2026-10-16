@@ -3103,21 +3103,64 @@
     },
     {
       "url": "https://jblpro.com/en-US/site_elements/4311-information",
-      "status": "OPEN",
-      "round": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null,
-      "fieldResults": []
+      "round": 19,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0,
+        1
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-16",
+      "sourceClass": "MANUFACTURER",
+      "document": "JBL Professional Series Model 4311 Control Monitor information page (manufacturer, jblpro.com). Exact model 4311.",
+      "evidence": "Components: 300 mm (12 in) LF; 130 mm (5 in) midrange; 36 mm (1.4 in) HF direct radiator; \"matched frequency dividing network\". Specs: power capacity 75 W continuous program; nominal impedance 8 ohm. No explicit \"passive\" or \"active\" wording on either chunk.",
+      "fieldResults": [
+        {
+          "record": "jbl-4311",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Manufacturer page lists three transducers (LF, midrange, HF direct radiator)."
+        },
+        {
+          "record": "jbl-4311",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Passive architecture indicated (dividing network, single power rating, no amplifier) but no explicit passive/active statement. Not promoted under the explicit-wording rule."
+        }
+      ],
+      "history": []
     },
     {
       "url": "https://jblpro.com/en-US/site_elements/4412-information",
-      "status": "OPEN",
-      "round": null,
-      "checkedDate": null,
-      "chunksOpened": [],
-      "evidence": null,
-      "fieldResults": []
+      "round": 19,
+      "status": "CHECKED_PARTIAL",
+      "chunksOpened": [
+        0
+      ],
+      "chunksTotal": 2,
+      "checkedDate": "2026-10-16",
+      "sourceClass": "MANUFACTURER",
+      "document": "JBL 4412 Studio Monitor information page (manufacturer, jblpro.com). Exact model 4412.",
+      "evidence": "\"The 4412 is a three-way monitor system\"; transducer complement 300 mm (12 in) LF, 125 mm (5 in) midrange, 25 mm (1 in) HF dome; \"Dividing Network\" section with crossovers 800 Hz and 4.5 kHz; power rating 150 W; nominal impedance 8 ohm. No explicit \"passive\" or \"active\" wording.",
+      "fieldResults": [
+        {
+          "record": "jbl-4412",
+          "field": "driverCount",
+          "value": 3,
+          "outcome": "PROMOTED",
+          "note": "Manufacturer page: three-way system with three transducers."
+        },
+        {
+          "record": "jbl-4412",
+          "field": "active",
+          "value": false,
+          "outcome": "SUPPORTED_NOT_PROMOTED",
+          "note": "Passive architecture indicated (dividing network, no amplifier) but no explicit passive/active statement. Not promoted under the explicit-wording rule."
+        }
+      ],
+      "history": []
     },
     {
       "url": "https://jblpro.com/en-US/site_elements/control-25-spec-sheet",

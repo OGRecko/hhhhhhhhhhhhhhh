@@ -821,9 +821,10 @@
     },
     "notes": "Exact JBL 4311 manufacturer information page. It specifies a three-way, three-driver passive monitor; 45 Hz–15 kHz ±3 dB; 91 dB at 1 W/1 m; 75 W continuous-program capacity; 8-ohm nominal impedance; a 12-inch woofer with a 3-inch voice coil. The official 1/3-octave pink-noise response table is imported verbatim with its test context and no interpolation. Its frequency-response table reports dB relative to 0 dB at 1 kHz, while some entries do not straightforwardly reconcile with the separate ±3 dB spec; preserve the raw published table rather than altering values. The manufacturer's approximate 22 Hz LF-driver free-air resonance is not entered as an exact system resonance. Published dispersion/off-axis data are kept as a directivity lead, not represented as a full polar dataset. Source: https://jblpro.com/en-US/site_elements/4311-information.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4311-information",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 19: Manufacturer page lists three transducers (LF, midrange, HF direct radiator)."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -2698,9 +2699,10 @@
     },
     "notes": "Exact JBL Professional 4412 information page. It specifies a three-way, three-transducer passive monitor; 45 Hz–20 kHz ±2 dB response (extended 35 Hz–27 kHz at −6 dB); 90 dB SPL at 1 W/1 m; 8-ohm nominal impedance; 150 W pink-noise power rating; and a 12-inch LF woofer with a 75 mm / 3-inch voice coil. The stated power test uses IEC 268-5 filtered random noise, 12 dB/octave shaping below 40 Hz and above 5 kHz, 6 dB crest factor, for 2 hours. The page's numeric 'Frequency Response (dB-SPL, 1 W at 1 m)' table is not imported as a response curve: its 1 kHz level is about 78.5 dB, inconsistent with the same page's 90 dB sensitivity and ±2 dB response, so the scale/context cannot be safely reconciled. The narrative confirms the LF voice coil is 75 mm (3 in); the specifications table has a conflicting parenthetical '12 in' after 75 mm, which is not copied. The page does publish frequency-dependent beamwidth, DI/Q and off-axis tables; they are tracked separately as a directivity lead and are not misrepresented as a complete polar dataset. Source: https://jblpro.com/en-US/site_elements/4412-information.",
     "driverCountProvenance": {
-      "status": "CITED_IN_NOTES_UNCHECKED",
+      "status": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4412-information",
-      "sourceType": null
+      "sourceType": "MANUFACTURER",
+      "note": "Round 19: Manufacturer page: three-way system with three transducers."
     },
     "activeProvenance": {
       "status": "CITED_IN_NOTES_UNCHECKED",
@@ -3005,7 +3007,14 @@
           "summary": "Exact JBL LSR owner manual (same URL): LSR32 Amplitude & Phase reads 92 dB at 20 kHz; Acoustic Contribution fundamental reads 92 dB at 20 kHz. The 61 dB value is not found at 20 kHz. 12 of 27 stored disputed points differ from the Amplitude & Phase table (30, 40, 50, 70, 80, 300, 400, 500, 600, 700, 900, 1000 Hz).",
           "record": "scripts/research/lsr32-20khz-round17.json",
           "simulationExcluded": true
-        }
+        },
+        "reconciliationLog": [
+          {
+            "date": "2026-10-16",
+            "round": 18,
+            "event": "Re-read of the LSR32 Amplitude & Phase table (chunk 5). A&P gives 61 dB at 20 kHz and the Acoustic Contribution fundamental gives 92 dB, so the manual self-conflict at 20 kHz reproduces. Against this read, 9 of 27 stored rows match (20 to 100 Hz) and 18 differ (200 Hz to 10 kHz). Round-17 read of A&P (92 dB at 20 kHz, 15 of 27 matching) is not reproduced; extraction differs between reads. No value changed. Status UNRESOLVED_SELF_CONFLICT_20KHZ retained; series excluded from simulation. Record: scripts/research/lsr32-20khz-reconciliation-round18.json."
+          }
+        ]
       }
     },
     "power": {
@@ -16072,7 +16081,8 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "sourceType": "MANUFACTURER",
-      "reference": "2.83V/m"
+      "reference": "2.83V/m",
+      "note": " Round 18 (2026-10-16): the US page prints \"90 dB/2.83 V/m\" (as printed; the page omits the 1 m distance). Reference kept as printed, not converted."
     },
     "frequencyResponse": {
       "low_hz": 45,
@@ -16095,7 +16105,7 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "sourceType": "MANUFACTURER",
-      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value. Owner answer (round 16, 2026-10-13): keep MANUFACTURER_VERIFIED as an explicit owner exception to the host rule; usa.yamaha.com is still not on source-host-allowlist.json and no operator footer was confirmed."
+      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value. Owner answer (round 16, 2026-10-13): keep MANUFACTURER_VERIFIED as an explicit owner exception to the host rule; usa.yamaha.com is still not on source-host-allowlist.json and no operator footer was confirmed. Round 18 (2026-10-16): usa.yamaha.com NS-6490 specs page re-read. Printed \"Nominal Impedance 8 ohms\" (US variant, 3 drivers: 8 in woofer, 4 in mid, 7/8 in tweeter). Conflict with brief item 9 (\"N/A\") closed: exact US-variant manufacturer evidence and owner decision 7 support 8 ohm; value kept. The Malaysia page (6 ohm) is a different variant and is not used."
     },
     "resonantFreq": {
       "value": null,
@@ -25462,6 +25472,11 @@
             "reading": "scripts/research/data/elx200-15-primary-fr-2026-10-13-refetch2.txt",
             "result": "Second fetch of the same URL printed 85 rows (2500 Hz present; 2400 and 2600 Hz absent). Against the stored table: row set matches; values differ at 2000 Hz (92 vs 93), 2200 Hz (93 vs 94), 2500 Hz (94 vs 95). Against the first re-fetch (86 rows): 2400 and 2600 Hz absent in this reading, 2500 Hz present, and values differ at 140, 280, 300, 330, 400, 1200 and 1400 Hz. Two fetches of the same PDF do not agree, so the text extraction is not reproducible.",
             "decision": "Stored points stay excluded from simulation. No value changed. Owner needs the original PDF file for a controlled transcription."
+          },
+          {
+            "date": "2026-10-16",
+            "round": 18,
+            "event": "Fourth primary-datasheet fetch (French edition). 86 rows, 2400 and 2600 Hz present, 2500 Hz absent, 9 value differences from stored; identical to the 2026-10-13 refetch. Earlier readings disagree with each other (85-row 2500 Hz readings also exist). Text extraction is not deterministic across fetches. Stored points unchanged. Status UNRESOLVED_ROW_COUNT retained. Range comparison: table-derived -3 dB about 75 Hz to 13 kHz and -10 dB about 55 Hz to 17 kHz versus stated 77 Hz to 16 kHz and 52 Hz to 19 kHz (integral-measurement context, averaging band not stated). Record: scripts/research/elx200-15-reconciliation-round18.json."
           }
         ],
         "round9Reversal": {
@@ -26933,7 +26948,10 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
-      "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)"
+      "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)",
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active."
     },
     "power": {
       "value": 600,
@@ -26969,7 +26987,10 @@
       "unit": "in",
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": "MANUFACTURER"
+      "sourceType": "MANUFACTURER",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)",
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active."
     },
     "frequencyResponse": {
       "low_hz": 58,
@@ -26985,13 +27006,17 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
-      "note": "Round 18: manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers."
+      "note": "Round 18: manual spec table lists LF DVX3121 12 in and HF ND2 1 in compression driver = 2 transducers.",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)"
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
-      "note": "Round 18: manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier."
+      "note": "Round 18: manual states passive mode and biamp selectable; power handling (Passive) listed first; no integrated amplifier.",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)"
     }
   },
   {
@@ -27008,7 +27033,10 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
-      "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)"
+      "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)",
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active."
     },
     "power": {
       "value": 600,
@@ -27044,7 +27072,10 @@
       "unit": "in",
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
-      "sourceType": "MANUFACTURER"
+      "sourceType": "MANUFACTURER",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)",
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active."
     },
     "frequencyResponse": {
       "low_hz": 58,
@@ -27060,13 +27091,17 @@
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
-      "note": "Round 18: shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only)."
+      "note": "Round 18: shared Zx3 specification table, same 2 transducers (coverage 90x50 differs only).",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)"
     },
     "activeProvenance": {
       "status": "MANUFACTURER_VERIFIED",
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
-      "note": "Round 18: shared Zx3 passive mode statement."
+      "note": "Round 18: shared Zx3 passive mode statement.",
+      "documentOrigin": "Electro-Voice (manufacturer-authored Zx3 Owner's Manual)",
+      "hostingLocation": "eviaudio.fr (EVI AUDIO FRANCE, distributor of Electro-Voice; host ESTABLISHED 2026-10-13 under Decision 8 by a fetched document naming the operator)"
     }
   },
   {

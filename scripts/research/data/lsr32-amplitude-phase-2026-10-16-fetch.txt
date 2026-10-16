@@ -1,0 +1,30 @@
+# LSR32 Amplitude & Phase table, JBL LSR Series Owner's Manual (https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual), chunk 5 of 9, fetched 2026-10-16. Columns: Frequency (Hz), SPL (dB), Phase (deg).
+# Acoustic Contribution fundamental column of the same chunk is used in the comparison below.
+20	70	100
+30	82	95
+40	88	90
+50	91	85
+60	92	80
+70	92.5	75
+80	93	70
+90	93.5	65
+100	93.5	60
+200	88	60
+300	85	60
+400	83	60
+500	81	60
+600	80	60
+700	79	60
+800	78	60
+900	77	60
+1000	76	60
+2000	71	60
+3000	68	60
+4000	66	60
+5000	65	60
+6000	64.5	60
+7000	64	60
+8000	64	60
+9000	64	60
+10000	64	60
+20000	61	60

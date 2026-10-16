@@ -1,0 +1,193 @@
+{
+  "schema": "elx200-15-reconciliation-round18/v1",
+  "date": "2026-10-16",
+  "status": "UNRESOLVED_ROW_COUNT (unchanged)",
+  "purpose": "Round 18 fourth primary-datasheet fetch, compared with every earlier French reading. Stored 85 points are not changed and stay excluded from simulation.",
+  "primarySource": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf (French edition)",
+  "storedPoints": {
+    "rows": 85,
+    "has2400": false,
+    "has2500": true,
+    "has2600": false
+  },
+  "readings": {
+    "fr-2026-10-12": {
+      "rows": 85,
+      "has2400": false,
+      "has2500": true,
+      "has2600": false,
+      "valueDiffsVsStored": [],
+      "onlyInReading": [],
+      "onlyInStored": []
+    },
+    "fr-refetch-2026-10-13": {
+      "rows": 86,
+      "has2400": true,
+      "has2500": false,
+      "has2600": true,
+      "valueDiffsVsStored": [
+        [
+          140,
+          94,
+          94.5
+        ],
+        [
+          280,
+          94,
+          95.0
+        ],
+        [
+          300,
+          95,
+          94.5
+        ],
+        [
+          330,
+          95.5,
+          95.0
+        ],
+        [
+          400,
+          95,
+          95.5
+        ],
+        [
+          1200,
+          93,
+          93.5
+        ],
+        [
+          1400,
+          95,
+          94.5
+        ],
+        [
+          2000,
+          93,
+          92.0
+        ],
+        [
+          2200,
+          94,
+          93.0
+        ]
+      ],
+      "onlyInReading": [
+        2400,
+        2600
+      ],
+      "onlyInStored": [
+        2500
+      ]
+    },
+    "fr-refetch2-2026-10-13": {
+      "rows": 85,
+      "has2400": false,
+      "has2500": true,
+      "has2600": false,
+      "valueDiffsVsStored": [
+        [
+          2000,
+          93,
+          92.0
+        ],
+        [
+          2200,
+          94,
+          93.0
+        ],
+        [
+          2500,
+          95,
+          94.0
+        ]
+      ],
+      "onlyInReading": [],
+      "onlyInStored": []
+    },
+    "fr-refetch3-2026-10-13": {
+      "rows": 85,
+      "has2400": false,
+      "has2500": true,
+      "has2600": false,
+      "valueDiffsVsStored": [],
+      "onlyInReading": [],
+      "onlyInStored": []
+    },
+    "fr-2026-10-16-fetch4": {
+      "rows": 86,
+      "has2400": true,
+      "has2500": false,
+      "has2600": true,
+      "valueDiffsVsStored": [
+        [
+          140,
+          94,
+          94.5
+        ],
+        [
+          280,
+          94,
+          95.0
+        ],
+        [
+          300,
+          95,
+          94.5
+        ],
+        [
+          330,
+          95.5,
+          95.0
+        ],
+        [
+          400,
+          95,
+          95.5
+        ],
+        [
+          1200,
+          93,
+          93.5
+        ],
+        [
+          1400,
+          95,
+          94.5
+        ],
+        [
+          2000,
+          93,
+          92.0
+        ],
+        [
+          2200,
+          94,
+          93.0
+        ]
+      ],
+      "onlyInReading": [
+        2400,
+        2600
+      ],
+      "onlyInStored": [
+        2500
+      ]
+    }
+  },
+  "conclusion": "Five French readings of the same URL differ in row set and in values. Readings are: 85 rows with 2500 Hz (2026-10-12, refetch2, refetch3) and 86 rows with 2400 and 2600 Hz and no 2500 Hz (2026-10-13 refetch, 2026-10-16 fetch4). The two 86-row readings agree with each other exactly. Text extraction of this PDF is not deterministic across fetches, so the row count cannot be settled from text. A visual read of the PDF is needed; this environment cannot render PDF pages.",
+  "rangeComparison": {
+    "statedBy_sheet": {
+      "minus3dB": "77 Hz to 16 kHz",
+      "minus10dB": "52 Hz to 19 kHz",
+      "footnote": "Mesure intégrale (integral measurement); averaging band not stated"
+    },
+    "derivedFromFetch2026-10-16_table_rel_95dB_at_1kHz": {
+      "minus3dB": "about 75 Hz and 13 kHz",
+      "minus10dB": "about 55 Hz and 17 kHz",
+      "method": "linear interpolation between published rows"
+    },
+    "interpretation": "The published curve is a full-space 1 W/1 m table; the stated range uses an integral-measurement context whose averaging band is not stated. The difference is not explained by the sheet and is not a settled transcription error. Left open."
+  },
+  "decision": "Keep UNRESOLVED_ROW_COUNT. Keep the stored 85 points excluded from simulation. Do not adopt either 85- or 86-row reading, the EN 87-row table, or any other edition. Requires a visual inspection of the primary PDF or an owner decision."
+}

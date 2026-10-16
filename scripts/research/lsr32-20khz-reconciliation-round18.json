@@ -1,0 +1,211 @@
+{
+  "schema": "lsr32-20khz-reconciliation-round18/v1",
+  "date": "2026-10-16",
+  "record": "jbl-lsr32",
+  "status": "UNRESOLVED_SELF_CONFLICT_20KHZ (unchanged, reproduced)",
+  "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual (chunk 5 of 9)",
+  "readings": {
+    "round5_2026_10_12": "20 kHz = 61 dB in Amplitude & Phase table (stored value then)",
+    "round6_2026_10_13": "20 kHz removed from stored series; A&P 61 vs AC 92 unresolved",
+    "round17_2026_10_13": "Both tables read 92 dB at 20 kHz; 15 of 27 stored rows match A&P, 12 differ (30,40,50,70,80,300,400,500,600,700,900,1000 Hz)",
+    "round18_2026_10_16": "A&P reads 61 dB at 20 kHz; AC fundamental reads 92 dB at 20 kHz (self-conflict reproduced). Round-17 A&P values for 30 to 1000 Hz do not match this read."
+  },
+  "comparison": {
+    "storedRows": 27,
+    "matchAmplitudePhase2026_10_16": 9,
+    "differAmplitudePhase2026_10_16": 18,
+    "rows": [
+      {
+        "hz": 20,
+        "stored": 70,
+        "amplitudePhase2026_10_16": 70,
+        "acousticContributionFundamental": 70,
+        "matchesAP": true
+      },
+      {
+        "hz": 30,
+        "stored": 82,
+        "amplitudePhase2026_10_16": 82,
+        "acousticContributionFundamental": 80,
+        "matchesAP": true
+      },
+      {
+        "hz": 40,
+        "stored": 88,
+        "amplitudePhase2026_10_16": 88,
+        "acousticContributionFundamental": 86,
+        "matchesAP": true
+      },
+      {
+        "hz": 50,
+        "stored": 91,
+        "amplitudePhase2026_10_16": 91,
+        "acousticContributionFundamental": 90,
+        "matchesAP": true
+      },
+      {
+        "hz": 60,
+        "stored": 92,
+        "amplitudePhase2026_10_16": 92,
+        "acousticContributionFundamental": 92,
+        "matchesAP": true
+      },
+      {
+        "hz": 70,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 92.5,
+        "acousticContributionFundamental": 93,
+        "matchesAP": true
+      },
+      {
+        "hz": 80,
+        "stored": 93,
+        "amplitudePhase2026_10_16": 93,
+        "acousticContributionFundamental": 93.5,
+        "matchesAP": true
+      },
+      {
+        "hz": 90,
+        "stored": 93.5,
+        "amplitudePhase2026_10_16": 93.5,
+        "acousticContributionFundamental": 93.5,
+        "matchesAP": true
+      },
+      {
+        "hz": 100,
+        "stored": 93.5,
+        "amplitudePhase2026_10_16": 93.5,
+        "acousticContributionFundamental": 93.5,
+        "matchesAP": true
+      },
+      {
+        "hz": 200,
+        "stored": 93,
+        "amplitudePhase2026_10_16": 88,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 300,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 85,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 400,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 83,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 500,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 81,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 600,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 80,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 700,
+        "stored": 92,
+        "amplitudePhase2026_10_16": 79,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 800,
+        "stored": 92,
+        "amplitudePhase2026_10_16": 78,
+        "acousticContributionFundamental": 92,
+        "matchesAP": false
+      },
+      {
+        "hz": 900,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 77,
+        "acousticContributionFundamental": 92,
+        "matchesAP": false
+      },
+      {
+        "hz": 1000,
+        "stored": 93,
+        "amplitudePhase2026_10_16": 76,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 2000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 71,
+        "acousticContributionFundamental": 93,
+        "matchesAP": false
+      },
+      {
+        "hz": 3000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 68,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 4000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 66,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 5000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 65,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 6000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 64.5,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 7000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 64,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 8000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 64,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 9000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 64,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      },
+      {
+        "hz": 10000,
+        "stored": 92.5,
+        "amplitudePhase2026_10_16": 64,
+        "acousticContributionFundamental": 92.5,
+        "matchesAP": false
+      }
+    ]
+  },
+  "conclusion": "The stored 27-point series does not reproduce from this manual copy. Rows 20 to 100 Hz match the A&P table. Rows from 200 Hz to 10 kHz differ from the A&P table by up to 16 dB and also differ from the AC fundamental column. Repeated extraction of this manual is not deterministic (round 17 and round 18 read different A&P values), so no value is replaced. The 20 kHz self-conflict (61 vs 92 dB) is present in this reading.",
+  "decision": "Keep all 27 points in disputedPoints, excluded from simulation. Do not adopt either 61 or 92 dB at 20 kHz. Do not replace the series with this read without visual inspection of the original PDF or an owner decision on a full re-transcription."
+}

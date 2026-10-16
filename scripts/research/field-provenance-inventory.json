@@ -6,12 +6,12 @@
     "live": 3082,
     "archived": 254,
     "byStoredStatus": {
-      "MANUFACTURER_VERIFIED": 1766,
-      "CITED_IN_NOTES_UNCHECKED": 710,
+      "MANUFACTURER_VERIFIED": 1767,
+      "CITED_IN_NOTES_UNCHECKED": 708,
       "NO_PROVENANCE": 384,
       "UNSOURCED": 252,
       "REPUTABLE_DATABASE_VERIFIED": 204,
-      "THIRD_PARTY_VERIFIED": 19,
+      "THIRD_PARTY_VERIFIED": 20,
       "MEASUREMENT_VERIFIED": 1
     },
     "citedUncheckedWithoutUrl": 0,
@@ -585,14 +585,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4311-information",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 19: Manufacturer page lists three transducers (LF, midrange, HF direct radiator).",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-4311",
@@ -2421,14 +2421,14 @@
       "field": "driverCount",
       "value": 3,
       "unit": null,
-      "storedStatus": "CITED_IN_NOTES_UNCHECKED",
+      "storedStatus": "MANUFACTURER_VERIFIED",
       "source": "https://jblpro.com/en-US/site_elements/4412-information",
-      "sourceType": null,
+      "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 19: Manufacturer page: three-way system with three transducers.",
       "nullField": false,
       "lastCheckedDate": null,
-      "checkOutcome": "NOT_CHECKED"
+      "checkOutcome": "STORED_STATUS_ONLY"
     },
     {
       "speakerId": "jbl-4412",
@@ -14953,7 +14953,7 @@
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "sourceType": "MANUFACTURER",
       "reference": "2.83V/m",
-      "note": null,
+      "note": " Round 18 (2026-10-16): the US page prints \"90 dB/2.83 V/m\" (as printed; the page omits the 1 m distance). Reference kept as printed, not converted.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -14989,7 +14989,7 @@
       "source": "https://usa.yamaha.com/products/audio_visual/speaker_systems/ns-6490/specs.html",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value. Owner answer (round 16, 2026-10-13): keep MANUFACTURER_VERIFIED as an explicit owner exception to the host rule; usa.yamaha.com is still not on source-host-allowlist.json and no operator footer was confirmed.",
+      "note": "Owner decision 7 (2026-10-12): the record represents the US variant. Nominal 8 ohm from the US manufacturer page (usa.yamaha.com; host not yet on the allowlist, same status as the existing sensitivity). Malaysia page (my.yamaha.com) publishes 6 ohm for the Malaysia variant; it is recorded in the notes and not combined into this value. Owner answer (round 16, 2026-10-13): keep MANUFACTURER_VERIFIED as an explicit owner exception to the host rule; usa.yamaha.com is still not on source-host-allowlist.json and no operator footer was confirmed. Round 18 (2026-10-16): usa.yamaha.com NS-6490 specs page re-read. Printed \"Nominal Impedance 8 ohms\" (US variant, 3 drivers: 8 in woofer, 4 in mid, 7/8 in tweeter). Conflict with brief item 9 (\"N/A\") closed: exact US-variant manufacturer evidence and owner decision 7 support 8 ohm; value kept. The Malaysia page (6 ohm) is a different variant and is not used.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -23719,7 +23719,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
-      "note": null,
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -23773,7 +23773,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -23827,7 +23827,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": "Axial, half-space measurement, 1 W/1 m (manual footnote 1)",
-      "note": null,
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -23881,7 +23881,7 @@
       "source": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
       "sourceType": "MANUFACTURER",
       "reference": null,
-      "note": null,
+      "note": "Round 18 (2026-10-16): origin and hosting recorded separately; same document and status as driverCount and active.",
       "nullField": false,
       "lastCheckedDate": null,
       "checkOutcome": "STORED_STATUS_ONLY"
@@ -48609,9 +48609,9 @@
       "field": "woofer",
       "value": 15,
       "unit": "in",
-      "storedStatus": "MANUFACTURER_VERIFIED",
+      "storedStatus": "THIRD_PARTY_VERIFIED",
       "source": "https://monthany.com/wp-content/uploads/2022/12/Turbosound_iP15B_datasheet_monthany.pdf",
-      "sourceType": "MANUFACTURER",
+      "sourceType": "THIRD_PARTY",
       "reference": null,
       "note": null,
       "nullField": false,
