@@ -4618,8 +4618,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": false,
     "sensitivity": {
       "value": null,
@@ -4673,16 +4673,16 @@
     },
     "notes": "Manufacturer: 50 Hz–20 kHz (-6 dB); 45 Hz–20 kHz (-10 dB); 12-inch LF + 1.4-inch HF; 2000 W amplifier/system peak specification. Active DSP loudspeaker. The 2000 W value is not claimed as continuous acoustic output. Source: QSC K.2 User Manual.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k122/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K12.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 305 mm (12-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k122/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K12.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 305 mm (12-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
     }
   },
   {
@@ -4692,8 +4692,8 @@
     "category": "pa",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -4747,16 +4747,16 @@
     },
     "notes": "Manufacturer: K10.2 two-way active loudspeaker; 10-inch LF, 1.4-inch HF; 56 Hz–20 kHz (-6 dB), 50 Hz–20 kHz (-10 dB); amplifier 1800 W LF + 225 W HF peak. Source: QSC K10.2 product page.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k102/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K10.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 254 mm (10-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k102/",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K10.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 254 mm (10-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
     }
   },
   {
@@ -7865,8 +7865,8 @@
     "category": "studio-monitor",
     "year": null,
     "overallStatus": "PARTIALLY_VERIFIED",
-    "driverCount": null,
-    "active": null,
+    "driverCount": 2,
+    "active": true,
     "panel": null,
     "sensitivity": {
       "value": null,
@@ -7920,16 +7920,16 @@
     },
     "notes": "Manufacturer: 67 Hz–25 kHz (-6 dB); 25 W LF + 25 W HF amplification; 2-way active monitor. Source: Genelec 8010A.",
     "driverCountProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8010a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 21 (2026-10-16): manufacturer page evidence: Genelec 8010A technical specifications list driver dimensions: 76 mm bass and 19 mm treble (two drivers)."
     },
     "activeProvenance": {
-      "status": "UNSOURCED",
-      "source": null,
-      "sourceType": null,
-      "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+      "status": "MANUFACTURER_VERIFIED",
+      "source": "https://www.genelec.com/8010a",
+      "sourceType": "MANUFACTURER",
+      "note": "Round 21 (2026-10-16): manufacturer page evidence: Genelec 8010A page lists Active Crossovers, Optimised Amplifiers, and Amplifier Power 25 W Bass (Class D) + 25 W Treble (Class D), i.e. built-in amplification."
     }
   },
   {

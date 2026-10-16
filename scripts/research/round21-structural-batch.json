@@ -1,0 +1,41 @@
+{
+  "round": 21,
+  "entries": [
+    {
+      "record": "qsc-k10.2",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k102/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-16",
+      "evidence": "QSC K10.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 254 mm (10-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+    },
+    {
+      "record": "qsc-k10.2",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k102/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-16",
+      "evidence": "QSC K10.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 254 mm (10-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+    },
+    {
+      "record": "qsc-k12.2",
+      "field": "driverCount",
+      "value": 2,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k122/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-16",
+      "evidence": "QSC K12.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 305 mm (12-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+    },
+    {
+      "record": "qsc-k12.2",
+      "field": "active",
+      "value": true,
+      "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k122/",
+      "sourceClass": "MANUFACTURER",
+      "checkedDate": "2026-10-16",
+      "evidence": "QSC K12.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 305 mm (12-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+    }
+  ]
+}

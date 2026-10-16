@@ -1,0 +1,149 @@
+{
+  "round": 21,
+  "entries": [
+    {
+      "id": "genelec-8010a",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8010a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: Genelec 8010A technical specifications list driver dimensions: 76 mm bass and 19 mm treble (two drivers)."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "genelec-8010a",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.genelec.com/8010a",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: Genelec 8010A page lists Active Crossovers, Optimised Amplifiers, and Amplifier Power 25 W Bass (Class D) + 25 W Treble (Class D), i.e. built-in amplification."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-k10.2",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k102/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K10.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 254 mm (10-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-k10.2",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k102/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K10.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 254 mm (10-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-k12.2",
+      "field": "driverCount",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": 2,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k122/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K12.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 305 mm (12-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    },
+    {
+      "id": "qsc-k12.2",
+      "field": "active",
+      "before": {
+        "value": null,
+        "provenance": {
+          "status": "UNSOURCED",
+          "source": null,
+          "sourceType": null,
+          "note": "Round 4: value withdrawn to N/A; no supporting source is recorded for this field."
+        }
+      },
+      "after": {
+        "value": true,
+        "provenance": {
+          "status": "MANUFACTURER_VERIFIED",
+          "source": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k122/",
+          "sourceType": "MANUFACTURER",
+          "note": "Round 21 (2026-10-16): manufacturer page evidence: QSC K12.2 spec table: Configuration \"Multi-purpose, 2-way active loudspeaker\"; LF transducer 305 mm (12-inch) cone; HF transducer 35.6 mm (1.4-inch) compression driver."
+        }
+      },
+      "round": 21,
+      "reason": "Exact-model manufacturer page opened; explicit statement recorded."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ This summary counts only record-level status. Field-level provenance backlog is 
 ## Field-level provenance backlog (live records)
 
 - CITED_IN_NOTES_UNCHECKED: **672** fields across **396** source URLs (not yet opened and checked for these fields).
-- UNSOURCED: **252** fields (no source recorded).
+- UNSOURCED: **246** fields (no source recorded).
 - NO_PROVENANCE: **189** fields (null value, no provenance object).
 - Detail: `scripts/research/field-provenance-inventory.json` (per field) and `scripts/research/field-provenance-url-queue.json` (per URL).
 
@@ -187,7 +187,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | genelec-1030a | Genelec | 1030A | 0 | 1 | 1 |
 | genelec-1032a | Genelec | 1032A | 0 | 2 | 0 |
 | genelec-1032c | Genelec | 1032C | 0 | 2 | 0 |
-| genelec-8010a | Genelec | 8010A | 0 | 2 | 0 |
 | genelec-8020d | Genelec | 8020D | 0 | 0 | 2 |
 | genelec-8030a | Genelec | 8030A | 0 | 2 | 0 |
 | genelec-8030c | Genelec | 8030C | 0 | 0 | 2 |
@@ -464,8 +463,6 @@ Rules for every entry: exact model + revision; manufacturer page/manual/datashee
 | qsc-e115 | QSC | E115 | 0 | 2 | 0 |
 | qsc-e215 | QSC | E215 | 0 | 2 | 0 |
 | qsc-e218sw | QSC | E218SW | 2 | 0 | 0 |
-| qsc-k10.2 | QSC | K10.2 | 0 | 2 | 0 |
-| qsc-k12.2 | QSC | K12.2 | 0 | 2 | 0 |
 | qsc-k8.2 | QSC | K8.2 | 0 | 2 | 0 |
 | qsc-kla12 | QSC | KLA12 | 0 | 1 | 1 |
 | qsc-kla181 | QSC | KLA181 | 0 | 1 | 1 |
