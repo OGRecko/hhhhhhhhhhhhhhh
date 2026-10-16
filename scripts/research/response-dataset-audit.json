@@ -1,0 +1,1256 @@
+{
+  "schema": "response-dataset-audit/v1",
+  "date": "2026-10-16",
+  "datasetCount": 27,
+  "datasets": [
+    {
+      "record": "jbl-4311",
+      "model": "4311",
+      "path": "jbl-4311.frequencyResponse.points",
+      "points": 29,
+      "hzMin": 25,
+      "hzMax": 16000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 45,
+        "high_hz": 15000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://jblpro.com/en-US/site_elements/4311-information",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://jblpro.com/en-US/site_elements/4311-information",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact JBL 4311 1/3-octave band pink-noise response table; measured at 1 W/1 m. The page states the performance measurements used a flush-mounted speaker in the center of a large flat baffle in an anechoic environment. The source labels the column Response (dB), with 0 dB at 1 kHz. Values transcribed verbatim; blank 20 Hz and 20 kHz rows omitted, with no interpolation or smoothing. Owner decision (2026-10-12): stored values kept. The cited page as fetched on 2026-10-12 shows whole-dB values that differ from the stored points at about 13 frequencies (e.g. 31.5 Hz page -11 / stored -11.5; 3150 Hz page 1 / stored 2.5). Unresolved until a PDF or second render is checked."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "eV-force-i",
+      "model": "Force i",
+      "path": "eV-force-i.frequencyResponse.points",
+      "points": 28,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 40,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://products.electrovoice.com/binary/Force_i_E_EDS.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "The manufacturer EDS table is labeled Frequency Response, Half Space (SPL), with points from 20 to 20,000 Hz. The table does not state an input/reference level, so these values are retained as the published SPL shape only and are not labeled 1 W/1 m. The separately published sensitivity is 100 dB at 1 W/1 m; the simulator may normalize the curve independently. Only listed points are stored, with no interpolation."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "jbl-lsr32",
+      "model": "LSR32",
+      "path": "jbl-lsr32.frequencyResponse.disputedPoints.points",
+      "points": 27,
+      "hzMin": 20,
+      "hzMax": 10000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ]
+      ],
+      "gapCount": 2,
+      "blockKeys": [
+        "context",
+        "exclusionReason",
+        "reconciliationLog",
+        "round17Recheck",
+        "simulationExcluded",
+        "source",
+        "status"
+      ],
+      "blockMeta": {
+        "status": "UNRESOLVED_SELF_CONFLICT_20KHZ",
+        "source": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+        "context": "Exact LSR32 manual, Amplitude & Phase table: on-axis SPL column transcribed verbatim, measured anechoically at 2 m and referenced to 1 m. JBL locates the microphone perpendicular to the mid/high transducer centerline, 55 mm below the tweeter center. The table does not state its drive level; these points are used only as normalized response shape, not as absolute sensitivity. No interpolation. Round 5 check (2026-10-12): the 20 kHz point is set to 61 dB, the value in the Amplitude & Phase table cited above. The same manual's Acoustic Contribution table lists 92 dB fundamental at 20 kHz, so the manual conflicts with itself at that frequency; the conflict is recorded here and is not resolved by this change. Change record: scripts/research/round5-response-corrections-2026-10-12.json (entry jbl-lsr32). Round 6 (2026-10-13): the 20 kHz point is removed from the stored series. The Amplitude & Phase table gives 61 dB at 20 kHz and the Acoustic Contribution table of the same manual gives a 92 dB fundamental at 20 kHz; no evidence selects either value. The stored series now ends at 10 kHz, and the simulator extrapolates above the last point, so owner review of that extrapolation is required. Record: provenance-ledger-2026-10-13.json. Round 6 source check (2026-10-13): the 27 points are kept here, not simulated. Because the points stop at 10 kHz, the simulator would extrapolate above 10 kHz, so the series is excluded until the owner decides. The 20 kHz candidates (61 dB in the Amplitude & Phase table, 92 dB in the Acoustic Contribution table of the same manual) are both unresolved.",
+        "simulationExcluded": true,
+        "exclusionReason": "Unresolved self-conflict at 20 kHz in the same manual (61 vs 92 dB) and a 10 kHz coverage limit would be extrapolated above 10 kHz by the simulator. Points are kept in disputedPoints; owner decision required. Round 6 source check (2026-10-13)."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "bose-designmax-dm3se",
+      "model": "DesignMax DM3SE",
+      "path": "bose-designmax-dm3se.frequencyResponse.points",
+      "points": 25,
+      "hzMin": 50,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 85,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Bose Professional DM3SE Technical Data Sheet, table titled On-axis Response; copied all 25 Bose Professional EQ Voicing (SPL, dB) rows from 50 Hz to 20 kHz verbatim, with no interpolation. The TDS footnote describes response/range as on-axis half-space with Bose EQ, and separately defines sensitivity as an average from 100 Hz–10 kHz with the recommended high-pass filter. The table does not state its own drive/reference level; runtime uses these published values only as a 1 kHz-normalized shape, while the independent 86 dB (1 W/1 m) sensitivity remains the absolute-level reference."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "bose-designmax-dm6se",
+      "model": "DesignMax DM6SE",
+      "path": "bose-designmax-dm6se.frequencyResponse.points",
+      "points": 27,
+      "hzMin": 30,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 70,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Bose Professional DM6SE Technical Data Sheet, table titled On-axis Response; copied all 27 Bose Professional EQ Voicing (SPL, dB) rows from 30 Hz to 20 kHz verbatim, with no interpolation. The TDS footnote describes response/range as on-axis half-space with Bose EQ, and separately defines sensitivity as an average from 100 Hz–10 kHz with the recommended high-pass filter. The table does not state its own drive/reference level; runtime uses these published values only as a 1 kHz-normalized shape, while the independent 90 dB (1 W/1 m) sensitivity remains the absolute-level reference."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "bose-designmax-dm8se",
+      "model": "DesignMax DM8SE",
+      "path": "bose-designmax-dm8se.frequencyResponse.points",
+      "points": 27,
+      "hzMin": 30,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 60,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Bose Professional DM8SE Technical Data Sheet (11/2024), table titled On-axis Frequency Response; copied all 27 Bose Professional EQ Voicing (SPL, dB) rows from 30 Hz to 20 kHz verbatim, with no interpolation. The TDS footnote describes response/range as on-axis half-space with Bose EQ, and separately defines sensitivity as an average from 100 Hz–10 kHz with the recommended high-pass filter. The table does not state its own drive/reference level; runtime uses these published values only as a 1 kHz-normalized shape, while the independent 93 dB (1 W/1 m) sensitivity remains the absolute-level reference."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "danley-sh96",
+      "model": "SH-96",
+      "path": "danley-sh96.frequencyResponse.points",
+      "points": 34,
+      "hzMin": 30,
+      "hzMax": 18000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ]
+      ],
+      "gapCount": 2,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 50,
+        "high_hz": 16000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.danleysoundlabs.com/products/sh96/",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.danleysoundlabs.com/wp-content/uploads/2022/02/SH-96-spec-sheet3.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Danley's exact-model 2012 SH96 sheet prints these raw values in a table titled 'SH96 outside tds (dB, Pascals)' and prints phase separately. Values are transcribed as published; the sheet does not specify the table's smoothing, microphone distance, drive level, or on-axis setup. Do not treat them as absolute SPL or infer those conditions. Round 3 units decision: the printed units 'dB, Pascals' are preserved as published; the reference (dB re 1 Pa or otherwise) and the conversion to SPL are not established by the source. The simulator uses these points for curve shape only (normalized at 1 kHz) and takes absolute level from the verified sensitivity field, so the values are not used as calibrated dB SPL."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "legacy-klip-5",
+      "model": "Forte",
+      "path": "legacy-klip-5.frequencyResponse.points",
+      "points": 28,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 32,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.klipsch.com/product-specsheets/forte-brochure.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Klipsch-published on-axis frequency-response table; measured at 1 m; table heading states dB with 0 = 100 dB SPL. These are the source's tabulated values, retained without curve fitting. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-elx200-10",
+      "model": "ELX200-10",
+      "path": "electro-voice-elx200-10.frequencyResponse.points",
+      "points": 71,
+      "hzMin": 30,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 65,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/fdd149fe-fa47-4e32-bcb9-0df4535ebd6f/ELX200-10-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied every nonblank response row from 30 Hz through 20 kHz; the 20 Hz and 25 Hz response cells are blank and were omitted. No interpolation or curve fitting. The sheet also lists a 55 Hz high-pass setting; no correction is applied. At 1 kHz the table gives 89.5 dB, consistent with the separately stated rounded 90 dB sensitivity; the runtime normalizes at 1 kHz for response shape. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-elx200-12",
+      "model": "ELX200-12",
+      "path": "electro-voice-elx200-12.frequencyResponse.points",
+      "points": 30,
+      "hzMin": 25,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 77,
+        "high_hz": 17000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/d45b3bb2-e5f8-4180-9bfe-b7a750bff6a5/ELX200-12-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 30 nonblank tabulated rows from 25 Hz through 20 kHz without interpolation or curve fitting; the sheet also lists a 50 Hz high-pass setting adjacent to the table. These are source-condition SPL/sensitivity values, not normalized; runtime subtracts the interpolated 1 kHz level only to use curve shape, while the separate 93 dB at 1 W/1 m field retains absolute sensitivity. No filter correction or unfiltered-response claim is made. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-elx200-15",
+      "model": "ELX200-15",
+      "path": "electro-voice-elx200-15.frequencyResponse.disputedPoints.points",
+      "points": 85,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "context",
+        "exclusionReason",
+        "ownerDecision",
+        "pointsSourceType",
+        "primarySourceReconciliation",
+        "readingReconciliation",
+        "reconciliationLog",
+        "reopened2026_10_13",
+        "round9Reversal",
+        "simulationExcluded",
+        "source",
+        "status"
+      ],
+      "blockMeta": {
+        "status": "UNRESOLVED_ROW_COUNT",
+        "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "context": "Exact-model manufacturer sheet table titled Frequency Response, Full Space, 1W/1m (Sensitivity, dB). Copied all 84 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The sheet also lists a 42 Hz high-pass setting; it is preserved as published context without correction. The table gives 95 dB at 1 kHz, matching the separately stated 95 dB sensitivity; runtime normalizes at 1 kHz for response shape. Round 3 audit: the stored table holds 85 points, but the context above states 84 rows. The cited EV datasheet URL could not be reopened from the audit environment (TLS failure), so the discrepancy is unresolved. No point was added or removed; values are retained as transcribed. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged. Round 3 cross-check: alternative official copies (products.electrovoice.com product page and ELX200-15_BDL_en.pdf) were found but contain summary figures only, not the row-level table, so the 84-vs-85 row count is unresolved. Against the stored points (relative to 1 kHz = 95 dB), the -3 dB points fall at about 75 Hz and 13 kHz and the -10 dB points at about 55 Hz and 17 kHz, versus the official -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The official averaging band is not stated, so this is recorded as an open discrepancy, not a transcription correction. Round 3 decision: the primary datasheet could not be obtained, so the row count (84 stated vs 85 stored) is an unresolved conflict. The response table is held in disputedPoints and is not used by the simulator; the field is UNAVAILABLE until the primary document settles it. Reconciliation (2026-10-12): the primary datasheet was reopened. It prints 86 rows, not 84 or 85; see primarySourceReconciliation for the row-by-row comparison. The stored points are not replaced without owner approval. Reconciliation v2 (2026-10-12): the primary datasheet was re-fetched twice. It prints 85 rows, and the stored 85 points match it row-for-row. The earlier 84-row and 86-row statements were errors. The stored points are not changed.",
+        "pointsSourceType": "MANUFACTURER",
+        "simulationExcluded": true,
+        "exclusionReason": "Round 4/6: the row-level table now matches the primary sheet (85/85), but the table-derived -3 dB and -10 dB crossovers (about 75 Hz-13 kHz and 55 Hz-17 kHz) do not match the sheet's stated -3 dB 77 Hz-16 kHz and -10 dB 52 Hz-19 kHz. The table stays excluded from simulation until the owner decides whether to adopt it. The record and the table are preserved. Round 6 source check (2026-10-13): a re-fetch of the primary datasheet prints 86 rows (2400 and 2600 Hz present, 2500 Hz absent) and nine values differ from the stored table; see disputedPoints.reopened2026_10_13. Owner review required."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-elx200-15",
+      "model": "ELX200-15",
+      "path": "electro-voice-elx200-15.frequencyResponse.disputedPoints.primarySourceReconciliation.points",
+      "points": 85,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "comparisonWithStoredPoints",
+        "fetches",
+        "note",
+        "reviewedDate",
+        "source",
+        "sourceType",
+        "status",
+        "supersededBy2026_10_13",
+        "supersedes",
+        "table",
+        "transcriptionFile"
+      ],
+      "blockMeta": {
+        "status": "PRIMARY_SHEET_RECHECKED_MATCHES_STORED_85",
+        "reviewedDate": "2026-10-12",
+        "source": "https://assets.electrovoicedynacord.com/asset/c2b9bf16-1e17-4053-847a-20773866d7f8/ELX200-15-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "table": "Réponse en fréquence et impédance: column \"Frequency Response, Full Space, 1W/1m (Sensitivity, dB)\"; 85 rows, 20 Hz to 20 kHz",
+        "fetches": 2,
+        "transcriptionFile": "scripts/research/data/elx200-15-primary-fr-2026-10-12.txt",
+        "supersedes": "scripts/research/reconcile-elx200-15.py (86-row transcription, in error)",
+        "note": "The primary sheet prints 85 rows. Stored points match it row-for-row (85/85, no value differences). The earlier \"84 rows\" statement and \"86 rows\" transcription were both errors. The stored points are retained unchanged."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-elx200-15",
+      "model": "ELX200-15",
+      "path": "electro-voice-elx200-15.frequencyResponse.alternatePublishedPoints.points",
+      "points": 87,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "changeLog",
+        "comparisonWithStoredPoints",
+        "pointsContextNote",
+        "reason",
+        "source",
+        "sourceType",
+        "status",
+        "verificationScript"
+      ],
+      "blockMeta": {
+        "status": "UNVERIFIED_ALTERNATE_NOT_SIMULATED",
+        "source": "https://products.electrovoice.com/binary/ELX200-15_BDL_en.pdf",
+        "sourceType": "MANUFACTURER",
+        "comparisonWithStoredPoints": "Value differences on shared frequencies: 52. EN-only rows: 2400 Hz and 2600 Hz.",
+        "reason": "Not used by the simulator. The EN table conflicts with the 85 stored points at 52 frequencies, and the FR editions disagree with each other and with EN. Round 9: kept as an unverified alternate under the current brief.",
+        "verificationScript": "scripts/research/verify-elx200-15-en-transcription.py (transcription matches one fetch of the EN PDF, 87/87 rows)",
+        "pointsContextNote": "Response points are unavailable for simulation. The stored 85 points are retained under disputedPoints with status UNRESOLVED_ROW_COUNT. The EN 87-row table is kept as alternatePublishedPoints. No edition is adopted while the conflict is open. round9b-response-point-placement: moved here so the unavailable-points record has no context field."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-elx200-12s",
+      "model": "ELX200-12S",
+      "path": "electro-voice-elx200-12s.frequencyResponse.points",
+      "points": 86,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 42,
+        "high_hz": 220,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/eff9d046-08cb-449f-89c5-e7af6a30cd74/ELX200-12S-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model manufacturer sheet table titled Frequency Response, Half Space, 1W/1m (Sensitivity, dB). Copied the 86 nonblank response rows from 20 Hz through 20 kHz without interpolation or curve fitting. The separate -3 dB/-10 dB range specifications are full-space measurements, so the two contexts are kept distinct. The sheet also lists a 42 Hz high-pass setting. The runtime normalizes these published half-space points at 1 kHz for curve shape; the separate axial-sensitivity figure has no stated measurement reference and is not used for DSP conversion. Round 3 reclassification: this table is manufacturer-published (the cited manufacturer document), not an independent measurement dataset, so its source type is MANUFACTURER rather than MEASUREMENT. Stored values are unchanged."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-zx4",
+      "model": "ZX4",
+      "path": "electro-voice-zx4.frequencyResponse.points",
+      "points": 28,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 60,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (12/2010), table titled Frequency Response, Half Space (SPL, 1W/1m, dB). Copied all 28 published half-space values from 20 Hz through 20 kHz verbatim; no interpolation. The table gives 99 dB at 1 kHz while the separate axial-sensitivity specification states 100 dB (1W/1m); both published values are retained without forcing agreement. Round 5 correction (2026-10-12): all 28 points were then checked against the cited table, a second pass set the 13 values that still differed to the source values, and the context now matches the table verbatim. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries electro-voice-zx4 and electro-voice-zx4 second pass)."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-sx600",
+      "model": "Sx600",
+      "path": "electro-voice-sx600.frequencyResponse.points",
+      "points": 26,
+      "hzMin": 40,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 100,
+        "high_hz": 14000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact Sx600 manufacturer datasheet frequency-response SPL table at 1 W/1 m. It states the response/impedance data were measured in an anechoic chamber according to EN 54-24 and defines the reference axis at the center of the grille, perpendicular to its surface. Only the published 40 Hz–20 kHz rows with numeric SPL values are transcribed; blank 20/30 Hz rows are omitted without interpolation. The same sheet separately rates sensitivity at 105 dB 1 W/1 m while its 1 kHz response-table row is 103 dB; retain that source discrepancy, and use the table for shape only (the runtime normalizes the curve separately from sensitivity). Round 5 correction (2026-10-12): 7 stored points did not match the cited table \"Frequency Response (SPL, 1W/1m, dB)\" and were replaced with the source values. Change record: scripts/research/round5-response-corrections-2026-10-12.json."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-sb122",
+      "model": "Sb122",
+      "path": "electro-voice-sb122.frequencyResponse.points",
+      "points": 16,
+      "hzMin": 20,
+      "hzMax": 800,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ]
+      ],
+      "gapCount": 1,
+      "blockKeys": [
+        "context",
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 43,
+        "high_hz": 200,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://products.electrovoice.com/binary/SB122%20EDS.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "The manufacturer EDS labels this numeric table Frequency Response, Half Space (SPL, 1W/1m, dB), with a footnote identifying a half-space measurement. The listed 20–800 Hz samples are transcribed as printed, without interpolation. The scalar response bounds are separately published as 43–200 Hz (-10 dB); the simulator may normalize the table independently from the scalar sensitivity. Round 5 correction (2026-10-12): the first pass changed 5 points to values that are not in the cited table; a second pass set all 16 points to the cited table, and the context now matches it. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries electro-voice-sb122 and electro-voice-sb122 second pass).",
+        "context": " Round 5 correction (2026-10-12): 5 stored points did not match the cited manufacturer table \"Frequency Response, Half Space (SPL, 1W/1m, dB)\" and were replaced with the source values. Full change record: scripts/research/round5-response-corrections-2026-10-12.json."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-ekx-12",
+      "model": "EKX-12",
+      "path": "electro-voice-ekx-12.frequencyResponse.points",
+      "points": 72,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 82,
+        "high_hz": 18000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/7d59fad7-3037-46cf-9fe4-87e5faede0e1/EKX-12-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Electro-Voice engineering table titled Frequency Response, Full Space (Sensitivity, dB); the specification footnote identifies full-space measurement. Copied all 72 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The table does not state an input or 1 W/1 m reference, so runtime uses it as response shape normalized at 1 kHz only; the separate 95 dB axial-sensitivity scalar remains explicitly unqualified and is not converted. The separate published -3 dB band and recommended 55 Hz high-pass are retained unaltered; no high-pass correction is applied."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-ekx-15",
+      "model": "EKX-15",
+      "path": "electro-voice-ekx-15.frequencyResponse.points",
+      "points": 91,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 75,
+        "high_hz": 18000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/4884d8e7-d282-4062-a273-0e2b4b2feeeb/EKX-15-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Electro-Voice engineering table titled Frequency Response, Full Space (Sensitivity, dB); the specification footnote identifies full-space measurement. Copied all 91 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The table does not state an input or 1 W/1 m reference, so runtime uses it as response shape normalized at 1 kHz only; the separate 96 dB axial-sensitivity scalar remains explicitly unqualified and is not converted. The separate published -3 dB band and recommended 50 Hz high-pass are retained unaltered; no high-pass correction is applied."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "electro-voice-ekx-18s",
+      "model": "EKX-18S",
+      "path": "electro-voice-ekx-18s.frequencyResponse.points",
+      "points": 90,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [],
+      "gapCount": 0,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 50,
+        "high_hz": 100,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://assets.electrovoicedynacord.com/asset/0b7fbcb9-487c-404e-a08c-0bf85ebf578a/EKX-18S-Engineering-Data-Sheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Electro-Voice engineering table titled Frequency Response, Half Space (Sensitivity, dB); the specification footnote identifies half-space measurement. Copied all 90 tabulated rows from 20 Hz through 20 kHz without interpolation or curve fitting. The table does not state an input or 1 W/1 m reference and reports 87 dB at 1 kHz, unlike the separate 96 dB axial-sensitivity scalar. Runtime uses the published table only as a response shape normalized at 1 kHz; the sensitivity scalar remains explicitly unqualified and is not used for absolute DSP conversion. The separate published bandwidth limits are retained unaltered."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "qsc-ad-c6t",
+      "model": "AD-C6T",
+      "path": "qsc-ad-c6t.frequencyResponse.points",
+      "points": 28,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 65,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ad/ad-c6t/q_spk_adc_6t_specsheet.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AD-C6T sheet, table titled Impedance / Frequency Response, column labelled FLC: Frequency Response (Raw), 1W, 1m (dB). Transcribed all 28 tabulated values verbatim, excluding the separate Intrinsic Correction and EN54-24 columns; no interpolation or smoothing. The sheet separately defines 88 dB sensitivity as a 200 Hz–10 kHz average, so the 1 kHz response point is not forced to equal that average. Runtime uses these published points as response shape normalized at 1 kHz, while the independently specified sensitivity remains the absolute-level reference."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "qsc-ac-c4t",
+      "model": "AC-C4T",
+      "path": "qsc-ac-c4t.frequencyResponse.points",
+      "points": 27,
+      "hzMin": 20,
+      "hzMax": 10000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ]
+      ],
+      "gapCount": 2,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 70,
+        "high_hz": 16000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_4t/q_spk_acc_4t_specs.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AC-C4T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column only; the separate Intrinsic Correction column is not used, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the source's explicit on-axis, free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project. Round 16 (2026-10-13): every point was re-read against the cited sheet's Raw column; values that differed from the sheet were corrected. Table ends at 10 kHz; the 20 kHz row is blank. The 16 kHz (C4T) / 20 kHz (C8T) figures are the stated effective range, not response coverage. Sheet has no revision label."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "qsc-ac-c6t",
+      "model": "AC-C6T",
+      "path": "qsc-ac-c6t.frequencyResponse.points",
+      "points": 28,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 3,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 65,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_6t/q_spk_acc_6t_specs.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AC-C6T specification sheet, table titled Impedance/Frequency Response. Transcribed every nonblank value in the Frequency Response (Raw) column verbatim; the source does not state an input/reference level for this response table, and the separate Intrinsic Correction column is excluded. No interpolation or smoothing is applied. The published dB values are used only for curve shape and normalized at 1 kHz; the independent 89 dB sensitivity field keeps the source's separate on-axis free-field 2.83 V/1 m reference. These are manufacturer-published tabulated response values, not measurements by this project. Round 5 correction (2026-10-12): the first pass changed 6 points; all 28 points were then checked against the cited table, a second pass set the 7 values that still differed to the source values, and the context now matches the table verbatim. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries qsc-ac-c6t and qsc-ac-c6t second pass)."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "qsc-ac-c8t",
+      "model": "AC-C8T",
+      "path": "qsc-ac-c8t.frequencyResponse.points",
+      "points": 27,
+      "hzMin": 20,
+      "hzMax": 10000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          100,
+          200
+        ],
+        [
+          1000,
+          2000
+        ]
+      ],
+      "gapCount": 2,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 52,
+        "high_hz": 20000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://www.qscaudio.com/resource-files/productresources/spk/ac/ac-c_8t/q_spk_acc_8t_specs.pdf",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model QSC AC-C8T specification sheet, table titled Impedance/Frequency Response. Transcribed each nonblank tabulated Frequency Response (Raw) value from 20 Hz through 10 kHz; the separate Intrinsic Correction column is excluded, the 20 kHz row is blank, and no interpolation or smoothing is applied. The response-point table does not state an input/reference level, so these published dB values are used only as curve shape and normalized at 1 kHz; the separate sensitivity field retains the explicit on-axis, free-field 2.83 V/1 m reference from footnote 3. These are manufacturer-published tabulated response values, not measurements by this project. Round 16 (2026-10-13): every point was re-read against the cited sheet's Raw column; values that differed from the sheet were corrected. Table ends at 10 kHz; the 20 kHz row is blank. The 16 kHz (C4T) / 20 kHz (C8T) figures are the stated effective range, not response coverage. Sheet has no revision label."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "dynaudio-core-7",
+      "model": "Core 7",
+      "path": "dynaudio-core-7.frequencyResponse.points",
+      "points": 10,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          20,
+          50
+        ],
+        [
+          50,
+          100
+        ],
+        [
+          100,
+          200
+        ],
+        [
+          200,
+          500
+        ],
+        [
+          500,
+          1000
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          2000,
+          5000
+        ],
+        [
+          5000,
+          10000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 9,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 40,
+        "high_hz": 27000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/professional-audio/core/core-7",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore7_SpecSheet_WEB.pdf?hsLang=en",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Dynaudio Core 7 2022 specification sheet, table titled ANSI/CEA-2034-A Directivity Response. Ten on-axis SPL values from 20 Hz through 20 kHz are transcribed verbatim; no interpolation or smoothing. The table labels SPL as referenced to 1 m but does not state input/drive level. The simulator therefore uses these published points only as curve shape, normalised at 1 kHz; they are not an acoustic sensitivity rating. The current product page separately specifies its 40 Hz–27 kHz cutoffs at 85 dB +/- 3 dB; the 2022 sheet lists 45 Hz–27 kHz +/- 3 dB and 38 Hz–31 kHz +/- 6 dB. These contexts are kept distinct rather than blended."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "dynaudio-core-47",
+      "model": "Core 47",
+      "path": "dynaudio-core-47.frequencyResponse.points",
+      "points": 10,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          20,
+          50
+        ],
+        [
+          50,
+          100
+        ],
+        [
+          100,
+          200
+        ],
+        [
+          200,
+          500
+        ],
+        [
+          500,
+          1000
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          2000,
+          5000
+        ],
+        [
+          5000,
+          10000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 9,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 41,
+        "high_hz": 24000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/professional-audio/core/core-47",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore47_SpecSheet_WEB.pdf?hsLang=en",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Dynaudio Core 47 2022 specification sheet, table titled ANSI/CEA-2034-A Directivity Response. Ten on-axis SPL values from 20 Hz through 20 kHz are transcribed verbatim; no interpolation or smoothing. The table labels SPL as referenced to 1 m but does not state input/drive level. The simulator therefore uses these published points only as curve shape, normalised at 1 kHz; they are not an acoustic sensitivity rating. The current product page separately specifies its 41 Hz–24 kHz cutoffs at 85 dB +/- 3 dB; the 2022 sheet lists 44 Hz–27 kHz +/- 3 dB and 37 Hz–31 kHz +/- 6 dB. These contexts are kept distinct rather than blended."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    },
+    {
+      "record": "dynaudio-core-59",
+      "model": "Core 59",
+      "path": "dynaudio-core-59.frequencyResponse.points",
+      "points": 10,
+      "hzMin": 20,
+      "hzMax": 20000,
+      "ascending": true,
+      "duplicateHz": [],
+      "malformedIndexes": [],
+      "gapsOver1p5x": [
+        [
+          20,
+          50
+        ],
+        [
+          50,
+          100
+        ],
+        [
+          100,
+          200
+        ],
+        [
+          200,
+          500
+        ],
+        [
+          500,
+          1000
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          2000,
+          5000
+        ],
+        [
+          5000,
+          10000
+        ],
+        [
+          10000,
+          20000
+        ]
+      ],
+      "gapCount": 9,
+      "blockKeys": [
+        "high_hz",
+        "low_hz",
+        "pointsContext",
+        "pointsSource",
+        "pointsSourceType",
+        "pointsStatus",
+        "source",
+        "sourceType",
+        "status"
+      ],
+      "blockMeta": {
+        "low_hz": 39,
+        "high_hz": 27000,
+        "status": "MANUFACTURER_VERIFIED",
+        "source": "https://dynaudio.com/professional-audio/core/core-59",
+        "sourceType": "MANUFACTURER",
+        "pointsStatus": "MANUFACTURER_VERIFIED",
+        "pointsSource": "https://dynaudio.com/hubfs/Datasheet/2022_DynaudioCore59_SpecSheet_WEB.pdf?hsLang=en",
+        "pointsSourceType": "MANUFACTURER",
+        "pointsContext": "Exact-model Dynaudio Core 59 2022 specification sheet, table titled ANSI/CEA-2034-A Directivity Response. Ten on-axis SPL values from 20 Hz through 20 kHz are transcribed verbatim; no interpolation or smoothing. The table labels SPL as referenced to 1 m but does not state input/drive level. The simulator therefore uses these published points only as curve shape, normalised at 1 kHz; they are not an acoustic sensitivity rating. The current product page separately specifies its 39 Hz–27 kHz cutoffs at 85 dB +/- 3 dB; the 2022 sheet lists 42 Hz–27 kHz +/- 3 dB and 36 Hz–31 kHz +/- 6 dB. These contexts are kept distinct rather than blended."
+      },
+      "recordStatus": "MANUFACTURER_VERIFIED"
+    }
+  ]
+}

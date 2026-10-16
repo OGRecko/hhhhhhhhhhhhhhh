@@ -1,0 +1,423 @@
+{
+  "schema": "directivity-leads-round21/v1",
+  "date": "2026-10-16",
+  "leadCount": 51,
+  "importedCount": 0,
+  "summaryByAction": {
+    "NOT_IMPORTED_NOMINAL_OR_DI_ONLY": 26,
+    "NOT_IMPORTED_NOT_INSPECTED": 12,
+    "NOT_IMPORTED_PARTIAL": 12,
+    "PENDING_FILE_INACCESSIBLE": 1
+  },
+  "leads": [
+    {
+      "id": "bose-designmax-dm3se",
+      "classification": "BEAMWIDTH_TABLE_ONLY",
+      "page": "https://assets.boseprofessional.com/m/480241d9c1fa39f4/original/tds_DesignMax_DM3SE_LTR_enUS.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "bose-designmax-dm6se",
+      "classification": "BEAMWIDTH_TABLE_ONLY",
+      "page": "https://assets.boseprofessional.com/m/79d2f140628b805d/original/tds_DesignMax_DM6SE_LTR_enUS.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "bose-designmax-dm8se",
+      "classification": "BEAMWIDTH_TABLE_ONLY",
+      "page": "https://assets.boseprofessional.com/m/62fc89666ef89e9b/original/tds_DesignMax_DM8SE_a4_EN.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "bose-freespace-ds100se",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "bose-freespace-ds16s",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "bose-l1-compact",
+      "classification": "PARTIAL_POLAR_TABLE_SELECTED_BANDS",
+      "page": "https://assets.boseprofessional.com/m/7278645094b2288c/original/tds_l1_compact_en.pdf",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "bose-sub1",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://assets.boseprofessional.com/m/728f04bc4277d5c6/original/tds_Sub1_FR_HQ.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "dandb-t10",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://www.dbaudio.com/assets/products/downloads/manuals-documentation/t-series/dbaudio-datasheet-t10-1.1-en.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "electro-voice-sx600",
+      "classification": "AGGREGATE_DI_BEAMWIDTH_ONLY",
+      "page": "https://products.electrovoice.com/binary/Sx600_High_Output_Two-way_Loudspeaker_Datasheet_51_en_9006674443.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "electro-voice-evf-1152d",
+      "classification": "VARIANT_UNRESOLVED",
+      "page": "https://products.electrovoice.com/na/en/evf-1152d94",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "electro-voice-zx1i",
+      "classification": "PUBLISHED_TABLES_VARIANT_UNRESOLVED",
+      "page": "https://www.electrovoice.com/product-documents/zx1i-100",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "electro-voice-zx3",
+      "classification": "PUBLISHED_TABLES_VARIANT_UNRESOLVED",
+      "page": "https://www.eviaudio.fr/wp-content/uploads/2020/04/ev_zx3_manuel.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "electro-voice-zx4",
+      "classification": "BEAMWIDTH_DI_TABLES_ONLY",
+      "page": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "electro-voice-zx5",
+      "classification": "PUBLISHED_TABLES_VARIANT_UNRESOLVED",
+      "page": "https://www.adorama.com/col/productManuals/EVZX560B.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "genelec-8361a",
+      "classification": "SIMULATION_FILE_NOT_INSPECTED",
+      "page": "https://www.genelec.com/8361a",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-4310",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-4311",
+      "classification": "OFF_AXIS_LIMITS_ONLY",
+      "page": "https://jblpro.com/en-US/site_elements/4311-information",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-4312",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://audio-database.com/JBL/speaker/4312-e.html",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-4350",
+      "classification": "AGGREGATE_ANGLES_ONLY",
+      "page": "https://audio-database.com/JBL/speaker/4350.html",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-4412",
+      "classification": "PARTIAL_TABLES_AND_GRAPHS",
+      "page": "https://jblpro.com/en-US/site_elements/4412-information",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-4430",
+      "classification": "PARTIAL_TABLES_AND_GRAPHS",
+      "page": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-control-30",
+      "classification": "PUBLISHED_POLAR_CHARTS_AND_TABLES",
+      "page": "https://jblpro.com/en-US/products/control-30",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-l19",
+      "classification": "SINGLE_VALUE_ONLY",
+      "page": "https://www.cieri.net/Documenti/JBL/Documenti%20tecnici/Cataloghi/JBL%20-%20L19%20-%20Depliant%20(1977)%20(English).pdf",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-lsr32",
+      "classification": "TARGET_WINDOW_ONLY",
+      "page": "https://jblpro.com/zh/site_elements/lsr-series-owner-s-manual",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-srx815",
+      "classification": "SUPERSEDED_TABLES_ONLY",
+      "page": "https://jblpro.com/en-US/products/srx815",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "jbl-vrx932",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://www.manualslib.com/manual/79243/Jbl-Vrx932la.html?page=4",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "kef-reference-1",
+      "classification": "THIRD_PARTY_CHART_ONLY",
+      "page": "https://www.soundstagenetwork.com/index.php?option=com_content&view=article&id=1298:nrc-measurements-kef-reference-1&catid=77&Itemid=153",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-bose-6",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://boseprofessional.com/resources/discontinued-products/loudspeakers/freespace",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-gen-9",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://www.genelec.com/1237a",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-jbl-1",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://audio-database.com/JBL/unit/d130.html",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-jbl-11",
+      "classification": "PUBLISHED_TABLES_AND_PLOTS",
+      "page": "https://jblpro.com/en-US/products/control-25",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-jbl-3",
+      "classification": "DUPLICATE_RECORD",
+      "page": "https://tile.loc.gov/storage-services/master/mbrs/recording_preservation/manuals/JBL%20Prof.%20Series%20Model%204310%20Control%20Room%20Monitor.pdf",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-jbl-5",
+      "classification": "DUPLICATE_RECORD",
+      "page": "https://jblpro.com/en-US/site_elements/4311-information",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-jbl-6",
+      "classification": "DUPLICATE_RECORD",
+      "page": "https://jblpro.com/en-US/site_elements/4430-and-4435-information",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-ma-3",
+      "classification": "PARTIAL_NUMERIC_TABLE",
+      "page": "https://martin-audio.com/downloads/datasheets/W8LMdatasheet.pdf",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "nexo-ps15",
+      "classification": "BROCHURE_CURVES_AGGREGATE",
+      "page": "https://www.fullcompass.com/common/files/9194-PSSeriesBrochure.pdf",
+      "round21Action": "NOT_IMPORTED_PARTIAL",
+      "reason": "Manufacturer evidence is partial (sparse bands, partial angle table, plots, or superseded revision). Schema requires a complete angle-resolved cut. Not imported; no interpolation.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "rcf-nx45a",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://www.rcf.it/en/products/product-detail/nx-45-a",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "adamson-e15",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://legacy.adamson.ai/support/downloads-directory/design-and-control/design-tools/ease-data",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "void-air-8",
+      "classification": "LINK_NOT_FOUND",
+      "page": "https://voidacoustics.com/products/air/air8/",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "danley-sh96",
+      "classification": "ARCHIVE_HTTP_500",
+      "page": "https://www.danleysoundlabs.com/products/sh96/",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "eaw-kf760",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://eaw.com/ease-data/",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "funktion-one-res2",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://funktion-one.com/product/res-2/",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "lacoustics-arcs",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://www.l-acoustics.com/archives-product/",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-la-1",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://www.l-acoustics.com/archives-product/",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-la-2",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://www.l-acoustics.com/archives-product/",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-la-3",
+      "classification": "ARCHIVE_NOT_INSPECTED",
+      "page": "https://www.l-acoustics.com/archives-product/",
+      "round21Action": "NOT_IMPORTED_NOT_INSPECTED",
+      "reason": "Archive/simulation file not opened, or its format (CLF/GLL) has no parser in this project. Schema requires a complete angle-resolved cut; not established. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "legacy-la-7",
+      "classification": "NOMINAL_COVERAGE_ONLY",
+      "page": "https://www.l-acoustics.com/products/x15-hiq/",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "ik-multimedia-iloud-mtm",
+      "classification": "MEASURED_DATASET_INACCESSIBLE",
+      "page": "https://www.spinorama.org/speakers/IK%20Multimedia%20iLoud%20MTM/ASR/index_asr.html",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "psb-synchrony-t600",
+      "classification": "THIRD_PARTY_CHART_ONLY",
+      "page": "https://www.stereophile.com/content/psb-synchrony-t600-loudspeaker-measurements",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    },
+    {
+      "id": "genelec-8331a",
+      "classification": "MEASURED_DATASET_LICENCE_CONFIRMED_NOT_DOWNLOADABLE",
+      "page": "https://zenodo.org/records/10255555",
+      "round21Action": "PENDING_FILE_INACCESSIBLE",
+      "reason": "Zenodo record 10255555 confirms licence and the exact file (MD5 a00e40164556183420c315e9f6ecd7fd). File route and ?download=1 route returned HTTP 500 in rounds 17, 18, 19 and 21. Not imported; no synthetic data.",
+      "inspectedThisRound": true
+    },
+    {
+      "id": "genelec-8331a-measurement",
+      "classification": "MEASURED_DATASET_INACCESSIBLE",
+      "page": "https://www.spinorama.org/speakers/Genelec%208331A/ErinsAudioCorner/index_eac.html",
+      "round21Action": "NOT_IMPORTED_NOMINAL_OR_DI_ONLY",
+      "reason": "Only nominal coverage, beamwidth or DI values are available. Not a directivity dataset. Not imported.",
+      "inspectedThisRound": false
+    }
+  ],
+  "note": "Round 21 review of all 51 leads from recorded notes and prior classifications. Only the Genelec 8331A access was re-attempted this round. No lead was imported."
+}

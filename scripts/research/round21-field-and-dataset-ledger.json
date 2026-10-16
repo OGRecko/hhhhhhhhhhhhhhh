@@ -1,0 +1,46 @@
+{
+  "schema": "round21-field-and-dataset-ledger/v1",
+  "date": "2026-10-16",
+  "responseDatasets": {
+    "auditedStructure": 27,
+    "sourceReopenedThisRound": [
+      "electro-voice-zx4 (Full Compass copy, corrected)",
+      "jbl-4311 (cited page, 2 points differ)"
+    ],
+    "structureOutcome": "All 27 ascending, no duplicates, no malformed points. Gaps only in sparse tables (dynaudio-core-* 10 points each; electro-voice-sb122 20-800 Hz).",
+    "changes": [
+      "electro-voice-zx4: 17 of 28 points corrected to cited half-space column (round21-response-corrections.json)"
+    ],
+    "openDecisions": [
+      "jbl-4311: 800 Hz and 3150 Hz differ from the cited page; owner decision on keeping in solver (stored values kept per 2026-10-12 owner decision)"
+    ],
+    "notReopenedThisRound": "Other datasets: structure audited; source documents not re-opened this round."
+  },
+  "directivityLeads": {
+    "reviewedFromNotes": 51,
+    "imported": 0,
+    "genelec8331a": "MD5 a00e40164556183420c315e9f6ecd7fd not verifiable; Zenodo file route and ?download=1 route HTTP 500 (round 21).",
+    "ledger": "directivity-lead-review-round21.json"
+  },
+  "structuralFields": {
+    "kef-r3.active": {
+      "outcome": "NOT_STATED",
+      "source": "https://assets.kef.com/uploads/cm/r2018_infosheet_en.pdf",
+      "note": "Three-way bass reflex; recommended amplifier power only; no passive/active statement. Stays null."
+    },
+    "kef-r3.driverCount": {
+      "outcome": "CONVENTION_QUESTION",
+      "note": "Sheet lists 3 drive units (LF, MF, HF) but MF and HF are one Uni-Q coaxial array. Same physical-count question as elac-uni-fi-ub5. Not changed."
+    }
+  },
+  "genelecFileRetry": {
+    "route": "https://zenodo.org/records/10255555/files/LS_directivity_Calibrated_GENELEC_8331A.sofa?download=1",
+    "result": "HTTP 500"
+  },
+  "unsourcedRemaining": {
+    "driverCount": 120,
+    "active": 132,
+    "noProvenanceNull": 189,
+    "note": "Not reviewed in round 21 beyond the kef-r3 check."
+  }
+}

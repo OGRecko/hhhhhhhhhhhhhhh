@@ -2100,11 +2100,11 @@ check("Electro-Voice Force i and SB122 retain manufacturer response tables with 
 check("round-5 response tables match their cited manufacturer tables point for point", () => {
   const pairs = (rec: any) => rec.frequencyResponse.points?.map((p: { hz: number; db: number }) => [p.hz, p.db]);
   const byId = (id: string) => allDb.find((item) => item.id === id);
-  // Half Space (SPL, 1W/1m, dB), Electro-Voice Zx4 Engineering Data Sheet, Part 38110416 Rev D.
+  // Half Space (SPL, 1W/1m, dB), Electro-Voice Zx4 Engineering Data Sheet, Part 38110416 Rev D. Round 21: corrected to the cited table (was 17 mismatched values).
   nodeAssert.deepEqual(pairs(byId("electro-voice-zx4")), [
-    [20, 79.5], [30, 83], [40, 86], [50, 91], [60, 96], [70, 99], [80, 102], [90, 104], [100, 104.5], [200, 103.5],
-    [300, 103.5], [400, 102], [500, 100], [600, 99.5], [700, 99], [800, 99], [900, 98.5], [1000, 98.5], [2000, 99.5],
-    [3000, 99], [4000, 99], [5000, 99], [6000, 99], [7000, 99], [8000, 98.5], [9000, 98], [10000, 99], [20000, 98.5],
+    [20, 79.5], [30, 82], [40, 85], [50, 90], [60, 95], [70, 98], [80, 101], [90, 103.5], [100, 104], [200, 103],
+    [300, 103], [400, 102], [500, 100], [600, 99], [700, 99], [800, 99], [900, 99], [1000, 99], [2000, 100],
+    [3000, 99], [4000, 99], [5000, 99], [6000, 99], [7000, 99], [8000, 99], [9000, 99], [10000, 100], [20000, 98.5],
   ]);
   // Frequency Response (SPL, 1W/1m, dB), Electro-Voice Sx600 datasheet (EN 54-24).
   nodeAssert.deepEqual(pairs(byId("electro-voice-sx600")), [

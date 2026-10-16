@@ -1,0 +1,176 @@
+{
+  "round": 21,
+  "checkedDate": "2026-10-16",
+  "entries": [
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 30,
+      "before": 83,
+      "after": 82,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 40,
+      "before": 86,
+      "after": 85,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 50,
+      "before": 91,
+      "after": 90,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 60,
+      "before": 96,
+      "after": 95,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 70,
+      "before": 99,
+      "after": 98,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 80,
+      "before": 102,
+      "after": 101,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 90,
+      "before": 104,
+      "after": 103.5,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 100,
+      "before": 104.5,
+      "after": 104,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 200,
+      "before": 103.5,
+      "after": 103,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 300,
+      "before": 103.5,
+      "after": 103,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 600,
+      "before": 99.5,
+      "after": 99,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 900,
+      "before": 98.5,
+      "after": 99,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 1000,
+      "before": 98.5,
+      "after": 99,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 2000,
+      "before": 99.5,
+      "after": 100,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 8000,
+      "before": 98.5,
+      "after": 99,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 9000,
+      "before": 98,
+      "after": 99,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "frequencyResponse.points",
+      "hz": 10000,
+      "before": 99,
+      "after": 100,
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "Round 21: stored half-space value did not match the cited Rev D datasheet half-space column (and 1 kHz 98.5 contradicted the record context of 99 dB). Corrected to the cited table."
+    },
+    {
+      "record": "jbl-4311",
+      "field": "frequencyResponse.points",
+      "hz": null,
+      "before": "context: \"about 13 differing frequencies\" (2026-10-12)",
+      "after": "context: 27 of 29 match; 800 Hz and 3150 Hz differ (2 points)",
+      "source": "https://jblpro.com/en-US/site_elements/4311-information",
+      "reason": "Round 21 re-check of the cited Response table. Values unchanged; owner decision needed on the two conflicting points."
+    },
+    {
+      "record": "electro-voice-zx4",
+      "field": "src/data/speakers.test.ts round-5 expectation",
+      "before": "17 values pinned to the old transcription",
+      "after": "pinned to the cited Rev D half-space column (same assertion)",
+      "source": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
+      "reason": "The pinned values were the source of the 17 corrected points. Assertion kept; expected values changed to match the cited table."
+    }
+  ]
+}

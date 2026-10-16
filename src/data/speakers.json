@@ -781,7 +781,7 @@
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://jblpro.com/en-US/site_elements/4311-information",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact JBL 4311 1/3-octave band pink-noise response table; measured at 1 W/1 m. The page states the performance measurements used a flush-mounted speaker in the center of a large flat baffle in an anechoic environment. The source labels the column Response (dB), with 0 dB at 1 kHz. Values transcribed verbatim; blank 20 Hz and 20 kHz rows omitted, with no interpolation or smoothing. Owner decision (2026-10-12): stored values kept. The cited page as fetched on 2026-10-12 shows whole-dB values that differ from the stored points at about 13 frequencies (e.g. 31.5 Hz page -11 / stored -11.5; 3150 Hz page 1 / stored 2.5). Unresolved until a PDF or second render is checked."
+      "pointsContext": "Exact JBL 4311 1/3-octave band pink-noise response table; measured at 1 W/1 m. The page states the performance measurements used a flush-mounted speaker in the center of a large flat baffle in an anechoic environment. The source labels the column Response (dB), with 0 dB at 1 kHz. Values transcribed verbatim; blank 20 Hz and 20 kHz rows omitted, with no interpolation or smoothing. Owner decision (2026-10-12): stored values kept. Round 21 (2026-10-16) re-check of the cited page (chunk 0, Response table, 1/3-octave, whole-dB and half-dB rows as printed): 27 of 29 stored points match exactly. Two differ: 800 Hz stored 1.0 dB vs page 1.5 dB; 3150 Hz stored 2.5 dB vs page 2 dB. The earlier note of about 13 differing frequencies (2026-10-12 fetch) is not reproduced by this fetch. Owner decision (2026-10-12) keeps the stored values until a second source; this round did not change them. Status: points are source-backed except the two listed values; owner decision needed on whether the two conflicting points stay in the solver. Change record: scripts/research/round21-response-corrections.json (no value change)."
     },
     "power": {
       "value": 75,
@@ -27176,43 +27176,43 @@
         },
         {
           "hz": 30,
-          "db": 83
+          "db": 82
         },
         {
           "hz": 40,
-          "db": 86
+          "db": 85
         },
         {
           "hz": 50,
-          "db": 91
+          "db": 90
         },
         {
           "hz": 60,
-          "db": 96
+          "db": 95
         },
         {
           "hz": 70,
-          "db": 99
+          "db": 98
         },
         {
           "hz": 80,
-          "db": 102
+          "db": 101
         },
         {
           "hz": 90,
-          "db": 104
+          "db": 103.5
         },
         {
           "hz": 100,
-          "db": 104.5
+          "db": 104
         },
         {
           "hz": 200,
-          "db": 103.5
+          "db": 103
         },
         {
           "hz": 300,
-          "db": 103.5
+          "db": 103
         },
         {
           "hz": 400,
@@ -27224,7 +27224,7 @@
         },
         {
           "hz": 600,
-          "db": 99.5
+          "db": 99
         },
         {
           "hz": 700,
@@ -27236,15 +27236,15 @@
         },
         {
           "hz": 900,
-          "db": 98.5
+          "db": 99
         },
         {
           "hz": 1000,
-          "db": 98.5
+          "db": 99
         },
         {
           "hz": 2000,
-          "db": 99.5
+          "db": 100
         },
         {
           "hz": 3000,
@@ -27268,15 +27268,15 @@
         },
         {
           "hz": 8000,
-          "db": 98.5
+          "db": 99
         },
         {
           "hz": 9000,
-          "db": 98
+          "db": 99
         },
         {
           "hz": 10000,
-          "db": 99
+          "db": 100
         },
         {
           "hz": 20000,
@@ -27286,7 +27286,7 @@
       "pointsStatus": "MANUFACTURER_VERIFIED",
       "pointsSource": "https://www.fullcompass.com/common/files/19733-ElectroVoiceZX4Datasheet.pdf",
       "pointsSourceType": "MANUFACTURER",
-      "pointsContext": "Exact-model ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (12/2010), table titled Frequency Response, Half Space (SPL, 1W/1m, dB). Copied all 28 published half-space values from 20 Hz through 20 kHz verbatim; no interpolation. The table gives 99 dB at 1 kHz while the separate axial-sensitivity specification states 100 dB (1W/1m); both published values are retained without forcing agreement. Round 5 correction (2026-10-12): all 28 points were then checked against the cited table, a second pass set the 13 values that still differed to the source values, and the context now matches the table verbatim. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries electro-voice-zx4 and electro-voice-zx4 second pass)."
+      "pointsContext": "Exact-model ZX4 Engineering Data Sheet, Part Number 38110416 Rev D (12/2010), table titled Frequency Response, Half Space (SPL, 1W/1m, dB). Copied all 28 published half-space values from 20 Hz through 20 kHz verbatim; no interpolation. The table gives 99 dB at 1 kHz while the separate axial-sensitivity specification states 100 dB (1W/1m); both published values are retained without forcing agreement. Round 5 correction (2026-10-12): all 28 points were then checked against the cited table, a second pass set the 13 values that still differed to the source values, and the context now matches the table verbatim. Change records: scripts/research/round5-response-corrections-2026-10-12.json (entries electro-voice-zx4 and electro-voice-zx4 second pass). Round 21 (2026-10-16): 17 of 28 stored values were corrected to the cited Half Space column; the prior values matched neither column of the cited table. Change record: scripts/research/round21-response-corrections.json."
     },
     "driverCount": 2,
     "panel": null,
